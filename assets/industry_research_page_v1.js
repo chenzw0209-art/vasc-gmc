@@ -1,11 +1,11 @@
 (function () {
   const PERIOD = "2026-04";
   const L1_LABELS = {
-    Beauty: "Beauty & Personal Care",
-    "Consumer Tech": "Consumer Tech",
+    Beauty: "Beauty",
+    "Consumer Tech": "3C",
     FMCG: "FMCG",
-    Health: "Health & Household",
-    Lifestyle: "Lifestyle",
+    Health: "Health",
+    Lifestyle: "Life",
   };
   const EN_NAMES = {
     "面部护理": "Facial Skin Care",
@@ -145,7 +145,7 @@
           <div class="tree-l2-list">
             ${rows.map((r) => `
               <button class="tree-l2 ${r.standard_l1 === selectedL1 && r.standard_l2 === selectedL2 ? "active" : ""}" type="button" data-l1="${r.standard_l1}" data-l2="${r.standard_l2}" title="${r.standard_l2}">
-                <span>${r.standard_l2}</span><em>${EN_NAMES[r.standard_l2] || ""}</em>
+                <span>${r.standard_l2}</span>
               </button>
             `).join("")}
           </div>
