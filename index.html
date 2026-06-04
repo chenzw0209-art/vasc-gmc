@@ -1,69 +1,87 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>增长情报门户</title>
-    <link rel="stylesheet" href="./assets/portal.css" />
-  </head>
-  <body>
-    <div class="shell">
-      <aside class="sidebar">
-        <div class="brand">增长情报门户</div>
-        <nav class="nav">
-          <a class="active" href="./index.html">周报</a>
-          <a href="./pages/leads/">线索</a>
-          <a href="./pages/market/">市场</a>
-          <a href="./pages/players/">玩家</a>
-          <a href="./pages/products/">产品</a>
-          <a href="#">创意</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>周报中心 · 全球增长洞察</title>
+  <link rel="stylesheet" href="./assets/intelligence_workbench_v1.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="app-sidebar">
+      <div class="brand-row"><span class="brand-mark">G</span><span>全球增长洞察</span></div>
+      <nav class="side-nav">
+        <a class="active" href="./index.html"><span class="nav-icon">▣</span>周报中心</a>
+        <a href="./pages/leads/"><span class="nav-icon">◇</span>线索</a>
+        <a href="./pages/market/"><span class="nav-icon">◈</span>行业研究</a>
+        <a href="#"><span class="nav-icon">○</span>客户</a>
+        <a href="#"><span class="nav-icon">◎</span>商机</a>
+        <a href="#"><span class="nav-icon">▤</span>数据看板</a>
+        <a href="#"><span class="nav-icon">☆</span>目标客户</a>
+        <a href="#"><span class="nav-icon">⚙</span>设置中心</a>
+      </nav>
+      <footer class="sidebar-foot">
+        <span>数据来源：Softtime Amazon数据 / 公域PR</span>
+        <span>美国站 · 2026-W23</span>
+      </footer>
+    </aside>
+    <main class="app-main">
+      <header class="page-header">
+        <div>
+          <h1 class="page-title">周报中心</h1>
+          <p class="page-sub">情报周报中心 · Consumer Tech · Amazon 美国站 · 2026-W23（06.02 - 06.08）</p>
+        </div>
+        <div class="header-tools">
+          <span>?</span><span>⌁</span><span class="user-pill"><span class="avatar">I</span>Intel Team</span>
+        </div>
+      </header>
+      <section class="page-content">
+        <nav class="tabs">
+          <button class="tab active" data-tab="overview">周报总览</button>
+          <button class="tab" data-tab="industry">本周行业变化</button>
+          <button class="tab" data-tab="leads">本周线索动态</button>
+          <button class="tab" data-tab="generate">周报生成</button>
+          <button class="tab" data-tab="history">历史周报</button>
         </nav>
-      </aside>
-      <main class="main">
-        <header class="topbar">
-          <input class="search" placeholder="搜索市场 / 玩家 / 产品 / 增长信号" />
-          <div class="toolbar">
-            <select class="select">
-              <option>Amazon 美国</option>
-              <option>Amazon 墨西哥</option>
-              <option>Amazon 日本</option>
-              <option>Amazon 巴西</option>
-            </select>
-          </div>
-        </header>
-        <section class="content">
-          <h1 class="page-title">增长情报后台</h1>
-          <p class="page-subtitle">当前 V1 聚焦 Amazon 四国，先把市场、玩家、产品的解释链路跑通。</p>
 
-          <div class="grid-kpi">
-            <a class="card" href="./pages/market/">
-              <div class="kpi-label">市场</div>
-              <div class="kpi-value">V1</div>
-              <div class="kpi-note">为什么做这个行业</div>
-            </a>
-            <a class="card" href="./pages/players/">
-              <div class="kpi-label">玩家</div>
-              <div class="kpi-value">V1</div>
-              <div class="kpi-note">为什么打这个客户</div>
-            </a>
-            <a class="card" href="./pages/products/">
-              <div class="kpi-label">产品</div>
-              <div class="kpi-value">V1</div>
-              <div class="kpi-note">为什么打这个产品</div>
-            </a>
-            <a class="card" href="./pages/leads/">
-              <div class="kpi-label">线索</div>
-              <div class="kpi-value">MVP</div>
-              <div class="kpi-note">什么时候打</div>
-            </a>
-          </div>
-
-          <div class="panel">
-            <h2 class="panel-title">当前口径</h2>
-            <p class="muted">市场页按单一国家和平台展示，默认 Amazon 美国；玩家页以 Amazon 品牌为主；产品页当前是产品机会簇，等待 SKU 级产品底表接入后升级为产品事实表。</p>
-          </div>
+        <section class="filter-bar">
+          <select class="filter-select">
+            <option>周期：2026-W23（06.02 - 06.08）</option>
+          </select>
+          <select id="country-filter" class="filter-select"><option value="">国家/地区：全部</option></select>
+          <select id="l1-filter" class="filter-select"><option value="">一级行业：全部</option></select>
+          <select id="l2-filter" class="filter-select"><option value="">二级行业：全部</option></select>
+          <select id="platform-filter" class="filter-select">
+            <option value="">平台：全部</option>
+            <option>Amazon</option>
+            <option>TikTok</option>
+            <option>DTC</option>
+          </select>
+          <select id="type-filter" class="filter-select">
+            <option value="">信号类型：全部</option>
+            <option>新品发布</option>
+            <option>渠道合作</option>
+            <option>展会</option>
+            <option>行业政策</option>
+            <option>品牌PR</option>
+            <option>其他</option>
+          </select>
+          <select id="quality-filter" class="filter-select">
+            <option value="">信源质量：全部</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>待核验</option>
+          </select>
+          <button id="reset" class="link-button">重置</button>
         </section>
-      </main>
-    </div>
-  </body>
+
+        <section id="kpis" class="kpi-grid"></section>
+        <section id="tab-body"></section>
+      </section>
+    </main>
+  </div>
+  <script src="./assets/common.js"></script>
+  <script src="./assets/weekly_report_v1.js"></script>
+</body>
 </html>
