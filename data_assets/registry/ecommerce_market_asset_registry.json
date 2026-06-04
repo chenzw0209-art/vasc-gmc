@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-06-02",
+  "asset_layer": "data_assets",
+  "gold_standard": "Z:\\主线任务2-天眼计划\\信息可视化\\类目匹配表_0602.xlsx",
+  "raw_source_zones": {
+    "amazon_external": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表",
+    "shopee_external": "Z:\\外部数据库\\虾皮月度数据（近半年）",
+    "us_amazon_historical_reports": "Z:\\主线任务2-天眼计划\\行业专题研究\\行研报告"
+  },
+  "master_outputs": {
+    "registry": "C:\\Users\\wale.chen\\Documents\\Codex\\2026-06-02\\z-2\\outputs\\growth-intelligence-portal\\data_assets\\registry\\ecommerce_market_asset_registry.json",
+    "canonical_sources": "C:\\Users\\wale.chen\\Documents\\Codex\\2026-06-02\\z-2\\outputs\\growth-intelligence-portal\\data_assets\\canonical_sources\\ecommerce_market_canonical_sources.json",
+    "audit": "C:\\Users\\wale.chen\\Documents\\Codex\\2026-06-02\\z-2\\outputs\\growth-intelligence-portal\\data_assets\\audit\\ecommerce_market_source_audit.json"
+  },
+  "portal_cache_note": "portal/data is generated consumer cache for the web app; data_assets is the governed master layer.",
+  "markets": [
+    {
+      "country": "US",
+      "country_name": "美国",
+      "region": "North America",
+      "platform": "Amazon",
+      "canonical_source_count": 288,
+      "included_source_count": 288,
+      "standard_l2_count": 42
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "region": "Latin America",
+      "platform": "Amazon",
+      "canonical_source_count": 273,
+      "included_source_count": 253,
+      "standard_l2_count": 37
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "region": "Asia",
+      "platform": "Amazon",
+      "canonical_source_count": 329,
+      "included_source_count": 289,
+      "standard_l2_count": 34
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "region": "Latin America",
+      "platform": "Amazon",
+      "canonical_source_count": 232,
+      "included_source_count": 214,
+      "standard_l2_count": 38
+    },
+    {
+      "country": "MY",
+      "country_name": "马来",
+      "region": "Southeast Asia",
+      "platform": "Shopee",
+      "canonical_source_count": 295,
+      "included_source_count": 258,
+      "standard_l2_count": 43
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "region": "Southeast Asia",
+      "platform": "Shopee",
+      "canonical_source_count": 306,
+      "included_source_count": 268,
+      "standard_l2_count": 43
+    },
+    {
+      "country": "VN",
+      "country_name": "越南",
+      "region": "Southeast Asia",
+      "platform": "Shopee",
+      "canonical_source_count": 296,
+      "included_source_count": 260,
+      "standard_l2_count": 43
+    }
+  ],
+  "audit_summary": {
+    "audit_item_count": 111,
+    "issue_count": 103,
+    "issue_type_counts": {
+      "summary": 8,
+      "unmapped_processed_bottom_table": 78,
+      "missing_source_workbook": 25
+    }
+  }
+}

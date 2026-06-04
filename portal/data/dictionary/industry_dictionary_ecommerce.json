@@ -1,0 +1,380 @@
+[
+  {
+    "standard_l1": "Auto & Mobility",
+    "standard_l2": "摩托车及配件",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Auto & Mobility",
+    "standard_l2": "汽车用品与配件",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Auto & Mobility",
+    "standard_l2": "骑行与两轮出行",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Beauty",
+    "standard_l2": "彩妆",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Beauty",
+    "standard_l2": "护肤与个护",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Beauty",
+    "standard_l2": "美发护理",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Beauty",
+    "standard_l2": "美妆个护综合",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Beauty",
+    "standard_l2": "美容工具/美容仪",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Beauty",
+    "standard_l2": "香氛",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Consumer Tech",
+    "standard_l2": "家用电器",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Consumer Tech",
+    "standard_l2": "手机与配件",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Consumer Tech",
+    "standard_l2": "智能硬件/平台设备",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Consumer Tech",
+    "standard_l2": "智能穿戴/智能硬件",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Consumer Tech",
+    "standard_l2": "消费电子综合",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Consumer Tech",
+    "standard_l2": "游戏外设/电脑周边",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Consumer Tech",
+    "standard_l2": "电源/储能/充电",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Consumer Tech",
+    "standard_l2": "电脑与办公电子",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Consumer Tech",
+    "standard_l2": "相机/影像/无人机",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Consumer Tech",
+    "standard_l2": "音频与视听设备",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "FMCG",
+    "standard_l2": "婴幼儿食品",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "FMCG",
+    "standard_l2": "生鲜/冷冻食品",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "FMCG",
+    "standard_l2": "粮油调味/包装食品",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "FMCG",
+    "standard_l2": "酒类",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "FMCG",
+    "standard_l2": "零食糖果",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "FMCG",
+    "standard_l2": "食品饮料综合",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "FMCG",
+    "standard_l2": "饮料/咖啡茶",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Fashion",
+    "standard_l2": "女装",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Fashion",
+    "standard_l2": "服装综合",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Fashion",
+    "standard_l2": "男装",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Fashion",
+    "standard_l2": "童装",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Fashion",
+    "standard_l2": "箱包",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Fashion",
+    "standard_l2": "配饰/珠宝/手表",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Fashion",
+    "standard_l2": "鞋履",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Gaming",
+    "standard_l2": "主机游戏/电子游戏",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Health",
+    "standard_l2": "两性健康",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Health",
+    "standard_l2": "健康管理综合",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Health",
+    "standard_l2": "医疗器械/健康护理",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Health",
+    "standard_l2": "母婴护理",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Health",
+    "standard_l2": "药品/药店",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Health",
+    "standard_l2": "营养补剂/运动营养",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Lifestyle",
+    "standard_l2": "乐器",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Lifestyle",
+    "standard_l2": "其他生活方式",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Lifestyle",
+    "standard_l2": "办公文具",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Lifestyle",
+    "standard_l2": "厨房餐饮",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Lifestyle",
+    "standard_l2": "图书/杂志/媒体",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Lifestyle",
+    "standard_l2": "宠物用品",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Lifestyle",
+    "standard_l2": "家具",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Lifestyle",
+    "standard_l2": "家居家装",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Lifestyle",
+    "standard_l2": "工具/工业/DIY",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Lifestyle",
+    "standard_l2": "本地生活/票券服务",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Lifestyle",
+    "standard_l2": "玩具/爱好/收藏",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Lifestyle",
+    "standard_l2": "艺术工艺/手工",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Lifestyle",
+    "standard_l2": "花园园艺/泳池",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  },
+  {
+    "standard_l1": "Lifestyle",
+    "standard_l2": "运动户外",
+    "definition": "",
+    "examples": "",
+    "remark": "Generated from category_mapping_ecommerce.json v0.1"
+  }
+]

@@ -1,0 +1,1037 @@
+{
+  "generated_at": "2026-06-02",
+  "scope": "seven-country ecommerce market source audit",
+  "audit_items": [
+    {
+      "generated_at": "2026-06-02",
+      "gold_standard": "Z:\\主线任务2-天眼计划\\信息可视化\\类目匹配表_0602.xlsx",
+      "gold_mapping_rows": 2058,
+      "country_mapping_counts": {
+        "印尼": 306,
+        "日本": 332,
+        "美国": 318,
+        "巴西": 234,
+        "墨西哥": 277,
+        "越南": 296,
+        "马来": 295
+      }
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "canonical_count": 288,
+      "duplicate_discarded_count": 40,
+      "unmapped_count": 18,
+      "source": "C:\\Users\\wale.chen\\Documents\\Codex\\2026-06-02\\z-2\\outputs\\growth-intelligence-portal\\portal\\data\\sources\\us_amazon_canonical_sources.json"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "动物产品",
+      "raw_l2": "加托斯",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\动物产品\\加托斯竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "动物产品",
+      "raw_l2": "小狗",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\动物产品\\小狗竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "动物产品",
+      "raw_l2": "水",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\动物产品\\水竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "家庭和厨房",
+      "raw_l2": "家庭目标",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\家庭和厨房\\家庭目标竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "工业、企业和科学",
+      "raw_l2": "坚定的",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\工业、企业和科学\\坚定的竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "电子游戏",
+      "raw_l2": "的PlayStation 4",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\电子游戏\\的PlayStation 4竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "电子游戏",
+      "raw_l2": "的PlayStation 5",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\电子游戏\\的PlayStation 5竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "电子的",
+      "raw_l2": "食品配件",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\电子的\\食品配件竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "美丽的",
+      "raw_l2": "休息室和水疗设备",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\美丽的\\休息室和水疗设备竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "美丽的",
+      "raw_l2": "水疗团队和沙龙",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\美丽的\\水疗团队和沙龙竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "动画片",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\运动与户外\\动画片竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "帕德尔",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\运动与户外\\帕德尔竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "棒球队",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\运动与户外\\棒球队竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "盒子",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\运动与户外\\盒子竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "蟋蟀",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\运动与户外\\蟋蟀竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "迪斯科运动",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\运动与户外\\迪斯科运动竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "魔鬼冰鞋与球队",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\运动与户外\\魔鬼冰鞋与球队竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "食品和饮料",
+      "raw_l2": "冷冻的",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\食品和饮料\\冷冻的竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "食品和饮料",
+      "raw_l2": "瓶子和糖果",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\食品和饮料\\瓶子和糖果竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "食品和饮料",
+      "raw_l2": "萨尔萨斯",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）\\食品和饮料\\萨尔萨斯竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "MX",
+      "country_name": "墨西哥",
+      "platform": "Amazon",
+      "source_root": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon墨西哥所有二级类目底表（已处理）",
+      "processed_xlsx_count": 273,
+      "canonical_records_created": 273,
+      "unmapped_count": 20
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "住宅设备",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\住宅设备竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "作业工具",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\作业工具竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "壁炉、火炉、配件",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\壁炉、火炉、配件竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "外部装饰",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\外部装饰竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "安全防护用品",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\安全防护用品竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "安全防范",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\安全防范竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "建筑、住宅资材",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\建筑、住宅资材竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "建筑五金",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\建筑五金竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "木工工具",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\木工工具竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "泳池、热水浴缸、户外桑拿",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\泳池、热水浴缸、户外桑拿竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "测量工具",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\测量工具竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "涂装、壁装",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\涂装、壁装竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "电动工具、气动工具",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\电动工具、气动工具竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "电气设备",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\电气设备竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "管道、排水用品",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\管道、排水用品竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "DIY、工具、花园",
+      "raw_l2": "花园",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\DIY、工具、花园\\花园竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "家庭和厨房",
+      "raw_l2": "佛具、神具",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\家庭和厨房\\佛具、神具竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "家庭和厨房",
+      "raw_l2": "垃圾桶",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\家庭和厨房\\垃圾桶竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "家庭和厨房",
+      "raw_l2": "室内装饰",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\家庭和厨房\\室内装饰竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "家庭和厨房",
+      "raw_l2": "家电",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\家庭和厨房\\家电竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "家庭和厨房",
+      "raw_l2": "浴室、卫浴、洗漱用品",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\家庭和厨房\\浴室、卫浴、洗漱用品竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "家庭和厨房",
+      "raw_l2": "生活杂货",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\家庭和厨房\\生活杂货竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "家庭和厨房",
+      "raw_l2": "餐具、玻璃器皿、刀叉",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\家庭和厨房\\餐具、玻璃器皿、刀叉竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "家庭和厨房",
+      "raw_l2": "鲜花、观叶植物",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\家庭和厨房\\鲜花、观叶植物竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "休闲运动",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\休闲运动竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "体操、艺术体操",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\体操、艺术体操竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "体育迷周边",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\体育迷周边竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "啦啦操",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\啦啦操竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "射箭",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\射箭竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "橄榄球",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\橄榄球竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "武术、格斗",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\武术、格斗竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "独木舟、皮划艇",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\独木舟、皮划艇竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "田径",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\田径竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "登山攀岩",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\登山攀岩竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "硬式网球",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\硬式网球竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "自行车",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\自行车竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "花样滑冰",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\花样滑冰竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "足球",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\足球竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "运动护具、配件、竞技装备",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\运动护具、配件、竞技装备竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "运动与户外",
+      "raw_l2": "雪鞋",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）\\运动与户外\\雪鞋竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "JP",
+      "country_name": "日本",
+      "platform": "Amazon",
+      "source_root": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon日本所有二级类目底表（已处理）",
+      "processed_xlsx_count": 329,
+      "canonical_records_created": 329,
+      "unmapped_count": 40
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "健康与福利",
+      "raw_l2": "性福利产品",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\健康与福利\\性福利产品竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "健康与福利",
+      "raw_l2": "文明施工",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\健康与福利\\文明施工竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "健康与福利",
+      "raw_l2": "福利产品",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\健康与福利\\福利产品竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "厨房",
+      "raw_l2": "厨房用具(Utensílios Domésticos)",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\厨房\\厨房用具(Utensílios Domésticos)竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "婴儿",
+      "raw_l2": "Desfralde座椅的Trones和Reducers",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\婴儿\\Desfralde座椅的Trones和Reducers竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "宠物店",
+      "raw_l2": "Cat附件",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\宠物店\\Cat附件竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "家用电器",
+      "raw_l2": "啤酒和葡萄酒的储存和经销商",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\家用电器\\啤酒和葡萄酒的储存和经销商竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "家用电器",
+      "raw_l2": "洗碗机和干衣机",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\家用电器\\洗碗机和干衣机竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "时尚",
+      "raw_l2": "新闻及更多",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\时尚\\新闻及更多竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "玩具和游戏",
+      "raw_l2": "豪华舒适的",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\玩具和游戏\\豪华舒适的竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "玩具和游戏",
+      "raw_l2": "趣味玩具、魔术和脚印",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\玩具和游戏\\趣味玩具、魔术和脚印竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "电子学",
+      "raw_l2": "细胞与通讯",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\电子学\\细胞与通讯竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "食品和饮料",
+      "raw_l2": "冷冻的",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\食品和饮料\\冷冻的竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "食品和饮料",
+      "raw_l2": "宝贝爸爸",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\食品和饮料\\宝贝爸爸竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "食品和饮料",
+      "raw_l2": "果园",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\食品和饮料\\果园竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "食品和饮料",
+      "raw_l2": "果酱、蜂蜜和糕点",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\食品和饮料\\果酱、蜂蜜和糕点竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "食品和饮料",
+      "raw_l2": "油、橄榄油、葡萄藤和沙拉酱",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\食品和饮料\\油、橄榄油、葡萄藤和沙拉酱竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "issue_type": "unmapped_processed_bottom_table",
+      "raw_l1": "食品和饮料",
+      "raw_l2": "面包、奶酪、三明治和新鲜食品",
+      "source_path": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）\\食品和饮料\\面包、奶酪、三明治和新鲜食品竞品分析底表-市场大盘v1.xlsx"
+    },
+    {
+      "country": "BR",
+      "country_name": "巴西",
+      "platform": "Amazon",
+      "source_root": "Z:\\外部数据库\\Softtiem亚马逊月度数据\\行业底表\\amazon巴西所有二级类目底表（已处理）",
+      "processed_xlsx_count": 232,
+      "canonical_records_created": 232,
+      "unmapped_count": 18
+    },
+    {
+      "country": "MY",
+      "country_name": "马来",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "附近优惠",
+      "raw_l2": "ShopeePay 优惠券",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\马来\\数据处理表\\附近优惠.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\马来\\数据底表\\附近优惠_ShopeePay 优惠券_*月_第*页.xlsx"
+    },
+    {
+      "country": "MY",
+      "country_name": "马来",
+      "platform": "Shopee",
+      "source_root": "Z:\\外部数据库\\虾皮月度数据（近半年）\\马来",
+      "processed_l1_workbook_count": 30,
+      "canonical_records_created": 295,
+      "missing_source_workbook_count": 1,
+      "raw_export_root": "Z:\\外部数据库\\虾皮月度数据（近半年）\\马来\\数据底表"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "中式料理",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_中式料理_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "低卡健康餐",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_低卡健康餐_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "便當",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_便當_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "其他",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_其他_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "其它西式料理",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_其它西式料理_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "台灣小吃、滷味",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_台灣小吃、滷味_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "咖啡、下午茶",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_咖啡、下午茶_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "披薩、速食料理",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_披薩、速食料理_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "日式料理",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_日式料理_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "早午餐",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_早午餐_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "星馬料理",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_星馬料理_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "泰越料理",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_泰越料理_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "港式料理",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_港式料理_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "纯素料理",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_纯素料理_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "美墨料理",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_美墨料理_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "義法料理",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_義法料理_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "鍋物、燒烤",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_鍋物、燒烤_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "韓式料理",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_韓式料理_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "飲品、冰品",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_飲品、冰品_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "美食外送",
+      "raw_l2": "麵包甜點",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\美食外送.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\美食外送_麵包甜點_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "附近优惠",
+      "raw_l2": "ShopeePay 优惠券",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\附近优惠.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\附近优惠_ShopeePay 优惠券_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "附近优惠",
+      "raw_l2": "优惠券",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据处理表\\附近优惠.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表\\附近优惠_优惠券_*月_第*页.xlsx"
+    },
+    {
+      "country": "ID",
+      "country_name": "印尼",
+      "platform": "Shopee",
+      "source_root": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼",
+      "processed_l1_workbook_count": 29,
+      "canonical_records_created": 306,
+      "missing_source_workbook_count": 22,
+      "raw_export_root": "Z:\\外部数据库\\虾皮月度数据（近半年）\\印尼\\数据底表"
+    },
+    {
+      "country": "VN",
+      "country_name": "越南",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "保健",
+      "raw_l2": "情趣用品_12月_第2页.crdownload",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\越南\\数据处理表\\保健.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\越南\\保健_情趣用品_12月_第2页.crdownload_*月_第*页.xlsx"
+    },
+    {
+      "country": "VN",
+      "country_name": "越南",
+      "platform": "Shopee",
+      "issue_type": "missing_source_workbook",
+      "raw_l1": "男士鞋",
+      "raw_l2": "靴子_12月_第2页.crdownload",
+      "expected_processed_workbook": "Z:\\外部数据库\\虾皮月度数据（近半年）\\越南\\数据处理表\\男士鞋.xlsx",
+      "expected_raw_page_pattern": "Z:\\外部数据库\\虾皮月度数据（近半年）\\越南\\男士鞋_靴子_12月_第2页.crdownload_*月_第*页.xlsx"
+    },
+    {
+      "country": "VN",
+      "country_name": "越南",
+      "platform": "Shopee",
+      "source_root": "Z:\\外部数据库\\虾皮月度数据（近半年）\\越南",
+      "processed_l1_workbook_count": 0,
+      "canonical_records_created": 296,
+      "missing_source_workbook_count": 2,
+      "raw_export_root": "Z:\\外部数据库\\虾皮月度数据（近半年）\\越南"
+    }
+  ]
+}

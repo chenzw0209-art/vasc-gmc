@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amazon US 行业内容生成交接文档</title>
+  <style>
+    body{margin:0;background:#f7f9fc;color:#0f172a;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif}
+    header{position:sticky;top:0;background:#fff;border-bottom:1px solid #dbe3ef;padding:18px 28px;z-index:2}
+    h1{font-size:22px;margin:0 0 6px}
+    .meta{font-size:13px;color:#64748b}
+    main{max-width:1180px;margin:0 auto;padding:24px}
+    .note{background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:14px 16px;margin-bottom:16px;line-height:1.7}
+    pre{white-space:pre-wrap;word-break:break-word;background:#fff;border:1px solid #dbe3ef;border-radius:12px;padding:22px;line-height:1.65;font-size:13px;box-shadow:0 8px 24px rgba(15,23,42,.04)}
+    .hint{font-size:12px;color:#64748b;margin-top:12px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Amazon US 一级/二级行业内容生成交接文档</h1>
+    <div class="meta">自包含 HTML，可直接上传给另一个对话 AI。生成日期：2026-06-03</div>
+  </header>
+  <main>
+    <section class="note">
+      <strong>给下一个 AI 的任务：</strong>基于本文档的数据表和模板，为每个一级行业生成 4 条大盘洞察，并为每个二级行业生成 3 条增长信号。要求实证、对比、抓大放小，不写空泛 BD 建议。
+    </section>
+    <pre># Amazon US 一级/二级行业内容生成交接文档
+
+生成日期：2026-06-03
+
+## 使用说明
+
+这个文档给下一个 AI 或研究员使用，用来逐条生成市场页里的行业内容，不再处理页面 UI。
+
+内容目标：每个一级行业、每个二级行业都要回答“为什么做行业”，坚持实证、对比、抓大放小。不要写泛泛的 BD 建议；BD 动作放到线索/玩家页。
+
+输出格式建议：
+
+1. 一级行业：输出 4 条大盘洞察，每条包含「论点」「证据」「解释」。证据可以来自 PR 稿、展会/新品/监管/母行业趋势、历史报告、Amazon 数据。
+2. 二级行业：输出 3 条增长信号，每条包含「现象」「原因假设」「需要补证的外部事实」。
+3. 语气：精准、有信息量、不浮夸。不写“机会巨大”这类空话。
+4. 对 Consumer Tech：不要再使用“消费电子综合”这个概念。
+
+## 数据口径
+
+- 平台：Amazon
+- 国家：美国站 / US
+- 数据来源：处理后的 Amazon US 行业底表与玩家底表。
+- 时间：当前底表 period 为 2026-04，趋势字段通常覆盖 2024-05 至 2026-04。
+- 注意：`消费电子综合` 当前在市场底表里仍是聚合口径；本文档按玩家主类目权重临时拆为 `办公打印/商用电子`、`电子阅读器`、`电视/投影/视听娱乐`、`智能安防/监控`、`音频/DJ/K歌`。后续最好回 raw_l2/ASIN 层重算。
+
+## 内容生成 Prompt 模板
+
+```text
+你是行业研究员。请基于下面的 Amazon US 数据，为【{一级行业}】生成市场页内容。
+要求：
+1. 先给一级行业 4 条大盘洞察，每条包含论点、证据、解释。
+2. 再逐个二级行业给 3 条增长信号，每条包含现象、原因假设、需要补证的外部事实。
+3. 不要写 BD 指引，不要泛泛而谈，不要只复述 GMV/MoM。
+4. 要解释涨跌背后的原因：新品节奏、展会、监管、季节、渠道、内容平台、母行业需求、品牌格局变化等。
+5. 如果证据不足，明确写“待补证”，不要编。
+```
+
+## Auto &amp; Mobility
+
+一级行业数据摘要：年化 GMV $16.90B，月 GMV $1.43B，MoM -0.7%，CN GMV 占比 41.6%，二级行业数 2。
+
+### 一级行业待生成内容
+
+- 洞察 1：
+- 洞察 2：
+- 洞察 3：
+- 洞察 4：
+
+### 二级行业数据表
+
+| 二级行业 | 年化GMV | 月GMV | MoM | CN占比 | 代表品牌 | 原始/拆分口径 | 近6个月趋势 |
+|---|---:|---:|---:|---:|---|---|---|
+| 汽车用品与配件 | $15.91B | $1.33B | -1.5% | 41.7% | Graco、Evenflo、Safety 1st、Chicco、Shynerk、J.L. Childress | 儿童安全汽车座椅和附件 / RV零件和配件 / 汽车保养 / 汽车内饰配件 / 汽车外部配件 / 汽车工具和设备 / 汽车性能部件和配件 / 汽车更换零件 | 2025-11:$1.62B / 2025-12:$1.42B / 2026-01:$1.28B / 2026-02:$1.27B / 2026-03:$1.34B / 2026-04:$1.32B | |
+| 摩托车及配件 | $991.2M | $104.5M | 9.3% | 40.8% | KEMIMOTO、Mighty Max Battery、Generic、Cardo、Alpinestars、Fox Racing | 摩托车和动力运动 | 2025-11:$84.3M / 2025-12:$85.7M / 2026-01:$69.2M / 2026-02:$74.1M / 2026-03:$93.1M / 2026-04:$101.7M | |
+
+### 二级行业逐条内容模板
+
+#### 汽车用品与配件
+
+- 数据锚点：年化 GMV $15.91B；月 GMV $1.33B；MoM -1.5%；CN 占比 41.7%。
+- 代表品牌：Graco、Evenflo、Safety 1st、Chicco、Shynerk、J.L. Childress、Meolsaek、DOONA。
+- 原始/拆分口径：儿童安全汽车座椅和附件 / RV零件和配件 / 汽车保养 / 汽车内饰配件 / 汽车外部配件 / 汽车工具和设备 / 汽车性能部件和配件 / 汽车更换零件 / 汽车油漆和油漆用品 / 汽车轮胎和车轮 / 油和液体 / 灯、灯泡和指示灯 / 爱好遥控和应用程序控制的车辆和部件 / 汽车电子设备。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 摩托车及配件
+
+- 数据锚点：年化 GMV $991.2M；月 GMV $104.5M；MoM 9.3%；CN 占比 40.8%。
+- 代表品牌：KEMIMOTO、Mighty Max Battery、Generic、Cardo、Alpinestars、Fox Racing、Lamicall、Zelvot。
+- 原始/拆分口径：摩托车和动力运动。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+## Beauty
+
+一级行业数据摘要：年化 GMV $54.88B，月 GMV $4.44B，MoM -2.9%，CN GMV 占比 15.0%，二级行业数 6。
+
+### 一级行业待生成内容
+
+- 洞察 1：
+- 洞察 2：
+- 洞察 3：
+- 洞察 4：
+
+### 二级行业数据表
+
+| 二级行业 | 年化GMV | 月GMV | MoM | CN占比 | 代表品牌 | 原始/拆分口径 | 近6个月趋势 |
+|---|---:|---:|---:|---:|---|---|---|
+| 护肤与个人护理 | $39.93B | $3.31B | -2.4% | 13.1% | La Roche-Posay、medicube、CeraVe、Philips Sonicare、Oral-B、Crest | 个人护理产品 / 沐浴产品 / 化妆 / 沙龙和水疗设备 / 礼品套装 / 美容工具和配件 / 个人护理 / 皮肤护理 | 2025-11:$3.90B / 2025-12:$3.56B / 2026-01:$3.02B / 2026-02:$3.13B / 2026-03:$3.33B / 2026-04:$3.26B | |
+| 头发护理/造型 | $6.61B | $519.2M | -4.4% | 19.1% | REDKEN、Nizoral、OUAI、TYMO、Dyson、Shark | 头发护理 | 2025-11:$705.6M / 2025-12:$643.1M / 2026-01:$506.8M / 2026-02:$510.9M / 2026-03:$531.6M / 2026-04:$508.1M | |
+| 口腔护理 | $3.05B | $230.5M | -4.0% | 13.4% | Philips Sonicare、Oral-B、Aquasonic、Crest、Colgate、Sensodyne | 口腔护理产品 / 手工美容与仪容 | 2025-11:$303.4M / 2025-12:$285.0M / 2026-01:$240.4M / 2026-02:$241.4M / 2026-03:$240.8M / 2026-04:$231.1M | |
+| 脱毛与剃须 | $1.87B | $146.1M | -2.0% | 21.2% | Norelco、Gillette、Braun、Gillette Venus、Ulike、Wahl | 剃须和脱毛 | 2025-11:$183.8M / 2025-12:$183.3M / 2026-01:$140.5M / 2026-02:$140.2M / 2026-03:$143.0M / 2026-04:$140.2M | |
+| 美甲/手足护理 | $1.87B | $142.4M | -6.3% | 50.1% | beetles Gel Polish、OPI、modelones、MelodySusie、COSLUS、Homedics | 足部、手部和指甲护理 | 2025-11:$193.7M / 2025-12:$209.1M / 2026-01:$165.8M / 2026-02:$161.1M / 2026-03:$152.6M / 2026-04:$143.0M | |
+| 彩妆/香水 | $1.57B | $97.3M | -5.8% | 1.9% | Lattafa、Sol de Janeiro、Dossier、Armaf、Versace、Jean Paul Gaultier | 香水 | 2025-11:$195.4M / 2025-12:$237.4M / 2026-01:$96.1M / 2026-02:$99.1M / 2026-03:$95.3M / 2026-04:$89.8M | |
+
+### 二级行业逐条内容模板
+
+#### 护肤与个人护理
+
+- 数据锚点：年化 GMV $39.93B；月 GMV $3.31B；MoM -2.4%；CN 占比 13.1%。
+- 代表品牌：La Roche-Posay、medicube、CeraVe、Philips Sonicare、Oral-B、Crest、Norelco、Gillette。
+- 原始/拆分口径：个人护理产品 / 沐浴产品 / 化妆 / 沙龙和水疗设备 / 礼品套装 / 美容工具和配件 / 个人护理 / 皮肤护理。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 头发护理/造型
+
+- 数据锚点：年化 GMV $6.61B；月 GMV $519.2M；MoM -4.4%；CN 占比 19.1%。
+- 代表品牌：REDKEN、Nizoral、OUAI、TYMO、Dyson、Shark、COLOR WOW、Moroccanoil。
+- 原始/拆分口径：头发护理。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 口腔护理
+
+- 数据锚点：年化 GMV $3.05B；月 GMV $230.5M；MoM -4.0%；CN 占比 13.4%。
+- 代表品牌：Philips Sonicare、Oral-B、Aquasonic、Crest、Colgate、Sensodyne、Waterpik、COSLUS。
+- 原始/拆分口径：口腔护理产品 / 手工美容与仪容。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 脱毛与剃须
+
+- 数据锚点：年化 GMV $1.87B；月 GMV $146.1M；MoM -2.0%；CN 占比 21.2%。
+- 代表品牌：Norelco、Gillette、Braun、Gillette Venus、Ulike、Wahl、BaBylissPRO、SUPRENT。
+- 原始/拆分口径：剃须和脱毛。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 美甲/手足护理
+
+- 数据锚点：年化 GMV $1.87B；月 GMV $142.4M；MoM -6.3%；CN 占比 50.1%。
+- 代表品牌：beetles Gel Polish、OPI、modelones、MelodySusie、COSLUS、Homedics、Mrs. MEYER‘S、Ebanel。
+- 原始/拆分口径：足部、手部和指甲护理。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 彩妆/香水
+
+- 数据锚点：年化 GMV $1.57B；月 GMV $97.3M；MoM -5.8%；CN 占比 1.9%。
+- 代表品牌：Lattafa、Sol de Janeiro、Dossier、Armaf、Versace、Jean Paul Gaultier、Bella Vita Luxury、ALT. FRAGRANCES。
+- 原始/拆分口径：香水。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+## Consumer Tech
+
+一级行业数据摘要：年化 GMV $93.58B，月 GMV $7.66B，MoM -1.1%，CN GMV 占比 33.1%，二级行业数 14。
+
+### 一级行业待生成内容
+
+- 洞察 1：
+- 洞察 2：
+- 洞察 3：
+- 洞察 4：
+
+### 二级行业数据表
+
+| 二级行业 | 年化GMV | 月GMV | MoM | CN占比 | 代表品牌 | 原始/拆分口径 | 近6个月趋势 |
+|---|---:|---:|---:|---:|---|---|---|
+| 手机与配件 | $49.15B | $3.97B | -2.6% | 33.6% | Mint Mobile、EIOTCLUB、TracFone、BERFY、CAPRARO、BlueCosmo | 手机SIM卡和预付费分钟数 / 手机壳和外壳 / 手机 / 手机配件 / GPS、查找器和配件 / 手机和配件 / 电子配件和用品 / 计算机和配件 | 2025-11:$6.07B / 2025-12:$5.13B / 2026-01:$3.81B / 2026-02:$3.95B / 2026-03:$4.03B / 2026-04:$3.93B | |
+| 办公打印/商用电子 | $8.46B | $692.1M | 0.4% | 27.4% | HP、Brother、Epson、Canon、Texas Instruments、Amazon Basics | 办公电子产品 / 电子音乐、DJ和卡拉OK / 安全和监控设备 / 电子书阅读器和附件 / 电视和视频产品 / 船舶电子设备 / 视频投影机 / 由消费电子综合按玩家主类目拆分 | 2025-11:$938.0M / 2025-12:$693.1M / 2026-01:$675.6M / 2026-02:$700.7M / 2026-03:$702.0M / 2026-04:$703.9M | |
+| 相机/影像/无人机 | $6.02B | $576.0M | 5.7% | 35.6% | Sandisk、DJI、NEEWER、Sony、Canon、KODAK | 相机和照片产品 / 单反相机 / 双筒望远镜、望远镜和光学 / 摄像机和摄像机镜头 / 摄像机 / 数字相框 / 数码相机 / 监控和安全摄像头 | 2025-11:$757.5M / 2025-12:$698.3M / 2026-01:$456.5M / 2026-02:$482.0M / 2026-03:$524.8M / 2026-04:$554.2M | |
+| 音频与视听设备 | $7.01B | $554.5M | -2.3% | 39.3% | Shure、Rode、FIFINE、Electro-Voice、JBL、RCF | 舞台和音响设备 / 便携式音频和视频 / 家庭音频和剧院产品 / 耳机和耳机 | 2025-11:$859.8M / 2025-12:$781.1M / 2026-01:$525.8M / 2026-02:$533.1M / 2026-03:$556.7M / 2026-04:$543.5M | |
+| 家用电器 | $7.08B | $522.3M | -4.9% | 22.0% | Keurig、Nespresso、Ninja、KitchenAid、NutriBullet、FoodSaver | 厨房小家电 / 家用电器 | 2025-11:$890.9M / 2025-12:$776.0M / 2026-01:$550.7M / 2026-02:$534.6M / 2026-03:$534.1M / 2026-04:$508.4M | |
+| 电脑与办公电子 | $3.81B | $349.6M | -4.4% | 21.9% | SEYMAC stock、MoKo、Logitech、Apple、JAMJAKE、metapen | 平板电脑配件 / 笔记本电脑 / 笔记本电脑配件 | 2025-11:$470.8M / 2025-12:$403.4M / 2026-01:$290.7M / 2026-02:$288.2M / 2026-03:$366.4M / 2026-04:$350.0M | |
+| 电源/储能/充电 | $3.56B | $333.3M | 19.4% | 47.7% | Jackery、EF ECOFLOW、Anker、LOSSIGY、Victron Energy、VOLTWORKS | 户外发电机和便携式电源 / 户外电源和草坪设备 | 2025-11:$308.0M / 2025-12:$251.2M / 2026-01:$279.0M / 2026-02:$227.1M / 2026-03:$264.8M / 2026-04:$313.0M | |
+| 电视/投影/视听娱乐 | $2.57B | $210.4M | 0.4% | 27.4% | Samsung、LG、Roku、Hisense、Sony、INSIGNIA | 办公电子产品 / 电子音乐、DJ和卡拉OK / 安全和监控设备 / 电子书阅读器和附件 / 电视和视频产品 / 船舶电子设备 / 视频投影机 / 由消费电子综合按玩家主类目拆分 | 2025-11:$285.1M / 2025-12:$210.7M / 2026-01:$205.3M / 2026-02:$213.0M / 2026-03:$213.4M / 2026-04:$213.9M | |
+| 智能穿戴/智能硬件 | $2.18B | $155.2M | -0.0% | 31.4% | Apple、Garmin、Samsung、Misxi、amBand、HEARTBOOM | 穿戴式科技 | 2025-11:$312.7M / 2025-12:$281.3M / 2026-01:$143.8M / 2026-02:$150.5M / 2026-03:$148.0M / 2026-04:$148.0M | |
+| 电子配件/元器件 | $1.61B | $133.9M | -4.4% | 60.2% | Anker、Amazon Basics、Cable Matters、Amico、Philips Hue、Sunco Lighting | 电子部件 | 2025-11:$170.1M / 2025-12:$146.5M / 2026-01:$140.1M / 2026-02:$137.7M / 2026-03:$138.5M / 2026-04:$132.5M | |
+| 游戏外设/电脑周边 | $896.5M | $59.9M | -9.2% | 35.7% | Nintendo、Amazon Renewed、8Bitdo、Xbox、GameSir、Logitech G | 视频游戏控制台和配件 / 微胶囊 | 2025-11:$159.5M / 2025-12:$143.1M / 2026-01:$61.2M / 2026-02:$63.1M / 2026-03:$64.0M / 2026-04:$58.1M | |
+| 电子阅读器 | $433.8M | $35.5M | 0.4% | 27.4% | Amazon | 办公电子产品 / 电子音乐、DJ和卡拉OK / 安全和监控设备 / 电子书阅读器和附件 / 电视和视频产品 / 船舶电子设备 / 视频投影机 / 由消费电子综合按玩家主类目拆分 | 2025-11:$48.1M / 2025-12:$35.5M / 2026-01:$34.6M / 2026-02:$35.9M / 2026-03:$36.0M / 2026-04:$36.1M | |
+| 智能安防/监控 | $419.0M | $34.3M | 0.4% | 27.4% | Ring | 办公电子产品 / 电子音乐、DJ和卡拉OK / 安全和监控设备 / 电子书阅读器和附件 / 电视和视频产品 / 船舶电子设备 / 视频投影机 / 由消费电子综合按玩家主类目拆分 | 2025-11:$46.4M / 2025-12:$34.3M / 2026-01:$33.5M / 2026-02:$34.7M / 2026-03:$34.8M / 2026-04:$34.9M | |
+| 音频/DJ/K歌 | $373.1M | $30.5M | 0.4% | 27.4% | Shure、FIFINE、Pioneer DJ、Rode、JBL、Ikarao | 办公电子产品 / 电子音乐、DJ和卡拉OK / 安全和监控设备 / 电子书阅读器和附件 / 电视和视频产品 / 船舶电子设备 / 视频投影机 / 由消费电子综合按玩家主类目拆分 | 2025-11:$41.4M / 2025-12:$30.6M / 2026-01:$29.8M / 2026-02:$30.9M / 2026-03:$31.0M / 2026-04:$31.0M | |
+
+### 二级行业逐条内容模板
+
+#### 手机与配件
+
+- 数据锚点：年化 GMV $49.15B；月 GMV $3.97B；MoM -2.6%；CN 占比 33.6%。
+- 代表品牌：Mint Mobile、EIOTCLUB、TracFone、BERFY、CAPRARO、BlueCosmo、Generic、Samsung。
+- 原始/拆分口径：手机SIM卡和预付费分钟数 / 手机壳和外壳 / 手机 / 手机配件 / GPS、查找器和配件 / 手机和配件 / 电子配件和用品 / 计算机和配件 / 台式计算机 / 数据存储 / 电脑平板电脑 / 电脑打印机 / 计算机外部组件 / 计算机扫描仪 / 计算机显示器 / 计算机组件 / 计算机网络 / 计算机路由器 / 计算机配件和外围设备。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 办公打印/商用电子
+
+- 数据锚点：年化 GMV $8.46B；月 GMV $692.1M；MoM 0.4%；CN 占比 27.4%。
+- 代表品牌：HP、Brother、Epson、Canon、Texas Instruments、Amazon Basics、ScanSnap、bonsaii。
+- 原始/拆分口径：办公电子产品 / 电子音乐、DJ和卡拉OK / 安全和监控设备 / 电子书阅读器和附件 / 电视和视频产品 / 船舶电子设备 / 视频投影机 / 由消费电子综合按玩家主类目拆分。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 相机/影像/无人机
+
+- 数据锚点：年化 GMV $6.02B；月 GMV $576.0M；MoM 5.7%；CN 占比 35.6%。
+- 代表品牌：Sandisk、DJI、NEEWER、Sony、Canon、KODAK、Insta360、GoPro。
+- 原始/拆分口径：相机和照片产品 / 单反相机 / 双筒望远镜、望远镜和光学 / 摄像机和摄像机镜头 / 摄像机 / 数字相框 / 数码相机 / 监控和安全摄像头 / 相机包和盒子。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 音频与视听设备
+
+- 数据锚点：年化 GMV $7.01B；月 GMV $554.5M；MoM -2.3%；CN 占比 39.3%。
+- 代表品牌：Shure、Rode、FIFINE、Electro-Voice、JBL、RCF、Pyle、Bose。
+- 原始/拆分口径：舞台和音响设备 / 便携式音频和视频 / 家庭音频和剧院产品 / 耳机和耳机。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 家用电器
+
+- 数据锚点：年化 GMV $7.08B；月 GMV $522.3M；MoM -4.9%；CN 占比 22.0%。
+- 代表品牌：Keurig、Nespresso、Ninja、KitchenAid、NutriBullet、FoodSaver、Chef Preserve、Chefman。
+- 原始/拆分口径：厨房小家电 / 家用电器。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 电脑与办公电子
+
+- 数据锚点：年化 GMV $3.81B；月 GMV $349.6M；MoM -4.4%；CN 占比 21.9%。
+- 代表品牌：SEYMAC stock、MoKo、Logitech、Apple、JAMJAKE、metapen、Lamicall、KDD。
+- 原始/拆分口径：平板电脑配件 / 笔记本电脑 / 笔记本电脑配件。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 电源/储能/充电
+
+- 数据锚点：年化 GMV $3.56B；月 GMV $333.3M；MoM 19.4%；CN 占比 47.7%。
+- 代表品牌：Jackery、EF ECOFLOW、Anker、LOSSIGY、Victron Energy、VOLTWORKS、VAXCANZE、VATOSO。
+- 原始/拆分口径：户外发电机和便携式电源 / 户外电源和草坪设备。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 电视/投影/视听娱乐
+
+- 数据锚点：年化 GMV $2.57B；月 GMV $210.4M；MoM 0.4%；CN 占比 27.4%。
+- 代表品牌：Samsung、LG、Roku、Hisense、Sony、INSIGNIA、TCL、eufy Security。
+- 原始/拆分口径：办公电子产品 / 电子音乐、DJ和卡拉OK / 安全和监控设备 / 电子书阅读器和附件 / 电视和视频产品 / 船舶电子设备 / 视频投影机 / 由消费电子综合按玩家主类目拆分。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 智能穿戴/智能硬件
+
+- 数据锚点：年化 GMV $2.18B；月 GMV $155.2M；MoM -0.0%；CN 占比 31.4%。
+- 代表品牌：Apple、Garmin、Samsung、Misxi、amBand、HEARTBOOM、Fitbit、WHOOP。
+- 原始/拆分口径：穿戴式科技。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 电子配件/元器件
+
+- 数据锚点：年化 GMV $1.61B；月 GMV $133.9M；MoM -4.4%；CN 占比 60.2%。
+- 代表品牌：Anker、Amazon Basics、Cable Matters、Amico、Philips Hue、Sunco Lighting、SEEKONE、YIHUA。
+- 原始/拆分口径：电子部件。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 游戏外设/电脑周边
+
+- 数据锚点：年化 GMV $896.5M；月 GMV $59.9M；MoM -9.2%；CN 占比 35.7%。
+- 代表品牌：Nintendo、Amazon Renewed、8Bitdo、Xbox、GameSir、Logitech G、Sony、KontrolFreek。
+- 原始/拆分口径：视频游戏控制台和配件 / 微胶囊。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 电子阅读器
+
+- 数据锚点：年化 GMV $433.8M；月 GMV $35.5M；MoM 0.4%；CN 占比 27.4%。
+- 代表品牌：Amazon。
+- 原始/拆分口径：办公电子产品 / 电子音乐、DJ和卡拉OK / 安全和监控设备 / 电子书阅读器和附件 / 电视和视频产品 / 船舶电子设备 / 视频投影机 / 由消费电子综合按玩家主类目拆分。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 智能安防/监控
+
+- 数据锚点：年化 GMV $419.0M；月 GMV $34.3M；MoM 0.4%；CN 占比 27.4%。
+- 代表品牌：Ring。
+- 原始/拆分口径：办公电子产品 / 电子音乐、DJ和卡拉OK / 安全和监控设备 / 电子书阅读器和附件 / 电视和视频产品 / 船舶电子设备 / 视频投影机 / 由消费电子综合按玩家主类目拆分。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 音频/DJ/K歌
+
+- 数据锚点：年化 GMV $373.1M；月 GMV $30.5M；MoM 0.4%；CN 占比 27.4%。
+- 代表品牌：Shure、FIFINE、Pioneer DJ、Rode、JBL、Ikarao、Logitech G、Sennheiser。
+- 原始/拆分口径：办公电子产品 / 电子音乐、DJ和卡拉OK / 安全和监控设备 / 电子书阅读器和附件 / 电视和视频产品 / 船舶电子设备 / 视频投影机 / 由消费电子综合按玩家主类目拆分。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+## FMCG
+
+一级行业数据摘要：年化 GMV $19.64B，月 GMV $1.26B，MoM -12.1%，CN GMV 占比 5.4%，二级行业数 7。
+
+### 一级行业待生成内容
+
+- 洞察 1：
+- 洞察 2：
+- 洞察 3：
+- 洞察 4：
+
+### 二级行业数据表
+
+| 二级行业 | 年化GMV | 月GMV | MoM | CN占比 | 代表品牌 | 原始/拆分口径 | 近6个月趋势 |
+|---|---:|---:|---:|---:|---|---|---|
+| 饮料/咖啡茶 | $9.87B | $612.0M | -11.4% | 6.5% | Cosori、Chefman、intasting、Nextmug by Nextboom、Kepwam、House Gem | 咖啡、茶和咖啡用具 / 玻璃器皿和饮料 / 饮料 | 2025-11:$982.9M / 2025-12:$921.5M / 2026-01:$736.7M / 2026-02:$770.4M / 2026-03:$742.7M / 2026-04:$656.8M | |
+| 零食糖果 | $4.12B | $306.7M | -9.0% | 0.2% | Quest、Frito Lay、Chomps、PLANTERS、Yupik、365 by Whole Foods Market | 零食和糖果 | 2025-11:$345.0M / 2025-12:$344.0M / 2026-01:$305.6M / 2026-02:$371.6M / 2026-03:$370.5M / 2026-04:$337.1M | |
+| 食品饮料综合 | $3.38B | $183.2M | -22.0% | 1.0% | Coffee Mate、365 by Whole Foods Market、Vital Farms、Carnation Breakfast Essentials、Califia Farms、Crystal Light | 乳制品、鸡蛋和植物替代品 / 新鲜果蔬 / 新鲜膳食配料包 / 替代肉品 / 熟食和熟食 / 速冻食品 / 面包和面包店 / 餐饮礼品 | 2025-11:$303.1M / 2025-12:$427.3M / 2026-01:$195.6M / 2026-02:$296.6M / 2026-03:$316.0M / 2026-04:$244.0M | |
+| 酒类 | $783.2M | $60.0M | 0.7% | 42.8% | AOZITA、VEVOR、ZRHI、Apera Instruments、Bluelab、Atago | 家庭酿造和葡萄酒制作 / 葡萄酒配件 / 酒吧工具和饮料 / 家庭酿造和酿酒 / 酒精饮料 | 2025-11:$85.5M / 2025-12:$93.3M / 2026-01:$58.3M / 2026-02:$57.9M / 2026-03:$58.3M / 2026-04:$58.6M | |
+| 粮油调味/包装食品 | $687.8M | $43.6M | -17.3% | 0.1% | GoGo SqueeZ、Carnation Breakfast Essentials、365 by Whole Foods Market、Simple Mills、KIND、Nature Valley | 早餐食品 / 早餐麦片 | 2025-11:$60.3M / 2025-12:$51.9M / 2026-01:$52.7M / 2026-02:$61.5M / 2026-03:$61.8M / 2026-04:$51.1M | |
+| 婴幼儿食品 | $401.3M | $37.5M | 11.0% | 0.0% | Similac、Enfamil、Pedialyte、Orgain、Duocal、Amazon Basic Care | 婴儿食品 | 2025-11:$35.4M / 2025-12:$32.0M / 2026-01:$32.1M / 2026-02:$36.0M / 2026-03:$36.7M / 2026-04:$40.8M | |
+| 生鲜/冷冻食品 | $404.7M | $20.4M | -27.5% | 0.2% | Just Bare、Amazon Grocery、365 by Whole Foods Market、Applegate、Applegate Naturals、TILLAMOOK COUNTRY SMOKER | 肉类和海鲜 | 2025-11:$36.9M / 2025-12:$60.6M / 2026-01:$24.4M / 2026-02:$41.7M / 2026-03:$42.0M / 2026-04:$30.4M | |
+
+### 二级行业逐条内容模板
+
+#### 饮料/咖啡茶
+
+- 数据锚点：年化 GMV $9.87B；月 GMV $612.0M；MoM -11.4%；CN 占比 6.5%。
+- 代表品牌：Cosori、Chefman、intasting、Nextmug by Nextboom、Kepwam、House Gem、Fellow、Farberware。
+- 原始/拆分口径：咖啡、茶和咖啡用具 / 玻璃器皿和饮料 / 饮料。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 零食糖果
+
+- 数据锚点：年化 GMV $4.12B；月 GMV $306.7M；MoM -9.0%；CN 占比 0.2%。
+- 代表品牌：Quest、Frito Lay、Chomps、PLANTERS、Yupik、365 by Whole Foods Market、Oreo、Rip Van Wafels。
+- 原始/拆分口径：零食和糖果。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 食品饮料综合
+
+- 数据锚点：年化 GMV $3.38B；月 GMV $183.2M；MoM -22.0%；CN 占比 1.0%。
+- 代表品牌：Coffee Mate、365 by Whole Foods Market、Vital Farms、Carnation Breakfast Essentials、Califia Farms、Crystal Light、Laird Superfood、N‘Joy。
+- 原始/拆分口径：乳制品、鸡蛋和植物替代品 / 新鲜果蔬 / 新鲜膳食配料包 / 替代肉品 / 熟食和熟食 / 速冻食品 / 面包和面包店 / 餐饮礼品 / 鲜花和室内活植物。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 酒类
+
+- 数据锚点：年化 GMV $783.2M；月 GMV $60.0M；MoM 0.7%；CN 占比 42.8%。
+- 代表品牌：AOZITA、VEVOR、ZRHI、Apera Instruments、Bluelab、Atago、FastRack、Masontops。
+- 原始/拆分口径：家庭酿造和葡萄酒制作 / 葡萄酒配件 / 酒吧工具和饮料 / 家庭酿造和酿酒 / 酒精饮料。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 粮油调味/包装食品
+
+- 数据锚点：年化 GMV $687.8M；月 GMV $43.6M；MoM -17.3%；CN 占比 0.1%。
+- 代表品牌：GoGo SqueeZ、Carnation Breakfast Essentials、365 by Whole Foods Market、Simple Mills、KIND、Nature Valley、Quaker、Cheerios。
+- 原始/拆分口径：早餐食品 / 早餐麦片。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 婴幼儿食品
+
+- 数据锚点：年化 GMV $401.3M；月 GMV $37.5M；MoM 11.0%；CN 占比 0.0%。
+- 代表品牌：Similac、Enfamil、Pedialyte、Orgain、Duocal、Amazon Basic Care、Java House、Outshine Smoothie。
+- 原始/拆分口径：婴儿食品。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 生鲜/冷冻食品
+
+- 数据锚点：年化 GMV $404.7M；月 GMV $20.4M；MoM -27.5%；CN 占比 0.2%。
+- 代表品牌：Just Bare、Amazon Grocery、365 by Whole Foods Market、Applegate、Applegate Naturals、TILLAMOOK COUNTRY SMOKER、Old Wisconsin、Bavarian Meats。
+- 原始/拆分口径：肉类和海鲜。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+## Fashion
+
+一级行业数据摘要：年化 GMV $43.24B，月 GMV $4.34B，MoM 13.5%，CN GMV 占比 50.8%，二级行业数 4。
+
+### 一级行业待生成内容
+
+- 洞察 1：
+- 洞察 2：
+- 洞察 3：
+- 洞察 4：
+
+### 二级行业数据表
+
+| 二级行业 | 年化GMV | 月GMV | MoM | CN占比 | 代表品牌 | 原始/拆分口径 | 近6个月趋势 |
+|---|---:|---:|---:|---:|---|---|---|
+| 服饰/时装 | $41.44B | $4.22B | 14.2% | 50.5% | Handmade、Generic、Sensemory、Hstyle、Merrvey、365Customize | 手工制作的服装和配饰 / 制服、工作和安全 / 女孩时尚 / 女式时装 / 新奇&amp;更多 / 服装和配饰 / 男士时装 / 男孩时装 | 2025-11:$3.65B / 2025-12:$3.60B / 2026-01:$3.03B / 2026-02:$3.19B / 2026-03:$3.57B / 2026-04:$4.08B | |
+| 箱包配饰 | $560.6M | $44.4M | -4.2% | 38.6% | Scotch、Amazon Basics、P PERFECTAPE、Cozy Essential、GONGSHI、Spartan Industrial | 包装和运输用品 | 2025-11:$52.8M / 2025-12:$41.7M / 2026-01:$47.5M / 2026-02:$45.3M / 2026-03:$48.7M / 2026-04:$46.6M | |
+| 珠宝配饰 | $470.7M | $39.3M | -1.5% | 82.6% | xTool、PAXCOO、Creality、GENIQUE、NOANTA、Mathtoxyz | 串珠和珠宝制作 | 2025-11:$53.3M / 2025-12:$51.5M / 2026-01:$38.4M / 2026-02:$38.4M / 2026-03:$38.6M / 2026-04:$38.0M | |
+| 童装 | $768.2M | $38.1M | -14.0% | 58.5% | Melissa &amp; Doug、Tiny Land、Step2、STAR WARS、kidzkube、EOBOH | 儿童装扮&amp;假装游戏 | 2025-11:$170.2M / 2025-12:$140.4M / 2026-01:$41.2M / 2026-02:$37.9M / 2026-03:$45.2M / 2026-04:$38.8M | |
+
+### 二级行业逐条内容模板
+
+#### 服饰/时装
+
+- 数据锚点：年化 GMV $41.44B；月 GMV $4.22B；MoM 14.2%；CN 占比 50.5%。
+- 代表品牌：Handmade、Generic、Sensemory、Hstyle、Merrvey、365Customize、baabaazuzu、Rqwaaed。
+- 原始/拆分口径：手工制作的服装和配饰 / 制服、工作和安全 / 女孩时尚 / 女式时装 / 新奇&amp;更多 / 服装和配饰 / 男士时装 / 男孩时装 / 行李和旅行装备 / 运动专用服装 / 鞋、珠宝和手表配件 / 运动服装和设备。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 箱包配饰
+
+- 数据锚点：年化 GMV $560.6M；月 GMV $44.4M；MoM -4.2%；CN 占比 38.6%。
+- 代表品牌：Scotch、Amazon Basics、P PERFECTAPE、Cozy Essential、GONGSHI、Spartan Industrial、American Bubble boy、wanguagua。
+- 原始/拆分口径：包装和运输用品。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 珠宝配饰
+
+- 数据锚点：年化 GMV $470.7M；月 GMV $39.3M；MoM -1.5%；CN 占比 82.6%。
+- 代表品牌：xTool、PAXCOO、Creality、GENIQUE、NOANTA、Mathtoxyz、Ovsuqu、Mr. Pen。
+- 原始/拆分口径：串珠和珠宝制作。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 童装
+
+- 数据锚点：年化 GMV $768.2M；月 GMV $38.1M；MoM -14.0%；CN 占比 58.5%。
+- 代表品牌：Melissa &amp; Doug、Tiny Land、Step2、STAR WARS、kidzkube、EOBOH、Meland、LIMIROLER。
+- 原始/拆分口径：儿童装扮&amp;假装游戏。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+## Gaming
+
+一级行业数据摘要：年化 GMV $5.66B，月 GMV $361.7M，MoM -11.2%，CN GMV 占比 21.2%，二级行业数 1。
+
+### 一级行业待生成内容
+
+- 洞察 1：
+- 洞察 2：
+- 洞察 3：
+- 洞察 4：
+
+### 二级行业数据表
+
+| 二级行业 | 年化GMV | 月GMV | MoM | CN占比 | 代表品牌 | 原始/拆分口径 | 近6个月趋势 |
+|---|---:|---:|---:|---:|---|---|---|
+| 主机游戏/电子游戏 | $5.66B | $361.7M | -11.2% | 21.2% | Logitech G、Razer、Keychron、Roblox、Yerose、SAFFUN | Mac游戏和配件 / Nintendo Switch 2 / PC游戏和配件 / PlayStation 3游戏、控制台和配件 / PlayStation 4游戏、控制台和配件 / PlayStation 5控制台、游戏和配件 / PlayStation Vita游戏、控制台和配件 / Wii U游戏、控制台和配件 | 2025-11:$1.05B / 2025-12:$967.2M / 2026-01:$432.6M / 2026-02:$430.5M / 2026-03:$404.4M / 2026-04:$358.2M | |
+
+### 二级行业逐条内容模板
+
+#### 主机游戏/电子游戏
+
+- 数据锚点：年化 GMV $5.66B；月 GMV $361.7M；MoM -11.2%；CN 占比 21.2%。
+- 代表品牌：Logitech G、Razer、Keychron、Roblox、Yerose、SAFFUN、Corsair、SteelSeries。
+- 原始/拆分口径：Mac游戏和配件 / Nintendo Switch 2 / PC游戏和配件 / PlayStation 3游戏、控制台和配件 / PlayStation 4游戏、控制台和配件 / PlayStation 5控制台、游戏和配件 / PlayStation Vita游戏、控制台和配件 / Wii U游戏、控制台和配件 / Wii游戏、控制台和配件 / Xbox 360游戏、游戏机和配件 / Xbox One游戏、游戏机和配件 / Xbox Series X&amp;S控制台、游戏和配件 / 任天堂3DS和2DS游戏机、游戏和配件 / 任天堂DS游戏机、游戏机和配件 / 任天堂Switch控制台、游戏和配件 / 索尼PSP游戏、游戏机和配件 / 虚拟现实硬件及配件 / 遗留系统。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+## Health
+
+一级行业数据摘要：年化 GMV $76.18B，月 GMV $6.26B，MoM -0.0%，CN GMV 占比 19.9%，二级行业数 5。
+
+### 一级行业待生成内容
+
+- 洞察 1：
+- 洞察 2：
+- 洞察 3：
+- 洞察 4：
+
+### 二级行业数据表
+
+| 二级行业 | 年化GMV | 月GMV | MoM | CN占比 | 代表品牌 | 原始/拆分口径 | 近6个月趋势 |
+|---|---:|---:|---:|---:|---|---|---|
+| 健康管理综合 | $26.78B | $2.21B | 1.2% | 20.5% | Amazon Basic Care、Tylenol、Vicks、Purell、LifeVac、Comfytemp | 保健产品 / 健康与放松产品 / 家居用品 / 文具和礼品包装用品 / 视觉产品 / 销售和交易 / 清洁卫生用品 / 职业健康安全产品 | 2025-11:$2.52B / 2025-12:$2.44B / 2026-01:$2.15B / 2026-02:$2.20B / 2026-03:$2.21B / 2026-04:$2.24B | |
+| 营养补剂/运动营养 | $20.62B | $1.65B | -2.8% | 1.8% | Nature Made、THORNE、MARYRUTH‘S、Grüns、RYZE SUPERFOODS、Metamucil | 维生素矿物质和补充剂 / 运动营养产品 / 饮食和运动营养 | 2025-11:$1.72B / 2025-12:$1.50B / 2026-01:$1.63B / 2026-02:$1.70B / 2026-03:$1.72B / 2026-04:$1.67B | |
+| 医疗器械/健康护理 | $16.74B | $1.49B | 4.4% | 31.5% | Pampers、HUGGIES、The Honest Company、Aveeno Baby、Aquaphor、Johnson‘s Baby | 婴儿和儿童护理产品 / 家用医疗用品和设备 / 园艺和草坪护理 / 婴儿护理产品 / 真空吸尘器和地板护理 / 专业医疗用品 | 2025-11:$1.49B / 2025-12:$1.24B / 2026-01:$1.14B / 2026-02:$1.25B / 2026-03:$1.42B / 2026-04:$1.47B | |
+| 母婴护理 | $10.75B | $798.1M | -5.0% | 30.4% | Pull-Ups、Pampers、The Honest Company、SKYROKU、Jool Baby、RABB 1ST | 卫生间培训产品 / 婴儿和幼儿喂养用品 / 婴儿安全产品 / 婴儿家具、床上用品和装饰 / 婴儿尿布产品 / 婴儿手推车 / 婴儿旅行装备 / 婴儿活动和娱乐产品 | 2025-11:$1.01B / 2025-12:$844.8M / 2026-01:$773.7M / 2026-02:$830.5M / 2026-03:$840.8M / 2026-04:$799.3M | |
+| 服饰/时装 | $1.29B | $112.4M | 0.1% | 44.8% | Gerber、Simple Joys by Carter‘s、The Children‘s Place、Crocs、Columbia、adidas | 婴儿服装和鞋子 | 2025-11:$127.0M / 2025-12:$109.5M / 2026-01:$96.0M / 2026-02:$103.6M / 2026-03:$117.3M / 2026-04:$117.4M | |
+
+### 二级行业逐条内容模板
+
+#### 健康管理综合
+
+- 数据锚点：年化 GMV $26.78B；月 GMV $2.21B；MoM 1.2%；CN 占比 20.5%。
+- 代表品牌：Amazon Basic Care、Tylenol、Vicks、Purell、LifeVac、Comfytemp、Depend、Poise。
+- 原始/拆分口径：保健产品 / 健康与放松产品 / 家居用品 / 文具和礼品包装用品 / 视觉产品 / 销售和交易 / 清洁卫生用品 / 职业健康安全产品。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 营养补剂/运动营养
+
+- 数据锚点：年化 GMV $20.62B；月 GMV $1.65B；MoM -2.8%；CN 占比 1.8%。
+- 代表品牌：Nature Made、THORNE、MARYRUTH‘S、Grüns、RYZE SUPERFOODS、Metamucil、Pure Encapsulations、Physician‘s CHOICE。
+- 原始/拆分口径：维生素矿物质和补充剂 / 运动营养产品 / 饮食和运动营养。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 医疗器械/健康护理
+
+- 数据锚点：年化 GMV $16.74B；月 GMV $1.49B；MoM 4.4%；CN 占比 31.5%。
+- 代表品牌：Pampers、HUGGIES、The Honest Company、Aveeno Baby、Aquaphor、Johnson‘s Baby、SmartyPants、MARYRUTH’S。
+- 原始/拆分口径：婴儿和儿童护理产品 / 家用医疗用品和设备 / 园艺和草坪护理 / 婴儿护理产品 / 真空吸尘器和地板护理 / 专业医疗用品。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 母婴护理
+
+- 数据锚点：年化 GMV $10.75B；月 GMV $798.1M；MoM -5.0%；CN 占比 30.4%。
+- 代表品牌：Pull-Ups、Pampers、The Honest Company、SKYROKU、Jool Baby、RABB 1ST、Ingenuity、CheerTry。
+- 原始/拆分口径：卫生间培训产品 / 婴儿和幼儿喂养用品 / 婴儿安全产品 / 婴儿家具、床上用品和装饰 / 婴儿尿布产品 / 婴儿手推车 / 婴儿旅行装备 / 婴儿活动和娱乐产品 / 婴儿礼物 / 孕产用品 / 手工婴儿。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 服饰/时装
+
+- 数据锚点：年化 GMV $1.29B；月 GMV $112.4M；MoM 0.1%；CN 占比 44.8%。
+- 代表品牌：Gerber、Simple Joys by Carter‘s、The Children‘s Place、Crocs、Columbia、adidas、Ten Little、Disney。
+- 原始/拆分口径：婴儿服装和鞋子。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+## Lifestyle
+
+一级行业数据摘要：年化 GMV $183.00B，月 GMV $15.08B，MoM -0.2%，CN GMV 占比 40.7%，二级行业数 15。
+
+### 一级行业待生成内容
+
+- 洞察 1：
+- 洞察 2：
+- 洞察 3：
+- 洞察 4：
+
+### 二级行业数据表
+
+| 二级行业 | 年化GMV | 月GMV | MoM | CN占比 | 代表品牌 | 原始/拆分口径 | 近6个月趋势 |
+|---|---:|---:|---:|---:|---|---|---|
+| 厨房餐饮 | $58.77B | $4.52B | -3.7% | 38.8% | Amazon Basics、Vacbird、FYGRIP、Rubbermaid、Vtopmart、M MCIRCO | 厨房储存和组织 / 厨房和餐桌亚麻布 / 厨房炊具 / 厨房用具和小工具 / 烘焙制品 / 餐饮和娱乐 / 儿童家居商店 / 加热、冷却和空气质量 | 2025-11:$6.52B / 2025-12:$5.75B / 2026-01:$4.55B / 2026-02:$4.59B / 2026-03:$4.61B / 2026-04:$4.44B | |
+| 家居家装 | $24.51B | $2.12B | 2.2% | 46.6% | Amazon Basics、Vacbird、FYGRIP、Rubbermaid、Vtopmart、M MCIRCO | 家庭存储和组织 / 安全与安保 / 建筑用品 / 油漆、墙面处理和用品 / 泵和管道设备 / 测量和布局 / 照明和吊扇 / 电动工具和手动工具 | 2025-11:$2.56B / 2025-12:$2.15B / 2026-01:$1.90B / 2026-02:$1.92B / 2026-03:$2.04B / 2026-04:$2.09B | |
+| 运动户外 | $20.56B | $1.92B | 7.1% | 47.6% | Weber、BLACKSTONE、Traeger、George Foreman、recteq、OLDE MIDWAY | 户外烹饪 / 户外装饰 / 户外娱乐 / 狩猎和渔业产品 / 记忆显示和存储 / 运动医学产品 / 运动和健身设备 / 运动迷商店 | 2025-11:$1.93B / 2025-12:$1.84B / 2026-01:$1.56B / 2026-02:$1.56B / 2026-03:$1.69B / 2026-04:$1.81B | |
+| 工具/工业/DIY | $12.23B | $1.09B | 4.2% | 36.6% | Crest、Colgate、TheraBreath、COZYFIT、Cherokee、Skechers | 专业牙科用品 / 切削刀具 / 商业照明产品 / 商用门产品 / 增材制造产品 / 实验室和科学产品 / 工业动力和手动工具 / 工业材料 | 2025-11:$1.15B / 2025-12:$1.07B / 2026-01:$973.7M / 2026-02:$1.02B / 2026-03:$1.04B / 2026-04:$1.08B | |
+| 玩具/爱好/收藏 | $13.51B | $871.5M | -8.6% | 46.4% | Handmade、MAMAGIFTREE、Zuzu Puzzle、QCROAD SQUISHY、Sensory-N-Stuff、CYLDGNS | 手工玩具和游戏 / 三轮车、滑板车和货车 / 儿童乐器 / 儿童派对用品 / 儿童电子产品 / 可收藏卡片游戏 / 填充动物和毛绒玩具 / 婴儿和幼儿玩具 | 2025-11:$2.62B / 2025-12:$2.21B / 2026-01:$804.5M / 2026-02:$758.1M / 2026-03:$963.8M / 2026-04:$879.4M | |
+| 花园园艺/泳池 | $8.18B | $832.3M | 18.0% | 24.0% | ZEVO、Ortho、Thermacell、Scotts、Miracle-Gro、VEVOR | 农业和城市农业 / 后院鸟类和野生动物 / 室外供暖和制冷 / 室外存储和外壳 / 害虫防治产品 / 泳池、热水浴缸和用品 / 除雪工具 | 2025-11:$542.9M / 2025-12:$502.8M / 2026-01:$516.4M / 2026-02:$505.9M / 2026-03:$628.1M / 2026-04:$738.2M | |
+| 宠物用品 | $9.02B | $731.3M | -4.1% | 26.2% | Kaytee、ZuPreem、Manna Pro、kathson、lovyoCoCo、PH Prevue Hendryx | 宠物鸟用品 / 小型动物用品 / 爬行动物和两栖动物用品 / 狗用品 / 马匹用品 / 鱼类和水产宠物 / 手工宠物用品 | 2025-11:$826.9M / 2025-12:$761.6M / 2026-01:$728.8M / 2026-02:$730.3M / 2026-03:$748.9M / 2026-04:$718.4M | |
+| 办公文具 | $7.95B | $607.7M | -5.7% | 43.1% | Hammermill、Amazon Basics、HP Papers、Sharpie、EXPO、PILOT | 办公室和学校用品 / 办公室照明 / 教育用品和工艺用品 / 演示用品 / 邮件用品和运输用品 / 手工文具和派对用品 | 2025-11:$715.7M / 2025-12:$654.4M / 2026-01:$649.4M / 2026-02:$640.4M / 2026-03:$661.6M / 2026-04:$623.8M | |
+| 家具 | $4.35B | $439.5M | 10.4% | 59.3% | Govee、Ambimall、Miortior、Everlasting Comfort、C CUSHION LAB、Kuyal | 办公家具和照明 / 天井家具和配件 | 2025-11:$313.7M / 2025-12:$259.5M / 2026-01:$255.7M / 2026-02:$285.6M / 2026-03:$375.9M / 2026-04:$411.5M | |
+| 首页装饰产品 | $4.72B | $418.3M | -7.2% | 66.4% | SAFAVIEH、Loloi、OLANLY、HyeFlora、Hananona、FOREST PRINCE | 首页装饰产品 | 2025-11:$459.4M / 2025-12:$388.6M / 2026-01:$394.2M / 2026-02:$422.3M / 2026-03:$430.9M / 2026-04:$399.7M | |
+| 本地生活/票券服务 | $4.27B | $375.4M | 4.3% | 42.4% | HydroJug、BrüMate、Pureegg、Bounty、Amazon Basics、Dixie | 食品服务设备和用品 / 计算机和电子服务计划 / 计算机保修和服务 / 计算机服务器 | 2025-11:$497.1M / 2025-12:$444.0M / 2026-01:$320.4M / 2026-02:$332.7M / 2026-03:$347.4M / 2026-04:$362.4M | |
+| 艺术工艺/手工 | $4.63B | $361.8M | -4.7% | 54.8% | Sereney、MignonandMignon、LUCKYJEWUS、Bottled Up Designs、Raven Ranch Studio、RUIQLXHANG | 手工首饰 / 剪贴簿照片转移和上色 / 印刷耗材 / 工艺品和缝纫储藏 / 工艺用品和材料 / 报废和冲压用品 / 纱线 / 织物装饰 | 2025-11:$508.6M / 2025-12:$501.9M / 2026-01:$389.5M / 2026-02:$380.0M / 2026-03:$374.7M / 2026-04:$357.0M | |
+| Cat供应品 | $4.34B | $334.0M | -3.1% | 22.6% | Fancy Feast、Friskies、Purina ONE、Tidy Cats、Arm &amp; Hammer、Fresh Step | Cat供应品 | 2025-11:$414.0M / 2025-12:$372.4M / 2026-01:$345.2M / 2026-02:$339.4M / 2026-03:$337.6M / 2026-04:$327.1M | |
+| 乐器 | $2.68B | $244.6M | -4.1% | 22.3% | Fender、BOSS、Positive Grid、MXR、MOOER、Electro-Harmonix | 乐器放大器和效果 / 乐器配件 / 乐器键盘和MIDI / 乐队和管弦乐队乐器 / 低音吉他 / 吉他 / 尤克里里、曼陀林和班卓 / 音乐录制设备 | 2025-11:$265.7M / 2025-12:$270.0M / 2026-01:$260.3M / 2026-02:$255.4M / 2026-03:$253.7M / 2026-04:$243.2M | |
+| 餐具室订书钉 | $3.28B | $219.0M | -12.2% | 1.2% | 365 by Whole Foods Market、Amazon Grocery、Torani、SOLELY、Nutella、Sun-Maid | 餐具室订书钉 | 2025-11:$303.0M / 2025-12:$288.8M / 2026-01:$247.2M / 2026-02:$292.5M / 2026-03:$294.3M / 2026-04:$258.3M | |
+
+### 二级行业逐条内容模板
+
+#### 厨房餐饮
+
+- 数据锚点：年化 GMV $58.77B；月 GMV $4.52B；MoM -3.7%；CN 占比 38.8%。
+- 代表品牌：Amazon Basics、Vacbird、FYGRIP、Rubbermaid、Vtopmart、M MCIRCO、Owala、STANLEY。
+- 原始/拆分口径：厨房储存和组织 / 厨房和餐桌亚麻布 / 厨房炊具 / 厨房用具和小工具 / 烘焙制品 / 餐饮和娱乐 / 儿童家居商店 / 加热、冷却和空气质量 / 厨房和餐饮 / 墙面艺术 / 季节性装饰 / 家具 / 家用清洁用品 / 床上用品 / 活动和派对用品 / 熨烫产品 / 厨房和浴室设备 / 手工厨房和餐饮。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 家居家装
+
+- 数据锚点：年化 GMV $24.51B；月 GMV $2.12B；MoM 2.2%；CN 占比 46.6%。
+- 代表品牌：Amazon Basics、Vacbird、FYGRIP、Rubbermaid、Vtopmart、M MCIRCO、Owala、STANLEY。
+- 原始/拆分口径：家庭存储和组织 / 安全与安保 / 建筑用品 / 油漆、墙面处理和用品 / 泵和管道设备 / 测量和布局 / 照明和吊扇 / 电动工具和手动工具 / 电气设备 / 硬件 / 空气工具 / 手工家居装饰。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 运动户外
+
+- 数据锚点：年化 GMV $20.56B；月 GMV $1.92B；MoM 7.1%；CN 占比 47.6%。
+- 代表品牌：Weber、BLACKSTONE、Traeger、George Foreman、recteq、OLDE MIDWAY、FoMup、Mont Alpi。
+- 原始/拆分口径：户外烹饪 / 户外装饰 / 户外娱乐 / 狩猎和渔业产品 / 记忆显示和存储 / 运动医学产品 / 运动和健身设备 / 运动迷商店。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 工具/工业/DIY
+
+- 数据锚点：年化 GMV $12.23B；月 GMV $1.09B；MoM 4.2%；CN 占比 36.6%。
+- 代表品牌：Crest、Colgate、TheraBreath、COZYFIT、Cherokee、Skechers、MUAYSY、VEVOR。
+- 原始/拆分口径：专业牙科用品 / 切削刀具 / 商业照明产品 / 商用门产品 / 增材制造产品 / 实验室和科学产品 / 工业动力和手动工具 / 工业材料 / 工业硬件 / 工业粘合剂、密封剂和润滑剂 / 数字标牌设备 / 机器人 / 材料搬运产品 / 测试、测量和检查 / 液压、气动和管道 / 电力传输产品 / 研磨和精加工产品 / 科学教育用品 / 紧固件 / 过滤 / 零售店固定装置和设备。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 玩具/爱好/收藏
+
+- 数据锚点：年化 GMV $13.51B；月 GMV $871.5M；MoM -8.6%；CN 占比 46.4%。
+- 代表品牌：Handmade、MAMAGIFTREE、Zuzu Puzzle、QCROAD SQUISHY、Sensory-N-Stuff、CYLDGNS、Alcarin、INDERO。
+- 原始/拆分口径：手工玩具和游戏 / 三轮车、滑板车和货车 / 儿童乐器 / 儿童派对用品 / 儿童电子产品 / 可收藏卡片游戏 / 填充动物和毛绒玩具 / 婴儿和幼儿玩具 / 学习和教育玩具 / 工艺美术用品 / 建筑玩具 / 拼图 / 新奇玩具和娱乐 / 木偶和木偶剧院 / 游戏和配件 / 玩偶和配件 / 玩具人偶和游戏 / 玩具车 / 运动和户外游戏玩具 / 工艺和爱好面料。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 花园园艺/泳池
+
+- 数据锚点：年化 GMV $8.18B；月 GMV $832.3M；MoM 18.0%；CN 占比 24.0%。
+- 代表品牌：ZEVO、Ortho、Thermacell、Scotts、Miracle-Gro、VEVOR、Rain Bird、Orbit。
+- 原始/拆分口径：农业和城市农业 / 后院鸟类和野生动物 / 室外供暖和制冷 / 室外存储和外壳 / 害虫防治产品 / 泳池、热水浴缸和用品 / 除雪工具。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 宠物用品
+
+- 数据锚点：年化 GMV $9.02B；月 GMV $731.3M；MoM -4.1%；CN 占比 26.2%。
+- 代表品牌：Kaytee、ZuPreem、Manna Pro、kathson、lovyoCoCo、PH Prevue Hendryx、WORMSKING、Hatortempt。
+- 原始/拆分口径：宠物鸟用品 / 小型动物用品 / 爬行动物和两栖动物用品 / 狗用品 / 马匹用品 / 鱼类和水产宠物 / 手工宠物用品。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 办公文具
+
+- 数据锚点：年化 GMV $7.95B；月 GMV $607.7M；MoM -5.7%；CN 占比 43.1%。
+- 代表品牌：Hammermill、Amazon Basics、HP Papers、Sharpie、EXPO、PILOT、Scotch、Fuxury。
+- 原始/拆分口径：办公室和学校用品 / 办公室照明 / 教育用品和工艺用品 / 演示用品 / 邮件用品和运输用品 / 手工文具和派对用品。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 家具
+
+- 数据锚点：年化 GMV $4.35B；月 GMV $439.5M；MoM 10.4%；CN 占比 59.3%。
+- 代表品牌：Govee、Ambimall、Miortior、Everlasting Comfort、C CUSHION LAB、Kuyal、SYKIARIOL、Perlegear。
+- 原始/拆分口径：办公家具和照明 / 天井家具和配件。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 首页装饰产品
+
+- 数据锚点：年化 GMV $4.72B；月 GMV $418.3M；MoM -7.2%；CN 占比 66.4%。
+- 代表品牌：SAFAVIEH、Loloi、OLANLY、HyeFlora、Hananona、FOREST PRINCE、MIULEE、LazBlinds。
+- 原始/拆分口径：首页装饰产品。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 本地生活/票券服务
+
+- 数据锚点：年化 GMV $4.27B；月 GMV $375.4M；MoM 4.3%；CN 占比 42.4%。
+- 代表品牌：HydroJug、BrüMate、Pureegg、Bounty、Amazon Basics、Dixie、VEVOR、EUHOMY。
+- 原始/拆分口径：食品服务设备和用品 / 计算机和电子服务计划 / 计算机保修和服务 / 计算机服务器。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 艺术工艺/手工
+
+- 数据锚点：年化 GMV $4.63B；月 GMV $361.8M；MoM -4.7%；CN 占比 54.8%。
+- 代表品牌：Sereney、MignonandMignon、LUCKYJEWUS、Bottled Up Designs、Raven Ranch Studio、RUIQLXHANG、TOLOWOBK、Generic。
+- 原始/拆分口径：手工首饰 / 剪贴簿照片转移和上色 / 印刷耗材 / 工艺品和缝纫储藏 / 工艺用品和材料 / 报废和冲压用品 / 纱线 / 织物装饰 / 绘画、绘画和艺术用品 / 缝纫产品 / 缝纫线和棉线 / 针线用品 / 针织和钩针用品。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### Cat供应品
+
+- 数据锚点：年化 GMV $4.34B；月 GMV $334.0M；MoM -3.1%；CN 占比 22.6%。
+- 代表品牌：Fancy Feast、Friskies、Purina ONE、Tidy Cats、Arm &amp; Hammer、Fresh Step、INABA、Delectables。
+- 原始/拆分口径：Cat供应品。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 乐器
+
+- 数据锚点：年化 GMV $2.68B；月 GMV $244.6M；MoM -4.1%；CN 占比 22.3%。
+- 代表品牌：Fender、BOSS、Positive Grid、MXR、MOOER、Electro-Harmonix、Briskdrop、Truetone。
+- 原始/拆分口径：乐器放大器和效果 / 乐器配件 / 乐器键盘和MIDI / 乐队和管弦乐队乐器 / 低音吉他 / 吉他 / 尤克里里、曼陀林和班卓 / 音乐录制设备 / 鼓与打击乐。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+#### 餐具室订书钉
+
+- 数据锚点：年化 GMV $3.28B；月 GMV $219.0M；MoM -12.2%；CN 占比 1.2%。
+- 代表品牌：365 by Whole Foods Market、Amazon Grocery、Torani、SOLELY、Nutella、Sun-Maid、Terrasoul Superfoods、Ghirardelli。
+- 原始/拆分口径：餐具室订书钉。
+- 增长信号 1：
+- 增长信号 2：
+- 增长信号 3：
+- 需要外部补证：
+
+## 已知可用外部事实线索
+
+- Consumer Tech / 电源储能：portable power station、backup power、camping/RV、Anker Solix、Jackery、EcoFlow。
+- Consumer Tech / 影像无人机：NAB 2026、DJI creator tools、Osmo、RS、GoPro 新品。
+- Consumer Tech / 智能安防：local AI、no monthly fees、eufy、Reolink、aosu、多摄协同。
+- Consumer Tech / 智能穿戴：RingConn、OURA、Samsung、Amazfit、智能戒指、睡眠监测、无订阅费。
+- Beauty：medicube/ANUA 内容回流 Amazon、Ulike IPL、Laifen/TYMO/Wavytalk 造型工具、Oclean/Soocas/COSLUS 口腔护理、beetles/modelones 美甲。
+</pre>
+    <div class="hint">文件由 scripts/build_industry_content_brief_v0_1.js 生成；页面不依赖本地服务或外部资源。</div>
+  </main>
+</body>
+</html>

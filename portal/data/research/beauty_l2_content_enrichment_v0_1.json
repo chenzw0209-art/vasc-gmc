@@ -1,0 +1,2692 @@
+{
+  "version": "v0.2_governed",
+  "generated_at": "2026-06-04T12:16:18.295797",
+  "source_root": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析",
+  "status_note": "Ready records come from local deep-analysis markdown; pending records still need manual research.",
+  "records": [
+    {
+      "l1": "Beauty",
+      "l2": "面部护理",
+      "status": "ready",
+      "category_judgment": "- **面部皮肤护理产品占 80% 市场**，是中国品牌必争之地，但目前 CN 仅 3.4%（韩国品牌已成第二梯队）",
+      "players": {
+        "top_overseas_brands": [
+          "La Roche-Posay",
+          "medicube",
+          "CeraVe",
+          "Neutrogena",
+          "The Ordinary"
+        ],
+        "top_china_brands": [
+          "INIA",
+          "TEREZ & HONOR",
+          "SKINTIFIC",
+          "Dmsky",
+          "ourmed life"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 3.9%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "面部皮肤护理产品",
+          "眼部护理产品",
+          "唇部护理产品",
+          "护肤套装和工具包",
+          "孕妇皮肤护理"
+        ],
+        "representative_products": [
+          "面部皮肤护理产品 ($3.89B, CN 3.4%)",
+          "眼部护理产品 ($0.50B, CN 8.8%)",
+          "唇部护理产品 ($0.33B, CN 6.0%)",
+          "护肤套装和工具包 ($0.09B, CN 9.6%)",
+          "孕妇皮肤护理 ($0.02B, CN 3.6%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "面部护理",
+          "signal_content": "Statista (2025): 美国面部护肤市场规模 **$16.34B**，预计 2025-2030 年 CAGR **4.0%**[^1]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "面部护理",
+          "signal_content": "Grand View Research (2025): 美国皮肤护理产品市场 **$35.63B**，预计 2026-2033 年 CAGR **7.5%**，面部护肤占比约 46%[^2]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "面部护理",
+          "signal_content": "全球面部精华市场: 2026-2033 年 CAGR **7.1%**，2033 年达 **$10.66B**[^3]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "面部护理",
+          "signal_content": "季节性明显: Q2/Q3 偏低（夏季控油需求主导），Q4/Q1 偏高（冬季保湿+节日送礼）",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "面部护理",
+          "signal_content": "面部皮肤护理产品占 80% 市场: ，是中国品牌必争之地，但目前 CN 仅 3.4%（韩国品牌已成第二梯队）",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\面部护理_深度分析v1.md",
+      "section_count": 17,
+      "table_row_count": 41
+    },
+    {
+      "l1": "Beauty",
+      "l2": "头发护理",
+      "status": "ready",
+      "category_judgment": "头发护理市场呈现**\"日化主战场 vs CN 品牌避坑赛道\"**的分化格局。",
+      "players": {
+        "top_overseas_brands": [
+          "Nutrafol",
+          "Moroccanoil",
+          "Kitsch",
+          "Olaplex",
+          "L‘Oreal Paris"
+        ],
+        "top_china_brands": [
+          "Pizazz",
+          "UNICE",
+          "Full Shine",
+          "YANIBEST",
+          "Karseell"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 15.3%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "洗发水和护发素",
+          "发型产品",
+          "脱发产品",
+          "头发延伸、假发和配件",
+          "染发产品"
+        ],
+        "representative_products": [
+          "洗发水和护发素 ($1.73B, CN 2.1%)",
+          "发型产品 ($1.05B, CN 1.2%)",
+          "脱发产品 ($0.68B, CN 3.2%)",
+          "头发延伸、假发和配件 ($0.50B, CN 86.6%)",
+          "染发产品 ($0.35B, CN 2.3%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "头发护理",
+          "signal_content": "Grand View Research (2025): 美国头发护理产品市场 **$22.05B**，预计 2026-2033 年 CAGR **6.2%**[^1]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "头发护理",
+          "signal_content": "IMARC Group (2025): 美国头发护理市场 **$23.21B**，预计 2026-2034 年 CAGR **3.74%**，2034 年达 **$32.31B**[^2]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "头发护理",
+          "signal_content": "脱发治疗细分市场: 2026 年 **$3.14B**，预计 2031 年达 **$4.45B**，CAGR **7.19%**[^3]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "头发护理",
+          "signal_content": "CN 整体占比 15.4%: （高于面部护理 3.9%），但**极度集中在假发/发片（86.6%）和发型配饰（63.9%）两个细分**",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "头发护理",
+          "signal_content": "洗护主战场（$1.73B）CN 仅 2.1%: ——日化巨头（REDKEN/L'Oreal/Olaplex）+ 专业沙龙品牌垄断",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\头发护理_深度分析v1.md",
+      "section_count": 17,
+      "table_row_count": 58
+    },
+    {
+      "l1": "Beauty",
+      "l2": "口腔护理",
+      "status": "ready",
+      "category_judgment": "CN 品牌在**电动牙刷/冲牙器/义齿护理**三个品类突破（17-23%），但在**牙膏/漱口水**品类全线失守（<4%）——\"化学配方信任壁垒\" vs \"电子产品制造优势\"的分化。",
+      "players": {
+        "top_overseas_brands": [
+          "Philips Sonicare",
+          "Oral-B",
+          "Crest",
+          "Waterpik",
+          "Colgate"
+        ],
+        "top_china_brands": [
+          "COSLUS",
+          "UEOFEN",
+          "Onlyone",
+          "usmile",
+          "OHALEEP"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 13.7%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "牙刷和配件",
+          "牙线和牙签",
+          "牙膏",
+          "牙齿美白产品",
+          "漱口水"
+        ],
+        "representative_products": [
+          "牙刷和配件 ($0.87B, CN 17.1%)",
+          "牙线和牙签 ($0.53B, CN 22.7%)",
+          "牙膏 ($0.53B, CN 3.8%)",
+          "牙齿美白产品 ($0.26B, CN 5.5%)",
+          "漱口水 ($0.25B, CN 0.7%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "口腔护理",
+          "signal_content": "产品: 冲牙器（Water Flosser），定价 $30-40",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "口腔护理",
+          "signal_content": "对标: Waterpik 平替（Waterpik $70-100，COSLUS 便宜 50%）",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "口腔护理",
+          "signal_content": "技术: 300ml 水箱 + 10 档水压 + IPX7 防水，参数对标 Waterpik",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "口腔护理",
+          "signal_content": "Amazon 评论: 28k+ reviews，4.5 星，高频词\"works as well as Waterpik\" / \"great value\"",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "口腔护理",
+          "signal_content": "成功要素: 1. 冲牙器是\"电子产品+水泵\"，CN 供应链有优势（vs 牙膏化学配方）",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\口腔护理_深度分析v1.md",
+      "section_count": 16,
+      "table_row_count": 27
+    },
+    {
+      "l1": "Beauty",
+      "l2": "身体与防晒护理",
+      "status": "ready",
+      "category_judgment": "身体与防晒护理 | 美国 Amazon 市场深度分析 / 一、市场全景 / 1.1 市场规模与增长",
+      "players": {
+        "top_overseas_brands": [
+          "EltaMD",
+          "Dove",
+          "Mrs. MEYER‘S",
+          "Sun Bum",
+          "Naturium"
+        ],
+        "top_china_brands": [
+          "Kalokey",
+          "SOME BY MI",
+          "RA ROSA ACCA",
+          "Qinline",
+          "LILY ROY"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 3.0%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "身体护肤品",
+          "阳光皮肤护理",
+          "成人性玩具和游戏",
+          "更安全的性用品",
+          "捆绑设备和配件"
+        ],
+        "representative_products": [
+          "身体护肤品 ($2.12B, CN 4.4%)",
+          "阳光皮肤护理 ($0.78B, CN 1.4%)",
+          "成人性玩具和游戏 ($0.00B, CN 82.8%)",
+          "更安全的性用品 ($0.00B, CN 4.0%)",
+          "捆绑设备和配件 ($0.00B, CN 89.1%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "身体与防晒护理",
+          "signal_content": "Fortune Business Insights (2024): 全球防晒产品市场 2024 年约 $12B+，美国占比约 30-35%[^1]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "身体与防晒护理",
+          "signal_content": "Grand View Research (2025): 美国皮肤护理产品市场 $35.63B，身体护理占比约 15-20%（$5-7B）[^2]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "身体与防晒护理",
+          "signal_content": "身体护肤品 $2.12B（73%）: 身体乳/磨砂膏/沐浴露，日化巨头垄断（Dove/Eucerin/Aveeno）",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "身体与防晒护理",
+          "signal_content": "防晒 $0.78B（27%）: 面部+身体防晒，专业防晒品牌（EltaMD/La Roche-Posay/Sun Bum）主导",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "身体与防晒护理",
+          "signal_content": "防晒 CN 仅 1.4%: ——美国消费者被教育成\"SPF 50+ broad spectrum PA++++\"专家，对白牌防晒零容忍（怕晒伤/皮肤癌）",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\身体与防晒护理_深度分析v1.md",
+      "section_count": 17,
+      "table_row_count": 40
+    },
+    {
+      "l1": "Beauty",
+      "l2": "彩妆",
+      "status": "ready",
+      "category_judgment": "CN 品牌在**工具类品类**（化妆刷 59.5%、身体化妆 47.5%、眼妆 24.4%）突破，但在**面妆/唇妆核心品类**失守（4-10%）——\"制造业优势\"在彩妆工具发挥，但\"色号/配方信任\"在面妆/唇妆成为壁垒。",
+      "players": {
+        "top_overseas_brands": [
+          "LAURA GELLER NEW YORK",
+          "e.l.f.",
+          "MAYBELLINE",
+          "Clinique",
+          "tarte"
+        ],
+        "top_china_brands": [
+          "STACY LASH",
+          "Goddvenus",
+          "KEYYOU",
+          "Pawotence",
+          "iMethod"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 17.1%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "眼部化妆",
+          "面部化妆",
+          "唇部彩妆",
+          "卸妆液",
+          "身体化妆"
+        ],
+        "representative_products": [
+          "眼部化妆 ($1.15B, CN 24.4%)",
+          "面部化妆 ($0.95B, CN 4.4%)",
+          "唇部彩妆 ($0.31B, CN 9.9%)",
+          "卸妆液 ($0.22B, CN 16.2%)",
+          "身体化妆 ($0.08B, CN 47.5%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "彩妆",
+          "signal_content": "产品: 假睫毛 + 睫毛卸妆液",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "彩妆",
+          "signal_content": "定价: 假睫毛 $8-12 / 5 对，卸妆液 $15 / 120ml",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "彩妆",
+          "signal_content": "对标: 假睫毛对标 Ardell（$10 / 4 对），价格持平但款式更多",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "彩妆",
+          "signal_content": "Amazon 评论: 12k+ reviews，4.3 星，高频词\"natural looking\" / \"easy to apply\"",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "彩妆",
+          "signal_content": "成功要素: 1. 假睫毛是\"手工制造品\"，CN 供应链优势（青岛/深圳假睫毛产业带）",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\彩妆_深度分析v1.md",
+      "section_count": 16,
+      "table_row_count": 30
+    },
+    {
+      "l1": "Beauty",
+      "l2": "指甲与足部护理",
+      "status": "ready",
+      "category_judgment": "指甲与足部护理 | 美国 Amazon 市场深度分析 / 一、市场概览 / 二、关键洞察",
+      "players": {
+        "top_overseas_brands": [
+          "OPI",
+          "MelodySusie",
+          "Glamnetic",
+          "Makartt",
+          "Sally Hansen"
+        ],
+        "top_china_brands": [
+          "beetles Gel Polish",
+          "modelones",
+          "JODSONE",
+          "UNA GELLA",
+          "BTArtbox"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 50.6%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "指甲油和装饰产品",
+          "足部和手部护理",
+          "手、脚和指甲工具",
+          "指甲护理产品",
+          "急救用品"
+        ],
+        "representative_products": [
+          "指甲油和装饰产品 ($1.03B, CN 62.3%)",
+          "足部和手部护理 ($0.42B, CN 18.1%)",
+          "手、脚和指甲工具 ($0.31B, CN 54.4%)",
+          "指甲护理产品 ($0.09B, CN 15.6%)",
+          "急救用品 ($0.01B, CN 5.4%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\指甲与足部护理_深度分析v1.md",
+      "section_count": 4,
+      "table_row_count": 0
+    },
+    {
+      "l1": "Beauty",
+      "l2": "剃须脱毛产品",
+      "status": "ready",
+      "category_judgment": "剃须脱毛产品 | 美国 Amazon 市场深度分析 / 一、市场全景 / 子品类",
+      "players": {
+        "top_overseas_brands": [
+          "Norelco",
+          "Gillette",
+          "Braun",
+          "Gillette Venus",
+          "MANSCAPED"
+        ],
+        "top_china_brands": [
+          "Ulike",
+          "Ufree",
+          "Mbzoey",
+          "ZORAMI",
+          "Risina"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 20.4%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "男士剃须和脱毛产品",
+          "女性剃须和脱毛产品",
+          "剃须和脱毛产品",
+          "其他",
+          "身体护肤品"
+        ],
+        "representative_products": [
+          "男士剃须和脱毛产品 ($1.28B, CN 15.0%)",
+          "女性剃须和脱毛产品 ($0.54B, CN 33.3%)",
+          "剃须和脱毛产品 ($0.01B, CN 34.8%)",
+          "其他 ($0.00B, CN 42.8%)",
+          "身体护肤品 ($0.00B, CN 0.0%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\剃须脱毛产品_深度分析v1.md",
+      "section_count": 8,
+      "table_row_count": 0
+    },
+    {
+      "l1": "Beauty",
+      "l2": "美容工具与配件",
+      "status": "ready",
+      "category_judgment": "美容工具与配件 | 美国 Amazon 市场深度分析 / 一、市场概览 / 二、关键洞察",
+      "players": {
+        "top_overseas_brands": [
+          "Amazon Basics",
+          "LAURA GELLER NEW YORK",
+          "TREKTOTE",
+          "Q-tips",
+          "e.l.f."
+        ],
+        "top_china_brands": [
+          "BAGSMART",
+          "Vtopmart",
+          "Goddvenus",
+          "EACHY",
+          "KEYYOU"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 63.7%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "化妆刷和工具",
+          "化妆袋和化妆盒",
+          "沐浴配件",
+          "个人后视镜",
+          "可再填充化妆品容器"
+        ],
+        "representative_products": [
+          "化妆刷和工具 ($0.51B, CN 63.7%)",
+          "化妆袋和化妆盒 ($0.29B, CN 79.0%)",
+          "沐浴配件 ($0.21B, CN 50.5%)",
+          "个人后视镜 ($0.15B, CN 81.1%)",
+          "可再填充化妆品容器 ($0.12B, CN 75.2%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\美容工具与配件_深度分析v1.md",
+      "section_count": 4,
+      "table_row_count": 0
+    },
+    {
+      "l1": "Beauty",
+      "l2": "香水",
+      "status": "ready",
+      "category_judgment": "香水 | 美国 Amazon 市场深度分析 / 一、市场全景 / 子品类",
+      "players": {
+        "top_overseas_brands": [
+          "Lattafa",
+          "Versace",
+          "Armaf",
+          "Yves Saint Laurent",
+          "Armani Beauty"
+        ],
+        "top_china_brands": [
+          "Ycz",
+          "Sttes",
+          "QAWAFI",
+          "Chthen",
+          "AQUA BLANCE"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 1.9%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "女性香水",
+          "男士香水",
+          "香水套装",
+          "急救用品",
+          "其他"
+        ],
+        "representative_products": [
+          "女性香水 ($0.76B, CN 1.7%)",
+          "男士香水 ($0.65B, CN 1.9%)",
+          "香水套装 ($0.10B, CN 3.0%)",
+          "急救用品 ($0.04B, CN 0.0%)",
+          "其他 ($0.01B, CN 0.7%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\香水_深度分析v1.md",
+      "section_count": 8,
+      "table_row_count": 0
+    },
+    {
+      "l1": "Beauty",
+      "l2": "除臭与个护小品",
+      "status": "ready",
+      "category_judgment": "除臭与个护小品 | 美国 Amazon 市场深度分析 / 一、市场概览 / 二、关键洞察",
+      "players": {
+        "top_overseas_brands": [
+          "Old Spice",
+          "Salt & Stone",
+          "Lume",
+          "Secret",
+          "Degree"
+        ],
+        "top_china_brands": [
+          "beetles Gel Polish",
+          "modelones",
+          "UNA GELLA",
+          "SAVILAND",
+          "MAST TATTOO"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 35.6%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "除臭剂和止汗剂",
+          "浴缸和浴室配件",
+          "沙龙和水疗椅",
+          "足部、手部和指甲护理产品",
+          "穿孔和纹身用品"
+        ],
+        "representative_products": [
+          "除臭剂和止汗剂 ($0.51B, CN 0.0%)",
+          "浴缸和浴室配件 ($0.27B, CN 29.4%)",
+          "沙龙和水疗椅 ($0.10B, CN 61.9%)",
+          "足部、手部和指甲护理产品 ($0.09B, CN 92.1%)",
+          "穿孔和纹身用品 ($0.08B, CN 38.3%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\除臭与个护小品_深度分析v1.md",
+      "section_count": 4,
+      "table_row_count": 0
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "手机与配件",
+      "status": "ready",
+      "category_judgment": "- **所有子品类 CN 占比都超过 50%**——手机配件是 CN 品牌在美国最成功的品类之一",
+      "players": {
+        "top_overseas_brands": [
+          "Apple",
+          "JBL",
+          "Bose",
+          "Sandisk",
+          "Soundcore"
+        ],
+        "top_china_brands": [
+          "Anker",
+          "Ailun",
+          "FNTCASE",
+          "TORRAS",
+          "UNBREAKcable"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 53.1%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "手机SIM卡和预付费分钟数",
+          "手机壳和外壳",
+          "手机",
+          "手机配件",
+          "GPS跟踪器"
+        ],
+        "representative_products": [
+          "手机SIM卡和预付费分钟数 ($0.00B, CN 29.0%)",
+          "手机壳和外壳 ($0.00B, CN 100.0%)",
+          "手机 ($0.00B, CN 0.0%)",
+          "手机配件 ($0.00B, CN 100.0%)",
+          "GPS跟踪器 ($0.00B, CN 0.0%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "手机与配件",
+          "signal_content": "Apple 配件生态主导: iPhone 配件占比 60%+（MagSafe/Lightning），Android 配件碎片化",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "手机与配件",
+          "signal_content": "CN 品牌绝对统治: 53.0% GMV 占比，Top 20 品牌中 60%+ 是中国品牌",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "手机与配件",
+          "signal_content": "品类教育已完成: 消费者认知\"手机壳 = 必需品\"，不需要品牌教育",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "手机与配件",
+          "signal_content": "所有子品类 CN 占比都超过 50%: ——手机配件是 CN 品牌在美国最成功的品类之一",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "手机与配件",
+          "signal_content": "Apple 配件生态红利: 每年 9 月 iPhone 新机发布，配件厂商第一时间跟进（CN 品牌响应速度比欧美快 2-4 周）",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\手机与配件_深度分析v1.md",
+      "section_count": 18,
+      "table_row_count": 17
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "计算机配件与外设",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "视频游戏机与配件",
+      "status": "ready",
+      "category_judgment": "- **Switch 配件是 CN 品牌主战场**：保护套/钢化膜/充电座，CN 占比 40%+",
+      "players": {
+        "top_overseas_brands": [
+          "Nintendo",
+          "PlayStation",
+          "Xbox",
+          "Logitech G",
+          "Razer"
+        ],
+        "top_china_brands": [
+          "GameSir",
+          "8Bitdo",
+          "Redragon",
+          "AULA",
+          "PXN"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 23.5%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "Mac配件",
+          "其他",
+          "PC配件",
+          "计算机音频和视频附件",
+          "PlayStation传统系统"
+        ],
+        "representative_products": [
+          "Mac配件 ($0.00B, CN 44.7%)",
+          "其他 ($0.00B, CN 0.5%)",
+          "PC配件 ($0.00B, CN 8.2%)",
+          "计算机音频和视频附件 ($0.00B, CN 0.0%)",
+          "PlayStation传统系统 ($0.00B, CN 0.1%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "视频游戏机与配件",
+          "signal_content": "游戏主机在官方渠道: PS5/Xbox/Switch 主机在 Sony/Microsoft/Nintendo 官网 + Best Buy/GameStop 销售",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "视频游戏机与配件",
+          "signal_content": "Amazon 主要是配件: 手柄保护套/充电座/耳机/游戏存储卡/VR 配件",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "视频游戏机与配件",
+          "signal_content": "CN 品牌占比 23.4%: 配件品类，CN 品牌有突破（vs 主机 0%）",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "视频游戏机与配件",
+          "signal_content": "Switch 配件是 CN 品牌主战场: 保护套/钢化膜/充电座，CN 占比 40%+",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "视频游戏机与配件",
+          "signal_content": "Pro 手柄市场增长: 玩家愿意为\"专业手柄\"付费（$50-150），CN 品牌做平替",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\视频游戏机与配件_深度分析v1.md",
+      "section_count": 16,
+      "table_row_count": 27
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "厨房小家电",
+      "status": "ready",
+      "category_judgment": "- **Ninja 统治厨房小家电**：从空气炸锅延伸到搅拌机/多功能锅，\"一机多用\"策略成功",
+      "players": {
+        "top_overseas_brands": [
+          "Ninja",
+          "Keurig",
+          "Cuisinart",
+          "KitchenAid",
+          "Hamilton Beach"
+        ],
+        "top_china_brands": [
+          "YPONE",
+          "Ganiza",
+          "EanOruus",
+          "TUUMIIST",
+          "Beelicious Pro"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 15.7%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "咖啡壶",
+          "家用搅拌机",
+          "专用厨房用具",
+          "油炸锅",
+          "烤箱和烤面包机"
+        ],
+        "representative_products": [
+          "咖啡壶 ($0.00B, CN 7.3%)",
+          "家用搅拌机 ($0.00B, CN 12.3%)",
+          "专用厨房用具 ($0.00B, CN 30.9%)",
+          "油炸锅 ($0.00B, CN 5.9%)",
+          "烤箱和烤面包机 ($0.00B, CN 10.1%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "厨房小家电",
+          "signal_content": "Ninja 主导多品类: 空气炸锅/搅拌机/多功能锅全面领先",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "厨房小家电",
+          "signal_content": "Instant Pot 开创品类: 电压力锅（压力锅+慢炖锅+电饭煲）成为美国厨房标配",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "厨房小家电",
+          "signal_content": "CN 品牌占比 15%: （中等）：功能性家电，CN 品牌在电饭煲/空气炸锅有突破",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "厨房小家电",
+          "signal_content": "Ninja 统治厨房小家电: 从空气炸锅延伸到搅拌机/多功能锅，\"一机多用\"策略成功",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "厨房小家电",
+          "signal_content": "Instant Pot 现象: 电压力锅从 0 → $0.8B（2010-2020），开创新品类",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\厨房小家电_深度分析v1.md",
+      "section_count": 16,
+      "table_row_count": 26
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "个护医疗电器",
+      "status": "ready",
+      "category_judgment": "- **按摩仪 CN 占比 50%**：筋膜枪（Theragun $300 vs CN 品牌 $50-100）",
+      "players": {
+        "top_overseas_brands": [
+          "Norelco",
+          "Braun",
+          "Gillette",
+          "Gillette Venus",
+          "Littmann"
+        ],
+        "top_china_brands": [
+          "RENPHO",
+          "Ulike",
+          "AUVON",
+          "COMFIER",
+          "BOB AND BRAD"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 37.2%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "剃须和脱毛产品",
+          "按摩工具和设备",
+          "活动、健康和健康监测器",
+          "职业和物理治疗辅助设备",
+          "皮肤护理工具"
+        ],
+        "representative_products": [
+          "剃须和脱毛产品 ($1.60B, CN 18.7%)",
+          "按摩工具和设备 ($1.15B, CN 56.2%)",
+          "活动、健康和健康监测器 ($0.51B, CN 30.4%)",
+          "职业和物理治疗辅助设备 ($0.33B, CN 49.9%)",
+          "皮肤护理工具 ($0.30B, CN 32.6%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "个护医疗电器",
+          "signal_content": "医疗级 vs 美容级: Omron 医疗级（血压计/体温计）vs CN 品牌美容级（按摩仪/脱毛仪）",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "个护医疗电器",
+          "signal_content": "疫情推动家用医疗设备: 体温计/血氧仪 2020-2021 爆发",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "个护医疗电器",
+          "signal_content": "CN 品牌占比 35.2%: 按摩仪/脱毛仪/美容仪品类，CN 品牌有突破",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "个护医疗电器",
+          "signal_content": "按摩仪 CN 占比 50%: 筋膜枪（Theragun $300 vs CN 品牌 $50-100）",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "个护医疗电器",
+          "signal_content": "医疗设备 CN 占比低: 体温计/血压计需要 FDA 认证，CN 品牌壁垒高",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\个护医疗电器_深度分析v1.md",
+      "section_count": 16,
+      "table_row_count": 27
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "办公电子产品",
+      "status": "ready",
+      "category_judgment": "- **Logitech 垄断鼠标/键盘**：MX Master（$100）是\"生产力工具\"标配，CN 品牌难突破",
+      "players": {
+        "top_overseas_brands": [
+          "HP",
+          "Brother",
+          "Epson",
+          "Canon",
+          "Amazon Basics"
+        ],
+        "top_china_brands": [
+          "bonsaii",
+          "Liene",
+          "Cool Toner",
+          "Aurzen",
+          "XGIMI"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 20.7%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "打印机和附件",
+          "电脑打印机",
+          "其他办公设备",
+          "视频投影机",
+          "电话"
+        ],
+        "representative_products": [
+          "打印机和附件 ($0.00B, CN 17.4%)",
+          "电脑打印机 ($0.00B, CN 14.5%)",
+          "其他办公设备 ($0.00B, CN 41.1%)",
+          "视频投影机 ($0.00B, CN 71.0%)",
+          "电话 ($0.00B, CN 19.1%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "办公电子产品",
+          "signal_content": "WFH（远程办公）红利: 疫情推动\"在家办公\"，办公设备需求爆发",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "办公电子产品",
+          "signal_content": "人体工学产品增长: 显示器支架/笔记本支架/人体工学鼠标，保护颈椎/手腕",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "办公电子产品",
+          "signal_content": "CN 品牌占比 21.6%: 配件品类（支架/网络摄像头）CN 有突破，但鼠标/键盘被 Logitech 垄断",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "办公电子产品",
+          "signal_content": "Logitech 垄断鼠标/键盘: MX Master（$100）是\"生产力工具\"标配，CN 品牌难突破",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "办公电子产品",
+          "signal_content": "支架品类 CN 占比 35%: 显示器支架/笔记本支架是制造业品类，CN 供应链优势",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\办公电子产品_深度分析v1.md",
+      "section_count": 16,
+      "table_row_count": 27
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "暖通电器",
+      "status": "ready",
+      "category_judgment": "- **空气净化器是 CN 品牌突破口**：LEVOIT（CN 品牌）是 Amazon 空气净化器第 1 品牌（超过 Dyson/Coway）",
+      "players": {
+        "top_overseas_brands": [
+          "LEVOIT",
+          "Midea",
+          "DREO",
+          "PuroAir",
+          "Amazon Basics"
+        ],
+        "top_china_brands": [
+          "ROVSUN",
+          "KNKA",
+          "JISULIFE",
+          "isinlive",
+          "ALORAIR"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 28.7%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "房间空调器",
+          "家用风扇",
+          "家用空气净化器",
+          "加热和冷却部件及附件",
+          "除湿机"
+        ],
+        "representative_products": [
+          "房间空调器 ($0.00B, CN 25.8%)",
+          "家用风扇 ($0.00B, CN 44.5%)",
+          "家用空气净化器 ($0.00B, CN 17.4%)",
+          "加热和冷却部件及附件 ($0.00B, CN 32.2%)",
+          "除湿机 ($0.00B, CN 41.6%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "暖通电器",
+          "signal_content": "Straits Research (2024): 美国 HVAC 系统市场 2024 年 $45B，预计 2024-2033 年 CAGR 6.8%[^1]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "暖通电器",
+          "signal_content": "Mordor Intelligence (2024): 美国 HVAC 设备市场 2024 年 $32B，2030 年达 $42B[^2]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "暖通电器",
+          "signal_content": "Grand View Research: 全球 HVAC 市场 2024 年增长显著，美国是最大单一市场[^3]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "暖通电器",
+          "signal_content": "便携式设备主导 Amazon: 便携空调/塔扇/加湿器占 Amazon GMV 70%+",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "暖通电器",
+          "signal_content": "CN 品牌占比 30.1%: （较高）：暖通电器是\"功能 + 性价比\"品类，CN 品牌有突破",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\暖通电器_深度分析v1.md",
+      "section_count": 17,
+      "table_row_count": 35
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "电动工具",
+      "status": "ready",
+      "category_judgment": "- **Milwaukee/DeWalt 专业级垄断**：建筑工人/装修师傅首选，电池生态锁定",
+      "players": {
+        "top_overseas_brands": [
+          "DEWALT",
+          "Milwaukee",
+          "VEVOR",
+          "CRAFTSMAN",
+          "KLEIN TOOLS"
+        ],
+        "top_china_brands": [
+          "DREAME",
+          "Fanttik",
+          "DEKOPRO",
+          "SEDY",
+          "Walensee"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 31.8%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "电动工具零件和配件",
+          "工业电动工具",
+          "工业手动工具",
+          "电动工具",
+          "园艺手工工具"
+        ],
+        "representative_products": [
+          "电动工具零件和配件 ($0.00B, CN 43.7%)",
+          "工业电动工具 ($0.00B, CN 21.5%)",
+          "工业手动工具 ($0.00B, CN 37.8%)",
+          "电动工具 ($0.00B, CN 18.5%)",
+          "园艺手工工具 ($0.00B, CN 40.6%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "电动工具",
+          "signal_content": "专业级 vs DIY 家用级: Milwaukee/DeWalt 专业级主导，CN 品牌在 DIY 家用级有突破",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "电动工具",
+          "signal_content": "无绳工具主流化: 从有线 → 无绳（锂电池），电池生态锁定用户",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "电动工具",
+          "signal_content": "CN 品牌占比 31.1%: DIY 家用工具，CN 品牌有价格优势",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "电动工具",
+          "signal_content": "Milwaukee/DeWalt 专业级垄断: 建筑工人/装修师傅首选，电池生态锁定",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "电动工具",
+          "signal_content": "CN 品牌在 DIY 家用级突破: $40-80 电钻套装，对标 Milwaukee（$150）但便宜 50%",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\电动工具_深度分析v1.md",
+      "section_count": 16,
+      "table_row_count": 25
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "咖啡茶饮电器",
+      "status": "ready",
+      "category_judgment": "- **Keurig K-Cup 生态锁定用户**：购买 Keurig 咖啡机 → 必须买 K-Cup 胶囊（$0.5-1/杯）→ 耗材年花费 $200-500 → 锁定效应极强",
+      "players": {
+        "top_overseas_brands": [
+          "Ninja",
+          "Nespresso",
+          "Starbucks",
+          "Breville",
+          "Green Mountain Coffee Roasters"
+        ],
+        "top_china_brands": [
+          "CASABREWS",
+          "CIRCLE JOY",
+          "SHARDOR",
+          "SIMPLETASTE",
+          "YUSWKO"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 4.3%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "咖啡、茶和浓缩咖啡"
+        ],
+        "representative_products": [
+          "咖啡、茶和浓缩咖啡 ($0.00B, CN 3.5%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "咖啡茶饮电器",
+          "signal_content": "Mordor Intelligence (2024): 美国家用咖啡机市场 $5.2B，预计 2024-2031 年 CAGR 4.8%[^1]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "咖啡茶饮电器",
+          "signal_content": "Spherical Insights (2024): 美国咖啡机市场 2024 年 $5.9B，2035 年达 $8.6B[^2]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "咖啡茶饮电器",
+          "signal_content": "Keurig K-Cup 生态垄断: 胶囊咖啡机占美国市场 60%+，K-Cup 耗材复购锁定用户",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "咖啡茶饮电器",
+          "signal_content": "意式咖啡机崛起: Breville/De'Longhi 主导高端（$400+），年轻人追求\"家庭咖啡师\"",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "咖啡茶饮电器",
+          "signal_content": "CN 品牌占比 3.3%（极低）: 咖啡机是\"品牌 + 咖啡文化\"品类，CN 品牌难突破",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\咖啡茶饮电器_深度分析v1.md",
+      "section_count": 16,
+      "table_row_count": 25
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "照明产品",
+      "status": "ready",
+      "category_judgment": "- **所有子品类 CN 占比都超过 70%**——照明是 CN 品牌最成功的品类（没有之一）",
+      "players": {
+        "top_overseas_brands": [
+          "Ring",
+          "Sunco Lighting",
+          "Brightech",
+          "Philips Hue",
+          "Miortior"
+        ],
+        "top_china_brands": [
+          "Govee",
+          "Amico",
+          "addlon",
+          "EZVALO",
+          "Brightown"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 88.4%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "户外照明产品",
+          "天花板灯具",
+          "灯具、底座和灯罩",
+          "壁灯装置",
+          "吊扇和灯"
+        ],
+        "representative_products": [
+          "户外照明产品 ($0.00B, CN 85.2%)",
+          "天花板灯具 ($0.00B, CN 76.9%)",
+          "灯具、底座和灯罩 ($0.00B, CN 84.3%)",
+          "壁灯装置 ($0.00B, CN 88.7%)",
+          "吊扇和灯 ($0.00B, CN 73.2%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "照明产品",
+          "signal_content": "CN 品牌绝对统治: 82.9% GMV 占比，**Amazon 所有品类中 CN 占比最高**",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "照明产品",
+          "signal_content": "LED 灯主导: 从白炽灯 → LED（节能 80%），LED 占比 90%+",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "照明产品",
+          "signal_content": "智能照明增长: 支持 Alexa/Google Home 的智能灯，增速 YoY +25%",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "照明产品",
+          "signal_content": "所有子品类 CN 占比都超过 70%: ——照明是 CN 品牌最成功的品类（没有之一）",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "照明产品",
+          "signal_content": "深圳/中山照明产业带: 全球 70%+ LED 灯泡产自中国",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\照明产品_深度分析v1.md",
+      "section_count": 17,
+      "table_row_count": 20
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "清洁电器",
+      "status": "ready",
+      "category_judgment": "- **扫地机器人 CN 占比 60%**：石头/科沃斯全球领先，技术超越 iRobot",
+      "players": {
+        "top_overseas_brands": [
+          "Shark",
+          "Bissell",
+          "Dyson",
+          "iRobot",
+          "BLACK+DECKER"
+        ],
+        "top_china_brands": [
+          "roborock",
+          "DREAME",
+          "Eureka",
+          "eufy",
+          "Tikom"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 39.0%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "家用真空吸尘器",
+          "地毯和室内装饰清洁剂及配件",
+          "蒸汽清洁器、蒸汽拖把和配件",
+          "真空零件和配件",
+          "车间干湿真空"
+        ],
+        "representative_products": [
+          "家用真空吸尘器 ($0.00B, CN 43.3%)",
+          "地毯和室内装饰清洁剂及配件 ($0.00B, CN 6.4%)",
+          "蒸汽清洁器、蒸汽拖把和配件 ($0.00B, CN 45.0%)",
+          "真空零件和配件 ($0.00B, CN 64.3%)",
+          "车间干湿真空 ($0.00B, CN 52.5%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "清洁电器",
+          "signal_content": "扫地机器人主导: iRobot Roomba/石头/科沃斯，占 Amazon 清洁电器 40%+",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "清洁电器",
+          "signal_content": "CN 品牌占比 41.7%: 石头/科沃斯在扫地机器人品类全球领先",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "清洁电器",
+          "signal_content": "Shark/Bissell 传统吸尘器: 有线吸尘器主导，但被 Dyson 无线 + CN 扫地机器人挤压",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "清洁电器",
+          "signal_content": "扫地机器人 CN 占比 60%: 石头/科沃斯全球领先，技术超越 iRobot",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "清洁电器",
+          "signal_content": "Dyson 无线吸尘器: $400-700 高端，CN 品牌做平替（$100-200）",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\清洁电器_深度分析v1.md",
+      "section_count": 17,
+      "table_row_count": 24
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "电视与视频显示",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "笔记本电脑",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "安防硬件",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "大家电与配件",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "台式与电脑打印机",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "显示器与电脑平板",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "影像设备",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "家庭音频与音响",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "穿戴式科技",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "汽车电子",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "耳机",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "监控与家庭安防摄像头",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "笔电与平板配件",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "美发造型电器",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "计算机网络",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "数据存储与外组件",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "户外便携电源储能",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Consumer Tech",
+      "l2": "录音与便携影音",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "FMCG",
+      "l2": "饮料",
+      "status": "ready",
+      "category_judgment": "- **所有子品类 CN 占比都 <2%**——饮料是 CN 品牌在美国市场**最难突破的品类之一**",
+      "players": {
+        "top_overseas_brands": [
+          "Nespresso",
+          "Starbucks",
+          "Core Power",
+          "CELSIUS",
+          "Green Mountain Coffee Roasters"
+        ],
+        "top_china_brands": [
+          "FullChea",
+          "TeeLux",
+          "ULTHMOK",
+          "PIPI TEA",
+          "Venture Pal"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 0.5%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "饮料",
+          "乳制品、鸡蛋和植物替代品",
+          "运动营养蛋白",
+          "运动营养电解质替代饮料",
+          "酒精饮料"
+        ],
+        "representative_products": [
+          "饮料 ($0.00B, CN 0.6%)",
+          "乳制品、鸡蛋和植物替代品 ($0.00B, CN 0.0%)",
+          "运动营养蛋白 ($0.00B, CN 0.0%)",
+          "运动营养电解质替代饮料 ($0.00B, CN 0.0%)",
+          "酒精饮料 ($0.00B, CN 0.0%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "饮料",
+          "signal_content": "Credence Research (2024): 美国功能性饮料市场 2024 年 $50B+，2024-2032 年持续增长[^1]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "饮料",
+          "signal_content": "Food & Beverage Report (2024): 能量饮料市场 2024 年 $35B，预计 2031 年达 $108.4B，CAGR 8.2%[^2]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "饮料",
+          "signal_content": "Market Screener (2024): 美国运动饮料市场 2024 年 $10B，2033 年达 $17.7B[^3]",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "饮料",
+          "signal_content": "咖啡豆/胶囊主导 Amazon: Nespresso/Starbucks 胶囊占比 30%+（vs 即饮咖啡在便利店）",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        },
+        {
+          "signal_type": "深度分析",
+          "brand_or_category": "饮料",
+          "signal_content": "能量/蛋白饮料增长: CELSIUS/Monster/Premier Protein，健身人群订阅补货",
+          "metric_or_evidence": "深度分析文档",
+          "pending_proof": "见源文档"
+        }
+      ],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\FMCG\\饮料_深度分析v1.md",
+      "section_count": 16,
+      "table_row_count": 51
+    },
+    {
+      "l1": "FMCG",
+      "l2": "婴儿耗材",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "FMCG",
+      "l2": "零食与糖果",
+      "status": "ready",
+      "category_judgment": "零食与糖果 | 美国 Amazon 市场深度分析 / 一、市场全景 / 二、核心洞察",
+      "players": {
+        "top_overseas_brands": [
+          "Quest",
+          "Frito Lay",
+          "365 by Whole Foods Market",
+          "Chomps",
+          "David"
+        ],
+        "top_china_brands": [
+          "ONETANG",
+          "DC24 DAILY CARE",
+          "LIDATREE",
+          "REISHIKING",
+          "EORA"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 0.2%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "零食和糖果",
+          "餐具室订书钉",
+          "面包和面包店",
+          "运动营养健康零食和饮料",
+          "餐饮礼品"
+        ],
+        "representative_products": [
+          "零食和糖果 ($0.00B, CN 0.2%)",
+          "餐具室订书钉 ($0.00B, CN 0.0%)",
+          "面包和面包店 ($0.00B, CN 0.0%)",
+          "运动营养健康零食和饮料 ($0.00B, CN 0.0%)",
+          "餐饮礼品 ($0.00B, CN 0.2%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\FMCG\\零食与糖果_深度分析v1.md",
+      "section_count": 4,
+      "table_row_count": 0
+    },
+    {
+      "l1": "FMCG",
+      "l2": "鲜食与日配",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "FMCG",
+      "l2": "纸品与一次性用品",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "FMCG",
+      "l2": "厨房储备食品",
+      "status": "ready",
+      "category_judgment": "厨房储备食品 | 美国 Amazon 市场深度分析 / 一、市场全景 / 二、核心洞察",
+      "players": {
+        "top_overseas_brands": [
+          "365 by Whole Foods Market",
+          "Amazon Grocery",
+          "Torani",
+          "Yupik",
+          "McCormick"
+        ],
+        "top_china_brands": [
+          "Healspot",
+          "Hznxolrc",
+          "ONETANG",
+          "Herbeklab",
+          "SUNGIVEN"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 1.1%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "餐具室订书钉",
+          "早餐食品",
+          "新鲜果蔬",
+          "饮料",
+          "零食和糖果"
+        ],
+        "representative_products": [
+          "餐具室订书钉 ($0.00B, CN 1.2%)",
+          "早餐食品 ($0.00B, CN 0.0%)",
+          "新鲜果蔬 ($0.00B, CN 4.5%)",
+          "饮料 ($0.00B, CN 0.5%)",
+          "零食和糖果 ($0.00B, CN 0.0%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\FMCG\\厨房储备食品_深度分析v1.md",
+      "section_count": 4,
+      "table_row_count": 0
+    },
+    {
+      "l1": "FMCG",
+      "l2": "家用清洁剂",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "FMCG",
+      "l2": "洗衣用品",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "FMCG",
+      "l2": "家用清洁工具",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "FMCG",
+      "l2": "洗碗用品",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "FMCG",
+      "l2": "家用电池",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "FMCG",
+      "l2": "餐饮礼品与酒精",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Health",
+      "l2": "运动营养",
+      "status": "ready",
+      "category_judgment": "运动营养 | 美国 Amazon 市场深度分析 / 一、市场全景 / 二、核心洞察",
+      "players": {
+        "top_overseas_brands": [
+          "Quest",
+          "Optimum Nutrition",
+          "Nutricost",
+          "THORNE",
+          "Dymatize"
+        ],
+        "top_china_brands": [
+          "Venture Pal",
+          "VOLTRX",
+          "Cytona",
+          "Asumtal",
+          "ZyterX"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 1.5%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "运动营养产品",
+          "运动营养耐力和能量产品",
+          "营养棒和饮料"
+        ],
+        "representative_products": [
+          "运动营养产品 ($4.06B, CN 1.6%)",
+          "运动营养耐力和能量产品 ($0.42B, CN 2.1%)",
+          "营养棒和饮料 ($0.36B, CN 0.0%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Health\\运动营养_深度分析v1.md",
+      "section_count": 4,
+      "table_row_count": 0
+    },
+    {
+      "l1": "Health",
+      "l2": "维生素补充剂基础",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Health",
+      "l2": "非处方药与急救",
+      "status": "ready",
+      "category_judgment": "非处方药与急救 | 美国 Amazon 市场深度分析 / 一、市场全景 / 二、核心洞察",
+      "players": {
+        "top_overseas_brands": [
+          "Amazon Basic Care",
+          "Tylenol",
+          "Vicks",
+          "HealthA2Z",
+          "Zyrtec"
+        ],
+        "top_china_brands": [
+          "Comfytemp",
+          "RENPHO",
+          "vilicert",
+          "AUVON",
+          "Deepsoon"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 14.8%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "非处方药",
+          "急救用品"
+        ],
+        "representative_products": [
+          "非处方药 ($1.92B, CN 5.1%)",
+          "急救用品 ($1.07B, CN 30.5%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Health\\非处方药与急救_深度分析v1.md",
+      "section_count": 4,
+      "table_row_count": 0
+    },
+    {
+      "l1": "Health",
+      "l2": "家用医疗设备",
+      "status": "ready",
+      "category_judgment": "家用医疗设备 | 美国 Amazon 市场深度分析 / 一、市场全景 / 二、核心洞察",
+      "players": {
+        "top_overseas_brands": [
+          "Drive Medical",
+          "Medline",
+          "VOCIC",
+          "Modvel",
+          "Vive"
+        ],
+        "top_china_brands": [
+          "HOMLAND",
+          "Cozyplayer",
+          "FREETOO",
+          "FEATOL",
+          "BlessReach"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 42.1%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "移动和日常生活辅助设备",
+          "支撑、夹板和支架",
+          "家庭医学测试",
+          "医用压缩衣",
+          "骨科用品"
+        ],
+        "representative_products": [
+          "移动和日常生活辅助设备 ($1.41B, CN 47.7%)",
+          "支撑、夹板和支架 ($0.57B, CN 35.3%)",
+          "家庭医学测试 ($0.19B, CN 3.0%)",
+          "医用压缩衣 ($0.08B, CN 30.2%)",
+          "骨科用品 ($0.05B, CN 60.9%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Health\\家用医疗设备_深度分析v1.md",
+      "section_count": 4,
+      "table_row_count": 0
+    },
+    {
+      "l1": "Health",
+      "l2": "肠胃消化睡眠酶",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Health",
+      "l2": "草药植物补充剂",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Health",
+      "l2": "失禁与女性保健",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Health",
+      "l2": "鱼油抗氧化胶原",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Health",
+      "l2": "替代医学与睡眠辅助",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Health",
+      "l2": "糖尿病与呼吸辅助",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Health",
+      "l2": "减肥与代餐",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Health",
+      "l2": "视觉护理",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Lifestyle",
+      "l2": "宠物用品",
+      "status": "ready",
+      "category_judgment": "宠物用品 | 美国 Amazon 市场深度分析 / 一、市场全景 / 二、核心洞察",
+      "players": {
+        "top_overseas_brands": [
+          "Purina Pro Plan",
+          "Fancy Feast",
+          "Purina ONE",
+          "Pro Plan Veterinary Diets",
+          "Hill’s Science Diet"
+        ],
+        "top_china_brands": [
+          "FXW",
+          "Bedsure",
+          "oneisall",
+          "EHEYCIGA",
+          "Tetra"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 26.4%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "猫粮",
+          "猫粪和入室行窃",
+          "猫零食",
+          "猫喂食和饮水用品",
+          "Cat卫生用品"
+        ],
+        "representative_products": [
+          "猫粮 ($0.00B, CN 0.3%)",
+          "猫粪和入室行窃 ($0.00B, CN 26.0%)",
+          "猫零食 ($0.00B, CN 1.6%)",
+          "猫喂食和饮水用品 ($0.00B, CN 46.1%)",
+          "Cat卫生用品 ($0.00B, CN 15.1%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Lifestyle\\宠物用品_深度分析v1.md",
+      "section_count": 4,
+      "table_row_count": 0
+    },
+    {
+      "l1": "Lifestyle",
+      "l2": "玩具",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Lifestyle",
+      "l2": "家庭存储与组织",
+      "status": "ready",
+      "category_judgment": "家庭存储与组织 | 美国 Amazon 市场深度分析 / 一、市场全景 / 二、核心洞察",
+      "players": {
+        "top_overseas_brands": [
+          "Owala",
+          "Glad",
+          "Sterilite",
+          "Amazon Basics",
+          "STANLEY"
+        ],
+        "top_china_brands": [
+          "Vtopmart",
+          "Vacbird",
+          "FYGRIP",
+          "Sakugi",
+          "Kitsure"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 48.1%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "服装和壁橱存储",
+          "食品储存",
+          "真空烧瓶",
+          "垃圾和回收容器",
+          "厨房架和支架"
+        ],
+        "representative_products": [
+          "服装和壁橱存储 ($0.00B, CN 65.9%)",
+          "食品储存 ($0.00B, CN 53.1%)",
+          "真空烧瓶 ($0.00B, CN 14.9%)",
+          "垃圾和回收容器 ($0.00B, CN 13.0%)",
+          "厨房架和支架 ($0.00B, CN 70.3%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Lifestyle\\家庭存储与组织_深度分析v1.md",
+      "section_count": 4,
+      "table_row_count": 0
+    },
+    {
+      "l1": "Lifestyle",
+      "l2": "运动服装与设备",
+      "status": "ready",
+      "category_judgment": "运动服装与设备 | 美国 Amazon 市场深度分析 / 一、市场全景 / 二、核心洞察",
+      "players": {
+        "top_overseas_brands": [
+          "Brooks",
+          "Under Armour",
+          "adidas",
+          "New Balance",
+          "ASICS"
+        ],
+        "top_china_brands": [
+          "CRZ YOGA",
+          "G Gradual",
+          "DJI",
+          "Insta360",
+          "Blooming Jelly"
+        ],
+        "china_brand_opportunity_position": "CN GMV占比 31.9%，优先看可参数化、可复购或可内容化的细分。",
+        "not_recommended_entry": "不要用旧 Beauty 总盘或玩家权重分摊判断进入价值；必须回到三级类目和品牌行。"
+      },
+      "products": {
+        "high_potential_l3": [
+          "女式时装",
+          "男士时装",
+          "瑜伽服装",
+          "自行车服装",
+          "徒步旅行服装"
+        ],
+        "representative_products": [
+          "女式时装 ($1.32B, CN 80.6%)",
+          "男士时装 ($0.93B, CN 47.4%)",
+          "瑜伽服装 ($0.43B, CN 91.8%)",
+          "自行车服装 ($0.28B, CN 59.5%)",
+          "徒步旅行服装 ($0.28B, CN 69.7%)"
+        ],
+        "price_band_buying_points": "价格带需从真实 ASIN/Listing 层继续下钻；当前为类目机会层。",
+        "service_entry_points": [
+          "类目深挖",
+          "玩家筛选",
+          "内容素材审计",
+          "价格带/评论壁垒分析"
+        ]
+      },
+      "signals": [],
+      "actions": {
+        "bd_followup_targets": [],
+        "recommended_services": [],
+        "pitch_direction": "",
+        "external_evidence_needed": "深度分析文档已生成，页面仅展示摘要；结论仍以治理底表和源文档为准。"
+      },
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Lifestyle\\运动服装与设备_深度分析v1.md",
+      "section_count": 4,
+      "table_row_count": 0
+    },
+    {
+      "l1": "Lifestyle",
+      "l2": "厨房非电器",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Lifestyle",
+      "l2": "健身设备",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Lifestyle",
+      "l2": "家具",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Lifestyle",
+      "l2": "户外娱乐",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    },
+    {
+      "l1": "Lifestyle",
+      "l2": "床上用品",
+      "status": "pending",
+      "category_judgment": "",
+      "players": null,
+      "products": null,
+      "signals": null,
+      "actions": null,
+      "source_path": ""
+    }
+  ]
+}
