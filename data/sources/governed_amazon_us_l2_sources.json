@@ -1,0 +1,654 @@
+{
+  "generated_at": "2026-06-04T12:16:18.295797",
+  "source_root": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表",
+  "records": [
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Beauty",
+      "standard_l2": "面部护理",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Beauty\\面部护理_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\面部护理_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Beauty",
+      "standard_l2": "头发护理",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Beauty\\头发护理_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\头发护理_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Beauty",
+      "standard_l2": "口腔护理",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Beauty\\口腔护理_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\口腔护理_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Beauty",
+      "standard_l2": "身体与防晒护理",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Beauty\\身体与防晒护理_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\身体与防晒护理_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Beauty",
+      "standard_l2": "彩妆",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Beauty\\彩妆_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\彩妆_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Beauty",
+      "standard_l2": "指甲与足部护理",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Beauty\\指甲与足部护理_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\指甲与足部护理_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Beauty",
+      "standard_l2": "剃须脱毛产品",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Beauty\\剃须脱毛产品_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\剃须脱毛产品_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Beauty",
+      "standard_l2": "美容工具与配件",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Beauty\\美容工具与配件_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\美容工具与配件_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Beauty",
+      "standard_l2": "香水",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Beauty\\香水_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\香水_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Beauty",
+      "standard_l2": "除臭与个护小品",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Beauty\\除臭与个护小品_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Beauty\\除臭与个护小品_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "手机与配件",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\手机与配件_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\手机与配件_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "计算机配件与外设",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\计算机配件与外设_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "视频游戏机与配件",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\视频游戏机与配件_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\视频游戏机与配件_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "厨房小家电",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\厨房小家电_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\厨房小家电_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "个护医疗电器",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\个护医疗电器_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\个护医疗电器_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "办公电子产品",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\办公电子产品_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\办公电子产品_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "暖通电器",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\暖通电器_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\暖通电器_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "电动工具",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\电动工具_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\电动工具_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "咖啡茶饮电器",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\咖啡茶饮电器_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\咖啡茶饮电器_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "照明产品",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\照明产品_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\照明产品_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "清洁电器",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\清洁电器_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Consumer Tech\\清洁电器_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "电视与视频显示",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\电视与视频显示_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "笔记本电脑",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\笔记本电脑_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "安防硬件",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\安防硬件_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "大家电与配件",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\大家电与配件_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "台式与电脑打印机",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\台式与电脑打印机_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "显示器与电脑平板",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\显示器与电脑平板_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "影像设备",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\影像设备_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "家庭音频与音响",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\家庭音频与音响_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "穿戴式科技",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\穿戴式科技_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "汽车电子",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\汽车电子_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "耳机",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\耳机_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "监控与家庭安防摄像头",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\监控与家庭安防摄像头_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "笔电与平板配件",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\笔电与平板配件_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "美发造型电器",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\美发造型电器_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "计算机网络",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\计算机网络_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "数据存储与外组件",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\数据存储与外组件_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "户外便携电源储能",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\户外便携电源储能_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Consumer Tech",
+      "standard_l2": "录音与便携影音",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Consumer Tech\\录音与便携影音_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "FMCG",
+      "standard_l2": "饮料",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\FMCG\\饮料_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\FMCG\\饮料_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "FMCG",
+      "standard_l2": "婴儿耗材",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\FMCG\\婴儿耗材_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "FMCG",
+      "standard_l2": "零食与糖果",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\FMCG\\零食与糖果_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\FMCG\\零食与糖果_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "FMCG",
+      "standard_l2": "鲜食与日配",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\FMCG\\鲜食与日配_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "FMCG",
+      "standard_l2": "纸品与一次性用品",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\FMCG\\纸品与一次性用品_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "FMCG",
+      "standard_l2": "厨房储备食品",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\FMCG\\厨房储备食品_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\FMCG\\厨房储备食品_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "FMCG",
+      "standard_l2": "家用清洁剂",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\FMCG\\家用清洁剂_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "FMCG",
+      "standard_l2": "洗衣用品",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\FMCG\\洗衣用品_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "FMCG",
+      "standard_l2": "家用清洁工具",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\FMCG\\家用清洁工具_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "FMCG",
+      "standard_l2": "洗碗用品",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\FMCG\\洗碗用品_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "FMCG",
+      "standard_l2": "家用电池",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\FMCG\\家用电池_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "FMCG",
+      "standard_l2": "餐饮礼品与酒精",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\FMCG\\餐饮礼品与酒精_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Health",
+      "standard_l2": "运动营养",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Health\\运动营养_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Health\\运动营养_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Health",
+      "standard_l2": "维生素补充剂基础",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Health\\维生素补充剂基础_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Health",
+      "standard_l2": "非处方药与急救",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Health\\非处方药与急救_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Health\\非处方药与急救_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Health",
+      "standard_l2": "家用医疗设备",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Health\\家用医疗设备_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Health\\家用医疗设备_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Health",
+      "standard_l2": "肠胃消化睡眠酶",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Health\\肠胃消化睡眠酶_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Health",
+      "standard_l2": "草药植物补充剂",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Health\\草药植物补充剂_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Health",
+      "standard_l2": "失禁与女性保健",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Health\\失禁与女性保健_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Health",
+      "standard_l2": "鱼油抗氧化胶原",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Health\\鱼油抗氧化胶原_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Health",
+      "standard_l2": "替代医学与睡眠辅助",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Health\\替代医学与睡眠辅助_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Health",
+      "standard_l2": "糖尿病与呼吸辅助",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Health\\糖尿病与呼吸辅助_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Health",
+      "standard_l2": "减肥与代餐",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Health\\减肥与代餐_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Health",
+      "standard_l2": "视觉护理",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Health\\视觉护理_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Lifestyle",
+      "standard_l2": "宠物用品",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Lifestyle\\宠物用品_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Lifestyle\\宠物用品_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Lifestyle",
+      "standard_l2": "玩具",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Lifestyle\\玩具_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Lifestyle",
+      "standard_l2": "家庭存储与组织",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Lifestyle\\家庭存储与组织_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Lifestyle\\家庭存储与组织_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Lifestyle",
+      "standard_l2": "运动服装与设备",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Lifestyle\\运动服装与设备_聚合底表v1.xlsx",
+      "deep_analysis_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\深度分析\\Lifestyle\\运动服装与设备_深度分析v1.md",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Lifestyle",
+      "standard_l2": "厨房非电器",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Lifestyle\\厨房非电器_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Lifestyle",
+      "standard_l2": "健身设备",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Lifestyle\\健身设备_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Lifestyle",
+      "standard_l2": "家具",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Lifestyle\\家具_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Lifestyle",
+      "standard_l2": "户外娱乐",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Lifestyle\\户外娱乐_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    },
+    {
+      "country": "US",
+      "platform": "Amazon",
+      "standard_l1": "Lifestyle",
+      "standard_l2": "床上用品",
+      "source_path": "Z:\\主线任务2-天眼计划\\行业专题研究\\底表治理\\聚合底表\\Lifestyle\\床上用品_聚合底表v1.xlsx",
+      "deep_analysis_path": "",
+      "source_layer": "governed_bottom_table"
+    }
+  ]
+}
