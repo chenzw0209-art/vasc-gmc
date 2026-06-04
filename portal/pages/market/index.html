@@ -101,19 +101,20 @@
       flex: 1;
       min-height: 0;
       overflow: auto;
-      padding: 10px 10px 16px;
+      padding: 10px 12px 16px;
     }
 
     .tree-group {
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
 
     .tree-l1 {
       display: flex;
       align-items: center;
+      justify-content: space-between;
       gap: 8px;
       width: 100%;
-      min-height: 34px;
+      height: 34px;
       border: 0;
       background: transparent;
       color: #0f172a;
@@ -122,6 +123,25 @@
       cursor: pointer;
       border-radius: 8px;
       padding: 0 10px;
+    }
+
+    .tree-l1 span {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .tree-l1 b {
+      flex: 0 0 auto;
+      min-width: 22px;
+      height: 20px;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 999px;
+      background: #f1f5f9;
+      color: #64748b;
+      font-size: 11px;
     }
 
     .tree-l1:hover,
@@ -134,24 +154,44 @@
       font-size: 12px;
     }
 
-    .tree-children {
+    .tree-l2-list {
       display: grid;
       gap: 4px;
       margin: 4px 0 8px;
-      padding-left: 12px;
+      padding-left: 10px;
+    }
+
+    .tree-group:not(.open) .tree-l2-list {
+      display: none;
     }
 
     .tree-l2 {
+      display: block;
       width: 100%;
-      min-height: 34px;
+      height: 32px;
       border: 0;
       border-radius: 8px;
       background: transparent;
       color: #1e293b;
       text-align: left;
       cursor: pointer;
-      padding: 7px 10px 7px 20px;
-      line-height: 1.35;
+      padding: 0 10px 0 16px;
+      line-height: 32px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .tree-l2 span {
+      display: block;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .tree-l2 em {
+      display: none;
     }
 
     .tree-l2.active {
@@ -1075,7 +1115,11 @@
     <aside class="research-sidebar">
       <header class="sidebar-head">
         <h1 class="sidebar-title">行业研究门户</h1>
-        <nav class="app-nav" aria-label="门户模块"></nav>
+        <nav class="app-nav" aria-label="门户模块">
+          <a href="../../index.html">周报</a>
+          <a href="../leads/">线索</a>
+          <a class="active" href="./">行业研究</a>
+        </nav>
       </header>
       <div class="industry-search-wrap">
         <input id="industry-search" type="search" placeholder="搜索一级行业 / 二级行业 / Top 品牌" />
