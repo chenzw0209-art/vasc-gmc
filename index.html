@@ -17,7 +17,7 @@
       </nav>
       <footer class="sidebar-foot">
         <span>数据来源：Softtime Amazon数据 / 公开数据</span>
-        <span>当前周次：2026-W23</span>
+        <span>当前周次：2026-W24</span>
       </footer>
     </aside>
 
@@ -29,7 +29,7 @@
             <p class="report-subtitle">情报周报 · Consumer Tech · Amazon美国站</p>
           </div>
           <select class="week-selector" aria-label="周次">
-            <option>周次：2026-W23（06.02 - 06.08）</option>
+            <option>周次：2026-W24（06.09 - 06.15）</option>
           </select>
         </header>
 
@@ -39,11 +39,13 @@
           <article class="data-card customer-table-card">
             <div class="card-title-row">
               <h2 class="card-title">本周重点关注客户 Top10</h2>
-              <select id="customer-extra-select" class="compact-select" aria-label="查看其余客户">
-                <option value="">查看其余客户</option>
-              </select>
+              <span class="rating-note">信源评级：A=官方/硬证据，B=权威/行业信源，C=弱信源待复核</span>
             </div>
             <div id="customer-table"></div>
+            <details id="customer-extra-panel" class="extra-panel">
+              <summary>其余客户</summary>
+              <div id="customer-extra-list" class="extra-customer-list"></div>
+            </details>
           </article>
         </section>
 
