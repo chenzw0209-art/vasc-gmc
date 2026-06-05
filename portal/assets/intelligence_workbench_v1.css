@@ -949,12 +949,15 @@ a { color: inherit; text-decoration: none; }
 
 .weekly-page .col-rank { width: 34px; }
 .weekly-page .col-brand { width: 120px; }
+.weekly-page .col-owner { width: 120px; }
 .weekly-page .col-country { width: 48px; }
 .weekly-page .col-industry { width: 96px; }
 .weekly-page .col-category { width: 110px; }
+.weekly-page .col-channel { width: 112px; }
 .weekly-page .col-date { width: 80px; }
 .weekly-page .col-type { width: 72px; }
 .weekly-page .col-summary { width: auto; }
+.weekly-page .col-attention { width: 132px; }
 .weekly-page .col-quality { width: 58px; }
 
 .weekly-page .brand-cell {

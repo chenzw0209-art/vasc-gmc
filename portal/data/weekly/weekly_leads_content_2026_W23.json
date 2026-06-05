@@ -1,0 +1,2906 @@
+{
+  "generated_at": "2026-06-05",
+  "source_workbook": "Z:\\增长分析中台\\线索采集-agent\\周度抓取结果\\2026-W23_客户动态候选.xlsx",
+  "rule_sources": [
+    "Z:\\??????\\????-agent\\????????_???.md",
+    "Z:\\??????\\????-agent\\growth-intelligence-portal\\docs\\weekly_copywriting_guidelines_v1.md"
+  ],
+  "weekly_module_content": {
+    "week": "2026-W23",
+    "top_summary": "W23建议关注智能追踪器/移动电源、充电器/磁吸移动电源方向，客户信号聚焦商品与应用动态，同步关注本周/下周展会窗口。",
+    "kpis": {
+      "focus_customer_count": 10,
+      "new_customer_signal_count": 30,
+      "this_week_exhibition_count": 0,
+      "next_week_exhibition_count": 0
+    },
+    "focus_customers": [
+      {
+        "candidate_id": "C001",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "手机与配件",
+        "standard_l2": "智能追踪器/移动电源",
+        "application_product_name": "UGREEN Game Day Kit",
+        "owner_company_brand": "UGREEN",
+        "target_market_channel": "美国Amazon/UGREEN官方店/FIFA Fan Festival LA",
+        "dynamic_type": "新品上市/线下活动",
+        "dynamic_date": "2026-06-01",
+        "dynamic_summary": "UGREEN发布Game Day Kit，绑定美国赛事场景",
+        "attention_point": "美国赛事内容、Amazon转化",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/ugreen-unveils-the-game-day-kit--a-soccer-ball-shaped-tracker-and-fast-charging-essentials-for-every-game-day-and-beyond-302781650.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "单一商品线；海外渠道明确",
+        "source_count": "2"
+      },
+      {
+        "candidate_id": "C002",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "手机与配件",
+        "standard_l2": "充电器/磁吸移动电源",
+        "application_product_name": "UGREEN Nexode / MagFlow Air Editions",
+        "owner_company_brand": "UGREEN",
+        "target_market_channel": "欧洲Amazon/UGREEN官网；新加坡/菲律宾官网",
+        "dynamic_type": "新品上市/区域发布",
+        "dynamic_date": "2026-06-01",
+        "dynamic_summary": "UGREEN欧洲/东南亚上新Air系列配件",
+        "attention_point": "欧洲/东南亚上新、旅行场景",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/ugreen-unveils-new-charger-solutions-and-trackers-for-lightweight-worry-free-summer-travel-302786933.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "同品牌不同商品线；可与C001合并账户",
+        "source_count": "2"
+      },
+      {
+        "candidate_id": "C017",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "游戏",
+        "standard_l2": "二次元/开放世界",
+        "application_product_name": "Azur Promilia",
+        "owner_company_brand": "Manjuu / Yostar",
+        "target_market_channel": "日本/全球",
+        "dynamic_type": "CBT/官网动态",
+        "dynamic_date": "2026-06-02",
+        "dynamic_summary": "Azur Promilia日区CBT页面释放测试动态",
+        "attention_point": "日本本地化、预注册",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "Azur Promilia JP Official",
+        "primary_source_url": "https://azurpromilia.jp/cbt/",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "官方站优先",
+        "source_count": "2"
+      },
+      {
+        "candidate_id": "C027",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "平台",
+        "standard_l2": "跨境电商App",
+        "application_product_name": "AliExpress",
+        "owner_company_brand": "Alibaba International / AliExpress",
+        "target_market_channel": "美国/俄罗斯/巴西",
+        "dynamic_type": "大促/商店更新",
+        "dynamic_date": "2026-06-01",
+        "dynamic_summary": "AliExpress美国夏季大促强化Brand+直播",
+        "attention_point": "Brand+商家、美国直播",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "AliExpress PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/aliexpress-launches-summer-sale-featuring-brand-sellers-and-creator-led-livestreams-302786872.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "应用+平台活动明确",
+        "source_count": "2"
+      },
+      {
+        "candidate_id": "C003",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "家用电器",
+        "standard_l2": "清洁电器",
+        "application_product_name": "Dreame Aero Pro Steam Vacuum Mop",
+        "owner_company_brand": "Dreame Technology",
+        "target_market_channel": "美国Amazon/Dreame官网",
+        "dynamic_type": "新品上市",
+        "dynamic_date": "2026-06-01",
+        "dynamic_summary": "Dreame美国上新Aero Pro蒸汽洗地机",
+        "attention_point": "美国Amazon新品、清洁测评",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/dreame-unveils-aero-pro-steam-delivering-smart-chemical-free-deep-cleaning-steam-power-for-whole-home-hygiene-302785495.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "标准商品线索",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C004",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "家用电器",
+        "standard_l2": "扫地机器人/清洁电器",
+        "application_product_name": "Roborock Saros 20 Sonic",
+        "owner_company_brand": "Roborock",
+        "target_market_channel": "日本/越南/APAC渠道",
+        "dynamic_type": "新品发布/品牌活动",
+        "dynamic_date": "2026-05-26",
+        "dynamic_summary": "Roborock东京发布Saros新品并联动皇马",
+        "attention_point": "APAC发布、足球IP联名",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/roborock-unveils-new-flagship-product-lineup-and-hosts-where-the-greatest-meet-football-event-in-partnership-with-real-madrid-302781605.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "海外活动与商品均明确",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C005",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "家用电器",
+        "standard_l2": "清洁电器",
+        "application_product_name": "Tineco GO HammerHead MessDetect Mop&Vacuum",
+        "owner_company_brand": "Tineco",
+        "target_market_channel": "美国",
+        "dynamic_type": "新品/产品教育",
+        "dynamic_date": "2026-06-04",
+        "dynamic_summary": "Tineco发布GO HammerHead清洁技术内容",
+        "attention_point": "美国家庭清洁、测评达人",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/the-end-of-trial-and-error-cleaning-why-consumers-expect-more-from-floor-care-technology-302788666.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "产品名明确；偏内容稿但可用",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C006",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "家用电器",
+        "standard_l2": "家庭储能/备用电源",
+        "application_product_name": "BLUETTI FridgePower",
+        "owner_company_brand": "BLUETTI",
+        "target_market_channel": "美国/全球零售",
+        "dynamic_type": "众筹转零售",
+        "dynamic_date": "2026-05-29",
+        "dynamic_summary": "BLUETTI众筹转零售，启动全球发货",
+        "attention_point": "众筹转零售、备电场景",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/bluetti-fridgepower-hits-2m-milestone-and-global-award-ahead-of-retail-launch-302785682.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "商品与渠道明确",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C008",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "计算机与配件",
+        "standard_l2": "显示器",
+        "application_product_name": "HKC Shield C83U60",
+        "owner_company_brand": "HKC",
+        "target_market_channel": "COMPUTEX Taipei/全球渠道",
+        "dynamic_type": "展会新品",
+        "dynamic_date": "2026-05-28",
+        "dynamic_summary": "HKC将在COMPUTEX展示Shield新品",
+        "attention_point": "COMPUTEX展后、显示渠道",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/hkc-corporation-limited-to-showcase-world-first-display-technologies-from-hkc-antgamer-and-koorui-at-computex-taipei-2026-302784032.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "单个显示器产品，非AR",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C009",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "计算机与配件",
+        "standard_l2": "电竞显示器",
+        "application_product_name": "ANTGAMER 1000Hz/1080Hz esports monitors",
+        "owner_company_brand": "ANTGAMER / HKC",
+        "target_market_channel": "COMPUTEX Taipei/全球渠道",
+        "dynamic_type": "展会新品",
+        "dynamic_date": "2026-05-28",
+        "dynamic_summary": "ANTGAMER展示高刷新电竞显示器",
+        "attention_point": "电竞KOL、海外显示器媒体",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/hkc-corporation-limited-to-showcase-world-first-display-technologies-from-hkc-antgamer-and-koorui-at-computex-taipei-2026-302784032.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "同一信源拆分为单品牌/商品线",
+        "source_count": "1"
+      }
+    ],
+    "industry_brief_by_industry": {
+      "智能追踪器/移动电源": {
+        "industry": "智能追踪器/移动电源",
+        "lead_count": 1,
+        "top_applications": [
+          "UGREEN Game Day Kit"
+        ],
+        "dynamic_types": {
+          "新品上市/线下活动": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C001",
+            "application_product_name": "UGREEN Game Day Kit",
+            "dynamic_summary": "UGREEN发布Game Day Kit，绑定美国赛事场景",
+            "attention_point": "美国赛事内容、Amazon转化",
+            "source_grade": "A"
+          }
+        ]
+      },
+      "充电器/磁吸移动电源": {
+        "industry": "充电器/磁吸移动电源",
+        "lead_count": 1,
+        "top_applications": [
+          "UGREEN Nexode / MagFlow Air Editions"
+        ],
+        "dynamic_types": {
+          "新品上市/区域发布": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C002",
+            "application_product_name": "UGREEN Nexode / MagFlow Air Editions",
+            "dynamic_summary": "UGREEN欧洲/东南亚上新Air系列配件",
+            "attention_point": "欧洲/东南亚上新、旅行场景",
+            "source_grade": "A"
+          }
+        ]
+      },
+      "清洁电器": {
+        "industry": "清洁电器",
+        "lead_count": 2,
+        "top_applications": [
+          "Dreame Aero Pro Steam Vacuum Mop",
+          "Tineco GO HammerHead MessDetect Mop&Vacuum"
+        ],
+        "dynamic_types": {
+          "新品上市": 1,
+          "新品/产品教育": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C003",
+            "application_product_name": "Dreame Aero Pro Steam Vacuum Mop",
+            "dynamic_summary": "Dreame美国上新Aero Pro蒸汽洗地机",
+            "attention_point": "美国Amazon新品、清洁测评",
+            "source_grade": "A"
+          },
+          {
+            "candidate_id": "C005",
+            "application_product_name": "Tineco GO HammerHead MessDetect Mop&Vacuum",
+            "dynamic_summary": "Tineco发布GO HammerHead清洁技术内容",
+            "attention_point": "美国家庭清洁、测评达人",
+            "source_grade": "A"
+          }
+        ]
+      },
+      "扫地机器人/清洁电器": {
+        "industry": "扫地机器人/清洁电器",
+        "lead_count": 1,
+        "top_applications": [
+          "Roborock Saros 20 Sonic"
+        ],
+        "dynamic_types": {
+          "新品发布/品牌活动": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C004",
+            "application_product_name": "Roborock Saros 20 Sonic",
+            "dynamic_summary": "Roborock东京发布Saros新品并联动皇马",
+            "attention_point": "APAC发布、足球IP联名",
+            "source_grade": "A"
+          }
+        ]
+      },
+      "家庭储能/备用电源": {
+        "industry": "家庭储能/备用电源",
+        "lead_count": 1,
+        "top_applications": [
+          "BLUETTI FridgePower"
+        ],
+        "dynamic_types": {
+          "众筹转零售": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C006",
+            "application_product_name": "BLUETTI FridgePower",
+            "dynamic_summary": "BLUETTI众筹转零售，启动全球发货",
+            "attention_point": "众筹转零售、备电场景",
+            "source_grade": "A"
+          }
+        ]
+      },
+      "耳机/音频设备": {
+        "industry": "耳机/音频设备",
+        "lead_count": 1,
+        "top_applications": [
+          "soundcore Liberty 5 Pro Series"
+        ],
+        "dynamic_types": {
+          "新品发布": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C007",
+            "application_product_name": "soundcore Liberty 5 Pro Series",
+            "dynamic_summary": "soundcore东南亚推出Liberty 5 Pro",
+            "attention_point": "东南亚发布、AI耳机卖点",
+            "source_grade": "B"
+          }
+        ]
+      },
+      "显示器": {
+        "industry": "显示器",
+        "lead_count": 2,
+        "top_applications": [
+          "HKC Shield C83U60",
+          "KOORUI S2741LM / S4941XO monitors"
+        ],
+        "dynamic_types": {
+          "展会新品": 2
+        },
+        "signals": [
+          {
+            "candidate_id": "C008",
+            "application_product_name": "HKC Shield C83U60",
+            "dynamic_summary": "HKC将在COMPUTEX展示Shield新品",
+            "attention_point": "COMPUTEX展后、显示渠道",
+            "source_grade": "A"
+          },
+          {
+            "candidate_id": "C010",
+            "application_product_name": "KOORUI S2741LM / S4941XO monitors",
+            "dynamic_summary": "KOORUI展示Mini LED与OLED显示器",
+            "attention_point": "显示器评测、区域渠道",
+            "source_grade": "A"
+          }
+        ]
+      },
+      "电竞显示器": {
+        "industry": "电竞显示器",
+        "lead_count": 1,
+        "top_applications": [
+          "ANTGAMER 1000Hz/1080Hz esports monitors"
+        ],
+        "dynamic_types": {
+          "展会新品": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C009",
+            "application_product_name": "ANTGAMER 1000Hz/1080Hz esports monitors",
+            "dynamic_summary": "ANTGAMER展示高刷新电竞显示器",
+            "attention_point": "电竞KOL、海外显示器媒体",
+            "source_grade": "A"
+          }
+        ]
+      },
+      "桌面CNC/创客工具": {
+        "industry": "桌面CNC/创客工具",
+        "lead_count": 1,
+        "top_applications": [
+          "Makera Z1"
+        ],
+        "dynamic_types": {
+          "展会获奖/全球预购": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C011",
+            "application_product_name": "Makera Z1",
+            "dynamic_summary": "Makera Z1获奖后启动全球预购",
+            "attention_point": "创客社区、预购转化",
+            "source_grade": "A"
+          }
+        ]
+      },
+      "潮玩/IP手办": {
+        "industry": "潮玩/IP手办",
+        "lead_count": 1,
+        "top_applications": [
+          "MINISO YOYO life-sized figures / Surprise Icon Box"
+        ],
+        "dynamic_types": {
+          "IP展览/商品化": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C012",
+            "application_product_name": "MINISO YOYO life-sized figures / Surprise Icon Box",
+            "dynamic_summary": "MINISO纽约举办YOYO大型艺术展",
+            "attention_point": "北美IP商品化、线下快闪",
+            "source_grade": "A"
+          }
+        ]
+      },
+      "乳制品/婴幼儿营养": {
+        "industry": "乳制品/婴幼儿营养",
+        "lead_count": 1,
+        "top_applications": [
+          "Yili Global Innovation Vanguard / Jinlingguan"
+        ],
+        "dynamic_types": {
+          "全球创新合作": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C013",
+            "application_product_name": "Yili Global Innovation Vanguard / Jinlingguan",
+            "dynamic_summary": "伊利在剑桥启动全球创新合作",
+            "attention_point": "海外研发背书、乳制品传播",
+            "source_grade": "A"
+          }
+        ]
+      },
+      "3D打印机": {
+        "industry": "3D打印机",
+        "lead_count": 1,
+        "top_applications": [
+          "Anycubic Kobra 4"
+        ],
+        "dynamic_types": {
+          "平台活动/商品推广": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C014",
+            "application_product_name": "Anycubic Kobra 4",
+            "dynamic_summary": "Anycubic Kobra 4进入AliExpress大促",
+            "attention_point": "Brand+大促、3D打印测评",
+            "source_grade": "A"
+          }
+        ]
+      },
+      "工具/商用设备": {
+        "industry": "工具/商用设备",
+        "lead_count": 1,
+        "top_applications": [
+          "VEVOR Brand+ summer sale products"
+        ],
+        "dynamic_types": {
+          "平台活动/渠道推广": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C015",
+            "application_product_name": "VEVOR Brand+ summer sale products",
+            "dynamic_summary": "VEVOR进入AliExpress Brand+夏季促销",
+            "attention_point": "美国工具类内容、平台大促",
+            "source_grade": "A"
+          }
+        ]
+      },
+      "动作/ARPG": {
+        "industry": "动作/ARPG",
+        "lead_count": 1,
+        "top_applications": [
+          "Phantom Blade Zero"
+        ],
+        "dynamic_types": {
+          "实机/档期动态": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C016",
+            "application_product_name": "Phantom Blade Zero",
+            "dynamic_summary": "Phantom Blade Zero海外实机热度延续",
+            "attention_point": "主机游戏内容、愿望单增长",
+            "source_grade": "B"
+          }
+        ]
+      },
+      "二次元/开放世界": {
+        "industry": "二次元/开放世界",
+        "lead_count": 1,
+        "top_applications": [
+          "Azur Promilia"
+        ],
+        "dynamic_types": {
+          "CBT/官网动态": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C017",
+            "application_product_name": "Azur Promilia",
+            "dynamic_summary": "Azur Promilia日区CBT页面释放测试动态",
+            "attention_point": "日本本地化、预注册",
+            "source_grade": "A"
+          }
+        ]
+      },
+      "叙事动作/主机": {
+        "industry": "叙事动作/主机",
+        "lead_count": 1,
+        "top_applications": [
+          "Blood Message"
+        ],
+        "dynamic_types": {
+          "展会/实机曝光": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C018",
+            "application_product_name": "Blood Message",
+            "dynamic_summary": "Blood Message夏季展示期获得海外曝光",
+            "attention_point": "首曝复盘、主机社区",
+            "source_grade": "B"
+          }
+        ]
+      },
+      "开放世界/都市": {
+        "industry": "开放世界/都市",
+        "lead_count": 2,
+        "top_applications": [
+          "Neverness to Everness",
+          "Wangyue"
+        ],
+        "dynamic_types": {
+          "版本更新/实机内容": 1,
+          "实机视频/媒体动态": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C019",
+            "application_product_name": "Neverness to Everness",
+            "dynamic_summary": "Neverness to Everness海外更新内容曝光",
+            "attention_point": "版本营销、海外社区",
+            "source_grade": "B"
+          },
+          {
+            "candidate_id": "C020",
+            "application_product_name": "Wangyue",
+            "dynamic_summary": "Wangyue新实机画面进入海外预热",
+            "attention_point": "预约增长、海外社媒",
+            "source_grade": "B"
+          }
+        ]
+      },
+      "视频剪辑": {
+        "industry": "视频剪辑",
+        "lead_count": 1,
+        "top_applications": [
+          "CapCut"
+        ],
+        "dynamic_types": {
+          "商店更新/榜单动态": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C021",
+            "application_product_name": "CapCut",
+            "dynamic_summary": "CapCut更新并维持海外视频榜单活跃",
+            "attention_point": "创作者工具、订阅转化",
+            "source_grade": "B"
+          }
+        ]
+      },
+      "AI视频生成": {
+        "industry": "AI视频生成",
+        "lead_count": 2,
+        "top_applications": [
+          "Kling AI",
+          "Hailuo AI"
+        ],
+        "dynamic_types": {
+          "投融资消息": 1,
+          "产品/商业化观察": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C022",
+            "application_product_name": "Kling AI",
+            "dynamic_summary": "Kling AI融资动态强化AI视频出海信号",
+            "attention_point": "AI视频生态、订阅商业化",
+            "source_grade": "B"
+          },
+          {
+            "candidate_id": "C024",
+            "application_product_name": "Hailuo AI",
+            "dynamic_summary": "Hailuo AI海外工具页呈现商业化信号",
+            "attention_point": "AI视频订阅、创作者教育",
+            "source_grade": "C"
+          }
+        ]
+      },
+      "大模型/AI助手": {
+        "industry": "大模型/AI助手",
+        "lead_count": 1,
+        "top_applications": [
+          "DeepSeek"
+        ],
+        "dynamic_types": {
+          "投融资消息": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C023",
+            "application_product_name": "DeepSeek",
+            "dynamic_summary": "DeepSeek新融资传闻带动海外开发者关注",
+            "attention_point": "API生态、开发者增长",
+            "source_grade": "B"
+          }
+        ]
+      },
+      "生活方式社区": {
+        "industry": "生活方式社区",
+        "lead_count": 1,
+        "top_applications": [
+          "Lemon8"
+        ],
+        "dynamic_types": {
+          "商店更新/榜单动态": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C025",
+            "application_product_name": "Lemon8",
+            "dynamic_summary": "Lemon8更新并保持美国生活方式榜单活跃",
+            "attention_point": "生活方式社区、创作者招募",
+            "source_grade": "B"
+          }
+        ]
+      },
+      "跨境电商App": {
+        "industry": "跨境电商App",
+        "lead_count": 3,
+        "top_applications": [
+          "Temu",
+          "AliExpress",
+          "AliExpress Shopping App"
+        ],
+        "dynamic_types": {
+          "商店更新/榜单动态": 1,
+          "大促/商店更新": 1,
+          "商店更新/平台活跃": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C026",
+            "application_product_name": "Temu",
+            "dynamic_summary": "Temu更新并维持美国购物榜单活跃",
+            "attention_point": "平台卖家池、站外增长",
+            "source_grade": "B"
+          },
+          {
+            "candidate_id": "C027",
+            "application_product_name": "AliExpress",
+            "dynamic_summary": "AliExpress美国夏季大促强化Brand+直播",
+            "attention_point": "Brand+商家、美国直播",
+            "source_grade": "A"
+          },
+          {
+            "candidate_id": "C030",
+            "application_product_name": "AliExpress Shopping App",
+            "dynamic_summary": "AliExpress购物App美国页更新保持活跃",
+            "attention_point": "购物App增长、直播转化",
+            "source_grade": "B"
+          }
+        ]
+      },
+      "AI支付/Agent支付": {
+        "industry": "AI支付/Agent支付",
+        "lead_count": 1,
+        "top_applications": [
+          "Alipay Agent Payment Tools"
+        ],
+        "dynamic_types": {
+          "产品发布": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C028",
+            "application_product_name": "Alipay Agent Payment Tools",
+            "dynamic_summary": "支付宝推出面向AI agents的支付工具",
+            "attention_point": "AI支付、agent commerce教育",
+            "source_grade": "B"
+          }
+        ]
+      },
+      "跨境支付网络": {
+        "industry": "跨境支付网络",
+        "lead_count": 1,
+        "top_applications": [
+          "Weixin Pay / TenPay Global"
+        ],
+        "dynamic_types": {
+          "合作拓展": 1
+        },
+        "signals": [
+          {
+            "candidate_id": "C029",
+            "application_product_name": "Weixin Pay / TenPay Global",
+            "dynamic_summary": "微信支付扩大中亚跨境支付网络",
+            "attention_point": "旅游支付、钱包互联",
+            "source_grade": "A"
+          }
+        ]
+      }
+    },
+    "similar_customers_by_candidate": {
+      "C001": [
+        {
+          "candidate_id": "C002",
+          "application_product_name": "UGREEN Nexode / MagFlow Air Editions",
+          "owner_company_brand": "UGREEN",
+          "target_market_channel": "欧洲Amazon/UGREEN官网；新加坡/菲律宾官网",
+          "dynamic_type": "新品上市/区域发布",
+          "dynamic_date": "2026-06-01",
+          "dynamic_summary": "UGREEN欧洲/东南亚上新Air系列配件",
+          "source_grade": "A"
+        }
+      ],
+      "C002": [
+        {
+          "candidate_id": "C001",
+          "application_product_name": "UGREEN Game Day Kit",
+          "owner_company_brand": "UGREEN",
+          "target_market_channel": "美国Amazon/UGREEN官方店/FIFA Fan Festival LA",
+          "dynamic_type": "新品上市/线下活动",
+          "dynamic_date": "2026-06-01",
+          "dynamic_summary": "UGREEN发布Game Day Kit，绑定美国赛事场景",
+          "source_grade": "A"
+        }
+      ],
+      "C003": [
+        {
+          "candidate_id": "C004",
+          "application_product_name": "Roborock Saros 20 Sonic",
+          "owner_company_brand": "Roborock",
+          "target_market_channel": "日本/越南/APAC渠道",
+          "dynamic_type": "新品发布/品牌活动",
+          "dynamic_date": "2026-05-26",
+          "dynamic_summary": "Roborock东京发布Saros新品并联动皇马",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C005",
+          "application_product_name": "Tineco GO HammerHead MessDetect Mop&Vacuum",
+          "owner_company_brand": "Tineco",
+          "target_market_channel": "美国",
+          "dynamic_type": "新品/产品教育",
+          "dynamic_date": "2026-06-04",
+          "dynamic_summary": "Tineco发布GO HammerHead清洁技术内容",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C006",
+          "application_product_name": "BLUETTI FridgePower",
+          "owner_company_brand": "BLUETTI",
+          "target_market_channel": "美国/全球零售",
+          "dynamic_type": "众筹转零售",
+          "dynamic_date": "2026-05-29",
+          "dynamic_summary": "BLUETTI众筹转零售，启动全球发货",
+          "source_grade": "A"
+        }
+      ],
+      "C004": [
+        {
+          "candidate_id": "C003",
+          "application_product_name": "Dreame Aero Pro Steam Vacuum Mop",
+          "owner_company_brand": "Dreame Technology",
+          "target_market_channel": "美国Amazon/Dreame官网",
+          "dynamic_type": "新品上市",
+          "dynamic_date": "2026-06-01",
+          "dynamic_summary": "Dreame美国上新Aero Pro蒸汽洗地机",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C005",
+          "application_product_name": "Tineco GO HammerHead MessDetect Mop&Vacuum",
+          "owner_company_brand": "Tineco",
+          "target_market_channel": "美国",
+          "dynamic_type": "新品/产品教育",
+          "dynamic_date": "2026-06-04",
+          "dynamic_summary": "Tineco发布GO HammerHead清洁技术内容",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C006",
+          "application_product_name": "BLUETTI FridgePower",
+          "owner_company_brand": "BLUETTI",
+          "target_market_channel": "美国/全球零售",
+          "dynamic_type": "众筹转零售",
+          "dynamic_date": "2026-05-29",
+          "dynamic_summary": "BLUETTI众筹转零售，启动全球发货",
+          "source_grade": "A"
+        }
+      ],
+      "C005": [
+        {
+          "candidate_id": "C003",
+          "application_product_name": "Dreame Aero Pro Steam Vacuum Mop",
+          "owner_company_brand": "Dreame Technology",
+          "target_market_channel": "美国Amazon/Dreame官网",
+          "dynamic_type": "新品上市",
+          "dynamic_date": "2026-06-01",
+          "dynamic_summary": "Dreame美国上新Aero Pro蒸汽洗地机",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C004",
+          "application_product_name": "Roborock Saros 20 Sonic",
+          "owner_company_brand": "Roborock",
+          "target_market_channel": "日本/越南/APAC渠道",
+          "dynamic_type": "新品发布/品牌活动",
+          "dynamic_date": "2026-05-26",
+          "dynamic_summary": "Roborock东京发布Saros新品并联动皇马",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C006",
+          "application_product_name": "BLUETTI FridgePower",
+          "owner_company_brand": "BLUETTI",
+          "target_market_channel": "美国/全球零售",
+          "dynamic_type": "众筹转零售",
+          "dynamic_date": "2026-05-29",
+          "dynamic_summary": "BLUETTI众筹转零售，启动全球发货",
+          "source_grade": "A"
+        }
+      ],
+      "C006": [
+        {
+          "candidate_id": "C003",
+          "application_product_name": "Dreame Aero Pro Steam Vacuum Mop",
+          "owner_company_brand": "Dreame Technology",
+          "target_market_channel": "美国Amazon/Dreame官网",
+          "dynamic_type": "新品上市",
+          "dynamic_date": "2026-06-01",
+          "dynamic_summary": "Dreame美国上新Aero Pro蒸汽洗地机",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C004",
+          "application_product_name": "Roborock Saros 20 Sonic",
+          "owner_company_brand": "Roborock",
+          "target_market_channel": "日本/越南/APAC渠道",
+          "dynamic_type": "新品发布/品牌活动",
+          "dynamic_date": "2026-05-26",
+          "dynamic_summary": "Roborock东京发布Saros新品并联动皇马",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C005",
+          "application_product_name": "Tineco GO HammerHead MessDetect Mop&Vacuum",
+          "owner_company_brand": "Tineco",
+          "target_market_channel": "美国",
+          "dynamic_type": "新品/产品教育",
+          "dynamic_date": "2026-06-04",
+          "dynamic_summary": "Tineco发布GO HammerHead清洁技术内容",
+          "source_grade": "A"
+        }
+      ],
+      "C007": [],
+      "C008": [
+        {
+          "candidate_id": "C009",
+          "application_product_name": "ANTGAMER 1000Hz/1080Hz esports monitors",
+          "owner_company_brand": "ANTGAMER / HKC",
+          "target_market_channel": "COMPUTEX Taipei/全球渠道",
+          "dynamic_type": "展会新品",
+          "dynamic_date": "2026-05-28",
+          "dynamic_summary": "ANTGAMER展示高刷新电竞显示器",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C010",
+          "application_product_name": "KOORUI S2741LM / S4941XO monitors",
+          "owner_company_brand": "KOORUI / HKC",
+          "target_market_channel": "COMPUTEX Taipei/全球渠道",
+          "dynamic_type": "展会新品",
+          "dynamic_date": "2026-05-28",
+          "dynamic_summary": "KOORUI展示Mini LED与OLED显示器",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C014",
+          "application_product_name": "Anycubic Kobra 4",
+          "owner_company_brand": "Anycubic",
+          "target_market_channel": "AliExpress Brand+ / 美国消费者",
+          "dynamic_type": "平台活动/商品推广",
+          "dynamic_date": "2026-06-01",
+          "dynamic_summary": "Anycubic Kobra 4进入AliExpress大促",
+          "source_grade": "A"
+        }
+      ],
+      "C009": [
+        {
+          "candidate_id": "C008",
+          "application_product_name": "HKC Shield C83U60",
+          "owner_company_brand": "HKC",
+          "target_market_channel": "COMPUTEX Taipei/全球渠道",
+          "dynamic_type": "展会新品",
+          "dynamic_date": "2026-05-28",
+          "dynamic_summary": "HKC将在COMPUTEX展示Shield新品",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C010",
+          "application_product_name": "KOORUI S2741LM / S4941XO monitors",
+          "owner_company_brand": "KOORUI / HKC",
+          "target_market_channel": "COMPUTEX Taipei/全球渠道",
+          "dynamic_type": "展会新品",
+          "dynamic_date": "2026-05-28",
+          "dynamic_summary": "KOORUI展示Mini LED与OLED显示器",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C014",
+          "application_product_name": "Anycubic Kobra 4",
+          "owner_company_brand": "Anycubic",
+          "target_market_channel": "AliExpress Brand+ / 美国消费者",
+          "dynamic_type": "平台活动/商品推广",
+          "dynamic_date": "2026-06-01",
+          "dynamic_summary": "Anycubic Kobra 4进入AliExpress大促",
+          "source_grade": "A"
+        }
+      ],
+      "C010": [
+        {
+          "candidate_id": "C008",
+          "application_product_name": "HKC Shield C83U60",
+          "owner_company_brand": "HKC",
+          "target_market_channel": "COMPUTEX Taipei/全球渠道",
+          "dynamic_type": "展会新品",
+          "dynamic_date": "2026-05-28",
+          "dynamic_summary": "HKC将在COMPUTEX展示Shield新品",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C009",
+          "application_product_name": "ANTGAMER 1000Hz/1080Hz esports monitors",
+          "owner_company_brand": "ANTGAMER / HKC",
+          "target_market_channel": "COMPUTEX Taipei/全球渠道",
+          "dynamic_type": "展会新品",
+          "dynamic_date": "2026-05-28",
+          "dynamic_summary": "ANTGAMER展示高刷新电竞显示器",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C014",
+          "application_product_name": "Anycubic Kobra 4",
+          "owner_company_brand": "Anycubic",
+          "target_market_channel": "AliExpress Brand+ / 美国消费者",
+          "dynamic_type": "平台活动/商品推广",
+          "dynamic_date": "2026-06-01",
+          "dynamic_summary": "Anycubic Kobra 4进入AliExpress大促",
+          "source_grade": "A"
+        }
+      ],
+      "C011": [
+        {
+          "candidate_id": "C015",
+          "application_product_name": "VEVOR Brand+ summer sale products",
+          "owner_company_brand": "VEVOR",
+          "target_market_channel": "AliExpress Brand+ / 美国消费者",
+          "dynamic_type": "平台活动/渠道推广",
+          "dynamic_date": "2026-06-01",
+          "dynamic_summary": "VEVOR进入AliExpress Brand+夏季促销",
+          "source_grade": "A"
+        }
+      ],
+      "C012": [],
+      "C013": [],
+      "C014": [
+        {
+          "candidate_id": "C008",
+          "application_product_name": "HKC Shield C83U60",
+          "owner_company_brand": "HKC",
+          "target_market_channel": "COMPUTEX Taipei/全球渠道",
+          "dynamic_type": "展会新品",
+          "dynamic_date": "2026-05-28",
+          "dynamic_summary": "HKC将在COMPUTEX展示Shield新品",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C009",
+          "application_product_name": "ANTGAMER 1000Hz/1080Hz esports monitors",
+          "owner_company_brand": "ANTGAMER / HKC",
+          "target_market_channel": "COMPUTEX Taipei/全球渠道",
+          "dynamic_type": "展会新品",
+          "dynamic_date": "2026-05-28",
+          "dynamic_summary": "ANTGAMER展示高刷新电竞显示器",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C010",
+          "application_product_name": "KOORUI S2741LM / S4941XO monitors",
+          "owner_company_brand": "KOORUI / HKC",
+          "target_market_channel": "COMPUTEX Taipei/全球渠道",
+          "dynamic_type": "展会新品",
+          "dynamic_date": "2026-05-28",
+          "dynamic_summary": "KOORUI展示Mini LED与OLED显示器",
+          "source_grade": "A"
+        }
+      ],
+      "C015": [
+        {
+          "candidate_id": "C011",
+          "application_product_name": "Makera Z1",
+          "owner_company_brand": "Makera",
+          "target_market_channel": "全球预购/BEYOND Expo",
+          "dynamic_type": "展会获奖/全球预购",
+          "dynamic_date": "2026-05-29",
+          "dynamic_summary": "Makera Z1获奖后启动全球预购",
+          "source_grade": "A"
+        }
+      ],
+      "C016": [
+        {
+          "candidate_id": "C017",
+          "application_product_name": "Azur Promilia",
+          "owner_company_brand": "Manjuu / Yostar",
+          "target_market_channel": "日本/全球",
+          "dynamic_type": "CBT/官网动态",
+          "dynamic_date": "2026-06-02",
+          "dynamic_summary": "Azur Promilia日区CBT页面释放测试动态",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C018",
+          "application_product_name": "Blood Message",
+          "owner_company_brand": "NetEase / 24 Entertainment Lin’an Studio",
+          "target_market_channel": "全球/欧美主机与PC玩家",
+          "dynamic_type": "展会/实机曝光",
+          "dynamic_date": "2026-06-05",
+          "dynamic_summary": "Blood Message夏季展示期获得海外曝光",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C019",
+          "application_product_name": "Neverness to Everness",
+          "owner_company_brand": "Perfect World / Hotta Studio",
+          "target_market_channel": "全球/日本",
+          "dynamic_type": "版本更新/实机内容",
+          "dynamic_date": "2026-06-03",
+          "dynamic_summary": "Neverness to Everness海外更新内容曝光",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C020",
+          "application_product_name": "Wangyue",
+          "owner_company_brand": "Starseeker / Xingchen Studio",
+          "target_market_channel": "全球/东南亚/日本",
+          "dynamic_type": "实机视频/媒体动态",
+          "dynamic_date": "2026-05-28",
+          "dynamic_summary": "Wangyue新实机画面进入海外预热",
+          "source_grade": "B"
+        }
+      ],
+      "C017": [
+        {
+          "candidate_id": "C016",
+          "application_product_name": "Phantom Blade Zero",
+          "owner_company_brand": "S-GAME",
+          "target_market_channel": "全球/欧美/日本主机与PC玩家",
+          "dynamic_type": "实机/档期动态",
+          "dynamic_date": "2026-06-03",
+          "dynamic_summary": "Phantom Blade Zero海外实机热度延续",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C018",
+          "application_product_name": "Blood Message",
+          "owner_company_brand": "NetEase / 24 Entertainment Lin’an Studio",
+          "target_market_channel": "全球/欧美主机与PC玩家",
+          "dynamic_type": "展会/实机曝光",
+          "dynamic_date": "2026-06-05",
+          "dynamic_summary": "Blood Message夏季展示期获得海外曝光",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C019",
+          "application_product_name": "Neverness to Everness",
+          "owner_company_brand": "Perfect World / Hotta Studio",
+          "target_market_channel": "全球/日本",
+          "dynamic_type": "版本更新/实机内容",
+          "dynamic_date": "2026-06-03",
+          "dynamic_summary": "Neverness to Everness海外更新内容曝光",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C020",
+          "application_product_name": "Wangyue",
+          "owner_company_brand": "Starseeker / Xingchen Studio",
+          "target_market_channel": "全球/东南亚/日本",
+          "dynamic_type": "实机视频/媒体动态",
+          "dynamic_date": "2026-05-28",
+          "dynamic_summary": "Wangyue新实机画面进入海外预热",
+          "source_grade": "B"
+        }
+      ],
+      "C018": [
+        {
+          "candidate_id": "C016",
+          "application_product_name": "Phantom Blade Zero",
+          "owner_company_brand": "S-GAME",
+          "target_market_channel": "全球/欧美/日本主机与PC玩家",
+          "dynamic_type": "实机/档期动态",
+          "dynamic_date": "2026-06-03",
+          "dynamic_summary": "Phantom Blade Zero海外实机热度延续",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C017",
+          "application_product_name": "Azur Promilia",
+          "owner_company_brand": "Manjuu / Yostar",
+          "target_market_channel": "日本/全球",
+          "dynamic_type": "CBT/官网动态",
+          "dynamic_date": "2026-06-02",
+          "dynamic_summary": "Azur Promilia日区CBT页面释放测试动态",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C019",
+          "application_product_name": "Neverness to Everness",
+          "owner_company_brand": "Perfect World / Hotta Studio",
+          "target_market_channel": "全球/日本",
+          "dynamic_type": "版本更新/实机内容",
+          "dynamic_date": "2026-06-03",
+          "dynamic_summary": "Neverness to Everness海外更新内容曝光",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C020",
+          "application_product_name": "Wangyue",
+          "owner_company_brand": "Starseeker / Xingchen Studio",
+          "target_market_channel": "全球/东南亚/日本",
+          "dynamic_type": "实机视频/媒体动态",
+          "dynamic_date": "2026-05-28",
+          "dynamic_summary": "Wangyue新实机画面进入海外预热",
+          "source_grade": "B"
+        }
+      ],
+      "C019": [
+        {
+          "candidate_id": "C016",
+          "application_product_name": "Phantom Blade Zero",
+          "owner_company_brand": "S-GAME",
+          "target_market_channel": "全球/欧美/日本主机与PC玩家",
+          "dynamic_type": "实机/档期动态",
+          "dynamic_date": "2026-06-03",
+          "dynamic_summary": "Phantom Blade Zero海外实机热度延续",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C017",
+          "application_product_name": "Azur Promilia",
+          "owner_company_brand": "Manjuu / Yostar",
+          "target_market_channel": "日本/全球",
+          "dynamic_type": "CBT/官网动态",
+          "dynamic_date": "2026-06-02",
+          "dynamic_summary": "Azur Promilia日区CBT页面释放测试动态",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C018",
+          "application_product_name": "Blood Message",
+          "owner_company_brand": "NetEase / 24 Entertainment Lin’an Studio",
+          "target_market_channel": "全球/欧美主机与PC玩家",
+          "dynamic_type": "展会/实机曝光",
+          "dynamic_date": "2026-06-05",
+          "dynamic_summary": "Blood Message夏季展示期获得海外曝光",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C020",
+          "application_product_name": "Wangyue",
+          "owner_company_brand": "Starseeker / Xingchen Studio",
+          "target_market_channel": "全球/东南亚/日本",
+          "dynamic_type": "实机视频/媒体动态",
+          "dynamic_date": "2026-05-28",
+          "dynamic_summary": "Wangyue新实机画面进入海外预热",
+          "source_grade": "B"
+        }
+      ],
+      "C020": [
+        {
+          "candidate_id": "C016",
+          "application_product_name": "Phantom Blade Zero",
+          "owner_company_brand": "S-GAME",
+          "target_market_channel": "全球/欧美/日本主机与PC玩家",
+          "dynamic_type": "实机/档期动态",
+          "dynamic_date": "2026-06-03",
+          "dynamic_summary": "Phantom Blade Zero海外实机热度延续",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C017",
+          "application_product_name": "Azur Promilia",
+          "owner_company_brand": "Manjuu / Yostar",
+          "target_market_channel": "日本/全球",
+          "dynamic_type": "CBT/官网动态",
+          "dynamic_date": "2026-06-02",
+          "dynamic_summary": "Azur Promilia日区CBT页面释放测试动态",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C018",
+          "application_product_name": "Blood Message",
+          "owner_company_brand": "NetEase / 24 Entertainment Lin’an Studio",
+          "target_market_channel": "全球/欧美主机与PC玩家",
+          "dynamic_type": "展会/实机曝光",
+          "dynamic_date": "2026-06-05",
+          "dynamic_summary": "Blood Message夏季展示期获得海外曝光",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C019",
+          "application_product_name": "Neverness to Everness",
+          "owner_company_brand": "Perfect World / Hotta Studio",
+          "target_market_channel": "全球/日本",
+          "dynamic_type": "版本更新/实机内容",
+          "dynamic_date": "2026-06-03",
+          "dynamic_summary": "Neverness to Everness海外更新内容曝光",
+          "source_grade": "B"
+        }
+      ],
+      "C021": [],
+      "C022": [
+        {
+          "candidate_id": "C023",
+          "application_product_name": "DeepSeek",
+          "owner_company_brand": "DeepSeek",
+          "target_market_channel": "全球开发者/海外企业用户",
+          "dynamic_type": "投融资消息",
+          "dynamic_date": "2026-06-04",
+          "dynamic_summary": "DeepSeek新融资传闻带动海外开发者关注",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C024",
+          "application_product_name": "Hailuo AI",
+          "owner_company_brand": "MiniMax",
+          "target_market_channel": "全球AI视频用户/创作者",
+          "dynamic_type": "产品/商业化观察",
+          "dynamic_date": "2026-06-02",
+          "dynamic_summary": "Hailuo AI海外工具页呈现商业化信号",
+          "source_grade": "C"
+        }
+      ],
+      "C023": [
+        {
+          "candidate_id": "C022",
+          "application_product_name": "Kling AI",
+          "owner_company_brand": "Kuaishou Technology",
+          "target_market_channel": "全球创作者/AI视频用户",
+          "dynamic_type": "投融资消息",
+          "dynamic_date": "2026-06-04",
+          "dynamic_summary": "Kling AI融资动态强化AI视频出海信号",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C024",
+          "application_product_name": "Hailuo AI",
+          "owner_company_brand": "MiniMax",
+          "target_market_channel": "全球AI视频用户/创作者",
+          "dynamic_type": "产品/商业化观察",
+          "dynamic_date": "2026-06-02",
+          "dynamic_summary": "Hailuo AI海外工具页呈现商业化信号",
+          "source_grade": "C"
+        }
+      ],
+      "C024": [
+        {
+          "candidate_id": "C022",
+          "application_product_name": "Kling AI",
+          "owner_company_brand": "Kuaishou Technology",
+          "target_market_channel": "全球创作者/AI视频用户",
+          "dynamic_type": "投融资消息",
+          "dynamic_date": "2026-06-04",
+          "dynamic_summary": "Kling AI融资动态强化AI视频出海信号",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C023",
+          "application_product_name": "DeepSeek",
+          "owner_company_brand": "DeepSeek",
+          "target_market_channel": "全球开发者/海外企业用户",
+          "dynamic_type": "投融资消息",
+          "dynamic_date": "2026-06-04",
+          "dynamic_summary": "DeepSeek新融资传闻带动海外开发者关注",
+          "source_grade": "B"
+        }
+      ],
+      "C025": [],
+      "C026": [
+        {
+          "candidate_id": "C027",
+          "application_product_name": "AliExpress",
+          "owner_company_brand": "Alibaba International / AliExpress",
+          "target_market_channel": "美国/俄罗斯/巴西",
+          "dynamic_type": "大促/商店更新",
+          "dynamic_date": "2026-06-01",
+          "dynamic_summary": "AliExpress美国夏季大促强化Brand+直播",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C030",
+          "application_product_name": "AliExpress Shopping App",
+          "owner_company_brand": "Alibaba International / AliExpress",
+          "target_market_channel": "美国/全球App Store/Google Play",
+          "dynamic_type": "商店更新/平台活跃",
+          "dynamic_date": "2026-05-26",
+          "dynamic_summary": "AliExpress购物App美国页更新保持活跃",
+          "source_grade": "B"
+        }
+      ],
+      "C027": [
+        {
+          "candidate_id": "C026",
+          "application_product_name": "Temu",
+          "owner_company_brand": "PDD Holdings / Temu",
+          "target_market_channel": "美国/墨西哥/英国",
+          "dynamic_type": "商店更新/榜单动态",
+          "dynamic_date": "2026-06-02",
+          "dynamic_summary": "Temu更新并维持美国购物榜单活跃",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C030",
+          "application_product_name": "AliExpress Shopping App",
+          "owner_company_brand": "Alibaba International / AliExpress",
+          "target_market_channel": "美国/全球App Store/Google Play",
+          "dynamic_type": "商店更新/平台活跃",
+          "dynamic_date": "2026-05-26",
+          "dynamic_summary": "AliExpress购物App美国页更新保持活跃",
+          "source_grade": "B"
+        }
+      ],
+      "C028": [
+        {
+          "candidate_id": "C029",
+          "application_product_name": "Weixin Pay / TenPay Global",
+          "owner_company_brand": "Tencent / Tenpay Global",
+          "target_market_channel": "中亚/跨境支付",
+          "dynamic_type": "合作拓展",
+          "dynamic_date": "2026-05-30",
+          "dynamic_summary": "微信支付扩大中亚跨境支付网络",
+          "source_grade": "A"
+        }
+      ],
+      "C029": [
+        {
+          "candidate_id": "C028",
+          "application_product_name": "Alipay Agent Payment Tools",
+          "owner_company_brand": "Ant Group / Alipay",
+          "target_market_channel": "全球商家/跨境支付生态",
+          "dynamic_type": "产品发布",
+          "dynamic_date": "2026-06-02",
+          "dynamic_summary": "支付宝推出面向AI agents的支付工具",
+          "source_grade": "B"
+        }
+      ],
+      "C030": [
+        {
+          "candidate_id": "C026",
+          "application_product_name": "Temu",
+          "owner_company_brand": "PDD Holdings / Temu",
+          "target_market_channel": "美国/墨西哥/英国",
+          "dynamic_type": "商店更新/榜单动态",
+          "dynamic_date": "2026-06-02",
+          "dynamic_summary": "Temu更新并维持美国购物榜单活跃",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C027",
+          "application_product_name": "AliExpress",
+          "owner_company_brand": "Alibaba International / AliExpress",
+          "target_market_channel": "美国/俄罗斯/巴西",
+          "dynamic_type": "大促/商店更新",
+          "dynamic_date": "2026-06-01",
+          "dynamic_summary": "AliExpress美国夏季大促强化Brand+直播",
+          "source_grade": "A"
+        }
+      ]
+    }
+  },
+  "leads_module_content": {
+    "week": "2026-W23",
+    "records": [
+      {
+        "candidate_id": "C001",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "手机与配件",
+        "standard_l2": "智能追踪器/移动电源",
+        "application_product_name": "UGREEN Game Day Kit",
+        "owner_company_brand": "UGREEN",
+        "target_market_channel": "美国Amazon/UGREEN官方店/FIFA Fan Festival LA",
+        "dynamic_type": "新品上市/线下活动",
+        "dynamic_date": "2026-06-01",
+        "dynamic_summary": "UGREEN发布Game Day Kit，绑定美国赛事场景",
+        "attention_point": "美国赛事内容、Amazon转化",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/ugreen-unveils-the-game-day-kit--a-soccer-ball-shaped-tracker-and-fast-charging-essentials-for-every-game-day-and-beyond-302781650.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "单一商品线；海外渠道明确",
+        "source_count": "2"
+      },
+      {
+        "candidate_id": "C002",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "手机与配件",
+        "standard_l2": "充电器/磁吸移动电源",
+        "application_product_name": "UGREEN Nexode / MagFlow Air Editions",
+        "owner_company_brand": "UGREEN",
+        "target_market_channel": "欧洲Amazon/UGREEN官网；新加坡/菲律宾官网",
+        "dynamic_type": "新品上市/区域发布",
+        "dynamic_date": "2026-06-01",
+        "dynamic_summary": "UGREEN欧洲/东南亚上新Air系列配件",
+        "attention_point": "欧洲/东南亚上新、旅行场景",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/ugreen-unveils-new-charger-solutions-and-trackers-for-lightweight-worry-free-summer-travel-302786933.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "同品牌不同商品线；可与C001合并账户",
+        "source_count": "2"
+      },
+      {
+        "candidate_id": "C003",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "家用电器",
+        "standard_l2": "清洁电器",
+        "application_product_name": "Dreame Aero Pro Steam Vacuum Mop",
+        "owner_company_brand": "Dreame Technology",
+        "target_market_channel": "美国Amazon/Dreame官网",
+        "dynamic_type": "新品上市",
+        "dynamic_date": "2026-06-01",
+        "dynamic_summary": "Dreame美国上新Aero Pro蒸汽洗地机",
+        "attention_point": "美国Amazon新品、清洁测评",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/dreame-unveils-aero-pro-steam-delivering-smart-chemical-free-deep-cleaning-steam-power-for-whole-home-hygiene-302785495.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "标准商品线索",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C004",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "家用电器",
+        "standard_l2": "扫地机器人/清洁电器",
+        "application_product_name": "Roborock Saros 20 Sonic",
+        "owner_company_brand": "Roborock",
+        "target_market_channel": "日本/越南/APAC渠道",
+        "dynamic_type": "新品发布/品牌活动",
+        "dynamic_date": "2026-05-26",
+        "dynamic_summary": "Roborock东京发布Saros新品并联动皇马",
+        "attention_point": "APAC发布、足球IP联名",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/roborock-unveils-new-flagship-product-lineup-and-hosts-where-the-greatest-meet-football-event-in-partnership-with-real-madrid-302781605.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "海外活动与商品均明确",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C005",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "家用电器",
+        "standard_l2": "清洁电器",
+        "application_product_name": "Tineco GO HammerHead MessDetect Mop&Vacuum",
+        "owner_company_brand": "Tineco",
+        "target_market_channel": "美国",
+        "dynamic_type": "新品/产品教育",
+        "dynamic_date": "2026-06-04",
+        "dynamic_summary": "Tineco发布GO HammerHead清洁技术内容",
+        "attention_point": "美国家庭清洁、测评达人",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/the-end-of-trial-and-error-cleaning-why-consumers-expect-more-from-floor-care-technology-302788666.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "产品名明确；偏内容稿但可用",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C006",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "家用电器",
+        "standard_l2": "家庭储能/备用电源",
+        "application_product_name": "BLUETTI FridgePower",
+        "owner_company_brand": "BLUETTI",
+        "target_market_channel": "美国/全球零售",
+        "dynamic_type": "众筹转零售",
+        "dynamic_date": "2026-05-29",
+        "dynamic_summary": "BLUETTI众筹转零售，启动全球发货",
+        "attention_point": "众筹转零售、备电场景",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/bluetti-fridgepower-hits-2m-milestone-and-global-award-ahead-of-retail-launch-302785682.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "商品与渠道明确",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C007",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "电子学",
+        "standard_l2": "耳机/音频设备",
+        "application_product_name": "soundcore Liberty 5 Pro Series",
+        "owner_company_brand": "Anker / soundcore",
+        "target_market_channel": "菲律宾/印尼/东南亚",
+        "dynamic_type": "新品发布",
+        "dynamic_date": "2026-05-26",
+        "dynamic_summary": "soundcore东南亚推出Liberty 5 Pro",
+        "attention_point": "东南亚发布、AI耳机卖点",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "Pokde.Net",
+        "primary_source_url": "https://pokde.net/system/audio/earphone/soundcore-liberty-5-pro-series",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "非官方媒体，建议补soundcore官方区域页",
+        "source_count": "3"
+      },
+      {
+        "candidate_id": "C008",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "计算机与配件",
+        "standard_l2": "显示器",
+        "application_product_name": "HKC Shield C83U60",
+        "owner_company_brand": "HKC",
+        "target_market_channel": "COMPUTEX Taipei/全球渠道",
+        "dynamic_type": "展会新品",
+        "dynamic_date": "2026-05-28",
+        "dynamic_summary": "HKC将在COMPUTEX展示Shield新品",
+        "attention_point": "COMPUTEX展后、显示渠道",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/hkc-corporation-limited-to-showcase-world-first-display-technologies-from-hkc-antgamer-and-koorui-at-computex-taipei-2026-302784032.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "单个显示器产品，非AR",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C009",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "计算机与配件",
+        "standard_l2": "电竞显示器",
+        "application_product_name": "ANTGAMER 1000Hz/1080Hz esports monitors",
+        "owner_company_brand": "ANTGAMER / HKC",
+        "target_market_channel": "COMPUTEX Taipei/全球渠道",
+        "dynamic_type": "展会新品",
+        "dynamic_date": "2026-05-28",
+        "dynamic_summary": "ANTGAMER展示高刷新电竞显示器",
+        "attention_point": "电竞KOL、海外显示器媒体",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/hkc-corporation-limited-to-showcase-world-first-display-technologies-from-hkc-antgamer-and-koorui-at-computex-taipei-2026-302784032.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "同一信源拆分为单品牌/商品线",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C010",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "计算机与配件",
+        "standard_l2": "显示器",
+        "application_product_name": "KOORUI S2741LM / S4941XO monitors",
+        "owner_company_brand": "KOORUI / HKC",
+        "target_market_channel": "COMPUTEX Taipei/全球渠道",
+        "dynamic_type": "展会新品",
+        "dynamic_date": "2026-05-28",
+        "dynamic_summary": "KOORUI展示Mini LED与OLED显示器",
+        "attention_point": "显示器评测、区域渠道",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/hkc-corporation-limited-to-showcase-world-first-display-technologies-from-hkc-antgamer-and-koorui-at-computex-taipei-2026-302784032.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "同一信源拆分为单品牌/商品线",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C011",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "工具与家居改善",
+        "standard_l2": "桌面CNC/创客工具",
+        "application_product_name": "Makera Z1",
+        "owner_company_brand": "Makera",
+        "target_market_channel": "全球预购/BEYOND Expo",
+        "dynamic_type": "展会获奖/全球预购",
+        "dynamic_date": "2026-05-29",
+        "dynamic_summary": "Makera Z1获奖后启动全球预购",
+        "attention_point": "创客社区、预购转化",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/makera-showcases-z1-at-beyond-expo-2026-wins-best-of-innovation-award-for-making-precision-cnc-more-accessible-302784945.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "归入工具与家居改善，不作为工业设备",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C012",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "玩具与游戏",
+        "standard_l2": "潮玩/IP手办",
+        "application_product_name": "MINISO YOYO life-sized figures / Surprise Icon Box",
+        "owner_company_brand": "MINISO",
+        "target_market_channel": "美国纽约/北美",
+        "dynamic_type": "IP展览/商品化",
+        "dynamic_date": "2026-06-01",
+        "dynamic_summary": "MINISO纽约举办YOYO大型艺术展",
+        "attention_point": "北美IP商品化、线下快闪",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/miniso-to-present-biggest-ever-yoyo-art-exhibition-at-the-oculus-bringing-fifty-life-sized-yoyo-figures-into-the-heart-of-nyc-302786902.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "商品/IP线索明确",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C013",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "食品与饮料",
+        "standard_l2": "乳制品/婴幼儿营养",
+        "application_product_name": "Yili Global Innovation Vanguard / Jinlingguan",
+        "owner_company_brand": "Yili Group",
+        "target_market_channel": "英国剑桥/全球研发合作",
+        "dynamic_type": "全球创新合作",
+        "dynamic_date": "2026-05-26",
+        "dynamic_summary": "伊利在剑桥启动全球创新合作",
+        "attention_point": "海外研发背书、乳制品传播",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/in/news-releases/yili-unveils-global-innovation-vanguard-initiative-in-cambridge-uk-302781430.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "偏品牌/研发合作，不是单SKU",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C014",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "计算机与配件",
+        "standard_l2": "3D打印机",
+        "application_product_name": "Anycubic Kobra 4",
+        "owner_company_brand": "Anycubic",
+        "target_market_channel": "AliExpress Brand+ / 美国消费者",
+        "dynamic_type": "平台活动/商品推广",
+        "dynamic_date": "2026-06-01",
+        "dynamic_summary": "Anycubic Kobra 4进入AliExpress大促",
+        "attention_point": "Brand+大促、3D打印测评",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "AliExpress PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/aliexpress-launches-summer-sale-featuring-brand-sellers-and-creator-led-livestreams-302786872.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "待复核",
+        "review_note": "需补Anycubic官方Kobra 4链接",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C015",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "商品",
+        "standard_l1": "工具与家居改善",
+        "standard_l2": "工具/商用设备",
+        "application_product_name": "VEVOR Brand+ summer sale products",
+        "owner_company_brand": "VEVOR",
+        "target_market_channel": "AliExpress Brand+ / 美国消费者",
+        "dynamic_type": "平台活动/渠道推广",
+        "dynamic_date": "2026-06-01",
+        "dynamic_summary": "VEVOR进入AliExpress Brand+夏季促销",
+        "attention_point": "美国工具类内容、平台大促",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "AliExpress PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/aliexpress-launches-summer-sale-featuring-brand-sellers-and-creator-led-livestreams-302786872.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "待复核",
+        "review_note": "需补VEVOR本次活动/店铺链接",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C016",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "游戏",
+        "standard_l2": "动作/ARPG",
+        "application_product_name": "Phantom Blade Zero",
+        "owner_company_brand": "S-GAME",
+        "target_market_channel": "全球/欧美/日本主机与PC玩家",
+        "dynamic_type": "实机/档期动态",
+        "dynamic_date": "2026-06-03",
+        "dynamic_summary": "Phantom Blade Zero海外实机热度延续",
+        "attention_point": "主机游戏内容、愿望单增长",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "Gematsu",
+        "primary_source_url": "https://www.gematsu.com/2026/06/phantom-blade-zero-delayed-to-october-29",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "建议补官方公告链接",
+        "source_count": "2"
+      },
+      {
+        "candidate_id": "C017",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "游戏",
+        "standard_l2": "二次元/开放世界",
+        "application_product_name": "Azur Promilia",
+        "owner_company_brand": "Manjuu / Yostar",
+        "target_market_channel": "日本/全球",
+        "dynamic_type": "CBT/官网动态",
+        "dynamic_date": "2026-06-02",
+        "dynamic_summary": "Azur Promilia日区CBT页面释放测试动态",
+        "attention_point": "日本本地化、预注册",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "Azur Promilia JP Official",
+        "primary_source_url": "https://azurpromilia.jp/cbt/",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "官方站优先",
+        "source_count": "2"
+      },
+      {
+        "candidate_id": "C018",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "游戏",
+        "standard_l2": "叙事动作/主机",
+        "application_product_name": "Blood Message",
+        "owner_company_brand": "NetEase / 24 Entertainment Lin’an Studio",
+        "target_market_channel": "全球/欧美主机与PC玩家",
+        "dynamic_type": "展会/实机曝光",
+        "dynamic_date": "2026-06-05",
+        "dynamic_summary": "Blood Message夏季展示期获得海外曝光",
+        "attention_point": "首曝复盘、主机社区",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "Push Square",
+        "primary_source_url": "https://www.pushsquare.com/news/2026/06/blood-message-brings-uncharted-like-action-to-summer-game-fest",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "需补官方站/商店页",
+        "source_count": "2"
+      },
+      {
+        "candidate_id": "C019",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "游戏",
+        "standard_l2": "开放世界/都市",
+        "application_product_name": "Neverness to Everness",
+        "owner_company_brand": "Perfect World / Hotta Studio",
+        "target_market_channel": "全球/日本",
+        "dynamic_type": "版本更新/实机内容",
+        "dynamic_date": "2026-06-03",
+        "dynamic_summary": "Neverness to Everness海外更新内容曝光",
+        "attention_point": "版本营销、海外社区",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "Gematsu",
+        "primary_source_url": "https://www.gematsu.com/2026/05/neverness-to-everness-version-1-1-update-dreamwalk-corridor-launches-june-3",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "需补官方版本公告",
+        "source_count": "2"
+      },
+      {
+        "candidate_id": "C020",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "游戏",
+        "standard_l2": "开放世界/都市",
+        "application_product_name": "Wangyue",
+        "owner_company_brand": "Starseeker / Xingchen Studio",
+        "target_market_channel": "全球/东南亚/日本",
+        "dynamic_type": "实机视频/媒体动态",
+        "dynamic_date": "2026-05-28",
+        "dynamic_summary": "Wangyue新实机画面进入海外预热",
+        "attention_point": "预约增长、海外社媒",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "Yomimono",
+        "primary_source_url": "https://yomimono.id/urban-open-world-rpg-wangyue-shows-new-gameplay-footage",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "需补官方渠道和发行主体",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C021",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "工具",
+        "standard_l2": "视频剪辑",
+        "application_product_name": "CapCut",
+        "owner_company_brand": "ByteDance Pte. Ltd",
+        "target_market_channel": "全球App Store/美国/印尼/巴西等",
+        "dynamic_type": "商店更新/榜单动态",
+        "dynamic_date": "2026-06-02",
+        "dynamic_summary": "CapCut更新并维持海外视频榜单活跃",
+        "attention_point": "创作者工具、订阅转化",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "Sensor Tower",
+        "primary_source_url": "https://app.sensortower.com/overview/1500855883?country=NL",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "第三方数据页，建议补App Store链接",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C022",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "AI应用",
+        "standard_l2": "AI视频生成",
+        "application_product_name": "Kling AI",
+        "owner_company_brand": "Kuaishou Technology",
+        "target_market_channel": "全球创作者/AI视频用户",
+        "dynamic_type": "投融资消息",
+        "dynamic_date": "2026-06-04",
+        "dynamic_summary": "Kling AI融资动态强化AI视频出海信号",
+        "attention_point": "AI视频生态、订阅商业化",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "KR-Asia",
+        "primary_source_url": "https://www.kr-asia.com/kuaishous-kling-ai-seeks-fresh-funding-ahead-of-planned-2027-ipo",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "融资消息需二次核对公司官方披露",
+        "source_count": "2"
+      },
+      {
+        "candidate_id": "C023",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "AI应用",
+        "standard_l2": "大模型/AI助手",
+        "application_product_name": "DeepSeek",
+        "owner_company_brand": "DeepSeek",
+        "target_market_channel": "全球开发者/海外企业用户",
+        "dynamic_type": "投融资消息",
+        "dynamic_date": "2026-06-04",
+        "dynamic_summary": "DeepSeek新融资传闻带动海外开发者关注",
+        "attention_point": "API生态、开发者增长",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "Semafor",
+        "primary_source_url": "https://www.semafor.com/article/06/04/2026/deepseek-nears-7-billion-haul-in-first-raise",
+        "link_status": "可访问",
+        "warehouse_suggestion": "待复核",
+        "review_note": "融资金额需二级信源复核",
+        "source_count": "2"
+      },
+      {
+        "candidate_id": "C024",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "AI应用",
+        "standard_l2": "AI视频生成",
+        "application_product_name": "Hailuo AI",
+        "owner_company_brand": "MiniMax",
+        "target_market_channel": "全球AI视频用户/创作者",
+        "dynamic_type": "产品/商业化观察",
+        "dynamic_date": "2026-06-02",
+        "dynamic_summary": "Hailuo AI海外工具页呈现商业化信号",
+        "attention_point": "AI视频订阅、创作者教育",
+        "source_grade": "C",
+        "source_layer": "P2",
+        "primary_source_name": "Skywork AI Skypage",
+        "primary_source_url": "https://skywork.ai/skypage/en/minimax-hailuo-ai-pricing/2061794773653442560",
+        "link_status": "可访问",
+        "warehouse_suggestion": "待复核",
+        "review_note": "信源弱，需补MiniMax/Hailuo官方公告",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C025",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "泛娱乐",
+        "standard_l2": "生活方式社区",
+        "application_product_name": "Lemon8",
+        "owner_company_brand": "TikTok Ltd. / ByteDance",
+        "target_market_channel": "美国/泰国/日本",
+        "dynamic_type": "商店更新/榜单动态",
+        "dynamic_date": "2026-06-04",
+        "dynamic_summary": "Lemon8更新并保持美国生活方式榜单活跃",
+        "attention_point": "生活方式社区、创作者招募",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "Sensor Tower",
+        "primary_source_url": "https://app.sensortower.com/overview/1498607143",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "第三方数据页，建议补App Store链接",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C026",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "平台",
+        "standard_l2": "跨境电商App",
+        "application_product_name": "Temu",
+        "owner_company_brand": "PDD Holdings / Temu",
+        "target_market_channel": "美国/墨西哥/英国",
+        "dynamic_type": "商店更新/榜单动态",
+        "dynamic_date": "2026-06-02",
+        "dynamic_summary": "Temu更新并维持美国购物榜单活跃",
+        "attention_point": "平台卖家池、站外增长",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "Sensor Tower",
+        "primary_source_url": "https://app.sensortower.com/overview/1641486558",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "Temu应用主体是海外公司，母公司归属需用PDD补证",
+        "source_count": "2"
+      },
+      {
+        "candidate_id": "C027",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "平台",
+        "standard_l2": "跨境电商App",
+        "application_product_name": "AliExpress",
+        "owner_company_brand": "Alibaba International / AliExpress",
+        "target_market_channel": "美国/俄罗斯/巴西",
+        "dynamic_type": "大促/商店更新",
+        "dynamic_date": "2026-06-01",
+        "dynamic_summary": "AliExpress美国夏季大促强化Brand+直播",
+        "attention_point": "Brand+商家、美国直播",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "AliExpress PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/aliexpress-launches-summer-sale-featuring-brand-sellers-and-creator-led-livestreams-302786872.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "应用+平台活动明确",
+        "source_count": "2"
+      },
+      {
+        "candidate_id": "C028",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "Fintech",
+        "standard_l2": "AI支付/Agent支付",
+        "application_product_name": "Alipay Agent Payment Tools",
+        "owner_company_brand": "Ant Group / Alipay",
+        "target_market_channel": "全球商家/跨境支付生态",
+        "dynamic_type": "产品发布",
+        "dynamic_date": "2026-06-02",
+        "dynamic_summary": "支付宝推出面向AI agents的支付工具",
+        "attention_point": "AI支付、agent commerce教育",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "SCMP",
+        "primary_source_url": "https://www.scmp.com/tech/tech-trends/article/3354876/alipay-launches-payment-tools-ai-agents-shop-you",
+        "link_status": "可访问",
+        "warehouse_suggestion": "待复核",
+        "review_note": "需补支付宝/蚂蚁官方开发者文档，避免中国-only误判",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C029",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "Fintech",
+        "standard_l2": "跨境支付网络",
+        "application_product_name": "Weixin Pay / TenPay Global",
+        "owner_company_brand": "Tencent / Tenpay Global",
+        "target_market_channel": "中亚/跨境支付",
+        "dynamic_type": "合作拓展",
+        "dynamic_date": "2026-05-30",
+        "dynamic_summary": "微信支付扩大中亚跨境支付网络",
+        "attention_point": "旅游支付、钱包互联",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "Tencent PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/tencent-partners-with-kyrgyzstans-eldik-bank-to-further-expand-cross-border-payment-network-in-central-asia-302779952.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "保留为Fintech应用/服务，不是腾讯云",
+        "source_count": "1"
+      },
+      {
+        "candidate_id": "C030",
+        "week": "2026-W23",
+        "search_date": "2026-06-05",
+        "time_window": "2026-05-22 至 2026-06-05",
+        "lead_type": "应用",
+        "standard_l1": "平台",
+        "standard_l2": "跨境电商App",
+        "application_product_name": "AliExpress Shopping App",
+        "owner_company_brand": "Alibaba International / AliExpress",
+        "target_market_channel": "美国/全球App Store/Google Play",
+        "dynamic_type": "商店更新/平台活跃",
+        "dynamic_date": "2026-05-26",
+        "dynamic_summary": "AliExpress购物App美国页更新保持活跃",
+        "attention_point": "购物App增长、直播转化",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "Sensor Tower",
+        "primary_source_url": "https://app.sensortower.com/overview/com.alibaba.aliexpresshd?country=US",
+        "link_status": "可访问",
+        "warehouse_suggestion": "待复核",
+        "review_note": "与C027同账户，可作为应用商店证据补充",
+        "source_count": "1"
+      }
+    ],
+    "filters": {
+      "lead_types": [
+        "商品",
+        "应用"
+      ],
+      "standard_l1": [
+        "AI应用",
+        "Fintech",
+        "家用电器",
+        "工具",
+        "工具与家居改善",
+        "平台",
+        "手机与配件",
+        "泛娱乐",
+        "游戏",
+        "玩具与游戏",
+        "电子学",
+        "计算机与配件",
+        "食品与饮料"
+      ],
+      "standard_l2": [
+        "3D打印机",
+        "AI支付/Agent支付",
+        "AI视频生成",
+        "乳制品/婴幼儿营养",
+        "二次元/开放世界",
+        "充电器/磁吸移动电源",
+        "动作/ARPG",
+        "叙事动作/主机",
+        "大模型/AI助手",
+        "家庭储能/备用电源",
+        "工具/商用设备",
+        "开放世界/都市",
+        "扫地机器人/清洁电器",
+        "显示器",
+        "智能追踪器/移动电源",
+        "桌面CNC/创客工具",
+        "清洁电器",
+        "潮玩/IP手办",
+        "生活方式社区",
+        "电竞显示器",
+        "耳机/音频设备",
+        "视频剪辑",
+        "跨境支付网络",
+        "跨境电商App"
+      ],
+      "target_market_channel": [
+        "AliExpress Brand+ / 美国消费者",
+        "COMPUTEX Taipei/全球渠道",
+        "中亚/跨境支付",
+        "全球/东南亚/日本",
+        "全球/日本",
+        "全球/欧美/日本主机与PC玩家",
+        "全球/欧美主机与PC玩家",
+        "全球AI视频用户/创作者",
+        "全球App Store/美国/印尼/巴西等",
+        "全球创作者/AI视频用户",
+        "全球商家/跨境支付生态",
+        "全球开发者/海外企业用户",
+        "全球预购/BEYOND Expo",
+        "日本/全球",
+        "日本/越南/APAC渠道",
+        "欧洲Amazon/UGREEN官网；新加坡/菲律宾官网",
+        "美国",
+        "美国/俄罗斯/巴西",
+        "美国/全球App Store/Google Play",
+        "美国/全球零售",
+        "美国/墨西哥/英国",
+        "美国/泰国/日本",
+        "美国Amazon/Dreame官网",
+        "美国Amazon/UGREEN官方店/FIFA Fan Festival LA",
+        "美国纽约/北美",
+        "英国剑桥/全球研发合作",
+        "菲律宾/印尼/东南亚"
+      ],
+      "dynamic_types": [
+        "CBT/官网动态",
+        "IP展览/商品化",
+        "产品/商业化观察",
+        "产品发布",
+        "众筹转零售",
+        "全球创新合作",
+        "合作拓展",
+        "商店更新/平台活跃",
+        "商店更新/榜单动态",
+        "大促/商店更新",
+        "实机/档期动态",
+        "实机视频/媒体动态",
+        "展会/实机曝光",
+        "展会新品",
+        "展会获奖/全球预购",
+        "平台活动/商品推广",
+        "平台活动/渠道推广",
+        "投融资消息",
+        "新品/产品教育",
+        "新品上市",
+        "新品上市/区域发布",
+        "新品上市/线下活动",
+        "新品发布",
+        "新品发布/品牌活动",
+        "版本更新/实机内容"
+      ],
+      "source_grades": [
+        "A",
+        "B",
+        "C"
+      ],
+      "warehouse_suggestions": [
+        "待复核",
+        "是"
+      ]
+    }
+  },
+  "exhibition_window_content": [
+    {
+      "event_id": "E001",
+      "week": "2026-W23",
+      "event_window": "2026-06-05 至 2026-06-19",
+      "industry": "跨境电商",
+      "event_name": "China Xiamen International Cross-border E-commerce Expo",
+      "location": "厦门",
+      "date": "2026-06-13 至 2026-06-15",
+      "window_value": "跨境卖家、平台服务商、品牌出海客户集中；可抓展商名单。",
+      "source_grade": "B",
+      "url": "https://10times.com/e1hk-rp56-5g3d-k-china-xiamen-international-cross-border-e-commerce-expo",
+      "review_note": "需补主办方官网"
+    },
+    {
+      "event_id": "E002",
+      "week": "2026-W23",
+      "event_window": "2026-06-05 至 2026-06-19",
+      "industry": "跨境电商",
+      "event_name": "CCEF China Guangzhou Cross-border E-commerce Expo",
+      "location": "广州",
+      "date": "2026-06-16 至 2026-06-18",
+      "window_value": "华南跨境电商展，适合捕捉Amazon/TikTok/Shopee/Lazada卖家。",
+      "source_grade": "B",
+      "url": "https://cntoolbox.com/expos/3761-ccef-2026-china-guangzhou-cross-border-e-commerce-expo",
+      "review_note": "第三方展会库，需补官方"
+    },
+    {
+      "event_id": "E003",
+      "week": "2026-W23",
+      "event_window": "2026-06-05 至 2026-06-19",
+      "industry": "跨境电商",
+      "event_name": "616 Global Cross-border E-commerce Festival / Shenzhen Expo",
+      "location": "深圳",
+      "date": "2026-06-15 至 2026-06-17",
+      "window_value": "深圳跨境电商节，适合现场名单采集。",
+      "source_grade": "B",
+      "url": "https://szmeetups.com/en/events/the-9th-616-global-cross-border-e-commerce-festival-and-the-10th-shenzhen-international-cross-border-e-commerce-trade-expo",
+      "review_note": "建议拉展商名单"
+    },
+    {
+      "event_id": "E004",
+      "week": "2026-W23",
+      "event_window": "2026-06-05 至 2026-06-19",
+      "industry": "美妆个护",
+      "event_name": "MakeUp in Paris 2026",
+      "location": "巴黎",
+      "date": "2026-06-17 至 2026-06-18",
+      "window_value": "美妆供应链/品牌展会，关注C-Beauty议题，可会前触达中国美妆供应链和品牌。",
+      "source_grade": "B",
+      "url": "https://cosmeticsbusiness.com/makeup-in-paris-2026-skin-care-and-make",
+      "review_note": "行业媒体，需补展会官网"
+    },
+    {
+      "event_id": "E005",
+      "week": "2026-W23",
+      "event_window": "2026-06-05 至 2026-06-19",
+      "industry": "消费电子/显示/照明",
+      "event_name": "Guangzhou International Lighting Exhibition 2026",
+      "location": "广州",
+      "date": "2026-06-09 至 2026-06-12",
+      "window_value": "照明/显示/IoT供应链客户密集，可抓商品品牌和展商名单。",
+      "source_grade": "A",
+      "url": "https://guangzhou-international-lighting-exhibition.hk.messefrankfurt.com/content/dam/messefrankfurt-redaktion/guangzhouinternationallightingexhibition/gile26/2026_GILE_Application_Form_EN.pdf",
+      "review_note": "官方申请表PDF"
+    }
+  ],
+  "evidence_chain_detail_mapping": {
+    "C001": [
+      {
+        "source_id": "S001",
+        "candidate_id": "C001",
+        "event_date": "美国运动赛事场景内容、Amazon转化、线下活动达人素材",
+        "source_layer": "https://www.prnewswire.com/news-releases/ugreen-unveils-the-game-day-kit--a-soccer-ball-shaped-tracker-and-fast-charging-essentials-for-every-game-day-and-beyond-302781650.html",
+        "source_grade": "PRNewswire",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "美国Amazon/UGREEN官方店/FIFA Fan Festival LA：A",
+        "link_review_status": "2"
+      }
+    ],
+    "C002": [
+      {
+        "source_id": "S002",
+        "candidate_id": "C002",
+        "event_date": "欧洲/东南亚上新节奏、旅行场景内容、TikTok/Amazon素材",
+        "source_layer": "https://www.prnewswire.com/apac/news-releases/ugreen-unveils-new-charger-solutions-and-trackers-for-lightweight-worry-free-summer-travel-302786933.html",
+        "source_grade": "PRNewswire APAC",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "欧洲Amazon/UGREEN官网；新加坡/菲律宾官网：A",
+        "link_review_status": "2"
+      }
+    ],
+    "C003": [
+      {
+        "source_id": "S003",
+        "candidate_id": "C003",
+        "event_date": "美国Amazon新品、清洁电器测评达人、宠物/家庭清洁内容",
+        "source_layer": "https://www.prnewswire.com/news-releases/dreame-unveils-aero-pro-steam-delivering-smart-chemical-free-deep-cleaning-steam-power-for-whole-home-hygiene-302785495.html",
+        "source_grade": "PRNewswire",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "美国Amazon/Dreame官网：A",
+        "link_review_status": "1"
+      }
+    ],
+    "C004": [
+      {
+        "source_id": "S004",
+        "candidate_id": "C004",
+        "event_date": "APAC新品发布、区域KOL、足球IP联名内容、渠道促销",
+        "source_layer": "https://www.prnewswire.com/apac/news-releases/roborock-unveils-new-flagship-product-lineup-and-hosts-where-the-greatest-meet-football-event-in-partnership-with-real-madrid-302781605.html",
+        "source_grade": "PRNewswire APAC",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "日本/越南/APAC渠道：A",
+        "link_review_status": "1"
+      }
+    ],
+    "C005": [
+      {
+        "source_id": "S005",
+        "candidate_id": "C005",
+        "event_date": "美国家庭清洁痛点内容、Amazon/官网详情页优化、测评达人",
+        "source_layer": "https://www.prnewswire.com/news-releases/the-end-of-trial-and-error-cleaning-why-consumers-expect-more-from-floor-care-technology-302788666.html",
+        "source_grade": "PRNewswire",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "美国：A",
+        "link_review_status": "1"
+      }
+    ],
+    "C006": [
+      {
+        "source_id": "S006",
+        "candidate_id": "C006",
+        "event_date": "众筹后转Amazon/DTC、灾害备电场景、美国测评渠道",
+        "source_layer": "https://www.prnewswire.com/news-releases/bluetti-fridgepower-hits-2m-milestone-and-global-award-ahead-of-retail-launch-302785682.html",
+        "source_grade": "PRNewswire",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "美国/全球零售：A",
+        "link_review_status": "1"
+      }
+    ],
+    "C007": [
+      {
+        "source_id": "S007",
+        "candidate_id": "C007",
+        "event_date": "东南亚新品发布、音频评测、AI耳机卖点素材",
+        "source_layer": "https://pokde.net/system/audio/earphone/soundcore-liberty-5-pro-series",
+        "source_grade": "Pokde.Net",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "菲律宾/印尼/东南亚：B",
+        "link_review_status": "3"
+      }
+    ],
+    "C008": [
+      {
+        "source_id": "S008",
+        "candidate_id": "C008",
+        "event_date": "COMPUTEX展后媒体、专业显示/游戏显示渠道、分销商跟进",
+        "source_layer": "https://www.prnewswire.com/apac/news-releases/hkc-corporation-limited-to-showcase-world-first-display-technologies-from-hkc-antgamer-and-koorui-at-computex-taipei-2026-302784032.html",
+        "source_grade": "PRNewswire APAC",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "COMPUTEX Taipei/全球渠道：A",
+        "link_review_status": "1"
+      }
+    ],
+    "C009": [
+      {
+        "source_id": "S009",
+        "candidate_id": "C009",
+        "event_date": "电竞KOL、海外显示器媒体、渠道询盘",
+        "source_layer": "https://www.prnewswire.com/apac/news-releases/hkc-corporation-limited-to-showcase-world-first-display-technologies-from-hkc-antgamer-and-koorui-at-computex-taipei-2026-302784032.html",
+        "source_grade": "PRNewswire APAC",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "COMPUTEX Taipei/全球渠道：A",
+        "link_review_status": "1"
+      }
+    ],
+    "C010": [
+      {
+        "source_id": "S010",
+        "candidate_id": "C010",
+        "event_date": "显示器评测、Amazon/区域渠道、内容创作者生产力场景",
+        "source_layer": "https://www.prnewswire.com/apac/news-releases/hkc-corporation-limited-to-showcase-world-first-display-technologies-from-hkc-antgamer-and-koorui-at-computex-taipei-2026-302784032.html",
+        "source_grade": "PRNewswire APAC",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "COMPUTEX Taipei/全球渠道：A",
+        "link_review_status": "1"
+      }
+    ],
+    "C011": [
+      {
+        "source_id": "S011",
+        "candidate_id": "C011",
+        "event_date": "创客社区、YouTube测评、预购转化、海外经销商",
+        "source_layer": "https://www.prnewswire.com/apac/news-releases/makera-showcases-z1-at-beyond-expo-2026-wins-best-of-innovation-award-for-making-precision-cnc-more-accessible-302784945.html",
+        "source_grade": "PRNewswire APAC",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "全球预购/BEYOND Expo：A",
+        "link_review_status": "1"
+      }
+    ],
+    "C012": [
+      {
+        "source_id": "S012",
+        "candidate_id": "C012",
+        "event_date": "北美IP商品化、线下快闪、社媒二创、潮玩渠道",
+        "source_layer": "https://www.prnewswire.com/news-releases/miniso-to-present-biggest-ever-yoyo-art-exhibition-at-the-oculus-bringing-fifty-life-sized-yoyo-figures-into-the-heart-of-nyc-302786902.html",
+        "source_grade": "PRNewswire",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "美国纽约/北美：A",
+        "link_review_status": "1"
+      }
+    ],
+    "C013": [
+      {
+        "source_id": "S013",
+        "candidate_id": "C013",
+        "event_date": "海外研发背书、营养品/乳制品品牌传播、国际合作内容",
+        "source_layer": "https://www.prnewswire.com/in/news-releases/yili-unveils-global-innovation-vanguard-initiative-in-cambridge-uk-302781430.html",
+        "source_grade": "PRNewswire",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "英国剑桥/全球研发合作：A",
+        "link_review_status": "1"
+      }
+    ],
+    "C014": [
+      {
+        "source_id": "S014",
+        "candidate_id": "C014",
+        "event_date": "平台Brand+、3D打印测评、美国大促转化",
+        "source_layer": "https://www.prnewswire.com/news-releases/aliexpress-launches-summer-sale-featuring-brand-sellers-and-creator-led-livestreams-302786872.html",
+        "source_grade": "AliExpress PRNewswire",
+        "source_name": "可访问",
+        "url": "待复核",
+        "evidence_summary": "AliExpress Brand+ / 美国消费者：A",
+        "link_review_status": "1"
+      }
+    ],
+    "C015": [
+      {
+        "source_id": "S015",
+        "candidate_id": "C015",
+        "event_date": "美国工具类站外内容、平台大促、Brand+商家触达",
+        "source_layer": "https://www.prnewswire.com/news-releases/aliexpress-launches-summer-sale-featuring-brand-sellers-and-creator-led-livestreams-302786872.html",
+        "source_grade": "AliExpress PRNewswire",
+        "source_name": "可访问",
+        "url": "待复核",
+        "evidence_summary": "AliExpress Brand+ / 美国消费者：A",
+        "link_review_status": "1"
+      }
+    ],
+    "C016": [
+      {
+        "source_id": "S016",
+        "candidate_id": "C016",
+        "event_date": "主机游戏海外内容营销、试玩达人、愿望单增长",
+        "source_layer": "https://www.gematsu.com/2026/06/phantom-blade-zero-delayed-to-october-29",
+        "source_grade": "Gematsu",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "全球/欧美/日本主机与PC玩家：B",
+        "link_review_status": "2"
+      }
+    ],
+    "C017": [
+      {
+        "source_id": "S017",
+        "candidate_id": "C017",
+        "event_date": "日本本地化、预注册、创作者测试、社区运营",
+        "source_layer": "https://azurpromilia.jp/cbt/",
+        "source_grade": "Azur Promilia JP Official",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "日本/全球：A",
+        "link_review_status": "2"
+      }
+    ],
+    "C018": [
+      {
+        "source_id": "S018",
+        "candidate_id": "C018",
+        "event_date": "首曝内容复盘、Steam/主机社区、海外媒体触达",
+        "source_layer": "https://www.pushsquare.com/news/2026/06/blood-message-brings-uncharted-like-action-to-summer-game-fest",
+        "source_grade": "Push Square",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "全球/欧美主机与PC玩家：B",
+        "link_review_status": "2"
+      }
+    ],
+    "C019": [
+      {
+        "source_id": "S019",
+        "candidate_id": "C019",
+        "event_date": "版本营销、二创素材、海外社区运营",
+        "source_layer": "https://www.gematsu.com/2026/05/neverness-to-everness-version-1-1-update-dreamwalk-corridor-launches-june-3",
+        "source_grade": "Gematsu",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "全球/日本：B",
+        "link_review_status": "2"
+      }
+    ],
+    "C020": [
+      {
+        "source_id": "S020",
+        "candidate_id": "C020",
+        "event_date": "预约增长、海外社媒、试玩名单、东南亚内容营销",
+        "source_layer": "https://yomimono.id/urban-open-world-rpg-wangyue-shows-new-gameplay-footage",
+        "source_grade": "Yomimono",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "全球/东南亚/日本：B",
+        "link_review_status": "1"
+      }
+    ],
+    "C021": [
+      {
+        "source_id": "S021",
+        "candidate_id": "C021",
+        "event_date": "创作者工具增长、模板/素材生态、广告投放与订阅转化",
+        "source_layer": "https://app.sensortower.com/overview/1500855883?country=NL",
+        "source_grade": "Sensor Tower",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "全球App Store/美国/印尼/巴西等：B",
+        "link_review_status": "1"
+      }
+    ],
+    "C022": [
+      {
+        "source_id": "S022",
+        "candidate_id": "C022",
+        "event_date": "AI视频创作者生态、订阅商业化、海外素材生产客户",
+        "source_layer": "https://www.kr-asia.com/kuaishous-kling-ai-seeks-fresh-funding-ahead-of-planned-2027-ipo",
+        "source_grade": "KR-Asia",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "全球创作者/AI视频用户：B",
+        "link_review_status": "2"
+      }
+    ],
+    "C023": [
+      {
+        "source_id": "S023",
+        "candidate_id": "C023",
+        "event_date": "API生态、开发者增长、企业客户内容、海外合作",
+        "source_layer": "https://www.semafor.com/article/06/04/2026/deepseek-nears-7-billion-haul-in-first-raise",
+        "source_grade": "Semafor",
+        "source_name": "可访问",
+        "url": "待复核",
+        "evidence_summary": "全球开发者/海外企业用户：B",
+        "link_review_status": "2"
+      }
+    ],
+    "C024": [
+      {
+        "source_id": "S024",
+        "candidate_id": "C024",
+        "event_date": "AI视频订阅、创作者教育、竞品对比内容",
+        "source_layer": "https://skywork.ai/skypage/en/minimax-hailuo-ai-pricing/2061794773653442560",
+        "source_grade": "Skywork AI Skypage",
+        "source_name": "可访问",
+        "url": "待复核",
+        "evidence_summary": "全球AI视频用户/创作者：C",
+        "link_review_status": "1"
+      }
+    ],
+    "C025": [
+      {
+        "source_id": "S025",
+        "candidate_id": "C025",
+        "event_date": "生活方式内容社区、创作者招募、美妆/时尚内容合作",
+        "source_layer": "https://app.sensortower.com/overview/1498607143",
+        "source_grade": "Sensor Tower",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "美国/泰国/日本：B",
+        "link_review_status": "1"
+      }
+    ],
+    "C026": [
+      {
+        "source_id": "S026",
+        "candidate_id": "C026",
+        "event_date": "平台卖家/品牌池、合规物流、站外增长、类目机会",
+        "source_layer": "https://app.sensortower.com/overview/1641486558",
+        "source_grade": "Sensor Tower",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "美国/墨西哥/英国：B",
+        "link_review_status": "2"
+      }
+    ],
+    "C027": [
+      {
+        "source_id": "S027",
+        "candidate_id": "C027",
+        "event_date": "Brand+商家、美国创作者直播、平台内中国品牌池",
+        "source_layer": "https://www.prnewswire.com/news-releases/aliexpress-launches-summer-sale-featuring-brand-sellers-and-creator-led-livestreams-302786872.html",
+        "source_grade": "AliExpress PRNewswire",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "美国/俄罗斯/巴西：A",
+        "link_review_status": "2"
+      }
+    ],
+    "C028": [
+      {
+        "source_id": "S028",
+        "candidate_id": "C028",
+        "event_date": "AI支付、跨境钱包、商户接入、agent commerce教育",
+        "source_layer": "https://www.scmp.com/tech/tech-trends/article/3354876/alipay-launches-payment-tools-ai-agents-shop-you",
+        "source_grade": "SCMP",
+        "source_name": "可访问",
+        "url": "待复核",
+        "evidence_summary": "全球商家/跨境支付生态：B",
+        "link_review_status": "1"
+      }
+    ],
+    "C029": [
+      {
+        "source_id": "S029",
+        "candidate_id": "C029",
+        "event_date": "旅游支付、跨境钱包互联、商户拓展、区域支付教育",
+        "source_layer": "https://www.prnewswire.com/apac/news-releases/tencent-partners-with-kyrgyzstans-eldik-bank-to-further-expand-cross-border-payment-network-in-central-asia-302779952.html",
+        "source_grade": "Tencent PRNewswire",
+        "source_name": "可访问",
+        "url": "是",
+        "evidence_summary": "中亚/跨境支付：A",
+        "link_review_status": "1"
+      }
+    ],
+    "C030": [
+      {
+        "source_id": "S030",
+        "candidate_id": "C030",
+        "event_date": "购物App增长、站内品牌活动、用户获取与直播转化",
+        "source_layer": "https://app.sensortower.com/overview/com.alibaba.aliexpresshd?country=US",
+        "source_grade": "Sensor Tower",
+        "source_name": "可访问",
+        "url": "待复核",
+        "evidence_summary": "美国/全球App Store/Google Play：B",
+        "link_review_status": "1"
+      }
+    ]
+  },
+  "visualization_field_mapping": {
+    "weekly.focus_customers.table": [
+      "application_product_name",
+      "owner_company_brand",
+      "lead_type",
+      "standard_l1",
+      "standard_l2",
+      "target_market_channel",
+      "dynamic_type",
+      "dynamic_date",
+      "dynamic_summary",
+      "attention_point",
+      "source_grade",
+      "warehouse_suggestion"
+    ],
+    "weekly.exhibition_window": [
+      "event_window",
+      "event_name",
+      "location",
+      "date",
+      "industry",
+      "window_value",
+      "source_grade"
+    ],
+    "weekly.industry_brief": [
+      "standard_l2",
+      "lead_count",
+      "dynamic_types",
+      "signals",
+      "similar_customers_by_candidate"
+    ],
+    "leads.main_table": [
+      "application_product_name",
+      "owner_company_brand",
+      "lead_type",
+      "standard_l1",
+      "standard_l2",
+      "target_market_channel",
+      "dynamic_type",
+      "dynamic_date",
+      "dynamic_summary",
+      "attention_point",
+      "source_grade",
+      "warehouse_suggestion"
+    ],
+    "leads.detail_panel": [
+      "candidate_id",
+      "primary_source_name",
+      "link_status",
+      "source_count",
+      "review_note",
+      "evidence_chain_mapping"
+    ],
+    "excluded_observation": "audit_only_not_for_main_display"
+  },
+  "data_quality_check_result": {
+    "sheet_names": [
+      "客户候选名单",
+      "信源明细",
+      "展会线索",
+      "排除观察",
+      "检索记录",
+      "规则版本"
+    ],
+    "sheet_rows": {
+      "客户候选名单": 30,
+      "信源明细": 30,
+      "展会线索": 5,
+      "排除观察": 5,
+      "检索记录": 4,
+      "规则版本": 8
+    },
+    "sheet_columns": {
+      "客户候选名单": [
+        "候选ID",
+        "周次",
+        "检索日期",
+        "客户动态时间窗",
+        "线索类型",
+        "一级行业",
+        "二级行业",
+        "应用/商品名称",
+        "背后公司/发行方/品牌方",
+        "目标市场/渠道",
+        "动态类型",
+        "动态日期",
+        "动态摘要",
+        "建议关注点",
+        "信源等级",
+        "来源层级",
+        "主信源名称",
+        "主信源链接",
+        "链接状态",
+        "是否建议入库",
+        "复核备注",
+        "信源数"
+      ],
+      "信源明细": [
+        "信源ID",
+        "候选ID",
+        "发布日期/事件日期",
+        "来源层级",
+        "信源等级",
+        "信源名称",
+        "URL",
+        "证据摘要",
+        "链接状态/复核备注"
+      ],
+      "展会线索": [
+        "展会ID",
+        "周次",
+        "展会时间窗",
+        "行业",
+        "展会/会议",
+        "地点",
+        "日期",
+        "展会窗口价值",
+        "信源等级",
+        "链接",
+        "复核备注"
+      ],
+      "排除观察": [
+        "排除ID",
+        "一级行业",
+        "主体/项目",
+        "动态类型",
+        "排除原因"
+      ],
+      "检索记录": [
+        "检索ID",
+        "任务",
+        "主要信源域",
+        "代表性检索式/动作",
+        "检索日期",
+        "结果摘要"
+      ],
+      "规则版本": [
+        "字段",
+        "内容"
+      ]
+    },
+    "checks": {
+      "required_sheets": "pass",
+      "required_columns": "pass",
+      "text_length_limits": "pass",
+      "forbidden_terms": "pass",
+      "source_candidate_mapping": "pass",
+      "exclusion_not_in_main_display": "pass"
+    },
+    "excluded_observation_count": 5,
+    "search_record_count": 4,
+    "rule_version": {
+      "规则版本": "客户动态检索规则_最新版.md / 2026-06-05纠偏版",
+      "客户动态时间窗": "2026-05-22 至 2026-06-05",
+      "展会时间窗": "2026-06-05 至 2026-06-19",
+      "主表口径": "只收应用或商品；应用/商品名称为主键，背后公司为归属字段",
+      "权重": "商品15条，应用15条，约5:5",
+      "删除字段": "不再保留中国出海证据摘要",
+      "排除": "工程机械、工业标准、车企、云服务、国内-only AI平台、AR眼镜",
+      "本版产出": "客户候选30条；信源明细30条；展会线索5条；排除观察5条"
+    }
+  }
+}

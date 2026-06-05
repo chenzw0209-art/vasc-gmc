@@ -1,69 +1,16 @@
 (function () {
   const $ = (s) => document.querySelector(s);
   const $$ = (s) => [...document.querySelectorAll(s)];
-  const state = { tab: "overview", records: [], selectedId: null };
-  const VALID_DATE = /^\d{4}-\d{2}-\d{2}$/;
+  const state = { tab: "overview", content: null, selectedId: null };
 
   function safe(v, fallback = "待补充") {
     const s = String(v ?? "").trim();
-    return s && s !== "0000-00-00" ? s : fallback;
-  }
-
-  function money(n) {
-    n = Number(n || 0);
-    if (!n) return "待补充";
-    if (n >= 1e9) return "$" + (n / 1e9).toFixed(2) + "B";
-    if (n >= 1e6) return "$" + (n / 1e6).toFixed(1) + "M";
-    if (n >= 1e3) return "$" + (n / 1e3).toFixed(1) + "K";
-    return "$" + n.toFixed(0);
+    return s ? s : fallback;
   }
 
   function short(text, len = 72) {
     text = String(text || "").replace(/\s+/g, " ").trim();
     return text.length > len ? text.slice(0, len - 1) + "…" : text;
-  }
-
-  function validDate(x) {
-    return VALID_DATE.test(String(x || "")) && x !== "0000-00-00";
-  }
-
-  function daysAgo(x) {
-    if (!validDate(x)) return Infinity;
-    return (new Date("2026-06-04") - new Date(x)) / 86400000;
-  }
-
-  function eventType(x) {
-    const s = [x.event_type, x.signal_type, x.summary, x.product_action].join(" ");
-    if (/展会|CES|IFA|Computex|Expo|exhibition/i.test(s)) return "展会亮相";
-    if (/新品|发布|launch|release|unveil/i.test(s)) return "新品发布";
-    if (/渠道|Amazon|TikTok|DTC|上线|店铺/i.test(s)) return "渠道扩张";
-    if (/政策|合规|监管|标准/i.test(s)) return "行业政策";
-    if (/报告|研究|白皮书|market report/i.test(s)) return "市场报告";
-    if (/PR|新闻|公告|官宣/i.test(s)) return "品牌PR";
-    return "其他";
-  }
-
-  function signalType(x) {
-    const s = [x.event_type, x.signal_type, x.summary].join(" ");
-    if (/展会|CES|IFA|Computex|Expo/i.test(s)) return "展会动态";
-    if (/招标|投标|tender|bid/i.test(s)) return "招投标动态";
-    if (/政策|监管|合规|标准/i.test(s)) return "行业政策";
-    return "客户动态";
-  }
-
-  function quality(x) {
-    const q = String(x.evidence_grade || x.priority || "").trim();
-    if (/高|A/i.test(q)) return "A";
-    if (/中|B/i.test(q)) return "B";
-    if (/低|C/i.test(q)) return "C";
-    return "待判断";
-  }
-
-  function typeClass(type) {
-    if (type === "客户动态") return "tag-customer";
-    if (type === "展会动态") return "tag-expo";
-    if (type === "招投标动态") return "tag-tender";
-    return "tag-policy";
   }
 
   function qualityClass(q) {
@@ -73,33 +20,27 @@
     return "tag-pending";
   }
 
-  function countBy(rows, fn) {
-    return rows.reduce((acc, x) => {
-      const k = fn(x) || "待补充";
-      acc[k] = (acc[k] || 0) + 1;
-      return acc;
-    }, {});
+  function records() {
+    return state.content.leads_module_content.records || [];
   }
 
-  function unique(rows, fn) {
-    return [...new Set(rows.map(fn).filter(Boolean))];
+  function evidence(candidateId) {
+    return state.content.evidence_chain_detail_mapping[candidateId] || [];
   }
 
   function baseRows() {
     const q = ($("#search")?.value || "").toLowerCase().trim();
-    const country = $("#country-filter")?.value || "";
+    const type = $("#type-filter")?.value || "";
     const industry = $("#industry-filter")?.value || "";
     const brand = $("#brand-filter")?.value || "";
-    const type = $("#type-filter")?.value || "";
-    const ev = $("#event-filter")?.value || "";
-    const ql = $("#quality-filter")?.value || "";
-    return state.records.filter((x) => {
-      if (country && x.country !== country) return false;
+    const eventType = $("#event-filter")?.value || "";
+    const quality = $("#quality-filter")?.value || "";
+    return records().filter((x) => {
+      if (type && x.lead_type !== type) return false;
       if (industry && x.standard_l2 !== industry) return false;
-      if (brand && x.company !== brand) return false;
-      if (type && signalType(x) !== type) return false;
-      if (ev && eventType(x) !== ev) return false;
-      if (ql && quality(x) !== ql) return false;
+      if (brand && x.application_product_name !== brand) return false;
+      if (eventType && x.dynamic_type !== eventType) return false;
+      if (quality && x.source_grade !== quality) return false;
       if (q && !JSON.stringify(x).toLowerCase().includes(q)) return false;
       return true;
     });
@@ -107,38 +48,46 @@
 
   function tabRows() {
     const rows = baseRows();
-    if (state.tab === "customers") return rows.filter((x) => signalType(x) === "客户动态" && x.company);
-    if (state.tab === "events") return [];
-    if (state.tab === "tenders") return [];
+    if (state.tab === "customers") return rows.filter((x) => x.lead_type !== "展会");
+    if (state.tab === "events") return state.content.exhibition_window_content || [];
+    if (state.tab === "tenders") return rows.filter((x) => /招|投/.test(x.dynamic_type));
     return rows;
   }
 
+  function unique(rows, key) {
+    return [...new Set(rows.map((x) => x[key]).filter(Boolean))].sort();
+  }
+
   function fillFilters() {
-    const rows = state.records;
+    const rows = records();
     const opts = [
-      ["country-filter", unique(rows, (x) => x.country).sort()],
-      ["industry-filter", unique(rows, (x) => x.standard_l2).sort()],
-      ["brand-filter", unique(rows, (x) => x.company).sort()],
+      ["type-filter", unique(rows, "lead_type")],
+      ["industry-filter", unique(rows, "standard_l2")],
+      ["brand-filter", unique(rows, "application_product_name")],
+      ["event-filter", unique(rows, "dynamic_type")],
+      ["quality-filter", unique(rows, "source_grade")],
     ];
     opts.forEach(([id, values]) => {
       const el = $("#" + id);
+      if (!el) return;
+      [...el.querySelectorAll("option:not(:first-child)")].forEach((x) => x.remove());
       values.forEach((v) => el.insertAdjacentHTML("beforeend", `<option value="${v}">${v}</option>`));
     });
   }
 
   function renderKpis(rows) {
-    const high = rows.filter((x) => quality(x) === "A").length;
-    const recent = rows.filter((x) => daysAgo(x.publish_date) <= 30).length;
-    const industries = unique(rows, (x) => x.standard_l2).length;
-    const brands = unique(rows, (x) => x.company).length;
-    const keyBrands = rows.filter((x) => quality(x) === "A" && x.company).length;
+    const all = records();
+    const high = rows.filter((x) => x.source_grade === "A").length;
+    const suggested = rows.filter((x) => x.warehouse_suggestion.includes("是")).length;
+    const industries = new Set(rows.map((x) => x.standard_l2).filter(Boolean)).size;
+    const apps = new Set(rows.map((x) => x.application_product_name).filter(Boolean)).size;
     const cards = [
-      ["信号总数", rows.length, "公开情报记录", "tone-blue", "Σ"],
-      ["近30日新增信号", recent, "有效事件日期", "tone-green", "+"],
-      ["高质量信源", high, "PR质量 A / 高", "tone-purple", "A"],
-      ["覆盖行业数", industries, "二级行业去重", "tone-orange", "业"],
-      ["覆盖品牌数", brands, "品牌/企业去重", "tone-red", "牌"],
-      ["重点关注品牌", keyBrands, "A类品牌信号", "tone-blue", "★"],
+      ["候选总数", all.length, "本周候选池", "tone-blue", "Σ"],
+      ["当前筛选", rows.length, "可展示记录", "tone-green", "筛"],
+      ["A类信源", high, "信源等级A", "tone-purple", "A"],
+      ["建议入库", suggested, "复核后入库", "tone-orange", "入"],
+      ["覆盖行业", industries, "二级行业", "tone-red", "业"],
+      ["应用/商品", apps, "主键去重", "tone-blue", "品"],
     ];
     $("#kpis").innerHTML = cards.map(([k, v, note, tone, icon]) => `
       <article class="kpi-card">
@@ -147,179 +96,113 @@
       </article>`).join("");
   }
 
-  function renderTable(rows, target = "signal-table") {
-    if (!rows.length) {
-      $("#" + target).innerHTML = `<tr><td colspan="11" class="center">当前筛选下暂无可展示情报信号</td></tr>`;
-      return;
-    }
-    $("#" + target).innerHTML = rows.slice(0, 80).map((x) => {
-      const st = signalType(x);
-      const q = quality(x);
-      return `<tr data-id="${x.lead_id}">
-        <td><span class="tag ${typeClass(st)}">${st}</span></td>
-        <td>${safe(x.country)}</td>
-        <td class="industry-cell" title="${safe(x.standard_l2)}">${safe(x.standard_l2)}</td>
-        <td class="brand-cell" title="${safe(x.company)}">${safe(x.company, "-")}</td>
-        <td class="industry-cell" title="${safe(x.product_action)}">${safe(x.product_action)}</td>
-        <td>${safe(x.publish_date)}</td>
-        <td><span class="tag tag-b">${eventType(x)}</span></td>
-        <td class="event-summary" title="${safe(x.summary)}">${safe(short(x.summary, 110))}</td>
-        <td><span class="tag ${qualityClass(q)}">${q}</span></td>
-        <td class="num">${money(x.tiktok_13w_gmv)}</td>
-        <td>${x.source_url ? `<a href="${x.source_url}" target="_blank" class="link-button">查看信源</a>` : "待补充"}</td>
-      </tr>`;
-    }).join("");
-    $$("#" + target + " tr[data-id]").forEach((tr) => tr.addEventListener("click", () => {
+  function tableHead() {
+    return `<tr>
+      <th style="width:150px">应用/商品名称</th><th style="width:150px">归属方</th><th style="width:72px">线索</th>
+      <th style="width:150px">一级/二级行业</th><th style="width:130px">目标市场/渠道</th><th style="width:86px">动态类型</th>
+      <th style="width:86px">动态日期</th><th>动态摘要</th><th style="width:160px">建议关注点</th><th style="width:62px">信源</th><th style="width:78px">入库</th>
+    </tr>`;
+  }
+
+  function renderTable(rows) {
+    $("#signal-table").innerHTML = rows.slice(0, 80).map((x) => `
+      <tr data-id="${x.candidate_id}">
+        <td><div class="brand-cell">${safe(x.application_product_name)}</div></td>
+        <td><div class="brand-cell">${safe(x.owner_company_brand, "-")}</div></td>
+        <td><span class="tag tag-b">${safe(x.lead_type)}</span></td>
+        <td class="industry-cell">${safe(x.standard_l1)}<br><b>${safe(x.standard_l2)}</b></td>
+        <td>${short(x.target_market_channel, 24)}</td>
+        <td>${safe(x.dynamic_type)}</td>
+        <td>${safe(x.dynamic_date, "-")}</td>
+        <td><div class="event-summary">${safe(x.dynamic_summary)}</div></td>
+        <td><div class="event-summary">${safe(x.attention_point)}</div></td>
+        <td><span class="tag ${qualityClass(x.source_grade)}">${safe(x.source_grade)}</span></td>
+        <td>${safe(x.warehouse_suggestion)}</td>
+      </tr>`).join("") || `<tr><td colspan="11" class="center">当前筛选下暂无候选线索</td></tr>`;
+    $$("#signal-table tr[data-id]").forEach((tr) => tr.addEventListener("click", () => {
       state.selectedId = tr.dataset.id;
-      renderDetail(rows.find((x) => x.lead_id === state.selectedId));
+      renderDetail(rows.find((x) => x.candidate_id === state.selectedId));
     }));
   }
 
   function renderDetail(x) {
-    x = x || tabRows()[0];
+    x = x || baseRows()[0];
     if (!x) {
-      $("#detail").innerHTML = `<div class="placeholder">暂无情报详情</div>`;
+      $("#detail").innerHTML = `<div class="placeholder">暂无详情</div>`;
       return;
     }
-    const st = signalType(x);
-    const q = quality(x);
+    const sources = evidence(x.candidate_id);
     $("#detail").innerHTML = `
       <div class="intel-detail">
         <div class="detail-section">
-          <b>${safe(x.company, "未标注品牌")}</b>
-          <p><span class="tag ${typeClass(st)}">${st}</span> <span class="tag ${qualityClass(q)}">${q}</span></p>
+          <b>${safe(x.application_product_name)}</b>
+          <p>归属方：${safe(x.owner_company_brand, "-")}<br><span class="tag ${qualityClass(x.source_grade)}">${safe(x.source_grade)}</span> <span class="tag tag-b">${safe(x.lead_type)}</span></p>
         </div>
-        <div class="detail-section"><b>一、事件摘要</b><p>事件日期：${safe(x.publish_date)}<br>事件类型：${eventType(x)}<br>${safe(x.summary)}<br>主营品类：${safe(x.product_action)}</p></div>
-        <div class="detail-section"><b>二、市场相关性</b><p>一级行业：${safe(x.standard_l1)}<br>二级行业：${safe(x.standard_l2)}<br>国家/地区：${safe(x.country)}<br>底表GMV：${money(x.tiktok_13w_gmv)}</p></div>
-        <div class="detail-section"><b>三、证据链</b><p>主信源：${safe(x.source_name)}<br>PR质量：${q}<br>${x.source_url ? `<a href="${x.source_url}" target="_blank" class="link-button">查看原始信源</a>` : "信源链接待补充"}</p></div>
-        <div class="detail-section"><b>四、原始记录</b><p>${safe(short([x.event_type, x.signal_type, x.parent_company].filter(Boolean).join(" / "), 150))}</p></div>
+        <div class="detail-section"><b>事件摘要</b><p>${safe(x.dynamic_summary)}<br>建议关注点：${safe(x.attention_point)}</p></div>
+        <div class="detail-section"><b>市场相关性</b><p>${safe(x.standard_l1)} / ${safe(x.standard_l2)}<br>${safe(x.target_market_channel)}<br>动态类型：${safe(x.dynamic_type)} · ${safe(x.dynamic_date)}</p></div>
+        <div class="detail-section"><b>证据链</b>${sources.map((s) => `<p><b>${safe(s.source_name)}</b>：${short(s.evidence_summary, 88)}<br>${s.url ? `<a class="link-button" target="_blank" href="${s.url}">查看信源</a>` : ""}</p>`).join("") || "<p>暂无信源明细。</p>"}</div>
+        <div class="detail-section"><b>复核记录</b><p>链接状态：${safe(x.link_status)}<br>是否建议入库：${safe(x.warehouse_suggestion)}<br>${safe(x.review_note, "")}</p></div>
       </div>`;
   }
 
-  function renderStats(rows) {
-    renderMiniBars("type-bars", countBy(rows, signalType), ["客户动态", "行业政策", "展会动态", "招投标动态"]);
-    renderMiniBars("quality-bars", countBy(rows, quality), ["A", "B", "C", "待判断"]);
-    const top = Object.entries(countBy(rows, (x) => x.standard_l2)).sort((a, b) => b[1] - a[1]).slice(0, 5);
-    renderMiniBars("industry-bars", Object.fromEntries(top), top.map(([k]) => k));
-  }
-
-  function renderMiniBars(id, obj, order) {
+  function renderBars(id, entries) {
+    const obj = Object.fromEntries(entries);
     const max = Math.max(1, ...Object.values(obj));
-    $("#" + id).innerHTML = order.map((k) => {
-      const v = obj[k] || 0;
-      return `<div class="summary-bar"><span>${k}</span><i><b style="width:${v / max * 100}%"></b></i><strong>${v}</strong></div>`;
-    }).join("");
+    $("#" + id).innerHTML = entries.map(([k, v]) => `<div class="summary-bar"><span>${k}</span><i><b style="width:${v / max * 100}%"></b></i><strong>${v}</strong></div>`).join("");
   }
 
-  function renderCharts(rows) {
-    renderTrend(rows);
-    renderHeatmap(rows);
-    const top = Object.entries(countBy(rows, (x) => x.standard_l2)).sort((a, b) => b[1] - a[1]).slice(0, 10);
-    renderMiniBars("industry-top10", Object.fromEntries(top), top.map(([k]) => k));
-  }
-
-  function renderTrend(rows) {
-    const by = countBy(rows.filter((x) => validDate(x.publish_date)), (x) => x.publish_date.slice(5));
-    const keys = Object.keys(by).sort().slice(-30);
-    const max = Math.max(1, ...keys.map((k) => by[k]));
-    $("#signal-trend").innerHTML = keys.map((k) => `<div class="trend-bar" title="${k}: ${by[k]}"><i style="height:${Math.max(6, by[k] / max * 100)}%"></i><span>${k.slice(3)}</span></div>`).join("");
-  }
-
-  function renderHeatmap(rows) {
-    const countries = unique(rows, (x) => x.country).slice(0, 6);
-    const industries = Object.entries(countBy(rows, (x) => x.standard_l2)).sort((a, b) => b[1] - a[1]).slice(0, 8).map(([k]) => k);
-    const counts = {};
-    rows.forEach((x) => {
-      const key = `${x.country}|${x.standard_l2}`;
-      counts[key] = (counts[key] || 0) + 1;
-    });
-    const max = Math.max(1, ...Object.values(counts));
-    $("#heatmap").innerHTML = `
-      <div class="heatmap-grid" style="grid-template-columns:120px repeat(${industries.length},1fr)">
-        <div></div>${industries.map((i) => `<b title="${i}">${short(i, 8)}</b>`).join("")}
-        ${countries.map((c) => `<strong>${c}</strong>${industries.map((i) => {
-          const v = counts[`${c}|${i}`] || 0;
-          const a = v ? 0.18 + v / max * 0.72 : 0.04;
-          return `<span style="background:rgba(37,99,235,${a})" title="${c} / ${i}: ${v}">${v || ""}</span>`;
-        }).join("")}`).join("")}
-      </div>`;
+  function countBy(rows, key) {
+    const obj = {};
+    rows.forEach((x) => { const k = x[key] || "待补充"; obj[k] = (obj[k] || 0) + 1; });
+    return Object.entries(obj).sort((a, b) => b[1] - a[1]);
   }
 
   function renderOverview() {
     const rows = tabRows();
     renderKpis(rows);
-    const topRows = [...rows].sort((a, b) => quality(a).localeCompare(quality(b))).slice(0, 10);
     $("#tab-body").innerHTML = `
       <section class="leads-main">
         <div class="leads-row leads-row-1">
-          <article class="card table-card-md"><h2>情报线索列表 <small>公开可验证信号</small></h2><div class="table-scroll"><table class="data-table intel-table"><thead>${tableHead()}</thead><tbody id="signal-table"></tbody></table></div></article>
-          <article class="card detail-card"><h2>情报详情</h2><div id="detail"></div></article>
+          <article class="card table-card-md"><h2>候选线索列表 <small>应用/商品为主键</small></h2><div class="table-scroll"><table class="data-table intel-table"><thead>${tableHead()}</thead><tbody id="signal-table"></tbody></table></div></article>
+          <article class="card detail-card"><h2>线索详情 / 证据链</h2><div id="detail"></div></article>
         </div>
         <div class="leads-row leads-row-2">
-          <article class="card chart-card-sm"><h2>信号类型分布</h2><div id="type-bars" class="mini-bars"></div></article>
-          <article class="card chart-card-sm"><h2>PR质量分布</h2><div id="quality-bars" class="mini-bars"></div></article>
+          <article class="card chart-card-sm"><h2>线索类型分布</h2><div id="type-bars" class="mini-bars"></div></article>
+          <article class="card chart-card-sm"><h2>信源等级分布</h2><div id="quality-bars" class="mini-bars"></div></article>
           <article class="card chart-card-sm"><h2>行业分布Top5</h2><div id="industry-bars" class="mini-bars"></div></article>
-        </div>
-        <div class="leads-row leads-row-2">
-          <article class="card chart-card-sm"><h2>近30日信号趋势</h2><div id="signal-trend" class="trend-bars"></div></article>
-          <article class="card chart-card-sm"><h2>行业分布Top10</h2><div id="industry-top10" class="mini-bars"></div></article>
-          <article class="card chart-card-sm"><h2>国家 × 行业热力图</h2><div id="heatmap"></div></article>
-        </div>
-      </section>`;
-    renderTable(topRows);
-    renderDetail(topRows[0]);
-    renderStats(rows);
-    renderCharts(rows);
-  }
-
-  function tableHead() {
-    return `<tr>
-      <th style="width:82px">信号类型</th><th style="width:72px">国家/地区</th><th style="width:130px">二级行业</th><th style="width:150px">品牌/企业</th><th style="width:160px">主营品类</th><th style="width:92px">事件日期</th><th style="width:88px">事件类型</th><th>事件摘要</th><th style="width:72px">PR质量</th><th style="width:96px" class="num">底表GMV</th><th style="width:86px">信源</th>
-    </tr>`;
-  }
-
-  function renderCustomers() {
-    const rows = tabRows();
-    renderKpis(rows);
-    $("#tab-body").innerHTML = `
-      <section class="leads-main">
-        <div class="leads-row leads-row-1">
-          <article class="card table-card-md"><h2>重点关注品牌列表</h2><div class="table-scroll"><table class="data-table intel-table"><thead>${tableHead()}</thead><tbody id="signal-table"></tbody></table></div></article>
-          <article class="card detail-card"><h2>品牌事件详情</h2><div id="detail"></div></article>
-        </div>
-        <div class="leads-row leads-row-2">
-          <article class="card chart-card-sm"><h2>品牌GMV分布</h2><div id="signal-trend" class="trend-bars"></div></article>
-          <article class="card chart-card-sm"><h2>行业分布Top10</h2><div id="industry-top10" class="mini-bars"></div></article>
-          <article class="card chart-card-sm"><h2>PR质量分布</h2><div id="quality-bars" class="mini-bars"></div></article>
         </div>
       </section>`;
     renderTable(rows);
     renderDetail(rows[0]);
-    renderCharts(rows);
-    renderMiniBars("quality-bars", countBy(rows, quality), ["A", "B", "C", "待判断"]);
+    renderBars("type-bars", countBy(rows, "lead_type"));
+    renderBars("quality-bars", countBy(rows, "source_grade"));
+    renderBars("industry-bars", countBy(rows, "standard_l2").slice(0, 5));
   }
 
-  function renderEmpty(label) {
+  function renderEvents() {
+    const rows = state.content.exhibition_window_content || [];
     renderKpis(baseRows());
-    $("#tab-body").innerHTML = `<div class="card"><h2>${label}</h2><div class="placeholder">当前阶段保留结构，等待公域${label}数据接入。</div></div>`;
+    $("#tab-body").innerHTML = `
+      <article class="card table-card-md"><h2>展会窗口 <small>独立于客户候选主列表</small></h2>
+        <div class="table-scroll"><table class="data-table"><thead><tr><th>时间窗</th><th>展会/会议</th><th>地点</th><th>日期</th><th>行业</th><th>窗口价值</th><th>信源</th></tr></thead><tbody>
+        ${rows.map((x) => `<tr><td>${safe(x.event_window)}</td><td class="brand-cell">${safe(x.event_name)}</td><td>${safe(x.location)}</td><td>${safe(x.date)}</td><td>${safe(x.industry)}</td><td class="event-summary">${safe(x.window_value)}</td><td><span class="tag ${qualityClass(x.source_grade)}">${safe(x.source_grade)}</span></td></tr>`).join("")}
+        </tbody></table></div>
+      </article>`;
   }
 
   function renderAll() {
     $$(".tab").forEach((b) => b.classList.toggle("active", b.dataset.tab === state.tab));
-    if (state.tab === "customers") renderCustomers();
-    else if (state.tab === "events") renderEmpty("展会动态");
-    else if (state.tab === "tenders") renderEmpty("招投标动态");
+    if (state.tab === "events") renderEvents();
     else renderOverview();
   }
 
   async function init() {
-    const json = await loadJson("../../data/leads/lead_events.json");
-    state.records = (json.records || json).filter((x) => x.standard_l1 === "Consumer Tech");
+    state.content = await loadJson("../../data/weekly/weekly_leads_content_2026_W23.json");
     fillFilters();
     $$(".tab").forEach((b) => b.addEventListener("click", () => { state.tab = b.dataset.tab; renderAll(); }));
-    ["search", "country-filter", "industry-filter", "brand-filter", "type-filter", "event-filter", "quality-filter"].forEach((id) => $("#" + id).addEventListener("input", renderAll));
-    $("#reset").addEventListener("click", () => {
-      ["search", "country-filter", "industry-filter", "brand-filter", "type-filter", "event-filter", "quality-filter"].forEach((id) => $("#" + id).value = "");
+    ["search", "type-filter", "industry-filter", "brand-filter", "event-filter", "quality-filter"].forEach((id) => $("#" + id)?.addEventListener("input", renderAll));
+    $("#reset")?.addEventListener("click", () => {
+      ["search", "type-filter", "industry-filter", "brand-filter", "event-filter", "quality-filter"].forEach((id) => { const el = $("#" + id); if (el) el.value = ""; });
       renderAll();
     });
     renderAll();
