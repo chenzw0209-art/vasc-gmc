@@ -35,24 +35,40 @@
 
         <section id="sales-focus"></section>
 
-        <section class="report-row report-row-main">
+        <section class="report-row report-row-customer">
           <article class="data-card customer-table-card">
-            <h2 class="card-title">本周重点关注客户 Top10</h2>
+            <div class="card-title-row">
+              <h2 class="card-title">本周重点关注客户 Top10</h2>
+              <select id="customer-extra-select" class="compact-select" aria-label="查看其余客户">
+                <option value="">查看其余客户</option>
+              </select>
+            </div>
             <div id="customer-table"></div>
           </article>
+        </section>
+
+        <section class="report-row report-row-events">
+          <article class="data-card event-window-card">
+            <div class="card-title-row">
+              <h2 class="card-title">重点展会</h2>
+              <div class="event-tools">
+                <select id="event-extra-select" class="compact-select" aria-label="查看全部展会">
+                  <option value="">查看全部展会</option>
+                </select>
+                <a id="event-open-link" class="inline-link" href="#" target="_blank" rel="noreferrer">打开链接</a>
+              </div>
+            </div>
+            <div id="event-windows"></div>
+          </article>
+        </section>
+
+        <section class="report-row report-row-insight">
           <article class="data-card industry-brief-card">
             <div class="card-title-row">
               <h2 id="industry-brief-title" class="card-title">客户对应行业扫盘</h2>
               <a id="industry-link" href="./pages/market/">查看完整行业研究</a>
             </div>
             <div id="industry-brief"></div>
-          </article>
-        </section>
-
-        <section class="report-row report-row-secondary">
-          <article class="data-card event-window-card">
-            <h2 class="card-title">本周 / 下周重点展会</h2>
-            <div id="event-windows"></div>
           </article>
           <article class="data-card similar-customers-card">
             <h2 id="similar-title" class="card-title">同类客户</h2>

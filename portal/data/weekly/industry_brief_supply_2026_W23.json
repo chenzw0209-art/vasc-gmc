@@ -1,0 +1,316 @@
+{
+  "week": "2026-W23",
+  "generated_at": "2026-06-05",
+  "industries": [
+    {
+      "source_lead_industry_key": "手机与配件|智能追踪器/移动电源",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "手机与配件",
+      "mapped_research_industry": "手机与配件",
+      "industry_key": "手机与配件|智能追踪器/移动电源",
+      "metrics": {
+        "gmv": "$11.24B",
+        "yoy_growth": "见深度分析",
+        "cn_gmv_share": "53.0%",
+        "top_cn_player": "Anker"
+      },
+      "growth_signals_short": [
+        "Apple 配件生态主导",
+        "CN 品牌绝对统治",
+        "品类教育已完成",
+        "Apple 配件生态红利"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Anker",
+          "grade": "A"
+        },
+        {
+          "brand": "UGREEN",
+          "grade": "A"
+        },
+        {
+          "brand": "ESR",
+          "grade": "B"
+        },
+        {
+          "brand": "TORRAS",
+          "grade": "B"
+        },
+        {
+          "brand": "Spigen",
+          "grade": "B"
+        }
+      ],
+      "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\手机与配件_深度分析v1.md",
+      "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\手机与配件_聚合底表v1.xlsx",
+      "coverage_status": "已匹配深度分析"
+    },
+    {
+      "source_lead_industry_key": "手机与配件|充电器/磁吸移动电源",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "手机与配件",
+      "mapped_research_industry": "手机与配件",
+      "industry_key": "手机与配件|充电器/磁吸移动电源",
+      "metrics": {
+        "gmv": "$11.24B",
+        "yoy_growth": "见深度分析",
+        "cn_gmv_share": "53.0%",
+        "top_cn_player": "Anker"
+      },
+      "growth_signals_short": [
+        "Apple 配件生态主导",
+        "CN 品牌绝对统治",
+        "品类教育已完成",
+        "Apple 配件生态红利"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Anker",
+          "grade": "A"
+        },
+        {
+          "brand": "UGREEN",
+          "grade": "A"
+        },
+        {
+          "brand": "ESR",
+          "grade": "B"
+        },
+        {
+          "brand": "TORRAS",
+          "grade": "B"
+        },
+        {
+          "brand": "Spigen",
+          "grade": "B"
+        }
+      ],
+      "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\手机与配件_深度分析v1.md",
+      "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\手机与配件_聚合底表v1.xlsx",
+      "coverage_status": "已匹配深度分析"
+    },
+    {
+      "source_lead_industry_key": "游戏|二次元/开放世界",
+      "primary_industry": "Gaming",
+      "secondary_industry": "二次元/开放世界",
+      "mapped_research_industry": "二次元/开放世界",
+      "industry_key": "游戏|二次元/开放世界",
+      "metrics": {
+        "gmv": "待补",
+        "yoy_growth": "待补",
+        "cn_gmv_share": "待补",
+        "top_cn_player": "Manjuu / Yostar"
+      },
+      "growth_signals_short": [
+        "开放世界新品曝光",
+        "海外预约窗口出现",
+        "日区内容信号活跃"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Manjuu / Yostar",
+          "grade": "A"
+        }
+      ],
+      "research_source_path": "待补行研洞察-agent",
+      "bottom_table_path": "待补行研洞察-agent",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "平台|跨境电商App",
+      "primary_industry": "平台",
+      "secondary_industry": "跨境电商平台",
+      "mapped_research_industry": "跨境电商平台",
+      "industry_key": "平台|跨境电商App",
+      "metrics": {
+        "gmv": "待补",
+        "yoy_growth": "待补",
+        "cn_gmv_share": "待补",
+        "top_cn_player": "Alibaba International / AliExpress"
+      },
+      "growth_signals_short": [
+        "大促节奏带动投放",
+        "跨境卖家生态活跃",
+        "平台更新窗口明确"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Alibaba International / AliExpress",
+          "grade": "A"
+        }
+      ],
+      "research_source_path": "待补行研洞察-agent",
+      "bottom_table_path": "待补行研洞察-agent",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "家用电器|清洁电器",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "清洁电器",
+      "mapped_research_industry": "清洁电器",
+      "industry_key": "家用电器|清洁电器",
+      "metrics": {
+        "gmv": "$3.83B",
+        "yoy_growth": "见深度分析",
+        "cn_gmv_share": "41.7%",
+        "top_cn_player": "Roborock"
+      },
+      "growth_signals_short": [
+        "扫地机器人主导",
+        "CN 品牌占比 41.7%",
+        "Shark/Bissell 传统吸尘器",
+        "扫地机器人 CN 占比 60%"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Roborock",
+          "grade": "A"
+        },
+        {
+          "brand": "Tineco",
+          "grade": "A"
+        }
+      ],
+      "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\清洁电器_深度分析v1.md",
+      "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\清洁电器_聚合底表v1.xlsx",
+      "coverage_status": "已匹配深度分析"
+    },
+    {
+      "source_lead_industry_key": "家用电器|扫地机器人/清洁电器",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "清洁电器",
+      "mapped_research_industry": "清洁电器",
+      "industry_key": "家用电器|扫地机器人/清洁电器",
+      "metrics": {
+        "gmv": "$3.83B",
+        "yoy_growth": "见深度分析",
+        "cn_gmv_share": "41.7%",
+        "top_cn_player": "Roborock"
+      },
+      "growth_signals_short": [
+        "扫地机器人主导",
+        "CN 品牌占比 41.7%",
+        "Shark/Bissell 传统吸尘器",
+        "扫地机器人 CN 占比 60%"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Roborock",
+          "grade": "A"
+        },
+        {
+          "brand": "Tineco",
+          "grade": "A"
+        }
+      ],
+      "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\清洁电器_深度分析v1.md",
+      "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\清洁电器_聚合底表v1.xlsx",
+      "coverage_status": "已匹配深度分析"
+    },
+    {
+      "source_lead_industry_key": "家用电器|家庭储能/备用电源",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "户外便携电源储能",
+      "mapped_research_industry": "户外便携电源储能",
+      "industry_key": "家用电器|家庭储能/备用电源",
+      "metrics": {
+        "gmv": "$1.55B",
+        "yoy_growth": "见深度分析",
+        "cn_gmv_share": "44.5%",
+        "top_cn_player": "Anker"
+      },
+      "growth_signals_short": [
+        "全球便携电源市场",
+        "应急场景驱动",
+        "从户外走向家庭",
+        "CN品牌深度参与"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Anker",
+          "grade": "A"
+        },
+        {
+          "brand": "BLUETTI",
+          "grade": "A"
+        },
+        {
+          "brand": "Jackery",
+          "grade": "B"
+        },
+        {
+          "brand": "EcoFlow",
+          "grade": "B"
+        }
+      ],
+      "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\户外便携电源储能_深度分析v1.md",
+      "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\户外便携电源储能_聚合底表v1.xlsx",
+      "coverage_status": "已匹配深度分析"
+    },
+    {
+      "source_lead_industry_key": "计算机与配件|显示器",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "显示器与电脑平板",
+      "mapped_research_industry": "显示器与电脑平板",
+      "industry_key": "计算机与配件|显示器",
+      "metrics": {
+        "gmv": "$2.44B",
+        "yoy_growth": "见深度分析",
+        "cn_gmv_share": "22.1%",
+        "top_cn_player": "KTC"
+      },
+      "growth_signals_short": [
+        "全球显示器市场",
+        "Apple 平板垄断",
+        "CN 品牌在显示器突破",
+        "显示器 CN 30.3%"
+      ],
+      "similar_customers": [
+        {
+          "brand": "KTC",
+          "grade": "A"
+        },
+        {
+          "brand": "INNOCN",
+          "grade": "A"
+        }
+      ],
+      "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\显示器与电脑平板_深度分析v1.md",
+      "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\显示器与电脑平板_聚合底表v1.xlsx",
+      "coverage_status": "已匹配深度分析"
+    },
+    {
+      "source_lead_industry_key": "计算机与配件|电竞显示器",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "显示器与电脑平板",
+      "mapped_research_industry": "显示器与电脑平板",
+      "industry_key": "计算机与配件|电竞显示器",
+      "metrics": {
+        "gmv": "$2.44B",
+        "yoy_growth": "见深度分析",
+        "cn_gmv_share": "22.1%",
+        "top_cn_player": "KTC"
+      },
+      "growth_signals_short": [
+        "全球显示器市场",
+        "Apple 平板垄断",
+        "CN 品牌在显示器突破",
+        "显示器 CN 30.3%"
+      ],
+      "similar_customers": [
+        {
+          "brand": "KTC",
+          "grade": "A"
+        },
+        {
+          "brand": "INNOCN",
+          "grade": "A"
+        }
+      ],
+      "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\显示器与电脑平板_深度分析v1.md",
+      "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\显示器与电脑平板_聚合底表v1.xlsx",
+      "coverage_status": "已匹配深度分析"
+    }
+  ]
+}

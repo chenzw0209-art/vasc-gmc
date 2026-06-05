@@ -1131,3 +1131,391 @@ a { color: inherit; text-decoration: none; }
     min-height: 240px;
   }
 }
+
+/* Weekly report V4.0 target layout */
+.weekly-page .app-shell {
+  grid-template-columns: 180px minmax(0, 1fr);
+  background: #f6f8fb;
+}
+
+.weekly-page .app-sidebar {
+  width: 180px;
+}
+
+.weekly-page .brand-row {
+  height: 52px;
+  gap: 8px;
+  padding: 0 14px;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.weekly-page .brand-mark {
+  width: 22px;
+  height: 22px;
+  border-radius: 7px;
+  font-size: 12px;
+}
+
+.weekly-page .side-nav {
+  padding: 12px;
+  gap: 6px;
+}
+
+.weekly-page .side-nav a {
+  min-height: 36px;
+  padding: 0 12px;
+  font-size: 13px;
+  gap: 0;
+}
+
+.weekly-page .sidebar-foot {
+  padding: 12px 14px 16px;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.weekly-main {
+  min-width: 0;
+  overflow: auto;
+}
+
+.weekly-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  min-width: 0;
+  padding: 14px 18px 18px;
+}
+
+.weekly-page .report-header {
+  height: 52px;
+  margin: 0;
+  align-items: flex-start;
+}
+
+.weekly-page .week-selector {
+  height: 34px;
+  min-width: 230px;
+  border-radius: 9px;
+  padding: 0 12px;
+}
+
+.weekly-page .sales-focus-card,
+.weekly-page .data-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  overflow: hidden;
+}
+
+.weekly-page .sales-focus-card {
+  height: 136px;
+  padding: 14px 16px;
+  margin: 0;
+}
+
+.weekly-page .sales-focus-title {
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.weekly-page .sales-focus-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr)) 1.55fr;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.weekly-page .focus-metric {
+  grid-template-columns: 38px minmax(0, 1fr);
+  gap: 8px;
+  min-height: 78px;
+  border-right: 1px solid #e2e8f0;
+  min-width: 0;
+}
+
+.weekly-page .focus-icon {
+  width: 38px;
+  height: 38px;
+  font-size: 12px;
+}
+
+.weekly-page .focus-copy {
+  min-width: 0;
+}
+
+.weekly-page .focus-label,
+.weekly-page .focus-sub {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.weekly-page .focus-value {
+  font-size: 24px;
+}
+
+.weekly-page .week-summary-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.weekly-page .report-row {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  width: 100%;
+  min-width: 0;
+}
+
+.weekly-page .report-row-customer,
+.weekly-page .report-row-events {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.weekly-page .report-row-insight {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.weekly-page .data-card {
+  padding: 12px;
+  width: 100%;
+  min-width: 0;
+}
+
+.weekly-page .customer-table-card { height: 376px; }
+.weekly-page .event-window-card { height: 250px; }
+.weekly-page .industry-brief-card,
+.weekly-page .similar-customers-card { height: 250px; }
+
+.weekly-page .card-title,
+.weekly-page .card-title-row .card-title {
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.weekly-page .table-fit {
+  height: calc(100% - 34px);
+  overflow: hidden;
+}
+
+.weekly-page .data-table {
+  table-layout: fixed;
+  font-size: 12px;
+}
+
+.weekly-page .data-table thead th {
+  height: 30px;
+  padding: 0 6px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.weekly-page .data-table tbody td {
+  height: 32px;
+  padding: 0 6px;
+  font-size: 12px;
+}
+
+.weekly-page .col-rank { width: 28px; }
+.weekly-page .col-name { width: 148px; }
+.weekly-page .col-company,
+.weekly-page .weekly-customer-table td:nth-child(3) { display: none; }
+.weekly-page .col-industry { width: 96px; }
+.weekly-page .col-category { width: 118px; }
+.weekly-page .col-market { width: 116px; }
+.weekly-page .col-type,
+.weekly-page .weekly-customer-table td:nth-child(7) { display: none; }
+.weekly-page .col-date { width: 58px; }
+.weekly-page .col-summary { width: auto; min-width: 118px; }
+.weekly-page .col-quality { width: 36px; }
+.weekly-page .col-decision { width: 36px; }
+
+.weekly-page .name-cell,
+.weekly-page .company-cell,
+.weekly-page .category-cell {
+  white-space: normal;
+  line-height: 1.2;
+  max-height: 30px;
+  overflow: hidden;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.weekly-page .event-summary {
+  white-space: normal;
+  line-height: 1.25;
+  max-height: 32px;
+  overflow: hidden;
+}
+
+.weekly-page .inline-type {
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  margin-right: 4px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: #eaf2ff;
+  color: #2563eb;
+  font-size: 11px;
+  font-weight: 700;
+  vertical-align: baseline;
+}
+
+.weekly-page .event-summary.one-line {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.weekly-page .industry-brief-grid {
+  grid-template-columns: 0.9fr 1.1fr;
+  height: calc(100% - 34px);
+}
+
+.weekly-page .brief-panel {
+  padding-right: 12px;
+}
+
+.weekly-page .brief-metric-label {
+  font-size: 11px;
+  color: #64748b;
+  margin-top: 9px;
+}
+
+.weekly-page .brief-metric-value {
+  margin-top: 3px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.1;
+}
+
+.weekly-page .brief-metric-value.small {
+  font-size: 15px;
+}
+
+.weekly-page .brief-list {
+  gap: 10px;
+}
+
+.weekly-page .brief-list-item {
+  font-size: 12px;
+  line-height: 1.45;
+  max-height: 34px;
+}
+
+.weekly-page .brief-brand-list {
+  display: grid;
+  gap: 8px;
+}
+
+.weekly-page .brief-brand-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 34px;
+  gap: 6px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.weekly-page .brief-brand-row span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.weekly-page .event-window-grid {
+  grid-template-columns: 1fr 1fr;
+  height: calc(100% - 34px);
+}
+
+.weekly-page .event-row {
+  grid-template-columns: 80px minmax(0, 1fr) 44px 62px 26px;
+  gap: 6px;
+  min-height: 32px;
+  height: 32px;
+}
+
+.weekly-page .event-row strong {
+  font-style: normal;
+  padding: 0;
+  min-width: 22px;
+}
+
+.weekly-page .similar-table th:nth-child(1) { width: 112px; }
+.weekly-page .similar-table th:nth-child(2) { width: 44px; }
+.weekly-page .similar-table th:nth-child(3) { width: 88px; }
+.weekly-page .similar-table th:nth-child(5) { width: 62px; }
+.weekly-page .similar-table th:nth-child(6) { width: 42px; }
+
+.weekly-page .compact-select {
+  height: 28px;
+  max-width: 250px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fff;
+  color: #334155;
+  font-size: 12px;
+  padding: 0 8px;
+}
+
+.weekly-page .event-tools {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.weekly-page .inline-link {
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.weekly-page .weekly-customer-table .col-company,
+.weekly-page .weekly-customer-table td:nth-child(3) {
+  display: table-cell;
+}
+
+.weekly-page .weekly-customer-table .col-rank { width: 30px; }
+.weekly-page .weekly-customer-table .col-name { width: 150px; }
+.weekly-page .weekly-customer-table .col-company { width: 112px; }
+.weekly-page .weekly-customer-table .col-industry { width: 100px; }
+.weekly-page .weekly-customer-table .col-category { width: 126px; }
+.weekly-page .weekly-customer-table .col-market { width: 124px; }
+.weekly-page .weekly-customer-table .col-date { width: 60px; }
+.weekly-page .weekly-customer-table .col-quality { width: 42px; }
+
+.weekly-page .weekly-customer-table {
+  width: 100%;
+  min-width: 0;
+}
+
+@media (max-width: 1100px) {
+  .weekly-page .sales-focus-grid,
+  .weekly-page .report-row-main,
+  .weekly-page .report-row-secondary,
+  .weekly-page .industry-brief-grid,
+  .weekly-page .event-window-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .weekly-page .customer-table-card,
+  .weekly-page .industry-brief-card,
+  .weekly-page .event-window-card,
+  .weekly-page .similar-customers-card,
+  .weekly-page .sales-focus-card {
+    height: auto;
+  }
+}
