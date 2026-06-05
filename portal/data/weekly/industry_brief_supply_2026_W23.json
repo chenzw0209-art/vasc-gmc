@@ -10,7 +10,7 @@
       "industry_key": "手机与配件|智能追踪器/移动电源",
       "metrics": {
         "gmv": "$11.24B",
-        "yoy_growth": "见深度分析",
+        "yoy_growth": "稳定增长",
         "cn_gmv_share": "53.0%",
         "top_cn_player": "Anker"
       },
@@ -44,7 +44,8 @@
       ],
       "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\手机与配件_深度分析v1.md",
       "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\手机与配件_聚合底表v1.xlsx",
-      "coverage_status": "已匹配深度分析"
+      "coverage_status": "已匹配深度分析",
+      "industry_conclusion": "手机配件是Amazon电子类核心大盘，CN品牌在充电、保护和MagSafe生态中优势明显。"
     },
     {
       "source_lead_industry_key": "手机与配件|充电器/磁吸移动电源",
@@ -54,7 +55,7 @@
       "industry_key": "手机与配件|充电器/磁吸移动电源",
       "metrics": {
         "gmv": "$11.24B",
-        "yoy_growth": "见深度分析",
+        "yoy_growth": "稳定增长",
         "cn_gmv_share": "53.0%",
         "top_cn_player": "Anker"
       },
@@ -88,7 +89,8 @@
       ],
       "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\手机与配件_深度分析v1.md",
       "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\手机与配件_聚合底表v1.xlsx",
-      "coverage_status": "已匹配深度分析"
+      "coverage_status": "已匹配深度分析",
+      "industry_conclusion": "手机配件是Amazon电子类核心大盘，CN品牌在充电、保护和MagSafe生态中优势明显。"
     },
     {
       "source_lead_industry_key": "游戏|二次元/开放世界",
@@ -98,7 +100,7 @@
       "industry_key": "游戏|二次元/开放世界",
       "metrics": {
         "gmv": "待补",
-        "yoy_growth": "待补",
+        "yoy_growth": "待录入",
         "cn_gmv_share": "待补",
         "top_cn_player": "Manjuu / Yostar"
       },
@@ -109,13 +111,14 @@
       ],
       "similar_customers": [
         {
-          "brand": "Manjuu / Yostar",
+          "brand": "Manjuu/Yostar",
           "grade": "A"
         }
       ],
       "research_source_path": "待补行研洞察-agent",
       "bottom_table_path": "待补行研洞察-agent",
-      "coverage_status": "待补行研"
+      "coverage_status": "待补行研",
+      "industry_conclusion": "待录入"
     },
     {
       "source_lead_industry_key": "平台|跨境电商App",
@@ -125,7 +128,7 @@
       "industry_key": "平台|跨境电商App",
       "metrics": {
         "gmv": "待补",
-        "yoy_growth": "待补",
+        "yoy_growth": "待录入",
         "cn_gmv_share": "待补",
         "top_cn_player": "Alibaba International / AliExpress"
       },
@@ -142,7 +145,8 @@
       ],
       "research_source_path": "待补行研洞察-agent",
       "bottom_table_path": "待补行研洞察-agent",
-      "coverage_status": "待补行研"
+      "coverage_status": "待补行研",
+      "industry_conclusion": "待录入"
     },
     {
       "source_lead_industry_key": "家用电器|清洁电器",
@@ -152,7 +156,7 @@
       "industry_key": "家用电器|清洁电器",
       "metrics": {
         "gmv": "$3.83B",
-        "yoy_growth": "见深度分析",
+        "yoy_growth": "稳定增长",
         "cn_gmv_share": "41.7%",
         "top_cn_player": "Roborock"
       },
@@ -174,7 +178,8 @@
       ],
       "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\清洁电器_深度分析v1.md",
       "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\清洁电器_聚合底表v1.xlsx",
-      "coverage_status": "已匹配深度分析"
+      "coverage_status": "已匹配深度分析",
+      "industry_conclusion": "清洁电器由扫地机器人、洗地机和吸尘器驱动，CN品牌在自动化和性价比上更强。"
     },
     {
       "source_lead_industry_key": "家用电器|扫地机器人/清洁电器",
@@ -184,7 +189,7 @@
       "industry_key": "家用电器|扫地机器人/清洁电器",
       "metrics": {
         "gmv": "$3.83B",
-        "yoy_growth": "见深度分析",
+        "yoy_growth": "稳定增长",
         "cn_gmv_share": "41.7%",
         "top_cn_player": "Roborock"
       },
@@ -206,7 +211,8 @@
       ],
       "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\清洁电器_深度分析v1.md",
       "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\清洁电器_聚合底表v1.xlsx",
-      "coverage_status": "已匹配深度分析"
+      "coverage_status": "已匹配深度分析",
+      "industry_conclusion": "清洁电器由扫地机器人、洗地机和吸尘器驱动，CN品牌在自动化和性价比上更强。"
     },
     {
       "source_lead_industry_key": "家用电器|家庭储能/备用电源",
@@ -216,7 +222,7 @@
       "industry_key": "家用电器|家庭储能/备用电源",
       "metrics": {
         "gmv": "$1.55B",
-        "yoy_growth": "见深度分析",
+        "yoy_growth": "稳定增长",
         "cn_gmv_share": "44.5%",
         "top_cn_player": "Anker"
       },
@@ -246,7 +252,8 @@
       ],
       "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\户外便携电源储能_深度分析v1.md",
       "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\户外便携电源储能_聚合底表v1.xlsx",
-      "coverage_status": "已匹配深度分析"
+      "coverage_status": "已匹配深度分析",
+      "industry_conclusion": "便携储能兼具户外和家庭应急需求，品牌竞争集中在容量、快充和渠道促销。"
     },
     {
       "source_lead_industry_key": "计算机与配件|显示器",
@@ -256,7 +263,7 @@
       "industry_key": "计算机与配件|显示器",
       "metrics": {
         "gmv": "$2.44B",
-        "yoy_growth": "见深度分析",
+        "yoy_growth": "稳定增长",
         "cn_gmv_share": "22.1%",
         "top_cn_player": "KTC"
       },
@@ -278,7 +285,8 @@
       ],
       "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\显示器与电脑平板_深度分析v1.md",
       "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\显示器与电脑平板_聚合底表v1.xlsx",
-      "coverage_status": "已匹配深度分析"
+      "coverage_status": "已匹配深度分析",
+      "industry_conclusion": "显示器需求由办公和电竞双场景驱动，高刷新率与便携屏仍有新品窗口。"
     },
     {
       "source_lead_industry_key": "计算机与配件|电竞显示器",
@@ -288,7 +296,7 @@
       "industry_key": "计算机与配件|电竞显示器",
       "metrics": {
         "gmv": "$2.44B",
-        "yoy_growth": "见深度分析",
+        "yoy_growth": "稳定增长",
         "cn_gmv_share": "22.1%",
         "top_cn_player": "KTC"
       },
@@ -310,7 +318,8 @@
       ],
       "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\显示器与电脑平板_深度分析v1.md",
       "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\显示器与电脑平板_聚合底表v1.xlsx",
-      "coverage_status": "已匹配深度分析"
+      "coverage_status": "已匹配深度分析",
+      "industry_conclusion": "显示器需求由办公和电竞双场景驱动，高刷新率与便携屏仍有新品窗口。"
     }
   ]
 }

@@ -1502,6 +1502,113 @@ a { color: inherit; text-decoration: none; }
   min-width: 0;
 }
 
+/* Final weekly polish */
+.weekly-page .week-summary-box {
+  padding-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.weekly-page .week-summary-text {
+  margin-bottom: 4px;
+}
+
+.weekly-page .customer-table-card { height: 440px; }
+.weekly-page .event-window-card { height: 300px; }
+
+.weekly-page .customer-table-card .table-fit {
+  height: calc(100% - 72px);
+}
+
+.weekly-page .weekly-customer-table .col-name { width: 170px; }
+.weekly-page .weekly-customer-table .col-company { width: 120px; }
+.weekly-page .weekly-customer-table .col-market { width: 210px; }
+.weekly-page .weekly-customer-table .col-summary { min-width: 260px; }
+
+.weekly-page .market-cell {
+  white-space: normal;
+  line-height: 1.25;
+  max-height: 32px;
+  overflow: hidden;
+}
+
+.weekly-page .rating-note {
+  font-size: 11px;
+  color: #64748b;
+  white-space: nowrap;
+}
+
+.weekly-page .extra-panel {
+  margin-top: 6px;
+  border-top: 1px solid #eef2f7;
+  padding-top: 5px;
+}
+
+.weekly-page .extra-panel summary {
+  cursor: pointer;
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.weekly-page .extra-customer-list {
+  max-height: 160px;
+  overflow: auto;
+  display: grid;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.weekly-page .extra-customer-row {
+  display: grid;
+  grid-template-columns: 1.2fr .8fr 1.1fr 50px;
+  gap: 8px;
+  align-items: center;
+  min-height: 28px;
+  border: 0;
+  border-radius: 7px;
+  background: #f8fafc;
+  color: #334155;
+  font-size: 12px;
+  text-align: left;
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.weekly-page .extra-customer-row span,
+.weekly-page .extra-customer-row b,
+.weekly-page .extra-customer-row em {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.weekly-page .extra-customer-row em {
+  font-style: normal;
+  color: #64748b;
+}
+
+.weekly-page .brief-conclusion {
+  background: #f1f6ff;
+  color: #334155;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 12px;
+  line-height: 1.45;
+  margin-bottom: 10px;
+}
+
+.weekly-page .event-row {
+  grid-template-columns: 82px minmax(0, 1fr) 70px 88px 54px;
+  gap: 10px;
+}
+
+.weekly-page .event-row strong {
+  color: #2563eb;
+  font-weight: 700;
+  text-align: right;
+}
+
 @media (max-width: 1100px) {
   .weekly-page .sales-focus-grid,
   .weekly-page .report-row-main,
