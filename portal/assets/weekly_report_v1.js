@@ -1,16 +1,15 @@
 (function () {
-  const $ = (s) => document.querySelector(s);
-  const $$ = (s) => [...document.querySelectorAll(s)];
-  const state = { tab: "overview", leads: [], market: [], players: [] };
+  const state = { leads: [], market: [], players: [], selected: null };
+  const WEEK_START = new Date("2026-06-02T00:00:00");
+  const WEEK_END = new Date("2026-06-08T23:59:59");
+  const NEXT_START = new Date("2026-06-09T00:00:00");
+  const NEXT_END = new Date("2026-06-15T23:59:59");
 
-  function safe(v, fallback = "待补充") {
+  const $ = (s) => document.querySelector(s);
+  const safe = (v, fallback = "待补充") => {
     const s = String(v ?? "").trim();
     return s && s !== "0000-00-00" ? s : fallback;
-  }
-
-  function pct(n) {
-    return Number(n || 0).toFixed(1) + "%";
-  }
+  };
 
   function money(n) {
     n = Number(n || 0);
@@ -21,9 +20,24 @@
     return "$" + n.toFixed(0);
   }
 
-  function short(text, len = 68) {
+  function pct(n) {
+    return Number(n || 0).toFixed(1) + "%";
+  }
+
+  function short(text, len = 74) {
     text = String(text || "").replace(/\s+/g, " ").trim();
     return text.length > len ? text.slice(0, len - 1) + "…" : text;
+  }
+
+  function categoryText(x, len = 24) {
+    let text = safe(x.product_action || x.main_l3 || x.signal_type, "");
+    if (/未在|找不到|待补充|暂无/i.test(text)) text = safe(x.signal_type || x.standard_l2, "");
+    text = text.split(/[|｜]/).map((s) => s.trim()).filter(Boolean)[0] || safe(x.standard_l2);
+    return short(text, len);
+  }
+
+  function uniq(rows, fn) {
+    return [...new Set(rows.map(fn).filter(Boolean))];
   }
 
   function quality(x) {
@@ -31,206 +45,244 @@
     if (/高|A/i.test(q)) return "A";
     if (/中|B/i.test(q)) return "B";
     if (/低|C/i.test(q)) return "C";
-    return "待核验";
+    return "待判断";
+  }
+
+  function qualityClass(x) {
+    const q = quality(x);
+    if (q === "A") return "tag-a";
+    if (q === "B") return "tag-b";
+    if (q === "C") return "tag-c";
+    return "tag-warn";
   }
 
   function eventType(x) {
-    const s = [x.event_type, x.signal_type, x.summary].join(" ");
+    const s = [x.event_type, x.signal_type, x.summary, x.company].join(" ");
+    if (/招标|投标|tender|bid/i.test(s)) return "招投标";
+    if (/展会|CES|IFA|Computex|Expo|峰会|大会|交易会|博览会/i.test(s)) return "展会";
+    if (/渠道|Amazon|TikTok|DTC|上线|店铺|合作/i.test(s)) return "渠道动作";
     if (/新品|发布|launch|release|unveil/i.test(s)) return "新品发布";
-    if (/渠道|Amazon|TikTok|DTC|上线|店铺/i.test(s)) return "渠道合作";
-    if (/展会|CES|IFA|Computex|Expo/i.test(s)) return "展会";
     if (/政策|合规|监管|标准/i.test(s)) return "行业政策";
-    if (/PR|新闻|公告/i.test(s)) return "品牌PR";
-    return "其他";
+    return "PR活动";
   }
 
-  function validDate(x) {
-    return /^\d{4}-\d{2}-\d{2}$/.test(String(x || "")) && x !== "0000-00-00";
+  function firstDate(raw) {
+    const s = String(raw || "");
+    const m = s.match(/(20\d{2})[-.\/年](\d{1,2})[-.\/月](\d{1,2})/);
+    if (!m) return null;
+    return new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
   }
 
-  function countBy(rows, fn) {
-    return rows.reduce((acc, x) => {
-      const k = fn(x) || "待补充";
-      acc[k] = (acc[k] || 0) + 1;
-      return acc;
-    }, {});
+  function inRange(x, start, end) {
+    const d = firstDate(x.publish_date || x.event_time || x.summary);
+    return d && d >= start && d <= end;
   }
 
-  function unique(rows, fn) {
-    return [...new Set(rows.map(fn).filter(Boolean))];
+  function isExhibition(x) {
+    return eventType(x) === "展会";
   }
 
-  function rows() {
-    const country = $("#country-filter").value;
-    const l1 = $("#l1-filter").value;
-    const l2 = $("#l2-filter").value;
-    const platform = $("#platform-filter").value;
-    const qualityFilter = $("#quality-filter").value;
-    const type = $("#type-filter").value;
-    return state.leads.filter((x) => {
-      if (country && x.country !== country) return false;
-      if (l1 && x.standard_l1 !== l1) return false;
-      if (l2 && x.standard_l2 !== l2) return false;
-      if (platform && !String(x.platform || "").includes(platform)) return false;
-      if (qualityFilter && quality(x) !== qualityFilter) return false;
-      if (type && eventType(x) !== type) return false;
-      return true;
+  function customerRows() {
+    return state.leads
+      .filter((x) => x.standard_l1 === "Consumer Tech" && safe(x.company, "") && !isExhibition(x))
+      .sort((a, b) => {
+        const qa = quality(a), qb = quality(b);
+        const score = { A: 4, B: 3, C: 2, "待判断": 1 };
+        return (score[qb] || 0) - (score[qa] || 0);
+      })
+      .slice(0, 10);
+  }
+
+  function exhibitionRows(start, end) {
+    const scoped = state.leads.filter((x) => x.standard_l1 === "Consumer Tech" && isExhibition(x));
+    const ranged = scoped.filter((x) => inRange(x, start, end));
+    return (ranged.length ? ranged : scoped).slice(0, 5);
+  }
+
+  function marketFor(row) {
+    return state.market.find((x) => x.country === "US" && x.platform === "Amazon" && x.standard_l2 === row.standard_l2)
+      || state.market.find((x) => x.standard_l2 === row.standard_l2)
+      || {};
+  }
+
+  function playersFor(row) {
+    return state.players
+      .filter((x) => x.country === "US" && x.platform === "Amazon" && x.standard_l1 === row.standard_l1 && x.standard_l2 === row.standard_l2)
+      .sort((a, b) => Number(b.estimated_monthly_gmv || 0) - Number(a.estimated_monthly_gmv || 0));
+  }
+
+  function similarCustomers(row) {
+    const sameLeads = state.leads
+      .filter((x) => x.company && x.company !== row.company && x.country === row.country && x.standard_l1 === row.standard_l1 && x.standard_l2 === row.standard_l2)
+      .slice(0, 6);
+    const seen = new Set(sameLeads.map((x) => x.company));
+    const fromPlayers = playersFor(row)
+      .filter((x) => x.brand && x.brand !== row.company && !seen.has(x.brand))
+      .slice(0, Math.max(0, 6 - sameLeads.length))
+      .map((x) => ({
+        company: x.brand,
+        country: x.country,
+        standard_l2: x.standard_l2,
+        product_action: x.main_l3,
+        summary: x.growth_reason || x.brand_product_summary || "同类行业头部玩家，可作为横向扫盘对象。",
+        publish_date: x.period,
+        evidence_grade: x.source_quality || "B",
+      }));
+    return [...sameLeads, ...fromPlayers].slice(0, 6);
+  }
+
+  function renderSalesFocus(rows) {
+    const thisWeekEvents = exhibitionRows(WEEK_START, WEEK_END);
+    const nextWeekEvents = exhibitionRows(NEXT_START, NEXT_END);
+    const summaryIndustry = rows[0]?.standard_l2 || "清洁电器";
+    const summaryText = `W23建议优先关注${summaryIndustry}与智能硬件方向，重点客户集中在美国站，多品牌出现新品发布、渠道扩张或公开PR信号。`;
+    const cards = [
+      ["重点关注客户数", rows.length, "Top10客户池", "客", "tone-blue"],
+      ["本周新增客户信号", rows.filter((x) => inRange(x, WEEK_START, WEEK_END)).length || rows.length, "公开可验证记录", "新", "tone-green"],
+      ["本周重点展会", thisWeekEvents.length, "W23窗口", "展", "tone-orange"],
+      ["下周重点展会", nextWeekEvents.length, "W24预告", "下", "tone-purple"],
+    ];
+    $("#sales-focus").innerHTML = `
+      <article class="sales-focus-card">
+        <h2 class="sales-focus-title">本周销售重点</h2>
+        <div class="sales-focus-grid">
+          ${cards.map(([label, value, sub, icon, tone]) => `
+            <div class="focus-metric">
+              <span class="focus-icon ${tone}">${icon}</span>
+              <div><div class="focus-label">${label}</div><div class="focus-value">${value}</div><div class="focus-sub">${sub}</div></div>
+            </div>
+          `).join("")}
+          <div class="week-summary-box">
+            <div class="week-summary-title">本周摘要</div>
+            <div class="week-summary-text">${summaryText}</div>
+          </div>
+        </div>
+      </article>`;
+  }
+
+  function renderCustomerTable(rows) {
+    $("#customer-table").innerHTML = `
+      <div class="table-fit">
+        <table class="data-table weekly-customer-table">
+          <thead><tr>
+            <th class="col-rank">#</th><th class="col-brand">品牌/企业</th><th class="col-country">国家</th><th class="col-industry">所属行业</th>
+            <th class="col-category">主营品类</th><th class="col-date">事件时间</th><th class="col-type">事件类型</th><th class="col-summary">事件摘要</th><th class="col-quality">信源质量</th>
+          </tr></thead>
+          <tbody>
+            ${rows.map((x, i) => `
+              <tr data-index="${i}">
+                <td class="num">${i + 1}</td>
+                <td><div class="brand-cell">${safe(x.company)}</div></td>
+                <td>${safe(x.country)}</td>
+                <td><button class="industry-link" data-index="${i}">${safe(x.standard_l2)}</button></td>
+                <td>${categoryText(x, 24)}</td>
+                <td>${safe(x.publish_date, "-")}</td>
+                <td><span class="tag tag-b">${eventType(x)}</span></td>
+                <td><div class="event-summary">${short(x.summary, 92)}</div></td>
+                <td><span class="tag ${qualityClass(x)}">${quality(x)}</span></td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>`;
+    $("#customer-table").querySelectorAll("tbody tr, .industry-link").forEach((el) => {
+      el.addEventListener("click", () => {
+        const index = Number(el.dataset.index ?? el.closest("tr")?.dataset.index);
+        state.selected = rows[index] || state.selected;
+        renderIndustryBrief();
+        renderSimilarCustomers();
+      });
     });
   }
 
-  function fillFilters() {
-    [
-      ["country-filter", unique(state.leads, (x) => x.country).sort()],
-      ["l1-filter", unique(state.leads, (x) => x.standard_l1).sort()],
-      ["l2-filter", unique(state.leads, (x) => x.standard_l2).sort()],
-    ].forEach(([id, values]) => values.forEach((v) => $("#" + id).insertAdjacentHTML("beforeend", `<option value="${v}">${v}</option>`)));
+  function renderIndustryBrief() {
+    const row = state.selected || customerRows()[0] || {};
+    const m = marketFor(row);
+    const ps = playersFor(row);
+    const topCn = ps.find((x) => x.cn_flag)?.brand || ps[0]?.brand || "待补充";
+    const signals = state.leads
+      .filter((x) => x.standard_l1 === row.standard_l1 && x.standard_l2 === row.standard_l2)
+      .slice(0, 4);
+    const similar = similarCustomers(row).slice(0, 4);
+    $("#industry-brief-title").textContent = `客户对应行业扫盘（${safe(row.standard_l2)}）`;
+    $("#industry-link").href = "./pages/market/";
+    $("#industry-brief").innerHTML = `
+      <div class="industry-brief-grid">
+        <section class="brief-panel">
+          <div class="brief-title">行业基础指标</div>
+          <div class="brief-value">${money(m.gmv || m.monthly_gmv)}</div>
+          <div class="brief-list">
+            <div class="brief-list-item">YoY/环比增长：${pct(m.growth_rate)}</div>
+            <div class="brief-list-item">CN品牌GMV占比：${pct(m.cn_share)}</div>
+            <div class="brief-list-item">Top中国玩家：${topCn}</div>
+          </div>
+        </section>
+        <section class="brief-panel">
+          <div class="brief-title">增长信号（近90天）</div>
+          <div class="brief-list">
+            ${signals.map((x) => `<div class="brief-list-item"><b>${safe(x.company)}</b>：${short(x.summary, 58)}</div>`).join("") || "<div class=\"brief-list-item\">暂无近90天结构化信号。</div>"}
+          </div>
+        </section>
+        <section class="brief-panel">
+          <div class="brief-title">同类客户推荐</div>
+          <div class="brief-list">
+            ${similar.map((x) => `<div class="brief-list-item"><b>${safe(x.company || x.brand)}</b> <span class="tag ${qualityClass(x)}">${quality(x)}</span></div>`).join("") || "<div class=\"brief-list-item\">暂无同类客户。</div>"}
+          </div>
+        </section>
+      </div>`;
   }
 
-  function renderKpis(list) {
-    const high = list.filter((x) => quality(x) === "A").length;
-    const industries = unique(list, (x) => x.standard_l2).length;
-    const countries = unique(list, (x) => x.country).length;
-    const brands = unique(list, (x) => x.company).length;
-    const abnormal = marketChanges().filter((x) => Math.abs(x.change) >= 8).length;
-    const cards = [
-      ["本周新增情报数", list.length, "结构化公开信号", "tone-blue", "报"],
-      ["高质量信源数", high, "A类 / 高质量", "tone-green", "A"],
-      ["覆盖行业数", industries, "二级行业去重", "tone-purple", "业"],
-      ["覆盖国家数", countries, "国家/地区去重", "tone-orange", "国"],
-      ["重点品牌数", brands, "品牌/企业去重", "tone-red", "牌"],
-      ["异常变化行业数", abnormal, "MoM超过阈值", "tone-blue", "↗"],
-    ];
-    $("#kpis").innerHTML = cards.map(([k, v, sub, tone, icon]) => `
-      <article class="kpi-card"><div class="kpi-icon ${tone}">${icon}</div><div><div class="kpi-label">${k}</div><div class="kpi-value">${v.toLocaleString("en-US")}</div><div class="kpi-sub">${sub}</div></div></article>
-    `).join("");
-  }
-
-  function marketChanges() {
-    return state.market
-      .filter((x) => x.country === "US" && x.platform === "Amazon")
-      .map((x) => ({
-        industry: x.standard_l2,
-        l1: x.standard_l1,
-        count: rows().filter((r) => r.standard_l2 === x.standard_l2).length,
-        change: Number(x.growth_rate || 0),
-        reason: `${safe(x.standard_l2)} GMV ${money(x.gmv)}，CN占比 ${pct(x.cn_share)}。`,
-      }))
-      .sort((a, b) => Math.abs(b.change) - Math.abs(a.change))
-      .slice(0, 8);
-  }
-
-  function summaryItems(list) {
-    const byIndustry = Object.entries(countBy(list, (x) => x.standard_l2)).sort((a, b) => b[1] - a[1]);
-    const byEvent = Object.entries(countBy(list, eventType)).sort((a, b) => b[1] - a[1]);
-    const brands = unique(list, (x) => x.company).slice(0, 3).join("、") || "重点品牌";
-    const high = list.filter((x) => quality(x) === "A").length;
-    return [
-      ["行业变化", `${byIndustry[0]?.[0] || "Consumer Tech"} 本周公开信号较集中，高质量信源 ${high} 条。`, "tone-blue", "业"],
-      ["类目变化", `${byIndustry.slice(0, 3).map(([k]) => k).join("、") || "核心类目"} 是本周主要信号来源。`, "tone-green", "类"],
-      ["玩家变化", `${brands} 本周出现新品、PR或渠道相关公开事件。`, "tone-purple", "牌"],
-      ["线索变化", `本周可验证情报信号 ${list.length} 条，主要类型为 ${byEvent[0]?.[0] || "客户动态"}。`, "tone-orange", "线"],
-    ];
-  }
-
-  function renderSummary(list) {
-    return summaryItems(list).map(([title, text, tone, icon]) => `
-      <div class="summary-item"><div class="summary-icon ${tone}">${icon}</div><div><div class="summary-title">${title}</div><div class="summary-text">${text}</div></div></div>
-    `).join("");
-  }
-
-  function renderIndustryTop(list) {
-    const changes = marketChanges().slice(0, 5);
-    return `<table class="data-table"><thead><tr><th style="width:44px">排名</th><th>行业</th><th style="width:92px" class="num">信号数量</th><th style="width:92px" class="num">较上期</th><th>主要变化</th></tr></thead><tbody>
-      ${changes.map((x, i) => `<tr><td class="center">${i + 1}</td><td class="industry-cell">${x.industry}</td><td class="num">${x.count}</td><td class="num ${x.change >= 0 ? "positive" : "negative"}">${x.change >= 0 ? "+" : ""}${pct(x.change)}</td><td class="event-summary">${x.reason}</td></tr>`).join("")}
-    </tbody></table>`;
-  }
-
-  function renderKeySignals(list) {
-    const top = [...list].sort((a, b) => quality(a).localeCompare(quality(b))).slice(0, 10);
-    return `<table class="data-table"><thead><tr><th style="width:42px">排名</th><th>品牌/企业</th><th>行业</th><th style="width:70px">国家</th><th style="width:90px">事件类型</th><th style="width:90px">事件时间</th><th style="width:70px">信源质量</th></tr></thead><tbody>
-      ${top.map((x, i) => `<tr><td class="center">${i + 1}</td><td class="brand-cell">${safe(x.company, "未标注")}</td><td>${safe(x.standard_l2)}</td><td>${safe(x.country)}</td><td><span class="tag tag-b">${eventType(x)}</span></td><td>${safe(x.publish_date)}</td><td><span class="tag ${quality(x) === "A" ? "tag-a" : quality(x) === "B" ? "tag-b" : "tag-c"}">${quality(x)}</span></td></tr>`).join("")}
-    </tbody></table>`;
-  }
-
-  function renderEventWindows(list) {
-    const top = list.filter((x) => /展会|CES|IFA|Computex|Expo|招标|投标/i.test([x.event_type, x.summary].join(" "))).slice(0, 6);
-    return `<table class="data-table"><thead><tr><th>名称</th><th style="width:82px">类型</th><th style="width:92px">时间</th><th style="width:80px">地点</th><th>相关行业</th></tr></thead><tbody>
-      ${(top.length ? top : list.slice(0, 5)).map((x) => `<tr><td class="brand-cell">${safe(x.company)}</td><td><span class="tag tag-expo">${/招标|投标/i.test(x.summary) ? "招投标" : "展会"}</span></td><td>${safe(x.publish_date)}</td><td>${safe(x.country)}</td><td>${safe(x.standard_l2)}</td></tr>`).join("")}
-    </tbody></table>`;
-  }
-
-  function renderQualityDonut(list) {
-    const obj = countBy(list, quality);
-    const keys = ["A", "B", "C", "待核验"];
-    const total = Math.max(1, list.length);
-    $("#quality-donut").innerHTML = `<div class="donut-shell">${svgDonut(keys.map((k) => obj[k] || 0), ["#2563eb", "#16a34a", "#f59e0b", "#94a3b8"], total)}<div class="donut-legend">${keys.map((k) => `<p><i></i><span>${k}</span><b>${obj[k] || 0} (${(((obj[k] || 0) / total) * 100).toFixed(1)}%)</b></p>`).join("")}</div></div>`;
-  }
-
-  function svgDonut(values, colors, total) {
-    let acc = 0;
-    const segs = values.map((v, i) => {
-      if (!v) return "";
-      const a0 = acc / total * Math.PI * 2;
-      acc += v;
-      const a1 = acc / total * Math.PI * 2;
-      const large = a1 - a0 > Math.PI ? 1 : 0;
-      const x0 = 75 + 58 * Math.cos(a0), y0 = 75 + 58 * Math.sin(a0);
-      const x1 = 75 + 58 * Math.cos(a1), y1 = 75 + 58 * Math.sin(a1);
-      return `<path d="M75,75 L${x0},${y0} A58,58 0 ${large},1 ${x1},${y1} Z" fill="${colors[i]}"></path>`;
-    }).join("");
-    return `<svg viewBox="0 0 150 150">${segs}<circle cx="75" cy="75" r="38" fill="#fff"/><text x="75" y="72" text-anchor="middle" style="font:800 20px system-ui">${total}</text><text x="75" y="92" text-anchor="middle" style="font:12px system-ui;fill:#64748b">总信号数</text></svg>`;
-  }
-
-  function renderHeatmap(list) {
-    const countries = unique(list, (x) => x.country).slice(0, 6);
-    const industries = Object.entries(countBy(list, (x) => x.standard_l2)).sort((a, b) => b[1] - a[1]).slice(0, 9).map(([k]) => k);
-    const counts = {};
-    list.forEach((x) => counts[`${x.country}|${x.standard_l2}`] = (counts[`${x.country}|${x.standard_l2}`] || 0) + 1);
-    const max = Math.max(1, ...Object.values(counts));
-    $("#heatmap").innerHTML = `<div class="heatmap-grid" style="grid-template-columns:120px repeat(${industries.length},1fr)"><div></div>${industries.map((i) => `<b title="${i}">${short(i, 8)}</b>`).join("")}${countries.map((c) => `<strong>${c}</strong>${industries.map((i) => { const v = counts[`${c}|${i}`] || 0; const a = v ? 0.16 + v / max * 0.72 : 0.04; return `<span style="background:rgba(37,99,235,${a})" title="${c} / ${i}: ${v}">${v || ""}</span>`; }).join("")}`).join("")}</div>`;
-  }
-
-  function renderOverview() {
-    const list = rows();
-    renderKpis(list);
-    $("#tab-body").innerHTML = `
-      <section class="report-main">
-        <div class="report-row report-row-1">
-          <article class="card summary-card"><h2>本周重点摘要</h2><div class="summary-list">${renderSummary(list)}</div></article>
-          <article class="card summary-card"><h2>行业变化 Top5 <small>按信号量与GMV变化</small></h2><div class="table-wrap">${renderIndustryTop(list)}</div></article>
-        </div>
-        <div class="report-row report-row-2">
-          <article class="card table-card-sm"><h2>重点线索 Top10</h2><div class="table-wrap">${renderKeySignals(list)}</div></article>
-          <article class="card table-card-sm"><h2>展会 / 招投标窗口</h2><div class="table-wrap">${renderEventWindows(list)}</div></article>
-          <article class="card table-card-sm"><h2>信源质量分布</h2><div id="quality-donut"></div></article>
-        </div>
-        <div class="report-row report-row-3">
-          <article class="card heatmap-card"><h2>国家 × 行业热力图 <small>信号强度</small></h2><div id="heatmap"></div></article>
-          <article class="card heatmap-card"><h2>本周事件类型分布</h2><div id="event-bars" class="mini-bars"></div></article>
+  function renderEventWindows() {
+    const renderGroup = (title, rows) => `
+      <section class="event-group">
+        <h3 class="event-group-title">${title}</h3>
+        <div class="event-list">
+          ${rows.map((x) => `
+            <a class="event-row" href="${safe(x.source_url, "#")}" target="_blank" rel="noreferrer">
+              <b>${safe(x.publish_date, "-")}</b><span>${short(safe(x.company), 34)}</span><em>${safe(x.country)}</em><i>${short(safe(x.standard_l2), 8)}</i>
+            </a>
+          `).join("") || "<div class=\"empty-line\">暂无结构化展会记录</div>"}
         </div>
       </section>`;
-    renderQualityDonut(list);
-    renderHeatmap(list);
-    renderBars("event-bars", countBy(list, eventType), Object.keys(countBy(list, eventType)).slice(0, 7));
+    $("#event-windows").innerHTML = `
+      <div class="event-window-grid">
+        ${renderGroup("本周展会（W23）", exhibitionRows(WEEK_START, WEEK_END))}
+        ${renderGroup("下周展会（W24）", exhibitionRows(NEXT_START, NEXT_END))}
+      </div>`;
   }
 
-  function renderBars(id, obj, order) {
-    const max = Math.max(1, ...Object.values(obj));
-    $("#" + id).innerHTML = order.map((k) => `<div class="summary-bar"><span>${k}</span><i><b style="width:${(obj[k] || 0) / max * 100}%"></b></i><strong>${obj[k] || 0}</strong></div>`).join("");
-  }
-
-  function renderSimple(title, content) {
-    renderKpis(rows());
-    $("#tab-body").innerHTML = `<article class="card"><h2>${title}</h2>${content}</article>`;
+  function renderSimilarCustomers() {
+    const row = state.selected || customerRows()[0] || {};
+    const rows = similarCustomers(row);
+    $("#similar-title").textContent = `同类客户（${safe(row.standard_l2)} · ${categoryText(row, 12)}）`;
+    $("#similar-customers").innerHTML = `
+      <div class="table-fit">
+        <table class="data-table similar-table">
+          <thead><tr><th>品牌/企业</th><th>国家</th><th>主营品类</th><th>最近事件</th><th>事件时间</th><th>信源质量</th></tr></thead>
+          <tbody>
+            ${rows.map((x) => `
+              <tr>
+                <td><div class="brand-cell">${safe(x.company || x.brand)}</div></td>
+                <td>${safe(x.country)}</td>
+                <td>${categoryText(x, 22)}</td>
+                <td><div class="event-summary">${short(x.summary || x.growth_reason, 70)}</div></td>
+                <td>${safe(x.publish_date || x.period, "-")}</td>
+                <td><span class="tag ${qualityClass(x)}">${quality(x)}</span></td>
+              </tr>
+            `).join("") || "<tr><td colspan=\"6\">暂无同类客户。</td></tr>"}
+          </tbody>
+        </table>
+      </div>`;
   }
 
   function renderAll() {
-    $$(".tab").forEach((x) => x.classList.toggle("active", x.dataset.tab === state.tab));
-    if (state.tab === "industry") renderSimple("本周行业变化", `<div class="table-wrap">${renderIndustryTop(rows())}</div>`);
-    else if (state.tab === "leads") renderSimple("本周线索动态", `<div class="table-wrap">${renderKeySignals(rows())}</div>`);
-    else if (state.tab === "generate") renderSimple("周报生成", `<div class="placeholder">将基于结构化数据生成飞书/邮件格式周报，当前保留生成结构。</div>`);
-    else if (state.tab === "history") renderSimple("历史周报", `<div class="placeholder">历史周报沉淀区，等待后续保存记录接入。</div>`);
-    else renderOverview();
+    const customers = customerRows();
+    state.selected = state.selected || customers[0] || null;
+    renderSalesFocus(customers);
+    renderCustomerTable(customers);
+    renderIndustryBrief();
+    renderEventWindows();
+    renderSimilarCustomers();
   }
 
   async function init() {
@@ -239,20 +291,13 @@
       loadJson("./data/market/amazon_market_facts_monthly.json"),
       loadJson("./data/players/amazon_players_monthly.json"),
     ]);
-    state.leads = (leads.records || leads).filter((x) => x.standard_l1 === "Consumer Tech");
+    state.leads = leads.records || leads;
     state.market = market.records || market;
     state.players = players.records || players;
-    fillFilters();
-    $$(".tab").forEach((x) => x.addEventListener("click", () => { state.tab = x.dataset.tab; renderAll(); }));
-    ["country-filter", "l1-filter", "l2-filter", "platform-filter", "type-filter", "quality-filter"].forEach((id) => $("#" + id).addEventListener("input", renderAll));
-    $("#reset").addEventListener("click", () => {
-      ["country-filter", "l1-filter", "l2-filter", "platform-filter", "type-filter", "quality-filter"].forEach((id) => $("#" + id).value = "");
-      renderAll();
-    });
     renderAll();
   }
 
   init().catch((e) => {
-    $("#tab-body").innerHTML = `<div class="card"><h2>加载失败</h2><p>${e.message}</p></div>`;
+    $(".weekly-content").insertAdjacentHTML("beforeend", `<article class="data-card"><h2 class="card-title">加载失败</h2><p>${e.message}</p></article>`);
   });
 })();
