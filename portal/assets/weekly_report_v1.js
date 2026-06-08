@@ -281,7 +281,8 @@
         window.PAGE_TYPE = "industry-research";
         patchEmbeddedMarketPaths();
         return loadScriptOnce("./assets/vendor/echarts.min.js", "embedded-echarts")
-          .then(() => loadScriptOnce("./assets/industry_research_page_v1.js", "embedded-industry-script"));
+          .then(() => loadScriptOnce("./assets/industry_research_page_v1.js", "embedded-industry-script"))
+          .then(() => initEmbeddedMarketSelectors());
       })
       .catch((error) => {
         $("#market-view").innerHTML = `<div class="market-loading">行业研究加载失败：${error.message}</div>`;
@@ -314,6 +315,80 @@
       return originalLoadJson(rewritten);
     };
     window.__marketLoadJsonPatched = true;
+  }
+
+  function initEmbeddedMarketSelectors() {
+    const root = $("#market-view");
+    if (!root) return;
+    waitForMarketTree().then(() => {
+      if (root.querySelector(".market-select-bar")) return;
+      const main = root.querySelector(".research-main");
+      if (!main) return;
+      main.insertAdjacentHTML("afterbegin", `
+        <div class="market-select-bar">
+          <select id="embedded-market-l1" class="market-select" aria-label="一级行业"></select>
+          <select id="embedded-market-l2" class="market-select wide" aria-label="二级行业"></select>
+        </div>
+      `);
+      const l1Select = root.querySelector("#embedded-market-l1");
+      const l2Select = root.querySelector("#embedded-market-l2");
+
+      const l1Label = {
+        Beauty: "Beauty",
+        "Consumer Tech": "3C",
+        FMCG: "FMCG",
+        Health: "Health",
+        Lifestyle: "Life",
+      };
+
+      const refreshOptions = () => {
+        const l1Buttons = [...root.querySelectorAll(".tree-l1")];
+        const activeL2 = root.querySelector(".tree-l2.active");
+        const activeL1 = activeL2?.dataset.l1 || root.querySelector(".tree-group.open .tree-l1")?.dataset.l1 || l1Buttons[0]?.dataset.l1 || "";
+        l1Select.innerHTML = l1Buttons.map((button) => `<option value="${button.dataset.l1}">${l1Label[button.dataset.l1] || button.dataset.l1}</option>`).join("");
+        l1Select.value = activeL1;
+        const l2Buttons = [...root.querySelectorAll(`.tree-l2[data-l1="${cssEscape(activeL1)}"]`)];
+        l2Select.innerHTML = l2Buttons.map((button) => `<option value="${button.dataset.l2}">${button.textContent.trim()}</option>`).join("");
+        l2Select.value = activeL2?.dataset.l2 || l2Buttons[0]?.dataset.l2 || "";
+      };
+
+      l1Select.addEventListener("change", () => {
+        root.querySelector(`.tree-l1[data-l1="${cssEscape(l1Select.value)}"]`)?.click();
+        setTimeout(refreshOptions, 0);
+      });
+      l2Select.addEventListener("change", () => {
+        root.querySelector(`.tree-l2[data-l1="${cssEscape(l1Select.value)}"][data-l2="${cssEscape(l2Select.value)}"]`)?.click();
+        setTimeout(refreshOptions, 0);
+      });
+      root.addEventListener("click", (event) => {
+        if (event.target.closest(".tree-l1, .tree-l2")) setTimeout(refreshOptions, 0);
+      });
+      refreshOptions();
+    });
+  }
+
+  function waitForMarketTree() {
+    return new Promise((resolve) => {
+      let tries = 0;
+      const tick = () => {
+        if ($("#market-view .tree-l1") && $("#market-view .tree-l2")) {
+          resolve();
+          return;
+        }
+        tries += 1;
+        if (tries > 80) {
+          resolve();
+          return;
+        }
+        setTimeout(tick, 100);
+      };
+      tick();
+    });
+  }
+
+  function cssEscape(value) {
+    if (window.CSS?.escape) return CSS.escape(value);
+    return String(value).replace(/["\\]/g, "\\$&");
   }
 
   function wireViewNavigation() {
