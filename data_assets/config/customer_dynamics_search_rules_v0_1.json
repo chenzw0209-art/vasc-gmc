@@ -1,0 +1,170 @@
+{
+  "version": "v0.1",
+  "updated_at": "2026-06-05",
+  "purpose": "客户动态统一检索规则：每周抓取全行业近2周客户动态，并映射到中台标准一级/二级行业。",
+  "industry_dictionary": "portal/data/dictionary/industry_dictionary_ecommerce.json",
+  "collection_window": {
+    "default_lookback_days": 14,
+    "schedule": "weekly",
+    "timezone": "Asia/Shanghai",
+    "incremental_key": ["company", "event_type", "publish_date", "source_url"],
+    "dedupe_fallback_key": ["company", "event_type", "summary"]
+  },
+  "required_output_fields": [
+    "lead_id",
+    "publish_date",
+    "company",
+    "parent_company",
+    "country",
+    "platform",
+    "standard_l1",
+    "standard_l2",
+    "event_type",
+    "signal_type",
+    "priority",
+    "action",
+    "source_id",
+    "source_name",
+    "source_url",
+    "summary",
+    "evidence",
+    "status"
+  ],
+  "signal_taxonomy": [
+    {
+      "event_type": "新品发布",
+      "signal_type": "营销窗口",
+      "include_keywords": ["新品", "上市", "launch", "new product", "CES", "IFA", "release", "pre-order", "预约"],
+      "exclude_keywords": ["二手", "维修", "售后召回"],
+      "default_priority": "A",
+      "action_template": "围绕新品上市/预约/评测窗口，切达人测评、短视频素材、PR二次传播和广告投放。"
+    },
+    {
+      "event_type": "渠道扩张",
+      "signal_type": "市场扩张",
+      "include_keywords": ["入驻", "渠道", "门店", "Amazon", "TikTok Shop", "Shopee", "Walmart", "Target", "Ulta", "DTC", "独立站"],
+      "exclude_keywords": ["清仓", "临时下架"],
+      "default_priority": "B",
+      "action_template": "围绕新渠道开售、货架内容和转化效率，切渠道内容、达人种草、店铺素材和投放优化。"
+    },
+    {
+      "event_type": "展会参展",
+      "signal_type": "营销窗口",
+      "include_keywords": ["展会", "参展", "booth", "expo", "conference", "summit", "gamescom", "Chinajoy", "Cosmoprof"],
+      "exclude_keywords": ["观众报名截止", "票务转让"],
+      "default_priority": "B",
+      "action_template": "围绕展前预约、展中内容和展后复盘，切会前建联、展会素材、现场达人和PR传播。"
+    },
+    {
+      "event_type": "招投标",
+      "signal_type": "预算释放",
+      "include_keywords": ["招标", "采购", "brief", "服务商", "代理商", "RFP", "tender", "供应商招募"],
+      "exclude_keywords": ["物流", "招聘", "工程施工", "国内小红书", "国内抖音"],
+      "default_priority": "A",
+      "action_template": "围绕出海营销采购需求，优先核报名截止日、服务范围、预算主体和联系人。"
+    },
+    {
+      "event_type": "融资/战略合作",
+      "signal_type": "预算释放",
+      "include_keywords": ["融资", "investment", "funding", "战略合作", "partnership", "并购", "收购"],
+      "exclude_keywords": ["财务亏损预警"],
+      "default_priority": "B",
+      "action_template": "围绕新增预算、区域扩张和品牌升级，切海外增长计划、内容资产和市场投放。"
+    },
+    {
+      "event_type": "招聘/团队扩张",
+      "signal_type": "团队扩张",
+      "include_keywords": ["海外市场", "海外营销", "global marketing", "influencer", "KOL", "creator", "social media", "performance marketing", "brand manager"],
+      "exclude_keywords": ["客服", "仓库", "物流", "财务", "法务"],
+      "default_priority": "C",
+      "action_template": "作为辅助信号，用招聘岗位判断市场/渠道/投放方向，叠加新品或渠道信号后再分发。"
+    },
+    {
+      "event_type": "游戏测试/上线窗口",
+      "signal_type": "海外发行信号",
+      "include_keywords": ["playtest", "beta", "CBT", "demo", "Steam Next Fest", "release date", "global launch", "wishlist", "预约"],
+      "exclude_keywords": ["已正式上线且无新版本", "停运"],
+      "default_priority": "A",
+      "action_template": "围绕测试、试玩、预约和发售窗口，切YouTube/Twitch/TikTok达人、社群预热和媒体评测。"
+    }
+  ],
+  "industry_rules": [
+    {
+      "standard_l1": "Beauty",
+      "standard_l2_options": ["彩妆", "护肤与个护", "美发护理", "美妆个护综合", "美容工具/美容仪", "香氛"],
+      "query_terms": ["美妆", "个护", "护肤", "彩妆", "美容仪", "IPL", "hair care", "beauty launch", "Ulta", "Cosmoprof"],
+      "source_focus": ["官方新闻稿", "品牌官网/博客", "PRNewswire", "渠道品牌页", "TikTok Shop店铺", "招投标公众号"]
+    },
+    {
+      "standard_l1": "Consumer Tech",
+      "standard_l2_options": ["家用电器", "手机与配件", "智能硬件/平台设备", "智能穿戴/智能硬件", "消费电子综合", "游戏外设/电脑周边", "电源/储能/充电", "电脑与办公电子", "相机/影像/无人机", "音频与视听设备"],
+      "query_terms": ["3C", "消费电子", "CES", "IFA", "smart home", "robot vacuum", "charger", "drone", "audio", "wearable"],
+      "source_focus": ["官方新闻稿", "PRNewswire", "CES/IFA展商页", "Amazon/DTC页面", "媒体评测", "SRM/采购平台"]
+    },
+    {
+      "standard_l1": "Gaming",
+      "standard_l2_options": ["主机游戏/电子游戏"],
+      "query_terms": ["new game", "global launch", "beta", "demo", "gamescom", "Steam", "wishlist", "console", "PC game", "mobile game"],
+      "source_focus": ["游戏官网", "Steam/PS/Xbox/Nintendo商店", "Gematsu/IGN等权威媒体", "展会新闻", "发行商公告"]
+    },
+    {
+      "standard_l1": "Fashion",
+      "standard_l2_options": ["女装", "服装综合", "男装", "童装", "箱包", "配饰/珠宝/手表", "鞋履"],
+      "query_terms": ["fashion launch", "new collection", "apparel", "bags", "shoes", "jewelry", "TikTok Shop", "独立站"],
+      "source_focus": ["品牌官网", "渠道页", "展会活动", "采购/招标", "社媒官方账号"]
+    },
+    {
+      "standard_l1": "FMCG",
+      "standard_l2_options": ["婴幼儿食品", "生鲜/冷冻食品", "粮油调味/包装食品", "酒类", "零食糖果", "食品饮料综合", "饮料/咖啡茶"],
+      "query_terms": ["food beverage launch", "snack", "coffee", "tea", "drink", "FMCG", "new flavor", "海外营销"],
+      "source_focus": ["官方新闻稿", "零售渠道页", "展会活动", "招投标公众号", "品牌官网"]
+    },
+    {
+      "standard_l1": "Health",
+      "standard_l2_options": ["两性健康", "健康管理综合", "医疗器械/健康护理", "母婴护理", "药品/药店", "营养补剂/运动营养"],
+      "query_terms": ["health device", "supplement", "wellness", "medical device", "baby care", "nutrition", "海外推广"],
+      "source_focus": ["官方新闻稿", "FDA/合规公告", "品牌官网", "渠道页", "展会活动"]
+    },
+    {
+      "standard_l1": "Auto & Mobility",
+      "standard_l2_options": ["摩托车及配件", "汽车用品与配件", "骑行与两轮出行"],
+      "query_terms": ["EV", "ebike", "mobility", "auto accessories", "motorcycle", "IAA", "CES mobility", "海外社媒"],
+      "source_focus": ["官方新闻稿", "展会页", "采购/招标", "渠道页", "媒体评测"]
+    },
+    {
+      "standard_l1": "Lifestyle",
+      "standard_l2_options": ["乐器", "其他生活方式", "办公文具", "厨房餐饮", "图书/杂志/媒体", "宠物用品", "家具", "家居家装", "工具/工业/DIY", "本地生活/票券服务", "玩具/爱好/收藏", "艺术工艺/手工", "花园园艺/泳池", "运动户外"],
+      "query_terms": ["home", "pet", "outdoor", "toy", "kitchen", "garden", "DIY", "new product", "TikTok Shop", "Amazon"],
+      "source_focus": ["官方新闻稿", "品牌官网", "Amazon/DTC页面", "展会活动", "渠道页"]
+    }
+  ],
+  "source_tiers": [
+    {
+      "tier": "P0",
+      "sources": ["品牌官网/Newsroom", "官方公众号/采购号", "PRNewswire/BusinessWire/GlobeNewswire", "官方展会展商页", "Steam/主机平台商店", "企业SRM/采购平台"],
+      "evidence_grade": "A"
+    },
+    {
+      "tier": "P1",
+      "sources": ["权威行业媒体", "渠道品牌页", "平台招商会/活动页", "招聘官网", "微信聚合公众号"],
+      "evidence_grade": "B"
+    },
+    {
+      "tier": "P2",
+      "sources": ["普通媒体转载", "社媒二手转述", "论坛/社区讨论"],
+      "evidence_grade": "C"
+    }
+  ],
+  "priority_scoring": {
+    "A": "P0信源，且命中新品/招投标/游戏测试/明确上市窗口；或近14天有强时间节点。",
+    "B": "P0/P1信源，命中渠道扩张/展会/合作/融资，动作明确但预算或窗口需要复核。",
+    "C": "招聘、弱PR、二手媒体或只有历史信号；作为观察池，需叠加强信号后分发。"
+  },
+  "quality_gates": [
+    "必须有可访问source_url或明确可追溯信源名称。",
+    "publish_date优先取真实发布日期；无法取到时保留事件窗口并标待核验。",
+    "standard_l1/standard_l2必须存在于industry_dictionary_ecommerce.json。",
+    "同一客户同一事件7天内只保留最高证据等级记录。",
+    "招投标只收海外营销/出海增长相关需求，排除物流、招聘、工程和纯国内营销。"
+  ]
+}

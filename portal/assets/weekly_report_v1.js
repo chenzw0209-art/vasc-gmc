@@ -1,5 +1,10 @@
 (function () {
-  const state = { content: null, industrySupply: null, selected: null };
+  const state = {
+    content: null,
+    industrySupply: null,
+    selected: null,
+    marketLoaded: false,
+  };
   const $ = (selector) => document.querySelector(selector);
 
   function safe(value, fallback = "待补") {
@@ -36,6 +41,10 @@
     return match ? `${match[2]}-${match[3]}` : shortText(text, 12);
   }
 
+  function allRows() {
+    return state.content.leads_module_content?.records || state.content.weekly_module_content.focus_customers || [];
+  }
+
   function industryKey(row) {
     return `${safe(row.standard_l1)}|${safe(row.standard_l2)}`;
   }
@@ -47,14 +56,13 @@
       || null;
   }
 
-  function researchL2(row) {
-    const brief = industryBrief(row);
-    return shortText(brief?.mapped_research_industry || brief?.secondary_industry || row.standard_l2, 22);
+  function industryLabel(row) {
+    return safe(row.standard_l2);
   }
 
   function renderSalesFocus() {
     const weekly = state.content.weekly_module_content;
-    const rows = state.content.leads_module_content?.records || weekly.focus_customers || [];
+    const rows = allRows();
     const exhibitions = state.content.exhibition_window_content || [];
     const productCount = rows.filter((row) => row.titan_category === "EC").length;
     const appCount = rows.length - productCount;
@@ -90,8 +98,22 @@
       </article>`;
   }
 
+  function syncIndustrySelect() {
+    const select = $("#industry-filter");
+    if (!select) return;
+    const industries = [...new Set(allRows().map((row) => safe(row.standard_l2, "")).filter(Boolean))];
+    select.innerHTML = industries.map((name) => `<option value="${name}">${name}</option>`).join("");
+    select.value = safe(state.selected?.standard_l2, industries[0] || "");
+    select.onchange = () => {
+      const match = allRows().find((row) => row.standard_l2 === select.value);
+      state.selected = match || state.selected;
+      renderIndustryBrief();
+      renderSimilarCustomers();
+    };
+  }
+
   function renderCustomerTable() {
-    const rows = state.content.leads_module_content?.records || state.content.weekly_module_content.focus_customers || [];
+    const rows = allRows();
     $("#customer-table").innerHTML = `
       <div class="table-fit">
         <table class="data-table weekly-customer-table">
@@ -116,12 +138,12 @@
                 <td><span class="l1-pill">${safe(row.titan_category)}</span></td>
                 <td><span class="l1-pill">${safe(row.standard_l1)}</span></td>
                 <td><button class="industry-link" data-index="${index}" title="${safe(row.standard_l2)}">${safe(row.standard_l2)}</button></td>
-                <td><div class="category-cell" title="${safe(row.standard_l3)}">${safe(row.standard_l3)}</div></td>
-                <td><div class="company-cell" title="${safe(row.owner_company_brand)}">${ownerName(row)}</div></td>
-                <td>${shortText(row.dynamic_type, 18)}</td>
-                <td><div class="event-summary" title="${safe(row.dynamic_summary)}">${safe(row.dynamic_summary)}</div></td>
+                <td title="${safe(row.standard_l3)}">${safe(row.standard_l3)}</td>
+                <td title="${safe(row.owner_company_brand)}">${ownerName(row)}</td>
+                <td title="${safe(row.dynamic_type)}">${safe(row.dynamic_type)}</td>
+                <td title="${safe(row.dynamic_summary)}">${safe(row.dynamic_summary)}</td>
                 <td>${dateShort(row.dynamic_date)}</td>
-                <td><div class="attention-cell" title="${safe(row.attention_point)}">${safe(row.attention_point)}</div></td>
+                <td title="${safe(row.attention_point)}">${safe(row.attention_point)}</td>
               </tr>
             `).join("")}
           </tbody>
@@ -132,6 +154,7 @@
       element.addEventListener("click", () => {
         const index = Number(element.dataset.index ?? element.closest("tr")?.dataset.index);
         state.selected = rows[index] || state.selected;
+        syncIndustrySelect();
         renderIndustryBrief();
         renderSimilarCustomers();
       });
@@ -139,18 +162,17 @@
   }
 
   function renderIndustryBrief() {
-    const selected = state.selected || state.content.weekly_module_content.focus_customers[0] || {};
+    const selected = state.selected || allRows()[0] || {};
     const brief = industryBrief(selected);
     const metrics = brief?.metrics || {};
     const signals = (brief?.growth_signals_short || ["待录入"]).slice(0, 4);
     const conclusion = brief?.industry_conclusion || (brief ? "行业结论待补充" : "待录入");
 
-    $("#industry-brief-title").textContent = `客户对应行业扫盲（${researchL2(selected)}）`;
-    $("#industry-link").href = "./pages/market/";
+    $("#industry-brief-title").textContent = "本周关注行业";
     $("#industry-brief").innerHTML = `
       <div class="industry-brief-grid">
         <section class="brief-panel">
-          <div class="brief-title">行业基础指标</div>
+          <div class="brief-title">${industryLabel(selected)}</div>
           <div class="brief-metric-label">行业GMV</div>
           <div class="brief-metric-value">${safe(metrics.gmv)}</div>
           <div class="brief-metric-label">YoY增长率</div>
@@ -190,11 +212,11 @@
             ${rows.map((row) => `
               <tr>
                 <td>${safe(row.event_window)}</td>
-                <td>${safe(row.industry)}</td>
+                <td title="${safe(row.industry)}">${safe(row.industry)}</td>
                 <td title="${safe(row.event_name)}">${safe(row.event_name)}</td>
                 <td>${safe(row.location)}</td>
                 <td>${safe(row.date)}</td>
-                <td><div class="event-value" title="${safe(row.window_value)}">${safe(row.window_value)}</div></td>
+                <td title="${safe(row.window_value)}">${safe(row.window_value)}</td>
                 <td><a class="inline-link" href="${safe(row.url, "#")}" target="_blank" rel="noreferrer">跳转</a></td>
               </tr>
             `).join("") || "<tr><td colspan=\"7\">暂无展会记录</td></tr>"}
@@ -208,9 +230,9 @@
   }
 
   function renderSimilarCustomers() {
-    const selected = state.selected || state.content.weekly_module_content.focus_customers[0] || {};
+    const selected = state.selected || allRows()[0] || {};
     const rows = similarRows(selected.candidate_id).slice(0, 5);
-    $("#similar-title").textContent = `同类客户（${researchL2(selected)}）`;
+    $("#similar-title").textContent = `同类客户（${industryLabel(selected)}）`;
     $("#similar-customers").innerHTML = `
       <div class="table-fit">
         <table class="data-table similar-table">
@@ -220,10 +242,10 @@
           <tbody>
             ${rows.map((row) => `
               <tr>
-                <td><div class="brand-cell" title="${safe(row.owner_company_brand)}">${ownerName(row)}</div></td>
+                <td title="${safe(row.owner_company_brand)}">${ownerName(row)}</td>
                 <td>${/美国|US|Amazon/i.test(row.target_market_channel || "") ? "美国" : "全球"}</td>
                 <td title="${safe(row.standard_l2)}">${shortText(row.standard_l2, 10)}</td>
-                <td><div class="event-summary one-line" title="${safe(row.dynamic_summary)}">${safe(row.dynamic_summary)}</div></td>
+                <td title="${safe(row.dynamic_summary)}">${safe(row.dynamic_summary)}</td>
                 <td>${dateShort(row.dynamic_date)}</td>
                 <td><span class="tag tag-a">${safe(row.source_grade)}</span></td>
               </tr>
@@ -233,13 +255,74 @@
       </div>`;
   }
 
+  function activateView(view) {
+    document.querySelectorAll(".portal-view").forEach((panel) => panel.classList.toggle("active", panel.id === `${view}-view`));
+    document.querySelectorAll("[data-view-link]").forEach((link) => link.classList.toggle("active", link.dataset.viewLink === view));
+    if (view === "market") loadMarketView();
+  }
+
+  function loadMarketView() {
+    if (state.marketLoaded) return;
+    state.marketLoaded = true;
+    $("#market-view").innerHTML = `<div class="market-loading">行业研究加载中…</div>`;
+    fetch("./pages/market/")
+      .then((response) => response.text())
+      .then((html) => {
+        const doc = new DOMParser().parseFromString(html, "text/html");
+        const inlineStyle = [...doc.querySelectorAll("style")].map((style) => style.textContent).join("\n");
+        if (!document.querySelector("#embedded-market-style")) {
+          const style = document.createElement("style");
+          style.id = "embedded-market-style";
+          style.textContent = inlineStyle.replace(/body\s*\{[\s\S]*?\}/g, "");
+          document.head.appendChild(style);
+        }
+        const shell = doc.querySelector(".research-shell");
+        $("#market-view").innerHTML = shell ? shell.outerHTML : `<div class="market-loading">行业研究加载失败</div>`;
+        window.PAGE_TYPE = "industry-research";
+        return loadScriptOnce("./assets/vendor/echarts.min.js", "embedded-echarts")
+          .then(() => loadScriptOnce("./assets/industry_research_page_v1.js", "embedded-industry-script"));
+      })
+      .catch((error) => {
+        $("#market-view").innerHTML = `<div class="market-loading">行业研究加载失败：${error.message}</div>`;
+      });
+  }
+
+  function loadScriptOnce(src, id) {
+    return new Promise((resolve, reject) => {
+      const existing = document.querySelector(`#${id}`);
+      if (existing) {
+        resolve();
+        return;
+      }
+      const script = document.createElement("script");
+      script.id = id;
+      script.src = src;
+      script.onload = resolve;
+      script.onerror = () => reject(new Error(`无法加载 ${src}`));
+      document.body.appendChild(script);
+    });
+  }
+
+  function wireViewNavigation() {
+    document.querySelectorAll("[data-view-link]").forEach((link) => {
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        activateView(link.dataset.viewLink);
+        history.replaceState(null, "", link.getAttribute("href"));
+      });
+    });
+    activateView(location.hash === "#market" ? "market" : "weekly");
+  }
+
   function renderAll() {
-    state.selected = state.selected || state.content.weekly_module_content.focus_customers[0] || null;
+    state.selected = state.selected || allRows()[0] || null;
     renderSalesFocus();
+    syncIndustrySelect();
     renderCustomerTable();
     renderIndustryBrief();
     renderEventWindows();
     renderSimilarCustomers();
+    wireViewNavigation();
   }
 
   async function init() {

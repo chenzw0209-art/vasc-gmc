@@ -1864,3 +1864,124 @@ a { color: inherit; text-decoration: none; }
   max-height: 54px;
   overflow: hidden;
 }
+
+/* W24 single-page shell and auto-fit table polish */
+.weekly-page .portal-view {
+  display: none;
+}
+
+.weekly-page .portal-view.active {
+  display: flex;
+}
+
+.weekly-page #market-view.portal-view.active {
+  display: block;
+  height: 100vh;
+  padding: 0;
+}
+
+.weekly-page .market-loading {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.weekly-page #market-view .research-shell {
+  grid-template-columns: minmax(0, 1fr);
+  height: 100%;
+}
+
+.weekly-page #market-view .research-sidebar {
+  display: none;
+}
+
+.weekly-page #market-view .research-main {
+  height: 100%;
+  min-height: 0;
+  overflow: auto;
+}
+
+.weekly-page .card-title-row {
+  min-height: 32px;
+}
+
+.weekly-page .compact-select {
+  height: 28px;
+  min-width: 220px;
+  max-width: 360px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #fff;
+  color: #334155;
+  font-size: 12px;
+  padding: 0 8px;
+}
+
+.weekly-page .weekly-customer-table,
+.weekly-page .event-table,
+.weekly-page .similar-table {
+  table-layout: fixed;
+  width: max-content;
+  min-width: 100%;
+}
+
+.weekly-page .weekly-customer-table th,
+.weekly-page .weekly-customer-table td,
+.weekly-page .event-table th,
+.weekly-page .event-table td,
+.weekly-page .similar-table th,
+.weekly-page .similar-table td {
+  height: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
+.weekly-page .weekly-customer-table .col-rank { width: 42px; }
+.weekly-page .weekly-customer-table .col-titan { width: 84px; }
+.weekly-page .weekly-customer-table .col-industry { width: 126px; }
+.weekly-page .weekly-customer-table .col-category { width: 128px; }
+.weekly-page .weekly-customer-table .col-l3 { width: 300px; }
+.weekly-page .weekly-customer-table .col-company { width: 170px; }
+.weekly-page .weekly-customer-table .col-type { width: 220px; }
+.weekly-page .weekly-customer-table .col-summary { width: 440px; min-width: 440px; }
+.weekly-page .weekly-customer-table .col-date { width: 86px; }
+.weekly-page .weekly-customer-table .col-attention { width: 300px; }
+
+.weekly-page .weekly-customer-table .industry-link,
+.weekly-page .weekly-customer-table .l1-pill {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.weekly-page .event-window-card {
+  height: 330px;
+}
+
+.weekly-page .event-table .col-window { width: 132px; }
+.weekly-page .event-table .col-event-industry { width: 108px; }
+.weekly-page .event-table .col-event-name { width: 430px; }
+.weekly-page .event-table .col-location { width: 112px; }
+.weekly-page .event-table .col-event-date { width: 122px; }
+.weekly-page .event-table .col-event-value { width: 480px; }
+.weekly-page .event-table .col-link { width: 90px; }
+
+.weekly-page .event-table td:nth-child(2),
+.weekly-page .event-table td:nth-child(3),
+.weekly-page .event-table td:nth-child(6) {
+  white-space: nowrap;
+  line-height: 32px;
+}
+
+.weekly-page .industry-brief-card .card-title-row {
+  align-items: center;
+}
+
+.weekly-page .industry-brief-card .card-title {
+  margin-bottom: 0;
+}
