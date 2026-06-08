@@ -1609,6 +1609,91 @@ a { color: inherit; text-decoration: none; }
   text-align: right;
 }
 
+/* W24 weekly final refinements */
+.weekly-page .sales-focus-card {
+  height: 148px;
+}
+
+.weekly-page .week-summary-box {
+  padding: 14px 14px 12px;
+}
+
+.weekly-page .week-summary-text {
+  margin-top: 8px;
+  padding-bottom: 2px;
+  line-height: 1.55;
+}
+
+.weekly-page .weekly-customer-table .col-name { width: 220px; }
+.weekly-page .weekly-customer-table .col-company { width: 130px; }
+.weekly-page .weekly-customer-table .col-industry { width: 112px; }
+.weekly-page .weekly-customer-table .col-category { width: 132px; }
+.weekly-page .weekly-customer-table .col-market { width: 210px; }
+.weekly-page .weekly-customer-table .col-summary { min-width: 320px; }
+
+.weekly-page .event-summary {
+  max-height: 42px;
+  line-height: 1.32;
+}
+
+.weekly-page .l1-pill {
+  display: inline-flex;
+  height: 21px;
+  align-items: center;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  color: #334155;
+  font-size: 11px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.weekly-page .industry-link {
+  display: inline-flex;
+  align-items: center;
+  height: 21px;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: #eaf2ff;
+  color: #2563eb;
+}
+
+.weekly-page .event-table-fit {
+  height: calc(100% - 34px);
+}
+
+.weekly-page .event-table th:nth-child(1) { width: 150px; }
+.weekly-page .event-table th:nth-child(3) { width: 90px; }
+.weekly-page .event-table th:nth-child(4) { width: 120px; }
+.weekly-page .event-table th:nth-child(5) { width: 78px; }
+
+.weekly-page .event-table td:nth-child(2) {
+  color: #0f172a;
+  font-weight: 700;
+  white-space: normal;
+  line-height: 1.25;
+}
+
+.weekly-page .event-table .inline-link {
+  display: inline-flex;
+  height: 22px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: #eaf2ff;
+}
+
+.weekly-page .similar-table th:nth-child(1) { width: 140px; }
+.weekly-page .similar-table th:nth-child(3) { width: 110px; }
+
+.weekly-page .similar-table .brand-cell {
+  max-height: 34px;
+  white-space: normal;
+  line-height: 1.2;
+}
+
 @media (max-width: 1100px) {
   .weekly-page .sales-focus-grid,
   .weekly-page .report-row-main,
