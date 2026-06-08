@@ -731,60 +731,25 @@
 
   function renderOverview(row) {
     const l3 = productsFor(row);
-    const ps = playersFor(row);
     return `
       <section class="market-grid overview-workbench">
-        <article class="module-card card-overview-trend span-4">
+        <article class="module-card card-overview-trend span-5">
           <h2>市场规模趋势 <small>24个月 GMV</small></h2>
           <div class="chart-fixed trend-chart">${lineChart(row, { small: true })}</div>
         </article>
-        <article class="module-card card-table-top10 span-3">
-          <h2>海外Top10品牌</h2>
-          ${compactTable(["#", "品牌", "国家", "GMV", "广告"], rankRows(ps, false, 10))}
-        </article>
-        <article class="module-card card-player-matrix matrix-card span-3">
-          <h2>品牌矩阵 <small>GMV × 广告</small></h2>
-          <div class="scatter-chart">${scatter(ps)}</div>
-        </article>
-        <article class="module-card card-category-structure span-2">
-          <h2>三级类目结构</h2>
-          ${compactTable(["三级类目", "GMV", "占比", "CN占比"], structureRows(l3, 8), "structure-table")}
-        </article>
-
-        <article class="module-card card-overview-analysis span-2">
+        <article class="module-card card-overview-analysis span-4">
           <h2>市场规模解析</h2>
           ${marketAnalysisCards(row)}
         </article>
-        <article class="module-card card-table-top10 span-3">
-          <h2>中国Top10品牌</h2>
-          ${compactTable(["#", "品牌", "GMV", "广告", "流量"], rankRows(ps, true, 10))}
-        </article>
-        <article class="module-card card-brand-concentration span-3">
-          <h2>品牌集中度</h2>
-          <div class="chart-fixed">${concentrationChart()}</div>
-        </article>
-        <article class="module-card card-table-top5 span-2">
-          <h2>Top类目品牌</h2>
-          ${compactTable(["三级类目", "代表品牌", "GMV"], topCategoryBrandRows(l3))}
-        </article>
-        <article class="module-card overview-structure span-2">
+        <article class="module-card overview-structure span-3">
           <h2>行业结构摘要</h2>
           ${structureSummary(row, l3)}
         </article>
-
-        <article class="module-card card-category-gmv span-3">
-          <h2>类目GMV趋势</h2>
-          <div class="chart-fixed">${categoryGmvChart()}</div>
-        </article>
-        <article class="module-card card-category-cn span-3">
-          <h2>类目CN占比</h2>
-          <div class="chart-fixed">${categoryCnChart()}</div>
-        </article>
-        <article class="module-card card-seasonal span-4">
+        <article class="module-card card-seasonal span-7">
           <h2>季节性趋势 <small>2023 / 2024 / 2025</small></h2>
           <div class="chart-fixed">${seasonalChart(row)}</div>
         </article>
-        <article class="module-card card-events span-2">
+        <article class="module-card card-events span-5">
           <h2>行业事件</h2>
           <div class="event-list">${eventRows(row)}</div>
         </article>
