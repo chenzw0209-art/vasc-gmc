@@ -1985,3 +1985,32 @@ a { color: inherit; text-decoration: none; }
 .weekly-page .industry-brief-card .card-title {
   margin-bottom: 0;
 }
+
+/* Final bugfix: sidebar title and exhibition auto-fit columns */
+.weekly-page .app-shell {
+  grid-template-columns: 220px minmax(0, 1fr);
+}
+
+.weekly-page .app-sidebar {
+  width: 220px;
+}
+
+.weekly-page .brand-row {
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.weekly-page .brand-row span:last-child {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.weekly-page .event-table th.col-window { width: 126px; }
+.weekly-page .event-table th.col-event-industry { width: 86px; }
+.weekly-page .event-table th.col-event-name { width: 460px; }
+.weekly-page .event-table th.col-location { width: 104px; }
+.weekly-page .event-table th.col-event-date { width: 116px; }
+.weekly-page .event-table th.col-event-value { width: 520px; }
+.weekly-page .event-table th.col-link { width: 86px; }
