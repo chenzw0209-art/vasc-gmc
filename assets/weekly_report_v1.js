@@ -281,7 +281,7 @@
         window.PAGE_TYPE = "industry-research";
         patchEmbeddedMarketPaths();
         return loadScriptOnce("./assets/vendor/echarts.min.js", "embedded-echarts")
-          .then(() => loadScriptOnce("./assets/industry_research_page_v1.js", "embedded-industry-script"))
+          .then(() => loadScriptOnce("./assets/industry_research_page_v1.js?v=20260608-market-a", "embedded-industry-script"))
           .then(() => initEmbeddedMarketSelectors());
       })
       .catch((error) => {

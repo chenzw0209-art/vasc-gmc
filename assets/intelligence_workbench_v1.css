@@ -2046,3 +2046,169 @@ a { color: inherit; text-decoration: none; }
 .weekly-page .event-table th.col-event-date { width: 116px; }
 .weekly-page .event-table th.col-event-value { width: 520px; }
 .weekly-page .event-table th.col-link { width: 86px; }
+
+/* Embedded industry research workbench density */
+.weekly-page #market-view .research-main {
+  background: #f6f8fb;
+}
+
+.weekly-page #market-view .main-top,
+.weekly-page #market-view .metrics-grid,
+.weekly-page #market-view .viewpoints-grid,
+.weekly-page #market-view .tabs,
+.weekly-page #market-view .tab-body {
+  width: calc(100% - 48px);
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.weekly-page #market-view .main-top {
+  min-height: 54px;
+  padding: 12px 0 8px;
+}
+
+.weekly-page #market-view .metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.weekly-page #market-view .metric-card {
+  height: 74px;
+  padding: 10px 12px;
+  min-width: 0;
+}
+
+.weekly-page #market-view .viewpoints-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.weekly-page #market-view .view-card {
+  min-height: 72px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.weekly-page #market-view .view-card h3,
+.weekly-page #market-view .view-card p,
+.weekly-page #market-view .view-card li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.weekly-page #market-view .tabs {
+  height: 34px;
+  margin-top: 8px;
+}
+
+.weekly-page #market-view .market-grid.overview-workbench {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 10px;
+  padding: 10px 0 18px;
+}
+
+.weekly-page #market-view .module-card {
+  min-width: 0;
+  height: 238px;
+  padding: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.weekly-page #market-view .module-card.span-2 { grid-column: span 2; }
+.weekly-page #market-view .module-card.span-3 { grid-column: span 3; }
+.weekly-page #market-view .module-card.span-4 { grid-column: span 4; }
+.weekly-page #market-view .module-card.span-5 { grid-column: span 5; }
+.weekly-page #market-view .module-card.span-6 { grid-column: span 6; }
+.weekly-page #market-view .module-card.span-8 { grid-column: span 8; }
+.weekly-page #market-view .module-card.span-12 { grid-column: span 12; }
+
+.weekly-page #market-view .card-player-matrix {
+  height: 286px;
+}
+
+.weekly-page #market-view .card-overview-analysis,
+.weekly-page #market-view .overview-structure,
+.weekly-page #market-view .card-events {
+  height: 238px;
+}
+
+.weekly-page #market-view .module-card h2 {
+  height: 24px;
+  margin: 0 0 8px;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.weekly-page #market-view .chart-fixed,
+.weekly-page #market-view .scatter-chart {
+  height: calc(100% - 32px);
+  min-height: 0;
+}
+
+.weekly-page #market-view .trend-chart {
+  height: calc(100% - 32px);
+}
+
+.weekly-page #market-view .research-table {
+  width: max-content;
+  min-width: 100%;
+  table-layout: fixed;
+}
+
+.weekly-page #market-view .table-scroll {
+  height: calc(100% - 32px);
+  overflow: auto;
+}
+
+.weekly-page #market-view .research-table th,
+.weekly-page #market-view .research-table td {
+  height: 28px;
+  padding: 0 6px;
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
+.weekly-page #market-view .research-table .col-rank { width: 34px; }
+.weekly-page #market-view .research-table .col-brand { width: 126px; }
+.weekly-page #market-view .research-table .col-country { width: 58px; }
+.weekly-page #market-view .research-table .col-gmv { width: 82px; }
+.weekly-page #market-view .research-table .col-index { width: 68px; }
+.weekly-page #market-view .research-table .col-category { width: 150px; }
+
+.weekly-page #market-view .analysis-list,
+.weekly-page #market-view .event-list,
+.weekly-page #market-view .insight-stack,
+.weekly-page #market-view .summary-bars {
+  height: calc(100% - 32px);
+  overflow: auto;
+}
+
+.weekly-page #market-view .analysis-item,
+.weekly-page #market-view .event-row,
+.weekly-page #market-view .insight-stack p,
+.weekly-page #market-view .summary-bar-row {
+  min-height: 28px;
+}
+
+@media (max-width: 1500px) {
+  .weekly-page #market-view .metrics-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .weekly-page #market-view .viewpoints-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .weekly-page #market-view .market-grid.overview-workbench { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .weekly-page #market-view .module-card.span-2,
+  .weekly-page #market-view .module-card.span-3 { grid-column: span 3; }
+  .weekly-page #market-view .module-card.span-4,
+  .weekly-page #market-view .module-card.span-5,
+  .weekly-page #market-view .module-card.span-6,
+  .weekly-page #market-view .module-card.span-8,
+  .weekly-page #market-view .module-card.span-12 { grid-column: span 6; }
+}
