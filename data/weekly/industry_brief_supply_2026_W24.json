@@ -1,0 +1,586 @@
+{
+  "week": "2026-W24",
+  "generated_at": "2026-06-08",
+  "industries": [
+    {
+      "source_lead_industry_key": "Consumer Tech|手机与配件|智能追踪器/移动电源；充电器/磁吸移动电源",
+      "industry_key": "Consumer Tech|手机与配件",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "手机与配件",
+      "mapped_research_industry": "智能追踪器/移动电源；充电器/磁吸移动电源",
+      "metrics": {
+        "gmv": "$11.24B",
+        "yoy_growth": "稳定增长",
+        "cn_gmv_share": "53.0%",
+        "top_cn_player": "Anker"
+      },
+      "growth_signals_short": [
+        "Apple 配件生态主导",
+        "CN 品牌绝对统治",
+        "品类教育已完成",
+        "Apple 配件生态红利"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Anker",
+          "grade": "A"
+        },
+        {
+          "brand": "UGREEN",
+          "grade": "A"
+        },
+        {
+          "brand": "ESR",
+          "grade": "B"
+        },
+        {
+          "brand": "TORRAS",
+          "grade": "B"
+        },
+        {
+          "brand": "Spigen",
+          "grade": "B"
+        }
+      ],
+      "industry_conclusion": "手机配件是Amazon电子类核心大盘，CN品牌在充电、保护和MagSafe生态中优势明显。",
+      "coverage_status": "已匹配既有行研供给"
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|家用电器|清洁电器",
+      "industry_key": "Consumer Tech|家用电器",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "家用电器",
+      "mapped_research_industry": "清洁电器",
+      "metrics": {
+        "gmv": "$3.83B",
+        "yoy_growth": "稳定增长",
+        "cn_gmv_share": "41.7%",
+        "top_cn_player": "Roborock"
+      },
+      "growth_signals_short": [
+        "扫地机器人主导",
+        "CN 品牌占比 41.7%",
+        "Shark/Bissell 传统吸尘器",
+        "扫地机器人 CN 占比 60%"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Roborock",
+          "grade": "A"
+        },
+        {
+          "brand": "Tineco",
+          "grade": "A"
+        }
+      ],
+      "industry_conclusion": "清洁电器由扫地机器人、洗地机和吸尘器驱动，CN品牌在自动化和性价比上更强。",
+      "coverage_status": "已匹配既有行研供给"
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|家用电器|扫地机器人/清洁电器",
+      "industry_key": "Consumer Tech|家用电器",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "家用电器",
+      "mapped_research_industry": "扫地机器人/清洁电器",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "Roborock"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Roborock",
+          "grade": "A"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|家用电器|家庭储能/备用电源",
+      "industry_key": "Consumer Tech|家用电器",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "家用电器",
+      "mapped_research_industry": "家庭储能/备用电源",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "BLUETTI"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "BLUETTI",
+          "grade": "A"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|电子学|耳机/音频设备",
+      "industry_key": "Consumer Tech|电子学",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "电子学",
+      "mapped_research_industry": "耳机/音频设备",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "Anker / soundcore"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Anker / soundcore",
+          "grade": "B"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|计算机与配件|显示器",
+      "industry_key": "Consumer Tech|计算机与配件",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "计算机与配件",
+      "mapped_research_industry": "显示器",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "HKC"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "HKC",
+          "grade": "A"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|计算机与配件|电竞显示器",
+      "industry_key": "Consumer Tech|计算机与配件",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "计算机与配件",
+      "mapped_research_industry": "电竞显示器",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "ANTGAMER / HKC"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "ANTGAMER / HKC",
+          "grade": "A"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "Lifestyle|工具与家居改善|桌面CNC/创客工具",
+      "industry_key": "Lifestyle|工具与家居改善",
+      "primary_industry": "Lifestyle",
+      "secondary_industry": "工具与家居改善",
+      "mapped_research_industry": "桌面CNC/创客工具",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "Makera"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Makera",
+          "grade": "A"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "Lifestyle|玩具与游戏|潮玩/IP手办",
+      "industry_key": "Lifestyle|玩具与游戏",
+      "primary_industry": "Lifestyle",
+      "secondary_industry": "玩具与游戏",
+      "mapped_research_industry": "潮玩/IP手办",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "MINISO"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "MINISO",
+          "grade": "A"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "FMCG|食品与饮料|乳制品/婴幼儿营养",
+      "industry_key": "FMCG|食品与饮料",
+      "primary_industry": "FMCG",
+      "secondary_industry": "食品与饮料",
+      "mapped_research_industry": "乳制品/婴幼儿营养",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "Yili Group"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Yili Group",
+          "grade": "A"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|计算机与配件|3D打印机",
+      "industry_key": "Consumer Tech|计算机与配件",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "计算机与配件",
+      "mapped_research_industry": "3D打印机",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "Anycubic"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Anycubic",
+          "grade": "A"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "Lifestyle|工具与家居改善|工具/商用设备",
+      "industry_key": "Lifestyle|工具与家居改善",
+      "primary_industry": "Lifestyle",
+      "secondary_industry": "工具与家居改善",
+      "mapped_research_industry": "工具/商用设备",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "VEVOR"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "VEVOR",
+          "grade": "A"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "Gaming|游戏|动作/ARPG",
+      "industry_key": "Gaming|游戏",
+      "primary_industry": "Gaming",
+      "secondary_industry": "游戏",
+      "mapped_research_industry": "动作/ARPG",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "S-GAME"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "S-GAME",
+          "grade": "B"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "Gaming|游戏|二次元/开放世界",
+      "industry_key": "Gaming|游戏",
+      "primary_industry": "Gaming",
+      "secondary_industry": "游戏",
+      "mapped_research_industry": "二次元/开放世界",
+      "metrics": {
+        "gmv": "待补",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待补",
+        "top_cn_player": "Manjuu / Yostar"
+      },
+      "growth_signals_short": [
+        "开放世界新品曝光",
+        "海外预约窗口出现",
+        "日区内容信号活跃"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Manjuu/Yostar",
+          "grade": "A"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "已匹配既有行研供给"
+    },
+    {
+      "source_lead_industry_key": "Gaming|游戏|叙事动作/主机",
+      "industry_key": "Gaming|游戏",
+      "primary_industry": "Gaming",
+      "secondary_industry": "游戏",
+      "mapped_research_industry": "叙事动作/主机",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "NetEase / 24 Entertainment Lin’an Studio"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "NetEase / 24 Entertainment Lin’an Studio",
+          "grade": "B"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "Gaming|游戏|开放世界/都市",
+      "industry_key": "Gaming|游戏",
+      "primary_industry": "Gaming",
+      "secondary_industry": "游戏",
+      "mapped_research_industry": "开放世界/都市",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "Perfect World / Hotta Studio"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Perfect World / Hotta Studio",
+          "grade": "B"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "工具|工具|视频剪辑",
+      "industry_key": "工具|工具",
+      "primary_industry": "工具",
+      "secondary_industry": "工具",
+      "mapped_research_industry": "视频剪辑",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "ByteDance Pte. Ltd"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "ByteDance Pte. Ltd",
+          "grade": "B"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "AI应用|AI应用|AI视频生成",
+      "industry_key": "AI应用|AI应用",
+      "primary_industry": "AI应用",
+      "secondary_industry": "AI应用",
+      "mapped_research_industry": "AI视频生成",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "Kuaishou Technology"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Kuaishou Technology",
+          "grade": "B"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "AI应用|AI应用|大模型/AI助手",
+      "industry_key": "AI应用|AI应用",
+      "primary_industry": "AI应用",
+      "secondary_industry": "AI应用",
+      "mapped_research_industry": "大模型/AI助手",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "DeepSeek"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "DeepSeek",
+          "grade": "B"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "泛娱乐|泛娱乐|生活方式社区",
+      "industry_key": "泛娱乐|泛娱乐",
+      "primary_industry": "泛娱乐",
+      "secondary_industry": "泛娱乐",
+      "mapped_research_industry": "生活方式社区",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "TikTok Ltd. / ByteDance"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "TikTok Ltd. / ByteDance",
+          "grade": "B"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "平台|平台|跨境电商App",
+      "industry_key": "平台|平台",
+      "primary_industry": "平台",
+      "secondary_industry": "平台",
+      "mapped_research_industry": "跨境电商App",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "PDD Holdings / Temu"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "PDD Holdings / Temu",
+          "grade": "B"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "Fintech|Fintech|AI支付/Agent支付",
+      "industry_key": "Fintech|Fintech",
+      "primary_industry": "Fintech",
+      "secondary_industry": "Fintech",
+      "mapped_research_industry": "AI支付/Agent支付",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "Ant Group / Alipay"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Ant Group / Alipay",
+          "grade": "B"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    },
+    {
+      "source_lead_industry_key": "Fintech|Fintech|跨境支付网络",
+      "industry_key": "Fintech|Fintech",
+      "primary_industry": "Fintech",
+      "secondary_industry": "Fintech",
+      "mapped_research_industry": "跨境支付网络",
+      "metrics": {
+        "gmv": "待录入",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待录入",
+        "top_cn_player": "Tencent / Tenpay Global"
+      },
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "similar_customers": [
+        {
+          "brand": "Tencent / Tenpay Global",
+          "grade": "A"
+        }
+      ],
+      "industry_conclusion": "待录入",
+      "coverage_status": "待补行研"
+    }
+  ]
+}

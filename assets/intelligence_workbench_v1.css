@@ -1694,6 +1694,55 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.2;
 }
 
+/* W24 intelligence workbook field layout */
+.weekly-page .customer-table-card { height: 500px; }
+.weekly-page .event-window-card { height: 330px; }
+
+.weekly-page .customer-table-card .table-fit,
+.weekly-page .event-table-fit {
+  overflow: auto;
+}
+
+.weekly-page .weekly-customer-table {
+  width: max-content;
+  min-width: 100%;
+}
+
+.weekly-page .weekly-customer-table .col-rank { width: 42px; }
+.weekly-page .weekly-customer-table .col-titan { width: 82px; }
+.weekly-page .weekly-customer-table .col-industry { width: 132px; }
+.weekly-page .weekly-customer-table .col-category { width: 132px; }
+.weekly-page .weekly-customer-table .col-l3 { width: 240px; }
+.weekly-page .weekly-customer-table .col-company { width: 190px; }
+.weekly-page .weekly-customer-table .col-type { width: 138px; }
+.weekly-page .weekly-customer-table .col-summary { width: 560px; min-width: 560px; }
+.weekly-page .weekly-customer-table .col-date { width: 92px; }
+.weekly-page .weekly-customer-table .col-attention { width: 280px; }
+.weekly-page .weekly-customer-table .col-quality { width: 58px; }
+
+.weekly-page .weekly-customer-table .col-type,
+.weekly-page .weekly-customer-table td:nth-child(7) {
+  display: table-cell;
+}
+
+.weekly-page .attention-cell {
+  white-space: normal;
+  line-height: 1.3;
+  max-height: 42px;
+  overflow: hidden;
+}
+
+.weekly-page .event-table {
+  width: max-content;
+  min-width: 100%;
+}
+
+.weekly-page .event-table th:nth-child(1) { width: 160px; }
+.weekly-page .event-table th:nth-child(2) { width: 460px; }
+.weekly-page .event-table th:nth-child(3) { width: 120px; }
+.weekly-page .event-table th:nth-child(4) { width: 140px; }
+.weekly-page .event-table th:nth-child(5) { width: 96px; }
+
 @media (max-width: 1100px) {
   .weekly-page .sales-focus-grid,
   .weekly-page .report-row-main,
@@ -1710,4 +1759,108 @@ a { color: inherit; text-decoration: none; }
   .weekly-page .sales-focus-card {
     height: auto;
   }
+}
+
+/* W24 workbook layout contract */
+.weekly-page .sales-focus-card {
+  min-height: 146px;
+}
+
+.weekly-page .week-summary-box {
+  align-self: stretch;
+  justify-content: center;
+  padding: 12px 14px;
+}
+
+.weekly-page .week-summary-text {
+  display: block;
+  max-height: 62px;
+  overflow: hidden;
+  line-height: 1.45;
+}
+
+.weekly-page .customer-table-card {
+  height: 510px;
+}
+
+.weekly-page #customer-table {
+  height: calc(100% - 42px);
+}
+
+.weekly-page .customer-table-card .table-fit {
+  height: 100%;
+  overflow: auto;
+}
+
+.weekly-page .weekly-customer-table {
+  width: max-content;
+  min-width: 100%;
+  table-layout: fixed;
+}
+
+.weekly-page .weekly-customer-table .col-rank { width: 42px; }
+.weekly-page .weekly-customer-table .col-titan { width: 88px; }
+.weekly-page .weekly-customer-table .col-industry { width: 132px; }
+.weekly-page .weekly-customer-table .col-category { width: 132px; }
+.weekly-page .weekly-customer-table .col-l3 { width: 260px; }
+.weekly-page .weekly-customer-table .col-company { width: 180px; }
+.weekly-page .weekly-customer-table .col-type { width: 150px; }
+.weekly-page .weekly-customer-table .col-summary { width: 600px; min-width: 600px; }
+.weekly-page .weekly-customer-table .col-date { width: 92px; }
+.weekly-page .weekly-customer-table .col-attention { width: 320px; }
+
+.weekly-page .weekly-customer-table td,
+.weekly-page .event-table td {
+  vertical-align: top;
+}
+
+.weekly-page .event-summary,
+.weekly-page .attention-cell,
+.weekly-page .category-cell,
+.weekly-page .company-cell {
+  line-height: 1.35;
+}
+
+.weekly-page .event-summary {
+  max-height: 54px;
+  white-space: normal;
+  overflow: hidden;
+}
+
+.weekly-page .attention-cell {
+  max-height: 54px;
+}
+
+.weekly-page .event-window-card {
+  height: 360px;
+}
+
+.weekly-page #event-windows {
+  height: calc(100% - 42px);
+}
+
+.weekly-page .event-table-fit {
+  height: 100%;
+  overflow: auto;
+}
+
+.weekly-page .event-table {
+  width: max-content;
+  min-width: 100%;
+  table-layout: fixed;
+}
+
+.weekly-page .event-table .col-window { width: 130px; }
+.weekly-page .event-table .col-event-industry { width: 130px; }
+.weekly-page .event-table .col-event-name { width: 360px; }
+.weekly-page .event-table .col-location { width: 120px; }
+.weekly-page .event-table .col-event-date { width: 140px; }
+.weekly-page .event-table .col-event-value { width: 460px; }
+.weekly-page .event-table .col-link { width: 96px; }
+
+.weekly-page .event-value {
+  white-space: normal;
+  line-height: 1.35;
+  max-height: 54px;
+  overflow: hidden;
 }
