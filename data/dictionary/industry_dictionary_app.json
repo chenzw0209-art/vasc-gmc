@@ -1,0 +1,219 @@
+[
+  {
+    "standard_l1": "Gaming",
+    "standard_l2": "主机/PC游戏",
+    "definition": "面向海外PC或主机玩家的游戏产品，含Steam/PS/Xbox/Nintendo页面、Demo、实机、预约、上线窗口。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "Gaming",
+    "standard_l2": "移动游戏",
+    "definition": "面向海外App Store/Google Play或区域发行的手游。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "Gaming",
+    "standard_l2": "二次元/开放世界",
+    "definition": "二次元、开放世界、都市幻想等高内容投入游戏。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "Gaming",
+    "standard_l2": "休闲/派对/社交游戏",
+    "definition": "休闲、派对、社交、UGC或轻度多人玩法游戏。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "Gaming",
+    "standard_l2": "独立游戏/买断制",
+    "definition": "独立工作室、买断制、Steam Next Fest等适合提前触达的游戏。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "AI应用",
+    "standard_l2": "AI聊天/助手",
+    "definition": "AI聊天、陪伴、智能助手、搜索问答等AI原生应用。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "AI应用",
+    "standard_l2": "AI图像/设计",
+    "definition": "AI图像生成、修图、设计、商品图、视觉创作应用。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "AI应用",
+    "standard_l2": "AI视频/音频",
+    "definition": "AI视频生成、剪辑、配音、音乐、语音等多媒体AI应用。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "AI应用",
+    "standard_l2": "AI办公/生产力",
+    "definition": "AI文档、会议、邮件、知识库、办公自动化应用。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "AI应用",
+    "standard_l2": "AI开发者/模型工具",
+    "definition": "API、模型工具、智能体构建、开发者平台类AI应用。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "Fintech",
+    "standard_l2": "跨境支付/收单",
+    "definition": "跨境支付、收单、商户支付、钱包互联。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "Fintech",
+    "standard_l2": "钱包/账户",
+    "definition": "电子钱包、账户体系、储值、银行卡连接。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "Fintech",
+    "standard_l2": "汇款/换汇",
+    "definition": "跨境汇款、换汇、外币账户。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "Fintech",
+    "standard_l2": "数字银行/信贷/BNPL",
+    "definition": "数字银行、信贷、分期、BNPL。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "Fintech",
+    "standard_l2": "投资/券商/Web3金融",
+    "definition": "券商、投资、加密金融、Web3金融服务。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "工具",
+    "standard_l2": "视频剪辑/创作工具",
+    "definition": "剪辑、模板、字幕、素材、创作者工具。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "工具",
+    "standard_l2": "设计/PDF/办公",
+    "definition": "设计、PDF、演示、办公编辑和生产力工具。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "工具",
+    "standard_l2": "翻译/语言",
+    "definition": "翻译、语言学习、写作、语音转写。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "工具",
+    "standard_l2": "笔记/知识管理",
+    "definition": "笔记、知识库、阅读、信息整理。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "工具",
+    "standard_l2": "VPN/安全",
+    "definition": "VPN、隐私、安全、防护工具。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "工具",
+    "standard_l2": "开发者工具",
+    "definition": "IDE、代码、测试、API、运维工具。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "平台",
+    "standard_l2": "跨境电商平台",
+    "definition": "连接卖家、品牌和消费者的跨境电商平台。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "平台",
+    "standard_l2": "本地生活/外卖/到店",
+    "definition": "本地生活、外卖、到店、服务履约平台。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "平台",
+    "standard_l2": "酒旅/票务/出行",
+    "definition": "酒旅、票务、出行和预订平台。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "平台",
+    "standard_l2": "商家经营/卖家工具",
+    "definition": "商家经营、卖家工具、SaaS化平台。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "平台",
+    "standard_l2": "服务撮合/招聘/任务",
+    "definition": "服务撮合、招聘、任务、B2B撮合平台。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "泛娱乐",
+    "standard_l2": "短视频/直播",
+    "definition": "短视频、直播、直播互动、内容分发平台。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "泛娱乐",
+    "standard_l2": "社交/社区",
+    "definition": "社交、社区、兴趣小组、互动平台。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "泛娱乐",
+    "standard_l2": "音乐/音频",
+    "definition": "音乐、播客、音频、K歌应用。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "泛娱乐",
+    "standard_l2": "短剧/阅读",
+    "definition": "短剧、网文、漫画、阅读内容应用。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  },
+  {
+    "standard_l1": "泛娱乐",
+    "standard_l2": "创作者生态/内容平台",
+    "definition": "创作者工具与内容生态平台，核心价值在内容消费或分发。",
+    "examples": "",
+    "remark": "Curated app dictionary v0.1 from presales lead rules."
+  }
+]
