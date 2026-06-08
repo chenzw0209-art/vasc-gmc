@@ -1,25 +1,292 @@
 {
   "week": "2026-W24",
   "generated_at": "2026-06-08",
+  "source_files": {
+    "lead_workbook": "Z:\\增长分析中台\\线索采集-agent\\售前情报库_W24（周更新）.xlsx",
+    "research_root": "Z:\\增长分析中台\\行研洞察-agent\\深度分析"
+  },
   "industries": [
     {
-      "source_lead_industry_key": "Consumer Tech|手机与配件|智能追踪器/移动电源；充电器/磁吸移动电源",
-      "industry_key": "Consumer Tech|手机与配件",
+      "source_lead_industry_key": "AI应用|AI应用",
+      "primary_industry": "AI应用",
+      "secondary_industry": "AI应用",
+      "mapped_research_industry": "AI应用",
+      "industry_key": "AI应用|AI应用",
+      "metrics": {
+        "gmv": "待补",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待补",
+        "top_cn_player": "Kuaishou Technology"
+      },
+      "current_stage": "待录入",
+      "main_variable": "待录入",
+      "main_tension": "待录入",
+      "market_misread": "待录入",
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "verification_metrics": [
+        "待录入"
+      ],
+      "counter_signals": [
+        "待录入"
+      ],
+      "sales_translation": "待录入",
+      "similar_customers": [
+        {
+          "brand": "Kuaishou Technology",
+          "grade": "B"
+        },
+        {
+          "brand": "DeepSeek",
+          "grade": "B"
+        },
+        {
+          "brand": "MiniMax",
+          "grade": "C"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C021",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "AI应用",
+          "tertiary_category": "AI视频生成",
+          "product_name": "Kling AI",
+          "owner": "Kuaishou Technology",
+          "dynamic_type": "投融资消息",
+          "dynamic_summary": "Kling AI融资动态强化AI视频出海信号",
+          "suggested_focus": "AI视频生态、订阅商业化",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C022",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "AI应用",
+          "tertiary_category": "大模型/AI助手",
+          "product_name": "DeepSeek",
+          "owner": "DeepSeek",
+          "dynamic_type": "投融资消息",
+          "dynamic_summary": "DeepSeek新融资传闻带动海外开发者关注",
+          "suggested_focus": "API生态、开发者增长",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C023",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "AI应用",
+          "tertiary_category": "AI视频生成",
+          "product_name": "Hailuo AI",
+          "owner": "MiniMax",
+          "dynamic_type": "产品/商业化观察",
+          "dynamic_summary": "Hailuo AI海外工具页呈现商业化信号",
+          "suggested_focus": "AI视频订阅、创作者教育",
+          "source_grade": "C"
+        }
+      ],
+      "research_source_path": "待补行研洞察-agent",
+      "bottom_table_path": "待补行研洞察-agent",
+      "coverage_status": "待补行研",
+      "industry_conclusion": "待录入",
+      "visual_summary": {
+        "title": "AI应用：待补行业结论",
+        "metric_line": "核心指标待录入",
+        "signal_line": "本周已有客户动态，但行业底层结论待补。",
+        "risk_line": "需要补齐行研洞察后再进入正式周报判断。"
+      },
+      "this_week_lead_count": 3
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|家用电器",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "家用电器",
+      "mapped_research_industry": "清洁电器 / 户外便携电源储能",
+      "industry_key": "Consumer Tech|家用电器",
+      "metrics": {
+        "gmv": "清洁$5.06B；储能$1.55B",
+        "yoy_growth": "清洁进入新周期；储能遇瓶颈",
+        "cn_gmv_share": "清洁32.3%；储能35.4%",
+        "top_cn_player": "Roborock / Anker"
+      },
+      "current_stage": "结构分化期",
+      "main_variable": "清洁电器由扫地机器人和洗地机拉动，储能由促销依赖转向场景再定义。",
+      "main_tension": "不是家电整体增长，而是不同子品类的增长变量完全不同：清洁看技术和促销共振，储能看降低Prime Day依赖。",
+      "market_misread": "把家用电器合并看会掩盖差异：清洁电器处在CN优势扩张，便携储能则已经暴露渗透率与促销依赖问题。",
+      "growth_signals_short": [
+        "清洁电器年GMV$5.06B",
+        "扫地机器人CN占78.8%",
+        "洗地机CN占81.5%",
+        "储能Prime Day依赖过重",
+        "中端储能是CN机会"
+      ],
+      "verification_metrics": [
+        "Prime Day前后清洁GMV弹性",
+        "扫地机器人新品评论与测评声量",
+        "洗地机品类GMV是否突破$0.25B",
+        "储能非促销月GMV是否止跌",
+        "500-1500Wh产品排名变化"
+      ],
+      "counter_signals": [
+        "清洁新品促销后排名快速回落",
+        "储能促销月增长但非促销月继续下滑",
+        "传统吸尘器价格战压缩CN品牌空间"
+      ],
+      "sales_translation": "Dreame、Roborock、Tineco适合切入促销季前的测评达人和技术教育；BLUETTI更适合围绕家庭备电、众筹转零售和中端储能场景做信任内容。",
+      "similar_customers": [
+        {
+          "brand": "Roborock",
+          "grade": "A"
+        },
+        {
+          "brand": "Dreame",
+          "grade": "A"
+        },
+        {
+          "brand": "Tineco",
+          "grade": "A"
+        },
+        {
+          "brand": "ECOVACS",
+          "grade": "B"
+        },
+        {
+          "brand": "BLUETTI",
+          "grade": "A"
+        },
+        {
+          "brand": "Anker SOLIX",
+          "grade": "A"
+        },
+        {
+          "brand": "EcoFlow",
+          "grade": "B"
+        }
+      ],
+      "this_week_subcategories": [
+        {
+          "tertiary_category": "清洁电器 / 扫地机器人",
+          "customers": [
+            "Dreame",
+            "Roborock",
+            "Tineco"
+          ],
+          "core_conclusion": "CN品牌在扫地机器人和洗地机拥有技术领先，促销季前需要强化测评和场景教育。"
+        },
+        {
+          "tertiary_category": "家庭储能 / 备用电源",
+          "customers": [
+            "BLUETTI"
+          ],
+          "core_conclusion": "储能不是简单高增长，关键是从Prime Day促销依赖转向家庭备电和中端容量场景。"
+        }
+      ],
+      "research_source_path": [
+        "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\家用电器\\清洁电器\\清洁电器_深度分析v2.md",
+        "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\家用电器\\户外便携电源储能\\户外便携电源储能_深度分析v2.md"
+      ],
+      "bottom_table_path": [
+        "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\家用电器\\清洁电器\\清洁电器_聚合底表v1.xlsx",
+        "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\家用电器\\户外便携电源储能\\户外便携电源储能_聚合底表v1.xlsx"
+      ],
+      "coverage_status": "已匹配深度分析v2",
+      "industry_conclusion": "本周家用电器的核心不是泛家电，而是清洁电器进入CN品牌技术扩张窗口、便携储能进入促销依赖再验证窗口。",
+      "visual_summary": {
+        "title": "家用电器：清洁扩张，储能再验证",
+        "metric_line": "清洁$5.06B / 储能$1.55B / CN均约三成",
+        "signal_line": "Dreame、Roborock、Tineco集中上新，BLUETTI众筹转零售。",
+        "risk_line": "清洁要看促销后留存，储能要看非促销月是否止跌。"
+      },
+      "this_week_leads": [
+        {
+          "candidate_id": "C002",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "家用电器",
+          "tertiary_category": "清洁电器",
+          "product_name": "Dreame Aero Pro Steam Vacuum Mop",
+          "owner": "Dreame Technology",
+          "dynamic_type": "新品上市",
+          "dynamic_summary": "Dreame美国上新Aero Pro蒸汽洗地机",
+          "suggested_focus": "美国Amazon新品、清洁测评",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C003",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "家用电器",
+          "tertiary_category": "扫地机器人/清洁电器",
+          "product_name": "Roborock Saros 20 Sonic",
+          "owner": "Roborock",
+          "dynamic_type": "新品发布/品牌活动",
+          "dynamic_summary": "Roborock东京发布Saros新品并联动皇马",
+          "suggested_focus": "APAC发布、足球IP联名",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C004",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "家用电器",
+          "tertiary_category": "清洁电器",
+          "product_name": "Tineco GO HammerHead MessDetect Mop&Vacuum",
+          "owner": "Tineco",
+          "dynamic_type": "新品/产品教育",
+          "dynamic_summary": "Tineco发布GO HammerHead清洁技术内容",
+          "suggested_focus": "美国家庭清洁、测评达人",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C005",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "家用电器",
+          "tertiary_category": "家庭储能/备用电源",
+          "product_name": "BLUETTI FridgePower",
+          "owner": "BLUETTI",
+          "dynamic_type": "众筹转零售",
+          "dynamic_summary": "BLUETTI众筹转零售，启动全球发货",
+          "suggested_focus": "众筹转零售、备电场景",
+          "source_grade": "A"
+        }
+      ],
+      "this_week_lead_count": 4
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|手机与配件",
       "primary_industry": "Consumer Tech",
       "secondary_industry": "手机与配件",
-      "mapped_research_industry": "智能追踪器/移动电源；充电器/磁吸移动电源",
+      "mapped_research_industry": "手机与配件",
+      "industry_key": "Consumer Tech|手机与配件",
       "metrics": {
         "gmv": "$11.24B",
-        "yoy_growth": "稳定增长",
+        "yoy_growth": "成熟稳定",
         "cn_gmv_share": "53.0%",
         "top_cn_player": "Anker"
       },
+      "current_stage": "成熟大盘中的节点驱动期",
+      "main_variable": "iPhone生态新品节奏与GaN/MagSafe配件上新速度",
+      "main_tension": "不是缺少需求，而是CN品牌之间围绕新品响应、SKU速度和渠道转化争夺份额。",
+      "market_misread": "市场容易把手机配件看成低门槛红海，但真正变量是新品窗口中的首发速度和场景绑定。",
       "growth_signals_short": [
-        "Apple 配件生态主导",
-        "CN 品牌绝对统治",
-        "品类教育已完成",
-        "Apple 配件生态红利"
+        "CN品牌GMV占比53.0%",
+        "充电器CN占比70%+",
+        "赛事和旅行场景绑定",
+        "MagSafe生态持续扩容"
       ],
+      "verification_metrics": [
+        "iPhone新品后2-4周SKU上架速度",
+        "GaN/MagSafe新品评论增长",
+        "Amazon大促期充电配件排名"
+      ],
+      "counter_signals": [
+        "Apple原厂配件降价挤压",
+        "同质化SKU折扣加深"
+      ],
+      "sales_translation": "UGREEN这类客户适合围绕赛事、旅行、快充和MagSafe场景做短内容与Amazon转化闭环。",
       "similar_customers": [
         {
           "brand": "Anker",
@@ -38,549 +305,810 @@
           "grade": "B"
         },
         {
-          "brand": "Spigen",
+          "brand": "Baseus",
           "grade": "B"
         }
       ],
-      "industry_conclusion": "手机配件是Amazon电子类核心大盘，CN品牌在充电、保护和MagSafe生态中优势明显。",
-      "coverage_status": "已匹配既有行研供给"
-    },
-    {
-      "source_lead_industry_key": "Consumer Tech|家用电器|清洁电器",
-      "industry_key": "Consumer Tech|家用电器",
-      "primary_industry": "Consumer Tech",
-      "secondary_industry": "家用电器",
-      "mapped_research_industry": "清洁电器",
-      "metrics": {
-        "gmv": "$3.83B",
-        "yoy_growth": "稳定增长",
-        "cn_gmv_share": "41.7%",
-        "top_cn_player": "Roborock"
+      "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\手机与配件_深度分析v1.md",
+      "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\手机与配件_聚合底表v1.xlsx",
+      "coverage_status": "已匹配深度分析v1",
+      "industry_conclusion": "手机配件是CN品牌在Amazon US最成熟的成功样板，本周UGREEN信号应看作新品节奏和场景营销的竞争，而不是单纯上新。",
+      "visual_summary": {
+        "title": "手机配件：CN品牌从份额优势转向场景竞争",
+        "metric_line": "$11.24B GMV / CN 53.0% / Anker领先",
+        "signal_line": "UGREEN绑定赛事、旅行和MagSafe配件，说明内容场景正在变成转化抓手。",
+        "risk_line": "同质化折扣会削弱新品窗口，需要验证排名和评论增速。"
       },
-      "growth_signals_short": [
-        "扫地机器人主导",
-        "CN 品牌占比 41.7%",
-        "Shark/Bissell 传统吸尘器",
-        "扫地机器人 CN 占比 60%"
-      ],
-      "similar_customers": [
+      "this_week_leads": [
         {
-          "brand": "Roborock",
-          "grade": "A"
-        },
-        {
-          "brand": "Tineco",
-          "grade": "A"
+          "candidate_id": "C001",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "手机与配件",
+          "tertiary_category": "智能追踪器/移动电源；充电器/磁吸移动电源",
+          "product_name": "UGREEN Game Day Kit；UGREEN Nexode / MagFlow Air Editions",
+          "owner": "UGREEN",
+          "dynamic_type": "新品上市/线下活动/区域发布",
+          "dynamic_summary": "UGREEN多区域上新配件并绑定赛事场景",
+          "suggested_focus": "运动赛事、旅行配件、Amazon转化",
+          "source_grade": "A"
         }
       ],
-      "industry_conclusion": "清洁电器由扫地机器人、洗地机和吸尘器驱动，CN品牌在自动化和性价比上更强。",
-      "coverage_status": "已匹配既有行研供给"
+      "this_week_lead_count": 1
     },
     {
-      "source_lead_industry_key": "Consumer Tech|家用电器|扫地机器人/清洁电器",
-      "industry_key": "Consumer Tech|家用电器",
-      "primary_industry": "Consumer Tech",
-      "secondary_industry": "家用电器",
-      "mapped_research_industry": "扫地机器人/清洁电器",
-      "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "Roborock"
-      },
-      "growth_signals_short": [
-        "待录入"
-      ],
-      "similar_customers": [
-        {
-          "brand": "Roborock",
-          "grade": "A"
-        }
-      ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
-    },
-    {
-      "source_lead_industry_key": "Consumer Tech|家用电器|家庭储能/备用电源",
-      "industry_key": "Consumer Tech|家用电器",
-      "primary_industry": "Consumer Tech",
-      "secondary_industry": "家用电器",
-      "mapped_research_industry": "家庭储能/备用电源",
-      "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "BLUETTI"
-      },
-      "growth_signals_short": [
-        "待录入"
-      ],
-      "similar_customers": [
-        {
-          "brand": "BLUETTI",
-          "grade": "A"
-        }
-      ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
-    },
-    {
-      "source_lead_industry_key": "Consumer Tech|电子学|耳机/音频设备",
-      "industry_key": "Consumer Tech|电子学",
+      "source_lead_industry_key": "Consumer Tech|电子学",
       "primary_industry": "Consumer Tech",
       "secondary_industry": "电子学",
-      "mapped_research_industry": "耳机/音频设备",
+      "mapped_research_industry": "电子学",
+      "industry_key": "Consumer Tech|电子学",
       "metrics": {
-        "gmv": "待录入",
+        "gmv": "待补",
         "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
+        "cn_gmv_share": "待补",
         "top_cn_player": "Anker / soundcore"
       },
+      "current_stage": "待录入",
+      "main_variable": "待录入",
+      "main_tension": "待录入",
+      "market_misread": "待录入",
       "growth_signals_short": [
         "待录入"
       ],
+      "verification_metrics": [
+        "待录入"
+      ],
+      "counter_signals": [
+        "待录入"
+      ],
+      "sales_translation": "待录入",
       "similar_customers": [
         {
           "brand": "Anker / soundcore",
           "grade": "B"
         }
       ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C006",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电子学",
+          "tertiary_category": "耳机/音频设备",
+          "product_name": "soundcore Liberty 5 Pro Series",
+          "owner": "Anker / soundcore",
+          "dynamic_type": "新品发布",
+          "dynamic_summary": "soundcore东南亚推出Liberty 5 Pro",
+          "suggested_focus": "东南亚发布、AI耳机卖点",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "待补行研洞察-agent",
+      "bottom_table_path": "待补行研洞察-agent",
+      "coverage_status": "待补行研",
       "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
+      "visual_summary": {
+        "title": "电子学：待补行业结论",
+        "metric_line": "核心指标待录入",
+        "signal_line": "本周已有客户动态，但行业底层结论待补。",
+        "risk_line": "需要补齐行研洞察后再进入正式周报判断。"
+      },
+      "this_week_lead_count": 1
     },
     {
-      "source_lead_industry_key": "Consumer Tech|计算机与配件|显示器",
-      "industry_key": "Consumer Tech|计算机与配件",
+      "source_lead_industry_key": "Consumer Tech|计算机与配件",
       "primary_industry": "Consumer Tech",
       "secondary_industry": "计算机与配件",
-      "mapped_research_industry": "显示器",
+      "mapped_research_industry": "显示器与电脑平板",
+      "industry_key": "Consumer Tech|计算机与配件",
       "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "HKC"
+        "gmv": "$2.44B",
+        "yoy_growth": "结构稳定",
+        "cn_gmv_share": "22.1%",
+        "top_cn_player": "AOC / KTC"
       },
+      "current_stage": "显示器子品类突破期",
+      "main_variable": "高刷、Mini LED、OLED和便携显示器新品加速，CN品牌集中在中低端和便携场景。",
+      "main_tension": "不是计算机配件整体机会，而是显示器具备供应链优势，平板整机仍被Apple/Samsung压制。",
+      "market_misread": "把平板和显示器混看会误判CN机会；CN品牌应聚焦显示器而非平板整机。",
       "growth_signals_short": [
-        "待录入"
+        "显示器CN占30.3%",
+        "便携显示器CN占60%+",
+        "COMPUTEX新品集中曝光",
+        "高刷电竞屏形成内容窗口"
       ],
+      "verification_metrics": [
+        "COMPUTEX后新品上架速度",
+        "高刷显示器评测声量",
+        "Mini LED/OLED产品价格带变化"
+      ],
+      "counter_signals": [
+        "新品停留在展会曝光未上架",
+        "高端OLED仍被日韩品牌主导"
+      ],
+      "sales_translation": "HKC、ANTGAMER、KOORUI、Anycubic适合用展会新品作为内容起点，转向评测、KOL和区域渠道教育。",
       "similar_customers": [
         {
           "brand": "HKC",
           "grade": "A"
-        }
-      ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
-    },
-    {
-      "source_lead_industry_key": "Consumer Tech|计算机与配件|电竞显示器",
-      "industry_key": "Consumer Tech|计算机与配件",
-      "primary_industry": "Consumer Tech",
-      "secondary_industry": "计算机与配件",
-      "mapped_research_industry": "电竞显示器",
-      "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "ANTGAMER / HKC"
-      },
-      "growth_signals_short": [
-        "待录入"
-      ],
-      "similar_customers": [
+        },
         {
-          "brand": "ANTGAMER / HKC",
+          "brand": "KOORUI",
           "grade": "A"
-        }
-      ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
-    },
-    {
-      "source_lead_industry_key": "Lifestyle|工具与家居改善|桌面CNC/创客工具",
-      "industry_key": "Lifestyle|工具与家居改善",
-      "primary_industry": "Lifestyle",
-      "secondary_industry": "工具与家居改善",
-      "mapped_research_industry": "桌面CNC/创客工具",
-      "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "Makera"
-      },
-      "growth_signals_short": [
-        "待录入"
-      ],
-      "similar_customers": [
+        },
         {
-          "brand": "Makera",
+          "brand": "KTC",
           "grade": "A"
-        }
-      ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
-    },
-    {
-      "source_lead_industry_key": "Lifestyle|玩具与游戏|潮玩/IP手办",
-      "industry_key": "Lifestyle|玩具与游戏",
-      "primary_industry": "Lifestyle",
-      "secondary_industry": "玩具与游戏",
-      "mapped_research_industry": "潮玩/IP手办",
-      "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "MINISO"
-      },
-      "growth_signals_short": [
-        "待录入"
-      ],
-      "similar_customers": [
+        },
         {
-          "brand": "MINISO",
-          "grade": "A"
+          "brand": "INNOCN",
+          "grade": "B"
+        },
+        {
+          "brand": "AOC",
+          "grade": "B"
         }
       ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
+      "research_source_path": "Z:\\增长分析中台\\行研洞察-agent\\深度分析\\Consumer Tech\\显示器与电脑平板_深度分析v1.md",
+      "bottom_table_path": "Z:\\增长分析中台\\行研洞察-agent\\底表治理\\聚合底表\\Consumer Tech\\显示器与电脑平板_聚合底表v1.xlsx",
+      "coverage_status": "已匹配深度分析v1",
+      "industry_conclusion": "计算机与配件本周应重点看显示器新品，不应泛化为电脑硬件大盘。",
+      "visual_summary": {
+        "title": "计算机与配件：显示器新品窗口打开",
+        "metric_line": "$2.44B GMV / CN 22.1% / 显示器CN 30.3%",
+        "signal_line": "HKC系品牌在COMPUTEX集中展示高刷、Mini LED与OLED新品。",
+        "risk_line": "若展会曝光未转化为上架和评测，判断需降级。"
+      },
+      "this_week_leads": [
+        {
+          "candidate_id": "C007",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "计算机与配件",
+          "tertiary_category": "显示器",
+          "product_name": "HKC Shield C83U60",
+          "owner": "HKC",
+          "dynamic_type": "展会新品",
+          "dynamic_summary": "HKC将在COMPUTEX展示Shield新品",
+          "suggested_focus": "COMPUTEX展后、显示渠道",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C008",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "计算机与配件",
+          "tertiary_category": "电竞显示器",
+          "product_name": "ANTGAMER 1000Hz/1080Hz esports monitors",
+          "owner": "ANTGAMER / HKC",
+          "dynamic_type": "展会新品",
+          "dynamic_summary": "ANTGAMER展示高刷新电竞显示器",
+          "suggested_focus": "电竞KOL、海外显示器媒体",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C009",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "计算机与配件",
+          "tertiary_category": "显示器",
+          "product_name": "KOORUI S2741LM / S4941XO monitors",
+          "owner": "KOORUI / HKC",
+          "dynamic_type": "展会新品",
+          "dynamic_summary": "KOORUI展示Mini LED与OLED显示器",
+          "suggested_focus": "显示器评测、区域渠道",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C013",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "计算机与配件",
+          "tertiary_category": "3D打印机",
+          "product_name": "Anycubic Kobra 4",
+          "owner": "Anycubic",
+          "dynamic_type": "平台活动/商品推广",
+          "dynamic_summary": "Anycubic Kobra 4进入AliExpress大促",
+          "suggested_focus": "Brand+大促、3D打印测评",
+          "source_grade": "A"
+        }
+      ],
+      "this_week_lead_count": 4
     },
     {
-      "source_lead_industry_key": "FMCG|食品与饮料|乳制品/婴幼儿营养",
-      "industry_key": "FMCG|食品与饮料",
+      "source_lead_industry_key": "FMCG|食品与饮料",
       "primary_industry": "FMCG",
       "secondary_industry": "食品与饮料",
-      "mapped_research_industry": "乳制品/婴幼儿营养",
+      "mapped_research_industry": "食品与饮料",
+      "industry_key": "FMCG|食品与饮料",
       "metrics": {
-        "gmv": "待录入",
+        "gmv": "待补",
         "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
+        "cn_gmv_share": "待补",
         "top_cn_player": "Yili Group"
       },
+      "current_stage": "待录入",
+      "main_variable": "待录入",
+      "main_tension": "待录入",
+      "market_misread": "待录入",
       "growth_signals_short": [
         "待录入"
       ],
+      "verification_metrics": [
+        "待录入"
+      ],
+      "counter_signals": [
+        "待录入"
+      ],
+      "sales_translation": "待录入",
       "similar_customers": [
         {
           "brand": "Yili Group",
           "grade": "A"
         }
       ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
-    },
-    {
-      "source_lead_industry_key": "Consumer Tech|计算机与配件|3D打印机",
-      "industry_key": "Consumer Tech|计算机与配件",
-      "primary_industry": "Consumer Tech",
-      "secondary_industry": "计算机与配件",
-      "mapped_research_industry": "3D打印机",
-      "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "Anycubic"
-      },
-      "growth_signals_short": [
-        "待录入"
-      ],
-      "similar_customers": [
+      "this_week_leads": [
         {
-          "brand": "Anycubic",
-          "grade": "A"
+          "candidate_id": "C012",
+          "lead_category": "EC",
+          "primary_industry": "FMCG",
+          "secondary_industry": "食品与饮料",
+          "tertiary_category": "乳制品/婴幼儿营养",
+          "product_name": "Yili Global Innovation Vanguard / Jinlingguan",
+          "owner": "Yili Group",
+          "dynamic_type": "全球创新合作",
+          "dynamic_summary": "伊利在剑桥启动全球创新合作",
+          "suggested_focus": "海外研发背书、乳制品传播",
+          "source_grade": "A"
         }
       ],
+      "research_source_path": "待补行研洞察-agent",
+      "bottom_table_path": "待补行研洞察-agent",
+      "coverage_status": "待补行研",
       "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
-    },
-    {
-      "source_lead_industry_key": "Lifestyle|工具与家居改善|工具/商用设备",
-      "industry_key": "Lifestyle|工具与家居改善",
-      "primary_industry": "Lifestyle",
-      "secondary_industry": "工具与家居改善",
-      "mapped_research_industry": "工具/商用设备",
-      "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "VEVOR"
+      "visual_summary": {
+        "title": "食品与饮料：待补行业结论",
+        "metric_line": "核心指标待录入",
+        "signal_line": "本周已有客户动态，但行业底层结论待补。",
+        "risk_line": "需要补齐行研洞察后再进入正式周报判断。"
       },
-      "growth_signals_short": [
-        "待录入"
-      ],
-      "similar_customers": [
-        {
-          "brand": "VEVOR",
-          "grade": "A"
-        }
-      ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
+      "this_week_lead_count": 1
     },
     {
-      "source_lead_industry_key": "Gaming|游戏|动作/ARPG",
-      "industry_key": "Gaming|游戏",
-      "primary_industry": "Gaming",
-      "secondary_industry": "游戏",
-      "mapped_research_industry": "动作/ARPG",
-      "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "S-GAME"
-      },
-      "growth_signals_short": [
-        "待录入"
-      ],
-      "similar_customers": [
-        {
-          "brand": "S-GAME",
-          "grade": "B"
-        }
-      ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
-    },
-    {
-      "source_lead_industry_key": "Gaming|游戏|二次元/开放世界",
-      "industry_key": "Gaming|游戏",
-      "primary_industry": "Gaming",
-      "secondary_industry": "游戏",
-      "mapped_research_industry": "二次元/开放世界",
+      "source_lead_industry_key": "Fintech|Fintech",
+      "primary_industry": "Fintech",
+      "secondary_industry": "Fintech",
+      "mapped_research_industry": "Fintech",
+      "industry_key": "Fintech|Fintech",
       "metrics": {
         "gmv": "待补",
         "yoy_growth": "待录入",
         "cn_gmv_share": "待补",
-        "top_cn_player": "Manjuu / Yostar"
+        "top_cn_player": "Ant Group / Alipay"
       },
-      "growth_signals_short": [
-        "开放世界新品曝光",
-        "海外预约窗口出现",
-        "日区内容信号活跃"
-      ],
-      "similar_customers": [
-        {
-          "brand": "Manjuu/Yostar",
-          "grade": "A"
-        }
-      ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "已匹配既有行研供给"
-    },
-    {
-      "source_lead_industry_key": "Gaming|游戏|叙事动作/主机",
-      "industry_key": "Gaming|游戏",
-      "primary_industry": "Gaming",
-      "secondary_industry": "游戏",
-      "mapped_research_industry": "叙事动作/主机",
-      "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "NetEase / 24 Entertainment Lin’an Studio"
-      },
+      "current_stage": "待录入",
+      "main_variable": "待录入",
+      "main_tension": "待录入",
+      "market_misread": "待录入",
       "growth_signals_short": [
         "待录入"
       ],
+      "verification_metrics": [
+        "待录入"
+      ],
+      "counter_signals": [
+        "待录入"
+      ],
+      "sales_translation": "待录入",
       "similar_customers": [
+        {
+          "brand": "Ant Group / Alipay",
+          "grade": "B"
+        },
+        {
+          "brand": "Tencent / Tenpay Global",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C027",
+          "lead_category": "AG",
+          "primary_industry": "Fintech",
+          "secondary_industry": "Fintech",
+          "tertiary_category": "AI支付/Agent支付",
+          "product_name": "Alipay Agent Payment Tools",
+          "owner": "Ant Group / Alipay",
+          "dynamic_type": "产品发布",
+          "dynamic_summary": "支付宝推出面向AI agents的支付工具",
+          "suggested_focus": "AI支付、agent commerce教育",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C028",
+          "lead_category": "AG",
+          "primary_industry": "Fintech",
+          "secondary_industry": "Fintech",
+          "tertiary_category": "跨境支付网络",
+          "product_name": "Weixin Pay / TenPay Global",
+          "owner": "Tencent / Tenpay Global",
+          "dynamic_type": "合作拓展",
+          "dynamic_summary": "微信支付扩大中亚跨境支付网络",
+          "suggested_focus": "旅游支付、钱包互联",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "待补行研洞察-agent",
+      "bottom_table_path": "待补行研洞察-agent",
+      "coverage_status": "待补行研",
+      "industry_conclusion": "待录入",
+      "visual_summary": {
+        "title": "Fintech：待补行业结论",
+        "metric_line": "核心指标待录入",
+        "signal_line": "本周已有客户动态，但行业底层结论待补。",
+        "risk_line": "需要补齐行研洞察后再进入正式周报判断。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "Gaming|游戏",
+      "primary_industry": "Gaming",
+      "secondary_industry": "游戏",
+      "mapped_research_industry": "游戏",
+      "industry_key": "Gaming|游戏",
+      "metrics": {
+        "gmv": "待补",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待补",
+        "top_cn_player": "S-GAME"
+      },
+      "current_stage": "待录入",
+      "main_variable": "待录入",
+      "main_tension": "待录入",
+      "market_misread": "待录入",
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "verification_metrics": [
+        "待录入"
+      ],
+      "counter_signals": [
+        "待录入"
+      ],
+      "sales_translation": "待录入",
+      "similar_customers": [
+        {
+          "brand": "S-GAME",
+          "grade": "B"
+        },
+        {
+          "brand": "Manjuu / Yostar",
+          "grade": "A"
+        },
         {
           "brand": "NetEase / 24 Entertainment Lin’an Studio",
           "grade": "B"
         }
       ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
-    },
-    {
-      "source_lead_industry_key": "Gaming|游戏|开放世界/都市",
-      "industry_key": "Gaming|游戏",
-      "primary_industry": "Gaming",
-      "secondary_industry": "游戏",
-      "mapped_research_industry": "开放世界/都市",
-      "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "Perfect World / Hotta Studio"
-      },
-      "growth_signals_short": [
-        "待录入"
-      ],
-      "similar_customers": [
+      "this_week_leads": [
         {
-          "brand": "Perfect World / Hotta Studio",
-          "grade": "B"
+          "candidate_id": "C015",
+          "lead_category": "AG",
+          "primary_industry": "Gaming",
+          "secondary_industry": "游戏",
+          "tertiary_category": "动作/ARPG",
+          "product_name": "Phantom Blade Zero",
+          "owner": "S-GAME",
+          "dynamic_type": "实机/档期动态",
+          "dynamic_summary": "Phantom Blade Zero海外实机热度延续",
+          "suggested_focus": "主机游戏内容、愿望单增长",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C016",
+          "lead_category": "AG",
+          "primary_industry": "Gaming",
+          "secondary_industry": "游戏",
+          "tertiary_category": "二次元/开放世界",
+          "product_name": "Azur Promilia",
+          "owner": "Manjuu / Yostar",
+          "dynamic_type": "CBT/官网动态",
+          "dynamic_summary": "Azur Promilia日区CBT页面释放测试动态",
+          "suggested_focus": "日本本地化、预注册",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C017",
+          "lead_category": "AG",
+          "primary_industry": "Gaming",
+          "secondary_industry": "游戏",
+          "tertiary_category": "叙事动作/主机",
+          "product_name": "Blood Message",
+          "owner": "NetEase / 24 Entertainment Lin’an Studio",
+          "dynamic_type": "展会/实机曝光",
+          "dynamic_summary": "Blood Message夏季展示期获得海外曝光",
+          "suggested_focus": "首曝复盘、主机社区",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C018",
+          "lead_category": "AG",
+          "primary_industry": "Gaming",
+          "secondary_industry": "游戏",
+          "tertiary_category": "开放世界/都市",
+          "product_name": "Neverness to Everness",
+          "owner": "Perfect World / Hotta Studio",
+          "dynamic_type": "版本更新/实机内容",
+          "dynamic_summary": "Neverness to Everness海外更新内容曝光",
+          "suggested_focus": "版本营销、海外社区",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C019",
+          "lead_category": "AG",
+          "primary_industry": "Gaming",
+          "secondary_industry": "游戏",
+          "tertiary_category": "开放世界/都市",
+          "product_name": "Wangyue",
+          "owner": "Starseeker / Xingchen Studio",
+          "dynamic_type": "实机视频/媒体动态",
+          "dynamic_summary": "Wangyue新实机画面进入海外预热",
+          "suggested_focus": "预约增长、海外社媒",
+          "source_grade": "B"
         }
       ],
+      "research_source_path": "待补行研洞察-agent",
+      "bottom_table_path": "待补行研洞察-agent",
+      "coverage_status": "待补行研",
       "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
+      "visual_summary": {
+        "title": "游戏：待补行业结论",
+        "metric_line": "核心指标待录入",
+        "signal_line": "本周已有客户动态，但行业底层结论待补。",
+        "risk_line": "需要补齐行研洞察后再进入正式周报判断。"
+      },
+      "this_week_lead_count": 5
     },
     {
-      "source_lead_industry_key": "工具|工具|视频剪辑",
-      "industry_key": "工具|工具",
-      "primary_industry": "工具",
-      "secondary_industry": "工具",
-      "mapped_research_industry": "视频剪辑",
+      "source_lead_industry_key": "Lifestyle|工具与家居改善",
+      "primary_industry": "Lifestyle",
+      "secondary_industry": "工具与家居改善",
+      "mapped_research_industry": "工具与家居改善",
+      "industry_key": "Lifestyle|工具与家居改善",
       "metrics": {
-        "gmv": "待录入",
+        "gmv": "待补",
         "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "ByteDance Pte. Ltd"
+        "cn_gmv_share": "待补",
+        "top_cn_player": "Makera"
       },
+      "current_stage": "待录入",
+      "main_variable": "待录入",
+      "main_tension": "待录入",
+      "market_misread": "待录入",
       "growth_signals_short": [
         "待录入"
       ],
+      "verification_metrics": [
+        "待录入"
+      ],
+      "counter_signals": [
+        "待录入"
+      ],
+      "sales_translation": "待录入",
+      "similar_customers": [
+        {
+          "brand": "Makera",
+          "grade": "A"
+        },
+        {
+          "brand": "VEVOR",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C010",
+          "lead_category": "EC",
+          "primary_industry": "Lifestyle",
+          "secondary_industry": "工具与家居改善",
+          "tertiary_category": "桌面CNC/创客工具",
+          "product_name": "Makera Z1",
+          "owner": "Makera",
+          "dynamic_type": "展会获奖/全球预购",
+          "dynamic_summary": "Makera Z1获奖后启动全球预购",
+          "suggested_focus": "创客社区、预购转化",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C014",
+          "lead_category": "EC",
+          "primary_industry": "Lifestyle",
+          "secondary_industry": "工具与家居改善",
+          "tertiary_category": "工具/商用设备",
+          "product_name": "VEVOR Brand+ summer sale products",
+          "owner": "VEVOR",
+          "dynamic_type": "平台活动/渠道推广",
+          "dynamic_summary": "VEVOR进入AliExpress Brand+夏季促销",
+          "suggested_focus": "美国工具类内容、平台大促",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "待补行研洞察-agent",
+      "bottom_table_path": "待补行研洞察-agent",
+      "coverage_status": "待补行研",
+      "industry_conclusion": "待录入",
+      "visual_summary": {
+        "title": "工具与家居改善：待补行业结论",
+        "metric_line": "核心指标待录入",
+        "signal_line": "本周已有客户动态，但行业底层结论待补。",
+        "risk_line": "需要补齐行研洞察后再进入正式周报判断。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "Lifestyle|玩具与游戏",
+      "primary_industry": "Lifestyle",
+      "secondary_industry": "玩具与游戏",
+      "mapped_research_industry": "玩具与游戏",
+      "industry_key": "Lifestyle|玩具与游戏",
+      "metrics": {
+        "gmv": "待补",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待补",
+        "top_cn_player": "MINISO"
+      },
+      "current_stage": "待录入",
+      "main_variable": "待录入",
+      "main_tension": "待录入",
+      "market_misread": "待录入",
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "verification_metrics": [
+        "待录入"
+      ],
+      "counter_signals": [
+        "待录入"
+      ],
+      "sales_translation": "待录入",
+      "similar_customers": [
+        {
+          "brand": "MINISO",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C011",
+          "lead_category": "EC",
+          "primary_industry": "Lifestyle",
+          "secondary_industry": "玩具与游戏",
+          "tertiary_category": "潮玩/IP手办",
+          "product_name": "MINISO YOYO life-sized figures / Surprise Icon Box",
+          "owner": "MINISO",
+          "dynamic_type": "IP展览/商品化",
+          "dynamic_summary": "MINISO纽约举办YOYO大型艺术展",
+          "suggested_focus": "北美IP商品化、线下快闪",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "待补行研洞察-agent",
+      "bottom_table_path": "待补行研洞察-agent",
+      "coverage_status": "待补行研",
+      "industry_conclusion": "待录入",
+      "visual_summary": {
+        "title": "玩具与游戏：待补行业结论",
+        "metric_line": "核心指标待录入",
+        "signal_line": "本周已有客户动态，但行业底层结论待补。",
+        "risk_line": "需要补齐行研洞察后再进入正式周报判断。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "工具|工具",
+      "primary_industry": "工具",
+      "secondary_industry": "工具",
+      "mapped_research_industry": "工具",
+      "industry_key": "工具|工具",
+      "metrics": {
+        "gmv": "待补",
+        "yoy_growth": "待录入",
+        "cn_gmv_share": "待补",
+        "top_cn_player": "ByteDance Pte. Ltd"
+      },
+      "current_stage": "待录入",
+      "main_variable": "待录入",
+      "main_tension": "待录入",
+      "market_misread": "待录入",
+      "growth_signals_short": [
+        "待录入"
+      ],
+      "verification_metrics": [
+        "待录入"
+      ],
+      "counter_signals": [
+        "待录入"
+      ],
+      "sales_translation": "待录入",
       "similar_customers": [
         {
           "brand": "ByteDance Pte. Ltd",
           "grade": "B"
         }
       ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C020",
+          "lead_category": "AG",
+          "primary_industry": "工具",
+          "secondary_industry": "工具",
+          "tertiary_category": "视频剪辑",
+          "product_name": "CapCut",
+          "owner": "ByteDance Pte. Ltd",
+          "dynamic_type": "商店更新/榜单动态",
+          "dynamic_summary": "CapCut更新并维持海外视频榜单活跃",
+          "suggested_focus": "创作者工具、订阅转化",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "待补行研洞察-agent",
+      "bottom_table_path": "待补行研洞察-agent",
+      "coverage_status": "待补行研",
       "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
+      "visual_summary": {
+        "title": "工具：待补行业结论",
+        "metric_line": "核心指标待录入",
+        "signal_line": "本周已有客户动态，但行业底层结论待补。",
+        "risk_line": "需要补齐行研洞察后再进入正式周报判断。"
+      },
+      "this_week_lead_count": 1
     },
     {
-      "source_lead_industry_key": "AI应用|AI应用|AI视频生成",
-      "industry_key": "AI应用|AI应用",
-      "primary_industry": "AI应用",
-      "secondary_industry": "AI应用",
-      "mapped_research_industry": "AI视频生成",
+      "source_lead_industry_key": "平台|平台",
+      "primary_industry": "平台",
+      "secondary_industry": "平台",
+      "mapped_research_industry": "平台",
+      "industry_key": "平台|平台",
       "metrics": {
-        "gmv": "待录入",
+        "gmv": "待补",
         "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "Kuaishou Technology"
+        "cn_gmv_share": "待补",
+        "top_cn_player": "PDD Holdings / Temu"
       },
+      "current_stage": "待录入",
+      "main_variable": "待录入",
+      "main_tension": "待录入",
+      "market_misread": "待录入",
       "growth_signals_short": [
         "待录入"
       ],
-      "similar_customers": [
-        {
-          "brand": "Kuaishou Technology",
-          "grade": "B"
-        }
-      ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
-    },
-    {
-      "source_lead_industry_key": "AI应用|AI应用|大模型/AI助手",
-      "industry_key": "AI应用|AI应用",
-      "primary_industry": "AI应用",
-      "secondary_industry": "AI应用",
-      "mapped_research_industry": "大模型/AI助手",
-      "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "DeepSeek"
-      },
-      "growth_signals_short": [
+      "verification_metrics": [
         "待录入"
       ],
+      "counter_signals": [
+        "待录入"
+      ],
+      "sales_translation": "待录入",
       "similar_customers": [
         {
-          "brand": "DeepSeek",
+          "brand": "PDD Holdings / Temu",
           "grade": "B"
+        },
+        {
+          "brand": "Alibaba International / AliExpress",
+          "grade": "A"
         }
       ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C025",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "平台",
+          "tertiary_category": "跨境电商App",
+          "product_name": "Temu",
+          "owner": "PDD Holdings / Temu",
+          "dynamic_type": "商店更新/榜单动态",
+          "dynamic_summary": "Temu更新并维持美国购物榜单活跃",
+          "suggested_focus": "平台卖家池、站外增长",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "C026",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "平台",
+          "tertiary_category": "跨境电商App",
+          "product_name": "AliExpress；AliExpress Shopping App",
+          "owner": "Alibaba International / AliExpress",
+          "dynamic_type": "大促/商店更新/平台活跃",
+          "dynamic_summary": "AliExpress大促与App更新保持美国活跃",
+          "suggested_focus": "Brand+直播、购物App增长",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "待补行研洞察-agent",
+      "bottom_table_path": "待补行研洞察-agent",
+      "coverage_status": "待补行研",
       "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
+      "visual_summary": {
+        "title": "平台：待补行业结论",
+        "metric_line": "核心指标待录入",
+        "signal_line": "本周已有客户动态，但行业底层结论待补。",
+        "risk_line": "需要补齐行研洞察后再进入正式周报判断。"
+      },
+      "this_week_lead_count": 2
     },
     {
-      "source_lead_industry_key": "泛娱乐|泛娱乐|生活方式社区",
-      "industry_key": "泛娱乐|泛娱乐",
+      "source_lead_industry_key": "泛娱乐|泛娱乐",
       "primary_industry": "泛娱乐",
       "secondary_industry": "泛娱乐",
-      "mapped_research_industry": "生活方式社区",
+      "mapped_research_industry": "泛娱乐",
+      "industry_key": "泛娱乐|泛娱乐",
       "metrics": {
-        "gmv": "待录入",
+        "gmv": "待补",
         "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
+        "cn_gmv_share": "待补",
         "top_cn_player": "TikTok Ltd. / ByteDance"
       },
+      "current_stage": "待录入",
+      "main_variable": "待录入",
+      "main_tension": "待录入",
+      "market_misread": "待录入",
       "growth_signals_short": [
         "待录入"
       ],
+      "verification_metrics": [
+        "待录入"
+      ],
+      "counter_signals": [
+        "待录入"
+      ],
+      "sales_translation": "待录入",
       "similar_customers": [
         {
           "brand": "TikTok Ltd. / ByteDance",
           "grade": "B"
         }
       ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
-    },
-    {
-      "source_lead_industry_key": "平台|平台|跨境电商App",
-      "industry_key": "平台|平台",
-      "primary_industry": "平台",
-      "secondary_industry": "平台",
-      "mapped_research_industry": "跨境电商App",
-      "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "PDD Holdings / Temu"
-      },
-      "growth_signals_short": [
-        "待录入"
-      ],
-      "similar_customers": [
+      "this_week_leads": [
         {
-          "brand": "PDD Holdings / Temu",
-          "grade": "B"
+          "candidate_id": "C024",
+          "lead_category": "AG",
+          "primary_industry": "泛娱乐",
+          "secondary_industry": "泛娱乐",
+          "tertiary_category": "生活方式社区",
+          "product_name": "Lemon8",
+          "owner": "TikTok Ltd. / ByteDance",
+          "dynamic_type": "商店更新/榜单动态",
+          "dynamic_summary": "Lemon8更新并保持美国生活方式榜单活跃",
+          "suggested_focus": "生活方式社区、创作者招募",
+          "source_grade": "B"
         }
       ],
+      "research_source_path": "待补行研洞察-agent",
+      "bottom_table_path": "待补行研洞察-agent",
+      "coverage_status": "待补行研",
       "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
-    },
-    {
-      "source_lead_industry_key": "Fintech|Fintech|AI支付/Agent支付",
-      "industry_key": "Fintech|Fintech",
-      "primary_industry": "Fintech",
-      "secondary_industry": "Fintech",
-      "mapped_research_industry": "AI支付/Agent支付",
-      "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "Ant Group / Alipay"
+      "visual_summary": {
+        "title": "泛娱乐：待补行业结论",
+        "metric_line": "核心指标待录入",
+        "signal_line": "本周已有客户动态，但行业底层结论待补。",
+        "risk_line": "需要补齐行研洞察后再进入正式周报判断。"
       },
-      "growth_signals_short": [
-        "待录入"
-      ],
-      "similar_customers": [
-        {
-          "brand": "Ant Group / Alipay",
-          "grade": "B"
-        }
-      ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
-    },
-    {
-      "source_lead_industry_key": "Fintech|Fintech|跨境支付网络",
-      "industry_key": "Fintech|Fintech",
-      "primary_industry": "Fintech",
-      "secondary_industry": "Fintech",
-      "mapped_research_industry": "跨境支付网络",
-      "metrics": {
-        "gmv": "待录入",
-        "yoy_growth": "待录入",
-        "cn_gmv_share": "待录入",
-        "top_cn_player": "Tencent / Tenpay Global"
-      },
-      "growth_signals_short": [
-        "待录入"
-      ],
-      "similar_customers": [
-        {
-          "brand": "Tencent / Tenpay Global",
-          "grade": "A"
-        }
-      ],
-      "industry_conclusion": "待录入",
-      "coverage_status": "待补行研"
+      "this_week_lead_count": 1
     }
-  ]
+  ],
+  "quality_check": {
+    "lead_rows": 28,
+    "industry_group_count": 13,
+    "covered_industry_count": 3,
+    "gap_industry_count": 10,
+    "missing_required_fields": [],
+    "notes": [
+      "W24字段完整：客户候选名单含钛动分类、一级行业、二级行业、三级品类等标准字段。",
+      "家用电器已按v2行研拆出清洁电器与户外便携电源储能两个变量。",
+      "Gaming、AI应用、平台、Fintech等本周有客户信号，但行研洞察材料仍待补。"
+    ]
+  }
 }

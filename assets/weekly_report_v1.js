@@ -165,14 +165,18 @@
     const selected = state.selected || allRows()[0] || {};
     const brief = industryBrief(selected);
     const metrics = brief?.metrics || {};
-    const signals = (brief?.growth_signals_short || ["待录入"]).slice(0, 4);
+    const signals = (brief?.growth_signals_short || ["待录入"]).slice(0, 5);
+    const verifications = (brief?.verification_metrics || []).slice(0, 4);
+    const visual = brief?.visual_summary || {};
     const conclusion = brief?.industry_conclusion || (brief ? "行业结论待补充" : "待录入");
+    const stage = brief?.current_stage || brief?.coverage_status || "待录入";
+    const variable = brief?.main_variable || visual.signal_line || conclusion;
 
     $("#industry-brief-title").textContent = "本周关注行业";
     $("#industry-brief").innerHTML = `
       <div class="industry-brief-grid">
         <section class="brief-panel">
-          <div class="brief-title">${industryLabel(selected)}</div>
+          <div class="brief-title">${safe(visual.title, industryLabel(selected))}</div>
           <div class="brief-metric-label">行业GMV</div>
           <div class="brief-metric-value">${safe(metrics.gmv)}</div>
           <div class="brief-metric-label">YoY增长率</div>
@@ -183,10 +187,19 @@
           <div class="brief-metric-value small">${safe(metrics.top_cn_player)}</div>
         </section>
         <section class="brief-panel">
-          <div class="brief-title">增长信号（近90天）</div>
-          <div class="brief-conclusion">${shortText(conclusion, 72)}</div>
+          <div class="brief-title">核心判断</div>
+          <div class="brief-kv"><span>阶段</span><b>${shortText(stage, 24)}</b></div>
+          <div class="brief-kv"><span>变量</span><b>${shortText(variable, 54)}</b></div>
+          <div class="brief-conclusion">${shortText(conclusion, 96)}</div>
           <div class="brief-list">
             ${signals.map((item) => `<div class="brief-list-item">${shortText(item, 30)}</div>`).join("")}
+          </div>
+        </section>
+        <section class="brief-panel">
+          <div class="brief-title">验证信号</div>
+          <div class="brief-conclusion">${shortText(visual.risk_line || brief?.counter_signals?.[0] || "持续跟踪公开数据与客户动作。", 72)}</div>
+          <div class="brief-list">
+            ${(verifications.length ? verifications : ["待录入验证指标"]).map((item) => `<div class="brief-list-item">${shortText(item, 32)}</div>`).join("")}
           </div>
         </section>
       </div>`;
@@ -415,8 +428,8 @@
 
   async function init() {
     const [content, industrySupply] = await Promise.all([
-      loadJson("./data/weekly/weekly_leads_content_2026_W24.json"),
-      loadJson("./data/weekly/industry_brief_supply_2026_W24.json"),
+      loadJson("./data/weekly/weekly_leads_content_2026_W24.json?v=20260608-weekly-e"),
+      loadJson("./data/weekly/industry_brief_supply_2026_W24.json?v=20260608-weekly-e"),
     ]);
     state.content = content;
     state.industrySupply = industrySupply;
