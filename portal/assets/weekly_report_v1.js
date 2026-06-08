@@ -44,11 +44,18 @@
   }
 
   function displayName(row) {
-    return shortText(nameAlias[row.application_product_name] || row.application_product_name, 24);
+    return shortText(nameAlias[row.application_product_name] || row.application_product_name, 30);
   }
 
   function ownerName(row) {
-    return shortText(supplierAlias[row.owner_company_brand] || row.owner_company_brand, 18);
+    const raw = safe(row.owner_company_brand, "-");
+    if (/Dreame/i.test(raw)) return "Dreame";
+    if (/Roborock/i.test(raw)) return "Roborock";
+    if (/Tineco/i.test(raw)) return "Tineco";
+    if (/Alibaba|AliExpress/i.test(raw)) return "AliExpress";
+    if (/Manjuu|Yostar/i.test(raw)) return "Yostar";
+    if (/ANTGAMER|HKC/i.test(raw)) return raw.includes("HKC") ? "ANTGAMER/HKC" : "ANTGAMER";
+    return shortText(supplierAlias[raw] || raw, 22);
   }
 
   function channelName(row) {
@@ -59,11 +66,11 @@
       .replace(/全球零售/g, "零售")
       .replace(/Amazon\//g, "Amazon · ")
       .replace(/官方店\//g, "官方店 · ");
-    return shortText(cleaned, 28);
+    return shortText(cleaned, 42);
   }
 
   function summaryShort(row) {
-    return shortText(row.dynamic_summary, 56);
+    return shortText(row.dynamic_summary, 82);
   }
 
   function industryKey(row) {
@@ -104,7 +111,7 @@
       ["商品候选", productCount, "实物商品方向", "商", "tone-orange"],
       ["应用候选", appCount, "App / 游戏 / 平台", "应", "tone-purple"],
       ["A级信源", gradeACount, "官方/硬证据", "A", "tone-green"],
-      ["重点展会", exhibitionRows.length, "本周/下周窗口", "展", "tone-blue"],
+      ["重点展会", exhibitionRows.length, "W24/W25窗口", "展", "tone-blue"],
     ];
 
     $("#sales-focus").innerHTML = `
@@ -123,7 +130,7 @@
           `).join("")}
           <div class="week-summary-box">
             <div class="week-summary-title">本周摘要</div>
-            <div class="week-summary-text" title="${safe(weekly.top_summary)}">${safe(weekly.top_summary).replace(/^W23/, "W24").replace("本周/下周展会窗口", "W24/W25展会窗口")}</div>
+            <div class="week-summary-text" title="W24建议关注智能追踪器、充电配件、清洁电器与电竞显示器方向；本周客户信号集中在新品发布、展会曝光和渠道活动，同步关注W24/W25展会窗口。">W24建议关注智能追踪器、充电配件、清洁电器与电竞显示器方向；本周客户信号集中在新品发布、展会曝光和渠道活动，同步关注W24/W25展会窗口。</div>
           </div>
         </div>
       </article>`;
@@ -156,7 +163,7 @@
                 <td class="num">${index + 1}</td>
                 <td><div class="name-cell" title="${safe(row.application_product_name)}｜${safe(row.owner_company_brand)}">${displayName(row)}</div></td>
                 <td><div class="company-cell" title="${safe(row.owner_company_brand)}">${ownerName(row)}</div></td>
-                <td>${researchL1(row)}</td>
+                <td><span class="l1-pill">${researchL1(row)}</span></td>
                 <td><button class="industry-link" data-index="${index}" title="${safe(industryBrief(row)?.mapped_research_industry || row.standard_l2)}">${researchL2(row)}</button></td>
                 <td class="market-cell" title="${safe(row.target_market_channel)}">${channelName(row)}</td>
                 <td>${shortText(row.dynamic_type, 8)}</td>
@@ -244,61 +251,31 @@
 
   function renderEventWindows() {
     const rows = state.content.exhibition_window_content || [];
-    const eventSelect = $("#event-extra-select");
-    const eventLink = $("#event-open-link");
-    if (eventSelect) {
-      eventSelect.innerHTML = `
-        <option value="">全部展会（${rows.length}）</option>
-        ${rows.map((row, index) => `<option value="${index}">${dateShort(row.date)}｜${shortText(row.event_name, 24)}</option>`).join("")}
-      `;
-      eventSelect.onchange = () => {
-        const index = Number(eventSelect.value);
-        if (eventLink && Number.isFinite(index) && rows[index]) {
-          eventLink.href = rows[index].url || "#";
-          eventLink.textContent = "打开链接";
-        }
-      };
-      if (eventLink && rows[0]) eventLink.href = rows[0].url || "#";
-    }
-    const boundary = new Date("2026-06-16T00:00:00");
-    const thisWeek = rows.filter((row) => {
-      const date = eventStartDate(row);
-      return date && date < boundary;
-    });
-    const nextWeek = rows.filter((row) => {
-      const date = eventStartDate(row);
-      return !date || date >= boundary;
-    });
-
-    function renderGroup(title, items) {
-      return `
-        <section class="event-group">
-          <h3 class="event-group-title">${title}</h3>
-          <div class="event-list">
-            ${items.map((row) => `
-              <a class="event-row" href="${safe(row.url, "#")}" target="_blank" rel="noreferrer" title="${safe(row.window_value)}">
-                <b>${dateShort(row.date)}</b>
-                <span title="${safe(row.event_name)}">${shortText(row.event_name, 32)}</span>
-                <em>${shortText(row.location, 8)}</em>
-                <i>${shortText(row.industry, 8)}</i>
-                <strong>跳转</strong>
-              </a>
-            `).join("") || "<div class=\"empty-line\">暂无展会记录</div>"}
-          </div>
-        </section>`;
-    }
-
     $("#event-windows").innerHTML = `
-      <div class="event-window-grid">
-        ${renderGroup("本周展会（W24）", thisWeek)}
-        ${renderGroup("下周展会（W25）", nextWeek)}
+      <div class="table-fit event-table-fit">
+        <table class="data-table event-table">
+          <thead>
+            <tr><th>开展时间</th><th>展会名称</th><th>展会地点</th><th>领域</th><th>报名通道</th></tr>
+          </thead>
+          <tbody>
+            ${rows.map((row) => `
+              <tr>
+                <td>${safe(row.date)}</td>
+                <td title="${safe(row.event_name)}">${safe(row.event_name)}</td>
+                <td>${safe(row.location)}</td>
+                <td>${safe(row.industry)}</td>
+                <td><a class="inline-link" href="${safe(row.url, "#")}" target="_blank" rel="noreferrer">跳转</a></td>
+              </tr>
+            `).join("") || "<tr><td colspan=\"5\">暂无展会记录</td></tr>"}
+          </tbody>
+        </table>
       </div>`;
   }
 
   function renderSimilarCustomers() {
     const selected = state.selected || state.content.weekly_module_content.focus_customers[0] || {};
     const rows = similarRows(selected.candidate_id).slice(0, 5);
-    $("#similar-title").textContent = `同类客户（${shortText(selected.standard_l2, 10)}）`;
+    $("#similar-title").textContent = `同类客户（${researchL2(selected)}）`;
     $("#similar-customers").innerHTML = `
       <div class="table-fit">
         <table class="data-table similar-table">
