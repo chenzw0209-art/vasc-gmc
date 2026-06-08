@@ -2212,3 +2212,97 @@ a { color: inherit; text-decoration: none; }
   .weekly-page #market-view .module-card.span-8,
   .weekly-page #market-view .module-card.span-12 { grid-column: span 6; }
 }
+
+/* Final table auto-fit and tab-specific industry layouts */
+.weekly-page .event-table {
+  width: 100%;
+  min-width: 0;
+  table-layout: fixed;
+}
+
+.weekly-page .event-table th,
+.weekly-page .event-table td {
+  height: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.weekly-page .event-table th.col-window { width: 118px; }
+.weekly-page .event-table th.col-event-industry { width: 86px; }
+.weekly-page .event-table th.col-event-date { width: 104px; }
+.weekly-page .event-table th.col-location { width: 104px; }
+.weekly-page .event-table th.col-link { width: 72px; }
+.weekly-page .event-table th.col-event-name { width: auto; }
+.weekly-page .event-table th.col-event-value { width: 34%; }
+
+.weekly-page .event-table .inline-link {
+  width: 48px;
+  height: 22px;
+  padding: 0;
+}
+
+.weekly-page #market-view .category-layout,
+.weekly-page #market-view .players-layout {
+  display: grid;
+  gap: 10px;
+  padding: 10px 0 18px;
+}
+
+.weekly-page #market-view .category-row-1,
+.weekly-page #market-view .category-row-2,
+.weekly-page #market-view .players-row-1,
+.weekly-page #market-view .players-row-2 {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 10px;
+  align-items: stretch;
+}
+
+.weekly-page #market-view .category-row-1 > .module-card:nth-child(1) { grid-column: span 7; }
+.weekly-page #market-view .category-row-1 > .module-card:nth-child(2) { grid-column: span 5; }
+.weekly-page #market-view .category-row-2 > .module-card { grid-column: span 4; }
+
+.weekly-page #market-view .players-row-1 > .module-card:nth-child(1),
+.weekly-page #market-view .players-row-1 > .module-card:nth-child(2) { grid-column: span 3; }
+.weekly-page #market-view .players-row-1 > .module-card:nth-child(3) { grid-column: span 6; }
+.weekly-page #market-view .players-row-2 > .module-card:nth-child(1) { grid-column: span 3; }
+.weekly-page #market-view .players-row-2 > .module-card:nth-child(2) { grid-column: span 6; }
+.weekly-page #market-view .players-row-2 > .module-card:nth-child(3) { grid-column: span 3; }
+
+.weekly-page #market-view .category-structure-split {
+  height: calc(100% - 32px);
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 10px;
+  min-width: 0;
+}
+
+.weekly-page #market-view .category-structure-split .table-scroll {
+  height: 100%;
+}
+
+.weekly-page #market-view .players-layout .matrix-card {
+  height: 286px;
+}
+
+.weekly-page #market-view .players-layout .module-card,
+.weekly-page #market-view .category-layout .module-card {
+  height: 238px;
+}
+
+@media (max-width: 1500px) {
+  .weekly-page #market-view .category-row-1,
+  .weekly-page #market-view .category-row-2,
+  .weekly-page #market-view .players-row-1,
+  .weekly-page #market-view .players-row-2 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+  .weekly-page #market-view .category-row-1 > .module-card:nth-child(1),
+  .weekly-page #market-view .category-row-1 > .module-card:nth-child(2),
+  .weekly-page #market-view .category-row-2 > .module-card,
+  .weekly-page #market-view .players-row-1 > .module-card,
+  .weekly-page #market-view .players-row-2 > .module-card {
+    grid-column: span 6;
+  }
+}
