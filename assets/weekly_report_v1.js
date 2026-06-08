@@ -279,6 +279,7 @@
         const shell = doc.querySelector(".research-shell");
         $("#market-view").innerHTML = shell ? shell.outerHTML : `<div class="market-loading">行业研究加载失败</div>`;
         window.PAGE_TYPE = "industry-research";
+        patchEmbeddedMarketPaths();
         return loadScriptOnce("./assets/vendor/echarts.min.js", "embedded-echarts")
           .then(() => loadScriptOnce("./assets/industry_research_page_v1.js", "embedded-industry-script"));
       })
@@ -301,6 +302,18 @@
       script.onerror = () => reject(new Error(`无法加载 ${src}`));
       document.body.appendChild(script);
     });
+  }
+
+  function patchEmbeddedMarketPaths() {
+    if (window.__marketLoadJsonPatched || typeof window.loadJson !== "function") return;
+    const originalLoadJson = window.loadJson;
+    window.loadJson = (path) => {
+      const rewritten = String(path)
+        .replace(/^\.\.\/\.\.\/data\//, "./data/")
+        .replace(/^\.\.\/data\//, "./data/");
+      return originalLoadJson(rewritten);
+    };
+    window.__marketLoadJsonPatched = true;
   }
 
   function wireViewNavigation() {
