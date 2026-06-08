@@ -2242,6 +2242,77 @@ a { color: inherit; text-decoration: none; }
   padding: 0;
 }
 
+/* W24 content refresh: summary and industry brief density */
+.weekly-page .sales-focus-grid .week-summary-box {
+  grid-column: 1 / -1;
+  min-height: 52px;
+  align-self: stretch;
+}
+
+.weekly-page .week-summary-text {
+  display: block;
+  max-width: 100%;
+  line-height: 1.55;
+}
+
+.weekly-page .industry-brief-card,
+.weekly-page .similar-customers-card {
+  height: 300px;
+}
+
+.weekly-page .industry-brief-grid {
+  grid-template-columns: 0.9fr 1.25fr 1fr;
+  gap: 10px;
+}
+
+.weekly-page .brief-panel {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.weekly-page .brief-title,
+.weekly-page .brief-conclusion,
+.weekly-page .brief-list-item,
+.weekly-page .brief-kv b {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.weekly-page .brief-title,
+.weekly-page .brief-list-item,
+.weekly-page .brief-kv {
+  white-space: nowrap;
+}
+
+.weekly-page .brief-conclusion {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.weekly-page .brief-kv {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 6px;
+  align-items: center;
+  min-height: 24px;
+  font-size: 12px;
+}
+
+.weekly-page .brief-kv span {
+  color: #64748b;
+}
+
+.weekly-page .brief-kv b {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.weekly-page .weekly-customer-table td {
+  white-space: nowrap;
+}
+
 .weekly-page #market-view .category-layout,
 .weekly-page #market-view .players-layout {
   display: grid;
