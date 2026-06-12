@@ -38,8 +38,8 @@
   let selectedL2 = "面部护理";
   let selectedDomain = "EC";
   let currentTab = "overview";
-  const expandedDomains = new Set(["EC"]);
-  const expandedL1 = new Set(["Beauty"]);
+  const expandedDomains = new Set();
+  const expandedL1 = new Set();
 
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel) => [...document.querySelectorAll(sel)];
@@ -1470,19 +1470,27 @@
 
   function householdMatrix(subs) {
     const maxGmv = Math.max(...subs.map(householdGmv), 1);
+    const cnValues = subs.map(householdCn).filter((value) => Number.isFinite(value));
+    const minCn = Math.min(...cnValues, 0);
+    const maxCn = Math.max(...cnValues, 1);
+    const cnSpan = maxCn - minCn || 1;
     return `
-      <article class="module-card span-7 household-matrix-card">
+      <article class="module-card span-8 household-matrix-card">
         <h2>机会矩阵 <small>规模 × CN占比</small></h2>
         <div class="household-matrix">
           <div class="matrix-axis y">市场规模</div>
           <div class="matrix-axis x">CN品牌占比</div>
+          <div class="matrix-quadrant q1">大市场 / 高CN</div>
+          <div class="matrix-quadrant q2">大市场 / 低CN</div>
+          <div class="matrix-quadrant q3">小市场 / 低CN</div>
+          <div class="matrix-quadrant q4">小市场 / 高CN</div>
           ${subs.map((item) => {
             const tier = householdTier(item);
-            const x = Math.max(8, Math.min(92, householdCn(item)));
+            const x = 14 + (householdCn(item) - minCn) / cnSpan * 72;
             const y = 88 - Math.max(8, Math.min(80, householdGmv(item) / maxGmv * 80));
-            const size = 18 + householdGmv(item) / maxGmv * 30;
+            const size = 24 + householdGmv(item) / maxGmv * 28;
             return `<button class="matrix-bubble ${tier.cls}" type="button" style="left:${x}%;top:${y}%;--s:${size}px" title="${item.standard_l2} · ${item.snapshot?.annual_gmv_label || "待补充"} · CN ${item.snapshot?.cn_share == null ? "待补充" : pct(item.snapshot.cn_share)}">
-              <span>${item.standard_l2}</span>
+              <span>${item.standard_l2}</span><em>${item.snapshot?.annual_gmv_label || ""}</em>
             </button>`;
           }).join("")}
         </div>
@@ -1498,7 +1506,7 @@
       items: subs.filter((item) => householdTier(item).label === label),
     })).filter((group) => group.items.length);
     return `
-      <article class="module-card span-5 household-priority-card">
+      <article class="module-card span-4 household-priority-card">
         <h2>中国品牌机会分层</h2>
         <div class="priority-lanes">
           ${groups.map((group) => `
@@ -1517,7 +1525,7 @@
   function householdSubcategoryGrid(subs) {
     return `
       <article class="module-card span-12">
-        <h2>细分研究卡片 <small>${subs.length} 个内容细分，页面内钻取</small></h2>
+        <h2>细分场景地图 <small>${subs.length} 个 v2 深度报告统筹为家用电器</small></h2>
         <div class="household-subcategory-grid">
           ${subs.map((item) => {
             const tier = householdTier(item);
@@ -1552,24 +1560,25 @@
     const subs = research.subcategories || [];
     return `
       <section class="research-brief-layout household-research-layout">
-        <article class="module-card research-thesis span-8">
-          <div class="research-kicker">${researchVersionLabel(research.version)} · 家用电器统筹页</div>
-          <h2>一句话判断</h2>
-          <p>${research.judgment || "当前研究尚未形成结构化一句话判断。"}</p>
-        </article>
-        <article class="module-card research-source-card span-4">
-          <h2>研究溯源</h2>
-          <dl>
-            <div><dt>正式行业</dt><dd>${research.standard_l1} / ${research.standard_l2}</dd></div>
-            <div><dt>内容版本</dt><dd>${researchVersionLabel(research.version)}</dd></div>
-            <div><dt>更新时间</dt><dd>${research.updated_at.replace("T", " ")}</dd></div>
-            <div><dt>细分研究</dt><dd>${subs.length} 个 v2 内容细分</dd></div>
-          </dl>
+        <article class="module-card household-hero span-12">
+          <div class="household-hero-grid">
+            <div class="household-hero-copy">
+              <div class="research-kicker">${researchVersionLabel(research.version)} · 家用电器统筹页</div>
+              <h2>家用电器不是一个单品类，而是一组家庭场景设备</h2>
+              <p>${research.judgment || "当前研究尚未形成结构化一句话判断。"}</p>
+            </div>
+            <div class="household-metric-strip">
+              ${metrics.map((item) => `<div><span>${item.label}</span><strong>${item.value}</strong></div>`).join("")}
+            </div>
+          </div>
+          <div class="household-source-line">
+            <span>正式行业：${research.standard_l1} / ${research.standard_l2}</span>
+            <span>细分研究：${subs.length} 个 v2 内容细分</span>
+            <span>更新时间：${research.updated_at.replace("T", " ")}</span>
+          </div>
         </article>
         ${householdMatrix(subs)}
         ${householdPriority(subs)}
-        ${householdSubcategoryGrid(subs)}
-        ${householdTrendGrid(subs)}
         <article class="module-card span-5">
           <h2>当前阶段</h2>
           <div class="research-point-list">${(research.phase.length ? research.phase : ["阶段判断待补充"]).map((item, index) => `
@@ -1582,6 +1591,8 @@
             <article><b>${index + 1}</b><p>${item}</p></article>
           `).join("")}</div>
         </article>
+        ${householdSubcategoryGrid(subs)}
+        ${householdTrendGrid(subs)}
       </section>`;
   }
 
@@ -1758,9 +1769,11 @@
   }
 
   function renderRight(row) {
+    const rollupResearch = !!researchFor(row)?.subcategories?.length;
+    $(".research-main").classList.toggle("rollup-mode", rollupResearch);
     renderHeader(row);
-    $(".metrics-grid").innerHTML = metricCards(row);
-    $(".viewpoints-grid").innerHTML = viewpointCards(row);
+    $(".metrics-grid").innerHTML = rollupResearch ? "" : metricCards(row);
+    $(".viewpoints-grid").innerHTML = rollupResearch ? "" : viewpointCards(row);
     $(".tabs").innerHTML = tabButtons();
     $$(".tabs button").forEach((btn) => btn.addEventListener("click", () => {
       currentTab = btn.dataset.tab;
