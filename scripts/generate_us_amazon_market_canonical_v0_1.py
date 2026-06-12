@@ -156,14 +156,14 @@ def read_canonical_source(item: dict) -> dict:
 
 
 def aggregate_standard_l2(raw_records: list[dict]) -> list[dict]:
-    groups: dict[str, list[dict]] = {}
+    groups: dict[tuple[str, str], list[dict]] = {}
     for row in raw_records:
         if row.get("read_status") != "ok":
             continue
-        groups.setdefault(row["standard_l2"], []).append(row)
+        groups.setdefault((row["standard_l1"], row["standard_l2"]), []).append(row)
 
     records = []
-    for standard_l2, items in groups.items():
+    for (standard_l1, standard_l2), items in groups.items():
         gmv = sum(x["gmv"] for x in items)
         monthly_gmv = sum(x["monthly_gmv"] for x in items)
         prev_monthly_gmv = sum(x.get("prev_monthly_gmv", 0.0) for x in items)
@@ -176,12 +176,13 @@ def aggregate_standard_l2(raw_records: list[dict]) -> list[dict]:
 
         records.append(
             {
-                "record_id": f"us_amazon_{standard_l2}",
+                "record_id": f"us_amazon_{standard_l1}_{standard_l2}",
                 "country": "US",
                 "region": "North America",
                 "platform": "Amazon",
                 "period": "2026-04",
                 "period_type": "month",
+                "standard_l1": standard_l1,
                 "standard_l2": standard_l2,
                 "gmv": gmv,
                 "monthly_gmv": monthly_gmv,
@@ -207,11 +208,12 @@ def summarize(records: list[dict], raw_records: list[dict]) -> dict:
     return {
         "generated_at": "2026-06-02",
         "scope": "US Amazon North America canonical market",
-        "grain": "standard_l2",
+        "grain": "standard_l1 / standard_l2",
         "gold_standard": "Z:\\主线任务2-天眼计划\\信息可视化\\类目匹配表_0602.xlsx",
         "canonical_source_count": len(raw_records),
         "read_ok_count": sum(1 for x in raw_records if x.get("read_status") == "ok"),
         "read_failed_count": sum(1 for x in raw_records if x.get("read_status") != "ok"),
+        "standard_l1_count": len({x["standard_l1"] for x in records}),
         "standard_l2_count": len(records),
         "total_gmv": total_gmv,
         "total_monthly_gmv": total_monthly_gmv,
@@ -248,4 +250,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

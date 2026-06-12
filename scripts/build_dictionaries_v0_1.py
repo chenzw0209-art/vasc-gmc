@@ -43,6 +43,11 @@ def normalize_ecommerce_pair(standard_l1: str, standard_l2: str) -> tuple[str, s
     standard_l1 = clean_mojibake(standard_l1)
     standard_l2 = clean_mojibake(standard_l2)
 
+    # Fashion stays as an independent ecommerce L1. Apparel, shoes, bags,
+    # jewelry, watches, and accessories must not be folded into Lifestyle.
+    if standard_l1 == "Fashion":
+        return "Fashion", standard_l2
+
     if standard_l1 == "Auto & Mobility":
         return "Lifestyle", standard_l2
 
@@ -96,7 +101,7 @@ def build_industry_dictionary(category_mapping: list[dict]) -> list[dict]:
             "standard_l2": standard_l2,
             "definition": "",
             "examples": "",
-            "remark": "Generated from category_mapping_ecommerce.json v0.1; Auto & Mobility folded into Lifestyle; ecommerce Gaming excluded.",
+            "remark": "Generated from category_mapping_ecommerce.json v0.1; Fashion stays independent; Auto & Mobility folded into Lifestyle; ecommerce Gaming excluded.",
         }
         for standard_l1, standard_l2 in pairs
     ]

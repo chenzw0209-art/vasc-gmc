@@ -4,8 +4,10 @@
     Beauty: "Beauty",
     "Consumer Tech": "3C",
     FMCG: "FMCG",
+    Fashion: "Fashion",
     Health: "Health",
     Lifestyle: "Life",
+    Gaming: "Gaming",
   };
   const EN_NAMES = {
     "面部护理": "Facial Skin Care",
@@ -24,6 +26,11 @@
   let players = [];
   let products = [];
   let enrichment = [];
+  let industryDictionary = [];
+  let gamingCalendar = null;
+  let gamingCalendarBlueprint = null;
+  let gamingMonthOffset = 0;
+  let gamingSelectedGameId = "";
   let selectedL1 = "Beauty";
   let selectedL2 = "面部护理";
   let currentTab = "overview";
@@ -81,12 +88,109 @@
   }
 
   function l1Rows(l1 = selectedL1) {
-    return market.filter((r) => r.country === "US" && r.platform === "Amazon" && r.standard_l1 === l1)
+    if (l1 === "Gaming") return [gamingRow()];
+    const rows = market.filter((r) => r.country === "US" && r.platform === "Amazon" && r.standard_l1 === l1)
       .sort((a, b) => Number(b.gmv || 0) - Number(a.gmv || 0));
+    return rows.length ? rows : dictionaryRowsFor(l1);
   }
 
   function activeRow() {
+    if (selectedL1 === "Gaming") return gamingRow();
     return market.find((r) => r.standard_l1 === selectedL1 && r.standard_l2 === selectedL2) || l1Rows()[0];
+  }
+
+  function dictionaryRowsFor(l1) {
+    return industryDictionary
+      .filter((r) => r.standard_l1 === l1)
+      .sort((a, b) => safe(a.standard_l2).localeCompare(safe(b.standard_l2), "zh-Hans-CN"))
+      .map((r) => ({
+        country: "US",
+        country_name: "美国",
+        platform: "Amazon",
+        period: PERIOD,
+        period_type: "month",
+        standard_l1: r.standard_l1,
+        standard_l2: r.standard_l2,
+        gmv: 0,
+        monthly_gmv: 0,
+        prev_monthly_gmv: 0,
+        growth_rate: 0,
+        cn_share: 0,
+        cn_monthly_gmv: 0,
+        cn_annual_gmv: 0,
+        product_count: 0,
+        brand_count: 0,
+        cn_brand_count: 0,
+        canonical_source_count: 0,
+        raw_l2_count: 0,
+        raw_l2_values: [],
+        raw_l3_values: [],
+        top_brands: [],
+        major_segments: [],
+        monthly_trend: {},
+        read_status: "pending_governed_market_data",
+        source_layer: "industry_dictionary_only",
+        source_file: "portal/data/dictionary/industry_dictionary_ecommerce.json",
+      }));
+  }
+
+  function isDictionaryOnly(row) {
+    return row?.source_layer === "industry_dictionary_only";
+  }
+
+  function dictionaryOnlyMetricCards(row) {
+    const l2Count = dictionaryRowsFor(row.standard_l1).length;
+    const cards = [
+      ["行业状态", "待治理", "字典已收录，市场事实未接入"],
+      ["一级行业", row.standard_l1, "来自行业字典"],
+      ["二级行业", num(l2Count), "字典口径"],
+      ["当前类目", row.standard_l2, "等待 governed 底表"],
+      ["GMV", "待生成", "不使用 0 伪装"],
+      ["玩家数据", "待生成", "不恢复旧玩家页"],
+      ["产品结构", "待生成", "不恢复旧产品页"],
+      ["信源", "dictionary", "portal/data/dictionary"],
+    ];
+    return cards.map(([k, v, note]) => `
+      <article class="metric-card">
+        <b>${k}</b>
+        <strong>${v}</strong>
+        <span>${note}</span>
+      </article>`).join("");
+  }
+
+  function dictionaryOnlyViewpointCards(row) {
+    const cards = [
+      ["规则已更正", `${row.standard_l1} 已作为独立一级行业进入行业树`, ["不折叠到 Lifestyle", "不在前端临时拆分类目", "等待治理后市场事实"]],
+      ["缺口位置", "当前前台市场主表缺少该行业 governed 行", ["amazon_market_facts_monthly.json 未覆盖", "玩家/产品表需同步生成", "校验已加 Fashion 护栏"]],
+      ["下一步", "补齐 governed 聚合底表并重新生成页面 JSON", ["市场事实", "玩家格局", "产品结构"]],
+      ["边界", "当前仅展示字典事实，不展示临时 GMV 或临时玩家结论", ["避免新旧模块混用", "避免用旧 report_pages 填充当前页"]],
+    ];
+    return cards.map(([title, point, facts], i) => `
+      <article class="view-card view-${i + 1}">
+        <h3><span>${i + 1}</span>${title}</h3>
+        <p title="${point}">${cleanDisplay(point, 44)}</p>
+        <ul>${facts.slice(0, 3).map((f) => `<li title="${f}">${cleanDisplay(f, 24)}</li>`).join("")}</ul>
+      </article>`).join("");
+  }
+
+  function gamingRow() {
+    const s = gamingCalendar?.summary || {};
+    return {
+      country: "Global",
+      platform: "Multi-platform",
+      standard_l1: "Gaming",
+      standard_l2: "主版面",
+      gmv: 0,
+      monthly_gmv: 0,
+      brand_count: s.effective_targets || 0,
+      cn_brand_count: s.p0_items || 0,
+      cn_share: 0,
+      growth_rate: 0,
+    };
+  }
+
+  function isGaming(row) {
+    return row?.standard_l1 === "Gaming";
   }
 
   function playersFor(row) {
@@ -126,14 +230,13 @@
   function renderShellNav() {
     $(".app-nav").innerHTML = `
       <a href="../../index.html">周报</a>
-      <a href="../leads/">线索</a>
       <a class="active" href="./">行业研究</a>
     `;
   }
 
   function renderIndustryTree() {
     const q = ($("#industry-search")?.value || "").trim().toLowerCase();
-    const l1s = uniq(market.map((r) => r.standard_l1));
+    const l1s = uniq([...industryDictionary.map((r) => r.standard_l1), ...market.map((r) => r.standard_l1), "Gaming"]);
     $(".industry-tree").innerHTML = l1s.map((l1) => {
       const rows = l1Rows(l1).filter((r) => !q || JSON.stringify(r).toLowerCase().includes(q));
       if (!rows.length) return "";
@@ -166,6 +269,14 @@
   }
 
   function renderHeader(row) {
+    if (isGaming(row)) {
+      $(".page-heading").innerHTML = `
+        <div>
+          <h1>Gaming <span>（游戏出海）</span></h1>
+          <p>行业研究 · 新游日历 · 2026-06-08</p>
+        </div>`;
+      return;
+    }
     const en = EN_NAMES[row.standard_l2] || "";
     $(".page-heading").innerHTML = `
       <div>
@@ -175,6 +286,8 @@
   }
 
   function metricCards(row) {
+    if (isGaming(row)) return gamingMetricCards();
+    if (isDictionaryOnly(row)) return dictionaryOnlyMetricCards(row);
     const ps = playersFor(row);
     return [
       ["GMV", money(row.gmv), `占${row.standard_l1} ${pct(Number(row.gmv || 0) / Math.max(1, l1Total(row.standard_l1)) * 100)}`],
@@ -194,6 +307,8 @@
   }
 
   function viewpointCards(row) {
+    if (isGaming(row)) return gamingViewpointCards();
+    if (isDictionaryOnly(row)) return dictionaryOnlyViewpointCards(row);
     const ps = playersFor(row);
     const l3 = productsFor(row);
     const share = Number(row.gmv || 0) / Math.max(1, l1Total(row.standard_l1)) * 100;
@@ -219,7 +334,10 @@
   }
 
   function tabButtons() {
-    const tabs = [
+    const tabs = selectedL1 === "Gaming" ? [
+      ["overview", "新游日历"],
+      ["calendar", "项目全表"],
+    ] : [
       ["overview", "行业概览"],
       ["structure", "类目结构"],
       ["players", "玩家格局"],
@@ -729,7 +847,364 @@
     };
   }
 
+  function gamingItems() {
+    return gamingCalendar?.calendar_items || [];
+  }
+
+  function gamingFocusCards() {
+    return gamingCalendarBlueprint?.modules?.focus_cards || [];
+  }
+
+  function gamingP0Cards() {
+    return gamingCalendarBlueprint?.modules?.p0_cards || [];
+  }
+
+  function gamingBlueprintSummaryCards() {
+    return gamingCalendarBlueprint?.modules?.summary_cards || [];
+  }
+
+  function gamingCoreThesis() {
+    return gamingCalendarBlueprint?.modules?.core_thesis || null;
+  }
+
+  function gamingAllCards() {
+    const cards = gamingFocusCards();
+    return cards.length ? cards : gamingItems();
+  }
+
+  function gamingSummary() {
+    return gamingCalendar?.summary || {};
+  }
+
+  function gamingMetricCards() {
+    const s = gamingSummary();
+    const cards = [
+      ["日历项目", num(s.calendar_items), "进入新游日历视图"],
+      ["有效目标", num(s.effective_targets), "已二次校验/可跟进"],
+      ["观察待补证", num(s.watchlist), "保留但需补证"],
+      ["P0项目", num(s.p0_items), "优先销售窗口"],
+      ["高置信项目", num(s.high_confidence_items), "高/中高置信度"],
+      ["A级信源", num(s.a_grade_sources), "官方/强证据"],
+      ["信源明细", num(s.source_count), "证据链条数"],
+      ["PC项目", num(s.platform_counts?.PC), "主力平台"],
+    ];
+    return cards.map(([k, v, note]) => `
+      <article class="metric-card">
+        <b>${k}</b>
+        <strong>${v}</strong>
+        <span>${note}</span>
+      </article>`).join("");
+  }
+
+  function gamingViewpointCards() {
+    const s = gamingSummary();
+    const buckets = s.calendar_bucket_counts || {};
+    const priorities = s.priority_counts || {};
+    const cards = [
+      ["日历定位", `当前纳入 ${num(s.calendar_items)} 个未上线/待跟踪项目`, [`有效目标 ${num(s.effective_targets)}`, `观察池 ${num(s.watchlist)}`, `信源 ${num(s.source_count)}`]],
+      ["销售窗口", `P0项目 ${num(priorities.P0)} 个，P1项目 ${num(priorities.P1)} 个`, [`测试Demo ${num(buckets["测试Demo日历"])}`, `预热建联 ${num(buckets["预热建联日历"])}`, `正式上线 ${num(buckets["正式上线日历"])}`]],
+      ["平台结构", `PC仍是新游日历主平台，主机/移动并行`, Object.entries(s.platform_counts || {}).slice(0, 3).map(([k, v]) => `${k} ${v}`)],
+      ["证据口径", `以实机/Demo、海外信号、未上线校验作为入表门槛`, [`A级信源 ${num(s.a_grade_sources)}`, `高置信 ${num(s.high_confidence_items)}`, "排除已上线防误入"]],
+    ];
+    return cards.map(([title, point, facts], i) => `
+      <article class="view-card view-${i + 1}">
+        <h3><span>${i + 1}</span>${title}</h3>
+        <p title="${point}">${cleanDisplay(point, 42)}</p>
+        <ul>${facts.slice(0, 3).map((f) => `<li title="${f}">${cleanDisplay(f, 24)}</li>`).join("")}</ul>
+      </article>`).join("");
+  }
+
+  function priorityClass(priority) {
+    return priority === "P0" ? "priority-p0" : priority === "P1" ? "priority-p1" : "priority-p2";
+  }
+
+  function sourceLink(url) {
+    return url ? `<a class="inline-link" href="${url}" target="_blank" rel="noreferrer">打开</a>` : "-";
+  }
+
+  function gamingCalendarRows(items, limit = 18) {
+    return items.slice(0, limit).map((item) => `
+      <tr>
+        <td class="brand-cell" title="${item.game_name}">${item.game_name}</td>
+        <td title="${item.owner}">${textEllipsis(item.owner, 18)}</td>
+        <td title="${item.platform}">${textEllipsis(item.platform, 18)}</td>
+        <td><span class="bucket-pill">${textEllipsis(item.calendar_bucket, 10)}</span></td>
+        <td title="${item.stage}">${textEllipsis(item.stage, 18)}</td>
+        <td>${item.estimated_window || item.estimated_date || "-"}</td>
+        <td><span class="priority-pill ${priorityClass(item.bd_priority)}">${item.bd_priority || "-"}</span></td>
+        <td>${item.confidence || "-"}</td>
+        <td title="${item.dynamic_summary}">${textEllipsis(item.dynamic_summary, 30)}</td>
+        <td>${sourceLink(item.primary_source_url)}</td>
+      </tr>`);
+  }
+
+  function gamingCalendarPreviewRows(items, limit = 10) {
+    return items.slice(0, limit).map((item) => `
+      <tr>
+        <td class="brand-cell" title="${item.game_name}">${item.game_name}</td>
+        <td title="${item.owner}">${textEllipsis(item.owner, 16)}</td>
+        <td><span class="bucket-pill">${textEllipsis(item.calendar_bucket, 9)}</span></td>
+        <td>${item.estimated_window || item.estimated_date || "-"}</td>
+        <td><span class="priority-pill ${priorityClass(item.bd_priority)}">${item.bd_priority || "-"}</span></td>
+        <td title="${item.attention_point || item.bd_reason || item.dynamic_summary}">${textEllipsis(item.attention_point || item.bd_reason || item.dynamic_summary, 34)}</td>
+        <td>${sourceLink(item.primary_source_url)}</td>
+      </tr>`);
+  }
+
+  function gamingTimeline(items) {
+    const byWindow = Object.entries(items.reduce((acc, item) => {
+      const key = item.estimated_window || item.estimated_date || "TBA";
+      acc[key] = (acc[key] || 0) + 1;
+      return acc;
+    }, {})).sort((a, b) => a[0].localeCompare(b[0])).slice(0, 8);
+    const max = Math.max(1, ...byWindow.map(([, v]) => v));
+    return `<div class="gaming-timeline">
+      ${byWindow.map(([label, value]) => `
+        <div class="timeline-row">
+          <span>${label}</span>
+          <i style="--w:${Math.max(8, value / max * 100)}%"></i>
+          <b>${value}</b>
+        </div>`).join("")}
+    </div>`;
+  }
+
+  function gamingBucketCards(items) {
+    const s = gamingSummary();
+    return Object.entries(s.calendar_bucket_counts || {}).map(([bucket, value]) => `
+      <div class="gaming-bucket">
+        <b>${bucket}</b>
+        <strong>${value}</strong>
+        <span>${cleanDisplay(items.find((x) => x.calendar_bucket === bucket)?.dynamic_summary || "待补充", 34)}</span>
+      </div>`).join("");
+  }
+
+  function formatMonthLabel(year, month) {
+    return `${year}-${String(month + 1).padStart(2, "0")}`;
+  }
+
+  function gamingAvailableMonths(cards) {
+    const byMonth = cards.filter((item) => item.estimated_date).reduce((acc, item) => {
+      const month = item.estimated_date.slice(0, 7);
+      acc[month] = acc[month] || [];
+      acc[month].push(item);
+      return acc;
+    }, {});
+    return {
+      byMonth,
+      months: Object.keys(byMonth).sort(),
+    };
+  }
+
+  function activeGamingMonth(cards) {
+    const { months } = gamingAvailableMonths(cards);
+    if (!months.length) return "";
+    gamingMonthOffset = Math.max(0, Math.min(gamingMonthOffset, months.length - 1));
+    return months[gamingMonthOffset];
+  }
+
+  function gamingCardsForActiveMonth(cards) {
+    const month = activeGamingMonth(cards);
+    return month ? cards.filter((item) => (item.estimated_date || "").startsWith(month)) : cards;
+  }
+
+  function gamingMonthCalendar(cards) {
+    const { byMonth, months } = gamingAvailableMonths(cards);
+    if (!months.length) return `<div class="empty-note">暂无可落到具体日期的项目</div>`;
+    gamingMonthOffset = Math.max(0, Math.min(gamingMonthOffset, months.length - 1));
+    const visibleMonths = months.slice(gamingMonthOffset, gamingMonthOffset + 6);
+    const monthKey = visibleMonths[0] || months[gamingMonthOffset];
+    const currentItems = byMonth[monthKey] || [];
+    return `<div class="gaming-calendar-toolbar">
+      <label>月份窗口</label>
+      <select data-gaming-month-select>
+        ${months.map((m, i) => `<option value="${i}" ${i === gamingMonthOffset ? "selected" : ""}>从 ${m} 开始</option>`).join("")}
+      </select>
+      <span>默认展示 ${visibleMonths.length} 个月 · 月份窗口不代表确定上线日</span>
+    </div>
+    <section class="gaming-month-window">
+      ${visibleMonths.map((month) => {
+        const items = byMonth[month] || [];
+        const p0 = items.filter((item) => item.bd_priority === "P0").length;
+        const p1 = items.filter((item) => item.bd_priority === "P1").length;
+        const top = items.slice().sort((a, b) => priorityClass(a.bd_priority).localeCompare(priorityClass(b.bd_priority))).slice(0, 4);
+        const buckets = uniq(items.map((item) => item.calendar_bucket)).slice(0, 2);
+        return `<article class="gaming-month-card">
+          <strong>${month}</strong>
+          <span>${items.length} 个项目 · P0 ${p0} · P1 ${p1}</span>
+          <p>${buckets.join(" / ") || "待补充窗口"}</p>
+          <ul>${top.map((item) => `
+            <li>
+              <button type="button" class="${gamingSelectedGameId === item.id ? "is-selected" : ""}" data-gaming-select="${item.id}">
+                ${textEllipsis(item.game_name, 20)}
+              </button>
+            </li>`).join("")}</ul>
+          ${items.length > 4 ? `<em>还有 ${items.length - 4} 个项目，见下方列表</em>` : ""}
+        </article>`;
+      }).join("")}
+    </section>`;
+  }
+
+  function gamingWeeklyNewsPanel(cards) {
+    const news = cards.slice()
+      .sort((a, b) => (b.bd_priority || "").localeCompare(a.bd_priority || "") || (b.estimated_date || "").localeCompare(a.estimated_date || ""))
+      .slice(0, 4);
+    return `<article class="module-card gaming-thesis-card">
+      <h2>本周要闻 <small>新游窗口</small></h2>
+      <div class="gaming-news-list">
+        ${news.map((item) => `
+          <button type="button" data-gaming-select="${item.id}" class="${gamingSelectedGameId === item.id ? "is-selected" : ""}">
+            <b>${textEllipsis(item.game_name, 20)}</b>
+            <span>${textEllipsis(item.dynamic_summary || item.action_copy || item.bd_reason, 46)}</span>
+          </button>`).join("")}
+      </div>
+    </article>`;
+  }
+
+  function gamingFocusListHtml(cards) {
+    const month = cards.find((x) => x.id === gamingSelectedGameId)?.estimated_date?.slice(0, 7) || activeGamingMonth(cards);
+    const rows = month ? cards.filter((item) => (item.estimated_date || "").startsWith(month)) : cards;
+    return `<div class="gaming-list-table">
+      <div class="gaming-list-head">
+        <b>游戏</b><b>归属方</b><b>阶段/窗口</b><b>优先级</b><b>行动理由</b><b>信源</b>
+      </div>
+      ${rows.map((item) => `
+        <div class="gaming-list-row ${gamingSelectedGameId === item.id ? "is-selected" : ""}" data-gaming-select="${item.id}" role="button" tabindex="0">
+          <b>${textEllipsis(item.game_name, 22)}</b>
+          <span>${textEllipsis(item.publisher || item.owner, 18)}</span>
+          <span>${textEllipsis(item.current_stage || item.stage || item.estimated_window, 22)}</span>
+          <span><i class="priority-pill ${priorityClass(item.bd_priority)}">${item.bd_priority || "-"}</i></span>
+          <p>${cleanDisplay(item.action_copy || item.bd_reason || item.dynamic_summary, 64)}</p>
+          <span>${sourceLink(item.evidence_refs?.[0]?.url || item.primary_source_url)}</span>
+        </div>`).join("")}
+    </div>`;
+  }
+
+  function gamingInfoPanel(cards) {
+    const monthCards = gamingCardsForActiveMonth(cards);
+    const item = cards.find((x) => x.id === gamingSelectedGameId)
+      || monthCards[0]
+      || cards[0]
+      || {};
+    if (item.id && gamingSelectedGameId !== item.id) gamingSelectedGameId = item.id;
+    const refs = item.evidence_refs || [];
+    return `<article class="module-card gaming-info-card">
+      <h2>日历信息 <small>点击游戏查看</small></h2>
+      <div class="gaming-info-body">
+        <div class="gaming-info-head">
+          <b>${item.game_name || "暂无项目"}</b>
+          <span class="priority-pill ${priorityClass(item.bd_priority)}">${item.bd_priority || "-"}</span>
+        </div>
+        <p>${cleanDisplay(item.action_copy || item.bd_reason || item.dynamic_summary || "选择日历或列表中的游戏查看资料。", 118)}</p>
+        <dl>
+          <dt>归属方</dt><dd>${item.publisher || item.owner || "待补充"}</dd>
+          <dt>阶段</dt><dd>${item.current_stage || item.stage || "待补充"}</dd>
+          <dt>窗口</dt><dd>${item.estimated_window || item.estimated_date || "TBA"}</dd>
+          <dt>类型</dt><dd>${item.calendar_bucket || "待补充"}</dd>
+          <dt>信源</dt><dd>${refs.length || (item.primary_source_url ? 1 : 0)} 条 · ${sourceLink(refs[0]?.url || item.primary_source_url)}</dd>
+        </dl>
+      </div>
+    </article>`;
+  }
+
+  function renderGamingOverview() {
+    const items = gamingItems().slice().sort((a, b) => (a.estimated_date || "9999").localeCompare(b.estimated_date || "9999"));
+    const cards = gamingFocusCards();
+    const p0 = gamingP0Cards();
+    const calendarCards = cards.length ? cards : items;
+    return `
+      <section class="gaming-layout">
+        ${gamingWeeklyNewsPanel(calendarCards)}
+        ${gamingInfoPanel(calendarCards)}
+        <article class="module-card gaming-calendar-main">
+          <h2>日历视图 <small>点击游戏查看信息</small></h2>
+          ${gamingMonthCalendar(calendarCards)}
+        </article>
+      </section>`;
+  }
+
+  function renderGamingCalendar() {
+    const items = gamingItems().slice().sort((a, b) => {
+      const pa = { P0: 0, P1: 1, P2: 2 }[a.bd_priority] ?? 3;
+      const pb = { P0: 0, P1: 1, P2: 2 }[b.bd_priority] ?? 3;
+      return pa - pb || (a.estimated_date || "9999").localeCompare(b.estimated_date || "9999");
+    });
+    return `
+      <section class="gaming-calendar-full">
+        <article class="module-card gaming-full-table">
+          <h2>新游日历全表 <small>${items.length} 个项目</small></h2>
+          ${compactTable(["游戏", "归属方", "平台", "日历归属", "阶段", "预计窗口", "优先级", "置信度", "最近事件", "信源"], gamingCalendarRows(items, 62), "gaming-calendar-table full")}
+        </article>
+      </section>`;
+  }
+
+  function renderGamingPlayers() {
+    const items = gamingItems();
+    const owners = Object.entries(items.reduce((acc, item) => {
+      const key = item.owner || "待补充";
+      acc[key] = acc[key] || { count: 0, p0: 0, titles: [] };
+      acc[key].count += 1;
+      if (item.bd_priority === "P0") acc[key].p0 += 1;
+      acc[key].titles.push(item.game_name);
+      return acc;
+    }, {})).sort((a, b) => b[1].count - a[1].count).slice(0, 14);
+    return `
+      <section class="gaming-players-layout">
+        <article class="module-card gaming-owner-card">
+          <h2>发行/工作室项目池</h2>
+          ${compactTable(["归属方", "项目数", "P0", "代表项目"], owners.map(([owner, v]) => `
+            <tr>
+              <td class="brand-cell" title="${owner}">${owner}</td>
+              <td class="num">${v.count}</td>
+              <td class="num">${v.p0}</td>
+              <td title="${v.titles.join(" / ")}">${textEllipsis(v.titles.slice(0, 3).join(" / "), 42)}</td>
+            </tr>`), "gaming-owner-table")}
+        </article>
+        <article class="module-card gaming-stage-card">
+          <h2>阶段字典</h2>
+          ${compactTable(["代码", "标签", "入主日历规则", "判断标准"], (gamingCalendar?.stage_dictionary || []).slice(0, 12).map((r) => `
+            <tr>
+              <td>${r["代码"] || "-"}</td>
+              <td>${r["标签"] || "-"}</td>
+              <td title="${r["入主日历规则"] || ""}">${textEllipsis(r["入主日历规则"], 18)}</td>
+              <td title="${r["判断标准"] || ""}">${textEllipsis(r["判断标准"], 30)}</td>
+            </tr>`), "gaming-stage-table")}
+        </article>
+      </section>`;
+  }
+
+  function renderDictionaryOnly(row) {
+    const rows = dictionaryRowsFor(row.standard_l1);
+    return `
+      <section class="market-grid overview-workbench">
+        <article class="module-card span-7">
+          <h2>市场数据待治理 <small>${row.standard_l1}</small></h2>
+          <div class="empty-note">
+            ${row.standard_l1} 已按最新行业映射规则作为独立一级行业进入行研 Web。当前只展示行业字典事实，市场规模、玩家格局、产品结构需要等待 governed 聚合底表补齐后生成。
+          </div>
+        </article>
+        <article class="module-card span-5">
+          <h2>当前二级行业字典</h2>
+          ${compactTable(["二级行业", "状态", "数据源"], rows.map((item) => `
+            <tr>
+              <td class="brand-cell">${item.standard_l2}</td>
+              <td>待接入市场事实</td>
+              <td>industry_dictionary_ecommerce</td>
+            </tr>`), "dictionary-only-table")}
+        </article>
+        <article class="module-card span-12">
+          <h2>下一步数据动作</h2>
+          <div class="event-list">
+            <div class="event-row"><b>1</b><span>补齐 Fashion governed 聚合底表源清单</span><em>source layer</em></div>
+            <div class="event-row"><b>2</b><span>重生成 amazon_market_facts_monthly / players / products</span><em>portal/data</em></div>
+            <div class="event-row"><b>3</b><span>行研 Web 自动从真实市场事实切换为完整页面</span><em>current entry</em></div>
+          </div>
+        </article>
+      </section>`;
+  }
+
   function renderOverview(row) {
+    if (isGaming(row)) return renderGamingOverview();
+    if (isDictionaryOnly(row)) return renderDictionaryOnly(row);
     const l3 = productsFor(row);
     return `
       <section class="market-grid overview-workbench">
@@ -757,6 +1232,8 @@
   }
 
   function renderPlayers(row) {
+    if (isGaming(row)) return renderGamingPlayers();
+    if (isDictionaryOnly(row)) return renderDictionaryOnly(row);
     const ps = playersFor(row);
     return `
       <section class="players-layout">
@@ -774,6 +1251,8 @@
   }
 
   function renderStructure(row) {
+    if (isGaming(row)) return renderGamingCalendar();
+    if (isDictionaryOnly(row)) return renderDictionaryOnly(row);
     const l3 = productsFor(row);
     return `
       <section class="category-layout">
@@ -796,11 +1275,34 @@
   }
 
   function renderTabContent(row) {
-    const html = currentTab === "overview" ? renderOverview(row)
+    const html = isGaming(row) && currentTab === "calendar" ? renderGamingCalendar()
+      : currentTab === "overview" ? renderOverview(row)
       : currentTab === "structure" ? renderStructure(row)
       : renderPlayers(row);
     $(".tab-body").innerHTML = html;
+    bindGamingCalendarControls(row);
     requestAnimationFrame(() => renderEcharts(row));
+  }
+
+  function bindGamingCalendarControls(row) {
+    if (!isGaming(row)) return;
+    const monthSelect = $("[data-gaming-month-select]");
+    if (monthSelect) monthSelect.addEventListener("change", () => {
+      gamingMonthOffset = Number(monthSelect.value || 0);
+      gamingSelectedGameId = "";
+      renderRight(activeRow());
+    });
+    $$("[data-gaming-select]").forEach((btn) => btn.addEventListener("click", (event) => {
+      if (event.target.closest("a")) return;
+      gamingSelectedGameId = btn.dataset.gamingSelect || "";
+      renderRight(activeRow());
+    }));
+    $$("[data-gaming-select][role='button']").forEach((btn) => btn.addEventListener("keydown", (event) => {
+      if (!["Enter", " "].includes(event.key)) return;
+      event.preventDefault();
+      gamingSelectedGameId = btn.dataset.gamingSelect || "";
+      renderRight(activeRow());
+    }));
   }
 
   function renderRight(row) {
@@ -823,24 +1325,35 @@
     selectedL1 = row.standard_l1;
     selectedL2 = row.standard_l2;
     renderRight(row);
-    $(".data-source").innerHTML = `数据来源：<br>Softtime Amazon数据<br>美国站 · ${PERIOD}`;
+    $(".data-source").innerHTML = isGaming(row)
+      ? "数据来源：<br>新游日历 v0.2<br>portal/data/gaming"
+      : isDictionaryOnly(row)
+        ? "数据来源：<br>行业字典<br>portal/data/dictionary"
+        : `数据来源：<br>Softtime Amazon数据<br>美国站 · ${PERIOD}`;
   }
 
   async function init() {
-    const [m, p, pr, e] = await Promise.all([
+    const [m, p, pr, e, d, g, gb] = await Promise.all([
       loadJson("../../data/market/amazon_market_facts_monthly.json"),
       loadJson("../../data/players/amazon_players_monthly.json"),
       loadJson("../../data/products/amazon_products_monthly.json"),
       loadJson("../../data/research/beauty_l2_content_enrichment_v0_1.json"),
+      loadJson("../../data/dictionary/industry_dictionary_ecommerce.json"),
+      loadJson("../../data/gaming/new_game_calendar_2026_06_08.json"),
+      loadJson("../../data/gaming/gaming_calendar_targets_2026_06_09.json"),
     ]);
     market = m.records || [];
     players = p.records || [];
     products = pr.records || [];
     enrichment = e.records || [];
+    industryDictionary = Array.isArray(d) ? d : d.records || [];
+    gamingCalendar = g || null;
+    gamingCalendarBlueprint = gb || null;
     const url = new URLSearchParams(location.search);
     selectedL1 = url.get("l1") || "Beauty";
-    selectedL2 = url.get("l2") || l1Rows(selectedL1).find((r) => r.standard_l2 === "面部护理")?.standard_l2 || l1Rows(selectedL1)[0]?.standard_l2 || "面部护理";
-    currentTab = ["overview", "structure", "players"].includes(url.get("tab")) ? url.get("tab") : "overview";
+    selectedL2 = selectedL1 === "Gaming" ? "主版面" : url.get("l2") || l1Rows(selectedL1).find((r) => r.standard_l2 === "面部护理")?.standard_l2 || l1Rows(selectedL1)[0]?.standard_l2 || "面部护理";
+    const allowedTabs = selectedL1 === "Gaming" ? ["overview", "calendar"] : ["overview", "structure", "players"];
+    currentTab = allowedTabs.includes(url.get("tab")) ? url.get("tab") : "overview";
     $("#industry-search").addEventListener("input", renderIndustryTree);
     window.addEventListener("resize", () => {
       $$(".echart").forEach((el) => window.echarts?.getInstanceByDom(el)?.resize());
