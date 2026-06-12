@@ -10,7 +10,7 @@
       "product_candidate_count": 8,
       "app_candidate_count": 6,
       "grade_a_count": 11,
-      "exhibition_count": 4
+      "exhibition_count": 13
     },
     "focus_customers": [
       {
@@ -996,6 +996,123 @@
       "source_grade": "B",
       "url": "https://hz.huodongxing.com/event/8856869193022",
       "review_note": "W25窗口"
+    },
+    {
+      "event_id": "W25-E005",
+      "week": "W25",
+      "event_window": "2026-W25/W26",
+      "industry": "跨境电商",
+      "event_name": "第八届全球跨境电商节暨深圳跨博会",
+      "location": "深圳福田会展中心",
+      "date": "2026-06-16",
+      "window_value": "跨境卖家、平台和服务商集中，可抓展商及品牌名单。",
+      "source_grade": "A",
+      "url": "https://h5-party-6n1kb.hudongba.com/party/6n1kb.html",
+      "review_note": "互动吧详情页200；标题、日期、地点已核验"
+    },
+    {
+      "event_id": "W25-E006",
+      "week": "W25",
+      "event_window": "2026-W25/W26",
+      "industry": "品牌出海",
+      "event_name": "Conversations深圳共话商机高峰会",
+      "location": "深圳",
+      "date": "2026-06-16",
+      "window_value": "互联网与品牌出海从业者集中，适合抓企业及服务商名单。",
+      "source_grade": "A",
+      "url": "https://www.baijing.cn/activity/2294",
+      "review_note": "白鲸出海详情页200；标题明确深圳与日期"
+    },
+    {
+      "event_id": "W25-E007",
+      "week": "W25",
+      "event_window": "2026-W25/W26",
+      "industry": "跨境电商/AI",
+      "event_name": "AI引爆亚马逊+TikTok增长论坛",
+      "location": "广州",
+      "date": "2026-06-17",
+      "window_value": "亚马逊与TikTok卖家集中，可抓AI运营与内容增长需求。",
+      "source_grade": "B",
+      "url": "https://www.amz123.com/hd/P1GljY6b",
+      "review_note": "AMZ123详情页200；地点按标题核验"
+    },
+    {
+      "event_id": "W25-E008",
+      "week": "W25",
+      "event_window": "2026-W25/W26",
+      "industry": "Fashion/跨境电商",
+      "event_name": "Coupang火箭增长时尚专场沙龙",
+      "location": "厦门",
+      "date": "2026-06-17",
+      "window_value": "韩国市场时尚卖家集中，可抓开店、选品和内容增长线索。",
+      "source_grade": "B",
+      "url": "https://www.amz123.com/hd/J19yXgId",
+      "review_note": "AMZ123详情页200；标题明确厦门与时尚专场"
+    },
+    {
+      "event_id": "W25-E009",
+      "week": "W25",
+      "event_window": "2026-W25/W26",
+      "industry": "Health",
+      "event_name": "世界制药原料中国展",
+      "location": "上海新国际博览中心",
+      "date": "2026-06-16",
+      "window_value": "健康、营养与原料企业集中，可筛选具海外业务的消费健康品牌。",
+      "source_grade": "B",
+      "url": "https://www.jufair.com/exhibition/981.html",
+      "review_note": "聚展网详情页200；需按消费健康边界筛选展商"
+    },
+    {
+      "event_id": "W25-E010",
+      "week": "W25",
+      "event_window": "2026-W25/W26",
+      "industry": "Consumer Tech",
+      "event_name": "上海世界移动通信大会",
+      "location": "上海新国际博览中心",
+      "date": "2026-06-24",
+      "window_value": "通信、AI与智能硬件企业集中，可抓展商及新品发布线索。",
+      "source_grade": "A",
+      "url": "https://www.jufair.com/exhibition/3206.html",
+      "review_note": "聚展网详情页200；MWC上海2026日期已核验"
+    },
+    {
+      "event_id": "W25-E011",
+      "week": "W25",
+      "event_window": "2026-W25/W26",
+      "industry": "跨境电商",
+      "event_name": "美客多卖家私享会青岛站",
+      "location": "青岛",
+      "date": "2026-06-25",
+      "window_value": "拉美市场卖家集中，可抓美客多平台招商及服务需求。",
+      "source_grade": "B",
+      "url": "https://www.cifnews.com/activity/2996",
+      "review_note": "雨果跨境详情页200"
+    },
+    {
+      "event_id": "W25-E012",
+      "week": "W25",
+      "event_window": "2026-W25/W26",
+      "industry": "跨境电商/AI",
+      "event_name": "LinkFox AI 2026产品发布会",
+      "location": "深圳",
+      "date": "2026-06-26",
+      "window_value": "跨境电商AI工具用户集中，可抓卖家及内容生产需求。",
+      "source_grade": "B",
+      "url": "https://www.huodongxing.com/event/4860664466000",
+      "review_note": "活动行详情页200；日期与深圳地点来自底表核验"
+    },
+    {
+      "event_id": "W25-E013",
+      "week": "W25",
+      "event_window": "2026-W25/W26",
+      "industry": "Beauty/Fashion",
+      "event_name": "DTC品牌出海分享会美妆时尚篇",
+      "location": "线上",
+      "date": "2026-06-26",
+      "window_value": "美妆与时尚DTC卖家定向聚集，适合补非3C客户名单。",
+      "source_grade": "B",
+      "url": "https://www.huodongxing.com/event/3844800593300",
+      "review_note": "活动行详情页200；扬帆出海主办"
     }
   ],
   "evidence_chain_detail_mapping": {
@@ -1239,7 +1356,7 @@
   "data_quality_check_result": {
     "sheet_source": "售前情报库周更新工作簿",
     "customer_rows": 14,
-    "event_rows": 4,
+    "event_rows": 13,
     "source_rows": 16,
     "customer_rows_note": "仅筛除是否建议入库=否的记录；页面只消费本JSON，不读取Excel。"
   }
