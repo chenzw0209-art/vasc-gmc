@@ -1,0 +1,733 @@
+{
+  "week": "2026-W25",
+  "generated_at": "2026-06-12",
+  "source_files": {
+    "lead_workbook": "Z:\\增长分析中台\\线索采集\\售前情报库_W25（周更新）.xlsx",
+    "research_root": "Z:\\增长分析中台\\行研洞察"
+  },
+  "industries": [
+    {
+      "source_lead_industry_key": "AI应用|AI视频生成",
+      "primary_industry": "AI应用",
+      "secondary_industry": "AI视频生成",
+      "mapped_research_industry": "AI视频生成",
+      "industry_key": "AI应用|AI视频生成",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "MiniMax"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "AI视频生成本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "MiniMax披露Hailuo 2.3在日本AI动画创作者中渗透"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "MiniMax",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C011",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "AI视频生成",
+          "tertiary_category": "日本AI动画创作者",
+          "product_name": "Hailuo 2.3 / MiniMax",
+          "owner": "MiniMax",
+          "dynamic_type": "会议披露/产品进展",
+          "dynamic_summary": "MiniMax披露Hailuo 2.3在日本AI动画创作者中渗透",
+          "suggested_focus": "日本创作者生态、AI视频订阅、模型API",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "AI应用/AI视频生成本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "AI应用/AI视频生成：W25预备信号",
+        "metric_line": "1条线索 / Top主体：MiniMax",
+        "signal_line": "MiniMax披露Hailuo 2.3在日本AI动画创作者中渗透",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|户外电源",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "户外电源",
+      "mapped_research_industry": "户外电源",
+      "industry_key": "Consumer Tech|户外电源",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "BLUETTI"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "户外电源本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "BLUETTI澳洲EOFY促销覆盖Elite 300等储能产品"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "BLUETTI",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C012",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "户外电源",
+          "tertiary_category": "便携储能/EOFY促销",
+          "product_name": "BLUETTI EOFY Sale",
+          "owner": "BLUETTI",
+          "dynamic_type": "区域促销/零售活动",
+          "dynamic_summary": "BLUETTI澳洲EOFY促销覆盖Elite 300等储能产品",
+          "suggested_focus": "澳洲大促、便携储能、DTC活动",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/户外电源本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/户外电源：W25预备信号",
+        "metric_line": "1条线索 / Top主体：BLUETTI",
+        "signal_line": "BLUETTI澳洲EOFY促销覆盖Elite 300等储能产品",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|投影与家庭影院",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "投影与家庭影院",
+      "mapped_research_industry": "投影与家庭影院",
+      "industry_key": "Consumer Tech|投影与家庭影院",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "JMGO"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "投影与家庭影院本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "JMGO以比赛日场景推广N3 Ultimate三色激光投影"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "JMGO",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C002",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "投影与家庭影院",
+          "tertiary_category": "4K激光投影",
+          "product_name": "JMGO N3 Ultimate",
+          "owner": "JMGO",
+          "dynamic_type": "全球发布/场景营销",
+          "dynamic_summary": "JMGO以比赛日场景推广N3 Ultimate三色激光投影",
+          "suggested_focus": "体育观赛、家庭影院、测评内容",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/投影与家庭影院本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/投影与家庭影院：W25预备信号",
+        "metric_line": "1条线索 / Top主体：JMGO",
+        "signal_line": "JMGO以比赛日场景推广N3 Ultimate三色激光投影",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|电视与显示",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "电视与显示",
+      "mapped_research_industry": "电视与显示",
+      "industry_key": "Consumer Tech|电视与显示",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Hisense"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "电视与显示本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Hisense纽约世界杯主题快闪展示RGB MiniLED"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Hisense",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C001",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电视与显示",
+          "tertiary_category": "MiniLED电视/世界杯场景",
+          "product_name": "Hisense RGB MiniLED TV pop-up",
+          "owner": "Hisense",
+          "dynamic_type": "线下活动/体育IP营销",
+          "dynamic_summary": "Hisense纽约世界杯主题快闪展示RGB MiniLED",
+          "suggested_focus": "世界杯场景、线下互动、美国零售转化",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/电视与显示本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/电视与显示：W25预备信号",
+        "metric_line": "1条线索 / Top主体：Hisense",
+        "signal_line": "Hisense纽约世界杯主题快闪展示RGB MiniLED",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "FMCG|食品与饮料",
+      "primary_industry": "FMCG",
+      "secondary_industry": "食品与饮料",
+      "mapped_research_industry": "食品与饮料",
+      "industry_key": "FMCG|食品与饮料",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Chaozhou DoFo Tea"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "食品与饮料本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Dofo Tea完成全线包装焕新并面向美国订单促销"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Chaozhou DoFo Tea",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C003",
+          "lead_category": "EC",
+          "primary_industry": "FMCG",
+          "secondary_industry": "食品与饮料",
+          "tertiary_category": "茶饮/礼盒",
+          "product_name": "Dofo Tea refreshed packaging",
+          "owner": "Chaozhou DoFo Tea",
+          "dynamic_type": "品牌焕新/包装升级",
+          "dynamic_summary": "Dofo Tea完成全线包装焕新并面向美国订单促销",
+          "suggested_focus": "中国茶文化出海、礼赠包装、DTC转化",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "FMCG/食品与饮料本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "FMCG/食品与饮料：W25预备信号",
+        "metric_line": "1条线索 / Top主体：Chaozhou DoFo Tea",
+        "signal_line": "Dofo Tea完成全线包装焕新并面向美国订单促销",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Fashion|服饰零售",
+      "primary_industry": "Fashion",
+      "secondary_industry": "服饰零售",
+      "mapped_research_industry": "服饰零售",
+      "industry_key": "Fashion|服饰零售",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "SHEIN"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "服饰零售本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "SHEIN在迈阿密举办Campus Retreat与首个校园时装秀"
+      ],
+      "verification_metrics": [
+        "卖家参与数",
+        "校园/达人内容量",
+        "商品合规节奏",
+        "美国市场活动转化"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "SHEIN",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C005",
+          "lead_category": "EC",
+          "primary_industry": "Fashion",
+          "secondary_industry": "服饰零售",
+          "tertiary_category": "校园大使/美国内容营销",
+          "product_name": "SHEIN Campus Retreat 2026",
+          "owner": "SHEIN",
+          "dynamic_type": "品牌活动/达人社群",
+          "dynamic_summary": "SHEIN在迈阿密举办Campus Retreat与首个校园时装秀",
+          "suggested_focus": "美国校园内容、KOC社群、服饰新品曝光",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Fashion/服饰零售本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Fashion/服饰零售：W25预备信号",
+        "metric_line": "1条线索 / Top主体：SHEIN",
+        "signal_line": "SHEIN在迈阿密举办Campus Retreat与首个校园时装秀",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Fashion|跨境电商平台",
+      "primary_industry": "Fashion",
+      "secondary_industry": "跨境电商平台",
+      "mapped_research_industry": "跨境电商平台",
+      "industry_key": "Fashion|跨境电商平台",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "SHEIN"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "跨境电商平台本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "SHEIN联合TIC机构推出卖家产品安全与质量合规培训"
+      ],
+      "verification_metrics": [
+        "卖家参与数",
+        "校园/达人内容量",
+        "商品合规节奏",
+        "美国市场活动转化"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "SHEIN",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C004",
+          "lead_category": "EC",
+          "primary_industry": "Fashion",
+          "secondary_industry": "跨境电商平台",
+          "tertiary_category": "卖家合规/服饰平台",
+          "product_name": "SHEIN Product Safety and Quality Compliance Series",
+          "owner": "SHEIN",
+          "dynamic_type": "卖家教育/合规建设",
+          "dynamic_summary": "SHEIN联合TIC机构推出卖家产品安全与质量合规培训",
+          "suggested_focus": "平台招商、卖家运营、合规内容",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Fashion/跨境电商平台本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Fashion/跨境电商平台：W25预备信号",
+        "metric_line": "1条线索 / Top主体：SHEIN",
+        "signal_line": "SHEIN联合TIC机构推出卖家产品安全与质量合规培训",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Fintech|跨境支付",
+      "primary_industry": "Fintech",
+      "secondary_industry": "跨境支付",
+      "mapped_research_industry": "跨境支付",
+      "industry_key": "Fintech|跨境支付",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Ant International"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "跨境支付本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Alipay+支持合作钱包在拉美PVS商户扫码支付"
+      ],
+      "verification_metrics": [
+        "覆盖商户数",
+        "钱包/银行伙伴数",
+        "新增国家",
+        "交易成功率"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Ant International",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C009",
+          "lead_category": "AG",
+          "primary_industry": "Fintech",
+          "secondary_industry": "跨境支付",
+          "tertiary_category": "钱包网络/拉美商户",
+          "product_name": "Alipay+ Latin America payments",
+          "owner": "Ant International",
+          "dynamic_type": "区域扩张/支付合作",
+          "dynamic_summary": "Alipay+支持合作钱包在拉美PVS商户扫码支付",
+          "suggested_focus": "拉美商户覆盖、旅行支付、钱包伙伴",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Fintech/跨境支付本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Fintech/跨境支付：W25预备信号",
+        "metric_line": "1条线索 / Top主体：Ant International",
+        "signal_line": "Alipay+支持合作钱包在拉美PVS商户扫码支付",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Fintech|跨境汇款",
+      "primary_industry": "Fintech",
+      "secondary_industry": "跨境汇款",
+      "mapped_research_industry": "跨境汇款",
+      "industry_key": "Fintech|跨境汇款",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Tencent Financial Technology / TenPay Global"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "跨境汇款本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "TenPay Global推出非中国公民汇款到中国服务"
+      ],
+      "verification_metrics": [
+        "覆盖商户数",
+        "钱包/银行伙伴数",
+        "新增国家",
+        "交易成功率"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Tencent Financial Technology / TenPay Global",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C010",
+          "lead_category": "AG",
+          "primary_industry": "Fintech",
+          "secondary_industry": "跨境汇款",
+          "tertiary_category": "汇款到中国",
+          "product_name": "TenPay Global Remit to China",
+          "owner": "Tencent Financial Technology / TenPay Global",
+          "dynamic_type": "新服务上线",
+          "dynamic_summary": "TenPay Global推出非中国公民汇款到中国服务",
+          "suggested_focus": "跨境汇款、在华收款、金融合规",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Fintech/跨境汇款本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Fintech/跨境汇款：W25预备信号",
+        "metric_line": "1条线索 / Top主体：Tencent Financial Technology / TenPay Global",
+        "signal_line": "TenPay Global推出非中国公民汇款到中国服务",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Gaming|游戏",
+      "primary_industry": "Gaming",
+      "secondary_industry": "游戏",
+      "mapped_research_industry": "游戏",
+      "industry_key": "Gaming|游戏",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Tencent Games"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "游戏本周变量来自2条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Tencent Games在SPARK 2026发布45项国内外市场更新",
+        "NetEase在Summer Game Fest发布Blood Message新预告"
+      ],
+      "verification_metrics": [
+        "预约/测试转化",
+        "Steam愿望单",
+        "Discord/社媒增速",
+        "上线地区榜单"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Tencent Games",
+          "grade": "A"
+        },
+        {
+          "brand": "NetEase Games / 24 Entertainment",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C007",
+          "lead_category": "AG",
+          "primary_industry": "Gaming",
+          "secondary_industry": "游戏",
+          "tertiary_category": "发行/发布会",
+          "product_name": "Tencent Games SPARK 2026 updates",
+          "owner": "Tencent Games",
+          "dynamic_type": "发布会/产品更新",
+          "dynamic_summary": "Tencent Games在SPARK 2026发布45项国内外市场更新",
+          "suggested_focus": "全球发行储备、IP合作、游戏增长节点",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "C008",
+          "lead_category": "AG",
+          "primary_industry": "Gaming",
+          "secondary_industry": "游戏",
+          "tertiary_category": "PC/主机叙事动作",
+          "product_name": "Blood Message",
+          "owner": "NetEase Games / 24 Entertainment",
+          "dynamic_type": "预告发布/展会曝光",
+          "dynamic_summary": "NetEase在Summer Game Fest发布Blood Message新预告",
+          "suggested_focus": "主机化叙事、海外媒体曝光、愿望单承接",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Gaming/游戏本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Gaming/游戏：W25预备信号",
+        "metric_line": "2条线索 / Top主体：Tencent Games",
+        "signal_line": "Tencent Games在SPARK 2026发布45项国内外市场更新；NetEase在Summer Game Fest发布Blood Message新预告",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "泛娱乐|长视频/流媒体",
+      "primary_industry": "泛娱乐",
+      "secondary_industry": "长视频/流媒体",
+      "mapped_research_industry": "长视频/流媒体",
+      "industry_key": "泛娱乐|长视频/流媒体",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "iQIYI"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "长视频/流媒体本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "iQIYI上线AI辅助制作电影并同步国际站"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "iQIYI",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "C006",
+          "lead_category": "AG",
+          "primary_industry": "泛娱乐",
+          "secondary_industry": "长视频/流媒体",
+          "tertiary_category": "AI影视制作",
+          "product_name": "None Shall Escape / NadouPro",
+          "owner": "iQIYI",
+          "dynamic_type": "内容上线/AI生产工具",
+          "dynamic_summary": "iQIYI上线AI辅助制作电影并同步国际站",
+          "suggested_focus": "国际站内容供给、AI影视生产效率",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "泛娱乐/长视频/流媒体本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "泛娱乐/长视频/流媒体：W25预备信号",
+        "metric_line": "1条线索 / Top主体：iQIYI",
+        "signal_line": "iQIYI上线AI辅助制作电影并同步国际站",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    }
+  ],
+  "quality_check": {
+    "lead_rows": 12,
+    "industry_group_count": 11,
+    "covered_industry_count": 0,
+    "desktop_research_count": 11,
+    "gap_industry_count": 0,
+    "missing_required_fields": [],
+    "notes": [
+      "W25为线索侧预备更新，行业深度供给待行研洞察-agent后续补齐。",
+      "页面只读取portal/data/weekly下JSON，不读取Excel。"
+    ]
+  }
+}
