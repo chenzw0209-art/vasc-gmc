@@ -27,13 +27,19 @@
   let products = [];
   let enrichment = [];
   let industryDictionary = [];
+  let industryCatalog = null;
+  let researchContent = [];
   let gamingCalendar = null;
   let gamingCalendarBlueprint = null;
+  let gamingMarketWeeklyOverview = null;
   let gamingMonthOffset = 0;
   let gamingSelectedGameId = "";
   let selectedL1 = "Beauty";
   let selectedL2 = "面部护理";
+  let selectedDomain = "EC";
   let currentTab = "overview";
+  const expandedDomains = new Set(["EC"]);
+  const expandedL1 = new Set(["Beauty"]);
 
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel) => [...document.querySelectorAll(sel)];
@@ -53,6 +59,14 @@
 
   function num(n) {
     return Number(n || 0).toLocaleString("en-US");
+  }
+
+  function compactNum(n) {
+    n = Number(n || 0);
+    if (n >= 1e9) return (n / 1e9).toFixed(2) + "B";
+    if (n >= 1e6) return (n / 1e6).toFixed(1) + "M";
+    if (n >= 1e3) return (n / 1e3).toFixed(1) + "K";
+    return num(n);
   }
 
   function uniq(xs) {
@@ -87,22 +101,51 @@
     return Number.isFinite(n) ? pct(n) : "暂无数据";
   }
 
+  function researchVersionLabel(version) {
+    return version === "rollup" ? "统筹版" : safe(version).toUpperCase();
+  }
+
+  function researchTreeBadge(version) {
+    return version === "rollup" ? "统筹" : safe(version);
+  }
+
   function l1Rows(l1 = selectedL1) {
     if (l1 === "Gaming") return [gamingRow()];
-    const rows = market.filter((r) => r.country === "US" && r.platform === "Amazon" && r.standard_l1 === l1)
+    const catalogRows = catalogChildrenFor(l1);
+    const dataL1s = uniq([l1, ...catalogRows.map((row) => row.data_l1)]);
+    const rows = market.filter((r) => r.country === "US" && r.platform === "Amazon" && dataL1s.includes(r.standard_l1))
       .sort((a, b) => Number(b.gmv || 0) - Number(a.gmv || 0));
-    return rows.length ? rows : dictionaryRowsFor(l1);
+    const governed = dictionaryRowsFor(l1);
+    if (!governed.length) return rows;
+    const byL2 = new Map(rows.map((row) => [row.standard_l2, row]));
+    return governed.map((row) => {
+      const dataRow = byL2.get(row.standard_l2);
+      return dataRow ? { ...dataRow, standard_l1: row.standard_l1, data_l1: dataRow.standard_l1, research_l1: row.research_l1 || dataRow.standard_l1, source_group: row.source_group || "" } : row;
+    });
   }
 
   function activeRow() {
     if (selectedL1 === "Gaming") return gamingRow();
-    return market.find((r) => r.standard_l1 === selectedL1 && r.standard_l2 === selectedL2) || l1Rows()[0];
+    return market.find((r) => r.standard_l1 === selectedL1 && r.standard_l2 === selectedL2)
+      || l1Rows().find((r) => r.standard_l2 === selectedL2)
+      || l1Rows()[0];
+  }
+
+  function catalogChildrenFor(l1) {
+    const catalogIndustry = (industryCatalog?.domains || [])
+      .flatMap((domain) => domain.industries || [])
+      .find((industry) => industry.standard_l1 === l1);
+    return catalogIndustry?.children || [];
   }
 
   function dictionaryRowsFor(l1) {
-    return industryDictionary
-      .filter((r) => r.standard_l1 === l1)
-      .sort((a, b) => safe(a.standard_l2).localeCompare(safe(b.standard_l2), "zh-Hans-CN"))
+    const catalogIndustry = (industryCatalog?.domains || [])
+      .flatMap((domain) => domain.industries || [])
+      .find((industry) => industry.standard_l1 === l1);
+    const rows = catalogIndustry?.children?.length
+      ? catalogIndustry.children.map((row) => ({ ...row, standard_l1: l1 }))
+      : industryDictionary.filter((row) => row.standard_l1 === l1);
+    return rows
       .map((r) => ({
         country: "US",
         country_name: "美国",
@@ -111,6 +154,9 @@
         period_type: "month",
         standard_l1: r.standard_l1,
         standard_l2: r.standard_l2,
+        data_l1: r.data_l1 || r.standard_l1,
+        research_l1: r.research_l1 || r.standard_l1,
+        source_group: r.source_group || "",
         gmv: 0,
         monthly_gmv: 0,
         prev_monthly_gmv: 0,
@@ -130,7 +176,7 @@
         monthly_trend: {},
         read_status: "pending_governed_market_data",
         source_layer: "industry_dictionary_only",
-        source_file: "portal/data/dictionary/industry_dictionary_ecommerce.json",
+        source_file: "portal/data/dictionary/industry_research_catalog_v0_1.json",
       }));
   }
 
@@ -194,17 +240,25 @@
   }
 
   function playersFor(row) {
-    return players.filter((p) => p.standard_l1 === row.standard_l1 && p.standard_l2 === row.standard_l2)
+    const dataL1 = row.data_l1 || row.standard_l1;
+    return players.filter((p) => p.standard_l1 === dataL1 && p.standard_l2 === row.standard_l2)
       .sort((a, b) => Number(b.estimated_monthly_gmv || 0) - Number(a.estimated_monthly_gmv || 0));
   }
 
   function productsFor(row) {
-    return products.filter((p) => p.standard_l1 === row.standard_l1 && p.standard_l2 === row.standard_l2)
+    const dataL1 = row.data_l1 || row.standard_l1;
+    return products.filter((p) => p.standard_l1 === dataL1 && p.standard_l2 === row.standard_l2)
       .sort((a, b) => Number(b.annual_gmv_usd || 0) - Number(a.annual_gmv_usd || 0));
   }
 
   function docFor(row) {
     return enrichment.find((d) => d.l1 === row.standard_l1 && d.l2 === row.standard_l2) || {};
+  }
+
+  function researchFor(row) {
+    return researchContent.find((item) => item.standard_l1 === row.standard_l1 && item.standard_l2 === row.standard_l2)
+      || researchContent.find((item) => item.standard_l1 === (row.research_l1 || row.data_l1) && item.standard_l2 === row.standard_l2)
+      || null;
   }
 
   function l1Total(l1) {
@@ -236,33 +290,81 @@
 
   function renderIndustryTree() {
     const q = ($("#industry-search")?.value || "").trim().toLowerCase();
-    const l1s = uniq([...industryDictionary.map((r) => r.standard_l1), ...market.map((r) => r.standard_l1), "Gaming"]);
-    $(".industry-tree").innerHTML = l1s.map((l1) => {
-      const rows = l1Rows(l1).filter((r) => !q || JSON.stringify(r).toLowerCase().includes(q));
-      if (!rows.length) return "";
-      return `
-        <section class="tree-group ${l1 === selectedL1 ? "open" : ""}">
-          <button class="tree-l1" type="button" data-l1="${l1}">
-            <span>${L1_LABELS[l1] || l1}</span><b>${rows.length}</b>
-          </button>
+    const domains = industryCatalog?.domains || [];
+    $(".industry-tree").innerHTML = domains.map((domain) => {
+      const industries = (domain.industries || []).map((industry) => {
+        const rows = l1Rows(industry.standard_l1).filter((row) => {
+          if (!q) return true;
+          return `${industry.standard_l1} ${row.standard_l2}`.toLowerCase().includes(q);
+        });
+        const directMatch = industry.direct_entry && (!q || industry.standard_l1.toLowerCase().includes(q));
+        if (!rows.length && !directMatch) return "";
+        const isOpen = q || expandedL1.has(industry.standard_l1);
+        const l2List = industry.direct_entry ? "" : `
           <div class="tree-l2-list">
-            ${rows.map((r) => `
-              <button class="tree-l2 ${r.standard_l1 === selectedL1 && r.standard_l2 === selectedL2 ? "active" : ""}" type="button" data-l1="${r.standard_l1}" data-l2="${r.standard_l2}" title="${r.standard_l2}">
-                <span>${r.standard_l2}</span>
+            ${rows.map((row) => `
+              <button class="tree-l2 ${row.standard_l1 === selectedL1 && row.standard_l2 === selectedL2 ? "active" : ""}" type="button" data-domain="${domain.code}" data-l1="${row.standard_l1}" data-l2="${row.standard_l2}" title="${row.standard_l2}">
+                <span>${row.standard_l2}</span>
+                ${researchFor(row) ? `<i>${researchTreeBadge(researchFor(row).version)}</i>` : ""}
               </button>
             `).join("")}
-          </div>
+          </div>`;
+        return `
+          <section class="tree-group ${isOpen ? "open" : ""}">
+            <button class="tree-l1 ${industry.standard_l1 === selectedL1 ? "active" : ""}" type="button" data-domain="${domain.code}" data-l1="${industry.standard_l1}" data-direct="${industry.direct_entry ? "true" : "false"}">
+              <span>${L1_LABELS[industry.standard_l1] || industry.standard_l1}</span>
+              <span class="tree-l1-meta">${industry.direct_entry ? "" : `<b>${rows.length}</b>`}<i class="chev">${isOpen ? "−" : "+"}</i></span>
+            </button>
+            ${l2List}
+          </section>`;
+      }).join("");
+      if (!industries) return "";
+      const domainOpen = q || expandedDomains.has(domain.code);
+      return `
+        <section class="tree-domain ${domainOpen ? "open" : ""}">
+          <button class="tree-domain-head" type="button" data-domain-toggle="${domain.code}">
+            <span><strong>${domain.label}</strong><small>${domain.description}</small></span>
+            <i>${domainOpen ? "−" : "+"}</i>
+          </button>
+          <div class="tree-domain-body">${industries}</div>
         </section>`;
     }).join("");
+    $$("[data-domain-toggle]").forEach((btn) => btn.addEventListener("click", () => {
+      const code = btn.dataset.domainToggle;
+      expandedDomains.has(code) ? expandedDomains.delete(code) : expandedDomains.add(code);
+      renderIndustryTree();
+    }));
     $$(".tree-l1").forEach((btn) => btn.addEventListener("click", () => {
+      const domain = btn.dataset.domain;
+      const l1 = btn.dataset.l1;
+      if (btn.dataset.direct === "true") {
+        selectedDomain = domain;
+        selectedL1 = l1;
+        selectedL2 = "主版面";
+        currentTab = "overview";
+        expandedDomains.add(domain);
+        renderAll();
+        return;
+      }
+      if (expandedL1.has(l1)) {
+        expandedL1.delete(l1);
+        renderIndustryTree();
+        return;
+      }
+      expandedL1.add(l1);
+      expandedDomains.add(domain);
+      selectedDomain = domain;
       selectedL1 = btn.dataset.l1;
       selectedL2 = l1Rows(selectedL1)[0]?.standard_l2 || selectedL2;
       currentTab = "overview";
       renderAll();
     }));
     $$(".tree-l2").forEach((btn) => btn.addEventListener("click", () => {
+      selectedDomain = btn.dataset.domain;
       selectedL1 = btn.dataset.l1;
       selectedL2 = btn.dataset.l2;
+      expandedDomains.add(selectedDomain);
+      expandedL1.add(selectedL1);
       currentTab = "overview";
       renderAll();
     }));
@@ -278,15 +380,32 @@
       return;
     }
     const en = EN_NAMES[row.standard_l2] || "";
+    const research = researchFor(row);
     $(".page-heading").innerHTML = `
       <div>
         <h1>${row.standard_l2}${en ? ` <span>(${en})</span>` : ""}</h1>
-        <p>行业研究 · Amazon 美国站 · ${PERIOD}</p>
+        <p>${selectedDomain} · ${row.standard_l1} · Amazon 美国站 · ${research ? `${researchVersionLabel(research.version)} 更新于 ${research.updated_at.slice(0, 10)}` : PERIOD}</p>
       </div>`;
   }
 
   function metricCards(row) {
     if (isGaming(row)) return gamingMetricCards();
+    const research = researchFor(row);
+    if (research?.snapshot && Object.keys(research.snapshot).length) {
+      const snapshot = research.snapshot;
+      const cards = [
+        ["研究版本", researchVersionLabel(research.version), research.updated_at.slice(0, 10)],
+        ["年 GMV", snapshot.annual_gmv_label || displayMoney(snapshot.annual_gmv), "最新行研口径"],
+        ["CN 品牌占比", snapshot.cn_share == null ? "待补充" : pct(snapshot.cn_share), "最新行研口径"],
+        ["品牌数", snapshot.brand_count == null ? "待补充" : num(snapshot.brand_count), snapshot.period || "研究快照"],
+      ];
+      return cards.map(([k, v, note]) => `
+        <article class="metric-card">
+          <b>${k}</b>
+          <strong>${v}</strong>
+          <span>${note}</span>
+        </article>`).join("");
+    }
     if (isDictionaryOnly(row)) return dictionaryOnlyMetricCards(row);
     const ps = playersFor(row);
     return [
@@ -308,6 +427,25 @@
 
   function viewpointCards(row) {
     if (isGaming(row)) return gamingViewpointCards();
+    const research = researchFor(row);
+    if (research) {
+      const cards = [
+        ["核心判断", research.judgment || "待补充核心判断", research.phase.slice(0, 3)],
+        ["当前阶段", research.phase[0] || "待补充阶段判断", research.phase.slice(1, 4)],
+        ["主要矛盾", research.contradictions[0] || "待补充主要矛盾", research.contradictions.slice(1, 4)],
+        ["研究状态", `${researchVersionLabel(research.version)} · ${research.updated_at.slice(0, 10)}`, [
+          research.source_group ? `归档分组：${research.source_group}` : "正式二级行业",
+          `${research.trend.length} 个趋势点`,
+          `${research.key_metrics.length} 个关键指标`,
+        ]],
+      ];
+      return cards.map(([title, point, facts], i) => `
+        <article class="view-card view-${i + 1}">
+          <h3><span>${i + 1}</span>${title}</h3>
+          <p title="${cleanDisplay(point, 160)}">${cleanDisplay(point, 52)}</p>
+          <ul>${facts.slice(0, 3).map((fact) => `<li title="${cleanDisplay(fact, 120)}">${cleanDisplay(fact, 30)}</li>`).join("")}</ul>
+        </article>`).join("");
+    }
     if (isDictionaryOnly(row)) return dictionaryOnlyViewpointCards(row);
     const ps = playersFor(row);
     const l3 = productsFor(row);
@@ -548,7 +686,43 @@
       if (type === "category-gmv") chart.setOption(categoryGmvOption(l3));
       if (type === "category-cn") chart.setOption(categoryCnOption(l3));
       if (type === "brand-concentration") chart.setOption(brandConcentrationOption(ps));
+      if (type === "research-trend") chart.setOption(researchTrendOption(researchFor(row)?.trend || []));
     });
+  }
+
+  function researchTrendOption(points) {
+    const values = points.map((point) => Number(point.gmv || 0));
+    return {
+      animation: false,
+      grid: { left: 62, right: 20, top: 24, bottom: 34 },
+      tooltip: {
+        ...chartTooltip(),
+        formatter: (items) => `${items[0].axisValue}<br><b>${money(items[0].value)}</b>`,
+      },
+      xAxis: {
+        type: "category",
+        data: points.map((point) => point.month.slice(2)),
+        boundaryGap: false,
+        axisLine: { lineStyle: { color: "#CBD5E1" } },
+        axisTick: { show: false },
+        axisLabel: { color: "#64748B", fontSize: 11, interval: Math.max(0, Math.floor(points.length / 8) - 1) },
+      },
+      yAxis: {
+        type: "value",
+        axisLabel: { color: "#64748B", formatter: (value) => compactNum(value) },
+        splitLine: { lineStyle: { color: "#EEF2F7" } },
+      },
+      series: [{
+        type: "line",
+        data: values,
+        smooth: 0.25,
+        symbol: "circle",
+        symbolSize: 5,
+        lineStyle: { color: "#2563EB", width: 3 },
+        itemStyle: { color: "#2563EB" },
+        areaStyle: { color: "rgba(37,99,235,0.10)" },
+      }],
+    };
   }
 
   function trendOption(row) {
@@ -1106,6 +1280,71 @@
     </article>`;
   }
 
+  function gamingMarketOverviewPanel() {
+    const data = gamingMarketWeeklyOverview;
+    const snapshot = data?.latest_snapshot || {};
+    const kpis = snapshot.kpis || {};
+    if (!data) {
+      return `<article class="module-card gaming-calendar-main">
+        <h2>市场概览 <small>周数据待加载</small></h2>
+        <div class="empty-note">Gaming 周度市场概览 JSON 尚未加载。</div>
+      </article>`;
+    }
+    const weeklyRows = (data.tables?.weekly_exposure || []).slice(-8).reverse().map((row) => `
+      <tr>
+        <td>${row.week}</td>
+        <td class="num">${compactNum(row.exposure_estimate)}</td>
+        <td class="num">${row.wow_pct == null ? "-" : `${row.wow_pct > 0 ? "+" : ""}${row.wow_pct}%`}</td>
+        <td class="num">${compactNum(row.creative_count)}</td>
+        <td class="num">${num(row.active_apps)}</td>
+        <td>${row.top_industry_type || "-"}</td>
+        <td><span class="data-status ${row.status}">${row.status === "partial_week" ? "残周" : "完整周"}</span></td>
+      </tr>`);
+    const typeRows = (snapshot.top_industry_types || []).slice(0, 6).map((row) => `
+      <tr>
+        <td class="brand-cell">${row.industry_type}</td>
+        <td>${row.new_game_type}</td>
+        <td class="num">${compactNum(row.exposure_estimate)}</td>
+        <td class="num">${row.exposure_share_pct}%</td>
+        <td class="num">${compactNum(row.creative_count)}</td>
+        <td title="${row.top_app}">${textEllipsis(row.top_app, 20)}</td>
+      </tr>`);
+    const appRows = (snapshot.top_apps || []).slice(0, 6).map((row, index) => `
+      <tr>
+        <td class="rank center">${index + 1}</td>
+        <td class="brand-cell" title="${row.app_name}">${textEllipsis(row.app_name, 24)}</td>
+        <td title="${row.developer_name}">${textEllipsis(row.developer_name, 20)}</td>
+        <td>${row.industry_type}</td>
+        <td class="num">${compactNum(row.exposure_estimate)}</td>
+        <td class="num">${compactNum(row.creative_count)}</td>
+      </tr>`);
+    return `<article class="module-card gaming-calendar-main gaming-market-overview">
+      <h2>市场概览 <small>${snapshot.week} · 买量与素材活动温度计</small></h2>
+      <div class="gaming-market-kpis">
+        <div><b>曝光预估</b><strong>${compactNum(kpis.exposure_estimate)}</strong><span>活动强度信号</span></div>
+        <div><b>活跃应用</b><strong>${num(kpis.active_apps)}</strong><span>榜单覆盖样本</span></div>
+        <div><b>活跃开发者</b><strong>${num(kpis.active_developers)}</strong><span>榜单覆盖样本</span></div>
+        <div><b>在投素材</b><strong>${compactNum(kpis.creative_count)}</strong><span>素材计数</span></div>
+      </div>
+      <p class="gaming-market-summary">${data.copy?.summary || ""}</p>
+      <div class="gaming-market-grid">
+        <section>
+          <h3>近 8 个数据周</h3>
+          ${compactTable(["周次", "曝光预估", "环比", "素材", "应用", "Top类型", "状态"], weeklyRows, "gaming-market-table")}
+        </section>
+        <section>
+          <h3>本周类型拆解</h3>
+          ${compactTable(["行业类型", "上卷类型", "曝光", "占比", "素材", "Top App"], typeRows, "gaming-market-table")}
+        </section>
+        <section class="gaming-market-apps">
+          <h3>本周 App 榜单</h3>
+          ${compactTable(["#", "App", "开发者", "类型", "曝光", "素材"], appRows, "gaming-market-table")}
+        </section>
+      </div>
+      <p class="gaming-market-limit">${data.copy?.limits || ""}</p>
+    </article>`;
+  }
+
   function renderGamingOverview() {
     const items = gamingItems().slice().sort((a, b) => (a.estimated_date || "9999").localeCompare(b.estimated_date || "9999"));
     const cards = gamingFocusCards();
@@ -1115,10 +1354,7 @@
       <section class="gaming-layout">
         ${gamingWeeklyNewsPanel(calendarCards)}
         ${gamingInfoPanel(calendarCards)}
-        <article class="module-card gaming-calendar-main">
-          <h2>日历视图 <small>点击游戏查看信息</small></h2>
-          ${gamingMonthCalendar(calendarCards)}
-        </article>
+        ${gamingMarketOverviewPanel()}
       </section>`;
   }
 
@@ -1202,8 +1438,224 @@
       </section>`;
   }
 
+  function householdTier(item) {
+    const l2 = item.standard_l2;
+    if (["清洁电器", "个护医疗电器", "户外便携电源储能"].includes(l2)) return { label: "优先跟进", cls: "tier-high", reason: "CN优势明确，适合内容演示与促销窗口" };
+    if (["美发造型电器", "暖通电器"].includes(l2)) return { label: "选择性跟进", cls: "tier-mid", reason: "场景升级明显，需筛头部品牌与新品节奏" };
+    if (["厨房小家电", "大家电与配件"].includes(l2)) return { label: "谨慎观察", cls: "tier-watch", reason: "市场有量，但传统品牌与信任壁垒较强" };
+    return { label: "低优先级", cls: "tier-low", reason: "文化、生态或品牌信任约束更强" };
+  }
+
+  function householdGmv(item) {
+    return Number(item.snapshot?.annual_gmv || 0);
+  }
+
+  function householdCn(item) {
+    return Number(item.snapshot?.cn_share || 0);
+  }
+
+  function sparkline(points) {
+    const values = (points || []).map((point) => Number(point.gmv || 0)).filter((value) => Number.isFinite(value));
+    if (values.length < 2) return `<svg viewBox="0 0 120 34" aria-hidden="true"><path d="M0 25 L120 25" /></svg>`;
+    const min = Math.min(...values);
+    const max = Math.max(...values);
+    const span = max - min || 1;
+    const d = values.map((value, index) => {
+      const x = index / Math.max(1, values.length - 1) * 120;
+      const y = 30 - (value - min) / span * 24;
+      return `${index ? "L" : "M"}${x.toFixed(1)} ${y.toFixed(1)}`;
+    }).join(" ");
+    return `<svg viewBox="0 0 120 34" aria-hidden="true"><path d="${d}" /></svg>`;
+  }
+
+  function householdMatrix(subs) {
+    const maxGmv = Math.max(...subs.map(householdGmv), 1);
+    return `
+      <article class="module-card span-7 household-matrix-card">
+        <h2>机会矩阵 <small>规模 × CN占比</small></h2>
+        <div class="household-matrix">
+          <div class="matrix-axis y">市场规模</div>
+          <div class="matrix-axis x">CN品牌占比</div>
+          ${subs.map((item) => {
+            const tier = householdTier(item);
+            const x = Math.max(8, Math.min(92, householdCn(item)));
+            const y = 88 - Math.max(8, Math.min(80, householdGmv(item) / maxGmv * 80));
+            const size = 18 + householdGmv(item) / maxGmv * 30;
+            return `<button class="matrix-bubble ${tier.cls}" type="button" style="left:${x}%;top:${y}%;--s:${size}px" title="${item.standard_l2} · ${item.snapshot?.annual_gmv_label || "待补充"} · CN ${item.snapshot?.cn_share == null ? "待补充" : pct(item.snapshot.cn_share)}">
+              <span>${item.standard_l2}</span>
+            </button>`;
+          }).join("")}
+        </div>
+        <div class="matrix-legend">
+          <span class="tier-high">优先</span><span class="tier-mid">选择</span><span class="tier-watch">观察</span><span class="tier-low">低优先</span>
+        </div>
+      </article>`;
+  }
+
+  function householdPriority(subs) {
+    const groups = ["优先跟进", "选择性跟进", "谨慎观察", "低优先级"].map((label) => ({
+      label,
+      items: subs.filter((item) => householdTier(item).label === label),
+    })).filter((group) => group.items.length);
+    return `
+      <article class="module-card span-5 household-priority-card">
+        <h2>中国品牌机会分层</h2>
+        <div class="priority-lanes">
+          ${groups.map((group) => `
+            <section>
+              <b>${group.label}</b>
+              ${group.items.map((item) => {
+                const tier = householdTier(item);
+                return `<div class="${tier.cls}"><strong>${item.standard_l2}</strong><span>${tier.reason}</span></div>`;
+              }).join("")}
+            </section>
+          `).join("")}
+        </div>
+      </article>`;
+  }
+
+  function householdSubcategoryGrid(subs) {
+    return `
+      <article class="module-card span-12">
+        <h2>细分研究卡片 <small>${subs.length} 个内容细分，页面内钻取</small></h2>
+        <div class="household-subcategory-grid">
+          ${subs.map((item) => {
+            const tier = householdTier(item);
+            return `<article class="${tier.cls}">
+              <b>${item.standard_l2}</b>
+              <strong>${item.snapshot?.annual_gmv_label || "待补充"}</strong>
+              <span>CN ${item.snapshot?.cn_share == null ? "待补充" : pct(item.snapshot.cn_share)} · ${tier.label}</span>
+              <p title="${cleanDisplay(item.judgment, 180)}">${cleanDisplay(item.judgment, 74)}</p>
+            </article>`;
+          }).join("")}
+        </div>
+      </article>`;
+  }
+
+  function householdTrendGrid(subs) {
+    return `
+      <article class="module-card span-12 household-trend-card">
+        <h2>24月趋势小倍图 <small>识别促销波峰与真实增长</small></h2>
+        <div class="household-trend-grid">
+          ${subs.map((item) => `
+            <article>
+              <header><b>${item.standard_l2}</b><span>${item.trend?.[0]?.month || ""} — ${item.trend?.[item.trend.length - 1]?.month || ""}</span></header>
+              ${sparkline(item.trend)}
+              <footer><span>${item.snapshot?.annual_gmv_label || "待补充"}</span><em>CN ${item.snapshot?.cn_share == null ? "待补充" : pct(item.snapshot.cn_share)}</em></footer>
+            </article>
+          `).join("")}
+        </div>
+      </article>`;
+  }
+
+  function renderHouseholdResearch(row, research, metrics) {
+    const subs = research.subcategories || [];
+    return `
+      <section class="research-brief-layout household-research-layout">
+        <article class="module-card research-thesis span-8">
+          <div class="research-kicker">${researchVersionLabel(research.version)} · 家用电器统筹页</div>
+          <h2>一句话判断</h2>
+          <p>${research.judgment || "当前研究尚未形成结构化一句话判断。"}</p>
+        </article>
+        <article class="module-card research-source-card span-4">
+          <h2>研究溯源</h2>
+          <dl>
+            <div><dt>正式行业</dt><dd>${research.standard_l1} / ${research.standard_l2}</dd></div>
+            <div><dt>内容版本</dt><dd>${researchVersionLabel(research.version)}</dd></div>
+            <div><dt>更新时间</dt><dd>${research.updated_at.replace("T", " ")}</dd></div>
+            <div><dt>细分研究</dt><dd>${subs.length} 个 v2 内容细分</dd></div>
+          </dl>
+        </article>
+        ${householdMatrix(subs)}
+        ${householdPriority(subs)}
+        ${householdSubcategoryGrid(subs)}
+        ${householdTrendGrid(subs)}
+        <article class="module-card span-5">
+          <h2>当前阶段</h2>
+          <div class="research-point-list">${(research.phase.length ? research.phase : ["阶段判断待补充"]).map((item, index) => `
+            <div><b>${String(index + 1).padStart(2, "0")}</b><span>${item}</span></div>
+          `).join("")}</div>
+        </article>
+        <article class="module-card span-7">
+          <h2>市场可能低估的变量</h2>
+          <div class="research-contradictions">${(research.contradictions.length ? research.contradictions : ["主要矛盾待补充"]).map((item, index) => `
+            <article><b>${index + 1}</b><p>${item}</p></article>
+          `).join("")}</div>
+        </article>
+      </section>`;
+  }
+
+  function renderResearch(row) {
+    const research = researchFor(row);
+    if (!research) return renderOverview(row);
+    const metrics = research.key_metrics.length
+      ? research.key_metrics
+      : [
+          { label: "年 GMV", value: research.snapshot.annual_gmv_label || "待补充" },
+          { label: "CN 品牌占比", value: research.snapshot.cn_share == null ? "待补充" : pct(research.snapshot.cn_share) },
+          { label: "品牌数", value: research.snapshot.brand_count == null ? "待补充" : num(research.snapshot.brand_count) },
+          { label: "研究周期", value: research.snapshot.period || "待补充" },
+        ];
+    if (research.subcategories?.length) return renderHouseholdResearch(row, research, metrics);
+    return `
+      <section class="research-brief-layout">
+        <article class="module-card research-thesis span-8">
+          <div class="research-kicker">${researchVersionLabel(research.version)} · 主要矛盾型行研</div>
+          <h2>一句话判断</h2>
+          <p>${research.judgment || "当前研究尚未形成结构化一句话判断。"}</p>
+        </article>
+        <article class="module-card research-source-card span-4">
+          <h2>研究溯源</h2>
+          <dl>
+            <div><dt>正式行业</dt><dd>${research.standard_l1} / ${research.standard_l2}</dd></div>
+            <div><dt>内容版本</dt><dd>${researchVersionLabel(research.version)}</dd></div>
+            <div><dt>更新时间</dt><dd>${research.updated_at.replace("T", " ")}</dd></div>
+            ${research.source_group ? `<div><dt>归档分组</dt><dd>${research.source_group}（不作为行业标签）</dd></div>` : ""}
+          </dl>
+        </article>
+        ${research.subcategories?.length ? `
+          <article class="module-card span-12">
+            <h2>家用电器细分研究 <small>${research.subcategories.length} 个内容细分</small></h2>
+            <div class="household-subcategory-grid">
+              ${research.subcategories.map((item) => `
+                <article>
+                  <b>${item.standard_l2}</b>
+                  <strong>${item.snapshot?.annual_gmv_label || "待补充"}</strong>
+                  <span>CN ${item.snapshot?.cn_share == null ? "待补充" : pct(item.snapshot.cn_share)} · ${researchVersionLabel(item.version)}</span>
+                  <p title="${cleanDisplay(item.judgment, 180)}">${cleanDisplay(item.judgment, 74)}</p>
+                </article>
+              `).join("")}
+            </div>
+          </article>` : ""}
+        <article class="module-card span-5">
+          <h2>当前阶段</h2>
+          <div class="research-point-list">${(research.phase.length ? research.phase : ["阶段判断待补充"]).map((item, index) => `
+            <div><b>${String(index + 1).padStart(2, "0")}</b><span>${item}</span></div>
+          `).join("")}</div>
+        </article>
+        <article class="module-card span-7">
+          <h2>市场可能低估的变量</h2>
+          <div class="research-contradictions">${(research.contradictions.length ? research.contradictions : ["主要矛盾待补充"]).map((item, index) => `
+            <article><b>${index + 1}</b><p>${item}</p></article>
+          `).join("")}</div>
+        </article>
+        ${research.trend.length ? `
+          <article class="module-card span-8 research-trend-card">
+            <h2>研究趋势 <small>${research.trend[0].month} — ${research.trend[research.trend.length - 1].month}</small></h2>
+            <div class="chart-fixed"><div class="echart" data-chart="research-trend"></div></div>
+          </article>` : ""}
+        <article class="module-card ${research.trend.length ? "span-4" : "span-12"}">
+          <h2>关键指标</h2>
+          <div class="research-metric-list">${metrics.slice(0, 12).map((item) => `
+            <div><span>${item.label}</span><strong>${item.value}</strong></div>
+          `).join("")}</div>
+        </article>
+      </section>`;
+  }
+
   function renderOverview(row) {
     if (isGaming(row)) return renderGamingOverview();
+    if (researchFor(row)) return renderResearch(row);
     if (isDictionaryOnly(row)) return renderDictionaryOnly(row);
     const l3 = productsFor(row);
     return `
@@ -1325,35 +1777,55 @@
     selectedL1 = row.standard_l1;
     selectedL2 = row.standard_l2;
     renderRight(row);
+    const url = new URL(location.href);
+    url.searchParams.set("domain", selectedDomain);
+    url.searchParams.set("l1", selectedL1);
+    if (selectedL1 === "Gaming") url.searchParams.delete("l2");
+    else url.searchParams.set("l2", selectedL2);
+    url.searchParams.set("tab", currentTab);
+    history.replaceState(null, "", url);
+    const research = researchFor(row);
     $(".data-source").innerHTML = isGaming(row)
       ? "数据来源：<br>新游日历 v0.2<br>portal/data/gaming"
+      : research
+        ? `数据来源：<br>行研洞察 ${researchVersionLabel(research.version)}<br>portal/data/research`
       : isDictionaryOnly(row)
-        ? "数据来源：<br>行业字典<br>portal/data/dictionary"
+        ? "数据来源：<br>统一行业目录<br>portal/data/dictionary"
         : `数据来源：<br>Softtime Amazon数据<br>美国站 · ${PERIOD}`;
   }
 
   async function init() {
-    const [m, p, pr, e, d, g, gb] = await Promise.all([
+    const [m, p, pr, e, d, catalog, research, g, gb, gm] = await Promise.all([
       loadJson("../../data/market/amazon_market_facts_monthly.json"),
       loadJson("../../data/players/amazon_players_monthly.json"),
       loadJson("../../data/products/amazon_products_monthly.json"),
       loadJson("../../data/research/beauty_l2_content_enrichment_v0_1.json"),
       loadJson("../../data/dictionary/industry_dictionary_ecommerce.json"),
+      loadJson("../../data/dictionary/industry_research_catalog_v0_1.json"),
+      loadJson("../../data/research/industry_research_content_v0_1.json"),
       loadJson("../../data/gaming/new_game_calendar_2026_06_08.json"),
       loadJson("../../data/gaming/gaming_calendar_targets_2026_06_09.json"),
+      loadJson("../../data/gaming/gaming_market_weekly_overview_2026_04_06.json"),
     ]);
     market = m.records || [];
     players = p.records || [];
     products = pr.records || [];
     enrichment = e.records || [];
     industryDictionary = Array.isArray(d) ? d : d.records || [];
+    industryCatalog = catalog || null;
+    researchContent = research.records || [];
     gamingCalendar = g || null;
     gamingCalendarBlueprint = gb || null;
+    gamingMarketWeeklyOverview = gm || null;
     const url = new URLSearchParams(location.search);
+    selectedDomain = url.get("domain") || (url.get("l1") === "Gaming" ? "AG" : "EC");
     selectedL1 = url.get("l1") || "Beauty";
     selectedL2 = selectedL1 === "Gaming" ? "主版面" : url.get("l2") || l1Rows(selectedL1).find((r) => r.standard_l2 === "面部护理")?.standard_l2 || l1Rows(selectedL1)[0]?.standard_l2 || "面部护理";
+    expandedDomains.add(selectedDomain);
+    expandedL1.add(selectedL1);
     const allowedTabs = selectedL1 === "Gaming" ? ["overview", "calendar"] : ["overview", "structure", "players"];
-    currentTab = allowedTabs.includes(url.get("tab")) ? url.get("tab") : "overview";
+    const defaultTab = "overview";
+    currentTab = allowedTabs.includes(url.get("tab")) ? url.get("tab") : defaultTab;
     $("#industry-search").addEventListener("input", renderIndustryTree);
     window.addEventListener("resize", () => {
       $$(".echart").forEach((el) => window.echarts?.getInstanceByDom(el)?.resize());
