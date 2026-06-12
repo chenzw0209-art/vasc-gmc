@@ -136,17 +136,18 @@ def build_weekly(content_rows, source_rows, event_rows, week, generated_at, work
     product_count = sum(1 for row in records if row.get("titan_category") == "EC")
     app_count = len(records) - product_count
     grade_a_count = sum(1 for row in records if row.get("source_grade") == "A")
-    top_industries = sorted(by_l2.items(), key=lambda item: len(item[1]), reverse=True)[:3]
-    top_summary = "；".join(
-        f"{l1}/{l2}{len(rows)}条" for (l1, l2), rows in top_industries
-    ) or "本周情报待补充"
+    by_l1 = defaultdict(list)
+    for row in records:
+        by_l1[row.get("standard_l1", "待补")].append(row)
+    top_l1 = sorted(by_l1.items(), key=lambda item: (-len(item[1]), item[0]))[:5]
+    top_summary = "；".join(f"{l1}{len(rows)}条" for l1, rows in top_l1) or "本周情报待补充"
 
     return {
         "generated_at": generated_at,
         "source_workbook": str(workbook),
         "weekly_module_content": {
             "week": f"2026-{week}",
-            "top_summary": f"{week}预备更新：{top_summary}。重点查看官方/Newswire硬信源与W25展会窗口。",
+            "top_summary": f"{week}更新：{top_summary}。本周新增出海媒体补扫，重点补强Beauty、Fashion、FMCG等非3C类目。",
             "kpis": {
                 "focus_customer_count": len(records),
                 "new_customer_signal_count": len(records),
@@ -279,6 +280,9 @@ def main():
     customers = read_sheet(wb, "客户候选名单", CUSTOMER_MAP)
     sources = read_sheet(wb, "信源明细", SOURCE_MAP)
     events = read_sheet(wb, "展会线索", EVENT_MAP)
+    customers = [row for row in customers if row.get("week") == args.week]
+    sources = [row for row in sources if row.get("week") == args.week]
+    events = [row for row in events if row.get("week") == args.week]
 
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
