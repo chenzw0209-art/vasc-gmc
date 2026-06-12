@@ -1,20 +1,20 @@
 {
   "generated_at": "2026-06-12",
-  "source_workbook": "Z:\\增长分析中台\\线索采集\\售前情报库_W25（周更新）.xlsx",
+  "source_workbook": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W25）.xlsx",
   "weekly_module_content": {
     "week": "2026-W25",
-    "top_summary": "W25预备更新：Gaming/游戏2条；Consumer Tech/电视与显示1条；Consumer Tech/投影与家庭影院1条。重点查看官方/Newswire硬信源与W25展会窗口。",
+    "top_summary": "W25更新：Consumer Tech3条；Beauty2条；Fashion2条；Fintech2条；Gaming2条。本周新增出海媒体补扫，重点补强Beauty、Fashion、FMCG等非3C类目。",
     "kpis": {
-      "focus_customer_count": 12,
-      "new_customer_signal_count": 12,
-      "product_candidate_count": 6,
+      "focus_customer_count": 14,
+      "new_customer_signal_count": 14,
+      "product_candidate_count": 8,
       "app_candidate_count": 6,
       "grade_a_count": 11,
       "exhibition_count": 4
     },
     "focus_customers": [
       {
-        "candidate_id": "C001",
+        "candidate_id": "W25-C001",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "EC",
@@ -39,7 +39,7 @@
         "dynamic_date_display": "06-12"
       },
       {
-        "candidate_id": "C002",
+        "candidate_id": "W25-C002",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "EC",
@@ -64,7 +64,7 @@
         "dynamic_date_display": "06-11"
       },
       {
-        "candidate_id": "C003",
+        "candidate_id": "W25-C003",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "EC",
@@ -89,7 +89,7 @@
         "dynamic_date_display": "06-12"
       },
       {
-        "candidate_id": "C004",
+        "candidate_id": "W25-C004",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "EC",
@@ -114,7 +114,7 @@
         "dynamic_date_display": "06-10"
       },
       {
-        "candidate_id": "C005",
+        "candidate_id": "W25-C005",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "EC",
@@ -139,7 +139,7 @@
         "dynamic_date_display": "06-04"
       },
       {
-        "candidate_id": "C006",
+        "candidate_id": "W25-C006",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "AG",
@@ -164,7 +164,7 @@
         "dynamic_date_display": "06-09"
       },
       {
-        "candidate_id": "C007",
+        "candidate_id": "W25-C007",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "AG",
@@ -189,7 +189,7 @@
         "dynamic_date_display": "05-29"
       },
       {
-        "candidate_id": "C008",
+        "candidate_id": "W25-C008",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "AG",
@@ -214,7 +214,7 @@
         "dynamic_date_display": "06-05"
       },
       {
-        "candidate_id": "C009",
+        "candidate_id": "W25-C009",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "AG",
@@ -239,7 +239,7 @@
         "dynamic_date_display": "05-26"
       },
       {
-        "candidate_id": "C010",
+        "candidate_id": "W25-C010",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "AG",
@@ -264,7 +264,7 @@
         "dynamic_date_display": "06-05"
       },
       {
-        "candidate_id": "C011",
+        "candidate_id": "W25-C011",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "AG",
@@ -289,7 +289,7 @@
         "dynamic_date_display": "05-21"
       },
       {
-        "candidate_id": "C012",
+        "candidate_id": "W25-C012",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "EC",
@@ -312,6 +312,56 @@
         "review_note": "W24已跟踪FridgePower，W25延伸到澳洲促销窗口",
         "source_count": "1",
         "dynamic_date_display": "06-01"
+      },
+      {
+        "candidate_id": "W25-C013",
+        "week": "W25",
+        "search_date": "2026-06-12",
+        "titan_category": "EC",
+        "standard_l1": "Beauty",
+        "standard_l2": "??",
+        "standard_l3": "????/?????",
+        "application_product_name": "Judydoll / Joocyee",
+        "owner_company_brand": "Joy Group",
+        "target_market_channel": "????/???/??/???",
+        "dynamic_type": "????/????",
+        "dynamic_date": "2026-06-09",
+        "dynamic_summary": "Joy Group??????????????????????",
+        "attention_point": "???C-Beauty????????KOL??",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "Fortune / Joy Group LinkedIn",
+        "primary_source_url": "https://fortune.com/2026/06/09/chinese-beauty-brands-southeast-asia-go-global/",
+        "link_status": "???",
+        "warehouse_suggestion": "?",
+        "review_note": "P1???????Joy Group????????????????",
+        "source_count": "2",
+        "dynamic_date_display": "06-09"
+      },
+      {
+        "candidate_id": "W25-C014",
+        "week": "W25",
+        "search_date": "2026-06-12",
+        "titan_category": "EC",
+        "standard_l1": "Beauty",
+        "standard_l2": "?????",
+        "standard_l3": "????/????",
+        "application_product_name": "AromeManpo ????",
+        "owner_company_brand": "?????????? / ????",
+        "target_market_channel": "????/??/??????",
+        "dynamic_type": "??/????",
+        "dynamic_date": "2026-06-08",
+        "dynamic_summary": "????????????????????????????",
+        "attention_point": "????????????????",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "??? / Morketing",
+        "primary_source_url": "https://www.guandian.cn/article/20260608/565679.html",
+        "link_status": "???",
+        "warehouse_suggestion": "?",
+        "review_note": "???????5??W25??6??????????????",
+        "source_count": "2",
+        "dynamic_date_display": "06-08"
       }
     ],
     "industry_brief_by_industry": {
@@ -446,18 +496,40 @@
         "recommended_focus": [
           "澳洲大促、便携储能、DTC活动"
         ]
+      },
+      "????/?????": {
+        "industry": "????/?????",
+        "lead_count": 1,
+        "headline": "??本周新增1条可复核信号",
+        "signals": [
+          "Joy Group??????????????????????"
+        ],
+        "recommended_focus": [
+          "???C-Beauty????????KOL??"
+        ]
+      },
+      "????/????": {
+        "industry": "????/????",
+        "lead_count": 1,
+        "headline": "?????本周新增1条可复核信号",
+        "signals": [
+          "????????????????????????????"
+        ],
+        "recommended_focus": [
+          "????????????????"
+        ]
       }
     },
     "similar_customers_by_candidate": {
-      "C001": [],
-      "C002": [],
-      "C003": [],
-      "C004": [],
-      "C005": [],
-      "C006": [],
-      "C007": [
+      "W25-C001": [],
+      "W25-C002": [],
+      "W25-C003": [],
+      "W25-C004": [],
+      "W25-C005": [],
+      "W25-C006": [],
+      "W25-C007": [
         {
-          "candidate_id": "C008",
+          "candidate_id": "W25-C008",
           "week": "W25",
           "search_date": "2026-06-12",
           "titan_category": "AG",
@@ -482,9 +554,9 @@
           "dynamic_date_display": "06-05"
         }
       ],
-      "C008": [
+      "W25-C008": [
         {
-          "candidate_id": "C007",
+          "candidate_id": "W25-C007",
           "week": "W25",
           "search_date": "2026-06-12",
           "titan_category": "AG",
@@ -509,17 +581,19 @@
           "dynamic_date_display": "05-29"
         }
       ],
-      "C009": [],
-      "C010": [],
-      "C011": [],
-      "C012": []
+      "W25-C009": [],
+      "W25-C010": [],
+      "W25-C011": [],
+      "W25-C012": [],
+      "W25-C013": [],
+      "W25-C014": []
     }
   },
   "leads_module_content": {
     "week": "2026-W25",
     "records": [
       {
-        "candidate_id": "C001",
+        "candidate_id": "W25-C001",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "EC",
@@ -544,7 +618,7 @@
         "dynamic_date_display": "06-12"
       },
       {
-        "candidate_id": "C002",
+        "candidate_id": "W25-C002",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "EC",
@@ -569,7 +643,7 @@
         "dynamic_date_display": "06-11"
       },
       {
-        "candidate_id": "C003",
+        "candidate_id": "W25-C003",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "EC",
@@ -594,7 +668,7 @@
         "dynamic_date_display": "06-12"
       },
       {
-        "candidate_id": "C004",
+        "candidate_id": "W25-C004",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "EC",
@@ -619,7 +693,7 @@
         "dynamic_date_display": "06-10"
       },
       {
-        "candidate_id": "C005",
+        "candidate_id": "W25-C005",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "EC",
@@ -644,7 +718,7 @@
         "dynamic_date_display": "06-04"
       },
       {
-        "candidate_id": "C006",
+        "candidate_id": "W25-C006",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "AG",
@@ -669,7 +743,7 @@
         "dynamic_date_display": "06-09"
       },
       {
-        "candidate_id": "C007",
+        "candidate_id": "W25-C007",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "AG",
@@ -694,7 +768,7 @@
         "dynamic_date_display": "05-29"
       },
       {
-        "candidate_id": "C008",
+        "candidate_id": "W25-C008",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "AG",
@@ -719,7 +793,7 @@
         "dynamic_date_display": "06-05"
       },
       {
-        "candidate_id": "C009",
+        "candidate_id": "W25-C009",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "AG",
@@ -744,7 +818,7 @@
         "dynamic_date_display": "05-26"
       },
       {
-        "candidate_id": "C010",
+        "candidate_id": "W25-C010",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "AG",
@@ -769,7 +843,7 @@
         "dynamic_date_display": "06-05"
       },
       {
-        "candidate_id": "C011",
+        "candidate_id": "W25-C011",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "AG",
@@ -794,7 +868,7 @@
         "dynamic_date_display": "05-21"
       },
       {
-        "candidate_id": "C012",
+        "candidate_id": "W25-C012",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "EC",
@@ -817,12 +891,62 @@
         "review_note": "W24已跟踪FridgePower，W25延伸到澳洲促销窗口",
         "source_count": "1",
         "dynamic_date_display": "06-01"
+      },
+      {
+        "candidate_id": "W25-C013",
+        "week": "W25",
+        "search_date": "2026-06-12",
+        "titan_category": "EC",
+        "standard_l1": "Beauty",
+        "standard_l2": "??",
+        "standard_l3": "????/?????",
+        "application_product_name": "Judydoll / Joocyee",
+        "owner_company_brand": "Joy Group",
+        "target_market_channel": "????/???/??/???",
+        "dynamic_type": "????/????",
+        "dynamic_date": "2026-06-09",
+        "dynamic_summary": "Joy Group??????????????????????",
+        "attention_point": "???C-Beauty????????KOL??",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "Fortune / Joy Group LinkedIn",
+        "primary_source_url": "https://fortune.com/2026/06/09/chinese-beauty-brands-southeast-asia-go-global/",
+        "link_status": "???",
+        "warehouse_suggestion": "?",
+        "review_note": "P1???????Joy Group????????????????",
+        "source_count": "2",
+        "dynamic_date_display": "06-09"
+      },
+      {
+        "candidate_id": "W25-C014",
+        "week": "W25",
+        "search_date": "2026-06-12",
+        "titan_category": "EC",
+        "standard_l1": "Beauty",
+        "standard_l2": "?????",
+        "standard_l3": "????/????",
+        "application_product_name": "AromeManpo ????",
+        "owner_company_brand": "?????????? / ????",
+        "target_market_channel": "????/??/??????",
+        "dynamic_type": "??/????",
+        "dynamic_date": "2026-06-08",
+        "dynamic_summary": "????????????????????????????",
+        "attention_point": "????????????????",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "??? / Morketing",
+        "primary_source_url": "https://www.guandian.cn/article/20260608/565679.html",
+        "link_status": "???",
+        "warehouse_suggestion": "?",
+        "review_note": "???????5??W25??6??????????????",
+        "source_count": "2",
+        "dynamic_date_display": "06-08"
       }
     ]
   },
   "exhibition_window_content": [
     {
-      "event_id": "E001",
+      "event_id": "W25-E001",
       "week": "W25",
       "event_window": "2026-W25",
       "industry": "跨境电商",
@@ -835,7 +959,7 @@
       "review_note": "W24沿用至W25窗口"
     },
     {
-      "event_id": "E002",
+      "event_id": "W25-E002",
       "week": "W25",
       "event_window": "2026-W25",
       "industry": "跨境电商",
@@ -848,7 +972,7 @@
       "review_note": "W25窗口"
     },
     {
-      "event_id": "E003",
+      "event_id": "W25-E003",
       "week": "W25",
       "event_window": "2026-W25",
       "industry": "跨境电商",
@@ -861,7 +985,7 @@
       "review_note": "W25窗口"
     },
     {
-      "event_id": "E004",
+      "event_id": "W25-E004",
       "week": "W25",
       "event_window": "2026-W25",
       "industry": "独立站",
@@ -875,10 +999,10 @@
     }
   ],
   "evidence_chain_detail_mapping": {
-    "C001": [
+    "W25-C001": [
       {
-        "source_id": "S001",
-        "candidate_id": "C001",
+        "source_id": "W25-S001",
+        "candidate_id": "W25-C001",
         "week": "W25",
         "dynamic_date": "2026-06-12",
         "publish_event_date": "2026-06-12",
@@ -890,10 +1014,10 @@
         "link_status_review_note": "可访问"
       }
     ],
-    "C002": [
+    "W25-C002": [
       {
-        "source_id": "S002",
-        "candidate_id": "C002",
+        "source_id": "W25-S002",
+        "candidate_id": "W25-C002",
         "week": "W25",
         "dynamic_date": "2026-06-11",
         "publish_event_date": "2026-06-11",
@@ -905,10 +1029,10 @@
         "link_status_review_note": "可访问"
       }
     ],
-    "C003": [
+    "W25-C003": [
       {
-        "source_id": "S003",
-        "candidate_id": "C003",
+        "source_id": "W25-S003",
+        "candidate_id": "W25-C003",
         "week": "W25",
         "dynamic_date": "2026-06-12",
         "publish_event_date": "2026-06-12",
@@ -920,10 +1044,10 @@
         "link_status_review_note": "可访问"
       }
     ],
-    "C004": [
+    "W25-C004": [
       {
-        "source_id": "S004",
-        "candidate_id": "C004",
+        "source_id": "W25-S004",
+        "candidate_id": "W25-C004",
         "week": "W25",
         "dynamic_date": "2026-06-10",
         "publish_event_date": "2026-06-10",
@@ -935,10 +1059,10 @@
         "link_status_review_note": "可访问"
       }
     ],
-    "C005": [
+    "W25-C005": [
       {
-        "source_id": "S005",
-        "candidate_id": "C005",
+        "source_id": "W25-S005",
+        "candidate_id": "W25-C005",
         "week": "W25",
         "dynamic_date": "2026-06-04",
         "publish_event_date": "2026-06-04",
@@ -950,10 +1074,10 @@
         "link_status_review_note": "可访问"
       }
     ],
-    "C006": [
+    "W25-C006": [
       {
-        "source_id": "S006",
-        "candidate_id": "C006",
+        "source_id": "W25-S006",
+        "candidate_id": "W25-C006",
         "week": "W25",
         "dynamic_date": "2026-06-09",
         "publish_event_date": "2026-06-09",
@@ -965,10 +1089,10 @@
         "link_status_review_note": "可访问"
       }
     ],
-    "C007": [
+    "W25-C007": [
       {
-        "source_id": "S007",
-        "candidate_id": "C007",
+        "source_id": "W25-S007",
+        "candidate_id": "W25-C007",
         "week": "W25",
         "dynamic_date": "2026-05-29",
         "publish_event_date": "2026-05-29",
@@ -980,10 +1104,10 @@
         "link_status_review_note": "可访问"
       }
     ],
-    "C008": [
+    "W25-C008": [
       {
-        "source_id": "S008",
-        "candidate_id": "C008",
+        "source_id": "W25-S008",
+        "candidate_id": "W25-C008",
         "week": "W25",
         "dynamic_date": "2026-06-05",
         "publish_event_date": "2026-06-05",
@@ -995,10 +1119,10 @@
         "link_status_review_note": "可访问"
       }
     ],
-    "C009": [
+    "W25-C009": [
       {
-        "source_id": "S009",
-        "candidate_id": "C009",
+        "source_id": "W25-S009",
+        "candidate_id": "W25-C009",
         "week": "W25",
         "dynamic_date": "2026-05-26",
         "publish_event_date": "2026-05-26",
@@ -1010,10 +1134,10 @@
         "link_status_review_note": "可访问"
       }
     ],
-    "C010": [
+    "W25-C010": [
       {
-        "source_id": "S010",
-        "candidate_id": "C010",
+        "source_id": "W25-S010",
+        "candidate_id": "W25-C010",
         "week": "W25",
         "dynamic_date": "2026-06-05",
         "publish_event_date": "2026-06-05",
@@ -1025,10 +1149,10 @@
         "link_status_review_note": "可访问"
       }
     ],
-    "C011": [
+    "W25-C011": [
       {
-        "source_id": "S011",
-        "candidate_id": "C011",
+        "source_id": "W25-S011",
+        "candidate_id": "W25-C011",
         "week": "W25",
         "dynamic_date": "2026-05-21",
         "publish_event_date": "2026-05-21",
@@ -1040,10 +1164,10 @@
         "link_status_review_note": "可访问"
       }
     ],
-    "C012": [
+    "W25-C012": [
       {
-        "source_id": "S012",
-        "candidate_id": "C012",
+        "source_id": "W25-S012",
+        "candidate_id": "W25-C012",
         "week": "W25",
         "dynamic_date": "2026-06-01",
         "publish_event_date": "2026-06-01",
@@ -1054,13 +1178,69 @@
         "evidence_summary": "BLUETTI澳洲EOFY促销覆盖Elite 300等储能产品",
         "link_status_review_note": "可访问"
       }
+    ],
+    "W25-C013": [
+      {
+        "source_id": "W25-S013",
+        "candidate_id": "W25-C013",
+        "week": "W25",
+        "dynamic_date": "2026-06-09",
+        "publish_event_date": "2026-06-09",
+        "source_layer": "P1",
+        "source_grade": "B",
+        "source_name": "Fortune",
+        "url": "https://fortune.com/2026/06/09/chinese-beauty-brands-southeast-asia-go-global/",
+        "evidence_summary": "Joy Group??Judydoll/Joocyee??????????????????",
+        "link_status_review_note": "????????"
+      },
+      {
+        "source_id": "W25-S014",
+        "candidate_id": "W25-C013",
+        "week": "W25",
+        "dynamic_date": "2026-06-09",
+        "publish_event_date": "2026-06-09",
+        "source_layer": "P2",
+        "source_grade": "B",
+        "source_name": "Joy Group LinkedIn",
+        "url": "https://www.linkedin.com/posts/joygroup-beauty_chinese-beauty-brands-flock-to-southeast-activity-7469989417579868161-QMP6",
+        "evidence_summary": "Joy Group????Fortune??????????",
+        "link_status_review_note": "???????????"
+      }
+    ],
+    "W25-C014": [
+      {
+        "source_id": "W25-S015",
+        "candidate_id": "W25-C014",
+        "week": "W25",
+        "dynamic_date": "2026-06-08",
+        "publish_event_date": "2026-06-08",
+        "source_layer": "P1",
+        "source_grade": "B",
+        "source_name": "???",
+        "url": "https://www.guandian.cn/article/20260608/565679.html",
+        "evidence_summary": "?????????B?????????????????",
+        "link_status_review_note": "????????"
+      },
+      {
+        "source_id": "W25-S016",
+        "candidate_id": "W25-C014",
+        "week": "W25",
+        "dynamic_date": "2026-06-08",
+        "publish_event_date": "2026-06-08",
+        "source_layer": "P1",
+        "source_grade": "B",
+        "source_name": "Morketing",
+        "url": "https://www.morketing.com/detail/28489",
+        "evidence_summary": "Morketing????????????????????",
+        "link_status_review_note": "????????"
+      }
     ]
   },
   "data_quality_check_result": {
     "sheet_source": "售前情报库周更新工作簿",
-    "customer_rows": 12,
+    "customer_rows": 14,
     "event_rows": 4,
-    "source_rows": 12,
+    "source_rows": 16,
     "customer_rows_note": "仅筛除是否建议入库=否的记录；页面只消费本JSON，不读取Excel。"
   }
 }

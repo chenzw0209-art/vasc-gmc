@@ -2,7 +2,7 @@
   "week": "2026-W25",
   "generated_at": "2026-06-12",
   "source_files": {
-    "lead_workbook": "Z:\\增长分析中台\\线索采集\\售前情报库_W25（周更新）.xlsx",
+    "lead_workbook": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W25）.xlsx",
     "research_root": "Z:\\增长分析中台\\行研洞察"
   },
   "industries": [
@@ -44,7 +44,7 @@
       ],
       "this_week_leads": [
         {
-          "candidate_id": "C011",
+          "candidate_id": "W25-C011",
           "lead_category": "AG",
           "primary_industry": "AI应用",
           "secondary_industry": "AI视频生成",
@@ -65,6 +65,132 @@
         "title": "AI应用/AI视频生成：W25预备信号",
         "metric_line": "1条线索 / Top主体：MiniMax",
         "signal_line": "MiniMax披露Hailuo 2.3在日本AI动画创作者中渗透",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Beauty|??",
+      "primary_industry": "Beauty",
+      "secondary_industry": "??",
+      "mapped_research_industry": "??",
+      "industry_key": "Beauty|??",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Joy Group"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "??本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Joy Group??????????????????????"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Joy Group",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C013",
+          "lead_category": "EC",
+          "primary_industry": "Beauty",
+          "secondary_industry": "??",
+          "tertiary_category": "????/?????",
+          "product_name": "Judydoll / Joocyee",
+          "owner": "Joy Group",
+          "dynamic_type": "????/????",
+          "dynamic_summary": "Joy Group??????????????????????",
+          "suggested_focus": "???C-Beauty????????KOL??",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Beauty/??本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Beauty/??：W25预备信号",
+        "metric_line": "1条线索 / Top主体：Joy Group",
+        "signal_line": "Joy Group??????????????????????",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Beauty|?????",
+      "primary_industry": "Beauty",
+      "secondary_industry": "?????",
+      "mapped_research_industry": "?????",
+      "industry_key": "Beauty|?????",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "?????????? / ????"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "?????本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "????????????????????????????"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "?????????? / ????",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C014",
+          "lead_category": "EC",
+          "primary_industry": "Beauty",
+          "secondary_industry": "?????",
+          "tertiary_category": "????/????",
+          "product_name": "AromeManpo ????",
+          "owner": "?????????? / ????",
+          "dynamic_type": "??/????",
+          "dynamic_summary": "????????????????????????????",
+          "suggested_focus": "????????????????",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Beauty/?????本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Beauty/?????：W25预备信号",
+        "metric_line": "1条线索 / Top主体：?????????? / ????",
+        "signal_line": "????????????????????????????",
         "risk_line": "行业深度结论待行研供给补齐。"
       },
       "this_week_lead_count": 1
@@ -107,7 +233,7 @@
       ],
       "this_week_leads": [
         {
-          "candidate_id": "C012",
+          "candidate_id": "W25-C012",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "户外电源",
@@ -170,7 +296,7 @@
       ],
       "this_week_leads": [
         {
-          "candidate_id": "C002",
+          "candidate_id": "W25-C002",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "投影与家庭影院",
@@ -233,7 +359,7 @@
       ],
       "this_week_leads": [
         {
-          "candidate_id": "C001",
+          "candidate_id": "W25-C001",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "电视与显示",
@@ -296,7 +422,7 @@
       ],
       "this_week_leads": [
         {
-          "candidate_id": "C003",
+          "candidate_id": "W25-C003",
           "lead_category": "EC",
           "primary_industry": "FMCG",
           "secondary_industry": "食品与饮料",
@@ -359,7 +485,7 @@
       ],
       "this_week_leads": [
         {
-          "candidate_id": "C005",
+          "candidate_id": "W25-C005",
           "lead_category": "EC",
           "primary_industry": "Fashion",
           "secondary_industry": "服饰零售",
@@ -422,7 +548,7 @@
       ],
       "this_week_leads": [
         {
-          "candidate_id": "C004",
+          "candidate_id": "W25-C004",
           "lead_category": "EC",
           "primary_industry": "Fashion",
           "secondary_industry": "跨境电商平台",
@@ -485,7 +611,7 @@
       ],
       "this_week_leads": [
         {
-          "candidate_id": "C009",
+          "candidate_id": "W25-C009",
           "lead_category": "AG",
           "primary_industry": "Fintech",
           "secondary_industry": "跨境支付",
@@ -548,7 +674,7 @@
       ],
       "this_week_leads": [
         {
-          "candidate_id": "C010",
+          "candidate_id": "W25-C010",
           "lead_category": "AG",
           "primary_industry": "Fintech",
           "secondary_industry": "跨境汇款",
@@ -616,7 +742,7 @@
       ],
       "this_week_leads": [
         {
-          "candidate_id": "C007",
+          "candidate_id": "W25-C007",
           "lead_category": "AG",
           "primary_industry": "Gaming",
           "secondary_industry": "游戏",
@@ -629,7 +755,7 @@
           "source_grade": "A"
         },
         {
-          "candidate_id": "C008",
+          "candidate_id": "W25-C008",
           "lead_category": "AG",
           "primary_industry": "Gaming",
           "secondary_industry": "游戏",
@@ -692,7 +818,7 @@
       ],
       "this_week_leads": [
         {
-          "candidate_id": "C006",
+          "candidate_id": "W25-C006",
           "lead_category": "AG",
           "primary_industry": "泛娱乐",
           "secondary_industry": "长视频/流媒体",
@@ -719,10 +845,10 @@
     }
   ],
   "quality_check": {
-    "lead_rows": 12,
-    "industry_group_count": 11,
+    "lead_rows": 14,
+    "industry_group_count": 13,
     "covered_industry_count": 0,
-    "desktop_research_count": 11,
+    "desktop_research_count": 13,
     "gap_industry_count": 0,
     "missing_required_fields": [],
     "notes": [
