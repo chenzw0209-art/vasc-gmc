@@ -4,8 +4,19 @@
     industrySupply: null,
     selected: null,
     marketLoaded: false,
+    activeWeek: "W25",
   };
   const $ = (selector) => document.querySelector(selector);
+  const WEEK_FILES = {
+    W25: {
+      leads: "./data/weekly/weekly_leads_content_2026_W25.json?v=20260612-weekly-b",
+      industry: "./data/weekly/industry_brief_supply_2026_W25.json?v=20260612-weekly-b",
+    },
+    W24: {
+      leads: "./data/weekly/weekly_leads_content_2026_W24.json?v=20260608-weekly-h",
+      industry: "./data/weekly/industry_brief_supply_2026_W24.json?v=20260608-weekly-h",
+    },
+  };
 
   function safe(value, fallback = "待补") {
     const text = String(value ?? "").trim();
@@ -67,45 +78,33 @@
     const productCount = rows.filter((row) => row.titan_category === "EC").length;
     const appCount = rows.length - productCount;
     const gradeACount = rows.filter((row) => row.source_grade === "A").length;
-    const focusRows = [
-      ["本周关注客户数", rows.length, "本周检索客户", "作为本周销售扫读客户池"],
-      ["新增客户信号", weekly.kpis.new_customer_signal_count || rows.length, "候选情报记录", "优先查看A/B级硬信源"],
-      ["商品候选", productCount, "实物商品方向", "适合跨境商品与供应链客户"],
-      ["应用候选", appCount, "App / 游戏 / 平台", "适合应用增长与平台客户"],
-      ["A级信源", gradeACount, "官方/硬证据", "可优先复核并形成线索"],
-      ["重点展会", exhibitions.length, "W25窗口", "用于补充线下招商与服务商名单"],
+    const cards = [
+      ["本周关注客户数", rows.length, "本周检索客户", "客", "tone-blue"],
+      ["本周新增客户信号", weekly.kpis.new_customer_signal_count || rows.length, "候选情报记录", "新", "tone-green"],
+      ["商品候选", productCount, "实物商品方向", "商", "tone-orange"],
+      ["应用候选", appCount, "App / 游戏 / 平台", "应", "tone-purple"],
+      ["A级信源", gradeACount, "官方/硬证据", "A", "tone-green"],
+      ["重点展会", exhibitions.length, state.activeWeek === "W25" ? "W25窗口" : "W24/W25窗口", "展", "tone-blue"],
     ];
 
     $("#sales-focus").innerHTML = `
       <article class="sales-focus-card">
-        <div class="sales-focus-head">
-          <h2 class="sales-focus-title">本周销售重点</h2>
+        <h2 class="sales-focus-title">本周销售重点</h2>
+        <div class="sales-focus-grid">
+          ${cards.map(([label, value, sub, icon, tone]) => `
+            <div class="focus-metric">
+              <span class="focus-icon ${tone}">${icon}</span>
+              <div class="focus-copy">
+                <div class="focus-label">${label}</div>
+                <div class="focus-value">${value}</div>
+                <div class="focus-sub">${sub}</div>
+              </div>
+            </div>
+          `).join("")}
           <div class="week-summary-box">
             <div class="week-summary-title">本周摘要</div>
             <div class="week-summary-text" title="${safe(weekly.top_summary)}">${safe(weekly.top_summary)}</div>
           </div>
-        </div>
-        <div class="sales-focus-list">
-          <table class="data-table sales-focus-table">
-            <thead>
-              <tr>
-                <th>销售关注项</th>
-                <th>本周结果</th>
-                <th>说明</th>
-                <th>销售含义</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${focusRows.map(([label, value, sub, meaning]) => `
-                <tr>
-                  <td>${label}</td>
-                  <td class="num strong">${value}</td>
-                  <td title="${sub}">${sub}</td>
-                  <td title="${meaning}">${meaning}</td>
-                </tr>
-              `).join("")}
-            </tbody>
-          </table>
         </div>
       </article>`;
   }
@@ -421,6 +420,17 @@
     activateView(location.hash === "#market" ? "market" : "weekly");
   }
 
+  function wireWeekSelector() {
+    const selector = $(".week-selector");
+    if (!selector || selector.dataset.bound === "true") return;
+    selector.dataset.bound = "true";
+    selector.addEventListener("change", () => {
+      loadWeek(selector.value || "W25").catch((error) => {
+        $(".weekly-content").insertAdjacentHTML("beforeend", `<article class="data-card"><h2 class="card-title">加载失败</h2><p>${error.message}</p></article>`);
+      });
+    });
+  }
+
   function renderAll() {
     state.selected = state.selected || allRows()[0] || null;
     renderSalesFocus();
@@ -432,14 +442,23 @@
     wireViewNavigation();
   }
 
-  async function init() {
+  async function loadWeek(week) {
+    const files = WEEK_FILES[week] || WEEK_FILES.W25;
     const [content, industrySupply] = await Promise.all([
-      loadJson("./data/weekly/weekly_leads_content_2026_W25.json?v=20260612-weekly-a"),
-      loadJson("./data/weekly/industry_brief_supply_2026_W25.json?v=20260612-weekly-a"),
+      loadJson(files.leads),
+      loadJson(files.industry),
     ]);
     state.content = content;
     state.industrySupply = industrySupply;
+    state.selected = null;
+    state.activeWeek = week;
     renderAll();
+  }
+
+  async function init() {
+    wireWeekSelector();
+    const selector = $(".week-selector");
+    await loadWeek(selector?.value || state.activeWeek);
   }
 
   init().catch((error) => {
