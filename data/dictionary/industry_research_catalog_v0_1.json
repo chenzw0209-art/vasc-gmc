@@ -1,7 +1,7 @@
 {
   "version": "v0.1",
-  "generated_at": "2026-06-12T18:57:11",
-  "taxonomy_note": "EC uses a unified display taxonomy. Fashion is restored as an independent L1. 家用电器 is an independent L2 under Consumer Tech and rolls up appliance research subcategories. AG uses the app dictionary.",
+  "generated_at": "2026-06-13T14:17:33",
+  "taxonomy_note": "EC uses the governed bottom-table taxonomy. Fashion is restored as an independent L1. 家用电器 may appear as a research folder, but it is not a standard_l2. AG uses the app dictionary.",
   "domains": [
     {
       "code": "EC",
@@ -117,21 +117,10 @@
           "standard_l1": "Consumer Tech",
           "children": [
             {
-              "standard_l2": "家用电器",
-              "source": "household_appliance_rollup",
-              "source_group": "家用电器",
-              "child_l2s": [
-                "厨房小家电",
-                "咖啡茶饮电器",
-                "暖通电器",
-                "清洁电器",
-                "美发造型电器",
-                "大家电与配件",
-                "个护医疗电器",
-                "户外便携电源储能"
-              ],
-              "research_version": "rollup",
-              "research_updated_at": "2026-06-08T18:00:14"
+              "standard_l2": "个护医疗电器",
+              "source": "governed_bottom_table",
+              "research_version": "v2",
+              "research_updated_at": "2026-06-08T17:12:36"
             },
             {
               "standard_l2": "办公电子产品",
@@ -140,10 +129,28 @@
               "research_updated_at": "2026-06-04T12:03:31"
             },
             {
+              "standard_l2": "厨房小家电",
+              "source": "governed_bottom_table",
+              "research_version": "v2",
+              "research_updated_at": "2026-06-08T17:31:47"
+            },
+            {
               "standard_l2": "台式与电脑打印机",
               "source": "governed_bottom_table",
               "research_version": "v1",
               "research_updated_at": "2026-06-05T11:34:26"
+            },
+            {
+              "standard_l2": "咖啡茶饮电器",
+              "source": "governed_bottom_table",
+              "research_version": "v2",
+              "research_updated_at": "2026-06-08T17:39:55"
+            },
+            {
+              "standard_l2": "大家电与配件",
+              "source": "governed_bottom_table",
+              "research_version": "v2",
+              "research_updated_at": "2026-06-08T17:46:47"
             },
             {
               "standard_l2": "安防硬件",
@@ -170,6 +177,12 @@
               "research_updated_at": "2026-06-04T17:50:40"
             },
             {
+              "standard_l2": "户外便携电源储能",
+              "source": "governed_bottom_table",
+              "research_version": "v2",
+              "research_updated_at": "2026-06-08T16:54:42"
+            },
+            {
               "standard_l2": "手机与配件",
               "source": "governed_bottom_table",
               "research_version": "v1",
@@ -188,10 +201,22 @@
               "research_updated_at": "2026-06-04T14:48:33"
             },
             {
+              "standard_l2": "暖通电器",
+              "source": "governed_bottom_table",
+              "research_version": "v2",
+              "research_updated_at": "2026-06-08T17:57:44"
+            },
+            {
               "standard_l2": "汽车电子",
               "source": "governed_bottom_table",
               "research_version": "v1",
               "research_updated_at": "2026-06-05T11:08:01"
+            },
+            {
+              "standard_l2": "清洁电器",
+              "source": "governed_bottom_table",
+              "research_version": "v2",
+              "research_updated_at": "2026-06-08T15:11:17"
             },
             {
               "standard_l2": "照明产品",
@@ -234,6 +259,12 @@
               "source": "governed_bottom_table",
               "research_version": "v1",
               "research_updated_at": "2026-06-04T14:44:39"
+            },
+            {
+              "standard_l2": "美发造型电器",
+              "source": "governed_bottom_table",
+              "research_version": "v2",
+              "research_updated_at": "2026-06-08T18:00:14"
             },
             {
               "standard_l2": "耳机",
