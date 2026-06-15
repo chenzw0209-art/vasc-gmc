@@ -9,8 +9,8 @@
   const $ = (selector) => document.querySelector(selector);
   const WEEK_FILES = {
     W25: {
-      leads: "./data/weekly/weekly_leads_content_2026_W25.json?v=20260615-weekly-c",
-      industry: "./data/weekly/industry_brief_supply_2026_W25.json?v=20260615-weekly-c",
+      leads: "./data/weekly/weekly_leads_content_2026_W25.json?v=20260615-weekly-e",
+      industry: "./data/weekly/industry_brief_supply_2026_W25.json?v=20260615-weekly-e",
     },
     W24: {
       leads: "./data/weekly/weekly_leads_content_2026_W24.json?v=20260608-weekly-h",
@@ -119,11 +119,18 @@
   function syncIndustrySelect() {
     const select = $("#industry-filter");
     if (!select) return;
-    const industries = [...new Set(allRows().map((row) => safe(row.standard_l2, "")).filter(Boolean))];
-    select.innerHTML = industries.map((name) => `<option value="${name}">${name}</option>`).join("");
-    select.value = safe(state.selected?.standard_l2, industries[0] || "");
+    const options = [];
+    const seen = new Set();
+    for (const row of allRows()) {
+      const value = industryKey(row);
+      if (seen.has(value)) continue;
+      seen.add(value);
+      options.push({ value, label: `${safe(row.standard_l1)} / ${safe(row.standard_l2, "-")}` });
+    }
+    select.innerHTML = options.map((item) => `<option value="${item.value}">${item.label}</option>`).join("");
+    select.value = industryKey(state.selected || allRows()[0] || {});
     select.onchange = () => {
-      const match = allRows().find((row) => row.standard_l2 === select.value);
+      const match = allRows().find((row) => industryKey(row) === select.value);
       state.selected = match || state.selected;
       renderIndustryBrief();
       renderSimilarCustomers();
@@ -154,8 +161,8 @@
               <tr data-index="${index}">
                 <td class="num">${index + 1}</td>
                 <td><span class="l1-pill">${safe(row.titan_category)}</span></td>
-                <td><span class="l1-pill">${safe(row.standard_l1)}</span></td>
-                <td><button class="industry-link" data-index="${index}" title="${safe(row.standard_l2)}">${safe(row.standard_l2)}</button></td>
+                <td><button class="industry-link" data-index="${index}" title="${safe(row.standard_l1)}">${safe(row.standard_l1)}</button></td>
+                <td title="${safe(row.standard_l2, "-")}">${safe(row.standard_l2, "-")}</td>
                 <td title="${safe(row.standard_l3)}">${safe(row.standard_l3)}</td>
                 <td title="${safe(row.owner_company_brand)}">${ownerName(row)}</td>
                 <td title="${safe(row.dynamic_type)}">${safe(row.dynamic_type)}</td>

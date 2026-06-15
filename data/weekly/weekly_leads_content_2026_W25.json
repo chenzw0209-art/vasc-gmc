@@ -20,7 +20,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "电视与显示",
+        "standard_l2": "电视与视频显示",
         "standard_l3": "MiniLED电视/世界杯场景",
         "application_product_name": "Hisense RGB MiniLED TV pop-up",
         "owner_company_brand": "Hisense",
@@ -37,6 +37,7 @@
         "warehouse_suggestion": "是",
         "review_note": "官方赞助权益与零售导流明确",
         "source_count": "1",
+        "source_standard_l2": "电视与显示",
         "dynamic_date_display": "06-12"
       },
       {
@@ -45,7 +46,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "投影与家庭影院",
+        "standard_l2": "电视与视频显示",
         "standard_l3": "4K激光投影",
         "application_product_name": "JMGO N3 Ultimate",
         "owner_company_brand": "JMGO",
@@ -62,6 +63,7 @@
         "warehouse_suggestion": "是",
         "review_note": "中国投影品牌；全球发布与观赛场景清晰",
         "source_count": "1",
+        "source_standard_l2": "投影与家庭影院",
         "dynamic_date_display": "06-11"
       },
       {
@@ -70,7 +72,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "FMCG",
-        "standard_l2": "食品与饮料",
+        "standard_l2": "饮料",
         "standard_l3": "茶饮/礼盒",
         "application_product_name": "Dofo Tea refreshed packaging",
         "owner_company_brand": "Chaozhou DoFo Tea",
@@ -87,6 +89,7 @@
         "warehouse_suggestion": "是",
         "review_note": "美国免邮与官网转化信息明确",
         "source_count": "1",
+        "source_standard_l2": "食品与饮料",
         "dynamic_date_display": "06-12"
       },
       {
@@ -95,7 +98,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Fashion",
-        "standard_l2": "跨境电商平台",
+        "standard_l2": "服装综合",
         "standard_l3": "卖家合规/服饰平台",
         "application_product_name": "SHEIN Product Safety and Quality Compliance Series",
         "owner_company_brand": "SHEIN",
@@ -112,6 +115,7 @@
         "warehouse_suggestion": "是",
         "review_note": "Fashion已按独立一级行业收纳",
         "source_count": "1",
+        "source_standard_l2": "跨境电商平台",
         "dynamic_date_display": "06-10"
       },
       {
@@ -120,7 +124,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Fashion",
-        "standard_l2": "服饰零售",
+        "standard_l2": "服装综合",
         "standard_l3": "校园大使/美国内容营销",
         "application_product_name": "SHEIN Campus Retreat 2026",
         "owner_company_brand": "SHEIN",
@@ -137,6 +141,7 @@
         "warehouse_suggestion": "是",
         "review_note": "海外活动与目标人群明确",
         "source_count": "1",
+        "source_standard_l2": "服饰零售",
         "dynamic_date_display": "06-04"
       },
       {
@@ -145,7 +150,7 @@
         "search_date": "2026-06-12",
         "titan_category": "AG",
         "standard_l1": "泛娱乐",
-        "standard_l2": "长视频/流媒体",
+        "standard_l2": "-",
         "standard_l3": "AI影视制作",
         "application_product_name": "None Shall Escape / NadouPro",
         "owner_company_brand": "iQIYI",
@@ -162,6 +167,7 @@
         "warehouse_suggestion": "是",
         "review_note": "国际站上线与AI工具事实明确",
         "source_count": "1",
+        "source_standard_l2": "长视频/流媒体",
         "dynamic_date_display": "06-09"
       },
       {
@@ -170,7 +176,7 @@
         "search_date": "2026-06-12",
         "titan_category": "AG",
         "standard_l1": "Gaming",
-        "standard_l2": "游戏",
+        "standard_l2": "-",
         "standard_l3": "发行/发布会",
         "application_product_name": "Tencent Games SPARK 2026 updates",
         "owner_company_brand": "Tencent Games",
@@ -187,6 +193,7 @@
         "warehouse_suggestion": "是",
         "review_note": "官方页面；作为W25游戏线索池前置信号",
         "source_count": "1",
+        "source_standard_l2": "游戏",
         "dynamic_date_display": "05-29"
       },
       {
@@ -195,7 +202,7 @@
         "search_date": "2026-06-12",
         "titan_category": "AG",
         "standard_l1": "Gaming",
-        "standard_l2": "游戏",
+        "standard_l2": "-",
         "standard_l3": "PC/主机叙事动作",
         "application_product_name": "Blood Message",
         "owner_company_brand": "NetEase Games / 24 Entertainment",
@@ -212,6 +219,7 @@
         "warehouse_suggestion": "是",
         "review_note": "官方新闻；海外展会曝光明确",
         "source_count": "1",
+        "source_standard_l2": "游戏",
         "dynamic_date_display": "06-05"
       },
       {
@@ -220,7 +228,7 @@
         "search_date": "2026-06-12",
         "titan_category": "AG",
         "standard_l1": "Fintech",
-        "standard_l2": "跨境支付",
+        "standard_l2": "-",
         "standard_l3": "钱包网络/拉美商户",
         "application_product_name": "Alipay+ Latin America payments",
         "owner_company_brand": "Ant International",
@@ -237,6 +245,7 @@
         "warehouse_suggestion": "是",
         "review_note": "近14天窗口内的硬信源，可延续到W25跟进",
         "source_count": "1",
+        "source_standard_l2": "跨境支付",
         "dynamic_date_display": "05-26"
       },
       {
@@ -245,7 +254,7 @@
         "search_date": "2026-06-12",
         "titan_category": "AG",
         "standard_l1": "Fintech",
-        "standard_l2": "跨境汇款",
+        "standard_l2": "-",
         "standard_l3": "汇款到中国",
         "application_product_name": "TenPay Global Remit to China",
         "owner_company_brand": "Tencent Financial Technology / TenPay Global",
@@ -262,6 +271,7 @@
         "warehouse_suggestion": "是",
         "review_note": "需补PRNewswire原始链接",
         "source_count": "1",
+        "source_standard_l2": "跨境汇款",
         "dynamic_date_display": "06-05"
       },
       {
@@ -270,7 +280,7 @@
         "search_date": "2026-06-12",
         "titan_category": "AG",
         "standard_l1": "AI应用",
-        "standard_l2": "AI视频生成",
+        "standard_l2": "-",
         "standard_l3": "日本AI动画创作者",
         "application_product_name": "Hailuo 2.3 / MiniMax",
         "owner_company_brand": "MiniMax",
@@ -287,6 +297,7 @@
         "warehouse_suggestion": "是",
         "review_note": "官方博客；时间略早但可做W25预备追踪",
         "source_count": "1",
+        "source_standard_l2": "AI视频生成",
         "dynamic_date_display": "05-21"
       },
       {
@@ -295,7 +306,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "户外电源",
+        "standard_l2": "户外便携电源储能",
         "standard_l3": "便携储能/EOFY促销",
         "application_product_name": "BLUETTI EOFY Sale",
         "owner_company_brand": "BLUETTI",
@@ -312,6 +323,7 @@
         "warehouse_suggestion": "是",
         "review_note": "W24已跟踪FridgePower，W25延伸到澳洲促销窗口",
         "source_count": "1",
+        "source_standard_l2": "户外电源",
         "dynamic_date_display": "06-01"
       },
       {
@@ -337,6 +349,7 @@
         "warehouse_suggestion": "是",
         "review_note": "Fortune披露马来西亚开店计划及东南亚渠道布局",
         "source_count": "2",
+        "source_standard_l2": "彩妆",
         "dynamic_date_display": "06-09"
       },
       {
@@ -345,7 +358,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Health",
-        "standard_l2": "营养与保健",
+        "standard_l2": "草药植物补充剂",
         "standard_l3": "冬虫夏草健康产品",
         "application_product_name": "HEC Life+ Singapore Flagship",
         "owner_company_brand": "HEC Group / HEC Life+",
@@ -362,6 +375,7 @@
         "warehouse_suggestion": "是",
         "review_note": "2026-06-09正式开店，2026-06-11官方披露；海外主体、地点和产品明确",
         "source_count": "1",
+        "source_standard_l2": "营养与保健",
         "dynamic_date_display": "06-11"
       }
     ],
@@ -369,7 +383,7 @@
       "MiniLED电视/世界杯场景": {
         "industry": "MiniLED电视/世界杯场景",
         "lead_count": 1,
-        "headline": "电视与显示本周新增1条可复核信号",
+        "headline": "电视与视频显示本周新增1条可复核信号",
         "signals": [
           "Hisense纽约世界杯主题快闪展示RGB MiniLED"
         ],
@@ -380,7 +394,7 @@
       "4K激光投影": {
         "industry": "4K激光投影",
         "lead_count": 1,
-        "headline": "投影与家庭影院本周新增1条可复核信号",
+        "headline": "电视与视频显示本周新增1条可复核信号",
         "signals": [
           "JMGO以比赛日场景推广N3 Ultimate三色激光投影"
         ],
@@ -391,7 +405,7 @@
       "茶饮/礼盒": {
         "industry": "茶饮/礼盒",
         "lead_count": 1,
-        "headline": "食品与饮料本周新增1条可复核信号",
+        "headline": "饮料本周新增1条可复核信号",
         "signals": [
           "Dofo Tea完成全线包装焕新并面向美国订单促销"
         ],
@@ -402,7 +416,7 @@
       "卖家合规/服饰平台": {
         "industry": "卖家合规/服饰平台",
         "lead_count": 1,
-        "headline": "跨境电商平台本周新增1条可复核信号",
+        "headline": "服装综合本周新增1条可复核信号",
         "signals": [
           "SHEIN联合TIC机构推出卖家产品安全与质量合规培训"
         ],
@@ -413,7 +427,7 @@
       "校园大使/美国内容营销": {
         "industry": "校园大使/美国内容营销",
         "lead_count": 1,
-        "headline": "服饰零售本周新增1条可复核信号",
+        "headline": "服装综合本周新增1条可复核信号",
         "signals": [
           "SHEIN在迈阿密举办Campus Retreat与首个校园时装秀"
         ],
@@ -424,7 +438,7 @@
       "AI影视制作": {
         "industry": "AI影视制作",
         "lead_count": 1,
-        "headline": "长视频/流媒体本周新增1条可复核信号",
+        "headline": "-本周新增1条可复核信号",
         "signals": [
           "iQIYI上线AI辅助制作电影并同步国际站"
         ],
@@ -435,7 +449,7 @@
       "发行/发布会": {
         "industry": "发行/发布会",
         "lead_count": 1,
-        "headline": "游戏本周新增1条可复核信号",
+        "headline": "-本周新增1条可复核信号",
         "signals": [
           "Tencent Games在SPARK 2026发布45项国内外市场更新"
         ],
@@ -446,7 +460,7 @@
       "PC/主机叙事动作": {
         "industry": "PC/主机叙事动作",
         "lead_count": 1,
-        "headline": "游戏本周新增1条可复核信号",
+        "headline": "-本周新增1条可复核信号",
         "signals": [
           "NetEase在Summer Game Fest发布Blood Message新预告"
         ],
@@ -457,7 +471,7 @@
       "钱包网络/拉美商户": {
         "industry": "钱包网络/拉美商户",
         "lead_count": 1,
-        "headline": "跨境支付本周新增1条可复核信号",
+        "headline": "-本周新增1条可复核信号",
         "signals": [
           "Alipay+支持合作钱包在拉美PVS商户扫码支付"
         ],
@@ -468,7 +482,7 @@
       "汇款到中国": {
         "industry": "汇款到中国",
         "lead_count": 1,
-        "headline": "跨境汇款本周新增1条可复核信号",
+        "headline": "-本周新增1条可复核信号",
         "signals": [
           "TenPay Global推出非中国公民汇款到中国服务"
         ],
@@ -479,7 +493,7 @@
       "日本AI动画创作者": {
         "industry": "日本AI动画创作者",
         "lead_count": 1,
-        "headline": "AI视频生成本周新增1条可复核信号",
+        "headline": "-本周新增1条可复核信号",
         "signals": [
           "MiniMax披露Hailuo 2.3在日本AI动画创作者中渗透"
         ],
@@ -490,7 +504,7 @@
       "便携储能/EOFY促销": {
         "industry": "便携储能/EOFY促销",
         "lead_count": 1,
-        "headline": "户外电源本周新增1条可复核信号",
+        "headline": "户外便携电源储能本周新增1条可复核信号",
         "signals": [
           "BLUETTI澳洲EOFY促销覆盖Elite 300等储能产品"
         ],
@@ -512,7 +526,7 @@
       "冬虫夏草健康产品": {
         "industry": "冬虫夏草健康产品",
         "lead_count": 1,
-        "headline": "营养与保健本周新增1条可复核信号",
+        "headline": "草药植物补充剂本周新增1条可复核信号",
         "signals": [
           "HEC Life+在新加坡开出首家海外旗舰店"
         ],
@@ -522,11 +536,119 @@
       }
     },
     "similar_customers_by_candidate": {
-      "W25-C001": [],
-      "W25-C002": [],
+      "W25-C001": [
+        {
+          "candidate_id": "W25-C002",
+          "week": "W25",
+          "search_date": "2026-06-12",
+          "titan_category": "EC",
+          "standard_l1": "Consumer Tech",
+          "standard_l2": "电视与视频显示",
+          "standard_l3": "4K激光投影",
+          "application_product_name": "JMGO N3 Ultimate",
+          "owner_company_brand": "JMGO",
+          "target_market_channel": "全球官网/美国Amazon/足球观赛场景",
+          "dynamic_type": "全球发布/场景营销",
+          "dynamic_date": "2026-06-11",
+          "dynamic_summary": "JMGO以比赛日场景推广N3 Ultimate三色激光投影",
+          "attention_point": "体育观赛、家庭影院、测评内容",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/upgrade-your-match-day-setup-with-jmgo-triple-laser-projectors-302796832.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "中国投影品牌；全球发布与观赛场景清晰",
+          "source_count": "1",
+          "source_standard_l2": "投影与家庭影院",
+          "dynamic_date_display": "06-11"
+        }
+      ],
+      "W25-C002": [
+        {
+          "candidate_id": "W25-C001",
+          "week": "W25",
+          "search_date": "2026-06-12",
+          "titan_category": "EC",
+          "standard_l1": "Consumer Tech",
+          "standard_l2": "电视与视频显示",
+          "standard_l3": "MiniLED电视/世界杯场景",
+          "application_product_name": "Hisense RGB MiniLED TV pop-up",
+          "owner_company_brand": "Hisense",
+          "target_market_channel": "美国纽约Hudson Yards/美国官网",
+          "dynamic_type": "线下活动/体育IP营销",
+          "dynamic_date": "2026-06-12",
+          "dynamic_summary": "Hisense纽约世界杯主题快闪展示RGB MiniLED",
+          "attention_point": "世界杯场景、线下互动、美国零售转化",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/hisense-rgb-themed-pop-up-event-lights-up-the-new-landmark-of-fifa-world-cup-2026-302798850.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "官方赞助权益与零售导流明确",
+          "source_count": "1",
+          "source_standard_l2": "电视与显示",
+          "dynamic_date_display": "06-12"
+        }
+      ],
       "W25-C003": [],
-      "W25-C004": [],
-      "W25-C005": [],
+      "W25-C004": [
+        {
+          "candidate_id": "W25-C005",
+          "week": "W25",
+          "search_date": "2026-06-12",
+          "titan_category": "EC",
+          "standard_l1": "Fashion",
+          "standard_l2": "服装综合",
+          "standard_l3": "校园大使/美国内容营销",
+          "application_product_name": "SHEIN Campus Retreat 2026",
+          "owner_company_brand": "SHEIN",
+          "target_market_channel": "美国Miami/校园大使",
+          "dynamic_type": "品牌活动/达人社群",
+          "dynamic_date": "2026-06-04",
+          "dynamic_summary": "SHEIN在迈阿密举办Campus Retreat与首个校园时装秀",
+          "attention_point": "美国校园内容、KOC社群、服饰新品曝光",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/shein-returns-to-miami-for-2026-campus-retreat-featuring-first-ever-campus-fashion-show-302791094.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "海外活动与目标人群明确",
+          "source_count": "1",
+          "source_standard_l2": "服饰零售",
+          "dynamic_date_display": "06-04"
+        }
+      ],
+      "W25-C005": [
+        {
+          "candidate_id": "W25-C004",
+          "week": "W25",
+          "search_date": "2026-06-12",
+          "titan_category": "EC",
+          "standard_l1": "Fashion",
+          "standard_l2": "服装综合",
+          "standard_l3": "卖家合规/服饰平台",
+          "application_product_name": "SHEIN Product Safety and Quality Compliance Series",
+          "owner_company_brand": "SHEIN",
+          "target_market_channel": "全球Marketplace卖家",
+          "dynamic_type": "卖家教育/合规建设",
+          "dynamic_date": "2026-06-10",
+          "dynamic_summary": "SHEIN联合TIC机构推出卖家产品安全与质量合规培训",
+          "attention_point": "平台招商、卖家运营、合规内容",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/shein-expands-marketplace-seller-education-offering-with-product-safety-and-quality-compliance-series-302796523.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "Fashion已按独立一级行业收纳",
+          "source_count": "1",
+          "source_standard_l2": "跨境电商平台",
+          "dynamic_date_display": "06-10"
+        }
+      ],
       "W25-C006": [],
       "W25-C007": [
         {
@@ -535,7 +657,7 @@
           "search_date": "2026-06-12",
           "titan_category": "AG",
           "standard_l1": "Gaming",
-          "standard_l2": "游戏",
+          "standard_l2": "-",
           "standard_l3": "PC/主机叙事动作",
           "application_product_name": "Blood Message",
           "owner_company_brand": "NetEase Games / 24 Entertainment",
@@ -552,6 +674,7 @@
           "warehouse_suggestion": "是",
           "review_note": "官方新闻；海外展会曝光明确",
           "source_count": "1",
+          "source_standard_l2": "游戏",
           "dynamic_date_display": "06-05"
         }
       ],
@@ -562,7 +685,7 @@
           "search_date": "2026-06-12",
           "titan_category": "AG",
           "standard_l1": "Gaming",
-          "standard_l2": "游戏",
+          "standard_l2": "-",
           "standard_l3": "发行/发布会",
           "application_product_name": "Tencent Games SPARK 2026 updates",
           "owner_company_brand": "Tencent Games",
@@ -579,11 +702,66 @@
           "warehouse_suggestion": "是",
           "review_note": "官方页面；作为W25游戏线索池前置信号",
           "source_count": "1",
+          "source_standard_l2": "游戏",
           "dynamic_date_display": "05-29"
         }
       ],
-      "W25-C009": [],
-      "W25-C010": [],
+      "W25-C009": [
+        {
+          "candidate_id": "W25-C010",
+          "week": "W25",
+          "search_date": "2026-06-12",
+          "titan_category": "AG",
+          "standard_l1": "Fintech",
+          "standard_l2": "-",
+          "standard_l3": "汇款到中国",
+          "application_product_name": "TenPay Global Remit to China",
+          "owner_company_brand": "Tencent Financial Technology / TenPay Global",
+          "target_market_channel": "新加坡/非中国公民",
+          "dynamic_type": "新服务上线",
+          "dynamic_date": "2026-06-05",
+          "dynamic_summary": "TenPay Global推出非中国公民汇款到中国服务",
+          "attention_point": "跨境汇款、在华收款、金融合规",
+          "source_grade": "B",
+          "source_layer": "P1",
+          "primary_source_name": "The Asian Banker",
+          "primary_source_url": "https://www.theasianbanker.com/mediafeed-news/details?filter=23792&pd=05+Jun+2026&rkey=20260604AE76132",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "需补PRNewswire原始链接",
+          "source_count": "1",
+          "source_standard_l2": "跨境汇款",
+          "dynamic_date_display": "06-05"
+        }
+      ],
+      "W25-C010": [
+        {
+          "candidate_id": "W25-C009",
+          "week": "W25",
+          "search_date": "2026-06-12",
+          "titan_category": "AG",
+          "standard_l1": "Fintech",
+          "standard_l2": "-",
+          "standard_l3": "钱包网络/拉美商户",
+          "application_product_name": "Alipay+ Latin America payments",
+          "owner_company_brand": "Ant International",
+          "target_market_channel": "智利/阿根廷/拉美商户",
+          "dynamic_type": "区域扩张/支付合作",
+          "dynamic_date": "2026-05-26",
+          "dynamic_summary": "Alipay+支持合作钱包在拉美PVS商户扫码支付",
+          "attention_point": "拉美商户覆盖、旅行支付、钱包伙伴",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "Business Wire",
+          "primary_source_url": "https://www.businesswire.com/news/home/20260526146133/en/Ant-Internationals-Alipay-Enables-Mobile-Payments-for-Global-Travellers-in-Latin-America",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "近14天窗口内的硬信源，可延续到W25跟进",
+          "source_count": "1",
+          "source_standard_l2": "跨境支付",
+          "dynamic_date_display": "05-26"
+        }
+      ],
       "W25-C011": [],
       "W25-C012": [],
       "W25-C013": [],
@@ -599,7 +777,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "电视与显示",
+        "standard_l2": "电视与视频显示",
         "standard_l3": "MiniLED电视/世界杯场景",
         "application_product_name": "Hisense RGB MiniLED TV pop-up",
         "owner_company_brand": "Hisense",
@@ -616,6 +794,7 @@
         "warehouse_suggestion": "是",
         "review_note": "官方赞助权益与零售导流明确",
         "source_count": "1",
+        "source_standard_l2": "电视与显示",
         "dynamic_date_display": "06-12"
       },
       {
@@ -624,7 +803,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "投影与家庭影院",
+        "standard_l2": "电视与视频显示",
         "standard_l3": "4K激光投影",
         "application_product_name": "JMGO N3 Ultimate",
         "owner_company_brand": "JMGO",
@@ -641,6 +820,7 @@
         "warehouse_suggestion": "是",
         "review_note": "中国投影品牌；全球发布与观赛场景清晰",
         "source_count": "1",
+        "source_standard_l2": "投影与家庭影院",
         "dynamic_date_display": "06-11"
       },
       {
@@ -649,7 +829,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "FMCG",
-        "standard_l2": "食品与饮料",
+        "standard_l2": "饮料",
         "standard_l3": "茶饮/礼盒",
         "application_product_name": "Dofo Tea refreshed packaging",
         "owner_company_brand": "Chaozhou DoFo Tea",
@@ -666,6 +846,7 @@
         "warehouse_suggestion": "是",
         "review_note": "美国免邮与官网转化信息明确",
         "source_count": "1",
+        "source_standard_l2": "食品与饮料",
         "dynamic_date_display": "06-12"
       },
       {
@@ -674,7 +855,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Fashion",
-        "standard_l2": "跨境电商平台",
+        "standard_l2": "服装综合",
         "standard_l3": "卖家合规/服饰平台",
         "application_product_name": "SHEIN Product Safety and Quality Compliance Series",
         "owner_company_brand": "SHEIN",
@@ -691,6 +872,7 @@
         "warehouse_suggestion": "是",
         "review_note": "Fashion已按独立一级行业收纳",
         "source_count": "1",
+        "source_standard_l2": "跨境电商平台",
         "dynamic_date_display": "06-10"
       },
       {
@@ -699,7 +881,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Fashion",
-        "standard_l2": "服饰零售",
+        "standard_l2": "服装综合",
         "standard_l3": "校园大使/美国内容营销",
         "application_product_name": "SHEIN Campus Retreat 2026",
         "owner_company_brand": "SHEIN",
@@ -716,6 +898,7 @@
         "warehouse_suggestion": "是",
         "review_note": "海外活动与目标人群明确",
         "source_count": "1",
+        "source_standard_l2": "服饰零售",
         "dynamic_date_display": "06-04"
       },
       {
@@ -724,7 +907,7 @@
         "search_date": "2026-06-12",
         "titan_category": "AG",
         "standard_l1": "泛娱乐",
-        "standard_l2": "长视频/流媒体",
+        "standard_l2": "-",
         "standard_l3": "AI影视制作",
         "application_product_name": "None Shall Escape / NadouPro",
         "owner_company_brand": "iQIYI",
@@ -741,6 +924,7 @@
         "warehouse_suggestion": "是",
         "review_note": "国际站上线与AI工具事实明确",
         "source_count": "1",
+        "source_standard_l2": "长视频/流媒体",
         "dynamic_date_display": "06-09"
       },
       {
@@ -749,7 +933,7 @@
         "search_date": "2026-06-12",
         "titan_category": "AG",
         "standard_l1": "Gaming",
-        "standard_l2": "游戏",
+        "standard_l2": "-",
         "standard_l3": "发行/发布会",
         "application_product_name": "Tencent Games SPARK 2026 updates",
         "owner_company_brand": "Tencent Games",
@@ -766,6 +950,7 @@
         "warehouse_suggestion": "是",
         "review_note": "官方页面；作为W25游戏线索池前置信号",
         "source_count": "1",
+        "source_standard_l2": "游戏",
         "dynamic_date_display": "05-29"
       },
       {
@@ -774,7 +959,7 @@
         "search_date": "2026-06-12",
         "titan_category": "AG",
         "standard_l1": "Gaming",
-        "standard_l2": "游戏",
+        "standard_l2": "-",
         "standard_l3": "PC/主机叙事动作",
         "application_product_name": "Blood Message",
         "owner_company_brand": "NetEase Games / 24 Entertainment",
@@ -791,6 +976,7 @@
         "warehouse_suggestion": "是",
         "review_note": "官方新闻；海外展会曝光明确",
         "source_count": "1",
+        "source_standard_l2": "游戏",
         "dynamic_date_display": "06-05"
       },
       {
@@ -799,7 +985,7 @@
         "search_date": "2026-06-12",
         "titan_category": "AG",
         "standard_l1": "Fintech",
-        "standard_l2": "跨境支付",
+        "standard_l2": "-",
         "standard_l3": "钱包网络/拉美商户",
         "application_product_name": "Alipay+ Latin America payments",
         "owner_company_brand": "Ant International",
@@ -816,6 +1002,7 @@
         "warehouse_suggestion": "是",
         "review_note": "近14天窗口内的硬信源，可延续到W25跟进",
         "source_count": "1",
+        "source_standard_l2": "跨境支付",
         "dynamic_date_display": "05-26"
       },
       {
@@ -824,7 +1011,7 @@
         "search_date": "2026-06-12",
         "titan_category": "AG",
         "standard_l1": "Fintech",
-        "standard_l2": "跨境汇款",
+        "standard_l2": "-",
         "standard_l3": "汇款到中国",
         "application_product_name": "TenPay Global Remit to China",
         "owner_company_brand": "Tencent Financial Technology / TenPay Global",
@@ -841,6 +1028,7 @@
         "warehouse_suggestion": "是",
         "review_note": "需补PRNewswire原始链接",
         "source_count": "1",
+        "source_standard_l2": "跨境汇款",
         "dynamic_date_display": "06-05"
       },
       {
@@ -849,7 +1037,7 @@
         "search_date": "2026-06-12",
         "titan_category": "AG",
         "standard_l1": "AI应用",
-        "standard_l2": "AI视频生成",
+        "standard_l2": "-",
         "standard_l3": "日本AI动画创作者",
         "application_product_name": "Hailuo 2.3 / MiniMax",
         "owner_company_brand": "MiniMax",
@@ -866,6 +1054,7 @@
         "warehouse_suggestion": "是",
         "review_note": "官方博客；时间略早但可做W25预备追踪",
         "source_count": "1",
+        "source_standard_l2": "AI视频生成",
         "dynamic_date_display": "05-21"
       },
       {
@@ -874,7 +1063,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "户外电源",
+        "standard_l2": "户外便携电源储能",
         "standard_l3": "便携储能/EOFY促销",
         "application_product_name": "BLUETTI EOFY Sale",
         "owner_company_brand": "BLUETTI",
@@ -891,6 +1080,7 @@
         "warehouse_suggestion": "是",
         "review_note": "W24已跟踪FridgePower，W25延伸到澳洲促销窗口",
         "source_count": "1",
+        "source_standard_l2": "户外电源",
         "dynamic_date_display": "06-01"
       },
       {
@@ -916,6 +1106,7 @@
         "warehouse_suggestion": "是",
         "review_note": "Fortune披露马来西亚开店计划及东南亚渠道布局",
         "source_count": "2",
+        "source_standard_l2": "彩妆",
         "dynamic_date_display": "06-09"
       },
       {
@@ -924,7 +1115,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Health",
-        "standard_l2": "营养与保健",
+        "standard_l2": "草药植物补充剂",
         "standard_l3": "冬虫夏草健康产品",
         "application_product_name": "HEC Life+ Singapore Flagship",
         "owner_company_brand": "HEC Group / HEC Life+",
@@ -941,6 +1132,7 @@
         "warehouse_suggestion": "是",
         "review_note": "2026-06-09正式开店，2026-06-11官方披露；海外主体、地点和产品明确",
         "source_count": "1",
+        "source_standard_l2": "营养与保健",
         "dynamic_date_display": "06-11"
       }
     ]
