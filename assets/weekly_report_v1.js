@@ -9,8 +9,8 @@
   const $ = (selector) => document.querySelector(selector);
   const WEEK_FILES = {
     W25: {
-      leads: "./data/weekly/weekly_leads_content_2026_W25.json?v=20260615-weekly-f",
-      industry: "./data/weekly/industry_brief_supply_2026_W25.json?v=20260615-weekly-f",
+      leads: "./data/weekly/weekly_leads_content_2026_W25.json?v=20260615-weekly-g",
+      industry: "./data/weekly/industry_brief_supply_2026_W25.json?v=20260615-weekly-g",
     },
     W24: {
       leads: "./data/weekly/weekly_leads_content_2026_W24.json?v=20260608-weekly-h",
