@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-06-12",
+  "generated_at": "2026-06-15",
   "source_workbook": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W25）.xlsx",
   "weekly_module_content": {
     "week": "2026-W25",
-    "top_summary": "W25更新：Consumer Tech3条；Beauty2条；Fashion2条；Fintech2条；Gaming2条。本周新增出海媒体补扫，重点补强Beauty、Fashion、FMCG等非3C类目。",
+    "top_summary": "W25更新：Consumer Tech3条；Fashion2条；Fintech2条；Gaming2条；AI应用1条。本周新增出海媒体补扫，重点补强Beauty、Fashion、FMCG等非3C类目。",
     "kpis": {
       "focus_customer_count": 14,
       "new_customer_signal_count": 14,
       "product_candidate_count": 8,
       "app_candidate_count": 6,
-      "grade_a_count": 11,
-      "exhibition_count": 13
+      "grade_a_count": 12,
+      "exhibition_count": 10,
+      "tender_count": 15
     },
     "focus_customers": [
       {
@@ -319,49 +320,49 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Beauty",
-        "standard_l2": "??",
-        "standard_l3": "????/?????",
+        "standard_l2": "彩妆",
+        "standard_l3": "东南亚门店/本地化彩妆",
         "application_product_name": "Judydoll / Joocyee",
         "owner_company_brand": "Joy Group",
-        "target_market_channel": "????/???/??/???",
-        "dynamic_type": "????/????",
+        "target_market_channel": "马来西亚/新加坡/Shopee/Lazada/TikTok Shop",
+        "dynamic_type": "渠道扩张/区域本地化",
         "dynamic_date": "2026-06-09",
-        "dynamic_summary": "Joy Group??????????????????????",
-        "attention_point": "???C-Beauty????????KOL??",
+        "dynamic_summary": "Joy Group计划年内在马来西亚开店",
+        "attention_point": "东南亚门店、电商渠道、本地化产品",
         "source_grade": "B",
         "source_layer": "P1",
         "primary_source_name": "Fortune / Joy Group LinkedIn",
         "primary_source_url": "https://fortune.com/2026/06/09/chinese-beauty-brands-southeast-asia-go-global/",
-        "link_status": "???",
-        "warehouse_suggestion": "?",
-        "review_note": "P1???????Joy Group????????????????",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "Fortune披露马来西亚开店计划及东南亚渠道布局",
         "source_count": "2",
         "dynamic_date_display": "06-09"
       },
       {
-        "candidate_id": "W25-C014",
+        "candidate_id": "W25-C015",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "EC",
-        "standard_l1": "Beauty",
-        "standard_l2": "?????",
-        "standard_l3": "????/????",
-        "application_product_name": "AromeManpo ????",
-        "owner_company_brand": "?????????? / ????",
-        "target_market_channel": "????/??/??????",
-        "dynamic_type": "??/????",
-        "dynamic_date": "2026-06-08",
-        "dynamic_summary": "????????????????????????????",
-        "attention_point": "????????????????",
-        "source_grade": "B",
-        "source_layer": "P1",
-        "primary_source_name": "??? / Morketing",
-        "primary_source_url": "https://www.guandian.cn/article/20260608/565679.html",
-        "link_status": "???",
-        "warehouse_suggestion": "?",
-        "review_note": "???????5??W25??6??????????????",
-        "source_count": "2",
-        "dynamic_date_display": "06-08"
+        "standard_l1": "Health",
+        "standard_l2": "营养与保健",
+        "standard_l3": "冬虫夏草健康产品",
+        "application_product_name": "HEC Life+ Singapore Flagship",
+        "owner_company_brand": "HEC Group / HEC Life+",
+        "target_market_channel": "新加坡Marina Bay Sands线下零售",
+        "dynamic_type": "海外首店/渠道扩张",
+        "dynamic_date": "2026-06-11",
+        "dynamic_summary": "HEC Life+在新加坡开出首家海外旗舰店",
+        "attention_point": "新加坡首店、健康消费、区域零售",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://en.prnasia.com/releases/apac/hec-group-opens-first-overseas-flagship-store-at-marina-bay-sands-singapore-536833.shtml",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "2026-06-09正式开店，2026-06-11官方披露；海外主体、地点和产品明确",
+        "source_count": "1",
+        "dynamic_date_display": "06-11"
       }
     ],
     "industry_brief_by_industry": {
@@ -497,26 +498,26 @@
           "澳洲大促、便携储能、DTC活动"
         ]
       },
-      "????/?????": {
-        "industry": "????/?????",
+      "东南亚门店/本地化彩妆": {
+        "industry": "东南亚门店/本地化彩妆",
         "lead_count": 1,
-        "headline": "??本周新增1条可复核信号",
+        "headline": "彩妆本周新增1条可复核信号",
         "signals": [
-          "Joy Group??????????????????????"
+          "Joy Group计划年内在马来西亚开店"
         ],
         "recommended_focus": [
-          "???C-Beauty????????KOL??"
+          "东南亚门店、电商渠道、本地化产品"
         ]
       },
-      "????/????": {
-        "industry": "????/????",
+      "冬虫夏草健康产品": {
+        "industry": "冬虫夏草健康产品",
         "lead_count": 1,
-        "headline": "?????本周新增1条可复核信号",
+        "headline": "营养与保健本周新增1条可复核信号",
         "signals": [
-          "????????????????????????????"
+          "HEC Life+在新加坡开出首家海外旗舰店"
         ],
         "recommended_focus": [
-          "????????????????"
+          "新加坡首店、健康消费、区域零售"
         ]
       }
     },
@@ -586,7 +587,7 @@
       "W25-C011": [],
       "W25-C012": [],
       "W25-C013": [],
-      "W25-C014": []
+      "W25-C015": []
     }
   },
   "leads_module_content": {
@@ -898,49 +899,49 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Beauty",
-        "standard_l2": "??",
-        "standard_l3": "????/?????",
+        "standard_l2": "彩妆",
+        "standard_l3": "东南亚门店/本地化彩妆",
         "application_product_name": "Judydoll / Joocyee",
         "owner_company_brand": "Joy Group",
-        "target_market_channel": "????/???/??/???",
-        "dynamic_type": "????/????",
+        "target_market_channel": "马来西亚/新加坡/Shopee/Lazada/TikTok Shop",
+        "dynamic_type": "渠道扩张/区域本地化",
         "dynamic_date": "2026-06-09",
-        "dynamic_summary": "Joy Group??????????????????????",
-        "attention_point": "???C-Beauty????????KOL??",
+        "dynamic_summary": "Joy Group计划年内在马来西亚开店",
+        "attention_point": "东南亚门店、电商渠道、本地化产品",
         "source_grade": "B",
         "source_layer": "P1",
         "primary_source_name": "Fortune / Joy Group LinkedIn",
         "primary_source_url": "https://fortune.com/2026/06/09/chinese-beauty-brands-southeast-asia-go-global/",
-        "link_status": "???",
-        "warehouse_suggestion": "?",
-        "review_note": "P1???????Joy Group????????????????",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "Fortune披露马来西亚开店计划及东南亚渠道布局",
         "source_count": "2",
         "dynamic_date_display": "06-09"
       },
       {
-        "candidate_id": "W25-C014",
+        "candidate_id": "W25-C015",
         "week": "W25",
         "search_date": "2026-06-12",
         "titan_category": "EC",
-        "standard_l1": "Beauty",
-        "standard_l2": "?????",
-        "standard_l3": "????/????",
-        "application_product_name": "AromeManpo ????",
-        "owner_company_brand": "?????????? / ????",
-        "target_market_channel": "????/??/??????",
-        "dynamic_type": "??/????",
-        "dynamic_date": "2026-06-08",
-        "dynamic_summary": "????????????????????????????",
-        "attention_point": "????????????????",
-        "source_grade": "B",
-        "source_layer": "P1",
-        "primary_source_name": "??? / Morketing",
-        "primary_source_url": "https://www.guandian.cn/article/20260608/565679.html",
-        "link_status": "???",
-        "warehouse_suggestion": "?",
-        "review_note": "???????5??W25??6??????????????",
-        "source_count": "2",
-        "dynamic_date_display": "06-08"
+        "standard_l1": "Health",
+        "standard_l2": "营养与保健",
+        "standard_l3": "冬虫夏草健康产品",
+        "application_product_name": "HEC Life+ Singapore Flagship",
+        "owner_company_brand": "HEC Group / HEC Life+",
+        "target_market_channel": "新加坡Marina Bay Sands线下零售",
+        "dynamic_type": "海外首店/渠道扩张",
+        "dynamic_date": "2026-06-11",
+        "dynamic_summary": "HEC Life+在新加坡开出首家海外旗舰店",
+        "attention_point": "新加坡首店、健康消费、区域零售",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://en.prnasia.com/releases/apac/hec-group-opens-first-overseas-flagship-store-at-marina-bay-sands-singapore-536833.shtml",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "2026-06-09正式开店，2026-06-11官方披露；海外主体、地点和产品明确",
+        "source_count": "1",
+        "dynamic_date_display": "06-11"
       }
     ]
   },
@@ -956,33 +957,7 @@
       "window_value": "跨境卖家、平台服务商、品牌出海客户集中。",
       "source_grade": "B",
       "url": "https://www.huodongxing.com/event/9852250280500",
-      "review_note": "W24沿用至W25窗口"
-    },
-    {
-      "event_id": "W25-E002",
-      "week": "W25",
-      "event_window": "2026-W25",
-      "industry": "跨境电商",
-      "event_name": "TikTok Shop ACE全域增长峰会深圳站",
-      "location": "深圳",
-      "date": "2026-06-17",
-      "window_value": "TikTok Shop商家和服务商集中，可抓直播与内容增长线索。",
-      "source_grade": "B",
-      "url": "https://www.amz123.com/hd/jlLZxvTP",
-      "review_note": "W25窗口"
-    },
-    {
-      "event_id": "W25-E003",
-      "week": "W25",
-      "event_window": "2026-W25",
-      "industry": "跨境电商",
-      "event_name": "2026宁波出口跨境电商博览会",
-      "location": "宁波",
-      "date": "2026-06-17",
-      "window_value": "出口跨境电商品牌和服务商集中，可抓展商名单。",
-      "source_grade": "B",
-      "url": "https://www.amz123.com/hd/gjLixPhZ",
-      "review_note": "W25窗口"
+      "review_note": "浏览器渲染已核验：2026-06-16至06-18，广州"
     },
     {
       "event_id": "W25-E004",
@@ -991,11 +966,11 @@
       "industry": "独立站",
       "event_name": "出海必备：独立站Shopify前沿机会",
       "location": "杭州",
-      "date": "2026-06-18",
+      "date": "2026-05-28",
       "window_value": "独立站卖家和Shopify服务商集中，可抓建站与转化线索。",
       "source_grade": "B",
       "url": "https://hz.huodongxing.com/event/8856869193022",
-      "review_note": "W25窗口"
+      "review_note": "浏览器渲染已核验：05/28-06/27线上长期活动，起始0528；原标0618不准"
     },
     {
       "event_id": "W25-E005",
@@ -1099,20 +1074,159 @@
       "window_value": "跨境电商AI工具用户集中，可抓卖家及内容生产需求。",
       "source_grade": "B",
       "url": "https://www.huodongxing.com/event/4860664466000",
-      "review_note": "活动行详情页200；日期与深圳地点来自底表核验"
+      "review_note": "浏览器渲染已核验：2026-06-26，深圳福田会展中心"
+    }
+  ],
+  "tender_opportunity_content": [
+    {
+      "tender_id": "1-W25",
+      "project_name": "九寨沟国际传播中心海外宣传营销项目",
+      "publisher": "九寨沟管理局",
+      "business_scope": "海外宣传营销/国际传播",
+      "week": "W25",
+      "bid_period": "2026-06-05至2026-06-17",
+      "budget": "没披露",
+      "url": "https://www.jiuzhai.com/dynamic/public/11162-2026-06-05-08-33-03"
     },
     {
-      "event_id": "W25-E013",
+      "tender_id": "2-W25",
+      "project_name": "泸州老窖·国窖1573海外品牌推广咨询区域性服务项目",
+      "publisher": "泸州老窖",
+      "business_scope": "海外品牌推广咨询",
       "week": "W25",
-      "event_window": "2026-W25/W26",
-      "industry": "Beauty/Fashion",
-      "event_name": "DTC品牌出海分享会美妆时尚篇",
-      "location": "线上",
-      "date": "2026-06-26",
-      "window_value": "美妆与时尚DTC卖家定向聚集，适合补非3C客户名单。",
-      "source_grade": "B",
-      "url": "https://www.huodongxing.com/event/3844800593300",
-      "review_note": "活动行详情页200；扬帆出海主办"
+      "bid_period": "没披露",
+      "budget": "没披露",
+      "url": "https://www.lzlj.com/news/bulletin/tenders/12576.html"
+    },
+    {
+      "tender_id": "3-W25",
+      "project_name": "26年家用外销全球OEM客户大会-会务执行",
+      "publisher": "广东美的制冷设备有限公司-海外营销",
+      "business_scope": "全球OEM客户大会/会务执行/海外客户运营",
+      "week": "W25",
+      "bid_period": "报名至2026-06-18；交付2026-10-11",
+      "budget": "没披露",
+      "url": "https://sourcing.meicloud.com/#/sourceDetai?id=616626464770048"
+    },
+    {
+      "tender_id": "4-W25",
+      "project_name": "2026年海内外传播推广服务",
+      "publisher": "重庆市农业农村委员会",
+      "business_scope": "海内外传播推广/农业品牌传播",
+      "week": "W25",
+      "bid_period": "2026-06-12至2026-06-18",
+      "budget": "400000",
+      "url": "https://www.gec123.com/notices/detail/1641438635620470784"
+    },
+    {
+      "tender_id": "5-W25",
+      "project_name": "招商银行青岛分行“合规与安全”视频拍摄制作供应商征集",
+      "publisher": "招商银行青岛分行",
+      "business_scope": "视频拍摄制作/内容制作",
+      "week": "W25",
+      "bid_period": "报名至2026-06-23",
+      "budget": "没披露",
+      "url": "https://xcg.paas.cmbchina.com/portal/page/platContent.html?id=2606125293722&type=5"
+    },
+    {
+      "tender_id": "6-W25",
+      "project_name": "河南省文化和旅游厅2026年海外网络新媒体矩阵运营项目",
+      "publisher": "河南省文化和旅游厅",
+      "business_scope": "文旅海外新媒体矩阵运营",
+      "week": "W25",
+      "bid_period": "成交公告；服务期1年",
+      "budget": "397500；396000",
+      "url": "https://www.yfbzb.com/inviteBid/detail/20260611_604837445.html"
+    },
+    {
+      "tender_id": "7-W25",
+      "project_name": "得闻奇楠沉香（广东）产业投资有限公司品牌出海营销全案服务项目",
+      "publisher": "得闻奇楠沉香（广东）产业投资有限公司",
+      "business_scope": "品牌出海营销全案/独立站建设",
+      "week": "W25",
+      "bid_period": "中标候选公示至2026-06-16",
+      "budget": "5000000",
+      "url": "http://www.gdyhgcgl.com/572/572/356"
+    },
+    {
+      "tender_id": "8-W25",
+      "project_name": "南昌国际传播中心海外发布平台推广及活动执行项目",
+      "publisher": "南昌国际传播中心/南昌新闻网",
+      "business_scope": "海外发布平台推广/活动执行",
+      "week": "W25",
+      "bid_period": "中标结果公告；2026-06-11",
+      "budget": "178320",
+      "url": "https://www.ncnews.com.cn/zbcggg/zbgg/202606/t20260611_2223878.html"
+    },
+    {
+      "tender_id": "9-W25",
+      "project_name": "2026年苏宁易购香港市场跨境代运营服务商项目",
+      "publisher": "苏宁易购",
+      "business_scope": "香港跨境电商代运营(Google/Meta/YouTube)",
+      "week": "W25",
+      "bid_period": "报名/回标 2026-05-19至2026-06-19",
+      "budget": "没披露",
+      "url": "https://zb.suning.com/bid-web/openIssueDetail.action?issueNo=20260519165136796825c0c0b35df0df"
+    },
+    {
+      "tender_id": "10-W25",
+      "project_name": "广州酒家集团2026年中秋海外活动项目",
+      "publisher": "广州酒家集团食品营销管理有限公司",
+      "business_scope": "海外活动策划/设计/执行",
+      "week": "W25",
+      "bid_period": "响应截止2026-06-19",
+      "budget": "498000",
+      "url": "https://ygcg.gzggzy.cn/m92/fw/20260608/406867.html"
+    },
+    {
+      "tender_id": "11-W25",
+      "project_name": "北京优质电视节目（栏目）海外译制推广传播项目",
+      "publisher": "中共北京市委宣传部",
+      "business_scope": "海外译制/海外传播(欧洲+金砖国家电视台及社媒)",
+      "week": "W25",
+      "bid_period": "响应截止2026-06-22",
+      "budget": "2630200",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/jzxcs/202606/t20260608_26707756.htm"
+    },
+    {
+      "tender_id": "12-W25",
+      "project_name": "華潤(集團)2026-2027年集團海外社交媒體運營推廣服務項目",
+      "publisher": "华润(集团)有限公司",
+      "business_scope": "海外社媒(Facebook/Instagram)运营推广",
+      "week": "W25",
+      "bid_period": "没披露",
+      "budget": "没披露",
+      "url": "https://szecp.com.hk/oauth/public/default/notice_detail.html?param=eyJub3RpY2VJZCI6MTc1NzAsInJmeEhlYWRlcklkIjoxMDk4MDI3Mywic291cmNlQ2F0ZWdvcnkiOiJSRlEifQ=="
+    },
+    {
+      "tender_id": "13-W25",
+      "project_name": "网易有道海外社交媒体平台达人供应商招募",
+      "publisher": "网易有道",
+      "business_scope": "海外达人营销(X/TikTok/YouTube/Facebook/Instagram)",
+      "week": "W25",
+      "bid_period": "报名截止2026-06-12",
+      "budget": "没披露",
+      "url": "没披露"
+    },
+    {
+      "tender_id": "14-W25",
+      "project_name": "山推工程机械2026-2027年度海外社媒推广服务类项目",
+      "publisher": "山推工程机械股份有限公司",
+      "business_scope": "海外社媒/搜索/短视频推广(FB/Google/TikTok/YouTube/IG/LinkedIn/X)",
+      "week": "W25",
+      "bid_period": "招标编号STZBF(G)2026-191；周期未披露",
+      "budget": "没披露",
+      "url": "https://www.shantui.com/about/tender-detail-720802.htm"
+    },
+    {
+      "tender_id": "15-W25",
+      "project_name": "中国美术学院2026年海外社交媒体运营服务项目",
+      "publisher": "中国美术学院",
+      "business_scope": "海外社媒运营",
+      "week": "W25",
+      "bid_period": "响应截止2026-06-26",
+      "budget": "400000",
+      "url": "https://b.zhengcaiyun.cn/luban/detail?parentId=550016&articleId=5GVL3h53vqNGOLeXh796Bg=="
     }
   ],
   "evidence_chain_detail_mapping": {
@@ -1307,8 +1421,8 @@
         "source_grade": "B",
         "source_name": "Fortune",
         "url": "https://fortune.com/2026/06/09/chinese-beauty-brands-southeast-asia-go-global/",
-        "evidence_summary": "Joy Group??Judydoll/Joocyee??????????????????",
-        "link_status_review_note": "????????"
+        "evidence_summary": "Joy Group计划年内在马来西亚开店，并已布局新加坡门店及东南亚电商渠道",
+        "link_status_review_note": "可访问；主体、日期、市场与渠道明确"
       },
       {
         "source_id": "W25-S014",
@@ -1320,8 +1434,8 @@
         "source_grade": "B",
         "source_name": "Joy Group LinkedIn",
         "url": "https://www.linkedin.com/posts/joygroup-beauty_chinese-beauty-brands-flock-to-southeast-activity-7469989417579868161-QMP6",
-        "evidence_summary": "Joy Group????Fortune??????????",
-        "link_status_review_note": "???????????"
+        "evidence_summary": "Joy Group官方账号转发Fortune报道，补充品牌主体关联",
+        "link_status_review_note": "可访问；作为主体辅助证据"
       }
     ],
     "W25-C014": [
@@ -1333,10 +1447,10 @@
         "publish_event_date": "2026-06-08",
         "source_layer": "P1",
         "source_grade": "B",
-        "source_name": "???",
+        "source_name": "观点网",
         "url": "https://www.guandian.cn/article/20260608/565679.html",
-        "evidence_summary": "?????????B?????????????????",
-        "link_status_review_note": "????????"
+        "evidence_summary": "馥郁满铺完成近亿元B轮融资，并计划扩张中国线下直营门店",
+        "link_status_review_note": "可访问；无海外市场证据，排除出客户动态主表"
       },
       {
         "source_id": "W25-S016",
@@ -1348,16 +1462,32 @@
         "source_grade": "B",
         "source_name": "Morketing",
         "url": "https://www.morketing.com/detail/28489",
-        "evidence_summary": "Morketing????????????????????",
-        "link_status_review_note": "????????"
+        "evidence_summary": "Morketing补充馥郁满铺融资和国内渠道信息",
+        "link_status_review_note": "可访问；无海外市场证据，排除出客户动态主表"
+      }
+    ],
+    "W25-C015": [
+      {
+        "source_id": "W25-S017",
+        "candidate_id": "W25-C015",
+        "week": "W25",
+        "dynamic_date": "2026-06-11",
+        "publish_event_date": "2026-06-11",
+        "source_layer": "P0",
+        "source_grade": "A",
+        "source_name": "PRNewswire APAC",
+        "url": "https://en.prnasia.com/releases/apac/hec-group-opens-first-overseas-flagship-store-at-marina-bay-sands-singapore-536833.shtml",
+        "evidence_summary": "HEC Life+在新加坡滨海湾金沙开出首家海外旗舰店",
+        "link_status_review_note": "可访问；开店日期、地点、品牌和产品明确"
       }
     ]
   },
   "data_quality_check_result": {
     "sheet_source": "售前情报库周更新工作簿",
-    "customer_rows": 14,
-    "event_rows": 13,
-    "source_rows": 16,
+    "customer_rows": 15,
+    "event_rows": 10,
+    "tender_rows": 15,
+    "source_rows": 17,
     "customer_rows_note": "仅筛除是否建议入库=否的记录；页面只消费本JSON，不读取Excel。"
   }
 }

@@ -9,8 +9,8 @@
   const $ = (selector) => document.querySelector(selector);
   const WEEK_FILES = {
     W25: {
-      leads: "./data/weekly/weekly_leads_content_2026_W25.json?v=20260612-weekly-b",
-      industry: "./data/weekly/industry_brief_supply_2026_W25.json?v=20260612-weekly-b",
+      leads: "./data/weekly/weekly_leads_content_2026_W25.json?v=20260615-weekly-c",
+      industry: "./data/weekly/industry_brief_supply_2026_W25.json?v=20260615-weekly-c",
     },
     W24: {
       leads: "./data/weekly/weekly_leads_content_2026_W24.json?v=20260608-weekly-h",
@@ -52,6 +52,11 @@
     return match ? `${match[2]}-${match[3]}` : shortText(text, 12);
   }
 
+  function externalLink(value) {
+    const text = safe(value, "");
+    return /^https?:\/\//i.test(text) ? text : "";
+  }
+
   function allRows() {
     return state.content.leads_module_content?.records || state.content.weekly_module_content.focus_customers || [];
   }
@@ -75,6 +80,7 @@
     const weekly = state.content.weekly_module_content;
     const rows = allRows();
     const exhibitions = state.content.exhibition_window_content || [];
+    const tenders = state.content.tender_opportunity_content || [];
     const productCount = rows.filter((row) => row.titan_category === "EC").length;
     const appCount = rows.length - productCount;
     const gradeACount = rows.filter((row) => row.source_grade === "A").length;
@@ -85,6 +91,7 @@
       ["应用候选", appCount, "App / 游戏 / 平台", "应", "tone-purple"],
       ["A级信源", gradeACount, "官方/硬证据", "A", "tone-green"],
       ["重点展会", exhibitions.length, state.activeWeek === "W25" ? "W25窗口" : "W24/W25窗口", "展", "tone-blue"],
+      ["招投标线索", tenders.length, "海外营销相关项目", "标", "tone-orange"],
     ];
 
     $("#sales-focus").innerHTML = `
@@ -249,6 +256,39 @@
       </div>`;
   }
 
+  function renderTenderOpportunities() {
+    const rows = state.content.tender_opportunity_content || [];
+    $("#tender-opportunities").innerHTML = `
+      <div class="table-fit tender-table-fit">
+        <table class="data-table tender-table">
+          <thead>
+            <tr>
+              <th class="col-tender-id">#</th>
+              <th class="col-tender-project">项目名</th>
+              <th class="col-tender-publisher">发布方</th>
+              <th class="col-tender-scope">业务范畴</th>
+              <th class="col-tender-period">投标周期</th>
+              <th class="col-tender-budget">预算规模</th>
+              <th class="col-tender-link">原始链接</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map((row) => `
+              <tr>
+                <td>${safe(row.tender_id)}</td>
+                <td title="${safe(row.project_name)}">${safe(row.project_name)}</td>
+                <td title="${safe(row.publisher)}">${safe(row.publisher)}</td>
+                <td title="${safe(row.business_scope)}">${safe(row.business_scope)}</td>
+                <td title="${safe(row.bid_period)}">${safe(row.bid_period)}</td>
+                <td>${safe(row.budget, "没披露")}</td>
+                <td>${externalLink(row.url) ? `<a class="inline-link" href="${externalLink(row.url)}" target="_blank" rel="noreferrer">打开</a>` : "没披露"}</td>
+              </tr>
+            `).join("") || "<tr><td colspan=\"7\">暂无招投标记录</td></tr>"}
+          </tbody>
+        </table>
+      </div>`;
+  }
+
   function similarRows(candidateId) {
     return state.content.weekly_module_content.similar_customers_by_candidate[candidateId] || [];
   }
@@ -290,6 +330,7 @@
     renderCustomerTable();
     renderIndustryBrief();
     renderEventWindows();
+    renderTenderOpportunities();
     renderSimilarCustomers();
   }
 

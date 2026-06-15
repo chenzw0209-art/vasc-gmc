@@ -1,6 +1,6 @@
 {
   "week": "2026-W25",
-  "generated_at": "2026-06-12",
+  "generated_at": "2026-06-15",
   "source_files": {
     "lead_workbook": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W25）.xlsx",
     "research_root": "Z:\\增长分析中台\\行研洞察"
@@ -70,11 +70,11 @@
       "this_week_lead_count": 1
     },
     {
-      "source_lead_industry_key": "Beauty|??",
+      "source_lead_industry_key": "Beauty|彩妆",
       "primary_industry": "Beauty",
-      "secondary_industry": "??",
-      "mapped_research_industry": "??",
-      "industry_key": "Beauty|??",
+      "secondary_industry": "彩妆",
+      "mapped_research_industry": "彩妆",
+      "industry_key": "Beauty|彩妆",
       "metrics": {
         "gmv": "W25线索侧预备口径",
         "yoy_growth": "待行研底表补齐",
@@ -82,11 +82,11 @@
         "top_cn_player": "Joy Group"
       },
       "current_stage": "周度信号预备扫描",
-      "main_variable": "??本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_variable": "彩妆本周变量来自1条客户动态，需用后续底表验证强度。",
       "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "Joy Group??????????????????????"
+        "Joy Group计划年内在马来西亚开店"
       ],
       "verification_metrics": [
         "官方更新频率",
@@ -110,87 +110,24 @@
           "candidate_id": "W25-C013",
           "lead_category": "EC",
           "primary_industry": "Beauty",
-          "secondary_industry": "??",
-          "tertiary_category": "????/?????",
+          "secondary_industry": "彩妆",
+          "tertiary_category": "东南亚门店/本地化彩妆",
           "product_name": "Judydoll / Joocyee",
           "owner": "Joy Group",
-          "dynamic_type": "????/????",
-          "dynamic_summary": "Joy Group??????????????????????",
-          "suggested_focus": "???C-Beauty????????KOL??",
+          "dynamic_type": "渠道扩张/区域本地化",
+          "dynamic_summary": "Joy Group计划年内在马来西亚开店",
+          "suggested_focus": "东南亚门店、电商渠道、本地化产品",
           "source_grade": "B"
         }
       ],
       "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
       "bottom_table_path": "待行研底表补齐",
       "coverage_status": "线索侧预备覆盖",
-      "industry_conclusion": "Beauty/??本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "industry_conclusion": "Beauty/彩妆本周有1条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Beauty/??：W25预备信号",
+        "title": "Beauty/彩妆：W25预备信号",
         "metric_line": "1条线索 / Top主体：Joy Group",
-        "signal_line": "Joy Group??????????????????????",
-        "risk_line": "行业深度结论待行研供给补齐。"
-      },
-      "this_week_lead_count": 1
-    },
-    {
-      "source_lead_industry_key": "Beauty|?????",
-      "primary_industry": "Beauty",
-      "secondary_industry": "?????",
-      "mapped_research_industry": "?????",
-      "industry_key": "Beauty|?????",
-      "metrics": {
-        "gmv": "W25线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
-        "top_cn_player": "?????????? / ????"
-      },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "?????本周变量来自1条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
-      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
-      "growth_signals_short": [
-        "????????????????????????????"
-      ],
-      "verification_metrics": [
-        "官方更新频率",
-        "海外渠道信号",
-        "社媒声量",
-        "转化数据"
-      ],
-      "counter_signals": [
-        "硬信源后续没有渠道/榜单数据承接",
-        "海外市场动作停留在传播层"
-      ],
-      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
-      "similar_customers": [
-        {
-          "brand": "?????????? / ????",
-          "grade": "B"
-        }
-      ],
-      "this_week_leads": [
-        {
-          "candidate_id": "W25-C014",
-          "lead_category": "EC",
-          "primary_industry": "Beauty",
-          "secondary_industry": "?????",
-          "tertiary_category": "????/????",
-          "product_name": "AromeManpo ????",
-          "owner": "?????????? / ????",
-          "dynamic_type": "??/????",
-          "dynamic_summary": "????????????????????????????",
-          "suggested_focus": "????????????????",
-          "source_grade": "B"
-        }
-      ],
-      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
-      "industry_conclusion": "Beauty/?????本周有1条可复核客户动态，适合先进入销售扫描池。",
-      "visual_summary": {
-        "title": "Beauty/?????：W25预备信号",
-        "metric_line": "1条线索 / Top主体：?????????? / ????",
-        "signal_line": "????????????????????????????",
+        "signal_line": "Joy Group计划年内在马来西亚开店",
         "risk_line": "行业深度结论待行研供给补齐。"
       },
       "this_week_lead_count": 1
@@ -779,6 +716,69 @@
         "risk_line": "行业深度结论待行研供给补齐。"
       },
       "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "Health|营养与保健",
+      "primary_industry": "Health",
+      "secondary_industry": "营养与保健",
+      "mapped_research_industry": "营养与保健",
+      "industry_key": "Health|营养与保健",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "HEC Group / HEC Life+"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "营养与保健本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "HEC Life+在新加坡开出首家海外旗舰店"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "HEC Group / HEC Life+",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C015",
+          "lead_category": "EC",
+          "primary_industry": "Health",
+          "secondary_industry": "营养与保健",
+          "tertiary_category": "冬虫夏草健康产品",
+          "product_name": "HEC Life+ Singapore Flagship",
+          "owner": "HEC Group / HEC Life+",
+          "dynamic_type": "海外首店/渠道扩张",
+          "dynamic_summary": "HEC Life+在新加坡开出首家海外旗舰店",
+          "suggested_focus": "新加坡首店、健康消费、区域零售",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Health/营养与保健本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Health/营养与保健：W25预备信号",
+        "metric_line": "1条线索 / Top主体：HEC Group / HEC Life+",
+        "signal_line": "HEC Life+在新加坡开出首家海外旗舰店",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
     },
     {
       "source_lead_industry_key": "泛娱乐|长视频/流媒体",

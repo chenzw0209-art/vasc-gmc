@@ -2313,6 +2313,244 @@ a { color: inherit; text-decoration: none; }
   white-space: nowrap;
 }
 
+/* W24 industry brief visual guardrails */
+.weekly-page .sales-focus-card {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 10px;
+  height: 340px;
+  padding: 14px 16px;
+}
+
+.weekly-page .sales-focus-head {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 14px;
+  align-items: stretch;
+  margin-bottom: 0;
+}
+
+.weekly-page .sales-focus-head .sales-focus-title {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.weekly-page .sales-focus-head .week-summary-box {
+  min-height: 52px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+}
+
+.weekly-page .sales-focus-head .week-summary-title {
+  margin-bottom: 3px;
+  font-size: 11px;
+  font-weight: 800;
+  color: #2563eb;
+}
+
+.weekly-page .sales-focus-head .week-summary-text {
+  display: -webkit-box;
+  overflow: hidden;
+  color: #334155;
+  line-height: 1.45;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.weekly-page .sales-focus-list {
+  height: auto;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.weekly-page .sales-focus-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.weekly-page .sales-focus-table th,
+.weekly-page .sales-focus-table td {
+  height: 26px;
+  padding: 0 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.weekly-page .sales-focus-table th:nth-child(1) { width: 170px; }
+.weekly-page .sales-focus-table th:nth-child(2) { width: 110px; }
+.weekly-page .sales-focus-table th:nth-child(3) { width: 300px; }
+.weekly-page .sales-focus-table th:nth-child(4) { width: auto; }
+
+.weekly-page .brand-row {
+  gap: 8px;
+  padding: 0 14px;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.weekly-page .brand-row span:last-child {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 18px;
+}
+
+.weekly-page .report-row-insight {
+  grid-template-columns: minmax(0, 4fr) minmax(230px, 1fr);
+}
+
+.weekly-page .industry-brief-card {
+  height: 340px;
+}
+
+.weekly-page .similar-customers-card {
+  height: 260px;
+}
+
+.weekly-page .industry-brief-grid {
+  grid-template-columns: minmax(220px, 0.7fr) minmax(460px, 1.6fr) minmax(280px, 0.9fr);
+}
+
+.weekly-page .brief-panel:first-child .brief-title {
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 1.35;
+  min-height: 32px;
+}
+
+.weekly-page .brief-kv-variable {
+  align-items: start;
+  min-height: 40px;
+  white-space: normal;
+}
+
+.weekly-page .brief-kv-variable b {
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 1.35;
+}
+
+.weekly-page .similar-lite-list {
+  height: calc(100% - 34px);
+  overflow: hidden;
+  display: grid;
+  align-content: start;
+  gap: 8px;
+}
+
+.weekly-page .similar-lite-item {
+  min-width: 0;
+  padding: 8px;
+  border: 1px solid #e2e8f0;
+  border-radius: 9px;
+  background: #f8fafc;
+}
+
+.weekly-page .similar-lite-top {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 28px;
+  gap: 6px;
+  align-items: center;
+}
+
+.weekly-page .similar-lite-top b,
+.weekly-page .similar-lite-event,
+.weekly-page .similar-lite-meta {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.weekly-page .similar-lite-top b {
+  color: #0f172a;
+  font-size: 12px;
+}
+
+.weekly-page .similar-lite-event {
+  margin-top: 5px;
+  color: #334155;
+  line-height: 1.35;
+}
+
+.weekly-page .similar-lite-meta {
+  margin-top: 3px;
+  color: #64748b;
+  font-size: 11px;
+}
+
+.weekly-page .similar-empty {
+  padding: 14px 10px;
+  color: #64748b;
+  border-radius: 9px;
+  background: #f8fafc;
+}
+
+@media (max-width: 1800px) {
+  .weekly-page .report-row-insight {
+    grid-template-columns: minmax(0, 3.4fr) minmax(220px, 0.8fr);
+  }
+
+  .weekly-page .industry-brief-card {
+    height: 340px;
+  }
+
+  .weekly-page .similar-customers-card {
+    height: 260px;
+  }
+
+  .weekly-page .industry-brief-grid {
+    grid-template-columns: minmax(190px, 0.7fr) minmax(360px, 1.55fr) minmax(230px, 0.9fr);
+  }
+}
+
+@media (max-width: 1450px) {
+  .weekly-page .report-row-insight {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .weekly-page .sales-focus-card {
+    height: 370px;
+  }
+
+  .weekly-page .sales-focus-head {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .weekly-page .sales-focus-list {
+    height: auto;
+  }
+
+  .weekly-page .industry-brief-grid {
+    grid-template-columns: minmax(190px, 0.85fr) minmax(360px, 1.45fr) minmax(240px, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .weekly-page .industry-brief-grid {
+    grid-template-columns: minmax(0, 1fr);
+    overflow: auto;
+  }
+
+  .weekly-page .brief-panel {
+    border-right: 0;
+    padding-right: 0;
+  }
+}
+
 .weekly-page #market-view .category-layout,
 .weekly-page #market-view .players-layout {
   display: grid;
@@ -2375,5 +2613,101 @@ a { color: inherit; text-decoration: none; }
   .weekly-page #market-view .players-row-1 > .module-card,
   .weekly-page #market-view .players-row-2 > .module-card {
     grid-column: span 6;
+  }
+}
+.tender-table .col-tender-id { width: 7%; }
+.tender-table .col-tender-project { width: 25%; }
+.tender-table .col-tender-publisher { width: 17%; }
+.tender-table .col-tender-scope { width: 20%; }
+.tender-table .col-tender-period { width: 17%; }
+.tender-table .col-tender-budget { width: 9%; }
+.tender-table .col-tender-link { width: 5%; }
+
+.weekly-page .tender-window-card { height: 500px; }
+.weekly-page .tender-table-fit { overflow: auto; }
+.weekly-page .tender-table {
+  width: max-content;
+  min-width: 1180px;
+}
+
+@media (max-width: 900px) {
+  .weekly-page {
+    height: auto;
+    overflow: auto;
+  }
+
+  .weekly-page .app-shell {
+    display: block;
+    height: auto;
+  }
+
+  .weekly-page .app-sidebar {
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .weekly-page .brand-row {
+    height: 48px;
+  }
+
+  .weekly-page .side-nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 8px 12px 10px;
+  }
+
+  .weekly-page .app-main,
+  .weekly-main {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .weekly-content {
+    padding: 12px;
+  }
+
+  .weekly-page .report-header {
+    height: auto;
+    align-items: center;
+  }
+
+  .weekly-page .report-title {
+    font-size: 20px;
+  }
+
+  .weekly-page .week-selector {
+    min-width: 0;
+    width: 210px;
+    max-width: 62vw;
+  }
+
+  .weekly-page .sales-focus-card {
+    height: auto;
+  }
+
+  .weekly-page .sales-focus-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .weekly-page .focus-metric {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 8px;
+  }
+
+  .weekly-page .sales-focus-grid .week-summary-box {
+    grid-column: 1 / -1;
+  }
+
+  .weekly-page .report-row-insight {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .weekly-page .customer-table-card,
+  .weekly-page .event-window-card,
+  .weekly-page .tender-window-card {
+    height: 440px;
   }
 }
