@@ -3,7 +3,7 @@
   "source_workbook": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W25）.xlsx",
   "weekly_module_content": {
     "week": "2026-W25",
-    "top_summary": "W25更新：Consumer Tech3条；Fashion2条；Fintech2条；Gaming2条；AI应用1条。本周新增出海媒体补扫，重点补强Beauty、Fashion、FMCG等非3C类目。",
+    "top_summary": "客户关注草本健康保健赛道出海，HEC Life+、东阳光（HEC Life+），推测扩张SEA。展会关注2026 CCEF中国(广州)跨境电商交易会（广州跨交会）。招投标关注ToG，营销方面季度中频繁释放出出海信号，如泸州老窖、广州酒家。Gaming新客日历枚举版本上线（详见Gaming）。",
     "kpis": {
       "focus_customer_count": 14,
       "new_customer_signal_count": 14,
@@ -145,6 +145,84 @@
         "dynamic_date_display": "06-04"
       },
       {
+        "candidate_id": "W25-C012",
+        "week": "W25",
+        "search_date": "2026-06-12",
+        "titan_category": "EC",
+        "standard_l1": "Consumer Tech",
+        "standard_l2": "户外便携电源储能",
+        "standard_l3": "便携储能/EOFY促销",
+        "application_product_name": "BLUETTI EOFY Sale",
+        "owner_company_brand": "BLUETTI",
+        "target_market_channel": "澳大利亚DTC/线上渠道",
+        "dynamic_type": "区域促销/零售活动",
+        "dynamic_date": "2026-06-01",
+        "dynamic_summary": "BLUETTI澳洲EOFY促销覆盖Elite 300等储能产品",
+        "attention_point": "澳洲大促、便携储能、DTC活动",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://en.prnasia.com/releases/apac/bluetti-launches-eofy-sale-on-power-solutions-with-up-to-44-off-535170.shtml",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "W24已跟踪FridgePower，W25延伸到澳洲促销窗口",
+        "source_count": "1",
+        "source_standard_l2": "户外电源",
+        "dynamic_date_display": "06-01"
+      },
+      {
+        "candidate_id": "W25-C013",
+        "week": "W25",
+        "search_date": "2026-06-12",
+        "titan_category": "EC",
+        "standard_l1": "Beauty",
+        "standard_l2": "彩妆",
+        "standard_l3": "东南亚门店/本地化彩妆",
+        "application_product_name": "Judydoll / Joocyee",
+        "owner_company_brand": "Joy Group",
+        "target_market_channel": "马来西亚/新加坡/Shopee/Lazada/TikTok Shop",
+        "dynamic_type": "渠道扩张/区域本地化",
+        "dynamic_date": "2026-06-09",
+        "dynamic_summary": "Joy Group计划年内在马来西亚开店",
+        "attention_point": "东南亚门店、电商渠道、本地化产品",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "Fortune / Joy Group LinkedIn",
+        "primary_source_url": "https://fortune.com/2026/06/09/chinese-beauty-brands-southeast-asia-go-global/",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "Fortune披露马来西亚开店计划及东南亚渠道布局",
+        "source_count": "2",
+        "source_standard_l2": "彩妆",
+        "dynamic_date_display": "06-09"
+      },
+      {
+        "candidate_id": "W25-C015",
+        "week": "W25",
+        "search_date": "2026-06-12",
+        "titan_category": "EC",
+        "standard_l1": "Health",
+        "standard_l2": "草药植物补充剂",
+        "standard_l3": "冬虫夏草健康产品",
+        "application_product_name": "HEC Life+ Singapore Flagship",
+        "owner_company_brand": "HEC Group / HEC Life+",
+        "target_market_channel": "新加坡Marina Bay Sands线下零售",
+        "dynamic_type": "海外首店/渠道扩张",
+        "dynamic_date": "2026-06-11",
+        "dynamic_summary": "HEC Life+在新加坡开出首家海外旗舰店",
+        "attention_point": "新加坡首店、健康消费、区域零售",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://en.prnasia.com/releases/apac/hec-group-opens-first-overseas-flagship-store-at-marina-bay-sands-singapore-536833.shtml",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "2026-06-09正式开店，2026-06-11官方披露；海外主体、地点和产品明确",
+        "source_count": "1",
+        "source_standard_l2": "营养与保健",
+        "dynamic_date_display": "06-11"
+      },
+      {
         "candidate_id": "W25-C006",
         "week": "W25",
         "search_date": "2026-06-12",
@@ -299,84 +377,6 @@
         "source_count": "1",
         "source_standard_l2": "AI视频生成",
         "dynamic_date_display": "05-21"
-      },
-      {
-        "candidate_id": "W25-C012",
-        "week": "W25",
-        "search_date": "2026-06-12",
-        "titan_category": "EC",
-        "standard_l1": "Consumer Tech",
-        "standard_l2": "户外便携电源储能",
-        "standard_l3": "便携储能/EOFY促销",
-        "application_product_name": "BLUETTI EOFY Sale",
-        "owner_company_brand": "BLUETTI",
-        "target_market_channel": "澳大利亚DTC/线上渠道",
-        "dynamic_type": "区域促销/零售活动",
-        "dynamic_date": "2026-06-01",
-        "dynamic_summary": "BLUETTI澳洲EOFY促销覆盖Elite 300等储能产品",
-        "attention_point": "澳洲大促、便携储能、DTC活动",
-        "source_grade": "A",
-        "source_layer": "P0",
-        "primary_source_name": "PRNewswire APAC",
-        "primary_source_url": "https://en.prnasia.com/releases/apac/bluetti-launches-eofy-sale-on-power-solutions-with-up-to-44-off-535170.shtml",
-        "link_status": "可访问",
-        "warehouse_suggestion": "是",
-        "review_note": "W24已跟踪FridgePower，W25延伸到澳洲促销窗口",
-        "source_count": "1",
-        "source_standard_l2": "户外电源",
-        "dynamic_date_display": "06-01"
-      },
-      {
-        "candidate_id": "W25-C013",
-        "week": "W25",
-        "search_date": "2026-06-12",
-        "titan_category": "EC",
-        "standard_l1": "Beauty",
-        "standard_l2": "彩妆",
-        "standard_l3": "东南亚门店/本地化彩妆",
-        "application_product_name": "Judydoll / Joocyee",
-        "owner_company_brand": "Joy Group",
-        "target_market_channel": "马来西亚/新加坡/Shopee/Lazada/TikTok Shop",
-        "dynamic_type": "渠道扩张/区域本地化",
-        "dynamic_date": "2026-06-09",
-        "dynamic_summary": "Joy Group计划年内在马来西亚开店",
-        "attention_point": "东南亚门店、电商渠道、本地化产品",
-        "source_grade": "B",
-        "source_layer": "P1",
-        "primary_source_name": "Fortune / Joy Group LinkedIn",
-        "primary_source_url": "https://fortune.com/2026/06/09/chinese-beauty-brands-southeast-asia-go-global/",
-        "link_status": "可访问",
-        "warehouse_suggestion": "是",
-        "review_note": "Fortune披露马来西亚开店计划及东南亚渠道布局",
-        "source_count": "2",
-        "source_standard_l2": "彩妆",
-        "dynamic_date_display": "06-09"
-      },
-      {
-        "candidate_id": "W25-C015",
-        "week": "W25",
-        "search_date": "2026-06-12",
-        "titan_category": "EC",
-        "standard_l1": "Health",
-        "standard_l2": "草药植物补充剂",
-        "standard_l3": "冬虫夏草健康产品",
-        "application_product_name": "HEC Life+ Singapore Flagship",
-        "owner_company_brand": "HEC Group / HEC Life+",
-        "target_market_channel": "新加坡Marina Bay Sands线下零售",
-        "dynamic_type": "海外首店/渠道扩张",
-        "dynamic_date": "2026-06-11",
-        "dynamic_summary": "HEC Life+在新加坡开出首家海外旗舰店",
-        "attention_point": "新加坡首店、健康消费、区域零售",
-        "source_grade": "A",
-        "source_layer": "P0",
-        "primary_source_name": "PRNewswire APAC",
-        "primary_source_url": "https://en.prnasia.com/releases/apac/hec-group-opens-first-overseas-flagship-store-at-marina-bay-sands-singapore-536833.shtml",
-        "link_status": "可访问",
-        "warehouse_suggestion": "是",
-        "review_note": "2026-06-09正式开店，2026-06-11官方披露；海外主体、地点和产品明确",
-        "source_count": "1",
-        "source_standard_l2": "营养与保健",
-        "dynamic_date_display": "06-11"
       }
     ],
     "industry_brief_by_industry": {
@@ -433,6 +433,39 @@
         ],
         "recommended_focus": [
           "美国校园内容、KOC社群、服饰新品曝光"
+        ]
+      },
+      "便携储能/EOFY促销": {
+        "industry": "便携储能/EOFY促销",
+        "lead_count": 1,
+        "headline": "户外便携电源储能本周新增1条可复核信号",
+        "signals": [
+          "BLUETTI澳洲EOFY促销覆盖Elite 300等储能产品"
+        ],
+        "recommended_focus": [
+          "澳洲大促、便携储能、DTC活动"
+        ]
+      },
+      "东南亚门店/本地化彩妆": {
+        "industry": "东南亚门店/本地化彩妆",
+        "lead_count": 1,
+        "headline": "彩妆本周新增1条可复核信号",
+        "signals": [
+          "Joy Group计划年内在马来西亚开店"
+        ],
+        "recommended_focus": [
+          "东南亚门店、电商渠道、本地化产品"
+        ]
+      },
+      "冬虫夏草健康产品": {
+        "industry": "冬虫夏草健康产品",
+        "lead_count": 1,
+        "headline": "草药植物补充剂本周新增1条可复核信号",
+        "signals": [
+          "HEC Life+在新加坡开出首家海外旗舰店"
+        ],
+        "recommended_focus": [
+          "新加坡首店、健康消费、区域零售"
         ]
       },
       "AI影视制作": {
@@ -499,39 +532,6 @@
         ],
         "recommended_focus": [
           "日本创作者生态、AI视频订阅、模型API"
-        ]
-      },
-      "便携储能/EOFY促销": {
-        "industry": "便携储能/EOFY促销",
-        "lead_count": 1,
-        "headline": "户外便携电源储能本周新增1条可复核信号",
-        "signals": [
-          "BLUETTI澳洲EOFY促销覆盖Elite 300等储能产品"
-        ],
-        "recommended_focus": [
-          "澳洲大促、便携储能、DTC活动"
-        ]
-      },
-      "东南亚门店/本地化彩妆": {
-        "industry": "东南亚门店/本地化彩妆",
-        "lead_count": 1,
-        "headline": "彩妆本周新增1条可复核信号",
-        "signals": [
-          "Joy Group计划年内在马来西亚开店"
-        ],
-        "recommended_focus": [
-          "东南亚门店、电商渠道、本地化产品"
-        ]
-      },
-      "冬虫夏草健康产品": {
-        "industry": "冬虫夏草健康产品",
-        "lead_count": 1,
-        "headline": "草药植物补充剂本周新增1条可复核信号",
-        "signals": [
-          "HEC Life+在新加坡开出首家海外旗舰店"
-        ],
-        "recommended_focus": [
-          "新加坡首店、健康消费、区域零售"
         ]
       }
     },
@@ -649,6 +649,9 @@
           "dynamic_date_display": "06-10"
         }
       ],
+      "W25-C012": [],
+      "W25-C013": [],
+      "W25-C015": [],
       "W25-C006": [],
       "W25-C007": [
         {
@@ -762,10 +765,7 @@
           "dynamic_date_display": "05-26"
         }
       ],
-      "W25-C011": [],
-      "W25-C012": [],
-      "W25-C013": [],
-      "W25-C015": []
+      "W25-C011": []
     }
   },
   "leads_module_content": {
@@ -902,6 +902,84 @@
         "dynamic_date_display": "06-04"
       },
       {
+        "candidate_id": "W25-C012",
+        "week": "W25",
+        "search_date": "2026-06-12",
+        "titan_category": "EC",
+        "standard_l1": "Consumer Tech",
+        "standard_l2": "户外便携电源储能",
+        "standard_l3": "便携储能/EOFY促销",
+        "application_product_name": "BLUETTI EOFY Sale",
+        "owner_company_brand": "BLUETTI",
+        "target_market_channel": "澳大利亚DTC/线上渠道",
+        "dynamic_type": "区域促销/零售活动",
+        "dynamic_date": "2026-06-01",
+        "dynamic_summary": "BLUETTI澳洲EOFY促销覆盖Elite 300等储能产品",
+        "attention_point": "澳洲大促、便携储能、DTC活动",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://en.prnasia.com/releases/apac/bluetti-launches-eofy-sale-on-power-solutions-with-up-to-44-off-535170.shtml",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "W24已跟踪FridgePower，W25延伸到澳洲促销窗口",
+        "source_count": "1",
+        "source_standard_l2": "户外电源",
+        "dynamic_date_display": "06-01"
+      },
+      {
+        "candidate_id": "W25-C013",
+        "week": "W25",
+        "search_date": "2026-06-12",
+        "titan_category": "EC",
+        "standard_l1": "Beauty",
+        "standard_l2": "彩妆",
+        "standard_l3": "东南亚门店/本地化彩妆",
+        "application_product_name": "Judydoll / Joocyee",
+        "owner_company_brand": "Joy Group",
+        "target_market_channel": "马来西亚/新加坡/Shopee/Lazada/TikTok Shop",
+        "dynamic_type": "渠道扩张/区域本地化",
+        "dynamic_date": "2026-06-09",
+        "dynamic_summary": "Joy Group计划年内在马来西亚开店",
+        "attention_point": "东南亚门店、电商渠道、本地化产品",
+        "source_grade": "B",
+        "source_layer": "P1",
+        "primary_source_name": "Fortune / Joy Group LinkedIn",
+        "primary_source_url": "https://fortune.com/2026/06/09/chinese-beauty-brands-southeast-asia-go-global/",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "Fortune披露马来西亚开店计划及东南亚渠道布局",
+        "source_count": "2",
+        "source_standard_l2": "彩妆",
+        "dynamic_date_display": "06-09"
+      },
+      {
+        "candidate_id": "W25-C015",
+        "week": "W25",
+        "search_date": "2026-06-12",
+        "titan_category": "EC",
+        "standard_l1": "Health",
+        "standard_l2": "草药植物补充剂",
+        "standard_l3": "冬虫夏草健康产品",
+        "application_product_name": "HEC Life+ Singapore Flagship",
+        "owner_company_brand": "HEC Group / HEC Life+",
+        "target_market_channel": "新加坡Marina Bay Sands线下零售",
+        "dynamic_type": "海外首店/渠道扩张",
+        "dynamic_date": "2026-06-11",
+        "dynamic_summary": "HEC Life+在新加坡开出首家海外旗舰店",
+        "attention_point": "新加坡首店、健康消费、区域零售",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire APAC",
+        "primary_source_url": "https://en.prnasia.com/releases/apac/hec-group-opens-first-overseas-flagship-store-at-marina-bay-sands-singapore-536833.shtml",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "2026-06-09正式开店，2026-06-11官方披露；海外主体、地点和产品明确",
+        "source_count": "1",
+        "source_standard_l2": "营养与保健",
+        "dynamic_date_display": "06-11"
+      },
+      {
         "candidate_id": "W25-C006",
         "week": "W25",
         "search_date": "2026-06-12",
@@ -1056,84 +1134,6 @@
         "source_count": "1",
         "source_standard_l2": "AI视频生成",
         "dynamic_date_display": "05-21"
-      },
-      {
-        "candidate_id": "W25-C012",
-        "week": "W25",
-        "search_date": "2026-06-12",
-        "titan_category": "EC",
-        "standard_l1": "Consumer Tech",
-        "standard_l2": "户外便携电源储能",
-        "standard_l3": "便携储能/EOFY促销",
-        "application_product_name": "BLUETTI EOFY Sale",
-        "owner_company_brand": "BLUETTI",
-        "target_market_channel": "澳大利亚DTC/线上渠道",
-        "dynamic_type": "区域促销/零售活动",
-        "dynamic_date": "2026-06-01",
-        "dynamic_summary": "BLUETTI澳洲EOFY促销覆盖Elite 300等储能产品",
-        "attention_point": "澳洲大促、便携储能、DTC活动",
-        "source_grade": "A",
-        "source_layer": "P0",
-        "primary_source_name": "PRNewswire APAC",
-        "primary_source_url": "https://en.prnasia.com/releases/apac/bluetti-launches-eofy-sale-on-power-solutions-with-up-to-44-off-535170.shtml",
-        "link_status": "可访问",
-        "warehouse_suggestion": "是",
-        "review_note": "W24已跟踪FridgePower，W25延伸到澳洲促销窗口",
-        "source_count": "1",
-        "source_standard_l2": "户外电源",
-        "dynamic_date_display": "06-01"
-      },
-      {
-        "candidate_id": "W25-C013",
-        "week": "W25",
-        "search_date": "2026-06-12",
-        "titan_category": "EC",
-        "standard_l1": "Beauty",
-        "standard_l2": "彩妆",
-        "standard_l3": "东南亚门店/本地化彩妆",
-        "application_product_name": "Judydoll / Joocyee",
-        "owner_company_brand": "Joy Group",
-        "target_market_channel": "马来西亚/新加坡/Shopee/Lazada/TikTok Shop",
-        "dynamic_type": "渠道扩张/区域本地化",
-        "dynamic_date": "2026-06-09",
-        "dynamic_summary": "Joy Group计划年内在马来西亚开店",
-        "attention_point": "东南亚门店、电商渠道、本地化产品",
-        "source_grade": "B",
-        "source_layer": "P1",
-        "primary_source_name": "Fortune / Joy Group LinkedIn",
-        "primary_source_url": "https://fortune.com/2026/06/09/chinese-beauty-brands-southeast-asia-go-global/",
-        "link_status": "可访问",
-        "warehouse_suggestion": "是",
-        "review_note": "Fortune披露马来西亚开店计划及东南亚渠道布局",
-        "source_count": "2",
-        "source_standard_l2": "彩妆",
-        "dynamic_date_display": "06-09"
-      },
-      {
-        "candidate_id": "W25-C015",
-        "week": "W25",
-        "search_date": "2026-06-12",
-        "titan_category": "EC",
-        "standard_l1": "Health",
-        "standard_l2": "草药植物补充剂",
-        "standard_l3": "冬虫夏草健康产品",
-        "application_product_name": "HEC Life+ Singapore Flagship",
-        "owner_company_brand": "HEC Group / HEC Life+",
-        "target_market_channel": "新加坡Marina Bay Sands线下零售",
-        "dynamic_type": "海外首店/渠道扩张",
-        "dynamic_date": "2026-06-11",
-        "dynamic_summary": "HEC Life+在新加坡开出首家海外旗舰店",
-        "attention_point": "新加坡首店、健康消费、区域零售",
-        "source_grade": "A",
-        "source_layer": "P0",
-        "primary_source_name": "PRNewswire APAC",
-        "primary_source_url": "https://en.prnasia.com/releases/apac/hec-group-opens-first-overseas-flagship-store-at-marina-bay-sands-singapore-536833.shtml",
-        "link_status": "可访问",
-        "warehouse_suggestion": "是",
-        "review_note": "2026-06-09正式开店，2026-06-11官方披露；海外主体、地点和产品明确",
-        "source_count": "1",
-        "source_standard_l2": "营养与保健",
-        "dynamic_date_display": "06-11"
       }
     ]
   },
