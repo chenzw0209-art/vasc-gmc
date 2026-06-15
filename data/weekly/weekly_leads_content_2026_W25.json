@@ -11,7 +11,7 @@
       "app_candidate_count": 6,
       "grade_a_count": 12,
       "exhibition_count": 10,
-      "tender_count": 15
+      "tender_count": 10
     },
     "focus_customers": [
       {
@@ -1321,46 +1321,6 @@
       "url": "https://xcg.paas.cmbchina.com/portal/page/platContent.html?id=2606125293722&type=5"
     },
     {
-      "tender_id": "6-W25",
-      "project_name": "河南省文化和旅游厅2026年海外网络新媒体矩阵运营项目",
-      "publisher": "河南省文化和旅游厅",
-      "business_scope": "文旅海外新媒体矩阵运营",
-      "week": "W25",
-      "bid_period": "成交公告；服务期1年",
-      "budget": "397500；396000",
-      "url": "https://www.yfbzb.com/inviteBid/detail/20260611_604837445.html"
-    },
-    {
-      "tender_id": "7-W25",
-      "project_name": "得闻奇楠沉香（广东）产业投资有限公司品牌出海营销全案服务项目",
-      "publisher": "得闻奇楠沉香（广东）产业投资有限公司",
-      "business_scope": "品牌出海营销全案/独立站建设",
-      "week": "W25",
-      "bid_period": "中标候选公示至2026-06-16",
-      "budget": "5000000",
-      "url": "http://www.gdyhgcgl.com/572/572/356"
-    },
-    {
-      "tender_id": "8-W25",
-      "project_name": "南昌国际传播中心海外发布平台推广及活动执行项目",
-      "publisher": "南昌国际传播中心/南昌新闻网",
-      "business_scope": "海外发布平台推广/活动执行",
-      "week": "W25",
-      "bid_period": "中标结果公告；2026-06-11",
-      "budget": "178320",
-      "url": "https://www.ncnews.com.cn/zbcggg/zbgg/202606/t20260611_2223878.html"
-    },
-    {
-      "tender_id": "9-W25",
-      "project_name": "2026年苏宁易购香港市场跨境代运营服务商项目",
-      "publisher": "苏宁易购",
-      "business_scope": "香港跨境电商代运营(Google/Meta/YouTube)",
-      "week": "W25",
-      "bid_period": "报名/回标 2026-05-19至2026-06-19",
-      "budget": "没披露",
-      "url": "https://zb.suning.com/bid-web/openIssueDetail.action?issueNo=20260519165136796825c0c0b35df0df"
-    },
-    {
       "tender_id": "10-W25",
       "project_name": "广州酒家集团2026年中秋海外活动项目",
       "publisher": "广州酒家集团食品营销管理有限公司",
@@ -1389,16 +1349,6 @@
       "bid_period": "没披露",
       "budget": "没披露",
       "url": "https://szecp.com.hk/oauth/public/default/notice_detail.html?param=eyJub3RpY2VJZCI6MTc1NzAsInJmeEhlYWRlcklkIjoxMDk4MDI3Mywic291cmNlQ2F0ZWdvcnkiOiJSRlEifQ=="
-    },
-    {
-      "tender_id": "13-W25",
-      "project_name": "网易有道海外社交媒体平台达人供应商招募",
-      "publisher": "网易有道",
-      "business_scope": "海外达人营销(X/TikTok/YouTube/Facebook/Instagram)",
-      "week": "W25",
-      "bid_period": "报名截止2026-06-12",
-      "budget": "没披露",
-      "url": "没披露"
     },
     {
       "tender_id": "14-W25",
@@ -1678,7 +1628,7 @@
     "sheet_source": "售前情报库周更新工作簿",
     "customer_rows": 15,
     "event_rows": 10,
-    "tender_rows": 15,
+    "tender_rows": 10,
     "source_rows": 17,
     "customer_rows_note": "仅筛除是否建议入库=否的记录；页面只消费本JSON，不读取Excel。"
   }
