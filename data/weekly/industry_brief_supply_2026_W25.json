@@ -1,6 +1,6 @@
 {
   "week": "2026-W25",
-  "generated_at": "2026-06-15",
+  "generated_at": "2026-06-16",
   "source_files": {
     "lead_workbook": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W25）.xlsx",
     "research_root": "Z:\\增长分析中台\\行研洞察"
@@ -19,11 +19,15 @@
         "top_cn_player": "MiniMax"
       },
       "current_stage": "周度信号预备扫描",
-      "main_variable": "-本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_variable": "-本周变量来自12条客户动态，需用后续底表验证强度。",
       "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "MiniMax披露Hailuo 2.3在日本AI动画创作者中渗透"
+        "MiniMax披露Hailuo 2.3在日本AI动画创作者中渗透",
+        "美的发布海外扩张智能工厂方案",
+        "FF预告EAI机器人教育产品线发布",
+        "普渡机器人进入瑞士Denner门店",
+        "华为发布AHEAD教育医疗生态计划"
       ],
       "verification_metrics": [
         "官方更新频率",
@@ -40,6 +44,18 @@
         {
           "brand": "MiniMax",
           "grade": "A"
+        },
+        {
+          "brand": "Midea Group",
+          "grade": "A"
+        },
+        {
+          "brand": "Faraday Future",
+          "grade": "A"
+        },
+        {
+          "brand": "Pudu Robotics",
+          "grade": "A"
         }
       ],
       "this_week_leads": [
@@ -55,19 +71,162 @@
           "dynamic_summary": "MiniMax披露Hailuo 2.3在日本AI动画创作者中渗透",
           "suggested_focus": "日本创作者生态、AI视频订阅、模型API",
           "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C016",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "海外工厂解决方案",
+          "product_name": "Agentic Factory Overseas Expansion Solution",
+          "owner": "Midea Group",
+          "dynamic_type": "解决方案发布/出海服务",
+          "dynamic_summary": "美的发布海外扩张智能工厂方案",
+          "suggested_focus": "制造出海客户的工厂数字化需求",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C017",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "EAI家庭教育设备",
+          "product_name": "EAI Robotics Education Product Line",
+          "owner": "Faraday Future",
+          "dynamic_type": "新品发布会/机器人教育生态",
+          "dynamic_summary": "FF预告EAI机器人教育产品线发布",
+          "suggested_focus": "家庭教育机器人与直播发布转化",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C018",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "零售清洁机器人",
+          "product_name": "PUDU CC1 cleaning robot",
+          "owner": "Pudu Robotics",
+          "dynamic_type": "渠道合作/批量部署",
+          "dynamic_summary": "普渡机器人进入瑞士Denner门店",
+          "suggested_focus": "欧洲零售清洁机器人部署窗口",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C019",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "AHEAD生态计划",
+          "product_name": "Huawei AHEAD Program",
+          "owner": "Huawei",
+          "dynamic_type": "生态计划发布/全球伙伴大会",
+          "dynamic_summary": "华为发布AHEAD教育医疗生态计划",
+          "suggested_focus": "教育医疗行业伙伴共创与渠道拓展",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C020",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "医疗大模型升级",
+          "product_name": "Xunfei Healthcare V3.5",
+          "owner": "Xunfei Healthcare",
+          "dynamic_type": "产品升级/全球应用",
+          "dynamic_summary": "讯飞医疗发布V3.5可规模化应用信号",
+          "suggested_focus": "医疗AI产品化与国际叙事",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C024",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "机器人挑战赛",
+          "product_name": "PrismBot robotics team",
+          "owner": "vivo",
+          "dynamic_type": "国际赛事获奖/技术曝光",
+          "dynamic_summary": "vivo机器人团队获ICRA挑战赛奖项",
+          "suggested_focus": "具身智能技术品牌传播",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C027",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "机器人数据集",
+          "product_name": "XRZero-G0 / G0-Dataset",
+          "owner": "X Square Robot",
+          "dynamic_type": "开源发布/开发者生态",
+          "dynamic_summary": "X Square Robot开源XRZero-G0",
+          "suggested_focus": "开发者生态和具身智能数据供给",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C030",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "小分子药物发现",
+          "product_name": "AI robotics-driven GPCR program",
+          "owner": "XtalPi",
+          "dynamic_type": "战略合作/AI制药服务",
+          "dynamic_summary": "晶泰科技与国际药企开发GPCR项目",
+          "suggested_focus": "AI制药平台海外客户合作",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C038",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "F&B劳动力市场",
+          "product_name": "YY Circle Malaysia",
+          "owner": "YY Group",
+          "dynamic_type": "奖项背书/市场采用",
+          "dynamic_summary": "YY Group马来西亚子公司获HAPA奖",
+          "suggested_focus": "东南亚F&B工作平台客户拓展",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C042",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "CVPR技术曝光",
+          "product_name": "XPENG VLA 2.0 / Robotaxi / Humanoid Robots",
+          "owner": "XPENG",
+          "dynamic_type": "国际会议曝光/技术商业化",
+          "dynamic_summary": "小鹏在CVPR展示Physical AI进展",
+          "suggested_focus": "智能出行AI技术海外传播",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C047",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "机器人教育生态",
+          "product_name": "EAI Education Ecosystem",
+          "owner": "Faraday Future",
+          "dynamic_type": "生态合作/教育场景",
+          "dynamic_summary": "FF披露EAI机器人教育生态进展",
+          "suggested_focus": "K-12教育机器人合作切口",
+          "source_grade": "A"
         }
       ],
       "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
       "bottom_table_path": "待行研底表补齐",
       "coverage_status": "线索侧预备覆盖",
-      "industry_conclusion": "AI应用/-本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "industry_conclusion": "AI应用/-本周有12条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
         "title": "AI应用/-：W25预备信号",
-        "metric_line": "1条线索 / Top主体：MiniMax",
-        "signal_line": "MiniMax披露Hailuo 2.3在日本AI动画创作者中渗透",
+        "metric_line": "12条线索 / Top主体：MiniMax",
+        "signal_line": "MiniMax披露Hailuo 2.3在日本AI动画创作者中渗透；美的发布海外扩张智能工厂方案",
         "risk_line": "行业深度结论待行研供给补齐。"
       },
-      "this_week_lead_count": 1
+      "this_week_lead_count": 12
     },
     {
       "source_lead_industry_key": "Beauty|彩妆",
@@ -128,6 +287,132 @@
         "title": "Beauty/彩妆：W25预备信号",
         "metric_line": "1条线索 / Top主体：Joy Group",
         "signal_line": "Joy Group计划年内在马来西亚开店",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|充电与能源设备",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "充电与能源设备",
+      "mapped_research_industry": "充电与能源设备",
+      "industry_key": "Consumer Tech|充电与能源设备",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "SINEXCEL"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "充电与能源设备本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "盛弘股份与Shell Recharge建联合实验室"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "SINEXCEL",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C021",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "充电与能源设备",
+          "tertiary_category": "EV充电实验室",
+          "product_name": "Shell Recharge-SINEXCEL Joint Lab",
+          "owner": "SINEXCEL",
+          "dynamic_type": "国际合作/联合实验室",
+          "dynamic_summary": "盛弘股份与Shell Recharge建联合实验室",
+          "suggested_focus": "海外EV充电生态合作机会",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/充电与能源设备本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/充电与能源设备：W25预备信号",
+        "metric_line": "1条线索 / Top主体：SINEXCEL",
+        "signal_line": "盛弘股份与Shell Recharge建联合实验室",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|厨房与大家电",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "厨房与大家电",
+      "mapped_research_industry": "厨房与大家电",
+      "industry_key": "Consumer Tech|厨房与大家电",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Haier"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "厨房与大家电本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "海尔Horizon冰箱在越南上市"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Haier",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C026",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "厨房与大家电",
+          "tertiary_category": "冰箱/东南亚上市",
+          "product_name": "Haier Horizon Refrigerator",
+          "owner": "Haier",
+          "dynamic_type": "区域新品上市/东南亚扩张",
+          "dynamic_summary": "海尔Horizon冰箱在越南上市",
+          "suggested_focus": "东南亚高端家电渠道扩张",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/厨房与大家电本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/厨房与大家电：W25预备信号",
+        "metric_line": "1条线索 / Top主体：Haier",
+        "signal_line": "海尔Horizon冰箱在越南上市",
         "risk_line": "行业深度结论待行研供给补齐。"
       },
       "this_week_lead_count": 1
@@ -196,6 +481,195 @@
       "this_week_lead_count": 1
     },
     {
+      "source_lead_industry_key": "Consumer Tech|智能穿戴",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "智能穿戴",
+      "mapped_research_industry": "智能穿戴",
+      "industry_key": "Consumer Tech|智能穿戴",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Zepp Health"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "智能穿戴本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Zepp披露新品带动Q1收入增长"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Zepp Health",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C035",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "智能穿戴",
+          "tertiary_category": "Amazfit新品",
+          "product_name": "Amazfit Active Max / T-Rex Ultra 2",
+          "owner": "Zepp Health",
+          "dynamic_type": "业绩披露/新品拉动",
+          "dynamic_summary": "Zepp披露新品带动Q1收入增长",
+          "suggested_focus": "Amazfit新品节奏和渠道投放",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/智能穿戴本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/智能穿戴：W25预备信号",
+        "metric_line": "1条线索 / Top主体：Zepp Health",
+        "signal_line": "Zepp披露新品带动Q1收入增长",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|智能车载",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "智能车载",
+      "mapped_research_industry": "智能车载",
+      "industry_key": "Consumer Tech|智能车载",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "RiderNav"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "智能车载本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "RiderNav开启智能骑行屏夏季活动"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "RiderNav",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C028",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "智能车载",
+          "tertiary_category": "摩托车智能屏",
+          "product_name": "RiderNav R7M / R7X",
+          "owner": "RiderNav",
+          "dynamic_type": "促销活动/全渠道销售",
+          "dynamic_summary": "RiderNav开启智能骑行屏夏季活动",
+          "suggested_focus": "骑行硬件DTC与社群转化",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/智能车载本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/智能车载：W25预备信号",
+        "metric_line": "1条线索 / Top主体：RiderNav",
+        "signal_line": "RiderNav开启智能骑行屏夏季活动",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|电脑外设与充电",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "电脑外设与充电",
+      "mapped_research_industry": "电脑外设与充电",
+      "industry_key": "Consumer Tech|电脑外设与充电",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Baseus"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "电脑外设与充电本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "倍思发布15合1桌面扩展坞"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Baseus",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C025",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电脑外设与充电",
+          "tertiary_category": "桌面扩展坞",
+          "product_name": "Baseus Spacemate RD1 Pro",
+          "owner": "Baseus",
+          "dynamic_type": "新品发布/桌面场景",
+          "dynamic_summary": "倍思发布15合1桌面扩展坞",
+          "suggested_focus": "办公外设新品与DTC转化",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/电脑外设与充电本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/电脑外设与充电：W25预备信号",
+        "metric_line": "1条线索 / Top主体：Baseus",
+        "signal_line": "倍思发布15合1桌面扩展坞",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
       "source_lead_industry_key": "Consumer Tech|电视与视频显示",
       "primary_industry": "Consumer Tech",
       "secondary_industry": "电视与视频显示",
@@ -208,12 +682,13 @@
         "top_cn_player": "Hisense"
       },
       "current_stage": "周度信号预备扫描",
-      "main_variable": "电视与视频显示本周变量来自2条客户动态，需用后续底表验证强度。",
+      "main_variable": "电视与视频显示本周变量来自3条客户动态，需用后续底表验证强度。",
       "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "Hisense纽约世界杯主题快闪展示RGB MiniLED",
-        "JMGO以比赛日场景推广N3 Ultimate三色激光投影"
+        "JMGO以比赛日场景推广N3 Ultimate三色激光投影",
+        "极米TITAN Noir众筹超1800万美元"
       ],
       "verification_metrics": [
         "Amazon排名变化",
@@ -233,6 +708,10 @@
         },
         {
           "brand": "JMGO",
+          "grade": "A"
+        },
+        {
+          "brand": "XGIMI",
           "grade": "A"
         }
       ],
@@ -262,19 +741,158 @@
           "dynamic_summary": "JMGO以比赛日场景推广N3 Ultimate三色激光投影",
           "suggested_focus": "体育观赛、家庭影院、测评内容",
           "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C032",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电视与视频显示",
+          "tertiary_category": "4K投影众筹",
+          "product_name": "XGIMI TITAN Noir Series",
+          "owner": "XGIMI",
+          "dynamic_type": "众筹收官/全球新品验证",
+          "dynamic_summary": "极米TITAN Noir众筹超1800万美元",
+          "suggested_focus": "高客单投影海外新品转化",
+          "source_grade": "A"
         }
       ],
       "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
       "bottom_table_path": "待行研底表补齐",
       "coverage_status": "线索侧预备覆盖",
-      "industry_conclusion": "Consumer Tech/电视与视频显示本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "industry_conclusion": "Consumer Tech/电视与视频显示本周有3条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
         "title": "Consumer Tech/电视与视频显示：W25预备信号",
-        "metric_line": "2条线索 / Top主体：Hisense",
+        "metric_line": "3条线索 / Top主体：Hisense",
         "signal_line": "Hisense纽约世界杯主题快闪展示RGB MiniLED；JMGO以比赛日场景推广N3 Ultimate三色激光投影",
         "risk_line": "行业深度结论待行研供给补齐。"
       },
-      "this_week_lead_count": 2
+      "this_week_lead_count": 3
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|赛事显示设备",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "赛事显示设备",
+      "mapped_research_industry": "赛事显示设备",
+      "industry_key": "Consumer Tech|赛事显示设备",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Hisense"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "赛事显示设备本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "海信RGB MiniLED支持世界杯VAR运行"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Hisense",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C048",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "赛事显示设备",
+          "tertiary_category": "VAR显示供应",
+          "product_name": "Hisense RGB MiniLED VAR TV",
+          "owner": "Hisense",
+          "dynamic_type": "赛事合作/官方设备供应",
+          "dynamic_summary": "海信RGB MiniLED支持世界杯VAR运行",
+          "suggested_focus": "体育IP与显示设备权威背书",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/赛事显示设备本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/赛事显示设备：W25预备信号",
+        "metric_line": "1条线索 / Top主体：Hisense",
+        "signal_line": "海信RGB MiniLED支持世界杯VAR运行",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "FMCG|食品原料",
+      "primary_industry": "FMCG",
+      "secondary_industry": "食品原料",
+      "mapped_research_industry": "食品原料",
+      "industry_key": "FMCG|食品原料",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Angel Yeast"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "食品原料本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "安琪酵母40周年发布可持续报告"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Angel Yeast",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C031",
+          "lead_category": "EC",
+          "primary_industry": "FMCG",
+          "secondary_industry": "食品原料",
+          "tertiary_category": "酵母与生物技术",
+          "product_name": "Angel Yeast global sustainability strategy",
+          "owner": "Angel Yeast",
+          "dynamic_type": "ESG报告/全球战略",
+          "dynamic_summary": "安琪酵母40周年发布可持续报告",
+          "suggested_focus": "食品原料全球客户信任建设",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "FMCG/食品原料本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "FMCG/食品原料：W25预备信号",
+        "metric_line": "1条线索 / Top主体：Angel Yeast",
+        "signal_line": "安琪酵母40周年发布可持续报告",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
     },
     {
       "source_lead_industry_key": "FMCG|饮料",
@@ -433,12 +1051,13 @@
         "top_cn_player": "Ant International"
       },
       "current_stage": "周度信号预备扫描",
-      "main_variable": "-本周变量来自2条客户动态，需用后续底表验证强度。",
+      "main_variable": "-本周变量来自3条客户动态，需用后续底表验证强度。",
       "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "Alipay+支持合作钱包在拉美PVS商户扫码支付",
-        "TenPay Global推出非中国公民汇款到中国服务"
+        "TenPay Global推出非中国公民汇款到中国服务",
+        "Dragonpass发布APAC会员忠诚度指数"
       ],
       "verification_metrics": [
         "覆盖商户数",
@@ -459,6 +1078,10 @@
         {
           "brand": "Tencent Financial Technology / TenPay Global",
           "grade": "B"
+        },
+        {
+          "brand": "Dragonpass",
+          "grade": "A"
         }
       ],
       "this_week_leads": [
@@ -487,19 +1110,32 @@
           "dynamic_summary": "TenPay Global推出非中国公民汇款到中国服务",
           "suggested_focus": "跨境汇款、在华收款、金融合规",
           "source_grade": "B"
+        },
+        {
+          "candidate_id": "W25-C046",
+          "lead_category": "AG",
+          "primary_industry": "Fintech",
+          "secondary_industry": "-",
+          "tertiary_category": "APAC忠诚度报告",
+          "product_name": "Dragonpass APAC Loyalty Index",
+          "owner": "Dragonpass",
+          "dynamic_type": "行业报告/用户洞察",
+          "dynamic_summary": "Dragonpass发布APAC会员忠诚度指数",
+          "suggested_focus": "银行权益与旅行会员营销机会",
+          "source_grade": "A"
         }
       ],
       "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
       "bottom_table_path": "待行研底表补齐",
       "coverage_status": "线索侧预备覆盖",
-      "industry_conclusion": "Fintech/-本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "industry_conclusion": "Fintech/-本周有3条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
         "title": "Fintech/-：W25预备信号",
-        "metric_line": "2条线索 / Top主体：Ant International",
+        "metric_line": "3条线索 / Top主体：Ant International",
         "signal_line": "Alipay+支持合作钱包在拉美PVS商户扫码支付；TenPay Global推出非中国公民汇款到中国服务",
         "risk_line": "行业深度结论待行研供给补齐。"
       },
-      "this_week_lead_count": 2
+      "this_week_lead_count": 3
     },
     {
       "source_lead_industry_key": "Gaming|-",
@@ -583,6 +1219,168 @@
       "this_week_lead_count": 2
     },
     {
+      "source_lead_industry_key": "Health|-",
+      "primary_industry": "Health",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "Health|-",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Simcere Pharmaceutical"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "-本周变量来自3条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "先声药业与Stanford Medicine合作研发",
+        "康方HER3 ADC联合研究入组首例患者",
+        "药明生物新加坡制剂设施封顶"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Simcere Pharmaceutical",
+          "grade": "A"
+        },
+        {
+          "brand": "Akeso",
+          "grade": "A"
+        },
+        {
+          "brand": "WuXi Biologics",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C029",
+          "lead_category": "AG",
+          "primary_industry": "Health",
+          "secondary_industry": "-",
+          "tertiary_category": "IPF研发合作",
+          "product_name": "IPF exploratory therapy collaboration",
+          "owner": "Simcere Pharmaceutical",
+          "dynamic_type": "国际研发合作/授权权益",
+          "dynamic_summary": "先声药业与Stanford Medicine合作研发",
+          "suggested_focus": "医药出海研发合作叙事",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C036",
+          "lead_category": "AG",
+          "primary_industry": "Health",
+          "secondary_industry": "-",
+          "tertiary_category": "ADC临床研究",
+          "product_name": "AK138D1 HER3 ADC",
+          "owner": "Akeso",
+          "dynamic_type": "临床进展/管线发布",
+          "dynamic_summary": "康方HER3 ADC联合研究入组首例患者",
+          "suggested_focus": "创新药国际传播和医学会议跟进",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C041",
+          "lead_category": "AG",
+          "primary_industry": "Health",
+          "secondary_industry": "-",
+          "tertiary_category": "新加坡制剂产能",
+          "product_name": "Singapore CRDMO Hub DP facility",
+          "owner": "WuXi Biologics",
+          "dynamic_type": "海外产能建设/里程碑",
+          "dynamic_summary": "药明生物新加坡制剂设施封顶",
+          "suggested_focus": "全球生物药客户产能背书",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Health/-本周有3条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Health/-：W25预备信号",
+        "metric_line": "3条线索 / Top主体：Simcere Pharmaceutical",
+        "signal_line": "先声药业与Stanford Medicine合作研发；康方HER3 ADC联合研究入组首例患者",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 3
+    },
+    {
+      "source_lead_industry_key": "Health|智能健身",
+      "primary_industry": "Health",
+      "secondary_industry": "智能健身",
+      "mapped_research_industry": "智能健身",
+      "industry_key": "Health|智能健身",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Speediance"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "智能健身本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Speediance成为ATHX智能健身伙伴"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Speediance",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C034",
+          "lead_category": "EC",
+          "primary_industry": "Health",
+          "secondary_industry": "智能健身",
+          "tertiary_category": "力量训练设备",
+          "product_name": "Speediance smart fitness equipment",
+          "owner": "Speediance",
+          "dynamic_type": "全球合作/赛事赞助",
+          "dynamic_summary": "Speediance成为ATHX智能健身伙伴",
+          "suggested_focus": "智能健身硬件赛事场景获客",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Health/智能健身本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Health/智能健身：W25预备信号",
+        "metric_line": "1条线索 / Top主体：Speediance",
+        "signal_line": "Speediance成为ATHX智能健身伙伴",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
       "source_lead_industry_key": "Health|草药植物补充剂",
       "primary_industry": "Health",
       "secondary_industry": "草药植物补充剂",
@@ -646,6 +1444,519 @@
       "this_week_lead_count": 1
     },
     {
+      "source_lead_industry_key": "Lifestyle|家纺寝具",
+      "primary_industry": "Lifestyle",
+      "secondary_industry": "家纺寝具",
+      "mapped_research_industry": "家纺寝具",
+      "industry_key": "Lifestyle|家纺寝具",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Bedsure"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "家纺寝具本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Bedsure推出Prime Day家纺折扣"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Bedsure",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C040",
+          "lead_category": "EC",
+          "primary_industry": "Lifestyle",
+          "secondary_industry": "家纺寝具",
+          "tertiary_category": "Amazon Prime Day",
+          "product_name": "Bedsure Essential / PureWoven bedding",
+          "owner": "Bedsure",
+          "dynamic_type": "平台大促/商品促销",
+          "dynamic_summary": "Bedsure推出Prime Day家纺折扣",
+          "suggested_focus": "Amazon大促家纺投放节奏",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Lifestyle/家纺寝具本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Lifestyle/家纺寝具：W25预备信号",
+        "metric_line": "1条线索 / Top主体：Bedsure",
+        "signal_line": "Bedsure推出Prime Day家纺折扣",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Lifestyle|智能居住",
+      "primary_industry": "Lifestyle",
+      "secondary_industry": "智能居住",
+      "mapped_research_industry": "智能居住",
+      "industry_key": "Lifestyle|智能居住",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "OptiMorph"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "智能居住本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "OptiMorph预告MSpace预制房参展"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "OptiMorph",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C051",
+          "lead_category": "EC",
+          "primary_industry": "Lifestyle",
+          "secondary_industry": "智能居住",
+          "tertiary_category": "预制房/微型住宅",
+          "product_name": "OptiMorph MSpace Prefab House",
+          "owner": "OptiMorph",
+          "dynamic_type": "展前新品曝光/住房产品",
+          "dynamic_summary": "OptiMorph预告MSpace预制房参展",
+          "suggested_focus": "微型住宅产品海外买家触达",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Lifestyle/智能居住本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Lifestyle/智能居住：W25预备信号",
+        "metric_line": "1条线索 / Top主体：OptiMorph",
+        "signal_line": "OptiMorph预告MSpace预制房参展",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "工业|-",
+      "primary_industry": "工业",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "工业|-",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Envision Energy"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "-本周变量来自2条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "远景能源参与老挝未来能源系统",
+        "中车轻轨车辆服务墨西哥赛事交通"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Envision Energy",
+          "grade": "A"
+        },
+        {
+          "brand": "CRRC",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C037",
+          "lead_category": "AG",
+          "primary_industry": "工业",
+          "secondary_industry": "-",
+          "tertiary_category": "东南亚能源项目",
+          "product_name": "Laos future energy system",
+          "owner": "Envision Energy",
+          "dynamic_type": "海外合作/大型能源项目",
+          "dynamic_summary": "远景能源参与老挝未来能源系统",
+          "suggested_focus": "东南亚新能源项目传播和政府客户",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C049",
+          "lead_category": "AG",
+          "primary_industry": "工业",
+          "secondary_industry": "-",
+          "tertiary_category": "墨西哥轻轨车辆",
+          "product_name": "CRRC light rail vehicles in Mexico",
+          "owner": "CRRC",
+          "dynamic_type": "海外项目运营/赛事交通",
+          "dynamic_summary": "中车轻轨车辆服务墨西哥赛事交通",
+          "suggested_focus": "拉美公共交通项目传播",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "工业/-本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "工业/-：W25预备信号",
+        "metric_line": "2条线索 / Top主体：Envision Energy",
+        "signal_line": "远景能源参与老挝未来能源系统；中车轻轨车辆服务墨西哥赛事交通",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "工业|清洁能源",
+      "primary_industry": "工业",
+      "secondary_industry": "清洁能源",
+      "mapped_research_industry": "清洁能源",
+      "industry_key": "工业|清洁能源",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "JinkoSolar"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "清洁能源本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "晶科能源获RETC最高成就评级"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "JinkoSolar",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C033",
+          "lead_category": "EC",
+          "primary_industry": "工业",
+          "secondary_industry": "清洁能源",
+          "tertiary_category": "光伏组件",
+          "product_name": "JinkoSolar PV modules",
+          "owner": "JinkoSolar",
+          "dynamic_type": "第三方评测/品牌背书",
+          "dynamic_summary": "晶科能源获RETC最高成就评级",
+          "suggested_focus": "光伏海外客户信任背书",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "工业/清洁能源本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "工业/清洁能源：W25预备信号",
+        "metric_line": "1条线索 / Top主体：JinkoSolar",
+        "signal_line": "晶科能源获RETC最高成就评级",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "平台|-",
+      "primary_industry": "平台",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "平台|-",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "J&T Express"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "-本周变量来自3条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "极兔东南亚双6包裹量同比增83.5%",
+        "51Talk预告Q1财报和全球教育平台经营",
+        "途牛发布Q1业绩供旅游需求复核"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "J&T Express",
+          "grade": "A"
+        },
+        {
+          "brand": "51Talk",
+          "grade": "A"
+        },
+        {
+          "brand": "Tuniu",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C039",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "东南亚电商物流",
+          "product_name": "J&T Express Double 6 logistics",
+          "owner": "J&T Express",
+          "dynamic_type": "大促履约增长/区域运营",
+          "dynamic_summary": "极兔东南亚双6包裹量同比增83.5%",
+          "suggested_focus": "东南亚大促物流与商家服务",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C044",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "全球英语教育",
+          "product_name": "51Talk global online education platform",
+          "owner": "51Talk",
+          "dynamic_type": "业绩披露/全球平台运营",
+          "dynamic_summary": "51Talk预告Q1财报和全球教育平台经营",
+          "suggested_focus": "全球在线教育平台增长复核",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C045",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "休闲旅游平台",
+          "product_name": "Tuniu online leisure travel platform",
+          "owner": "Tuniu",
+          "dynamic_type": "业绩披露/旅游复苏观察",
+          "dynamic_summary": "途牛发布Q1业绩供旅游需求复核",
+          "suggested_focus": "出境游复苏和内容投放窗口",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "平台/-本周有3条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "平台/-：W25预备信号",
+        "metric_line": "3条线索 / Top主体：J&T Express",
+        "signal_line": "极兔东南亚双6包裹量同比增83.5%；51Talk预告Q1财报和全球教育平台经营",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 3
+    },
+    {
+      "source_lead_industry_key": "智能出行|-",
+      "primary_industry": "智能出行",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "智能出行|-",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Changan Group"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "-本周变量来自2条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "长安发布自研ADAS SDA Pilot",
+        "Pony.ai纳入沪港通合资格证券"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Changan Group",
+          "grade": "A"
+        },
+        {
+          "brand": "Pony.ai",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C023",
+          "lead_category": "AG",
+          "primary_industry": "智能出行",
+          "secondary_industry": "-",
+          "tertiary_category": "辅助驾驶系统",
+          "product_name": "SDA Pilot",
+          "owner": "Changan Group",
+          "dynamic_type": "技术发布/车展曝光",
+          "dynamic_summary": "长安发布自研ADAS SDA Pilot",
+          "suggested_focus": "智能驾驶技术发布与海外传播",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C043",
+          "lead_category": "AG",
+          "primary_industry": "智能出行",
+          "secondary_industry": "-",
+          "tertiary_category": "资本市场通道",
+          "product_name": "Pony.ai listed shares Stock Connect",
+          "owner": "Pony.ai",
+          "dynamic_type": "资本市场准入/品牌背书",
+          "dynamic_summary": "Pony.ai纳入沪港通合资格证券",
+          "suggested_focus": "Robotaxi公司融资与资本市场声量",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "智能出行/-本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "智能出行/-：W25预备信号",
+        "metric_line": "2条线索 / Top主体：Changan Group",
+        "signal_line": "长安发布自研ADAS SDA Pilot；Pony.ai纳入沪港通合资格证券",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "智能出行|整车出海",
+      "primary_industry": "智能出行",
+      "secondary_industry": "整车出海",
+      "mapped_research_industry": "整车出海",
+      "industry_key": "智能出行|整车出海",
+      "metrics": {
+        "gmv": "W25线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "GAC"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "整车出海本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "广汽5月自主品牌出口同比增140%"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "GAC",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W25-C022",
+          "lead_category": "EC",
+          "primary_industry": "智能出行",
+          "secondary_industry": "整车出海",
+          "tertiary_category": "出口增长",
+          "product_name": "GAC proprietary brand exports",
+          "owner": "GAC",
+          "dynamic_type": "出口增长/全球化运营",
+          "dynamic_summary": "广汽5月自主品牌出口同比增140%",
+          "suggested_focus": "汽车出海内容与本地化运营",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "智能出行/整车出海本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "智能出行/整车出海：W25预备信号",
+        "metric_line": "1条线索 / Top主体：GAC",
+        "signal_line": "广汽5月自主品牌出口同比增140%",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
       "source_lead_industry_key": "泛娱乐|-",
       "primary_industry": "泛娱乐",
       "secondary_industry": "-",
@@ -658,11 +1969,12 @@
         "top_cn_player": "iQIYI"
       },
       "current_stage": "周度信号预备扫描",
-      "main_variable": "-本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_variable": "-本周变量来自2条客户动态，需用后续底表验证强度。",
       "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "iQIYI上线AI辅助制作电影并同步国际站"
+        "iQIYI上线AI辅助制作电影并同步国际站",
+        "CSTS与多特蒙德合作运营EMMA活动"
       ],
       "verification_metrics": [
         "官方更新频率",
@@ -679,6 +1991,10 @@
         {
           "brand": "iQIYI",
           "grade": "A"
+        },
+        {
+          "brand": "CSTS Enterprises",
+          "grade": "A"
         }
       ],
       "this_week_leads": [
@@ -694,26 +2010,39 @@
           "dynamic_summary": "iQIYI上线AI辅助制作电影并同步国际站",
           "suggested_focus": "国际站内容供给、AI影视生产效率",
           "source_grade": "A"
+        },
+        {
+          "candidate_id": "W25-C050",
+          "lead_category": "AG",
+          "primary_industry": "泛娱乐",
+          "secondary_industry": "-",
+          "tertiary_category": "足球文化数字活动",
+          "product_name": "Generation C x Borussia Dortmund EMMA program",
+          "owner": "CSTS Enterprises",
+          "dynamic_type": "国际IP合作/球迷活动",
+          "dynamic_summary": "CSTS与多特蒙德合作运营EMMA活动",
+          "suggested_focus": "体育IP本地化和球迷社群运营",
+          "source_grade": "A"
         }
       ],
       "research_source_path": "线索侧W25预备扫描；待行研洞察-agent深度供给",
       "bottom_table_path": "待行研底表补齐",
       "coverage_status": "线索侧预备覆盖",
-      "industry_conclusion": "泛娱乐/-本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "industry_conclusion": "泛娱乐/-本周有2条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
         "title": "泛娱乐/-：W25预备信号",
-        "metric_line": "1条线索 / Top主体：iQIYI",
-        "signal_line": "iQIYI上线AI辅助制作电影并同步国际站",
+        "metric_line": "2条线索 / Top主体：iQIYI",
+        "signal_line": "iQIYI上线AI辅助制作电影并同步国际站；CSTS与多特蒙德合作运营EMMA活动",
         "risk_line": "行业深度结论待行研供给补齐。"
       },
-      "this_week_lead_count": 1
+      "this_week_lead_count": 2
     }
   ],
   "quality_check": {
-    "lead_rows": 14,
-    "industry_group_count": 10,
+    "lead_rows": 50,
+    "industry_group_count": 26,
     "covered_industry_count": 0,
-    "desktop_research_count": 10,
+    "desktop_research_count": 26,
     "gap_industry_count": 0,
     "missing_required_fields": [],
     "notes": [
