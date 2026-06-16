@@ -1,7 +1,7 @@
 {
   "version": "v0.1",
-  "generated_at": "2026-06-13T14:17:36",
-  "source_root": "Z:\\增长分析中台\\行研洞察\\深度分析",
+  "generated_at": "2026-06-16T21:32:13",
+  "source_root": "Z:\\增长分析中台\\行研洞察\\行业分析",
   "records": [
     {
       "industry_key": "Beauty|剃须脱毛产品",
@@ -23,7 +23,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Beauty\\剃须脱毛产品_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Beauty\\深度分析\\剃须脱毛产品_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -46,7 +46,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Beauty\\口腔护理_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Beauty\\深度分析\\口腔护理_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -69,7 +69,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Beauty\\头发护理_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Beauty\\深度分析\\头发护理_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -92,7 +92,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Beauty\\彩妆_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Beauty\\深度分析\\彩妆_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -115,7 +115,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Beauty\\指甲与足部护理_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Beauty\\深度分析\\指甲与足部护理_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -138,7 +138,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Beauty\\美容工具与配件_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Beauty\\深度分析\\美容工具与配件_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -161,7 +161,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Beauty\\身体与防晒护理_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Beauty\\深度分析\\身体与防晒护理_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -184,7 +184,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Beauty\\除臭与个护小品_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Beauty\\深度分析\\除臭与个护小品_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -207,7 +207,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Beauty\\面部护理_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Beauty\\深度分析\\面部护理_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -230,7 +230,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Beauty\\香水_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Beauty\\深度分析\\香水_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -403,8 +403,8 @@
           "value": "2018-2020年（新品类）"
         }
       ],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\家用电器\\个护医疗电器\\个护医疗电器_深度分析v2.md",
-      "source_group": "个护医疗电器"
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\个护医疗电器_深度分析v2.md",
+      "source_group": ""
     },
     {
       "industry_key": "Consumer Tech|办公电子产品",
@@ -426,7 +426,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\办公电子产品_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\办公电子产品_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -435,172 +435,53 @@
       "standard_l2": "厨房小家电",
       "research_l1": "Consumer Tech",
       "data_l1": "Consumer Tech",
-      "version": "v2",
-      "updated_at": "2026-06-08T17:31:47",
-      "snapshot": {
-        "annual_gmv": 4710000000.0,
-        "annual_gmv_label": "$4.71B",
-        "cn_share": 11.8,
-        "brand_count": 1600,
-        "period": "2024.05-2026.04"
-      },
-      "judgment": "厨房小家电当前最重要的变化不是\"CN品牌有机会突破\"，而是市场被美国传统品牌主导（Ninja $607M占13%，Keurig/Cuisinart/KitchenAid等合计占比30%+），CN品牌在Amazon US占比极低（11.8%），且中国知名品牌（美的$15M/格兰仕$2.5M）的销售额甚至低于Amazon白牌（Ganiza $19M），说明厨房小家电是传统品类+食品安全信任品类，CN品牌面临品牌认知+信任度的双重壁垒，短期很难突破Amazon市场。",
-      "phase": [
-        "整体市场：稳定增长期（2025年YoY +6%到+28%）",
-        "美国传统品牌：主导地位（Top 10全是美国品牌，合计占比30%+）",
-        "CN白牌：低价竞争期（Ganiza/EanOruus等白牌合计占比8-10%）",
-        "CN知名品牌：缺位期（美的$15M/格兰仕$2.5M，远低于白牌）"
-      ],
-      "contradictions": [
-        "CN知名品牌在Amazon US的表现远低于全球市场：",
-        "全球市场：美的/海尔是全球Top 5家电品牌，Midea Group全球市场份额显著",
-        "Amazon US：美的$15M（占0.33%），格兰仕$2.5M（占0.05%）",
-        "差异原因：",
-        "Amazon不是CN品牌的主战场：美的/格兰仕可能把重心放在线下渠道（Walmart/Target）",
-        "品牌认知不足：美国消费者不认识美的/格兰仕，不愿为\"陌生品牌\"支付溢价"
-      ],
+      "version": "2026_06_14",
+      "updated_at": "2026-06-14T18:22:11",
+      "snapshot": {},
+      "judgment": "厨房小家电是由提神饮品、快速早餐、健康化烹饪、备餐保存和社交送礼组成的成熟大盘；中国品牌数量多但 GMV 份额低，真正的突破点不是继续堆 SKU，而是在功能型 L3 里用内容和信任资产获得更高客单价与营销预算。",
+      "phase": [],
+      "contradictions": [],
       "trend": [
         {
-          "month": "2024-05",
-          "gmv": 284000000.0
-        },
-        {
-          "month": "2024-06",
-          "gmv": 275900000.0
-        },
-        {
-          "month": "2024-07",
-          "gmv": 369800000.0
-        },
-        {
-          "month": "2024-08",
-          "gmv": 326400000.0
-        },
-        {
-          "month": "2024-09",
-          "gmv": 297500000.0
-        },
-        {
-          "month": "2024-10",
-          "gmv": 331700000.0
-        },
-        {
           "month": "2024-11",
-          "gmv": 525700000.00000006
+          "gmv": 525690000.0
         },
         {
           "month": "2024-12",
           "gmv": 554000000.0
         },
         {
-          "month": "2025-01",
-          "gmv": 322900000.0
-        },
-        {
-          "month": "2025-02",
-          "gmv": 318700000.0
-        },
-        {
-          "month": "2025-03",
-          "gmv": 319600000.0
-        },
-        {
-          "month": "2025-04",
-          "gmv": 316300000.0
-        },
-        {
-          "month": "2025-05",
-          "gmv": 328600000.0
-        },
-        {
-          "month": "2025-06",
-          "gmv": 356500000.0
+          "month": "2025-06 -> 2025-07",
+          "gmv": 73630000.0
         },
         {
           "month": "2025-07",
-          "gmv": 430200000.0
+          "gmv": 430170000.0
         },
         {
-          "month": "2025-08",
-          "gmv": 297000000.0
-        },
-        {
-          "month": "2025-09",
-          "gmv": 321000000.0
-        },
-        {
-          "month": "2025-10",
-          "gmv": 386100000.0
+          "month": "2025-10 -> 2025-11",
+          "gmv": 287390000.0
         },
         {
           "month": "2025-11",
-          "gmv": 673500000.0
+          "gmv": 673520000.0
+        },
+        {
+          "month": "2025-11 -> 2025-12",
+          "gmv": 84570000.0
         },
         {
           "month": "2025-12",
-          "gmv": 589000000.0
+          "gmv": 588950000.0
         },
         {
-          "month": "2026-01",
-          "gmv": 350500000.0
-        },
-        {
-          "month": "2026-02",
-          "gmv": 333500000.0
-        },
-        {
-          "month": "2026-03",
-          "gmv": 333600000.0
-        },
-        {
-          "month": "2026-04",
-          "gmv": 314700000.0
+          "month": "2025-12 -> 2026-01",
+          "gmv": 238460000.0
         }
       ],
-      "key_metrics": [
-        {
-          "label": "总市场规模（Amazon US）",
-          "value": "$4.71B"
-        },
-        {
-          "label": "CN品牌占比",
-          "value": "11.8%（最低）"
-        },
-        {
-          "label": "品牌总数",
-          "value": "1600"
-        },
-        {
-          "label": "CN品牌数",
-          "value": "863"
-        },
-        {
-          "label": "市场集中度",
-          "value": "Top 3占23.2%，Top 10占42.3%"
-        },
-        {
-          "label": "2025年YoY增长",
-          "value": "+6%到+28%"
-        },
-        {
-          "label": "圣诞季占比",
-          "value": "40%+（11-12月）"
-        },
-        {
-          "label": "Ninja年GMV",
-          "value": "$607M（排名第1，占13%）"
-        },
-        {
-          "label": "美的年GMV",
-          "value": "$15M（CN知名品牌第1，占0.33%）"
-        },
-        {
-          "label": "CN白牌Top 1",
-          "value": "Ganiza $19M（白牌 > 知名品牌）"
-        }
-      ],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\家用电器\\厨房小家电\\厨房小家电_深度分析v2.md",
-      "source_group": "厨房小家电"
+      "key_metrics": [],
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\厨房小家电_深度分析_2026_06_14.md",
+      "source_group": ""
     },
     {
       "industry_key": "Consumer Tech|台式与电脑打印机",
@@ -622,7 +503,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\台式与电脑打印机_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\台式与电脑打印机_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -631,168 +512,65 @@
       "standard_l2": "咖啡茶饮电器",
       "research_l1": "Consumer Tech",
       "data_l1": "Consumer Tech",
-      "version": "v2",
-      "updated_at": "2026-06-08T17:39:55",
-      "snapshot": {
-        "annual_gmv": 4700000000.0,
-        "annual_gmv_label": "$4.70B",
-        "cn_share": 2.4,
-        "brand_count": 269,
-        "period": "2024.05-2026.04"
-      },
-      "judgment": "咖啡茶饮电器当前最重要的变化不是\"市场增长机会\"，而是市场被欧美传统品牌绝对主导（Nespresso/Breville/De'Longhi等高端咖啡机品牌+Starbucks/Lavazza咖啡豆品牌合计占比50%+），CN品牌占比仅2.4%（$111M），是所有家电品类中最低的，核心原因是咖啡文化壁垒+高端品类属性+送礼场景需要品牌背书的三重壁垒，CN品牌短期内极难突破。",
-      "phase": [
-        "整体市场：稳定增长期（2025年YoY +30%到+35%）",
-        "高端咖啡机：主导地位（Nespresso/Breville/De'Longhi合计占比20%+）",
-        "咖啡豆/胶囊：分流大量GMV（Starbucks/Lavazza/Donut Shop合计占比25%+）",
-        "CN品牌：完全缺位期（占比2.4%，无一进入Top 10）"
-      ],
-      "contradictions": [
-        "咖啡茶饮电器不是\"电器品类\"，而是\"咖啡文化品类\"：",
-        "表面看：Amazon数据显示$4.70B市场规模",
-        "实际上：其中25%+是咖啡豆/咖啡胶囊（Starbucks $757M/Lavazza $183M/Donut Shop $230M）",
-        "纯设备（咖啡机）约占60-70%（$2.8-3.3B）",
-        "洞察：咖啡是欧美传统文化（有200年+历史），不是单纯的\"小家电\"品类",
-        "对CN品牌的含义：文化壁垒比技术壁垒更高，CN品牌很难在\"咖啡文化\"上与欧美品牌竞争"
-      ],
+      "version": "2026_06_15",
+      "updated_at": "2026-06-15T19:57:12",
+      "snapshot": {},
+      "judgment": "咖啡茶饮电器是 Consumer Tech 中少数“文化心智强于制造效率”的二级行业；中国玩家短期不宜正面挑战 Nespresso、Breville、Starbucks、Keurig 生态，营销服务机会更应落在已有 Amazon GMV 的入门意式咖啡机、研磨机、奶泡器、茶饮小件和手冲专业品牌上。",
+      "phase": [],
+      "contradictions": [],
       "trend": [
         {
-          "month": "2024-05",
-          "gmv": 224800000.0
-        },
-        {
-          "month": "2024-06",
-          "gmv": 200000000.0
-        },
-        {
-          "month": "2024-07",
-          "gmv": 215900000.0
-        },
-        {
-          "month": "2024-08",
-          "gmv": 201700000.0
-        },
-        {
-          "month": "2024-09",
-          "gmv": 198500000.0
-        },
-        {
-          "month": "2024-10",
-          "gmv": 199300000.0
+          "month": "2024-10 -> 2024-11",
+          "gmv": 103280000.0
         },
         {
           "month": "2024-11",
-          "gmv": 302500000.0
+          "gmv": 302550000.0
         },
         {
-          "month": "2024-12",
-          "gmv": 262300000.0
-        },
-        {
-          "month": "2025-01",
-          "gmv": 266000000.0
-        },
-        {
-          "month": "2025-02",
-          "gmv": 288500000.0
-        },
-        {
-          "month": "2025-03",
-          "gmv": 295000000.0
-        },
-        {
-          "month": "2025-04",
-          "gmv": 294500000.0
-        },
-        {
-          "month": "2025-05",
-          "gmv": 295900000.0
-        },
-        {
-          "month": "2025-06",
-          "gmv": 292700000.0
+          "month": "2025-06 -> 2025-07",
+          "gmv": 16090000.0
         },
         {
           "month": "2025-07",
-          "gmv": 308700000.0
-        },
-        {
-          "month": "2025-08",
-          "gmv": 263399999.99999997
-        },
-        {
-          "month": "2025-09",
-          "gmv": 290200000.0
+          "gmv": 308750000.0
         },
         {
           "month": "2025-10",
-          "gmv": 312200000.0
+          "gmv": 312220000.0
+        },
+        {
+          "month": "2025-10 -> 2025-11",
+          "gmv": 95090000.0
         },
         {
           "month": "2025-11",
-          "gmv": 407300000.0
+          "gmv": 407310000.0
+        },
+        {
+          "month": "2025-11 -> 2025-12",
+          "gmv": 53300000.0
         },
         {
           "month": "2025-12",
-          "gmv": 354000000.0
+          "gmv": 354010000.0
         },
         {
-          "month": "2026-01",
-          "gmv": 293200000.0
+          "month": "2025-12 -> 2026-01",
+          "gmv": 60770000.0
         },
         {
-          "month": "2026-02",
-          "gmv": 314700000.0
-        },
-        {
-          "month": "2026-03",
-          "gmv": 277300000.0
+          "month": "2026-03 -> 2026-04",
+          "gmv": 63070000.0
         },
         {
           "month": "2026-04",
-          "gmv": 214300000.0
+          "gmv": 214270000.0
         }
       ],
-      "key_metrics": [
-        {
-          "label": "总市场规模",
-          "value": "$4.70B"
-        },
-        {
-          "label": "CN品牌占比",
-          "value": "2.4%（最低）"
-        },
-        {
-          "label": "品牌总数",
-          "value": "269"
-        },
-        {
-          "label": "CN品牌数",
-          "value": "38"
-        },
-        {
-          "label": "市场集中度",
-          "value": "Top 3占40%，Top 10占64%"
-        },
-        {
-          "label": "2025年YoY增长",
-          "value": "+30%到+35%（最快）"
-        },
-        {
-          "label": "Starbucks年GMV",
-          "value": "$757M（16%，咖啡豆）"
-        },
-        {
-          "label": "Nespresso年GMV",
-          "value": "$473M（10%，胶囊咖啡机）"
-        },
-        {
-          "label": "CASABREWS年GMV",
-          "value": "$23M（CN品牌Top 1，占0.48%）"
-        }
-      ],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\家用电器\\咖啡茶饮电器\\咖啡茶饮电器_深度分析v2.md",
-      "source_group": "咖啡茶饮电器"
+      "key_metrics": [],
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\咖啡茶饮电器_深度分析_2026_06_15.md",
+      "source_group": ""
     },
     {
       "industry_key": "Consumer Tech|大家电与配件",
@@ -952,8 +730,8 @@
           "value": "$45M（CN品牌Top 1，总排名第7）"
         }
       ],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\家用电器\\大家电与配件\\大家电与配件_深度分析v2.md",
-      "source_group": "大家电与配件"
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\大家电与配件_深度分析v2.md",
+      "source_group": ""
     },
     {
       "industry_key": "Consumer Tech|安防硬件",
@@ -975,7 +753,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\安防硬件_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\安防硬件_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -998,7 +776,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\家庭音频与音响_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\家庭音频与音响_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -1021,7 +799,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\录音与便携影音_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\录音与便携影音_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -1044,7 +822,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\影像设备_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\影像设备_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -1221,8 +999,8 @@
           "value": "$155M（占10%）"
         }
       ],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\家用电器\\户外便携电源储能\\户外便携电源储能_深度分析v2.md",
-      "source_group": "户外便携电源储能"
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\户外便携电源储能_深度分析v2.md",
+      "source_group": ""
     },
     {
       "industry_key": "Consumer Tech|手机与配件",
@@ -1244,7 +1022,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\手机与配件_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\手机与配件_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -1267,7 +1045,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\数据存储与外组件_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\数据存储与外组件_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -1290,7 +1068,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\显示器与电脑平板_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\显示器与电脑平板_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -1299,167 +1077,65 @@
       "standard_l2": "暖通电器",
       "research_l1": "Consumer Tech",
       "data_l1": "Consumer Tech",
-      "version": "v2",
-      "updated_at": "2026-06-08T17:57:44",
-      "snapshot": {
-        "annual_gmv": 4440000000.0,
-        "annual_gmv_label": "$4.44B",
-        "brand_count": 1797,
-        "period": "2024.05-2026.04"
-      },
-      "judgment": "暖通电器当前最重要的变化不是\"美国传统品牌主导\"，而是中国资本品牌通过\"海外品牌化运营\"已经实质占领市场——LEVOIT($338M第1)、DREO($250M第2)、Midea($124M第5)三个中国资本品牌包揽Top 5中的三席，但底表将它们标记为\"非中国品牌\"，导致官方CN占比(21.5%)严重低估了真实的中国资本份额(37.5%)，这与户外便携电源储能里Jackery/EcoFlow\"海外品牌化\"是同一现象。",
-      "phase": [
-        "整体市场：强劲增长期（2025年Prime Day季YoY大幅增长，6-7月GMV创新高$554M-$585M）",
-        "空气净化器/风扇：中国资本品牌主导（LEVOIT/DREO技术+性价比领先）",
-        "真实竞争格局：中国资本(37.5%) > 美国本土品牌",
-        "白牌长尾：底表标记为CN的本土白牌(21.5%)以低价配件/小风扇为主"
-      ],
-      "contradictions": [
-        "底表口径严重低估了中国资本的真实份额（21.5% vs 37.5%）：",
-        "表面看：底表\"是否中国品牌\"字段显示CN占比仅21.5%",
-        "实际上：被标记为\"非CN\"的Top品牌中，LEVOIT/DREO/Midea都是中国资本",
-        "LEVOIT $338M（深圳Vesync旗下，2017年成立，专注空气净化器/加湿器）",
-        "DREO $250M（深圳品牌，2021年成立，专注风扇/取暖器/空气循环扇）",
-        "Midea $124M（美的，中国家电巨头）"
-      ],
+      "version": "2026_06_15",
+      "updated_at": "2026-06-15T20:03:06",
+      "snapshot": {},
+      "judgment": "暖通电器不是全年均匀销售的设备盘，而是“Q2 抢夏季、Q4 抢制热、全年做空气质量和滤芯复购”的季节运营盘；BD 机会优先看已有规模、广告依赖高、能解释技术指标和使用场景的玩家，而不是只看底表国籍标签。",
+      "phase": [],
+      "contradictions": [],
       "trend": [
         {
-          "month": "2024-05",
-          "gmv": 291200000.0
-        },
-        {
           "month": "2024-06",
-          "gmv": 380400000.0
+          "gmv": 380410000.0
         },
         {
           "month": "2024-07",
-          "gmv": 459400000.0
+          "gmv": 459390000.0
         },
         {
-          "month": "2024-08",
-          "gmv": 325800000.0
+          "month": "2025-04 -> 2025-05",
+          "gmv": 62250000.0
         },
         {
-          "month": "2024-09",
-          "gmv": 259700000.0
-        },
-        {
-          "month": "2024-10",
-          "gmv": 267500000.0
-        },
-        {
-          "month": "2024-11",
-          "gmv": 304300000.0
-        },
-        {
-          "month": "2024-12",
-          "gmv": 251200000.0
-        },
-        {
-          "month": "2025-01",
-          "gmv": 312500000.0
-        },
-        {
-          "month": "2025-02",
-          "gmv": 250200000.0
-        },
-        {
-          "month": "2025-03",
-          "gmv": 243800000.0
-        },
-        {
-          "month": "2025-04",
-          "gmv": 287500000.0
-        },
-        {
-          "month": "2025-05",
-          "gmv": 349700000.0
+          "month": "2025-05 -> 2025-06",
+          "gmv": 204290000.0
         },
         {
           "month": "2025-06",
           "gmv": 554000000.0
         },
         {
+          "month": "2025-06 -> 2025-07",
+          "gmv": 30920000.0
+        },
+        {
           "month": "2025-07",
-          "gmv": 584900000.0
+          "gmv": 584930000.0
         },
         {
-          "month": "2025-08",
-          "gmv": 403000000.0
+          "month": "2025-07 -> 2025-08",
+          "gmv": 181890000.0
         },
         {
-          "month": "2025-09",
-          "gmv": 311700000.0
-        },
-        {
-          "month": "2025-10",
-          "gmv": 335600000.0
+          "month": "2025-10 -> 2025-11",
+          "gmv": 49230000.0
         },
         {
           "month": "2025-11",
-          "gmv": 384800000.0
+          "gmv": 384790000.0
         },
         {
-          "month": "2025-12",
-          "gmv": 323900000.0
-        },
-        {
-          "month": "2026-01",
-          "gmv": 308000000.0
-        },
-        {
-          "month": "2026-02",
-          "gmv": 290000000.0
-        },
-        {
-          "month": "2026-03",
-          "gmv": 294300000.0
+          "month": "2025-11 -> 2025-12",
+          "gmv": 60920000.0
         },
         {
           "month": "2026-04",
-          "gmv": 302600000.0
+          "gmv": 302590000.0
         }
       ],
-      "key_metrics": [
-        {
-          "label": "总市场规模",
-          "value": "$4.44B"
-        },
-        {
-          "label": "CN占比（底表口径）",
-          "value": "21.5%"
-        },
-        {
-          "label": "中国资本份额（校正后）",
-          "value": "37.5%"
-        },
-        {
-          "label": "品牌总数",
-          "value": "1797"
-        },
-        {
-          "label": "LEVOIT年GMV",
-          "value": "$338M（第1，中国资本）"
-        },
-        {
-          "label": "DREO年GMV",
-          "value": "$250M（第2，中国资本）"
-        },
-        {
-          "label": "Midea年GMV",
-          "value": "$124M（第5，中国资本）"
-        },
-        {
-          "label": "夏季旺季峰值",
-          "value": "$585M（2025-07，24个月最高）"
-        },
-        {
-          "label": "2025夏季YoY",
-          "value": "+27%到+46%"
-        }
-      ],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\家用电器\\暖通电器\\暖通电器_深度分析v2.md",
-      "source_group": "暖通电器"
+      "key_metrics": [],
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\暖通电器_深度分析_2026_06_15.md",
+      "source_group": ""
     },
     {
       "industry_key": "Consumer Tech|汽车电子",
@@ -1481,7 +1157,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\汽车电子_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\汽车电子_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -1657,8 +1333,8 @@
           "value": "$65M（洗地机品类68%）"
         }
       ],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\家用电器\\清洁电器\\清洁电器_深度分析v2.md",
-      "source_group": "清洁电器"
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\清洁电器_深度分析v2.md",
+      "source_group": ""
     },
     {
       "industry_key": "Consumer Tech|照明产品",
@@ -1680,7 +1356,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\照明产品_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\照明产品_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -1703,7 +1379,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\电动工具_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\电动工具_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -1726,7 +1402,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\电视与视频显示_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\电视与视频显示_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -1749,7 +1425,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\监控与家庭安防摄像头_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\监控与家庭安防摄像头_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -1772,7 +1448,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\穿戴式科技_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\穿戴式科技_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -1795,7 +1471,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\笔电与平板配件_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\笔电与平板配件_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -1818,7 +1494,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\笔记本电脑_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\笔记本电脑_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -1987,8 +1663,8 @@
           "value": "$87M（CN品牌第2，总第4）"
         }
       ],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\家用电器\\美发造型电器\\美发造型电器_深度分析v2.md",
-      "source_group": "美发造型电器"
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\美发造型电器_深度分析v2.md",
+      "source_group": ""
     },
     {
       "industry_key": "Consumer Tech|耳机",
@@ -2010,7 +1686,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\耳机_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\耳机_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2033,7 +1709,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\视频游戏机与配件_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\视频游戏机与配件_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2056,7 +1732,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\计算机网络_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\计算机网络_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2079,7 +1755,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Consumer Tech\\计算机配件与外设_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Consumer Tech\\深度分析\\计算机配件与外设_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2102,7 +1778,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\FMCG\\厨房储备食品_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\FMCG\\深度分析\\厨房储备食品_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2125,7 +1801,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\FMCG\\婴儿耗材_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\FMCG\\深度分析\\婴儿耗材_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2148,7 +1824,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\FMCG\\家用清洁剂_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\FMCG\\深度分析\\家用清洁剂_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2171,7 +1847,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\FMCG\\洗衣用品_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\FMCG\\深度分析\\洗衣用品_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2194,7 +1870,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\FMCG\\零食与糖果_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\FMCG\\深度分析\\零食与糖果_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2217,7 +1893,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\FMCG\\饮料_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\FMCG\\深度分析\\饮料_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2240,7 +1916,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Health\\家用医疗设备_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Health\\深度分析\\家用医疗设备_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2263,7 +1939,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Health\\维生素补充剂基础_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Health\\深度分析\\维生素补充剂基础_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2286,7 +1962,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Health\\运动营养_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Health\\深度分析\\运动营养_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2309,7 +1985,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Health\\非处方药与急救_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Health\\深度分析\\非处方药与急救_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2332,7 +2008,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Lifestyle\\健身设备_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Lifestyle\\深度分析\\健身设备_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2355,7 +2031,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Lifestyle\\宠物用品_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Lifestyle\\深度分析\\宠物用品_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2378,7 +2054,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Lifestyle\\家庭存储与组织_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Lifestyle\\深度分析\\家庭存储与组织_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2401,7 +2077,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Lifestyle\\玩具_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Lifestyle\\深度分析\\玩具_深度分析v1.md",
       "source_group": ""
     },
     {
@@ -2424,7 +2100,7 @@
       "contradictions": [],
       "trend": [],
       "key_metrics": [],
-      "source_path": "Z:\\增长分析中台\\行研洞察\\深度分析\\Lifestyle\\运动服装与设备_深度分析v1.md",
+      "source_path": "Z:\\增长分析中台\\行研洞察\\行业分析\\Lifestyle\\深度分析\\运动服装与设备_深度分析v1.md",
       "source_group": ""
     }
   ]

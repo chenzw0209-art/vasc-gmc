@@ -7,8 +7,8 @@
     "kpis": {
       "focus_customer_count": 50,
       "new_customer_signal_count": 50,
-      "product_candidate_count": 21,
-      "app_candidate_count": 29,
+      "product_candidate_count": 19,
+      "app_candidate_count": 31,
       "grade_a_count": 48,
       "exhibition_count": 10,
       "tender_count": 10
@@ -37,7 +37,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方赞助权益与零售导流明确",
         "source_count": "1",
-        "source_standard_l2": "电视与显示",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "电视与视频显示",
         "dynamic_date_display": "06-12"
       },
       {
@@ -63,7 +65,9 @@
         "warehouse_suggestion": "是",
         "review_note": "中国投影品牌；全球发布与观赛场景清晰",
         "source_count": "1",
-        "source_standard_l2": "投影与家庭影院",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "电视与视频显示",
         "dynamic_date_display": "06-11"
       },
       {
@@ -89,7 +93,9 @@
         "warehouse_suggestion": "是",
         "review_note": "美国免邮与官网转化信息明确",
         "source_count": "1",
-        "source_standard_l2": "食品与饮料",
+        "source_titan_category": "EC",
+        "source_standard_l1": "FMCG",
+        "source_standard_l2": "饮料",
         "dynamic_date_display": "06-12"
       },
       {
@@ -98,7 +104,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Fashion",
-        "standard_l2": "服装综合",
+        "standard_l2": "女装",
         "standard_l3": "卖家合规/服饰平台",
         "application_product_name": "SHEIN Product Safety and Quality Compliance Series",
         "owner_company_brand": "SHEIN",
@@ -115,7 +121,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Fashion已按独立一级行业收纳",
         "source_count": "1",
-        "source_standard_l2": "跨境电商平台",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Fashion",
+        "source_standard_l2": "女装",
         "dynamic_date_display": "06-10"
       },
       {
@@ -124,7 +132,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Fashion",
-        "standard_l2": "服装综合",
+        "standard_l2": "女装",
         "standard_l3": "校园大使/美国内容营销",
         "application_product_name": "SHEIN Campus Retreat 2026",
         "owner_company_brand": "SHEIN",
@@ -141,7 +149,9 @@
         "warehouse_suggestion": "是",
         "review_note": "海外活动与目标人群明确",
         "source_count": "1",
-        "source_standard_l2": "服饰零售",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Fashion",
+        "source_standard_l2": "女装",
         "dynamic_date_display": "06-04"
       },
       {
@@ -167,7 +177,9 @@
         "warehouse_suggestion": "是",
         "review_note": "W24已跟踪FridgePower，W25延伸到澳洲促销窗口",
         "source_count": "1",
-        "source_standard_l2": "户外电源",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "户外便携电源储能",
         "dynamic_date_display": "06-01"
       },
       {
@@ -193,6 +205,8 @@
         "warehouse_suggestion": "是",
         "review_note": "Fortune披露马来西亚开店计划及东南亚渠道布局",
         "source_count": "2",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Beauty",
         "source_standard_l2": "彩妆",
         "dynamic_date_display": "06-09"
       },
@@ -219,7 +233,9 @@
         "warehouse_suggestion": "是",
         "review_note": "2026-06-09正式开店，2026-06-11官方披露；海外主体、地点和产品明确",
         "source_count": "1",
-        "source_standard_l2": "营养与保健",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Health",
+        "source_standard_l2": "草药植物补充剂",
         "dynamic_date_display": "06-11"
       },
       {
@@ -228,7 +244,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "充电与能源设备",
+        "standard_l2": "汽车电子",
         "standard_l3": "EV充电实验室",
         "application_product_name": "Shell Recharge-SINEXCEL Joint Lab",
         "owner_company_brand": "SINEXCEL",
@@ -245,34 +261,10 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；合作方与技术方向明确",
         "source_count": "1",
-        "source_standard_l2": "充电与能源设备",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "汽车电子",
         "dynamic_date_display": "06-16"
-      },
-      {
-        "candidate_id": "W25-C022",
-        "week": "W25",
-        "search_date": "2026-06-16",
-        "titan_category": "EC",
-        "standard_l1": "智能出行",
-        "standard_l2": "整车出海",
-        "standard_l3": "出口增长",
-        "application_product_name": "GAC proprietary brand exports",
-        "owner_company_brand": "GAC",
-        "target_market_channel": "全球汽车出口市场",
-        "dynamic_type": "出口增长/全球化运营",
-        "dynamic_date": "2026-06-04",
-        "dynamic_summary": "广汽5月自主品牌出口同比增140%",
-        "attention_point": "汽车出海内容与本地化运营",
-        "source_grade": "A",
-        "source_layer": "P0",
-        "primary_source_name": "PRNewswire",
-        "primary_source_url": "https://www.prnewswire.com/news-releases/gac-posts-140-export-growth-in-may-advancing-its-vision-of-sustainable-global-mobility-302791347.html",
-        "link_status": "可访问",
-        "warehouse_suggestion": "是",
-        "review_note": "官方Newswire；出口数据与全球化战略明确",
-        "source_count": "1",
-        "source_standard_l2": "整车出海",
-        "dynamic_date_display": "06-04"
       },
       {
         "candidate_id": "W25-C025",
@@ -280,7 +272,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "电脑外设与充电",
+        "standard_l2": "计算机配件与外设",
         "standard_l3": "桌面扩展坞",
         "application_product_name": "Baseus Spacemate RD1 Pro",
         "owner_company_brand": "Baseus",
@@ -297,7 +289,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；新品功能和场景明确",
         "source_count": "1",
-        "source_standard_l2": "电脑外设与充电",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "计算机配件与外设",
         "dynamic_date_display": "06-15"
       },
       {
@@ -306,7 +300,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "厨房与大家电",
+        "standard_l2": "大家电与配件",
         "standard_l3": "冰箱/东南亚上市",
         "application_product_name": "Haier Horizon Refrigerator",
         "owner_company_brand": "Haier",
@@ -323,7 +317,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；越南上市及后续区域滚动明确",
         "source_count": "1",
-        "source_standard_l2": "厨房与大家电",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "大家电与配件",
         "dynamic_date_display": "06-01"
       },
       {
@@ -332,7 +328,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "智能车载",
+        "standard_l2": "汽车电子",
         "standard_l3": "摩托车智能屏",
         "application_product_name": "RiderNav R7M / R7X",
         "owner_company_brand": "RiderNav",
@@ -349,7 +345,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；活动时间与渠道明确",
         "source_count": "1",
-        "source_standard_l2": "智能车载",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "汽车电子",
         "dynamic_date_display": "06-12"
       },
       {
@@ -358,7 +356,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "FMCG",
-        "standard_l2": "食品原料",
+        "standard_l2": "厨房储备食品",
         "standard_l3": "酵母与生物技术",
         "application_product_name": "Angel Yeast global sustainability strategy",
         "owner_company_brand": "Angel Yeast",
@@ -375,7 +373,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；全球战略和食品安全议题明确",
         "source_count": "1",
-        "source_standard_l2": "食品原料",
+        "source_titan_category": "EC",
+        "source_standard_l1": "FMCG",
+        "source_standard_l2": "厨房储备食品",
         "dynamic_date_display": "06-12"
       },
       {
@@ -401,42 +401,18 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；Kickstarter金额与全球用户明确",
         "source_count": "1",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
         "source_standard_l2": "电视与视频显示",
         "dynamic_date_display": "06-10"
-      },
-      {
-        "candidate_id": "W25-C033",
-        "week": "W25",
-        "search_date": "2026-06-16",
-        "titan_category": "EC",
-        "standard_l1": "工业",
-        "standard_l2": "清洁能源",
-        "standard_l3": "光伏组件",
-        "application_product_name": "JinkoSolar PV modules",
-        "owner_company_brand": "JinkoSolar",
-        "target_market_channel": "全球光伏客户/RETC PVMI",
-        "dynamic_type": "第三方评测/品牌背书",
-        "dynamic_date": "2026-06-15",
-        "dynamic_summary": "晶科能源获RETC最高成就评级",
-        "attention_point": "光伏海外客户信任背书",
-        "source_grade": "A",
-        "source_layer": "P0",
-        "primary_source_name": "PRNewswire",
-        "primary_source_url": "https://www.prnewswire.com/news-releases/jinkosolar-earns-retcs-overall-highest-achiever-award-for-the-seventh-consecutive-year-302800265.html",
-        "link_status": "可访问",
-        "warehouse_suggestion": "是",
-        "review_note": "官方Newswire；国际测试评级背书明确",
-        "source_count": "1",
-        "source_standard_l2": "清洁能源",
-        "dynamic_date_display": "06-15"
       },
       {
         "candidate_id": "W25-C034",
         "week": "W25",
         "search_date": "2026-06-16",
         "titan_category": "EC",
-        "standard_l1": "Health",
-        "standard_l2": "智能健身",
+        "standard_l1": "Lifestyle",
+        "standard_l2": "健身设备",
         "standard_l3": "力量训练设备",
         "application_product_name": "Speediance smart fitness equipment",
         "owner_company_brand": "Speediance",
@@ -453,7 +429,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；57场国际赛事合作明确",
         "source_count": "1",
-        "source_standard_l2": "智能健身",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Lifestyle",
+        "source_standard_l2": "健身设备",
         "dynamic_date_display": "06-15"
       },
       {
@@ -462,7 +440,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "智能穿戴",
+        "standard_l2": "穿戴式科技",
         "standard_l3": "Amazfit新品",
         "application_product_name": "Amazfit Active Max / T-Rex Ultra 2",
         "owner_company_brand": "Zepp Health",
@@ -479,7 +457,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；新品名称与收入增长关联明确",
         "source_count": "1",
-        "source_standard_l2": "智能穿戴",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "穿戴式科技",
         "dynamic_date_display": "06-08"
       },
       {
@@ -488,7 +468,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Lifestyle",
-        "standard_l2": "家纺寝具",
+        "standard_l2": "床上用品",
         "standard_l3": "Amazon Prime Day",
         "application_product_name": "Bedsure Essential / PureWoven bedding",
         "owner_company_brand": "Bedsure",
@@ -505,7 +485,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；Amazon促销商品明确",
         "source_count": "1",
-        "source_standard_l2": "家纺寝具",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Lifestyle",
+        "source_standard_l2": "床上用品",
         "dynamic_date_display": "06-15"
       },
       {
@@ -514,7 +496,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "赛事显示设备",
+        "standard_l2": "电视与视频显示",
         "standard_l3": "VAR显示供应",
         "application_product_name": "Hisense RGB MiniLED VAR TV",
         "owner_company_brand": "Hisense",
@@ -531,7 +513,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Newswire；FIFA VAR场景与达拉斯IBC明确",
         "source_count": "1",
-        "source_standard_l2": "赛事显示设备",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "电视与视频显示",
         "dynamic_date_display": "06-15"
       },
       {
@@ -540,7 +524,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Lifestyle",
-        "standard_l2": "智能居住",
+        "standard_l2": "家具",
         "standard_l3": "预制房/微型住宅",
         "application_product_name": "OptiMorph MSpace Prefab House",
         "owner_company_brand": "OptiMorph",
@@ -557,7 +541,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；产品和展会买家场景明确",
         "source_count": "1",
-        "source_standard_l2": "智能居住",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Lifestyle",
+        "source_standard_l2": "家具",
         "dynamic_date_display": "06-12"
       },
       {
@@ -583,7 +569,9 @@
         "warehouse_suggestion": "是",
         "review_note": "国际站上线与AI工具事实明确",
         "source_count": "1",
-        "source_standard_l2": "长视频/流媒体",
+        "source_titan_category": "AG",
+        "source_standard_l1": "泛娱乐",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-09"
       },
       {
@@ -609,7 +597,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方页面；作为W25游戏线索池前置信号",
         "source_count": "1",
-        "source_standard_l2": "游戏",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Gaming",
+        "source_standard_l2": "-",
         "dynamic_date_display": "05-29"
       },
       {
@@ -635,7 +625,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方新闻；海外展会曝光明确",
         "source_count": "1",
-        "source_standard_l2": "游戏",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Gaming",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-05"
       },
       {
@@ -661,7 +653,9 @@
         "warehouse_suggestion": "是",
         "review_note": "近14天窗口内的硬信源，可延续到W25跟进",
         "source_count": "1",
-        "source_standard_l2": "跨境支付",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Fintech",
+        "source_standard_l2": "-",
         "dynamic_date_display": "05-26"
       },
       {
@@ -687,7 +681,9 @@
         "warehouse_suggestion": "是",
         "review_note": "需补PRNewswire原始链接",
         "source_count": "1",
-        "source_standard_l2": "跨境汇款",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Fintech",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-05"
       },
       {
@@ -713,7 +709,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方博客；时间略早但可做W25预备追踪",
         "source_count": "1",
-        "source_standard_l2": "AI视频生成",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "05-21"
       },
       {
@@ -739,7 +737,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；面向中国企业出海工厂场景",
         "source_count": "1",
-        "source_standard_l2": "企业智能制造",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-15"
       },
       {
@@ -765,7 +765,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Business Wire硬信源；美国发布节点明确",
         "source_count": "1",
-        "source_standard_l2": "教育机器人",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-11"
       },
       {
@@ -791,7 +793,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；海外零售客户部署明确",
         "source_count": "1",
-        "source_standard_l2": "商业服务机器人",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-09"
       },
       {
@@ -817,7 +821,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；40+国家地区伙伴参会",
         "source_count": "1",
-        "source_standard_l2": "教育医疗ICT",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-09"
       },
       {
@@ -843,8 +849,38 @@
         "warehouse_suggestion": "是",
         "review_note": "Newswire；产品升级和全球AI医疗叙事明确",
         "source_count": "1",
-        "source_standard_l2": "医疗AI",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-16"
+      },
+      {
+        "candidate_id": "W25-C022",
+        "week": "W25",
+        "search_date": "2026-06-16",
+        "titan_category": "AG",
+        "standard_l1": "智能出行",
+        "standard_l2": "-",
+        "standard_l3": "出口增长",
+        "application_product_name": "GAC proprietary brand exports",
+        "owner_company_brand": "GAC",
+        "target_market_channel": "全球汽车出口市场",
+        "dynamic_type": "出口增长/全球化运营",
+        "dynamic_date": "2026-06-04",
+        "dynamic_summary": "广汽5月自主品牌出口同比增140%",
+        "attention_point": "汽车出海内容与本地化运营",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/gac-posts-140-export-growth-in-may-advancing-its-vision-of-sustainable-global-mobility-302791347.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "官方Newswire；出口数据与全球化战略明确",
+        "source_count": "1",
+        "source_titan_category": "AG",
+        "source_standard_l1": "智能出行",
+        "source_standard_l2": "-",
+        "dynamic_date_display": "06-04"
       },
       {
         "candidate_id": "W25-C023",
@@ -869,7 +905,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Newswire；官方车展发布",
         "source_count": "1",
-        "source_standard_l2": "ADAS",
+        "source_titan_category": "AG",
+        "source_standard_l1": "智能出行",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-14"
       },
       {
@@ -895,7 +933,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Newswire；国际会议和赛事结果明确",
         "source_count": "1",
-        "source_standard_l2": "具身智能",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-11"
       },
       {
@@ -921,7 +961,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；开源与数据集细节明确",
         "source_count": "1",
-        "source_standard_l2": "具身智能",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-10"
       },
       {
@@ -947,7 +989,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；Stanford合作与全球权益明确",
         "source_count": "1",
-        "source_standard_l2": "创新药",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Health",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-12"
       },
       {
@@ -973,8 +1017,38 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；国际药企合作方向明确",
         "source_count": "1",
-        "source_standard_l2": "AI制药",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-10"
+      },
+      {
+        "candidate_id": "W25-C033",
+        "week": "W25",
+        "search_date": "2026-06-16",
+        "titan_category": "AG",
+        "standard_l1": "工业",
+        "standard_l2": "-",
+        "standard_l3": "光伏组件",
+        "application_product_name": "JinkoSolar PV modules",
+        "owner_company_brand": "JinkoSolar",
+        "target_market_channel": "全球光伏客户/RETC PVMI",
+        "dynamic_type": "第三方评测/品牌背书",
+        "dynamic_date": "2026-06-15",
+        "dynamic_summary": "晶科能源获RETC最高成就评级",
+        "attention_point": "光伏海外客户信任背书",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/jinkosolar-earns-retcs-overall-highest-achiever-award-for-the-seventh-consecutive-year-302800265.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "官方Newswire；国际测试评级背书明确",
+        "source_count": "1",
+        "source_titan_category": "AG",
+        "source_standard_l1": "工业",
+        "source_standard_l2": "-",
+        "dynamic_date_display": "06-15"
       },
       {
         "candidate_id": "W25-C036",
@@ -999,7 +1073,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；临床节点明确",
         "source_count": "1",
-        "source_standard_l2": "创新药",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Health",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-15"
       },
       {
@@ -1025,7 +1101,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；东南亚项目与合作方明确",
         "source_count": "1",
-        "source_standard_l2": "新能源系统",
+        "source_titan_category": "AG",
+        "source_standard_l1": "工业",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-01"
       },
       {
@@ -1051,7 +1129,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；东南亚行业采用信号明确",
         "source_count": "1",
-        "source_standard_l2": "工作平台",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-05"
       },
       {
@@ -1077,7 +1157,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；大促区域和包裹量明确",
         "source_count": "1",
-        "source_standard_l2": "跨境物流",
+        "source_titan_category": "AG",
+        "source_standard_l1": "平台",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-09"
       },
       {
@@ -1103,7 +1185,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；新加坡产能和全球客户定位明确",
         "source_count": "1",
-        "source_standard_l2": "CDMO",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Health",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-04"
       },
       {
@@ -1129,7 +1213,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；CVPR国际曝光与技术指标明确",
         "source_count": "1",
-        "source_standard_l2": "Physical AI",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-04"
       },
       {
@@ -1155,7 +1241,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；资本市场准入节点明确",
         "source_count": "1",
-        "source_standard_l2": "Robotaxi",
+        "source_titan_category": "AG",
+        "source_standard_l1": "智能出行",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-03"
       },
       {
@@ -1181,7 +1269,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；全球在线教育平台主体明确",
         "source_count": "1",
-        "source_standard_l2": "在线教育",
+        "source_titan_category": "AG",
+        "source_standard_l1": "平台",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-10"
       },
       {
@@ -1207,7 +1297,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；在线旅游平台经营信号",
         "source_count": "1",
-        "source_standard_l2": "在线旅游",
+        "source_titan_category": "AG",
+        "source_standard_l1": "平台",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-05"
       },
       {
@@ -1233,7 +1325,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Newswire；调研范围覆盖东南亚与中国",
         "source_count": "1",
-        "source_standard_l2": "会员权益",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Fintech",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-12"
       },
       {
@@ -1259,7 +1353,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Business Wire；美国K-12合作与发布会承接",
         "source_count": "1",
-        "source_standard_l2": "具身智能",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-07"
       },
       {
@@ -1285,7 +1381,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Newswire；墨西哥多城市运营场景明确",
         "source_count": "1",
-        "source_standard_l2": "轨道交通",
+        "source_titan_category": "AG",
+        "source_standard_l1": "工业",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-16"
       },
       {
@@ -1311,7 +1409,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；国际俱乐部合作和数字活动明确",
         "source_count": "1",
-        "source_standard_l2": "体育IP运营",
+        "source_titan_category": "AG",
+        "source_standard_l1": "泛娱乐",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-12"
       }
     ],
@@ -1352,7 +1452,7 @@
       "卖家合规/服饰平台": {
         "industry": "卖家合规/服饰平台",
         "lead_count": 1,
-        "headline": "服装综合本周新增1条可复核信号",
+        "headline": "女装本周新增1条可复核信号",
         "signals": [
           "SHEIN联合TIC机构推出卖家产品安全与质量合规培训"
         ],
@@ -1363,7 +1463,7 @@
       "校园大使/美国内容营销": {
         "industry": "校园大使/美国内容营销",
         "lead_count": 1,
-        "headline": "服装综合本周新增1条可复核信号",
+        "headline": "女装本周新增1条可复核信号",
         "signals": [
           "SHEIN在迈阿密举办Campus Retreat与首个校园时装秀"
         ],
@@ -1407,7 +1507,7 @@
       "EV充电实验室": {
         "industry": "EV充电实验室",
         "lead_count": 1,
-        "headline": "充电与能源设备本周新增1条可复核信号",
+        "headline": "汽车电子本周新增1条可复核信号",
         "signals": [
           "盛弘股份与Shell Recharge建联合实验室"
         ],
@@ -1415,21 +1515,10 @@
           "海外EV充电生态合作机会"
         ]
       },
-      "出口增长": {
-        "industry": "出口增长",
-        "lead_count": 1,
-        "headline": "整车出海本周新增1条可复核信号",
-        "signals": [
-          "广汽5月自主品牌出口同比增140%"
-        ],
-        "recommended_focus": [
-          "汽车出海内容与本地化运营"
-        ]
-      },
       "桌面扩展坞": {
         "industry": "桌面扩展坞",
         "lead_count": 1,
-        "headline": "电脑外设与充电本周新增1条可复核信号",
+        "headline": "计算机配件与外设本周新增1条可复核信号",
         "signals": [
           "倍思发布15合1桌面扩展坞"
         ],
@@ -1440,7 +1529,7 @@
       "冰箱/东南亚上市": {
         "industry": "冰箱/东南亚上市",
         "lead_count": 1,
-        "headline": "厨房与大家电本周新增1条可复核信号",
+        "headline": "大家电与配件本周新增1条可复核信号",
         "signals": [
           "海尔Horizon冰箱在越南上市"
         ],
@@ -1451,7 +1540,7 @@
       "摩托车智能屏": {
         "industry": "摩托车智能屏",
         "lead_count": 1,
-        "headline": "智能车载本周新增1条可复核信号",
+        "headline": "汽车电子本周新增1条可复核信号",
         "signals": [
           "RiderNav开启智能骑行屏夏季活动"
         ],
@@ -1462,7 +1551,7 @@
       "酵母与生物技术": {
         "industry": "酵母与生物技术",
         "lead_count": 1,
-        "headline": "食品原料本周新增1条可复核信号",
+        "headline": "厨房储备食品本周新增1条可复核信号",
         "signals": [
           "安琪酵母40周年发布可持续报告"
         ],
@@ -1481,21 +1570,10 @@
           "高客单投影海外新品转化"
         ]
       },
-      "光伏组件": {
-        "industry": "光伏组件",
-        "lead_count": 1,
-        "headline": "清洁能源本周新增1条可复核信号",
-        "signals": [
-          "晶科能源获RETC最高成就评级"
-        ],
-        "recommended_focus": [
-          "光伏海外客户信任背书"
-        ]
-      },
       "力量训练设备": {
         "industry": "力量训练设备",
         "lead_count": 1,
-        "headline": "智能健身本周新增1条可复核信号",
+        "headline": "健身设备本周新增1条可复核信号",
         "signals": [
           "Speediance成为ATHX智能健身伙伴"
         ],
@@ -1506,7 +1584,7 @@
       "Amazfit新品": {
         "industry": "Amazfit新品",
         "lead_count": 1,
-        "headline": "智能穿戴本周新增1条可复核信号",
+        "headline": "穿戴式科技本周新增1条可复核信号",
         "signals": [
           "Zepp披露新品带动Q1收入增长"
         ],
@@ -1517,7 +1595,7 @@
       "Amazon Prime Day": {
         "industry": "Amazon Prime Day",
         "lead_count": 1,
-        "headline": "家纺寝具本周新增1条可复核信号",
+        "headline": "床上用品本周新增1条可复核信号",
         "signals": [
           "Bedsure推出Prime Day家纺折扣"
         ],
@@ -1528,7 +1606,7 @@
       "VAR显示供应": {
         "industry": "VAR显示供应",
         "lead_count": 1,
-        "headline": "赛事显示设备本周新增1条可复核信号",
+        "headline": "电视与视频显示本周新增1条可复核信号",
         "signals": [
           "海信RGB MiniLED支持世界杯VAR运行"
         ],
@@ -1539,7 +1617,7 @@
       "预制房/微型住宅": {
         "industry": "预制房/微型住宅",
         "lead_count": 1,
-        "headline": "智能居住本周新增1条可复核信号",
+        "headline": "家具本周新增1条可复核信号",
         "signals": [
           "OptiMorph预告MSpace预制房参展"
         ],
@@ -1668,6 +1746,17 @@
           "医疗AI产品化与国际叙事"
         ]
       },
+      "出口增长": {
+        "industry": "出口增长",
+        "lead_count": 1,
+        "headline": "-本周新增1条可复核信号",
+        "signals": [
+          "广汽5月自主品牌出口同比增140%"
+        ],
+        "recommended_focus": [
+          "汽车出海内容与本地化运营"
+        ]
+      },
       "辅助驾驶系统": {
         "industry": "辅助驾驶系统",
         "lead_count": 1,
@@ -1721,6 +1810,17 @@
         ],
         "recommended_focus": [
           "AI制药平台海外客户合作"
+        ]
+      },
+      "光伏组件": {
+        "industry": "光伏组件",
+        "lead_count": 1,
+        "headline": "-本周新增1条可复核信号",
+        "signals": [
+          "晶科能源获RETC最高成就评级"
+        ],
+        "recommended_focus": [
+          "光伏海外客户信任背书"
         ]
       },
       "ADC临床研究": {
@@ -1892,7 +1992,9 @@
           "warehouse_suggestion": "是",
           "review_note": "中国投影品牌；全球发布与观赛场景清晰",
           "source_count": "1",
-          "source_standard_l2": "投影与家庭影院",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
+          "source_standard_l2": "电视与视频显示",
           "dynamic_date_display": "06-11"
         },
         {
@@ -1918,8 +2020,38 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；Kickstarter金额与全球用户明确",
           "source_count": "1",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
           "source_standard_l2": "电视与视频显示",
           "dynamic_date_display": "06-10"
+        },
+        {
+          "candidate_id": "W25-C048",
+          "week": "W25",
+          "search_date": "2026-06-16",
+          "titan_category": "EC",
+          "standard_l1": "Consumer Tech",
+          "standard_l2": "电视与视频显示",
+          "standard_l3": "VAR显示供应",
+          "application_product_name": "Hisense RGB MiniLED VAR TV",
+          "owner_company_brand": "Hisense",
+          "target_market_channel": "FIFA World Cup 2026 IBC Dallas",
+          "dynamic_type": "赛事合作/官方设备供应",
+          "dynamic_date": "2026-06-15",
+          "dynamic_summary": "海信RGB MiniLED支持世界杯VAR运行",
+          "attention_point": "体育IP与显示设备权威背书",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire APAC",
+          "primary_source_url": "https://en.prnasia.com/releases/apac/hisense-rgb-miniled-supports-fifa-world-cup-2026-var-operations-at-the-international-broadcast-centre-537192.shtml",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "Newswire；FIFA VAR场景与达拉斯IBC明确",
+          "source_count": "1",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
+          "source_standard_l2": "电视与视频显示",
+          "dynamic_date_display": "06-15"
         }
       ],
       "W25-C002": [
@@ -1946,7 +2078,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方赞助权益与零售导流明确",
           "source_count": "1",
-          "source_standard_l2": "电视与显示",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
+          "source_standard_l2": "电视与视频显示",
           "dynamic_date_display": "06-12"
         },
         {
@@ -1972,8 +2106,38 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；Kickstarter金额与全球用户明确",
           "source_count": "1",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
           "source_standard_l2": "电视与视频显示",
           "dynamic_date_display": "06-10"
+        },
+        {
+          "candidate_id": "W25-C048",
+          "week": "W25",
+          "search_date": "2026-06-16",
+          "titan_category": "EC",
+          "standard_l1": "Consumer Tech",
+          "standard_l2": "电视与视频显示",
+          "standard_l3": "VAR显示供应",
+          "application_product_name": "Hisense RGB MiniLED VAR TV",
+          "owner_company_brand": "Hisense",
+          "target_market_channel": "FIFA World Cup 2026 IBC Dallas",
+          "dynamic_type": "赛事合作/官方设备供应",
+          "dynamic_date": "2026-06-15",
+          "dynamic_summary": "海信RGB MiniLED支持世界杯VAR运行",
+          "attention_point": "体育IP与显示设备权威背书",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire APAC",
+          "primary_source_url": "https://en.prnasia.com/releases/apac/hisense-rgb-miniled-supports-fifa-world-cup-2026-var-operations-at-the-international-broadcast-centre-537192.shtml",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "Newswire；FIFA VAR场景与达拉斯IBC明确",
+          "source_count": "1",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
+          "source_standard_l2": "电视与视频显示",
+          "dynamic_date_display": "06-15"
         }
       ],
       "W25-C003": [],
@@ -1984,7 +2148,7 @@
           "search_date": "2026-06-12",
           "titan_category": "EC",
           "standard_l1": "Fashion",
-          "standard_l2": "服装综合",
+          "standard_l2": "女装",
           "standard_l3": "校园大使/美国内容营销",
           "application_product_name": "SHEIN Campus Retreat 2026",
           "owner_company_brand": "SHEIN",
@@ -2001,7 +2165,9 @@
           "warehouse_suggestion": "是",
           "review_note": "海外活动与目标人群明确",
           "source_count": "1",
-          "source_standard_l2": "服饰零售",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Fashion",
+          "source_standard_l2": "女装",
           "dynamic_date_display": "06-04"
         }
       ],
@@ -2012,7 +2178,7 @@
           "search_date": "2026-06-12",
           "titan_category": "EC",
           "standard_l1": "Fashion",
-          "standard_l2": "服装综合",
+          "standard_l2": "女装",
           "standard_l3": "卖家合规/服饰平台",
           "application_product_name": "SHEIN Product Safety and Quality Compliance Series",
           "owner_company_brand": "SHEIN",
@@ -2029,18 +2195,77 @@
           "warehouse_suggestion": "是",
           "review_note": "Fashion已按独立一级行业收纳",
           "source_count": "1",
-          "source_standard_l2": "跨境电商平台",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Fashion",
+          "source_standard_l2": "女装",
           "dynamic_date_display": "06-10"
         }
       ],
       "W25-C012": [],
       "W25-C013": [],
       "W25-C015": [],
-      "W25-C021": [],
-      "W25-C022": [],
+      "W25-C021": [
+        {
+          "candidate_id": "W25-C028",
+          "week": "W25",
+          "search_date": "2026-06-16",
+          "titan_category": "EC",
+          "standard_l1": "Consumer Tech",
+          "standard_l2": "汽车电子",
+          "standard_l3": "摩托车智能屏",
+          "application_product_name": "RiderNav R7M / R7X",
+          "owner_company_brand": "RiderNav",
+          "target_market_channel": "全球骑行用户/官网",
+          "dynamic_type": "促销活动/全渠道销售",
+          "dynamic_date": "2026-06-12",
+          "dynamic_summary": "RiderNav开启智能骑行屏夏季活动",
+          "attention_point": "骑行硬件DTC与社群转化",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/ridernav-brings-its-7-inch-smart-motorcycle-displays-to-the-mid-summer-riding-festival-302798959.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "官方Newswire；活动时间与渠道明确",
+          "source_count": "1",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
+          "source_standard_l2": "汽车电子",
+          "dynamic_date_display": "06-12"
+        }
+      ],
       "W25-C025": [],
       "W25-C026": [],
-      "W25-C028": [],
+      "W25-C028": [
+        {
+          "candidate_id": "W25-C021",
+          "week": "W25",
+          "search_date": "2026-06-16",
+          "titan_category": "EC",
+          "standard_l1": "Consumer Tech",
+          "standard_l2": "汽车电子",
+          "standard_l3": "EV充电实验室",
+          "application_product_name": "Shell Recharge-SINEXCEL Joint Lab",
+          "owner_company_brand": "SINEXCEL",
+          "target_market_channel": "Shell Recharge/全球EV充电技术",
+          "dynamic_type": "国际合作/联合实验室",
+          "dynamic_date": "2026-06-16",
+          "dynamic_summary": "盛弘股份与Shell Recharge建联合实验室",
+          "attention_point": "海外EV充电生态合作机会",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/shell-recharge-and-sinexcel-launch-joint-innovation-lab-to-accelerate-ev-charging-innovation-302801325.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "官方Newswire；合作方与技术方向明确",
+          "source_count": "1",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
+          "source_standard_l2": "汽车电子",
+          "dynamic_date_display": "06-16"
+        }
+      ],
       "W25-C031": [],
       "W25-C032": [
         {
@@ -2066,7 +2291,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方赞助权益与零售导流明确",
           "source_count": "1",
-          "source_standard_l2": "电视与显示",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
+          "source_standard_l2": "电视与视频显示",
           "dynamic_date_display": "06-12"
         },
         {
@@ -2092,15 +2319,129 @@
           "warehouse_suggestion": "是",
           "review_note": "中国投影品牌；全球发布与观赛场景清晰",
           "source_count": "1",
-          "source_standard_l2": "投影与家庭影院",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
+          "source_standard_l2": "电视与视频显示",
           "dynamic_date_display": "06-11"
+        },
+        {
+          "candidate_id": "W25-C048",
+          "week": "W25",
+          "search_date": "2026-06-16",
+          "titan_category": "EC",
+          "standard_l1": "Consumer Tech",
+          "standard_l2": "电视与视频显示",
+          "standard_l3": "VAR显示供应",
+          "application_product_name": "Hisense RGB MiniLED VAR TV",
+          "owner_company_brand": "Hisense",
+          "target_market_channel": "FIFA World Cup 2026 IBC Dallas",
+          "dynamic_type": "赛事合作/官方设备供应",
+          "dynamic_date": "2026-06-15",
+          "dynamic_summary": "海信RGB MiniLED支持世界杯VAR运行",
+          "attention_point": "体育IP与显示设备权威背书",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire APAC",
+          "primary_source_url": "https://en.prnasia.com/releases/apac/hisense-rgb-miniled-supports-fifa-world-cup-2026-var-operations-at-the-international-broadcast-centre-537192.shtml",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "Newswire；FIFA VAR场景与达拉斯IBC明确",
+          "source_count": "1",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
+          "source_standard_l2": "电视与视频显示",
+          "dynamic_date_display": "06-15"
         }
       ],
-      "W25-C033": [],
       "W25-C034": [],
       "W25-C035": [],
       "W25-C040": [],
-      "W25-C048": [],
+      "W25-C048": [
+        {
+          "candidate_id": "W25-C001",
+          "week": "W25",
+          "search_date": "2026-06-12",
+          "titan_category": "EC",
+          "standard_l1": "Consumer Tech",
+          "standard_l2": "电视与视频显示",
+          "standard_l3": "MiniLED电视/世界杯场景",
+          "application_product_name": "Hisense RGB MiniLED TV pop-up",
+          "owner_company_brand": "Hisense",
+          "target_market_channel": "美国纽约Hudson Yards/美国官网",
+          "dynamic_type": "线下活动/体育IP营销",
+          "dynamic_date": "2026-06-12",
+          "dynamic_summary": "Hisense纽约世界杯主题快闪展示RGB MiniLED",
+          "attention_point": "世界杯场景、线下互动、美国零售转化",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/hisense-rgb-themed-pop-up-event-lights-up-the-new-landmark-of-fifa-world-cup-2026-302798850.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "官方赞助权益与零售导流明确",
+          "source_count": "1",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
+          "source_standard_l2": "电视与视频显示",
+          "dynamic_date_display": "06-12"
+        },
+        {
+          "candidate_id": "W25-C002",
+          "week": "W25",
+          "search_date": "2026-06-12",
+          "titan_category": "EC",
+          "standard_l1": "Consumer Tech",
+          "standard_l2": "电视与视频显示",
+          "standard_l3": "4K激光投影",
+          "application_product_name": "JMGO N3 Ultimate",
+          "owner_company_brand": "JMGO",
+          "target_market_channel": "全球官网/美国Amazon/足球观赛场景",
+          "dynamic_type": "全球发布/场景营销",
+          "dynamic_date": "2026-06-11",
+          "dynamic_summary": "JMGO以比赛日场景推广N3 Ultimate三色激光投影",
+          "attention_point": "体育观赛、家庭影院、测评内容",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/upgrade-your-match-day-setup-with-jmgo-triple-laser-projectors-302796832.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "中国投影品牌；全球发布与观赛场景清晰",
+          "source_count": "1",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
+          "source_standard_l2": "电视与视频显示",
+          "dynamic_date_display": "06-11"
+        },
+        {
+          "candidate_id": "W25-C032",
+          "week": "W25",
+          "search_date": "2026-06-16",
+          "titan_category": "EC",
+          "standard_l1": "Consumer Tech",
+          "standard_l2": "电视与视频显示",
+          "standard_l3": "4K投影众筹",
+          "application_product_name": "XGIMI TITAN Noir Series",
+          "owner_company_brand": "XGIMI",
+          "target_market_channel": "Kickstarter/全球投影用户",
+          "dynamic_type": "众筹收官/全球新品验证",
+          "dynamic_date": "2026-06-10",
+          "dynamic_summary": "极米TITAN Noir众筹超1800万美元",
+          "attention_point": "高客单投影海外新品转化",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/xgimi-concludes-crowdfunding-campaign-for-titan-noir-series-4k-projectors-raising-over-18-8-million-as-kickstarters-highest-funded-campaign-of-2026--302796529.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "官方Newswire；Kickstarter金额与全球用户明确",
+          "source_count": "1",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
+          "source_standard_l2": "电视与视频显示",
+          "dynamic_date_display": "06-10"
+        }
+      ],
       "W25-C051": [],
       "W25-C006": [
         {
@@ -2126,7 +2467,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；国际俱乐部合作和数字活动明确",
           "source_count": "1",
-          "source_standard_l2": "体育IP运营",
+          "source_titan_category": "AG",
+          "source_standard_l1": "泛娱乐",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-12"
         }
       ],
@@ -2154,7 +2497,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方新闻；海外展会曝光明确",
           "source_count": "1",
-          "source_standard_l2": "游戏",
+          "source_titan_category": "AG",
+          "source_standard_l1": "Gaming",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-05"
         }
       ],
@@ -2182,7 +2527,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方页面；作为W25游戏线索池前置信号",
           "source_count": "1",
-          "source_standard_l2": "游戏",
+          "source_titan_category": "AG",
+          "source_standard_l1": "Gaming",
+          "source_standard_l2": "-",
           "dynamic_date_display": "05-29"
         }
       ],
@@ -2210,7 +2557,9 @@
           "warehouse_suggestion": "是",
           "review_note": "需补PRNewswire原始链接",
           "source_count": "1",
-          "source_standard_l2": "跨境汇款",
+          "source_titan_category": "AG",
+          "source_standard_l1": "Fintech",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-05"
         },
         {
@@ -2236,7 +2585,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Newswire；调研范围覆盖东南亚与中国",
           "source_count": "1",
-          "source_standard_l2": "会员权益",
+          "source_titan_category": "AG",
+          "source_standard_l1": "Fintech",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-12"
         }
       ],
@@ -2264,7 +2615,9 @@
           "warehouse_suggestion": "是",
           "review_note": "近14天窗口内的硬信源，可延续到W25跟进",
           "source_count": "1",
-          "source_standard_l2": "跨境支付",
+          "source_titan_category": "AG",
+          "source_standard_l1": "Fintech",
+          "source_standard_l2": "-",
           "dynamic_date_display": "05-26"
         },
         {
@@ -2290,7 +2643,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Newswire；调研范围覆盖东南亚与中国",
           "source_count": "1",
-          "source_standard_l2": "会员权益",
+          "source_titan_category": "AG",
+          "source_standard_l1": "Fintech",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-12"
         }
       ],
@@ -2318,7 +2673,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；面向中国企业出海工厂场景",
           "source_count": "1",
-          "source_standard_l2": "企业智能制造",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-15"
         },
         {
@@ -2344,7 +2701,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Business Wire硬信源；美国发布节点明确",
           "source_count": "1",
-          "source_standard_l2": "教育机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-11"
         },
         {
@@ -2370,7 +2729,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；海外零售客户部署明确",
           "source_count": "1",
-          "source_standard_l2": "商业服务机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         },
         {
@@ -2396,7 +2757,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；40+国家地区伙伴参会",
           "source_count": "1",
-          "source_standard_l2": "教育医疗ICT",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         }
       ],
@@ -2424,7 +2787,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方博客；时间略早但可做W25预备追踪",
           "source_count": "1",
-          "source_standard_l2": "AI视频生成",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "05-21"
         },
         {
@@ -2450,7 +2815,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Business Wire硬信源；美国发布节点明确",
           "source_count": "1",
-          "source_standard_l2": "教育机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-11"
         },
         {
@@ -2476,7 +2843,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；海外零售客户部署明确",
           "source_count": "1",
-          "source_standard_l2": "商业服务机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         },
         {
@@ -2502,7 +2871,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；40+国家地区伙伴参会",
           "source_count": "1",
-          "source_standard_l2": "教育医疗ICT",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         }
       ],
@@ -2530,7 +2901,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方博客；时间略早但可做W25预备追踪",
           "source_count": "1",
-          "source_standard_l2": "AI视频生成",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "05-21"
         },
         {
@@ -2556,7 +2929,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；面向中国企业出海工厂场景",
           "source_count": "1",
-          "source_standard_l2": "企业智能制造",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-15"
         },
         {
@@ -2582,7 +2957,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；海外零售客户部署明确",
           "source_count": "1",
-          "source_standard_l2": "商业服务机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         },
         {
@@ -2608,7 +2985,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；40+国家地区伙伴参会",
           "source_count": "1",
-          "source_standard_l2": "教育医疗ICT",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         }
       ],
@@ -2636,7 +3015,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方博客；时间略早但可做W25预备追踪",
           "source_count": "1",
-          "source_standard_l2": "AI视频生成",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "05-21"
         },
         {
@@ -2662,7 +3043,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；面向中国企业出海工厂场景",
           "source_count": "1",
-          "source_standard_l2": "企业智能制造",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-15"
         },
         {
@@ -2688,7 +3071,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Business Wire硬信源；美国发布节点明确",
           "source_count": "1",
-          "source_standard_l2": "教育机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-11"
         },
         {
@@ -2714,7 +3099,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；40+国家地区伙伴参会",
           "source_count": "1",
-          "source_standard_l2": "教育医疗ICT",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         }
       ],
@@ -2742,7 +3129,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方博客；时间略早但可做W25预备追踪",
           "source_count": "1",
-          "source_standard_l2": "AI视频生成",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "05-21"
         },
         {
@@ -2768,7 +3157,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；面向中国企业出海工厂场景",
           "source_count": "1",
-          "source_standard_l2": "企业智能制造",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-15"
         },
         {
@@ -2794,7 +3185,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Business Wire硬信源；美国发布节点明确",
           "source_count": "1",
-          "source_standard_l2": "教育机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-11"
         },
         {
@@ -2820,7 +3213,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；海外零售客户部署明确",
           "source_count": "1",
-          "source_standard_l2": "商业服务机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         }
       ],
@@ -2848,7 +3243,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方博客；时间略早但可做W25预备追踪",
           "source_count": "1",
-          "source_standard_l2": "AI视频生成",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "05-21"
         },
         {
@@ -2874,7 +3271,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；面向中国企业出海工厂场景",
           "source_count": "1",
-          "source_standard_l2": "企业智能制造",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-15"
         },
         {
@@ -2900,7 +3299,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Business Wire硬信源；美国发布节点明确",
           "source_count": "1",
-          "source_standard_l2": "教育机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-11"
         },
         {
@@ -2926,11 +3327,41 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；海外零售客户部署明确",
           "source_count": "1",
-          "source_standard_l2": "商业服务机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         }
       ],
-      "W25-C023": [
+      "W25-C022": [
+        {
+          "candidate_id": "W25-C023",
+          "week": "W25",
+          "search_date": "2026-06-16",
+          "titan_category": "AG",
+          "standard_l1": "智能出行",
+          "standard_l2": "-",
+          "standard_l3": "辅助驾驶系统",
+          "application_product_name": "SDA Pilot",
+          "owner_company_brand": "Changan Group",
+          "target_market_channel": "重庆车展/全球智能出行叙事",
+          "dynamic_type": "技术发布/车展曝光",
+          "dynamic_date": "2026-06-14",
+          "dynamic_summary": "长安发布自研ADAS SDA Pilot",
+          "attention_point": "智能驾驶技术发布与海外传播",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire APAC",
+          "primary_source_url": "https://en.prnasia.com/releases/apac/changan-group-unveils-its-in-house-developed-adas-sda-pilot-537083.shtml",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "Newswire；官方车展发布",
+          "source_count": "1",
+          "source_titan_category": "AG",
+          "source_standard_l1": "智能出行",
+          "source_standard_l2": "-",
+          "dynamic_date_display": "06-14"
+        },
         {
           "candidate_id": "W25-C043",
           "week": "W25",
@@ -2954,7 +3385,67 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；资本市场准入节点明确",
           "source_count": "1",
-          "source_standard_l2": "Robotaxi",
+          "source_titan_category": "AG",
+          "source_standard_l1": "智能出行",
+          "source_standard_l2": "-",
+          "dynamic_date_display": "06-03"
+        }
+      ],
+      "W25-C023": [
+        {
+          "candidate_id": "W25-C022",
+          "week": "W25",
+          "search_date": "2026-06-16",
+          "titan_category": "AG",
+          "standard_l1": "智能出行",
+          "standard_l2": "-",
+          "standard_l3": "出口增长",
+          "application_product_name": "GAC proprietary brand exports",
+          "owner_company_brand": "GAC",
+          "target_market_channel": "全球汽车出口市场",
+          "dynamic_type": "出口增长/全球化运营",
+          "dynamic_date": "2026-06-04",
+          "dynamic_summary": "广汽5月自主品牌出口同比增140%",
+          "attention_point": "汽车出海内容与本地化运营",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/gac-posts-140-export-growth-in-may-advancing-its-vision-of-sustainable-global-mobility-302791347.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "官方Newswire；出口数据与全球化战略明确",
+          "source_count": "1",
+          "source_titan_category": "AG",
+          "source_standard_l1": "智能出行",
+          "source_standard_l2": "-",
+          "dynamic_date_display": "06-04"
+        },
+        {
+          "candidate_id": "W25-C043",
+          "week": "W25",
+          "search_date": "2026-06-16",
+          "titan_category": "AG",
+          "standard_l1": "智能出行",
+          "standard_l2": "-",
+          "standard_l3": "资本市场通道",
+          "application_product_name": "Pony.ai listed shares Stock Connect",
+          "owner_company_brand": "Pony.ai",
+          "target_market_channel": "香港/内地资本市场",
+          "dynamic_type": "资本市场准入/品牌背书",
+          "dynamic_date": "2026-06-03",
+          "dynamic_summary": "Pony.ai纳入沪港通合资格证券",
+          "attention_point": "Robotaxi公司融资与资本市场声量",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/pony-ai-inc-announces-inclusion-of-its-class-a-ordinary-shares-in-the-shanghai-hong-kong-stock-connect-program-302790163.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "官方Newswire；资本市场准入节点明确",
+          "source_count": "1",
+          "source_titan_category": "AG",
+          "source_standard_l1": "智能出行",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-03"
         }
       ],
@@ -2982,7 +3473,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方博客；时间略早但可做W25预备追踪",
           "source_count": "1",
-          "source_standard_l2": "AI视频生成",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "05-21"
         },
         {
@@ -3008,7 +3501,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；面向中国企业出海工厂场景",
           "source_count": "1",
-          "source_standard_l2": "企业智能制造",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-15"
         },
         {
@@ -3034,7 +3529,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Business Wire硬信源；美国发布节点明确",
           "source_count": "1",
-          "source_standard_l2": "教育机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-11"
         },
         {
@@ -3060,7 +3557,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；海外零售客户部署明确",
           "source_count": "1",
-          "source_standard_l2": "商业服务机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         }
       ],
@@ -3088,7 +3587,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方博客；时间略早但可做W25预备追踪",
           "source_count": "1",
-          "source_standard_l2": "AI视频生成",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "05-21"
         },
         {
@@ -3114,7 +3615,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；面向中国企业出海工厂场景",
           "source_count": "1",
-          "source_standard_l2": "企业智能制造",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-15"
         },
         {
@@ -3140,7 +3643,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Business Wire硬信源；美国发布节点明确",
           "source_count": "1",
-          "source_standard_l2": "教育机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-11"
         },
         {
@@ -3166,7 +3671,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；海外零售客户部署明确",
           "source_count": "1",
-          "source_standard_l2": "商业服务机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         }
       ],
@@ -3194,7 +3701,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；临床节点明确",
           "source_count": "1",
-          "source_standard_l2": "创新药",
+          "source_titan_category": "AG",
+          "source_standard_l1": "Health",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-15"
         },
         {
@@ -3220,7 +3729,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；新加坡产能和全球客户定位明确",
           "source_count": "1",
-          "source_standard_l2": "CDMO",
+          "source_titan_category": "AG",
+          "source_standard_l1": "Health",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-04"
         }
       ],
@@ -3248,7 +3759,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方博客；时间略早但可做W25预备追踪",
           "source_count": "1",
-          "source_standard_l2": "AI视频生成",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "05-21"
         },
         {
@@ -3274,7 +3787,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；面向中国企业出海工厂场景",
           "source_count": "1",
-          "source_standard_l2": "企业智能制造",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-15"
         },
         {
@@ -3300,7 +3815,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Business Wire硬信源；美国发布节点明确",
           "source_count": "1",
-          "source_standard_l2": "教育机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-11"
         },
         {
@@ -3326,8 +3843,68 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；海外零售客户部署明确",
           "source_count": "1",
-          "source_standard_l2": "商业服务机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
+        }
+      ],
+      "W25-C033": [
+        {
+          "candidate_id": "W25-C037",
+          "week": "W25",
+          "search_date": "2026-06-16",
+          "titan_category": "AG",
+          "standard_l1": "工业",
+          "standard_l2": "-",
+          "standard_l3": "东南亚能源项目",
+          "application_product_name": "Laos future energy system",
+          "owner_company_brand": "Envision Energy",
+          "target_market_channel": "老挝/东南亚新能源系统",
+          "dynamic_type": "海外合作/大型能源项目",
+          "dynamic_date": "2026-06-01",
+          "dynamic_summary": "远景能源参与老挝未来能源系统",
+          "attention_point": "东南亚新能源项目传播和政府客户",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/envision-energy-partners-with-impact-electrons-siam-to-develop-southeast-asias-largest-future-energy-system-in-laos-302786978.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "官方Newswire；东南亚项目与合作方明确",
+          "source_count": "1",
+          "source_titan_category": "AG",
+          "source_standard_l1": "工业",
+          "source_standard_l2": "-",
+          "dynamic_date_display": "06-01"
+        },
+        {
+          "candidate_id": "W25-C049",
+          "week": "W25",
+          "search_date": "2026-06-16",
+          "titan_category": "AG",
+          "standard_l1": "工业",
+          "standard_l2": "-",
+          "standard_l3": "墨西哥轻轨车辆",
+          "application_product_name": "CRRC light rail vehicles in Mexico",
+          "owner_company_brand": "CRRC",
+          "target_market_channel": "墨西哥城/蒙特雷/瓜达拉哈拉",
+          "dynamic_type": "海外项目运营/赛事交通",
+          "dynamic_date": "2026-06-16",
+          "dynamic_summary": "中车轻轨车辆服务墨西哥赛事交通",
+          "attention_point": "拉美公共交通项目传播",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire APAC",
+          "primary_source_url": "https://en.prnasia.com/releases/apac/-made-in-china-light-rail-vehicles-support-transit-upgrades-ahead-of-global-soccer-tournament-in-mexico-537315.shtml",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "Newswire；墨西哥多城市运营场景明确",
+          "source_count": "1",
+          "source_titan_category": "AG",
+          "source_standard_l1": "工业",
+          "source_standard_l2": "-",
+          "dynamic_date_display": "06-16"
         }
       ],
       "W25-C036": [
@@ -3354,7 +3931,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；Stanford合作与全球权益明确",
           "source_count": "1",
-          "source_standard_l2": "创新药",
+          "source_titan_category": "AG",
+          "source_standard_l1": "Health",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-12"
         },
         {
@@ -3380,11 +3959,41 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；新加坡产能和全球客户定位明确",
           "source_count": "1",
-          "source_standard_l2": "CDMO",
+          "source_titan_category": "AG",
+          "source_standard_l1": "Health",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-04"
         }
       ],
       "W25-C037": [
+        {
+          "candidate_id": "W25-C033",
+          "week": "W25",
+          "search_date": "2026-06-16",
+          "titan_category": "AG",
+          "standard_l1": "工业",
+          "standard_l2": "-",
+          "standard_l3": "光伏组件",
+          "application_product_name": "JinkoSolar PV modules",
+          "owner_company_brand": "JinkoSolar",
+          "target_market_channel": "全球光伏客户/RETC PVMI",
+          "dynamic_type": "第三方评测/品牌背书",
+          "dynamic_date": "2026-06-15",
+          "dynamic_summary": "晶科能源获RETC最高成就评级",
+          "attention_point": "光伏海外客户信任背书",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/jinkosolar-earns-retcs-overall-highest-achiever-award-for-the-seventh-consecutive-year-302800265.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "官方Newswire；国际测试评级背书明确",
+          "source_count": "1",
+          "source_titan_category": "AG",
+          "source_standard_l1": "工业",
+          "source_standard_l2": "-",
+          "dynamic_date_display": "06-15"
+        },
         {
           "candidate_id": "W25-C049",
           "week": "W25",
@@ -3408,7 +4017,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Newswire；墨西哥多城市运营场景明确",
           "source_count": "1",
-          "source_standard_l2": "轨道交通",
+          "source_titan_category": "AG",
+          "source_standard_l1": "工业",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-16"
         }
       ],
@@ -3436,7 +4047,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方博客；时间略早但可做W25预备追踪",
           "source_count": "1",
-          "source_standard_l2": "AI视频生成",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "05-21"
         },
         {
@@ -3462,7 +4075,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；面向中国企业出海工厂场景",
           "source_count": "1",
-          "source_standard_l2": "企业智能制造",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-15"
         },
         {
@@ -3488,7 +4103,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Business Wire硬信源；美国发布节点明确",
           "source_count": "1",
-          "source_standard_l2": "教育机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-11"
         },
         {
@@ -3514,7 +4131,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；海外零售客户部署明确",
           "source_count": "1",
-          "source_standard_l2": "商业服务机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         }
       ],
@@ -3542,7 +4161,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；全球在线教育平台主体明确",
           "source_count": "1",
-          "source_standard_l2": "在线教育",
+          "source_titan_category": "AG",
+          "source_standard_l1": "平台",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-10"
         },
         {
@@ -3568,7 +4189,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；在线旅游平台经营信号",
           "source_count": "1",
-          "source_standard_l2": "在线旅游",
+          "source_titan_category": "AG",
+          "source_standard_l1": "平台",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-05"
         }
       ],
@@ -3596,7 +4219,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；Stanford合作与全球权益明确",
           "source_count": "1",
-          "source_standard_l2": "创新药",
+          "source_titan_category": "AG",
+          "source_standard_l1": "Health",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-12"
         },
         {
@@ -3622,7 +4247,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；临床节点明确",
           "source_count": "1",
-          "source_standard_l2": "创新药",
+          "source_titan_category": "AG",
+          "source_standard_l1": "Health",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-15"
         }
       ],
@@ -3650,7 +4277,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方博客；时间略早但可做W25预备追踪",
           "source_count": "1",
-          "source_standard_l2": "AI视频生成",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "05-21"
         },
         {
@@ -3676,7 +4305,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；面向中国企业出海工厂场景",
           "source_count": "1",
-          "source_standard_l2": "企业智能制造",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-15"
         },
         {
@@ -3702,7 +4333,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Business Wire硬信源；美国发布节点明确",
           "source_count": "1",
-          "source_standard_l2": "教育机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-11"
         },
         {
@@ -3728,11 +4361,41 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；海外零售客户部署明确",
           "source_count": "1",
-          "source_standard_l2": "商业服务机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         }
       ],
       "W25-C043": [
+        {
+          "candidate_id": "W25-C022",
+          "week": "W25",
+          "search_date": "2026-06-16",
+          "titan_category": "AG",
+          "standard_l1": "智能出行",
+          "standard_l2": "-",
+          "standard_l3": "出口增长",
+          "application_product_name": "GAC proprietary brand exports",
+          "owner_company_brand": "GAC",
+          "target_market_channel": "全球汽车出口市场",
+          "dynamic_type": "出口增长/全球化运营",
+          "dynamic_date": "2026-06-04",
+          "dynamic_summary": "广汽5月自主品牌出口同比增140%",
+          "attention_point": "汽车出海内容与本地化运营",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/gac-posts-140-export-growth-in-may-advancing-its-vision-of-sustainable-global-mobility-302791347.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "官方Newswire；出口数据与全球化战略明确",
+          "source_count": "1",
+          "source_titan_category": "AG",
+          "source_standard_l1": "智能出行",
+          "source_standard_l2": "-",
+          "dynamic_date_display": "06-04"
+        },
         {
           "candidate_id": "W25-C023",
           "week": "W25",
@@ -3756,7 +4419,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Newswire；官方车展发布",
           "source_count": "1",
-          "source_standard_l2": "ADAS",
+          "source_titan_category": "AG",
+          "source_standard_l1": "智能出行",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-14"
         }
       ],
@@ -3784,7 +4449,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；大促区域和包裹量明确",
           "source_count": "1",
-          "source_standard_l2": "跨境物流",
+          "source_titan_category": "AG",
+          "source_standard_l1": "平台",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         },
         {
@@ -3810,7 +4477,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；在线旅游平台经营信号",
           "source_count": "1",
-          "source_standard_l2": "在线旅游",
+          "source_titan_category": "AG",
+          "source_standard_l1": "平台",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-05"
         }
       ],
@@ -3838,7 +4507,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；大促区域和包裹量明确",
           "source_count": "1",
-          "source_standard_l2": "跨境物流",
+          "source_titan_category": "AG",
+          "source_standard_l1": "平台",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         },
         {
@@ -3864,7 +4535,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；全球在线教育平台主体明确",
           "source_count": "1",
-          "source_standard_l2": "在线教育",
+          "source_titan_category": "AG",
+          "source_standard_l1": "平台",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-10"
         }
       ],
@@ -3892,7 +4565,9 @@
           "warehouse_suggestion": "是",
           "review_note": "近14天窗口内的硬信源，可延续到W25跟进",
           "source_count": "1",
-          "source_standard_l2": "跨境支付",
+          "source_titan_category": "AG",
+          "source_standard_l1": "Fintech",
+          "source_standard_l2": "-",
           "dynamic_date_display": "05-26"
         },
         {
@@ -3918,7 +4593,9 @@
           "warehouse_suggestion": "是",
           "review_note": "需补PRNewswire原始链接",
           "source_count": "1",
-          "source_standard_l2": "跨境汇款",
+          "source_titan_category": "AG",
+          "source_standard_l1": "Fintech",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-05"
         }
       ],
@@ -3946,7 +4623,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方博客；时间略早但可做W25预备追踪",
           "source_count": "1",
-          "source_standard_l2": "AI视频生成",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "05-21"
         },
         {
@@ -3972,7 +4651,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；面向中国企业出海工厂场景",
           "source_count": "1",
-          "source_standard_l2": "企业智能制造",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-15"
         },
         {
@@ -3998,7 +4679,9 @@
           "warehouse_suggestion": "是",
           "review_note": "Business Wire硬信源；美国发布节点明确",
           "source_count": "1",
-          "source_standard_l2": "教育机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-11"
         },
         {
@@ -4024,11 +4707,41 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；海外零售客户部署明确",
           "source_count": "1",
-          "source_standard_l2": "商业服务机器人",
+          "source_titan_category": "AG",
+          "source_standard_l1": "AI应用",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         }
       ],
       "W25-C049": [
+        {
+          "candidate_id": "W25-C033",
+          "week": "W25",
+          "search_date": "2026-06-16",
+          "titan_category": "AG",
+          "standard_l1": "工业",
+          "standard_l2": "-",
+          "standard_l3": "光伏组件",
+          "application_product_name": "JinkoSolar PV modules",
+          "owner_company_brand": "JinkoSolar",
+          "target_market_channel": "全球光伏客户/RETC PVMI",
+          "dynamic_type": "第三方评测/品牌背书",
+          "dynamic_date": "2026-06-15",
+          "dynamic_summary": "晶科能源获RETC最高成就评级",
+          "attention_point": "光伏海外客户信任背书",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "PRNewswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/jinkosolar-earns-retcs-overall-highest-achiever-award-for-the-seventh-consecutive-year-302800265.html",
+          "link_status": "可访问",
+          "warehouse_suggestion": "是",
+          "review_note": "官方Newswire；国际测试评级背书明确",
+          "source_count": "1",
+          "source_titan_category": "AG",
+          "source_standard_l1": "工业",
+          "source_standard_l2": "-",
+          "dynamic_date_display": "06-15"
+        },
         {
           "candidate_id": "W25-C037",
           "week": "W25",
@@ -4052,7 +4765,9 @@
           "warehouse_suggestion": "是",
           "review_note": "官方Newswire；东南亚项目与合作方明确",
           "source_count": "1",
-          "source_standard_l2": "新能源系统",
+          "source_titan_category": "AG",
+          "source_standard_l1": "工业",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-01"
         }
       ],
@@ -4080,7 +4795,9 @@
           "warehouse_suggestion": "是",
           "review_note": "国际站上线与AI工具事实明确",
           "source_count": "1",
-          "source_standard_l2": "长视频/流媒体",
+          "source_titan_category": "AG",
+          "source_standard_l1": "泛娱乐",
+          "source_standard_l2": "-",
           "dynamic_date_display": "06-09"
         }
       ]
@@ -4112,7 +4829,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方赞助权益与零售导流明确",
         "source_count": "1",
-        "source_standard_l2": "电视与显示",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "电视与视频显示",
         "dynamic_date_display": "06-12"
       },
       {
@@ -4138,7 +4857,9 @@
         "warehouse_suggestion": "是",
         "review_note": "中国投影品牌；全球发布与观赛场景清晰",
         "source_count": "1",
-        "source_standard_l2": "投影与家庭影院",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "电视与视频显示",
         "dynamic_date_display": "06-11"
       },
       {
@@ -4164,7 +4885,9 @@
         "warehouse_suggestion": "是",
         "review_note": "美国免邮与官网转化信息明确",
         "source_count": "1",
-        "source_standard_l2": "食品与饮料",
+        "source_titan_category": "EC",
+        "source_standard_l1": "FMCG",
+        "source_standard_l2": "饮料",
         "dynamic_date_display": "06-12"
       },
       {
@@ -4173,7 +4896,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Fashion",
-        "standard_l2": "服装综合",
+        "standard_l2": "女装",
         "standard_l3": "卖家合规/服饰平台",
         "application_product_name": "SHEIN Product Safety and Quality Compliance Series",
         "owner_company_brand": "SHEIN",
@@ -4190,7 +4913,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Fashion已按独立一级行业收纳",
         "source_count": "1",
-        "source_standard_l2": "跨境电商平台",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Fashion",
+        "source_standard_l2": "女装",
         "dynamic_date_display": "06-10"
       },
       {
@@ -4199,7 +4924,7 @@
         "search_date": "2026-06-12",
         "titan_category": "EC",
         "standard_l1": "Fashion",
-        "standard_l2": "服装综合",
+        "standard_l2": "女装",
         "standard_l3": "校园大使/美国内容营销",
         "application_product_name": "SHEIN Campus Retreat 2026",
         "owner_company_brand": "SHEIN",
@@ -4216,7 +4941,9 @@
         "warehouse_suggestion": "是",
         "review_note": "海外活动与目标人群明确",
         "source_count": "1",
-        "source_standard_l2": "服饰零售",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Fashion",
+        "source_standard_l2": "女装",
         "dynamic_date_display": "06-04"
       },
       {
@@ -4242,7 +4969,9 @@
         "warehouse_suggestion": "是",
         "review_note": "W24已跟踪FridgePower，W25延伸到澳洲促销窗口",
         "source_count": "1",
-        "source_standard_l2": "户外电源",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "户外便携电源储能",
         "dynamic_date_display": "06-01"
       },
       {
@@ -4268,6 +4997,8 @@
         "warehouse_suggestion": "是",
         "review_note": "Fortune披露马来西亚开店计划及东南亚渠道布局",
         "source_count": "2",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Beauty",
         "source_standard_l2": "彩妆",
         "dynamic_date_display": "06-09"
       },
@@ -4294,7 +5025,9 @@
         "warehouse_suggestion": "是",
         "review_note": "2026-06-09正式开店，2026-06-11官方披露；海外主体、地点和产品明确",
         "source_count": "1",
-        "source_standard_l2": "营养与保健",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Health",
+        "source_standard_l2": "草药植物补充剂",
         "dynamic_date_display": "06-11"
       },
       {
@@ -4303,7 +5036,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "充电与能源设备",
+        "standard_l2": "汽车电子",
         "standard_l3": "EV充电实验室",
         "application_product_name": "Shell Recharge-SINEXCEL Joint Lab",
         "owner_company_brand": "SINEXCEL",
@@ -4320,34 +5053,10 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；合作方与技术方向明确",
         "source_count": "1",
-        "source_standard_l2": "充电与能源设备",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "汽车电子",
         "dynamic_date_display": "06-16"
-      },
-      {
-        "candidate_id": "W25-C022",
-        "week": "W25",
-        "search_date": "2026-06-16",
-        "titan_category": "EC",
-        "standard_l1": "智能出行",
-        "standard_l2": "整车出海",
-        "standard_l3": "出口增长",
-        "application_product_name": "GAC proprietary brand exports",
-        "owner_company_brand": "GAC",
-        "target_market_channel": "全球汽车出口市场",
-        "dynamic_type": "出口增长/全球化运营",
-        "dynamic_date": "2026-06-04",
-        "dynamic_summary": "广汽5月自主品牌出口同比增140%",
-        "attention_point": "汽车出海内容与本地化运营",
-        "source_grade": "A",
-        "source_layer": "P0",
-        "primary_source_name": "PRNewswire",
-        "primary_source_url": "https://www.prnewswire.com/news-releases/gac-posts-140-export-growth-in-may-advancing-its-vision-of-sustainable-global-mobility-302791347.html",
-        "link_status": "可访问",
-        "warehouse_suggestion": "是",
-        "review_note": "官方Newswire；出口数据与全球化战略明确",
-        "source_count": "1",
-        "source_standard_l2": "整车出海",
-        "dynamic_date_display": "06-04"
       },
       {
         "candidate_id": "W25-C025",
@@ -4355,7 +5064,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "电脑外设与充电",
+        "standard_l2": "计算机配件与外设",
         "standard_l3": "桌面扩展坞",
         "application_product_name": "Baseus Spacemate RD1 Pro",
         "owner_company_brand": "Baseus",
@@ -4372,7 +5081,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；新品功能和场景明确",
         "source_count": "1",
-        "source_standard_l2": "电脑外设与充电",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "计算机配件与外设",
         "dynamic_date_display": "06-15"
       },
       {
@@ -4381,7 +5092,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "厨房与大家电",
+        "standard_l2": "大家电与配件",
         "standard_l3": "冰箱/东南亚上市",
         "application_product_name": "Haier Horizon Refrigerator",
         "owner_company_brand": "Haier",
@@ -4398,7 +5109,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；越南上市及后续区域滚动明确",
         "source_count": "1",
-        "source_standard_l2": "厨房与大家电",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "大家电与配件",
         "dynamic_date_display": "06-01"
       },
       {
@@ -4407,7 +5120,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "智能车载",
+        "standard_l2": "汽车电子",
         "standard_l3": "摩托车智能屏",
         "application_product_name": "RiderNav R7M / R7X",
         "owner_company_brand": "RiderNav",
@@ -4424,7 +5137,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；活动时间与渠道明确",
         "source_count": "1",
-        "source_standard_l2": "智能车载",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "汽车电子",
         "dynamic_date_display": "06-12"
       },
       {
@@ -4433,7 +5148,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "FMCG",
-        "standard_l2": "食品原料",
+        "standard_l2": "厨房储备食品",
         "standard_l3": "酵母与生物技术",
         "application_product_name": "Angel Yeast global sustainability strategy",
         "owner_company_brand": "Angel Yeast",
@@ -4450,7 +5165,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；全球战略和食品安全议题明确",
         "source_count": "1",
-        "source_standard_l2": "食品原料",
+        "source_titan_category": "EC",
+        "source_standard_l1": "FMCG",
+        "source_standard_l2": "厨房储备食品",
         "dynamic_date_display": "06-12"
       },
       {
@@ -4476,42 +5193,18 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；Kickstarter金额与全球用户明确",
         "source_count": "1",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
         "source_standard_l2": "电视与视频显示",
         "dynamic_date_display": "06-10"
-      },
-      {
-        "candidate_id": "W25-C033",
-        "week": "W25",
-        "search_date": "2026-06-16",
-        "titan_category": "EC",
-        "standard_l1": "工业",
-        "standard_l2": "清洁能源",
-        "standard_l3": "光伏组件",
-        "application_product_name": "JinkoSolar PV modules",
-        "owner_company_brand": "JinkoSolar",
-        "target_market_channel": "全球光伏客户/RETC PVMI",
-        "dynamic_type": "第三方评测/品牌背书",
-        "dynamic_date": "2026-06-15",
-        "dynamic_summary": "晶科能源获RETC最高成就评级",
-        "attention_point": "光伏海外客户信任背书",
-        "source_grade": "A",
-        "source_layer": "P0",
-        "primary_source_name": "PRNewswire",
-        "primary_source_url": "https://www.prnewswire.com/news-releases/jinkosolar-earns-retcs-overall-highest-achiever-award-for-the-seventh-consecutive-year-302800265.html",
-        "link_status": "可访问",
-        "warehouse_suggestion": "是",
-        "review_note": "官方Newswire；国际测试评级背书明确",
-        "source_count": "1",
-        "source_standard_l2": "清洁能源",
-        "dynamic_date_display": "06-15"
       },
       {
         "candidate_id": "W25-C034",
         "week": "W25",
         "search_date": "2026-06-16",
         "titan_category": "EC",
-        "standard_l1": "Health",
-        "standard_l2": "智能健身",
+        "standard_l1": "Lifestyle",
+        "standard_l2": "健身设备",
         "standard_l3": "力量训练设备",
         "application_product_name": "Speediance smart fitness equipment",
         "owner_company_brand": "Speediance",
@@ -4528,7 +5221,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；57场国际赛事合作明确",
         "source_count": "1",
-        "source_standard_l2": "智能健身",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Lifestyle",
+        "source_standard_l2": "健身设备",
         "dynamic_date_display": "06-15"
       },
       {
@@ -4537,7 +5232,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "智能穿戴",
+        "standard_l2": "穿戴式科技",
         "standard_l3": "Amazfit新品",
         "application_product_name": "Amazfit Active Max / T-Rex Ultra 2",
         "owner_company_brand": "Zepp Health",
@@ -4554,7 +5249,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；新品名称与收入增长关联明确",
         "source_count": "1",
-        "source_standard_l2": "智能穿戴",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "穿戴式科技",
         "dynamic_date_display": "06-08"
       },
       {
@@ -4563,7 +5260,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Lifestyle",
-        "standard_l2": "家纺寝具",
+        "standard_l2": "床上用品",
         "standard_l3": "Amazon Prime Day",
         "application_product_name": "Bedsure Essential / PureWoven bedding",
         "owner_company_brand": "Bedsure",
@@ -4580,7 +5277,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；Amazon促销商品明确",
         "source_count": "1",
-        "source_standard_l2": "家纺寝具",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Lifestyle",
+        "source_standard_l2": "床上用品",
         "dynamic_date_display": "06-15"
       },
       {
@@ -4589,7 +5288,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Consumer Tech",
-        "standard_l2": "赛事显示设备",
+        "standard_l2": "电视与视频显示",
         "standard_l3": "VAR显示供应",
         "application_product_name": "Hisense RGB MiniLED VAR TV",
         "owner_company_brand": "Hisense",
@@ -4606,7 +5305,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Newswire；FIFA VAR场景与达拉斯IBC明确",
         "source_count": "1",
-        "source_standard_l2": "赛事显示设备",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "电视与视频显示",
         "dynamic_date_display": "06-15"
       },
       {
@@ -4615,7 +5316,7 @@
         "search_date": "2026-06-16",
         "titan_category": "EC",
         "standard_l1": "Lifestyle",
-        "standard_l2": "智能居住",
+        "standard_l2": "家具",
         "standard_l3": "预制房/微型住宅",
         "application_product_name": "OptiMorph MSpace Prefab House",
         "owner_company_brand": "OptiMorph",
@@ -4632,7 +5333,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；产品和展会买家场景明确",
         "source_count": "1",
-        "source_standard_l2": "智能居住",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Lifestyle",
+        "source_standard_l2": "家具",
         "dynamic_date_display": "06-12"
       },
       {
@@ -4658,7 +5361,9 @@
         "warehouse_suggestion": "是",
         "review_note": "国际站上线与AI工具事实明确",
         "source_count": "1",
-        "source_standard_l2": "长视频/流媒体",
+        "source_titan_category": "AG",
+        "source_standard_l1": "泛娱乐",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-09"
       },
       {
@@ -4684,7 +5389,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方页面；作为W25游戏线索池前置信号",
         "source_count": "1",
-        "source_standard_l2": "游戏",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Gaming",
+        "source_standard_l2": "-",
         "dynamic_date_display": "05-29"
       },
       {
@@ -4710,7 +5417,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方新闻；海外展会曝光明确",
         "source_count": "1",
-        "source_standard_l2": "游戏",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Gaming",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-05"
       },
       {
@@ -4736,7 +5445,9 @@
         "warehouse_suggestion": "是",
         "review_note": "近14天窗口内的硬信源，可延续到W25跟进",
         "source_count": "1",
-        "source_standard_l2": "跨境支付",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Fintech",
+        "source_standard_l2": "-",
         "dynamic_date_display": "05-26"
       },
       {
@@ -4762,7 +5473,9 @@
         "warehouse_suggestion": "是",
         "review_note": "需补PRNewswire原始链接",
         "source_count": "1",
-        "source_standard_l2": "跨境汇款",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Fintech",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-05"
       },
       {
@@ -4788,7 +5501,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方博客；时间略早但可做W25预备追踪",
         "source_count": "1",
-        "source_standard_l2": "AI视频生成",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "05-21"
       },
       {
@@ -4814,7 +5529,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；面向中国企业出海工厂场景",
         "source_count": "1",
-        "source_standard_l2": "企业智能制造",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-15"
       },
       {
@@ -4840,7 +5557,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Business Wire硬信源；美国发布节点明确",
         "source_count": "1",
-        "source_standard_l2": "教育机器人",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-11"
       },
       {
@@ -4866,7 +5585,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；海外零售客户部署明确",
         "source_count": "1",
-        "source_standard_l2": "商业服务机器人",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-09"
       },
       {
@@ -4892,7 +5613,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；40+国家地区伙伴参会",
         "source_count": "1",
-        "source_standard_l2": "教育医疗ICT",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-09"
       },
       {
@@ -4918,8 +5641,38 @@
         "warehouse_suggestion": "是",
         "review_note": "Newswire；产品升级和全球AI医疗叙事明确",
         "source_count": "1",
-        "source_standard_l2": "医疗AI",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-16"
+      },
+      {
+        "candidate_id": "W25-C022",
+        "week": "W25",
+        "search_date": "2026-06-16",
+        "titan_category": "AG",
+        "standard_l1": "智能出行",
+        "standard_l2": "-",
+        "standard_l3": "出口增长",
+        "application_product_name": "GAC proprietary brand exports",
+        "owner_company_brand": "GAC",
+        "target_market_channel": "全球汽车出口市场",
+        "dynamic_type": "出口增长/全球化运营",
+        "dynamic_date": "2026-06-04",
+        "dynamic_summary": "广汽5月自主品牌出口同比增140%",
+        "attention_point": "汽车出海内容与本地化运营",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/gac-posts-140-export-growth-in-may-advancing-its-vision-of-sustainable-global-mobility-302791347.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "官方Newswire；出口数据与全球化战略明确",
+        "source_count": "1",
+        "source_titan_category": "AG",
+        "source_standard_l1": "智能出行",
+        "source_standard_l2": "-",
+        "dynamic_date_display": "06-04"
       },
       {
         "candidate_id": "W25-C023",
@@ -4944,7 +5697,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Newswire；官方车展发布",
         "source_count": "1",
-        "source_standard_l2": "ADAS",
+        "source_titan_category": "AG",
+        "source_standard_l1": "智能出行",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-14"
       },
       {
@@ -4970,7 +5725,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Newswire；国际会议和赛事结果明确",
         "source_count": "1",
-        "source_standard_l2": "具身智能",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-11"
       },
       {
@@ -4996,7 +5753,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；开源与数据集细节明确",
         "source_count": "1",
-        "source_standard_l2": "具身智能",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-10"
       },
       {
@@ -5022,7 +5781,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；Stanford合作与全球权益明确",
         "source_count": "1",
-        "source_standard_l2": "创新药",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Health",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-12"
       },
       {
@@ -5048,8 +5809,38 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；国际药企合作方向明确",
         "source_count": "1",
-        "source_standard_l2": "AI制药",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-10"
+      },
+      {
+        "candidate_id": "W25-C033",
+        "week": "W25",
+        "search_date": "2026-06-16",
+        "titan_category": "AG",
+        "standard_l1": "工业",
+        "standard_l2": "-",
+        "standard_l3": "光伏组件",
+        "application_product_name": "JinkoSolar PV modules",
+        "owner_company_brand": "JinkoSolar",
+        "target_market_channel": "全球光伏客户/RETC PVMI",
+        "dynamic_type": "第三方评测/品牌背书",
+        "dynamic_date": "2026-06-15",
+        "dynamic_summary": "晶科能源获RETC最高成就评级",
+        "attention_point": "光伏海外客户信任背书",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "PRNewswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/jinkosolar-earns-retcs-overall-highest-achiever-award-for-the-seventh-consecutive-year-302800265.html",
+        "link_status": "可访问",
+        "warehouse_suggestion": "是",
+        "review_note": "官方Newswire；国际测试评级背书明确",
+        "source_count": "1",
+        "source_titan_category": "AG",
+        "source_standard_l1": "工业",
+        "source_standard_l2": "-",
+        "dynamic_date_display": "06-15"
       },
       {
         "candidate_id": "W25-C036",
@@ -5074,7 +5865,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；临床节点明确",
         "source_count": "1",
-        "source_standard_l2": "创新药",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Health",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-15"
       },
       {
@@ -5100,7 +5893,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；东南亚项目与合作方明确",
         "source_count": "1",
-        "source_standard_l2": "新能源系统",
+        "source_titan_category": "AG",
+        "source_standard_l1": "工业",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-01"
       },
       {
@@ -5126,7 +5921,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；东南亚行业采用信号明确",
         "source_count": "1",
-        "source_standard_l2": "工作平台",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-05"
       },
       {
@@ -5152,7 +5949,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；大促区域和包裹量明确",
         "source_count": "1",
-        "source_standard_l2": "跨境物流",
+        "source_titan_category": "AG",
+        "source_standard_l1": "平台",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-09"
       },
       {
@@ -5178,7 +5977,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；新加坡产能和全球客户定位明确",
         "source_count": "1",
-        "source_standard_l2": "CDMO",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Health",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-04"
       },
       {
@@ -5204,7 +6005,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；CVPR国际曝光与技术指标明确",
         "source_count": "1",
-        "source_standard_l2": "Physical AI",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-04"
       },
       {
@@ -5230,7 +6033,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；资本市场准入节点明确",
         "source_count": "1",
-        "source_standard_l2": "Robotaxi",
+        "source_titan_category": "AG",
+        "source_standard_l1": "智能出行",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-03"
       },
       {
@@ -5256,7 +6061,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；全球在线教育平台主体明确",
         "source_count": "1",
-        "source_standard_l2": "在线教育",
+        "source_titan_category": "AG",
+        "source_standard_l1": "平台",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-10"
       },
       {
@@ -5282,7 +6089,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；在线旅游平台经营信号",
         "source_count": "1",
-        "source_standard_l2": "在线旅游",
+        "source_titan_category": "AG",
+        "source_standard_l1": "平台",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-05"
       },
       {
@@ -5308,7 +6117,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Newswire；调研范围覆盖东南亚与中国",
         "source_count": "1",
-        "source_standard_l2": "会员权益",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Fintech",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-12"
       },
       {
@@ -5334,7 +6145,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Business Wire；美国K-12合作与发布会承接",
         "source_count": "1",
-        "source_standard_l2": "具身智能",
+        "source_titan_category": "AG",
+        "source_standard_l1": "AI应用",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-07"
       },
       {
@@ -5360,7 +6173,9 @@
         "warehouse_suggestion": "是",
         "review_note": "Newswire；墨西哥多城市运营场景明确",
         "source_count": "1",
-        "source_standard_l2": "轨道交通",
+        "source_titan_category": "AG",
+        "source_standard_l1": "工业",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-16"
       },
       {
@@ -5386,7 +6201,9 @@
         "warehouse_suggestion": "是",
         "review_note": "官方Newswire；国际俱乐部合作和数字活动明确",
         "source_count": "1",
-        "source_standard_l2": "体育IP运营",
+        "source_titan_category": "AG",
+        "source_standard_l1": "泛娱乐",
+        "source_standard_l2": "-",
         "dynamic_date_display": "06-12"
       }
     ]
