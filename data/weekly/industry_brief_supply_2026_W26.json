@@ -1,0 +1,1894 @@
+{
+  "week": "2026-W26",
+  "generated_at": "2026-06-22",
+  "source_files": {
+    "lead_workbook": "C:\\Users\\wale.chen\\Documents\\增长中台-基础设施建设\\outputs\\w26_operational_union\\售前情报库（更新至W26）_运营并集.xlsx",
+    "research_root": "Z:\\增长分析中台\\行研洞察"
+  },
+  "industries": [
+    {
+      "source_lead_industry_key": "AI应用|-",
+      "primary_industry": "AI应用",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "AI应用|-",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Huawei"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "-本周变量来自7条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "HDC 2026 Global Eco Summit: Huawei Ecosystem Fuels Partners' Growth in China and Cross-Border Success",
+        "MiniMax Launches Hub All-in-One AI Video Generator at Shanghai Fest",
+        "Kling AI Raises Cinematic Standards with Industry-First Native 4K Video Generation",
+        "Voicecomm Technology partners with Huawei Cloud to launch VocSageX AI agent platform - Vietnam Investment Review",
+        "Tencent Cloud and Inworld AI Announce Strategic Partnership to Deliver a One-Stop, Lifelike, Realtime Voice AI Solution"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Huawei",
+          "grade": "B"
+        },
+        {
+          "brand": "MiniMax",
+          "grade": "B"
+        },
+        {
+          "brand": "Kuaishou Kling",
+          "grade": "B"
+        },
+        {
+          "brand": "Voicecomm Technology",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C009",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "Huawei全球生态合作",
+          "product_name": "Huawei全球生态合作",
+          "owner": "Huawei",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "HDC 2026 Global Eco Summit: Huawei Ecosystem Fuels Partners' Growth in China and Cross-Border Success",
+          "suggested_focus": "关注全球/跨境的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C032",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "MiniMax Hub视频生成器",
+          "product_name": "MiniMax Hub视频生成器",
+          "owner": "MiniMax",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "MiniMax Launches Hub All-in-One AI Video Generator at Shanghai Fest",
+          "suggested_focus": "关注全球创作者的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C033",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "Kling AI原生4K视频生成",
+          "product_name": "Kling AI原生4K视频生成",
+          "owner": "Kuaishou Kling",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Kling AI Raises Cinematic Standards with Industry-First Native 4K Video Generation",
+          "suggested_focus": "关注全球创作者的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C034",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "VocSageX AI Agent平台",
+          "product_name": "VocSageX AI Agent平台",
+          "owner": "Voicecomm Technology",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Voicecomm Technology partners with Huawei Cloud to launch VocSageX AI agent platform - Vietnam Investment Review",
+          "suggested_focus": "关注海外企业市场的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C035",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "实时语音AI解决方案",
+          "product_name": "实时语音AI解决方案",
+          "owner": "Tencent Cloud",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "Tencent Cloud and Inworld AI Announce Strategic Partnership to Deliver a One-Stop, Lifelike, Realtime Voice AI Solution",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C046",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "AI BACKLOT影视协作平台",
+          "product_name": "AI BACKLOT影视协作平台",
+          "owner": "SIFF AI BACKLOT",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "SIFF Launches \"AI BACKLOT\": A New Frontier in AI-Film Collaboration",
+          "suggested_focus": "关注全球影视产业的渠道承接与后续投放",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W26-C047",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "医学影像AI竞赛平台",
+          "product_name": "医学影像AI竞赛平台",
+          "owner": "Medical Imaging AI Contest",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "China's National Medical Imaging AI Contest Extends Innovation Invitation to ASEAN",
+          "suggested_focus": "关注东盟的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "AI应用/-本周有7条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "AI应用/-：W26预备信号",
+        "metric_line": "7条线索 / Top主体：Huawei",
+        "signal_line": "HDC 2026 Global Eco Summit: Huawei Ecosystem Fuels Partners' Growth in China and Cross-Border Success；MiniMax Launches Hub All-in-One AI Video Generator at Shanghai Fest",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 7
+    },
+    {
+      "source_lead_industry_key": "Beauty|彩妆",
+      "primary_industry": "Beauty",
+      "secondary_industry": "彩妆",
+      "mapped_research_industry": "彩妆",
+      "industry_key": "Beauty|彩妆",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Judydoll"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "彩妆本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Chinese Beauty Brand Judydoll Conquers Europe via Joybuy E-commerce Platform"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Judydoll",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C019",
+          "lead_category": "EC",
+          "primary_industry": "Beauty",
+          "secondary_industry": "彩妆",
+          "tertiary_category": "Judydoll欧洲渠道扩张",
+          "product_name": "Judydoll欧洲渠道扩张",
+          "owner": "Judydoll",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Chinese Beauty Brand Judydoll Conquers Europe via Joybuy E-commerce Platform",
+          "suggested_focus": "关注欧洲/Joybuy的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Beauty/彩妆本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Beauty/彩妆：W26预备信号",
+        "metric_line": "1条线索 / Top主体：Judydoll",
+        "signal_line": "Chinese Beauty Brand Judydoll Conquers Europe via Joybuy E-commerce Platform",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Beauty|身体与防晒护理",
+      "primary_industry": "Beauty",
+      "secondary_industry": "身体与防晒护理",
+      "mapped_research_industry": "身体与防晒护理",
+      "industry_key": "Beauty|身体与防晒护理",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "BABI"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "身体与防晒护理本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "China Leads the Global Sunscreen Category: BABI’s Proprietary Technology Redefines Full-Chain Protection Standards"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "BABI",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C022",
+          "lead_category": "EC",
+          "primary_industry": "Beauty",
+          "secondary_industry": "身体与防晒护理",
+          "tertiary_category": "BABI防晒技术",
+          "product_name": "BABI防晒技术",
+          "owner": "BABI",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "China Leads the Global Sunscreen Category: BABI’s Proprietary Technology Redefines Full-Chain Protection Standards",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Beauty/身体与防晒护理本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Beauty/身体与防晒护理：W26预备信号",
+        "metric_line": "1条线索 / Top主体：BABI",
+        "signal_line": "China Leads the Global Sunscreen Category: BABI’s Proprietary Technology Redefines Full-Chain Protection Standards",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Beauty|香水",
+      "primary_industry": "Beauty",
+      "secondary_industry": "香水",
+      "mapped_research_industry": "香水",
+      "industry_key": "Beauty|香水",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Eternal Group"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "香水本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Eternal Group Concludes Successful Debut of \"The Eternal Path to China\" at Esxence 2026 in Milan"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Eternal Group",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C023",
+          "lead_category": "EC",
+          "primary_industry": "Beauty",
+          "secondary_industry": "香水",
+          "tertiary_category": "Eternal Group香氛展示",
+          "product_name": "Eternal Group香氛展示",
+          "owner": "Eternal Group",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Eternal Group Concludes Successful Debut of \"The Eternal Path to China\" at Esxence 2026 in Milan",
+          "suggested_focus": "关注意大利米兰的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Beauty/香水本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Beauty/香水：W26预备信号",
+        "metric_line": "1条线索 / Top主体：Eternal Group",
+        "signal_line": "Eternal Group Concludes Successful Debut of \"The Eternal Path to China\" at Esxence 2026 in Milan",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|大家电与配件",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "大家电与配件",
+      "mapped_research_industry": "大家电与配件",
+      "industry_key": "Consumer Tech|大家电与配件",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Xiaomi"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "大家电与配件本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Xiaomi names India South Asia hub, takes on Samsung, LG with appliance push"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Xiaomi",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C013",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "大家电与配件",
+          "tertiary_category": "Xiaomi家电业务",
+          "product_name": "Xiaomi家电业务",
+          "owner": "Xiaomi",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Xiaomi names India South Asia hub, takes on Samsung, LG with appliance push",
+          "suggested_focus": "关注印度/南亚的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/大家电与配件本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/大家电与配件：W26预备信号",
+        "metric_line": "1条线索 / Top主体：Xiaomi",
+        "signal_line": "Xiaomi names India South Asia hub, takes on Samsung, LG with appliance push",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|影像设备",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "影像设备",
+      "mapped_research_industry": "影像设备",
+      "industry_key": "Consumer Tech|影像设备",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Insta360"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "影像设备本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Insta360 Announces Hello Kitty Limited Edition GO Ultra Camera Bundle"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Insta360",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C017",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "影像设备",
+          "tertiary_category": "Insta360 GO Ultra联名版",
+          "product_name": "Insta360 GO Ultra联名版",
+          "owner": "Insta360",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "Insta360 Announces Hello Kitty Limited Edition GO Ultra Camera Bundle",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/影像设备本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/影像设备：W26预备信号",
+        "metric_line": "1条线索 / Top主体：Insta360",
+        "signal_line": "Insta360 Announces Hello Kitty Limited Edition GO Ultra Camera Bundle",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|户外便携电源储能",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "户外便携电源储能",
+      "mapped_research_industry": "户外便携电源储能",
+      "industry_key": "Consumer Tech|户外便携电源储能",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "BLUETTI"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "户外便携电源储能本周变量来自2条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Electrified Weekly - Bluetti FridgePower station exclusive launch deals from $807, Segway Xyber e-bike + extra battery bundle, more",
+        "MOVA Unveils New LumeGret S4800 at Intersolar Europe 2026, Expanding Residential Energy Storage Portfolio"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "BLUETTI",
+          "grade": "B"
+        },
+        {
+          "brand": "MOVA",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C005",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "户外便携电源储能",
+          "tertiary_category": "BLUETTI FridgePower",
+          "product_name": "BLUETTI FridgePower",
+          "owner": "BLUETTI",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Electrified Weekly - Bluetti FridgePower station exclusive launch deals from $807, Segway Xyber e-bike + extra battery bundle, more",
+          "suggested_focus": "关注美国电商的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C008",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "户外便携电源储能",
+          "tertiary_category": "MOVA LumeGret S4800",
+          "product_name": "MOVA LumeGret S4800",
+          "owner": "MOVA",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "MOVA Unveils New LumeGret S4800 at Intersolar Europe 2026, Expanding Residential Energy Storage Portfolio",
+          "suggested_focus": "关注欧洲/Intersolar的渠道承接与后续投放",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/户外便携电源储能本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/户外便携电源储能：W26预备信号",
+        "metric_line": "2条线索 / Top主体：BLUETTI",
+        "signal_line": "Electrified Weekly - Bluetti FridgePower station exclusive launch deals from $807, Segway Xyber e-bike + extra battery bundle, more；MOVA Unveils New LumeGret S4800 at Intersolar Europe 2026, Expanding Residential Energy Storage Portfolio",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|手机与配件",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "手机与配件",
+      "mapped_research_industry": "手机与配件",
+      "industry_key": "Consumer Tech|手机与配件",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "OPPO"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "手机与配件本周变量来自4条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "OPPO Reno16 Series Set for Global Launch, Announces BABYMONSTER as Reno Ambassador",
+        "UGREEN's Slimmest Chargers Yet Arrive With Major Prime Day Discounts",
+        "Vivo Y500 4G set to debut globally with 8,100mAh battery, 1.5K AMOLED display",
+        "Tomorrowland and Anker Link Up for a New Era of Connection"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "OPPO",
+          "grade": "A"
+        },
+        {
+          "brand": "UGREEN",
+          "grade": "B"
+        },
+        {
+          "brand": "vivo",
+          "grade": "B"
+        },
+        {
+          "brand": "Anker",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C001",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "手机与配件",
+          "tertiary_category": "Reno16 Series",
+          "product_name": "Reno16 Series",
+          "owner": "OPPO",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "OPPO Reno16 Series Set for Global Launch, Announces BABYMONSTER as Reno Ambassador",
+          "suggested_focus": "关注全球/印度/东南亚的渠道承接与后续投放",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W26-C004",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "手机与配件",
+          "tertiary_category": "UGREEN超薄充电器",
+          "product_name": "UGREEN超薄充电器",
+          "owner": "UGREEN",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "UGREEN's Slimmest Chargers Yet Arrive With Major Prime Day Discounts",
+          "suggested_focus": "关注美国/Prime Day的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C011",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "手机与配件",
+          "tertiary_category": "vivo Y500 4G",
+          "product_name": "vivo Y500 4G",
+          "owner": "vivo",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Vivo Y500 4G set to debut globally with 8,100mAh battery, 1.5K AMOLED display",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C016",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "手机与配件",
+          "tertiary_category": "Anker×Tomorrowland合作",
+          "product_name": "Anker×Tomorrowland合作",
+          "owner": "Anker",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Tomorrowland and Anker Link Up for a New Era of Connection",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/手机与配件本周有4条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/手机与配件：W26预备信号",
+        "metric_line": "4条线索 / Top主体：OPPO",
+        "signal_line": "OPPO Reno16 Series Set for Global Launch, Announces BABYMONSTER as Reno Ambassador；UGREEN's Slimmest Chargers Yet Arrive With Major Prime Day Discounts",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 4
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|清洁电器",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "清洁电器",
+      "mapped_research_industry": "清洁电器",
+      "industry_key": "Consumer Tech|清洁电器",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Roborock"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "清洁电器本周变量来自3条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Roborock heads to Miami with a community classroom, a mall pop-up, and its flagship robots",
+        "Cristiano Ronaldo Stars in Dreame's Global Smart Home Push",
+        "Narwal launches S series wet and dry vacuum cleaners in India, price starts at Rs 34,990"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Roborock",
+          "grade": "B"
+        },
+        {
+          "brand": "Dreame",
+          "grade": "B"
+        },
+        {
+          "brand": "Narwal",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C002",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "清洁电器",
+          "tertiary_category": "Roborock旗舰清洁机器人",
+          "product_name": "Roborock旗舰清洁机器人",
+          "owner": "Roborock",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Roborock heads to Miami with a community classroom, a mall pop-up, and its flagship robots",
+          "suggested_focus": "关注美国迈阿密的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C006",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "清洁电器",
+          "tertiary_category": "Dreame智能家居矩阵",
+          "product_name": "Dreame智能家居矩阵",
+          "owner": "Dreame",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Cristiano Ronaldo Stars in Dreame's Global Smart Home Push",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C007",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "清洁电器",
+          "tertiary_category": "Narwal S系列洗地机",
+          "product_name": "Narwal S系列洗地机",
+          "owner": "Narwal",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Narwal launches S series wet and dry vacuum cleaners in India, price starts at Rs 34,990",
+          "suggested_focus": "关注印度的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/清洁电器本周有3条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/清洁电器：W26预备信号",
+        "metric_line": "3条线索 / Top主体：Roborock",
+        "signal_line": "Roborock heads to Miami with a community classroom, a mall pop-up, and its flagship robots；Cristiano Ronaldo Stars in Dreame's Global Smart Home Push",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 3
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|电视与视频显示",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "电视与视频显示",
+      "mapped_research_industry": "电视与视频显示",
+      "industry_key": "Consumer Tech|电视与视频显示",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Haier"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "电视与视频显示本周变量来自4条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Haier HQLED P7 Pro Series 43″, 50″, 55″, 65″ and 75″ Google TVs with Gemini AI launched in India",
+        "Hisense Brings Smarter Home Experiences to Families During the FIFA World Cup 2026™",
+        "New XGIMI laser and 4K projectors with Google TV are coming for your living room wall",
+        "TCL: From Technology Leadership to Experience Breakthrough as the Global No. 1 TV"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Haier",
+          "grade": "B"
+        },
+        {
+          "brand": "Hisense",
+          "grade": "A"
+        },
+        {
+          "brand": "XGIMI",
+          "grade": "B"
+        },
+        {
+          "brand": "TCL",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C010",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电视与视频显示",
+          "tertiary_category": "Haier P7 Pro电视",
+          "product_name": "Haier P7 Pro电视",
+          "owner": "Haier",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Haier HQLED P7 Pro Series 43″, 50″, 55″, 65″ and 75″ Google TVs with Gemini AI launched in India",
+          "suggested_focus": "关注印度的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C014",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电视与视频显示",
+          "tertiary_category": "Hisense智能家居/FIFA内容",
+          "product_name": "Hisense智能家居/FIFA内容",
+          "owner": "Hisense",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Hisense Brings Smarter Home Experiences to Families During the FIFA World Cup 2026™",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W26-C015",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电视与视频显示",
+          "tertiary_category": "XGIMI激光与4K投影",
+          "product_name": "XGIMI激光与4K投影",
+          "owner": "XGIMI",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "New XGIMI laser and 4K projectors with Google TV are coming for your living room wall",
+          "suggested_focus": "关注海外市场的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C018",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电视与视频显示",
+          "tertiary_category": "TCL全球电视业务",
+          "product_name": "TCL全球电视业务",
+          "owner": "TCL",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "TCL: From Technology Leadership to Experience Breakthrough as the Global No. 1 TV",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/电视与视频显示本周有4条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/电视与视频显示：W26预备信号",
+        "metric_line": "4条线索 / Top主体：Haier",
+        "signal_line": "Haier HQLED P7 Pro Series 43″, 50″, 55″, 65″ and 75″ Google TVs with Gemini AI launched in India；Hisense Brings Smarter Home Experiences to Families During the FIFA World Cup 2026™",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 4
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|穿戴式科技",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "穿戴式科技",
+      "mapped_research_industry": "穿戴式科技",
+      "industry_key": "Consumer Tech|穿戴式科技",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Zepp Health"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "穿戴式科技本周变量来自2条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Amazfit Introduces Helio Strap Pro, Bringing Body-Worn Movement Intelligence to HYROX and Hybrid Training",
+        "HONOR Watch 6 brings long battery life and wet hand controls to Europe"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Zepp Health",
+          "grade": "A"
+        },
+        {
+          "brand": "HONOR",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C003",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "穿戴式科技",
+          "tertiary_category": "Amazfit Helio Strap Pro",
+          "product_name": "Amazfit Helio Strap Pro",
+          "owner": "Zepp Health",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Amazfit Introduces Helio Strap Pro, Bringing Body-Worn Movement Intelligence to HYROX and Hybrid Training",
+          "suggested_focus": "关注全球/HYROX的渠道承接与后续投放",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W26-C012",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "穿戴式科技",
+          "tertiary_category": "HONOR Watch 6",
+          "product_name": "HONOR Watch 6",
+          "owner": "HONOR",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "HONOR Watch 6 brings long battery life and wet hand controls to Europe",
+          "suggested_focus": "关注欧洲的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/穿戴式科技本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/穿戴式科技：W26预备信号",
+        "metric_line": "2条线索 / Top主体：Zepp Health",
+        "signal_line": "Amazfit Introduces Helio Strap Pro, Bringing Body-Worn Movement Intelligence to HYROX and Hybrid Training；HONOR Watch 6 brings long battery life and wet hand controls to Europe",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "FMCG|厨房储备食品",
+      "primary_industry": "FMCG",
+      "secondary_industry": "厨房储备食品",
+      "mapped_research_industry": "厨房储备食品",
+      "industry_key": "FMCG|厨房储备食品",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Guoquan"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "厨房储备食品本周变量来自2条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Guoquans Global Debut: Chinese Home-Dining Giant Ventures into Hong Kong Market",
+        "Angel Yeast Chairman Reflects on 40 Years of Bringing Yeast to Millions of Households Worldwide"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Guoquan",
+          "grade": "B"
+        },
+        {
+          "brand": "Angel Yeast",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C026",
+          "lead_category": "EC",
+          "primary_industry": "FMCG",
+          "secondary_industry": "厨房储备食品",
+          "tertiary_category": "锅圈香港首店/渠道",
+          "product_name": "锅圈香港首店/渠道",
+          "owner": "Guoquan",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Guoquans Global Debut: Chinese Home-Dining Giant Ventures into Hong Kong Market",
+          "suggested_focus": "关注中国香港的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C027",
+          "lead_category": "EC",
+          "primary_industry": "FMCG",
+          "secondary_industry": "厨房储备食品",
+          "tertiary_category": "Angel Yeast全球品牌传播",
+          "product_name": "Angel Yeast全球品牌传播",
+          "owner": "Angel Yeast",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Angel Yeast Chairman Reflects on 40 Years of Bringing Yeast to Millions of Households Worldwide",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "FMCG/厨房储备食品本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "FMCG/厨房储备食品：W26预备信号",
+        "metric_line": "2条线索 / Top主体：Guoquan",
+        "signal_line": "Guoquans Global Debut: Chinese Home-Dining Giant Ventures into Hong Kong Market；Angel Yeast Chairman Reflects on 40 Years of Bringing Yeast to Millions of Households Worldwide",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "FMCG|餐饮礼品与酒精",
+      "primary_industry": "FMCG",
+      "secondary_industry": "餐饮礼品与酒精",
+      "mapped_research_industry": "餐饮礼品与酒精",
+      "industry_key": "FMCG|餐饮礼品与酒精",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "THE CHUAN"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "餐饮礼品与酒精本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "From Chengdu to the World, Pernod Ricard, the worldwide leader in the spirits industry showcases Chinese Whisky 'THE CHUAN' through Hong Kong"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "THE CHUAN",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C031",
+          "lead_category": "EC",
+          "primary_industry": "FMCG",
+          "secondary_industry": "餐饮礼品与酒精",
+          "tertiary_category": "THE CHUAN中国威士忌",
+          "product_name": "THE CHUAN中国威士忌",
+          "owner": "THE CHUAN",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "From Chengdu to the World, Pernod Ricard, the worldwide leader in the spirits industry showcases Chinese Whisky 'THE CHUAN' through Hong Kong",
+          "suggested_focus": "关注中国香港/全球的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "FMCG/餐饮礼品与酒精本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "FMCG/餐饮礼品与酒精：W26预备信号",
+        "metric_line": "1条线索 / Top主体：THE CHUAN",
+        "signal_line": "From Chengdu to the World, Pernod Ricard, the worldwide leader in the spirits industry showcases Chinese Whisky 'THE CHUAN' through Hong Kong",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "FMCG|饮料",
+      "primary_industry": "FMCG",
+      "secondary_industry": "饮料",
+      "mapped_research_industry": "饮料",
+      "industry_key": "FMCG|饮料",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "CHAGEE"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "饮料本周变量来自3条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "From Labubu to Chagee, Chinese lifestyle brands find growing market in Korea",
+        "RADII Steps Inside HEYTEA’s First Overseas Teabar, Now Open in NYC",
+        "How to Find Your First Chinese Green Tea: iTeaworld Launches a Flavor Roadmap and Tasting Collections for New Tea Drinkers"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "CHAGEE",
+          "grade": "B"
+        },
+        {
+          "brand": "HEYTEA",
+          "grade": "B"
+        },
+        {
+          "brand": "iTeaworld",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C024",
+          "lead_category": "EC",
+          "primary_industry": "FMCG",
+          "secondary_industry": "饮料",
+          "tertiary_category": "CHAGEE韩国市场信号",
+          "product_name": "CHAGEE韩国市场信号",
+          "owner": "CHAGEE",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "From Labubu to Chagee, Chinese lifestyle brands find growing market in Korea",
+          "suggested_focus": "关注韩国的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C025",
+          "lead_category": "EC",
+          "primary_industry": "FMCG",
+          "secondary_industry": "饮料",
+          "tertiary_category": "HEYTEA海外Teabar",
+          "product_name": "HEYTEA海外Teabar",
+          "owner": "HEYTEA",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "RADII Steps Inside HEYTEA’s First Overseas Teabar, Now Open in NYC",
+          "suggested_focus": "关注美国纽约的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C028",
+          "lead_category": "EC",
+          "primary_industry": "FMCG",
+          "secondary_industry": "饮料",
+          "tertiary_category": "iTeaworld茶饮品鉴套装",
+          "product_name": "iTeaworld茶饮品鉴套装",
+          "owner": "iTeaworld",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "How to Find Your First Chinese Green Tea: iTeaworld Launches a Flavor Roadmap and Tasting Collections for New Tea Drinkers",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "FMCG/饮料本周有3条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "FMCG/饮料：W26预备信号",
+        "metric_line": "3条线索 / Top主体：CHAGEE",
+        "signal_line": "From Labubu to Chagee, Chinese lifestyle brands find growing market in Korea；RADII Steps Inside HEYTEA’s First Overseas Teabar, Now Open in NYC",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 3
+    },
+    {
+      "source_lead_industry_key": "Fashion|女装",
+      "primary_industry": "Fashion",
+      "secondary_industry": "女装",
+      "mapped_research_industry": "女装",
+      "industry_key": "Fashion|女装",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "SHEIN"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "女装本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "SHEIN Xcelerator Debuts in the Middle East, Empowering Homegrown Brands to Scale Worldwide"
+      ],
+      "verification_metrics": [
+        "卖家参与数",
+        "校园/达人内容量",
+        "商品合规节奏",
+        "美国市场活动转化"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "SHEIN",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C020",
+          "lead_category": "EC",
+          "primary_industry": "Fashion",
+          "secondary_industry": "女装",
+          "tertiary_category": "SHEIN Xcelerator",
+          "product_name": "SHEIN Xcelerator",
+          "owner": "SHEIN",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "SHEIN Xcelerator Debuts in the Middle East, Empowering Homegrown Brands to Scale Worldwide",
+          "suggested_focus": "关注中东的渠道承接与后续投放",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Fashion/女装本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Fashion/女装：W26预备信号",
+        "metric_line": "1条线索 / Top主体：SHEIN",
+        "signal_line": "SHEIN Xcelerator Debuts in the Middle East, Empowering Homegrown Brands to Scale Worldwide",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Fashion|鞋履",
+      "primary_industry": "Fashion",
+      "secondary_industry": "鞋履",
+      "mapped_research_industry": "鞋履",
+      "industry_key": "Fashion|鞋履",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "ANTA"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "鞋履本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Kyrie Irving and ANTA will launch a 2026 world tour"
+      ],
+      "verification_metrics": [
+        "卖家参与数",
+        "校园/达人内容量",
+        "商品合规节奏",
+        "美国市场活动转化"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "ANTA",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C021",
+          "lead_category": "EC",
+          "primary_industry": "Fashion",
+          "secondary_industry": "鞋履",
+          "tertiary_category": "ANTA Kyrie世界巡回",
+          "product_name": "ANTA Kyrie世界巡回",
+          "owner": "ANTA",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Kyrie Irving and ANTA will launch a 2026 world tour",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Fashion/鞋履本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Fashion/鞋履：W26预备信号",
+        "metric_line": "1条线索 / Top主体：ANTA",
+        "signal_line": "Kyrie Irving and ANTA will launch a 2026 world tour",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Fintech|-",
+      "primary_industry": "Fintech",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "Fintech|-",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Ant International"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "-本周变量来自2条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Amundi, CACEIS and Ant International collaborate to advance blockchain-powered investment solutions",
+        "ANT GROUP Launches Overseas AI Payment Solution"
+      ],
+      "verification_metrics": [
+        "覆盖商户数",
+        "钱包/银行伙伴数",
+        "新增国家",
+        "交易成功率"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Ant International",
+          "grade": "A"
+        },
+        {
+          "brand": "Alipay+",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C040",
+          "lead_category": "AG",
+          "primary_industry": "Fintech",
+          "secondary_industry": "-",
+          "tertiary_category": "区块链资金管理与代币化基金",
+          "product_name": "区块链资金管理与代币化基金",
+          "owner": "Ant International",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "Amundi, CACEIS and Ant International collaborate to advance blockchain-powered investment solutions",
+          "suggested_focus": "关注欧洲/全球的渠道承接与后续投放",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W26-C041",
+          "lead_category": "AG",
+          "primary_industry": "Fintech",
+          "secondary_industry": "-",
+          "tertiary_category": "Alipay+海外AI支付方案",
+          "product_name": "Alipay+海外AI支付方案",
+          "owner": "Alipay+",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "ANT GROUP Launches Overseas AI Payment Solution",
+          "suggested_focus": "关注海外市场的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Fintech/-本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Fintech/-：W26预备信号",
+        "metric_line": "2条线索 / Top主体：Ant International",
+        "signal_line": "Amundi, CACEIS and Ant International collaborate to advance blockchain-powered investment solutions；ANT GROUP Launches Overseas AI Payment Solution",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "Gaming|-",
+      "primary_industry": "Gaming",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "Gaming|-",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "NetEase Games"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "-本周变量来自2条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Where Winds Meet Hits $223.7M in Global Mobile Revenue for NetEase | Outlook Respawn",
+        "GCL’s 4Divinity Announces Exclusive Global Publishing and Distribution Rights for Wuxia Action-RPG ‘A Whisper of Fall: Jinyiwei’"
+      ],
+      "verification_metrics": [
+        "预约/测试转化",
+        "Steam愿望单",
+        "Discord/社媒增速",
+        "上线地区榜单"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "NetEase Games",
+          "grade": "B"
+        },
+        {
+          "brand": "GCL 4Divinity",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C036",
+          "lead_category": "AG",
+          "primary_industry": "Gaming",
+          "secondary_industry": "-",
+          "tertiary_category": "Where Winds Meet手游",
+          "product_name": "Where Winds Meet手游",
+          "owner": "NetEase Games",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Where Winds Meet Hits $223.7M in Global Mobile Revenue for NetEase | Outlook Respawn",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C037",
+          "lead_category": "AG",
+          "primary_industry": "Gaming",
+          "secondary_industry": "-",
+          "tertiary_category": "A Whisper of Fall: Jinyiwei",
+          "product_name": "A Whisper of Fall: Jinyiwei",
+          "owner": "GCL 4Divinity",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "GCL’s 4Divinity Announces Exclusive Global Publishing and Distribution Rights for Wuxia Action-RPG ‘A Whisper of Fall: Jinyiwei’",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Gaming/-本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Gaming/-：W26预备信号",
+        "metric_line": "2条线索 / Top主体：NetEase Games",
+        "signal_line": "Where Winds Meet Hits $223.7M in Global Mobile Revenue for NetEase | Outlook Respawn；GCL’s 4Divinity Announces Exclusive Global Publishing and Distribution Rights for Wuxia Action-RPG ‘A Whisper of Fall: Jinyiwei’",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "Lifestyle|宠物用品",
+      "primary_industry": "Lifestyle",
+      "secondary_industry": "宠物用品",
+      "mapped_research_industry": "宠物用品",
+      "industry_key": "Lifestyle|宠物用品",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Ningbo Sincere"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "宠物用品本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Ningbo Sincere Holding Group Launches FIFA World Cup 2026 Licensed Pet Product Collection"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Ningbo Sincere",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C030",
+          "lead_category": "EC",
+          "primary_industry": "Lifestyle",
+          "secondary_industry": "宠物用品",
+          "tertiary_category": "FIFA授权宠物产品系列",
+          "product_name": "FIFA授权宠物产品系列",
+          "owner": "Ningbo Sincere",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Ningbo Sincere Holding Group Launches FIFA World Cup 2026 Licensed Pet Product Collection",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Lifestyle/宠物用品本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Lifestyle/宠物用品：W26预备信号",
+        "metric_line": "1条线索 / Top主体：Ningbo Sincere",
+        "signal_line": "Ningbo Sincere Holding Group Launches FIFA World Cup 2026 Licensed Pet Product Collection",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Lifestyle|家具",
+      "primary_industry": "Lifestyle",
+      "secondary_industry": "家具",
+      "mapped_research_industry": "家具",
+      "industry_key": "Lifestyle|家具",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Homary"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "家具本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Homary Announces Grand Opening of First French Flagship Store in Greater Paris"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Homary",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C029",
+          "lead_category": "EC",
+          "primary_industry": "Lifestyle",
+          "secondary_industry": "家具",
+          "tertiary_category": "Homary法国旗舰店",
+          "product_name": "Homary法国旗舰店",
+          "owner": "Homary",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Homary Announces Grand Opening of First French Flagship Store in Greater Paris",
+          "suggested_focus": "关注法国巴黎的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Lifestyle/家具本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Lifestyle/家具：W26预备信号",
+        "metric_line": "1条线索 / Top主体：Homary",
+        "signal_line": "Homary Announces Grand Opening of First French Flagship Store in Greater Paris",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "平台|-",
+      "primary_industry": "平台",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "平台|-",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Lansil Global"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "-本周变量来自5条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Lansil Global Expands China and U.S. Fulfillment Network After Surpassing 20 Million Parcels Shipped",
+        "IQAX Pioneers eBL for High-Volume LCL Operations with Tianjin Consol and EZShipping",
+        "HICOOL 2026 Singapore Leg Concludes, China's Largest Entrepreneurship Platform Deepens China-Singapore Ties with Second Consecutive Year",
+        "YK Pao School Hong Kong Celebrates Launch Ceremony, Set to Open in August 2026",
+        "Explained: EU’s new €3 tariff on Shein, Temu orders"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Lansil Global",
+          "grade": "A"
+        },
+        {
+          "brand": "IQAX",
+          "grade": "B"
+        },
+        {
+          "brand": "HICOOL",
+          "grade": "B"
+        },
+        {
+          "brand": "YK Pao School",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C042",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "中美履约网络",
+          "product_name": "中美履约网络",
+          "owner": "Lansil Global",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Lansil Global Expands China and U.S. Fulfillment Network After Surpassing 20 Million Parcels Shipped",
+          "suggested_focus": "关注中国/美国的渠道承接与后续投放",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W26-C043",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "电子提单平台",
+          "product_name": "电子提单平台",
+          "owner": "IQAX",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "IQAX Pioneers eBL for High-Volume LCL Operations with Tianjin Consol and EZShipping",
+          "suggested_focus": "关注全球物流的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C045",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "HICOOL新加坡创业平台",
+          "product_name": "HICOOL新加坡创业平台",
+          "owner": "HICOOL",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "HICOOL 2026 Singapore Leg Concludes, China's Largest Entrepreneurship Platform Deepens China-Singapore Ties with Second Consecutive Year",
+          "suggested_focus": "关注新加坡的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C048",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "YK Pao School香港项目",
+          "product_name": "YK Pao School香港项目",
+          "owner": "YK Pao School",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "YK Pao School Hong Kong Celebrates Launch Ceremony, Set to Open in August 2026",
+          "suggested_focus": "关注中国香港的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C049",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "Temu欧盟小包税政策应对",
+          "product_name": "Temu欧盟小包税政策应对",
+          "owner": "Temu",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Explained: EU’s new €3 tariff on Shein, Temu orders",
+          "suggested_focus": "关注欧盟的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "平台/-本周有5条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "平台/-：W26预备信号",
+        "metric_line": "5条线索 / Top主体：Lansil Global",
+        "signal_line": "Lansil Global Expands China and U.S. Fulfillment Network After Surpassing 20 Million Parcels Shipped；IQAX Pioneers eBL for High-Volume LCL Operations with Tianjin Consol and EZShipping",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 5
+    },
+    {
+      "source_lead_industry_key": "泛娱乐|-",
+      "primary_industry": "泛娱乐",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "泛娱乐|-",
+      "metrics": {
+        "gmv": "W26线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "iQIYI International"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "-本周变量来自4条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Viu & iQiyi International to launch streaming bundle in Southeast Asia",
+        "Pearl River Film Launches Studio With Author Guo Ni, Sets Eight-Franchise Slate",
+        "TGE's Media Business Enters a Phase of Full-Scale, Multi-Market Expansion",
+        "China Porcelain • Global Journey: Grand Launch of Chinese Contemporary Ceramic Art World Tour"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "iQIYI International",
+          "grade": "B"
+        },
+        {
+          "brand": "Pearl River Film",
+          "grade": "B"
+        },
+        {
+          "brand": "TGE Media",
+          "grade": "B"
+        },
+        {
+          "brand": "China Porcelain Global Journey",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W26-C038",
+          "lead_category": "AG",
+          "primary_industry": "泛娱乐",
+          "secondary_industry": "-",
+          "tertiary_category": "iQIYI×Viu流媒体组合",
+          "product_name": "iQIYI×Viu流媒体组合",
+          "owner": "iQIYI International",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Viu & iQiyi International to launch streaming bundle in Southeast Asia",
+          "suggested_focus": "关注东南亚的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C039",
+          "lead_category": "AG",
+          "primary_industry": "泛娱乐",
+          "secondary_industry": "-",
+          "tertiary_category": "八大影视IP开发计划",
+          "product_name": "八大影视IP开发计划",
+          "owner": "Pearl River Film",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Pearl River Film Launches Studio With Author Guo Ni, Sets Eight-Franchise Slate",
+          "suggested_focus": "关注全球内容市场的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C044",
+          "lead_category": "AG",
+          "primary_industry": "泛娱乐",
+          "secondary_industry": "-",
+          "tertiary_category": "多市场媒体业务",
+          "product_name": "多市场媒体业务",
+          "owner": "TGE Media",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "TGE's Media Business Enters a Phase of Full-Scale, Multi-Market Expansion",
+          "suggested_focus": "关注多国市场的渠道承接与后续投放",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W26-C050",
+          "lead_category": "AG",
+          "primary_industry": "泛娱乐",
+          "secondary_industry": "-",
+          "tertiary_category": "中国当代陶瓷艺术全球巡展",
+          "product_name": "中国当代陶瓷艺术全球巡展",
+          "owner": "China Porcelain Global Journey",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "China Porcelain • Global Journey: Grand Launch of Chinese Contemporary Ceramic Art World Tour",
+          "suggested_focus": "关注全球的渠道承接与后续投放",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W26预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "泛娱乐/-本周有4条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "泛娱乐/-：W26预备信号",
+        "metric_line": "4条线索 / Top主体：iQIYI International",
+        "signal_line": "Viu & iQiyi International to launch streaming bundle in Southeast Asia；Pearl River Film Launches Studio With Author Guo Ni, Sets Eight-Franchise Slate",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 4
+    }
+  ],
+  "quality_check": {
+    "lead_rows": 50,
+    "industry_group_count": 22,
+    "covered_industry_count": 0,
+    "desktop_research_count": 22,
+    "gap_industry_count": 0,
+    "missing_required_fields": [],
+    "notes": [
+      "W26为线索侧预备更新，行业深度供给待行研洞察-agent后续补齐。",
+      "页面只读取portal/data/weekly下JSON，不读取Excel。"
+    ]
+  }
+}

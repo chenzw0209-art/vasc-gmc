@@ -4,10 +4,14 @@
     industrySupply: null,
     selected: null,
     marketLoaded: false,
-    activeWeek: "W25",
+    activeWeek: "W26",
   };
   const $ = (selector) => document.querySelector(selector);
   const WEEK_FILES = {
+    W26: {
+      leads: "./data/weekly/weekly_leads_content_2026_W26.json?v=20260622-weekly-w26",
+      industry: "./data/weekly/industry_brief_supply_2026_W26.json?v=20260622-weekly-w26",
+    },
     W25: {
       leads: "./data/weekly/weekly_leads_content_2026_W25.json?v=20260616-weekly-i",
       industry: "./data/weekly/industry_brief_supply_2026_W25.json?v=20260616-weekly-i",
@@ -90,7 +94,7 @@
       ["商品候选", productCount, "实物商品方向", "商", "tone-orange"],
       ["应用候选", appCount, "App / 游戏 / 平台", "应", "tone-purple"],
       ["A级信源", gradeACount, "官方/硬证据", "A", "tone-green"],
-      ["重点展会", exhibitions.length, state.activeWeek === "W25" ? "W25窗口" : "W24/W25窗口", "展", "tone-blue"],
+      ["重点展会", exhibitions.length, `${state.activeWeek}窗口`, "展", "tone-blue"],
       ["招投标线索", tenders.length, "海外营销相关项目", "标", "tone-orange"],
     ];
 
@@ -324,7 +328,7 @@
     if (!selector || selector.dataset.bound === "true") return;
     selector.dataset.bound = "true";
     selector.addEventListener("change", () => {
-      loadWeek(selector.value || "W25").catch((error) => {
+      loadWeek(selector.value || "W26").catch((error) => {
         $(".weekly-content").insertAdjacentHTML("beforeend", `<article class="data-card"><h2 class="card-title">加载失败</h2><p>${error.message}</p></article>`);
       });
     });
@@ -342,7 +346,7 @@
   }
 
   async function loadWeek(week) {
-    const files = WEEK_FILES[week] || WEEK_FILES.W25;
+    const files = WEEK_FILES[week] || WEEK_FILES.W26;
     const [content, industrySupply] = await Promise.all([
       loadJson(files.leads),
       loadJson(files.industry),
