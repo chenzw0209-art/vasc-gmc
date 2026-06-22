@@ -247,7 +247,6 @@
               <th class="col-location">地点</th>
               <th class="col-link">报名</th>
               <th class="col-event-name">展会名称（展会/会议）</th>
-              <th class="col-event-value">展会窗口价值</th>
             </tr>
           </thead>
           <tbody>
@@ -259,7 +258,6 @@
                 <td>${safe(row.location)}</td>
                 <td><a class="inline-link" href="${safe(row.url, "#")}" target="_blank" rel="noreferrer">打开</a></td>
                 <td title="${safe(row.event_name)}">${safe(row.event_name)}</td>
-                <td title="${safe(row.window_value)}">${safe(row.window_value)}</td>
               </tr>
             `).join("") || "<tr><td colspan=\"7\">暂无展会记录</td></tr>"}
           </tbody>
