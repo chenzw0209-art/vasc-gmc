@@ -13,14 +13,14 @@
       "mapped_research_industry": "-",
       "industry_key": "AI应用|-",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "AGIBOT"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "-本周变量来自5条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "-本周变量来自5条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "AGIBOT第15,000台机器人下线，新闻稿称其为具身AI部署的重要里程碑。",
@@ -125,15 +125,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "AI应用/-本周有5条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "AI应用/-：W27预备信号",
+        "title": "AI应用/-：W27周度信号",
         "metric_line": "5条线索 / Top主体：AGIBOT",
         "signal_line": "AGIBOT第15,000台机器人下线，新闻稿称其为具身AI部署的重要里程碑。；ZTE在MWC上海展示SuperPod、推理、AIDC等全栈AI能力，强调Token运营。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 5
     },
@@ -144,14 +144,14 @@
       "mapped_research_industry": "咖啡茶饮电器",
       "industry_key": "Consumer Tech|咖啡茶饮电器",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "COFE+"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "咖啡茶饮电器本周变量来自1条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "咖啡茶饮电器本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "COFE+第七代自动咖啡机器人全球首发，强调54秒出杯和低错误率。"
@@ -188,15 +188,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "Consumer Tech/咖啡茶饮电器本周有1条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Consumer Tech/咖啡茶饮电器：W27预备信号",
+        "title": "Consumer Tech/咖啡茶饮电器：W27周度信号",
         "metric_line": "1条线索 / Top主体：COFE+",
         "signal_line": "COFE+第七代自动咖啡机器人全球首发，强调54秒出杯和低错误率。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
     },
@@ -207,14 +207,14 @@
       "mapped_research_industry": "安防硬件",
       "industry_key": "Consumer Tech|安防硬件",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "DJI Enterprise"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "安防硬件本周变量来自1条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "安防硬件本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "DJI Enterprise发布DFR部署框架白皮书，引用亚洲、欧洲和北美公共安全/安防部署经验。"
@@ -251,15 +251,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "Consumer Tech/安防硬件本周有1条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Consumer Tech/安防硬件：W27预备信号",
+        "title": "Consumer Tech/安防硬件：W27周度信号",
         "metric_line": "1条线索 / Top主体：DJI Enterprise",
         "signal_line": "DJI Enterprise发布DFR部署框架白皮书，引用亚洲、欧洲和北美公共安全/安防部署经验。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
     },
@@ -270,14 +270,14 @@
       "mapped_research_industry": "户外便携电源储能",
       "industry_key": "Consumer Tech|户外便携电源储能",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "Fox ESS"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "户外便携电源储能本周变量来自11条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "户外便携电源储能本周变量来自11条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "Fox ESS在The Smarter E Europe展示全生态储能方案，并以欧洲首秀强化品牌露出。",
@@ -460,15 +460,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "Consumer Tech/户外便携电源储能本周有11条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Consumer Tech/户外便携电源储能：W27预备信号",
+        "title": "Consumer Tech/户外便携电源储能：W27周度信号",
         "metric_line": "11条线索 / Top主体：Fox ESS",
         "signal_line": "Fox ESS在The Smarter E Europe展示全生态储能方案，并以欧洲首秀强化品牌露出。；Hoymiles在Intersolar Europe发布全场景能源方案并扩大战略合作。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 11
     },
@@ -479,14 +479,14 @@
       "mapped_research_industry": "手机与配件",
       "industry_key": "Consumer Tech|手机与配件",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "8849"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "手机与配件本周变量来自1条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "手机与配件本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "8849发布TANK 5三防旗舰手机，主打内置2K DLP投影和大电池场景。"
@@ -523,15 +523,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "Consumer Tech/手机与配件本周有1条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Consumer Tech/手机与配件：W27预备信号",
+        "title": "Consumer Tech/手机与配件：W27周度信号",
         "metric_line": "1条线索 / Top主体：8849",
         "signal_line": "8849发布TANK 5三防旗舰手机，主打内置2K DLP投影和大电池场景。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
     },
@@ -542,14 +542,14 @@
       "mapped_research_industry": "数据存储与外组件",
       "industry_key": "Consumer Tech|数据存储与外组件",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "TWSC"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "数据存储与外组件本周变量来自1条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "数据存储与外组件本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "TWSC在MWC上海展示自研存储产品线，面向AI和数据通信场景。"
@@ -586,15 +586,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "Consumer Tech/数据存储与外组件本周有1条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Consumer Tech/数据存储与外组件：W27预备信号",
+        "title": "Consumer Tech/数据存储与外组件：W27周度信号",
         "metric_line": "1条线索 / Top主体：TWSC",
         "signal_line": "TWSC在MWC上海展示自研存储产品线，面向AI和数据通信场景。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
     },
@@ -605,14 +605,14 @@
       "mapped_research_industry": "显示器与电脑平板",
       "industry_key": "Consumer Tech|显示器与电脑平板",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "HAILESI"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "显示器与电脑平板本周变量来自1条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "显示器与电脑平板本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "HAILESI S123E便携显示器在美国、加拿大、日本、韩国市场扩张，并进入Amazon热销榜前五。"
@@ -649,15 +649,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "Consumer Tech/显示器与电脑平板本周有1条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Consumer Tech/显示器与电脑平板：W27预备信号",
+        "title": "Consumer Tech/显示器与电脑平板：W27周度信号",
         "metric_line": "1条线索 / Top主体：HAILESI",
         "signal_line": "HAILESI S123E便携显示器在美国、加拿大、日本、韩国市场扩张，并进入Amazon热销榜前五。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
     },
@@ -668,14 +668,14 @@
       "mapped_research_industry": "汽车电子",
       "industry_key": "Consumer Tech|汽车电子",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "Joyson Electronics"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "汽车电子本周变量来自2条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "汽车电子本周变量来自2条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "Joyson Electronics香港办公室开业，以加速全球扩张和汽车+机器人双引擎战略。",
@@ -730,15 +730,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "Consumer Tech/汽车电子本周有2条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Consumer Tech/汽车电子：W27预备信号",
+        "title": "Consumer Tech/汽车电子：W27周度信号",
         "metric_line": "2条线索 / Top主体：Joyson Electronics",
         "signal_line": "Joyson Electronics香港办公室开业，以加速全球扩张和汽车+机器人双引擎战略。；AION UT五月销量环比增长60%，新闻稿称其成为增长最快的中国品牌电动两厢车。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 2
     },
@@ -749,14 +749,14 @@
       "mapped_research_industry": "电视与视频显示",
       "industry_key": "Consumer Tech|电视与视频显示",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "Hisense"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "电视与视频显示本周变量来自3条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "电视与视频显示本周变量来自3条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "Hisense围绕2026 FIFA世界杯推出沉浸式球迷体验活动，强化全球消费者触达。",
@@ -829,15 +829,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "Consumer Tech/电视与视频显示本周有3条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Consumer Tech/电视与视频显示：W27预备信号",
+        "title": "Consumer Tech/电视与视频显示：W27周度信号",
         "metric_line": "3条线索 / Top主体：Hisense",
         "signal_line": "Hisense围绕2026 FIFA世界杯推出沉浸式球迷体验活动，强化全球消费者触达。；JMGO宣布Prime Day期间N1S 4K和N3 Ultimate三色激光投影产品最高56%折扣。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 3
     },
@@ -848,14 +848,14 @@
       "mapped_research_industry": "穿戴式科技",
       "industry_key": "Consumer Tech|穿戴式科技",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "MetaOptics"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "穿戴式科技本周变量来自1条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "穿戴式科技本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "MetaOptics开始向欧洲和日本客户交付用于智能手机和AI智能眼镜的metalens样品。"
@@ -892,15 +892,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "Consumer Tech/穿戴式科技本周有1条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Consumer Tech/穿戴式科技：W27预备信号",
+        "title": "Consumer Tech/穿戴式科技：W27周度信号",
         "metric_line": "1条线索 / Top主体：MetaOptics",
         "signal_line": "MetaOptics开始向欧洲和日本客户交付用于智能手机和AI智能眼镜的metalens样品。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
     },
@@ -911,14 +911,14 @@
       "mapped_research_industry": "饮料",
       "industry_key": "FMCG|饮料",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "Yili Group"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "饮料本周变量来自1条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "饮料本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "伊利2026 Online Tour在新加坡联动本地华人达人进行文化地标内容传播。"
@@ -955,15 +955,15 @@
           "source_grade": "B"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "FMCG/饮料本周有1条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "FMCG/饮料：W27预备信号",
+        "title": "FMCG/饮料：W27周度信号",
         "metric_line": "1条线索 / Top主体：Yili Group",
         "signal_line": "伊利2026 Online Tour在新加坡联动本地华人达人进行文化地标内容传播。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
     },
@@ -974,14 +974,14 @@
       "mapped_research_industry": "-",
       "industry_key": "Fintech|-",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "Huawei"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "-本周变量来自2条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "-本周变量来自2条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "华为与泰国7-Eleven运营方CP All签署合作，推动智能穿戴支付和中国游客体验。",
@@ -1036,15 +1036,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "Fintech/-本周有2条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Fintech/-：W27预备信号",
+        "title": "Fintech/-：W27周度信号",
         "metric_line": "2条线索 / Top主体：Huawei",
         "signal_line": "华为与泰国7-Eleven运营方CP All签署合作，推动智能穿戴支付和中国游客体验。；Tencent Cloud与中信银行国际签署战略合作协议，推进FinTech 2.0转型。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 2
     },
@@ -1055,14 +1055,14 @@
       "mapped_research_industry": "家用医疗设备",
       "industry_key": "Health|家用医疗设备",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "Haier Biomedical"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "家用医疗设备本周变量来自1条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "家用医疗设备本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "Haier Biomedical在欧洲Biobank Week和东京Interphex展示自动化低碳冷存储产品。"
@@ -1099,15 +1099,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "Health/家用医疗设备本周有1条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Health/家用医疗设备：W27预备信号",
+        "title": "Health/家用医疗设备：W27周度信号",
         "metric_line": "1条线索 / Top主体：Haier Biomedical",
         "signal_line": "Haier Biomedical在欧洲Biobank Week和东京Interphex展示自动化低碳冷存储产品。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
     },
@@ -1118,14 +1118,14 @@
       "mapped_research_industry": "非处方药与急救",
       "industry_key": "Health|非处方药与急救",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "Kexing Biopharm"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "非处方药与急救本周变量来自5条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "非处方药与急救本周变量来自5条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "Kexing Biopharm在CPHI & PMEC China展示多条自研创新药管线和国际合作方向。",
@@ -1230,15 +1230,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "Health/非处方药与急救本周有5条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Health/非处方药与急救：W27预备信号",
+        "title": "Health/非处方药与急救：W27周度信号",
         "metric_line": "5条线索 / Top主体：Kexing Biopharm",
         "signal_line": "Kexing Biopharm在CPHI & PMEC China展示多条自研创新药管线和国际合作方向。；Abbisko Therapeutics与礼来达成战略研发合作和许可协议。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 5
     },
@@ -1249,14 +1249,14 @@
       "mapped_research_industry": "家具",
       "industry_key": "Lifestyle|家具",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "ChinaMarket"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "家具本周变量来自1条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "家具本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "ChinaMarket发布跨境模块化建筑项目全球化案例，聚焦印尼矿业等海外场景。"
@@ -1293,15 +1293,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "Lifestyle/家具本周有1条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Lifestyle/家具：W27预备信号",
+        "title": "Lifestyle/家具：W27周度信号",
         "metric_line": "1条线索 / Top主体：ChinaMarket",
         "signal_line": "ChinaMarket发布跨境模块化建筑项目全球化案例，聚焦印尼矿业等海外场景。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
     },
@@ -1312,14 +1312,14 @@
       "mapped_research_industry": "户外娱乐",
       "industry_key": "Lifestyle|户外娱乐",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "Segway Commercial"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "户外娱乐本周变量来自1条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "户外娱乐本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "Segway与Whoosh在墨西哥世界杯期间推出免费骑行活动，覆盖赛事出行场景。"
@@ -1356,15 +1356,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "Lifestyle/户外娱乐本周有1条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "Lifestyle/户外娱乐：W27预备信号",
+        "title": "Lifestyle/户外娱乐：W27周度信号",
         "metric_line": "1条线索 / Top主体：Segway Commercial",
         "signal_line": "Segway与Whoosh在墨西哥世界杯期间推出免费骑行活动，覆盖赛事出行场景。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
     },
@@ -1375,14 +1375,14 @@
       "mapped_research_industry": "-",
       "industry_key": "工具|-",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "Gstarsoft"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "-本周变量来自2条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "-本周变量来自2条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "Gstarsoft在西安与法国里昂发布覆盖CAD、BIM、云和AI的设计产品组合。",
@@ -1437,15 +1437,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "工具/-本周有2条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "工具/-：W27预备信号",
+        "title": "工具/-：W27周度信号",
         "metric_line": "2条线索 / Top主体：Gstarsoft",
         "signal_line": "Gstarsoft在西安与法国里昂发布覆盖CAD、BIM、云和AI的设计产品组合。；Eforthink发布面向UWB手机的大型场馆厘米级室内导航和空间服务方案。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 2
     },
@@ -1456,14 +1456,14 @@
       "mapped_research_industry": "-",
       "industry_key": "平台|-",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "Tencent Cloud"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "-本周变量来自9条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "-本周变量来自9条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "Tencent Cloud协助印尼电信运营商XLSMART完成大规模AI驱动云迁移项目。",
@@ -1620,15 +1620,15 @@
           "source_grade": "A"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "平台/-本周有9条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "平台/-：W27预备信号",
+        "title": "平台/-：W27周度信号",
         "metric_line": "9条线索 / Top主体：Tencent Cloud",
         "signal_line": "Tencent Cloud协助印尼电信运营商XLSMART完成大规模AI驱动云迁移项目。；Lead Intelligent在德国The Battery Show Europe展示极智制造解决方案。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 9
     },
@@ -1639,14 +1639,14 @@
       "mapped_research_industry": "-",
       "industry_key": "泛娱乐|-",
       "metrics": {
-        "gmv": "W27线索侧预备口径",
-        "yoy_growth": "待行研底表补齐",
-        "cn_gmv_share": "待行研底表补齐",
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
         "top_cn_player": "Jiangsu Broadcasting Corporation / Chongqing Broadcasting Group"
       },
-      "current_stage": "周度信号预备扫描",
-      "main_variable": "-本周变量来自1条客户动态，需用后续底表验证强度。",
-      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "current_stage": "周度线索扫描",
+      "main_variable": "-本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "国际合拍纪录片《Life Pulse of Yangtze》将在日本History Channel播出并获得海外关注。"
@@ -1683,15 +1683,15 @@
           "source_grade": "B"
         }
       ],
-      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
-      "bottom_table_path": "待行研底表补齐",
-      "coverage_status": "线索侧预备覆盖",
+      "research_source_path": "线索采集正式库 W27 客户候选名单与信源明细",
+      "bottom_table_path": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+      "coverage_status": "周度线索覆盖",
       "industry_conclusion": "泛娱乐/-本周有1条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
-        "title": "泛娱乐/-：W27预备信号",
+        "title": "泛娱乐/-：W27周度信号",
         "metric_line": "1条线索 / Top主体：Jiangsu Broadcasting Corporation / Chongqing Broadcasting Group",
         "signal_line": "国际合拍纪录片《Life Pulse of Yangtze》将在日本History Channel播出并获得海外关注。",
-        "risk_line": "行业深度结论待行研供给补齐。"
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
     }
@@ -1704,7 +1704,7 @@
     "gap_industry_count": 0,
     "missing_required_fields": [],
     "notes": [
-      "W27为线索侧预备更新，行业深度供给待行研洞察-agent后续补齐。",
+      "W27行业供给由本周客户线索聚合生成，仅用于售前扫描与同类主体归并。",
       "页面只读取portal/data/weekly下JSON，不读取Excel。"
     ]
   }

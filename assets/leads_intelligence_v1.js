@@ -184,8 +184,8 @@
     renderKpis(baseRows());
     $("#tab-body").innerHTML = `
       <article class="card table-card-md"><h2>展会窗口 <small>独立于客户候选主列表</small></h2>
-        <div class="table-scroll"><table class="data-table"><thead><tr><th>时间窗</th><th>展会/会议</th><th>地点</th><th>日期</th><th>行业</th><th>窗口价值</th><th>信源</th></tr></thead><tbody>
-        ${rows.map((x) => `<tr><td>${safe(x.event_window)}</td><td class="brand-cell">${safe(x.event_name)}</td><td>${safe(x.location)}</td><td>${safe(x.date)}</td><td>${safe(x.industry)}</td><td class="event-summary">${safe(x.window_value)}</td><td><span class="tag ${qualityClass(x.source_grade)}">${safe(x.source_grade)}</span></td></tr>`).join("")}
+        <div class="table-scroll"><table class="data-table"><thead><tr><th>时间窗</th><th>展会/会议</th><th>地点</th><th>日期</th><th>行业</th><th>链接</th><th>信源</th></tr></thead><tbody>
+        ${rows.map((x) => `<tr><td>${safe(x.event_window)}</td><td class="brand-cell">${safe(x.event_name)}</td><td>${safe(x.location)}</td><td>${safe(x.date)}</td><td>${safe(x.industry)}</td><td>${x.url ? `<a href="${safe(x.url)}" target="_blank" rel="noopener">打开</a>` : ""}</td><td><span class="tag ${qualityClass(x.source_grade)}">${safe(x.source_grade)}</span></td></tr>`).join("")}
         </tbody></table></div>
       </article>`;
   }
