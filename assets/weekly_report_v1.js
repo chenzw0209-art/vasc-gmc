@@ -4,10 +4,14 @@
     industrySupply: null,
     selected: null,
     marketLoaded: false,
-    activeWeek: "W26",
+    activeWeek: "W27",
   };
   const $ = (selector) => document.querySelector(selector);
   const WEEK_FILES = {
+    W27: {
+      leads: "./data/weekly/weekly_leads_content_2026_W27.json?v=20260629-weekly-w27",
+      industry: "./data/weekly/industry_brief_supply_2026_W27.json?v=20260629-weekly-w27",
+    },
     W26: {
       leads: "./data/weekly/weekly_leads_content_2026_W26.json?v=20260622-weekly-w26",
       industry: "./data/weekly/industry_brief_supply_2026_W26.json?v=20260622-weekly-w26",
@@ -326,7 +330,7 @@
     if (!selector || selector.dataset.bound === "true") return;
     selector.dataset.bound = "true";
     selector.addEventListener("change", () => {
-      loadWeek(selector.value || "W26").catch((error) => {
+      loadWeek(selector.value || "W27").catch((error) => {
         $(".weekly-content").insertAdjacentHTML("beforeend", `<article class="data-card"><h2 class="card-title">加载失败</h2><p>${error.message}</p></article>`);
       });
     });
@@ -344,7 +348,7 @@
   }
 
   async function loadWeek(week) {
-    const files = WEEK_FILES[week] || WEEK_FILES.W26;
+    const files = WEEK_FILES[week] || WEEK_FILES.W27;
     const [content, industrySupply] = await Promise.all([
       loadJson(files.leads),
       loadJson(files.industry),

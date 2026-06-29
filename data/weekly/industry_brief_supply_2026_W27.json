@@ -1,0 +1,1711 @@
+{
+  "week": "2026-W27",
+  "generated_at": "2026-06-29",
+  "source_files": {
+    "lead_workbook": "..\\..\\线索采集\\售前情报库（更新至W27）.xlsx",
+    "research_root": "Z:\\增长分析中台\\行研洞察"
+  },
+  "industries": [
+    {
+      "source_lead_industry_key": "AI应用|-",
+      "primary_industry": "AI应用",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "AI应用|-",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "AGIBOT"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "-本周变量来自5条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "AGIBOT第15,000台机器人下线，新闻稿称其为具身AI部署的重要里程碑。",
+        "ZTE在MWC上海展示SuperPod、推理、AIDC等全栈AI能力，强调Token运营。",
+        "ZUOWEI发布Tianshu和Tianji两款人形护理机器人，定位全球老龄化护理需求。",
+        "SuperX管理层与哈萨克斯坦总理讨论1GW AI计算园区计划，探索中亚数字基础设施市场。",
+        "Sugon在德国ISC High Performance 2026展示AI与先进计算方案，并登上IO500榜单。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "AGIBOT",
+          "grade": "A"
+        },
+        {
+          "brand": "ZTE",
+          "grade": "A"
+        },
+        {
+          "brand": "ZUOWEI Technology",
+          "grade": "A"
+        },
+        {
+          "brand": "SuperX AI Technology",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C001",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "具身智能机器人",
+          "product_name": "AGIBOT G2人形机器人",
+          "owner": "AGIBOT",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "AGIBOT第15,000台机器人下线，新闻稿称其为具身AI部署的重要里程碑。",
+          "suggested_focus": "具身智能产能与交付节奏增强，适合跟进全球渠道、开发者生态和海外行业客户拓展。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C016",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "AI算力与Token运营",
+          "product_name": "ZTE full-stack AI capabilities",
+          "owner": "ZTE",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "ZTE在MWC上海展示SuperPod、推理、AIDC等全栈AI能力，强调Token运营。",
+          "suggested_focus": "AI基础设施方案商业化表述清晰，适合跟进运营商和企业AI算力市场线索。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C020",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "养老护理机器人",
+          "product_name": "ZUOWEI Tianshu and Tianji care robots",
+          "owner": "ZUOWEI Technology",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "ZUOWEI发布Tianshu和Tianji两款人形护理机器人，定位全球老龄化护理需求。",
+          "suggested_focus": "养老护理机器人面向海外痛点，适合跟进医疗健康、养老机构和服务机器人渠道。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C021",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "AI算力基础设施",
+          "product_name": "SuperX 1GW AI computing park proposal",
+          "owner": "SuperX AI Technology",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "SuperX管理层与哈萨克斯坦总理讨论1GW AI计算园区计划，探索中亚数字基础设施市场。",
+          "suggested_focus": "中亚大规模AI算力项目进入政府沟通阶段，适合跟进区域数据中心和云基础设施机会。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C030",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "高性能计算",
+          "product_name": "Sugon AI and advanced computing solutions",
+          "owner": "Sugon",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Sugon在德国ISC High Performance 2026展示AI与先进计算方案，并登上IO500榜单。",
+          "suggested_focus": "欧洲高性能计算展露出海外技术品牌信号，适合跟进科研、云和AI基础设施客户。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "AI应用/-本周有5条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "AI应用/-：W27预备信号",
+        "metric_line": "5条线索 / Top主体：AGIBOT",
+        "signal_line": "AGIBOT第15,000台机器人下线，新闻稿称其为具身AI部署的重要里程碑。；ZTE在MWC上海展示SuperPod、推理、AIDC等全栈AI能力，强调Token运营。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 5
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|咖啡茶饮电器",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "咖啡茶饮电器",
+      "mapped_research_industry": "咖啡茶饮电器",
+      "industry_key": "Consumer Tech|咖啡茶饮电器",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "COFE+"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "咖啡茶饮电器本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "COFE+第七代自动咖啡机器人全球首发，强调54秒出杯和低错误率。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "COFE+",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C040",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "咖啡茶饮电器",
+          "tertiary_category": "商用咖啡机器人",
+          "product_name": "7th-Gen COFE+ robotic cafe",
+          "owner": "COFE+",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "COFE+第七代自动咖啡机器人全球首发，强调54秒出杯和低错误率。",
+          "suggested_focus": "商用服务机器人新品具备海外加盟和场景复制空间，适合跟进餐饮、酒店和零售渠道。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/咖啡茶饮电器本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/咖啡茶饮电器：W27预备信号",
+        "metric_line": "1条线索 / Top主体：COFE+",
+        "signal_line": "COFE+第七代自动咖啡机器人全球首发，强调54秒出杯和低错误率。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|安防硬件",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "安防硬件",
+      "mapped_research_industry": "安防硬件",
+      "industry_key": "Consumer Tech|安防硬件",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "DJI Enterprise"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "安防硬件本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "DJI Enterprise发布DFR部署框架白皮书，引用亚洲、欧洲和北美公共安全/安防部署经验。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "DJI Enterprise",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C029",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "安防硬件",
+          "tertiary_category": "无人机应急响应",
+          "product_name": "DJI Dock as First Responder framework",
+          "owner": "DJI Enterprise",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "DJI Enterprise发布DFR部署框架白皮书，引用亚洲、欧洲和北美公共安全/安防部署经验。",
+          "suggested_focus": "无人机应急场景具备区域案例，适合跟进公共安全、园区安防和行业解决方案传播。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/安防硬件本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/安防硬件：W27预备信号",
+        "metric_line": "1条线索 / Top主体：DJI Enterprise",
+        "signal_line": "DJI Enterprise发布DFR部署框架白皮书，引用亚洲、欧洲和北美公共安全/安防部署经验。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|户外便携电源储能",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "户外便携电源储能",
+      "mapped_research_industry": "户外便携电源储能",
+      "industry_key": "Consumer Tech|户外便携电源储能",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Fox ESS"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "户外便携电源储能本周变量来自11条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Fox ESS在The Smarter E Europe展示全生态储能方案，并以欧洲首秀强化品牌露出。",
+        "Hoymiles在Intersolar Europe发布全场景能源方案并扩大战略合作。",
+        "ZOE Energy Storage连续亮相Intersolar Europe，展示AI驱动全场景智能储能方案。",
+        "Haier Energy在Intersolar Europe首秀住宅与工商业一体化能源方案。",
+        "Sungrow在Intersolar Europe展示光伏、储能、EV充电和绿氢组合方案。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Fox ESS",
+          "grade": "A"
+        },
+        {
+          "brand": "Hoymiles",
+          "grade": "A"
+        },
+        {
+          "brand": "ZOE Energy Storage",
+          "grade": "A"
+        },
+        {
+          "brand": "Haier Energy",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C004",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "户外便携电源储能",
+          "tertiary_category": "户储/工商业储能",
+          "product_name": "Fox ESS Europe ecosystem offerings",
+          "owner": "Fox ESS",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Fox ESS在The Smarter E Europe展示全生态储能方案，并以欧洲首秀强化品牌露出。",
+          "suggested_focus": "欧洲能源展集中触达安装商与渠道商，适合跟进欧洲户储和工商业储能营销预算。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C005",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "户外便携电源储能",
+          "tertiary_category": "微逆/储能方案",
+          "product_name": "Hoymiles full-scenario energy solutions",
+          "owner": "Hoymiles",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "Hoymiles在Intersolar Europe发布全场景能源方案并扩大战略合作。",
+          "suggested_focus": "欧洲渠道和生态合作信号明确，适合跟进展后经销商招募与解决方案品牌传播。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C006",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "户外便携电源储能",
+          "tertiary_category": "智能储能系统",
+          "product_name": "ZOE Energy Storage AI-driven ESS",
+          "owner": "ZOE Energy Storage",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "ZOE Energy Storage连续亮相Intersolar Europe，展示AI驱动全场景智能储能方案。",
+          "suggested_focus": "以AI储能定位切入欧洲展会，适合跟进差异化产品叙事和欧洲代理渠道建设。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C007",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "户外便携电源储能",
+          "tertiary_category": "住宅与工商业能源方案",
+          "product_name": "Haier Energy integrated energy solutions",
+          "owner": "Haier Energy",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Haier Energy在Intersolar Europe首秀住宅与工商业一体化能源方案。",
+          "suggested_focus": "海尔品牌进入欧洲能源展场景，适合跟进家电渠道外延、储能产品线和区域代理资源。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C017",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "户外便携电源储能",
+          "tertiary_category": "光伏逆变器/储能",
+          "product_name": "Sungrow all-star renewable energy solutions",
+          "owner": "Sungrow",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Sungrow在Intersolar Europe展示光伏、储能、EV充电和绿氢组合方案。",
+          "suggested_focus": "欧洲能源展产品矩阵完整，适合跟进多产品线渠道和大型展会再营销。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C018",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "户外便携电源储能",
+          "tertiary_category": "住宅储能",
+          "product_name": "Sungrow PowerHarbor residential ESS",
+          "owner": "Sungrow",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Sungrow在Intersolar Europe发布全新一体化住宅储能系统PowerHarbor。",
+          "suggested_focus": "住宅储能新品适合对接欧洲安装商、家庭能源渠道和产品教育内容。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C019",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "户外便携电源储能",
+          "tertiary_category": "商用储能",
+          "product_name": "Sungrow PowerKeeper Series",
+          "owner": "Sungrow",
+          "dynamic_type": "海外市场进入",
+          "dynamic_summary": "Sungrow PowerKeeper系列部署于澳大利亚批发商冷链场景，为24/7制冷供电。",
+          "suggested_focus": "澳洲商用储能案例具备行业场景，适合跟进冷链、批发零售和工商业能源客户。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C023",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "户外便携电源储能",
+          "tertiary_category": "钠离子储能系统",
+          "product_name": "CATL TENER Sodium Energy Storage System",
+          "owner": "CATL",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "CATL在德国慕尼黑发布TENER Sodium钠离子储能系统，称其已通过实地验证。",
+          "suggested_focus": "钠离子储能新品适合跟进欧洲储能客户、技术传播和行业展会后续转化。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C024",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "户外便携电源储能",
+          "tertiary_category": "家庭能源管理",
+          "product_name": "Zendure ZEN+ HOME AI Energy Ecosystem",
+          "owner": "Zendure",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Zendure在Intersolar 2026展示ZEN+ HOME家庭AI能源生态。",
+          "suggested_focus": "家庭能源管理和AI叙事结合，适合跟进欧洲户储用户教育、渠道和联盟营销。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C031",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "户外便携电源储能",
+          "tertiary_category": "光伏组件/储能",
+          "product_name": "Risen Energy full-scenario innovations",
+          "owner": "Risen Energy",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Risen Energy在Intersolar Europe展示全场景能源创新方案。",
+          "suggested_focus": "欧洲能源展会集中承接潜客，适合跟进组件、储能和工商业能源解决方案营销。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C042",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "户外便携电源储能",
+          "tertiary_category": "大型储能系统",
+          "product_name": "Pylontech PyOcean",
+          "owner": "Pylontech",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Pylontech在Intersolar Europe发布6.4MWh大型储能系统PyOcean。",
+          "suggested_focus": "大储新品和自研电芯信息完整，适合跟进欧洲电站、EPC和储能渠道线索。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/户外便携电源储能本周有11条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/户外便携电源储能：W27预备信号",
+        "metric_line": "11条线索 / Top主体：Fox ESS",
+        "signal_line": "Fox ESS在The Smarter E Europe展示全生态储能方案，并以欧洲首秀强化品牌露出。；Hoymiles在Intersolar Europe发布全场景能源方案并扩大战略合作。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 11
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|手机与配件",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "手机与配件",
+      "mapped_research_industry": "手机与配件",
+      "industry_key": "Consumer Tech|手机与配件",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "8849"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "手机与配件本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "8849发布TANK 5三防旗舰手机，主打内置2K DLP投影和大电池场景。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "8849",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C013",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "手机与配件",
+          "tertiary_category": "三防智能手机",
+          "product_name": "8849 TANK 5 rugged smartphone",
+          "owner": "8849",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "8849发布TANK 5三防旗舰手机，主打内置2K DLP投影和大电池场景。",
+          "suggested_focus": "三防手机新品具备鲜明差异化卖点，适合跟进户外、工程、Amazon和独立站推广。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/手机与配件本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/手机与配件：W27预备信号",
+        "metric_line": "1条线索 / Top主体：8849",
+        "signal_line": "8849发布TANK 5三防旗舰手机，主打内置2K DLP投影和大电池场景。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|数据存储与外组件",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "数据存储与外组件",
+      "mapped_research_industry": "数据存储与外组件",
+      "industry_key": "Consumer Tech|数据存储与外组件",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "TWSC"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "数据存储与外组件本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "TWSC在MWC上海展示自研存储产品线，面向AI和数据通信场景。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "TWSC",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C014",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "数据存储与外组件",
+          "tertiary_category": "AI存储产品",
+          "product_name": "TWSC self-developed storage lineup",
+          "owner": "TWSC",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "TWSC在MWC上海展示自研存储产品线，面向AI和数据通信场景。",
+          "suggested_focus": "AI数据基础设施卖点突出，适合跟进云、通信设备和企业存储采购线索。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/数据存储与外组件本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/数据存储与外组件：W27预备信号",
+        "metric_line": "1条线索 / Top主体：TWSC",
+        "signal_line": "TWSC在MWC上海展示自研存储产品线，面向AI和数据通信场景。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|显示器与电脑平板",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "显示器与电脑平板",
+      "mapped_research_industry": "显示器与电脑平板",
+      "industry_key": "Consumer Tech|显示器与电脑平板",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "HAILESI"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "显示器与电脑平板本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "HAILESI S123E便携显示器在美国、加拿大、日本、韩国市场扩张，并进入Amazon热销榜前五。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "HAILESI",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C009",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "显示器与电脑平板",
+          "tertiary_category": "便携显示器",
+          "product_name": "HAILESI S123E portable monitor",
+          "owner": "HAILESI",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "HAILESI S123E便携显示器在美国、加拿大、日本、韩国市场扩张，并进入Amazon热销榜前五。",
+          "suggested_focus": "跨境消费电子已出现平台排名信号，适合跟进亚马逊投放、测评和多国站点运营。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/显示器与电脑平板本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/显示器与电脑平板：W27预备信号",
+        "metric_line": "1条线索 / Top主体：HAILESI",
+        "signal_line": "HAILESI S123E便携显示器在美国、加拿大、日本、韩国市场扩张，并进入Amazon热销榜前五。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|汽车电子",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "汽车电子",
+      "mapped_research_industry": "汽车电子",
+      "industry_key": "Consumer Tech|汽车电子",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Joyson Electronics"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "汽车电子本周变量来自2条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Joyson Electronics香港办公室开业，以加速全球扩张和汽车+机器人双引擎战略。",
+        "AION UT五月销量环比增长60%，新闻稿称其成为增长最快的中国品牌电动两厢车。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Joyson Electronics",
+          "grade": "A"
+        },
+        {
+          "brand": "AION",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C028",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "汽车电子",
+          "tertiary_category": "智能汽车与机器人",
+          "product_name": "Joyson Electronics Hong Kong office",
+          "owner": "Joyson Electronics",
+          "dynamic_type": "海外市场进入",
+          "dynamic_summary": "Joyson Electronics香港办公室开业，以加速全球扩张和汽车+机器人双引擎战略。",
+          "suggested_focus": "香港节点用于全球业务拓展，适合跟进汽车电子、机器人和国际品牌传播资源。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C038",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "汽车电子",
+          "tertiary_category": "新能源汽车",
+          "product_name": "AION UT",
+          "owner": "AION",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "AION UT五月销量环比增长60%，新闻稿称其成为增长最快的中国品牌电动两厢车。",
+          "suggested_focus": "车型销量动能可用于海外渠道承接，适合跟进新能源车出海营销和区域经销商。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/汽车电子本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/汽车电子：W27预备信号",
+        "metric_line": "2条线索 / Top主体：Joyson Electronics",
+        "signal_line": "Joyson Electronics香港办公室开业，以加速全球扩张和汽车+机器人双引擎战略。；AION UT五月销量环比增长60%，新闻稿称其成为增长最快的中国品牌电动两厢车。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|电视与视频显示",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "电视与视频显示",
+      "mapped_research_industry": "电视与视频显示",
+      "industry_key": "Consumer Tech|电视与视频显示",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Hisense"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "电视与视频显示本周变量来自3条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Hisense围绕2026 FIFA世界杯推出沉浸式球迷体验活动，强化全球消费者触达。",
+        "JMGO宣布Prime Day期间N1S 4K和N3 Ultimate三色激光投影产品最高56%折扣。",
+        "JBD发布Roadrunner II全彩MicroLED投影模组，基于2.5微米像素间距平台。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Hisense",
+          "grade": "A"
+        },
+        {
+          "brand": "JMGO",
+          "grade": "A"
+        },
+        {
+          "brand": "JBD",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C025",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电视与视频显示",
+          "tertiary_category": "世界杯沉浸式观赛",
+          "product_name": "Hisense FIFA World Cup fan experiences",
+          "owner": "Hisense",
+          "dynamic_type": "品牌代言/营销",
+          "dynamic_summary": "Hisense围绕2026 FIFA世界杯推出沉浸式球迷体验活动，强化全球消费者触达。",
+          "suggested_focus": "全球体育赛事赞助进入互动体验阶段，适合跟进品牌传播、线下体验和电视产品转化。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C034",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电视与视频显示",
+          "tertiary_category": "智能投影仪",
+          "product_name": "JMGO N1S 4K and N3 Ultimate Prime Day campaign",
+          "owner": "JMGO",
+          "dynamic_type": "品牌代言/营销",
+          "dynamic_summary": "JMGO宣布Prime Day期间N1S 4K和N3 Ultimate三色激光投影产品最高56%折扣。",
+          "suggested_focus": "Amazon大促节点明确，适合跟进站内广告、达人测评和节日促销承接。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C041",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电视与视频显示",
+          "tertiary_category": "MicroLED微显示",
+          "product_name": "JBD Roadrunner II MicroLED projector",
+          "owner": "JBD",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "JBD发布Roadrunner II全彩MicroLED投影模组，基于2.5微米像素间距平台。",
+          "suggested_focus": "AR显示核心器件新品适合跟进智能眼镜、光学模组和海外开发者生态。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/电视与视频显示本周有3条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/电视与视频显示：W27预备信号",
+        "metric_line": "3条线索 / Top主体：Hisense",
+        "signal_line": "Hisense围绕2026 FIFA世界杯推出沉浸式球迷体验活动，强化全球消费者触达。；JMGO宣布Prime Day期间N1S 4K和N3 Ultimate三色激光投影产品最高56%折扣。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 3
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|穿戴式科技",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "穿戴式科技",
+      "mapped_research_industry": "穿戴式科技",
+      "industry_key": "Consumer Tech|穿戴式科技",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "MetaOptics"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "穿戴式科技本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "MetaOptics开始向欧洲和日本客户交付用于智能手机和AI智能眼镜的metalens样品。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "MetaOptics",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C002",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "穿戴式科技",
+          "tertiary_category": "AI眼镜光学模组",
+          "product_name": "Metalens smartphone and AI smart glasses modules",
+          "owner": "MetaOptics",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "MetaOptics开始向欧洲和日本客户交付用于智能手机和AI智能眼镜的metalens样品。",
+          "suggested_focus": "AI眼镜供应链进入海外客户评估阶段，适合跟进消费电子品牌与渠道共同验证需求。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Consumer Tech/穿戴式科技本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/穿戴式科技：W27预备信号",
+        "metric_line": "1条线索 / Top主体：MetaOptics",
+        "signal_line": "MetaOptics开始向欧洲和日本客户交付用于智能手机和AI智能眼镜的metalens样品。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "FMCG|饮料",
+      "primary_industry": "FMCG",
+      "secondary_industry": "饮料",
+      "mapped_research_industry": "饮料",
+      "industry_key": "FMCG|饮料",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Yili Group"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "饮料本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "伊利2026 Online Tour在新加坡联动本地华人达人进行文化地标内容传播。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Yili Group",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C045",
+          "lead_category": "EC",
+          "primary_industry": "FMCG",
+          "secondary_industry": "饮料",
+          "tertiary_category": "乳制品品牌营销",
+          "product_name": "2026 Yili Online Tour Singapore",
+          "owner": "Yili Group",
+          "dynamic_type": "品牌代言/营销",
+          "dynamic_summary": "伊利2026 Online Tour在新加坡联动本地华人达人进行文化地标内容传播。",
+          "suggested_focus": "乳制品品牌在东南亚做本地化内容触达，适合跟进达人、社区和跨境品牌营销。",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "FMCG/饮料本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "FMCG/饮料：W27预备信号",
+        "metric_line": "1条线索 / Top主体：Yili Group",
+        "signal_line": "伊利2026 Online Tour在新加坡联动本地华人达人进行文化地标内容传播。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Fintech|-",
+      "primary_industry": "Fintech",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "Fintech|-",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Huawei"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "-本周变量来自2条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "华为与泰国7-Eleven运营方CP All签署合作，推动智能穿戴支付和中国游客体验。",
+        "Tencent Cloud与中信银行国际签署战略合作协议，推进FinTech 2.0转型。"
+      ],
+      "verification_metrics": [
+        "覆盖商户数",
+        "钱包/银行伙伴数",
+        "新增国家",
+        "交易成功率"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Huawei",
+          "grade": "A"
+        },
+        {
+          "brand": "Tencent Cloud",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C008",
+          "lead_category": "AG",
+          "primary_industry": "Fintech",
+          "secondary_industry": "-",
+          "tertiary_category": "跨境可穿戴支付",
+          "product_name": "Huawei smart wearable payment in 7-Eleven Thailand",
+          "owner": "Huawei",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "华为与泰国7-Eleven运营方CP All签署合作，推动智能穿戴支付和中国游客体验。",
+          "suggested_focus": "支付、零售与旅游场景同时打开，适合跟进东南亚门店支付、会员与旅客营销合作。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C026",
+          "lead_category": "AG",
+          "primary_industry": "Fintech",
+          "secondary_industry": "-",
+          "tertiary_category": "金融云转型",
+          "product_name": "Tencent Cloud and China CITIC Bank International fintech cooperation",
+          "owner": "Tencent Cloud",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "Tencent Cloud与中信银行国际签署战略合作协议，推进FinTech 2.0转型。",
+          "suggested_focus": "香港金融机构案例具备区域示范性，适合跟进跨境金融云、合规科技和银行数字化营销。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Fintech/-本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Fintech/-：W27预备信号",
+        "metric_line": "2条线索 / Top主体：Huawei",
+        "signal_line": "华为与泰国7-Eleven运营方CP All签署合作，推动智能穿戴支付和中国游客体验。；Tencent Cloud与中信银行国际签署战略合作协议，推进FinTech 2.0转型。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "Health|家用医疗设备",
+      "primary_industry": "Health",
+      "secondary_industry": "家用医疗设备",
+      "mapped_research_industry": "家用医疗设备",
+      "industry_key": "Health|家用医疗设备",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Haier Biomedical"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "家用医疗设备本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Haier Biomedical在欧洲Biobank Week和东京Interphex展示自动化低碳冷存储产品。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Haier Biomedical",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C027",
+          "lead_category": "EC",
+          "primary_industry": "Health",
+          "secondary_industry": "家用医疗设备",
+          "tertiary_category": "低碳冷链设备",
+          "product_name": "Haier Biomedical automated low-carbon cold storage",
+          "owner": "Haier Biomedical",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Haier Biomedical在欧洲Biobank Week和东京Interphex展示自动化低碳冷存储产品。",
+          "suggested_focus": "生命科学冷链设备连续触达欧洲和日本展会，适合跟进实验室、药企和渠道商线索。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Health/家用医疗设备本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Health/家用医疗设备：W27预备信号",
+        "metric_line": "1条线索 / Top主体：Haier Biomedical",
+        "signal_line": "Haier Biomedical在欧洲Biobank Week和东京Interphex展示自动化低碳冷存储产品。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Health|非处方药与急救",
+      "primary_industry": "Health",
+      "secondary_industry": "非处方药与急救",
+      "mapped_research_industry": "非处方药与急救",
+      "industry_key": "Health|非处方药与急救",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Kexing Biopharm"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "非处方药与急救本周变量来自5条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Kexing Biopharm在CPHI & PMEC China展示多条自研创新药管线和国际合作方向。",
+        "Abbisko Therapeutics与礼来达成战略研发合作和许可协议。",
+        "Innogen在DIA Global Annual Meeting 2026 China Town Hall分享中国源创新和全球开发策略。",
+        "CStone与Arrotex签署Sugemalimab在澳大利亚和新西兰的独家商业化协议。",
+        "Everest Medicines获得DMX-200在大中华、韩国和东南亚治疗FSGS的独家商业化权利。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Kexing Biopharm",
+          "grade": "A"
+        },
+        {
+          "brand": "Abbisko Therapeutics",
+          "grade": "A"
+        },
+        {
+          "brand": "Innogen Pharmaceutical Group",
+          "grade": "A"
+        },
+        {
+          "brand": "CStone Pharmaceuticals",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C032",
+          "lead_category": "EC",
+          "primary_industry": "Health",
+          "secondary_industry": "非处方药与急救",
+          "tertiary_category": "创新药管线",
+          "product_name": "Kexing Biopharm innovative drug pipelines",
+          "owner": "Kexing Biopharm",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Kexing Biopharm在CPHI & PMEC China展示多条自研创新药管线和国际合作方向。",
+          "suggested_focus": "医药展会释放国际化合作窗口，适合跟进药企出海、BD合作和专业会议营销。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C033",
+          "lead_category": "EC",
+          "primary_industry": "Health",
+          "secondary_industry": "非处方药与急救",
+          "tertiary_category": "创新药授权合作",
+          "product_name": "Abbisko Therapeutics and Lilly R&D collaboration",
+          "owner": "Abbisko Therapeutics",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "Abbisko Therapeutics与礼来达成战略研发合作和许可协议。",
+          "suggested_focus": "跨国药企合作增强公司国际化背书，适合跟进医药BD传播和全球投资者沟通需求。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C037",
+          "lead_category": "EC",
+          "primary_industry": "Health",
+          "secondary_industry": "非处方药与急救",
+          "tertiary_category": "代谢病创新药",
+          "product_name": "Innogen GLP-1 innovation strategy",
+          "owner": "Innogen Pharmaceutical Group",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Innogen在DIA Global Annual Meeting 2026 China Town Hall分享中国源创新和全球开发策略。",
+          "suggested_focus": "GLP-1与国际临床开发话题热度高，适合跟进医药国际会议、投资者和患者教育内容。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C043",
+          "lead_category": "EC",
+          "primary_industry": "Health",
+          "secondary_industry": "非处方药与急救",
+          "tertiary_category": "肿瘤药商业化",
+          "product_name": "Sugemalimab commercialization in Australia and New Zealand",
+          "owner": "CStone Pharmaceuticals",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "CStone与Arrotex签署Sugemalimab在澳大利亚和新西兰的独家商业化协议。",
+          "suggested_focus": "中国创新药进入澳新注册、准入和商业化执行阶段，适合跟进医药出海本地化预算。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C050",
+          "lead_category": "EC",
+          "primary_industry": "Health",
+          "secondary_industry": "非处方药与急救",
+          "tertiary_category": "肾病药物商业化",
+          "product_name": "DMX-200 regional license",
+          "owner": "Everest Medicines",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "Everest Medicines获得DMX-200在大中华、韩国和东南亚治疗FSGS的独家商业化权利。",
+          "suggested_focus": "区域商业化权利覆盖东南亚和韩国，适合跟进医药准入、患者教育和区域市场传播。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Health/非处方药与急救本周有5条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Health/非处方药与急救：W27预备信号",
+        "metric_line": "5条线索 / Top主体：Kexing Biopharm",
+        "signal_line": "Kexing Biopharm在CPHI & PMEC China展示多条自研创新药管线和国际合作方向。；Abbisko Therapeutics与礼来达成战略研发合作和许可协议。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 5
+    },
+    {
+      "source_lead_industry_key": "Lifestyle|家具",
+      "primary_industry": "Lifestyle",
+      "secondary_industry": "家具",
+      "mapped_research_industry": "家具",
+      "industry_key": "Lifestyle|家具",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "ChinaMarket"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "家具本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "ChinaMarket发布跨境模块化建筑项目全球化案例，聚焦印尼矿业等海外场景。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "ChinaMarket",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C035",
+          "lead_category": "EC",
+          "primary_industry": "Lifestyle",
+          "secondary_industry": "家具",
+          "tertiary_category": "模块化建筑",
+          "product_name": "ChinaMarket cross-border modular building projects",
+          "owner": "ChinaMarket",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "ChinaMarket发布跨境模块化建筑项目全球化案例，聚焦印尼矿业等海外场景。",
+          "suggested_focus": "模块化建筑出海具有项目型采购特征，适合跟进东南亚工程承包和B2B获客。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Lifestyle/家具本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Lifestyle/家具：W27预备信号",
+        "metric_line": "1条线索 / Top主体：ChinaMarket",
+        "signal_line": "ChinaMarket发布跨境模块化建筑项目全球化案例，聚焦印尼矿业等海外场景。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Lifestyle|户外娱乐",
+      "primary_industry": "Lifestyle",
+      "secondary_industry": "户外娱乐",
+      "mapped_research_industry": "户外娱乐",
+      "industry_key": "Lifestyle|户外娱乐",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Segway Commercial"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "户外娱乐本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Segway与Whoosh在墨西哥世界杯期间推出免费骑行活动，覆盖赛事出行场景。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Segway Commercial",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C003",
+          "lead_category": "EC",
+          "primary_industry": "Lifestyle",
+          "secondary_industry": "户外娱乐",
+          "tertiary_category": "共享微出行",
+          "product_name": "Segway shared micromobility campaign",
+          "owner": "Segway Commercial",
+          "dynamic_type": "品牌代言/营销",
+          "dynamic_summary": "Segway与Whoosh在墨西哥世界杯期间推出免费骑行活动，覆盖赛事出行场景。",
+          "suggested_focus": "赛事流量叠加城市出行场景，适合跟进拉美本地运营、体育营销和渠道联合投放。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "Lifestyle/户外娱乐本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Lifestyle/户外娱乐：W27预备信号",
+        "metric_line": "1条线索 / Top主体：Segway Commercial",
+        "signal_line": "Segway与Whoosh在墨西哥世界杯期间推出免费骑行活动，覆盖赛事出行场景。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "工具|-",
+      "primary_industry": "工具",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "工具|-",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Gstarsoft"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "-本周变量来自2条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Gstarsoft在西安与法国里昂发布覆盖CAD、BIM、云和AI的设计产品组合。",
+        "Eforthink发布面向UWB手机的大型场馆厘米级室内导航和空间服务方案。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Gstarsoft",
+          "grade": "A"
+        },
+        {
+          "brand": "Eforthink",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C011",
+          "lead_category": "AG",
+          "primary_industry": "工具",
+          "secondary_industry": "-",
+          "tertiary_category": "CAD/BIM/AI设计软件",
+          "product_name": "Gstarsoft CAD+BIM+AI portfolio",
+          "owner": "Gstarsoft",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Gstarsoft在西安与法国里昂发布覆盖CAD、BIM、云和AI的设计产品组合。",
+          "suggested_focus": "工业软件海外叙事明确，适合跟进欧美设计师、工程软件渠道和本地化内容传播。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C049",
+          "lead_category": "AG",
+          "primary_industry": "工具",
+          "secondary_industry": "-",
+          "tertiary_category": "UWB室内定位",
+          "product_name": "Eforthink UWB indoor navigation solution",
+          "owner": "Eforthink",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Eforthink发布面向UWB手机的大型场馆厘米级室内导航和空间服务方案。",
+          "suggested_focus": "手机生态和场馆导航结合，适合跟进商场、会展、机场和终端厂商合作。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "工具/-本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "工具/-：W27预备信号",
+        "metric_line": "2条线索 / Top主体：Gstarsoft",
+        "signal_line": "Gstarsoft在西安与法国里昂发布覆盖CAD、BIM、云和AI的设计产品组合。；Eforthink发布面向UWB手机的大型场馆厘米级室内导航和空间服务方案。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "平台|-",
+      "primary_industry": "平台",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "平台|-",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Tencent Cloud"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "-本周变量来自9条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Tencent Cloud协助印尼电信运营商XLSMART完成大规模AI驱动云迁移项目。",
+        "Lead Intelligent在德国The Battery Show Europe展示极智制造解决方案。",
+        "ZTE与GSMA宣布第15届ZTE全球峰会暨用户大会将与GSMA M360 ASEAN在吉隆坡同期举办。",
+        "Jiahui International Cancer Center称可为全球患者提供获批实体瘤CAR-T治疗访问。",
+        "Smart Weigh发布面向即食餐、零食和湿宠物食品的自动称重包装一体化工作流。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Tencent Cloud",
+          "grade": "A"
+        },
+        {
+          "brand": "Lead Intelligent",
+          "grade": "A"
+        },
+        {
+          "brand": "ZTE",
+          "grade": "A"
+        },
+        {
+          "brand": "Jiahui International Cancer Center",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C010",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "云计算",
+          "product_name": "Tencent Cloud AI-driven cloud transformation",
+          "owner": "Tencent Cloud",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "Tencent Cloud协助印尼电信运营商XLSMART完成大规模AI驱动云迁移项目。",
+          "suggested_focus": "印尼电信云客户案例可复用，适合跟进东南亚云、AI基础设施和企业数字化获客。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C012",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "电池智能制造",
+          "product_name": "Lead Intelligent extreme intelligent manufacturing solutions",
+          "owner": "Lead Intelligent",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Lead Intelligent在德国The Battery Show Europe展示极智制造解决方案。",
+          "suggested_focus": "电池产业链欧洲展会信号明确，适合跟进欧洲新能源制造客户和展后线索承接。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C015",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "通信生态大会",
+          "product_name": "ZTE Global Summit & User Congress with GSMA M360 ASEAN",
+          "owner": "ZTE",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "ZTE与GSMA宣布第15届ZTE全球峰会暨用户大会将与GSMA M360 ASEAN在吉隆坡同期举办。",
+          "suggested_focus": "东盟运营商和企业客户聚合，适合跟进通信、AI网络和区域生态合作预算。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C022",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "国际医疗服务",
+          "product_name": "Jiahui International Cancer Center CAR-T access",
+          "owner": "Jiahui International Cancer Center",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "Jiahui International Cancer Center称可为全球患者提供获批实体瘤CAR-T治疗访问。",
+          "suggested_focus": "国际医疗服务和创新疗法出海叙事清晰，适合跟进海外患者转诊与医疗品牌触达。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C036",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "食品包装自动化",
+          "product_name": "Smart Weigh automated weighing and packing workflow",
+          "owner": "Smart Weigh Packaging Machinery",
+          "dynamic_type": "新品/产品发布",
+          "dynamic_summary": "Smart Weigh发布面向即食餐、零食和湿宠物食品的自动称重包装一体化工作流。",
+          "suggested_focus": "食品制造自动化方案场景清晰，适合跟进海外食品厂、宠物食品和设备代理商。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C039",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "风电项目设备",
+          "product_name": "SANY Renewable Energy Chile wind project equipment",
+          "owner": "SANY Renewable Energy",
+          "dynamic_type": "海外市场进入",
+          "dynamic_summary": "三一重能为智利PURRANQUE风电项目发运核心设备，推进其拉美首个风电项目。",
+          "suggested_focus": "拉美新能源项目进入交付阶段，适合跟进能源工程客户、项目传播和区域伙伴。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C046",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "跨境批发平台",
+          "product_name": "Yiwugo World Cup merchandise supply",
+          "owner": "Yiwugo.com",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "义乌购称义乌市场供应约70%世界杯周边体育用品，平台商户借赛事热度展示供给能力。",
+          "suggested_focus": "赛事驱动跨境批发需求，适合跟进外贸商户、B2B平台和体育周边采购线索。",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W27-C047",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "生物药CDMO",
+          "product_name": "WuXi Biologics Suzhou biosafety testing center",
+          "owner": "WuXi Biologics",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "WuXi Biologics苏州生物安全检测中心通过第四次EMA GMP认证，支持19个面向欧洲市场的商业产品。",
+          "suggested_focus": "欧洲监管资质增强，适合跟进全球药企客户、CDMO服务和合规品牌传播。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W27-C048",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "电子提单/贸易科技",
+          "product_name": "IQAX eBL for LCL operations",
+          "owner": "IQAX",
+          "dynamic_type": "合作/渠道扩张",
+          "dynamic_summary": "IQAX与Tianjin Consol、EZShipping合作，在高频LCL业务中推进电子提单应用。",
+          "suggested_focus": "跨境物流单证数字化场景明确，适合跟进货代、船运和贸易科技客户。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "平台/-本周有9条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "平台/-：W27预备信号",
+        "metric_line": "9条线索 / Top主体：Tencent Cloud",
+        "signal_line": "Tencent Cloud协助印尼电信运营商XLSMART完成大规模AI驱动云迁移项目。；Lead Intelligent在德国The Battery Show Europe展示极智制造解决方案。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 9
+    },
+    {
+      "source_lead_industry_key": "泛娱乐|-",
+      "primary_industry": "泛娱乐",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "泛娱乐|-",
+      "metrics": {
+        "gmv": "W27线索侧预备口径",
+        "yoy_growth": "待行研底表补齐",
+        "cn_gmv_share": "待行研底表补齐",
+        "top_cn_player": "Jiangsu Broadcasting Corporation / Chongqing Broadcasting Group"
+      },
+      "current_stage": "周度信号预备扫描",
+      "main_variable": "-本周变量来自1条客户动态，需用后续底表验证强度。",
+      "main_tension": "当前是线索侧硬信源扫描，行业规模和份额仍需行研供给补全。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "国际合拍纪录片《Life Pulse of Yangtze》将在日本History Channel播出并获得海外关注。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Jiangsu Broadcasting Corporation / Chongqing Broadcasting Group",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W27-C044",
+          "lead_category": "AG",
+          "primary_industry": "泛娱乐",
+          "secondary_industry": "-",
+          "tertiary_category": "国际纪录片",
+          "product_name": "Life Pulse of Yangtze documentary",
+          "owner": "Jiangsu Broadcasting Corporation / Chongqing Broadcasting Group",
+          "dynamic_type": "海外经营动态",
+          "dynamic_summary": "国际合拍纪录片《Life Pulse of Yangtze》将在日本History Channel播出并获得海外关注。",
+          "suggested_focus": "中国内容通过国际频道发行，适合跟进影视内容出海、媒体发行和海外宣发合作。",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索侧W27预备扫描；待行研洞察-agent深度供给",
+      "bottom_table_path": "待行研底表补齐",
+      "coverage_status": "线索侧预备覆盖",
+      "industry_conclusion": "泛娱乐/-本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "泛娱乐/-：W27预备信号",
+        "metric_line": "1条线索 / Top主体：Jiangsu Broadcasting Corporation / Chongqing Broadcasting Group",
+        "signal_line": "国际合拍纪录片《Life Pulse of Yangtze》将在日本History Channel播出并获得海外关注。",
+        "risk_line": "行业深度结论待行研供给补齐。"
+      },
+      "this_week_lead_count": 1
+    }
+  ],
+  "quality_check": {
+    "lead_rows": 50,
+    "industry_group_count": 19,
+    "covered_industry_count": 0,
+    "desktop_research_count": 19,
+    "gap_industry_count": 0,
+    "missing_required_fields": [],
+    "notes": [
+      "W27为线索侧预备更新，行业深度供给待行研洞察-agent后续补齐。",
+      "页面只读取portal/data/weekly下JSON，不读取Excel。"
+    ]
+  }
+}
