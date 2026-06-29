@@ -11,7 +11,7 @@
       "app_candidate_count": 19,
       "grade_a_count": 47,
       "exhibition_count": 20,
-      "tender_count": 0
+      "tender_count": 4
     },
     "focus_customers": [
       {
@@ -7402,7 +7402,48 @@
       "review_note": "W27窗口复核：沿用同名历史记录事实字段；本次仅生成当周独立快照。"
     }
   ],
-  "tender_opportunity_content": [],
+  "tender_opportunity_content": [
+    {
+      "tender_id": "W27-B001",
+      "project_name": "2026年苏宁易购香港市场跨境代运营服务商项目",
+      "publisher": "苏宁易购集团股份有限公司",
+      "business_scope": "香港跨境电商代运营(Google/Meta/YouTube)",
+      "week": "W27",
+      "bid_period": "报名/回标 2026-06-22 14:00至2026-06-30 18:00",
+      "budget": "没披露",
+      "url": "https://zb.suning.com/bid-web/openIssueDetail.action?issueNo=202606221408374062442f9bc1479ed2"
+    },
+    {
+      "tender_id": "W27-B002",
+      "project_name": "江西省文化和旅游宣传推广中心运维“发现江西”海外新媒体账号项目",
+      "publisher": "江西省文化和旅游宣传推广中心",
+      "business_scope": "文旅海外新媒体账号运营/外宣传播",
+      "week": "W27",
+      "bid_period": "获取至2026-07-02 23:30；投标截止2026-07-15 14:00",
+      "budget": "3000000",
+      "url": "https://zfcg.jxf.gov.cn/maincms-web/articleJx?type=notice&id=75b36591-7951-428c-9e14-567567c438f6&planId=8a1d05fd9ed5097d019eedfeb1e66ec6&channel=58d8630f-7191-41a5-921a-db6a0b74f367"
+    },
+    {
+      "tender_id": "W27-B003",
+      "project_name": "“胖安达”“飞行公开课”海外社交媒体账号运营服务项目",
+      "publisher": "中国航空传媒有限责任公司",
+      "business_scope": "Instagram海外社媒账号运营/内容与传播影响力",
+      "week": "W27",
+      "bid_period": "公告/报名 2026-06-24至2026-07-01 23:59:59",
+      "budget": "没披露",
+      "url": "https://pur.airchina.com.cn/001/001001/20260624/92d62138-fd38-41d4-903f-9d03b164d591.html"
+    },
+    {
+      "tender_id": "W27-B004",
+      "project_name": "河南经贸职业学院2026年职教出海（二期）项目",
+      "publisher": "河南经贸职业学院",
+      "business_scope": "职教出海/马来西亚海外揭牌/多语种课程资源海外推广",
+      "week": "W27",
+      "bid_period": "响应截止2026-07-09 09:00",
+      "budget": "2180000",
+      "url": "https://b.zhengcaiyun.cn/luban/detail?parentId=550016&articleId=3+DQc8oU+u3HiUJtFcofhQ=="
+    }
+  ],
   "evidence_chain_detail_mapping": {
     "W27-C001": [
       {
@@ -8159,7 +8200,7 @@
     "sheet_source": "售前情报库周更新工作簿",
     "customer_rows": 50,
     "event_rows": 20,
-    "tender_rows": 0,
+    "tender_rows": 4,
     "source_rows": 50,
     "customer_rows_note": "仅筛除是否建议入库=否的记录；页面只消费本JSON，不读取Excel。"
   }
