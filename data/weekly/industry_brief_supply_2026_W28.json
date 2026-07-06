@@ -23,11 +23,11 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "Kling AI / Kuaishou：UAE’s BlueFive Capital Leads $3 Billion Funding Round for China’s Kling AI；相关市场/渠道为全球AI视频创作市场。",
-        "Tec-Do / MiniMax：International Workshop & Competition at AI Top Conference ECCV 2026 sponsored by Tec-Do and MiniMax；相关市场/渠道为全球AI开发者/视觉AI生态。",
-        "Z.ai：Chinese AI Startup Z.ai Ignites ‘Mini DeepSeek Moment’ as GLM-5.2 Challenges OpenAI and Anthropic at a Fraction of the Cost；相关市场/渠道为全球AI模型市场。",
-        "Ant Group / Zeroth：China’s Ant Group Deepens Bet on Humanoid Robots, Leads $74m Funding Round in Zeroth；相关市场/渠道为机器人/具身智能生态。",
-        "Meituan：Meituan's LongCat-2.0 Debuts on Fully Domestic AI Chips, Marking a New Era of \"Chip-Model Synergy\" for China's AI Ecosystem；相关市场/渠道为中国AI生态/模型开发者。"
+        "Kling AI传出约30亿美元融资，资本继续加码AI视频生成。",
+        "Tec-Do与MiniMax赞助ECCV 2026视觉AI竞赛和工作坊。",
+        "Z.ai发布GLM-5.2相关进展，被称为低成本模型竞争新节点。",
+        "Ant Group领投Zeroth人形机器人融资，加码具身智能。",
+        "美团LongCat 2.0在国产AI芯片上发布协同进展。"
       ],
       "verification_metrics": [
         "官方更新频率",
@@ -68,8 +68,8 @@
           "product_name": "Kling AI funding",
           "owner": "Kling AI / Kuaishou",
           "dynamic_type": "融资/资本动作",
-          "dynamic_summary": "Kling AI / Kuaishou：UAE’s BlueFive Capital Leads $3 Billion Funding Round for China’s Kling AI；相关市场/渠道为全球AI视频创作市场。",
-          "suggested_focus": "AI产品、融资或开发者生态动作明确，适合跟进全球AI视频创作市场的开发者增长、品牌传播和企业客户获取。",
+          "dynamic_summary": "Kling AI传出约30亿美元融资，资本继续加码AI视频生成。",
+          "suggested_focus": "AI视频进入平台化竞争，关注创作者增长、企业客户和模板素材生态。",
           "source_grade": "B"
         },
         {
@@ -81,8 +81,8 @@
           "product_name": "ECCV 2026 AI workshop sponsorship",
           "owner": "Tec-Do / MiniMax",
           "dynamic_type": "品牌/开发者活动",
-          "dynamic_summary": "Tec-Do / MiniMax：International Workshop & Competition at AI Top Conference ECCV 2026 sponsored by Tec-Do and MiniMax；相关市场/渠道为全球AI开发者/视觉AI生态。",
-          "suggested_focus": "AI产品、融资或开发者生态动作明确，适合跟进全球AI开发者/视觉AI生态的开发者增长、品牌传播和企业客户获取。",
+          "dynamic_summary": "Tec-Do与MiniMax赞助ECCV 2026视觉AI竞赛和工作坊。",
+          "suggested_focus": "AI开发者场景明确，关注会议赞助、开发者获客和视觉模型案例传播。",
           "source_grade": "B"
         },
         {
@@ -94,8 +94,8 @@
           "product_name": "GLM-5.2 challenges OpenAI and Anthropic",
           "owner": "Z.ai",
           "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "Z.ai：Chinese AI Startup Z.ai Ignites ‘Mini DeepSeek Moment’ as GLM-5.2 Challenges OpenAI and Anthropic at a Fraction of the Cost；相关市场/渠道为全球AI模型市场。",
-          "suggested_focus": "AI产品、融资或开发者生态动作明确，适合跟进全球AI模型市场的开发者增长、品牌传播和企业客户获取。",
+          "dynamic_summary": "Z.ai发布GLM-5.2相关进展，被称为低成本模型竞争新节点。",
+          "suggested_focus": "低成本模型卖点适合开发者传播，关注海外技术社区和企业试用转化。",
           "source_grade": "B"
         },
         {
@@ -107,8 +107,8 @@
           "product_name": "Ant Group leads Zeroth funding",
           "owner": "Ant Group / Zeroth",
           "dynamic_type": "融资/资本动作",
-          "dynamic_summary": "Ant Group / Zeroth：China’s Ant Group Deepens Bet on Humanoid Robots, Leads $74m Funding Round in Zeroth；相关市场/渠道为机器人/具身智能生态。",
-          "suggested_focus": "AI产品、融资或开发者生态动作明确，适合跟进机器人/具身智能生态的开发者增长、品牌传播和企业客户获取。",
+          "dynamic_summary": "Ant Group领投Zeroth人形机器人融资，加码具身智能。",
+          "suggested_focus": "支付巨头延伸到机器人生态，关注具身智能客户、开发者和资本叙事。",
           "source_grade": "B"
         },
         {
@@ -120,8 +120,8 @@
           "product_name": "LongCat-2.0 on domestic AI chips",
           "owner": "Meituan",
           "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "Meituan：Meituan's LongCat-2.0 Debuts on Fully Domestic AI Chips, Marking a New Era of \"Chip-Model Synergy\" for China's AI Ecosystem；相关市场/渠道为中国AI生态/模型开发者。",
-          "suggested_focus": "AI产品、融资或开发者生态动作明确，适合跟进中国AI生态/模型开发者的开发者增长、品牌传播和企业客户获取。",
+          "dynamic_summary": "美团LongCat 2.0在国产AI芯片上发布协同进展。",
+          "suggested_focus": "模型与芯片协同成为技术叙事，关注开发者传播和企业AI案例包装。",
           "source_grade": "B"
         },
         {
@@ -133,8 +133,8 @@
           "product_name": "Chinese tech giants race to match Claude Code",
           "owner": "Alibaba / Tencent / ByteDance",
           "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "Alibaba / Tencent / ByteDance：Chinese Tech Giants Race to Match Claude Code as Alibaba, Tencent, and ByteDance Join the Fray；相关市场/渠道为全球AI开发工具市场。",
-          "suggested_focus": "AI产品、融资或开发者生态动作明确，适合跟进全球AI开发工具市场的开发者增长、品牌传播和企业客户获取。",
+          "dynamic_summary": "阿里、腾讯、字节等中国科技公司加入代码智能体竞争。",
+          "suggested_focus": "AI开发工具竞争升温，关注海外开发者、插件生态和企业试用场景。",
           "source_grade": "B"
         },
         {
@@ -146,8 +146,8 @@
           "product_name": "GLM-5.2 agent tool",
           "owner": "Zhipu AI",
           "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "Zhipu AI：Zhipu AI’s new tool turns GLM-5.2 into agent amid Anthropic rivalry；相关市场/渠道为全球AI开发者市场。",
-          "suggested_focus": "AI产品、融资或开发者生态动作明确，适合跟进全球AI开发者市场的开发者增长、品牌传播和企业客户获取。",
+          "dynamic_summary": "智谱AI推出新工具，将GLM-5.2延伸到Agent场景。",
+          "suggested_focus": "Agent能力成为模型落地入口，关注开发者教程、案例库和SaaS客户转化。",
           "source_grade": "B"
         },
         {
@@ -159,8 +159,8 @@
           "product_name": "U1 humanoid robots",
           "owner": "UBTech",
           "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "UBTech：UBTech launches U1 humanoid robots for emotional companionship in China；相关市场/渠道为机器人/陪伴AI市场。",
-          "suggested_focus": "AI产品、融资或开发者生态动作明确，适合跟进机器人/陪伴AI市场的开发者增长、品牌传播和企业客户获取。",
+          "dynamic_summary": "优必选推出U1人形机器人，主打情感陪伴场景。",
+          "suggested_focus": "陪伴机器人进入消费化叙事，关注家庭场景内容和体验式传播。",
           "source_grade": "B"
         }
       ],
@@ -171,7 +171,7 @@
       "visual_summary": {
         "title": "AI应用/-：W28周度信号",
         "metric_line": "8条线索 / Top主体：Kling AI / Kuaishou",
-        "signal_line": "Kling AI / Kuaishou：UAE’s BlueFive Capital Leads $3 Billion Funding Round for China’s Kling AI；相关市场/渠道为全球AI视频创作市场。；Tec-Do / MiniMax：International Workshop & Competition at AI Top Conference ECCV 2026 sponsored by Tec-Do and MiniMax；相关市场/渠道为全球AI开发者/视觉AI生态。",
+        "signal_line": "Kling AI传出约30亿美元融资，资本继续加码AI视频生成。；Tec-Do与MiniMax赞助ECCV 2026视觉AI竞赛和工作坊。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 8
@@ -193,7 +193,7 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "SIMETRA：International Beauty Brand SIMETRA Launches its First AI Smart Skin-Detection Mirror and Art-Infused Hair brush；相关市场/渠道为全球美妆个护市场。"
+        "SIMETRA发布AI皮肤检测镜和艺术感美发工具。"
       ],
       "verification_metrics": [
         "官方更新频率",
@@ -222,8 +222,8 @@
           "product_name": "AI smart skin-detection mirror",
           "owner": "SIMETRA",
           "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "SIMETRA：International Beauty Brand SIMETRA Launches its First AI Smart Skin-Detection Mirror and Art-Infused Hair brush；相关市场/渠道为全球美妆个护市场。",
-          "suggested_focus": "海外经营或平台生态动作明确，适合跟进全球美妆个护市场的渠道拓展、商户增长和品牌传播。",
+          "dynamic_summary": "SIMETRA发布AI皮肤检测镜和艺术感美发工具。",
+          "suggested_focus": "美妆工具叠加AI检测卖点，关注海外测评、门店体验和内容种草。",
           "source_grade": "B"
         }
       ],
@@ -234,7 +234,7 @@
       "visual_summary": {
         "title": "Beauty/美容工具与配件：W28周度信号",
         "metric_line": "1条线索 / Top主体：SIMETRA",
-        "signal_line": "SIMETRA：International Beauty Brand SIMETRA Launches its First AI Smart Skin-Detection Mirror and Art-Infused Hair brush；相关市场/渠道为全球美妆个护市场。",
+        "signal_line": "SIMETRA发布AI皮肤检测镜和艺术感美发工具。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
@@ -256,8 +256,8 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "Midea Group：Midea Group balances global appliance demand and long-term smart home ambitions；相关市场/渠道为全球家电市场。",
-        "Haier Smart Home：Haier Smart Home balances global growth and appliance demand；相关市场/渠道为全球家电市场。"
+        "美的继续强调全球家电需求和长期智能家居布局。",
+        "海尔智家继续围绕全球家电增长和需求韧性释放信号。"
       ],
       "verification_metrics": [
         "Amazon排名变化",
@@ -290,8 +290,8 @@
           "product_name": "global appliance demand and smart home",
           "owner": "Midea Group",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "Midea Group：Midea Group balances global appliance demand and long-term smart home ambitions；相关市场/渠道为全球家电市场。",
-          "suggested_focus": "硬件产品、终端生态或海外渠道信号明确，适合跟进全球家电市场的新品发布、渠道投放和本地化素材需求。",
+          "dynamic_summary": "美的继续强调全球家电需求和长期智能家居布局。",
+          "suggested_focus": "家电全球化叙事稳定，关注区域新品、本地化内容和智能家居套系传播。",
           "source_grade": "B"
         },
         {
@@ -303,8 +303,8 @@
           "product_name": "global growth and appliance demand",
           "owner": "Haier Smart Home",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "Haier Smart Home：Haier Smart Home balances global growth and appliance demand；相关市场/渠道为全球家电市场。",
-          "suggested_focus": "硬件产品、终端生态或海外渠道信号明确，适合跟进全球家电市场的新品发布、渠道投放和本地化素材需求。",
+          "dynamic_summary": "海尔智家继续围绕全球家电增长和需求韧性释放信号。",
+          "suggested_focus": "家电品牌全球化基础稳，关注区域渠道、套系新品和本地化内容投放。",
           "source_grade": "B"
         }
       ],
@@ -315,7 +315,7 @@
       "visual_summary": {
         "title": "Consumer Tech/大家电与配件：W28周度信号",
         "metric_line": "2条线索 / Top主体：Midea Group",
-        "signal_line": "Midea Group：Midea Group balances global appliance demand and long-term smart home ambitions；相关市场/渠道为全球家电市场。；Haier Smart Home：Haier Smart Home balances global growth and appliance demand；相关市场/渠道为全球家电市场。",
+        "signal_line": "美的继续强调全球家电需求和长期智能家居布局。；海尔智家继续围绕全球家电增长和需求韧性释放信号。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 2
@@ -337,7 +337,7 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "DJI Agriculture：DJI Agriculture Elevates Precision Farming with Global Launch of Agras T55 and T100 Dual Battery Spraying System；相关市场/渠道为全球农业科技市场。"
+        "DJI Agriculture全球发布Agras T55/T100双电池喷洒系统。"
       ],
       "verification_metrics": [
         "Amazon排名变化",
@@ -366,8 +366,8 @@
           "product_name": "global launch of Agras T55 and T100",
           "owner": "DJI Agriculture",
           "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "DJI Agriculture：DJI Agriculture Elevates Precision Farming with Global Launch of Agras T55 and T100 Dual Battery Spraying System；相关市场/渠道为全球农业科技市场。",
-          "suggested_focus": "硬件产品、终端生态或海外渠道信号明确，适合跟进全球农业科技市场的新品发布、渠道投放和本地化素材需求。",
+          "dynamic_summary": "DJI Agriculture全球发布Agras T55/T100双电池喷洒系统。",
+          "suggested_focus": "农业无人机新品节点明确，关注农机渠道、作物场景和海外演示会。",
           "source_grade": "A"
         }
       ],
@@ -378,7 +378,7 @@
       "visual_summary": {
         "title": "Consumer Tech/影像设备：W28周度信号",
         "metric_line": "1条线索 / Top主体：DJI Agriculture",
-        "signal_line": "DJI Agriculture：DJI Agriculture Elevates Precision Farming with Global Launch of Agras T55 and T100 Dual Battery Spraying System；相关市场/渠道为全球农业科技市场。",
+        "signal_line": "DJI Agriculture全球发布Agras T55/T100双电池喷洒系统。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
@@ -400,7 +400,7 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "HyperStrong：HyperStrong Closes The smarter E Europe 2026 with 15 Agreements Totaling Nearly 10GWh, Marking a New Phase of Global Expansion；相关市场/渠道为欧洲储能市场。"
+        "海博思创在欧洲能源展后签署近10GWh储能协议。"
       ],
       "verification_metrics": [
         "Amazon排名变化",
@@ -429,8 +429,8 @@
           "product_name": "15 agreements nearly 10GWh in Europe",
           "owner": "HyperStrong",
           "dynamic_type": "合作/渠道扩张",
-          "dynamic_summary": "HyperStrong：HyperStrong Closes The smarter E Europe 2026 with 15 Agreements Totaling Nearly 10GWh, Marking a New Phase of Global Expansion；相关市场/渠道为欧洲储能市场。",
-          "suggested_focus": "硬件产品、终端生态或海外渠道信号明确，适合跟进欧洲储能市场的新品发布、渠道投放和本地化素材需求。",
+          "dynamic_summary": "海博思创在欧洲能源展后签署近10GWh储能协议。",
+          "suggested_focus": "欧洲储能合作进入规模化阶段，关注项目案例、渠道伙伴和展后转化。",
           "source_grade": "A"
         }
       ],
@@ -441,7 +441,7 @@
       "visual_summary": {
         "title": "Consumer Tech/户外便携电源储能：W28周度信号",
         "metric_line": "1条线索 / Top主体：HyperStrong",
-        "signal_line": "HyperStrong：HyperStrong Closes The smarter E Europe 2026 with 15 Agreements Totaling Nearly 10GWh, Marking a New Phase of Global Expansion；相关市场/渠道为欧洲储能市场。",
+        "signal_line": "海博思创在欧洲能源展后签署近10GWh储能协议。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
@@ -463,7 +463,7 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "Xiaomi：Xiaomi focuses on devices and services as investors track global expansion；相关市场/渠道为全球消费电子市场。"
+        "小米围绕设备与服务生态延续全球扩张叙事。"
       ],
       "verification_metrics": [
         "Amazon排名变化",
@@ -492,8 +492,8 @@
           "product_name": "devices and services global expansion",
           "owner": "Xiaomi",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "Xiaomi：Xiaomi focuses on devices and services as investors track global expansion；相关市场/渠道为全球消费电子市场。",
-          "suggested_focus": "硬件产品、终端生态或海外渠道信号明确，适合跟进全球消费电子市场的新品发布、渠道投放和本地化素材需求。",
+          "dynamic_summary": "小米围绕设备与服务生态延续全球扩张叙事。",
+          "suggested_focus": "硬件生态和服务绑定加深，关注海外手机、IoT和会员运营联动。",
           "source_grade": "B"
         }
       ],
@@ -504,7 +504,7 @@
       "visual_summary": {
         "title": "Consumer Tech/手机与配件：W28周度信号",
         "metric_line": "1条线索 / Top主体：Xiaomi",
-        "signal_line": "Xiaomi：Xiaomi focuses on devices and services as investors track global expansion；相关市场/渠道为全球消费电子市场。",
+        "signal_line": "小米围绕设备与服务生态延续全球扩张叙事。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
@@ -526,7 +526,7 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "Hisense：Hisense Brings Smarter, Easier Cooling to European Homes, Driving Strong Market Growth；相关市场/渠道为欧洲。"
+        "海信面向欧洲家庭推广更智能的制冷产品。"
       ],
       "verification_metrics": [
         "Amazon排名变化",
@@ -555,8 +555,8 @@
           "product_name": "smarter cooling to European homes",
           "owner": "Hisense",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "Hisense：Hisense Brings Smarter, Easier Cooling to European Homes, Driving Strong Market Growth；相关市场/渠道为欧洲。",
-          "suggested_focus": "硬件产品、终端生态或海外渠道信号明确，适合跟进欧洲的新品发布、渠道投放和本地化素材需求。",
+          "dynamic_summary": "海信面向欧洲家庭推广更智能的制冷产品。",
+          "suggested_focus": "欧洲家电增长有产品卖点，关注节能制冷、家庭场景和零售渠道内容。",
           "source_grade": "A"
         }
       ],
@@ -567,7 +567,7 @@
       "visual_summary": {
         "title": "Consumer Tech/暖通电器：W28周度信号",
         "metric_line": "1条线索 / Top主体：Hisense",
-        "signal_line": "Hisense：Hisense Brings Smarter, Easier Cooling to European Homes, Driving Strong Market Growth；相关市场/渠道为欧洲。",
+        "signal_line": "海信面向欧洲家庭推广更智能的制冷产品。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
@@ -589,9 +589,9 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "smart：Opening New Frontiers: smart Achieves 8% H1 Sales Increase with an Expanding Premium Lineup and Accelerated Global Footprint；相关市场/渠道为全球汽车市场。",
-        "GAC International：GAC International Posts First-Half Results with Outstanding Performance；相关市场/渠道为海外汽车市场。",
-        "BYD / MG / Chery：Chinese automakers dominate Goodwood Festival of Speed lineup with BYD, MG, Chery debuts；相关市场/渠道为英国/欧洲汽车市场。"
+        "smart上半年销量增长，并继续扩大高端车型和全球足迹。",
+        "广汽国际披露上半年海外业务表现。",
+        "比亚迪、MG、奇瑞等中国车企亮相Goodwood速度节。"
       ],
       "verification_metrics": [
         "Amazon排名变化",
@@ -628,8 +628,8 @@
           "product_name": "premium lineup and global footprint",
           "owner": "smart",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "smart：Opening New Frontiers: smart Achieves 8% H1 Sales Increase with an Expanding Premium Lineup and Accelerated Global Footprint；相关市场/渠道为全球汽车市场。",
-          "suggested_focus": "硬件产品、终端生态或海外渠道信号明确，适合跟进全球汽车市场的新品发布、渠道投放和本地化素材需求。",
+          "dynamic_summary": "smart上半年销量增长，并继续扩大高端车型和全球足迹。",
+          "suggested_focus": "新能源车出海进入销量复盘阶段，关注区域发布和高端车型人群运营。",
           "source_grade": "A"
         },
         {
@@ -641,8 +641,8 @@
           "product_name": "first-half international performance",
           "owner": "GAC International",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "GAC International：GAC International Posts First-Half Results with Outstanding Performance；相关市场/渠道为海外汽车市场。",
-          "suggested_focus": "硬件产品、终端生态或海外渠道信号明确，适合跟进海外汽车市场的新品发布、渠道投放和本地化素材需求。",
+          "dynamic_summary": "广汽国际披露上半年海外业务表现。",
+          "suggested_focus": "车企海外阶段性成绩可用于招商背书，关注区域经销商和试驾内容。",
           "source_grade": "B"
         },
         {
@@ -654,8 +654,8 @@
           "product_name": "Goodwood Festival of Speed lineup",
           "owner": "BYD / MG / Chery",
           "dynamic_type": "展会/品牌曝光",
-          "dynamic_summary": "BYD / MG / Chery：Chinese automakers dominate Goodwood Festival of Speed lineup with BYD, MG, Chery debuts；相关市场/渠道为英国/欧洲汽车市场。",
-          "suggested_focus": "硬件产品、终端生态或海外渠道信号明确，适合跟进英国/欧洲汽车市场的新品发布、渠道投放和本地化素材需求。",
+          "dynamic_summary": "比亚迪、MG、奇瑞等中国车企亮相Goodwood速度节。",
+          "suggested_focus": "欧洲汽车展会曝光集中，关注性能叙事、试驾内容和本地媒体合作。",
           "source_grade": "B"
         }
       ],
@@ -666,7 +666,7 @@
       "visual_summary": {
         "title": "Consumer Tech/汽车电子：W28周度信号",
         "metric_line": "3条线索 / Top主体：smart",
-        "signal_line": "smart：Opening New Frontiers: smart Achieves 8% H1 Sales Increase with an Expanding Premium Lineup and Accelerated Global Footprint；相关市场/渠道为全球汽车市场。；GAC International：GAC International Posts First-Half Results with Outstanding Performance；相关市场/渠道为海外汽车市场。",
+        "signal_line": "smart上半年销量增长，并继续扩大高端车型和全球足迹。；广汽国际披露上半年海外业务表现。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 3
@@ -688,7 +688,7 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "TCL：Ugandan comic Jose Chakala signs partnership with global tech giant TCL in China；相关市场/渠道为非洲市场。"
+        "TCL与乌干达喜剧演员Jose Chakala达成中国合作曝光。"
       ],
       "verification_metrics": [
         "Amazon排名变化",
@@ -717,8 +717,8 @@
           "product_name": "Uganda partnership",
           "owner": "TCL",
           "dynamic_type": "合作/渠道扩张",
-          "dynamic_summary": "TCL：Ugandan comic Jose Chakala signs partnership with global tech giant TCL in China；相关市场/渠道为非洲市场。",
-          "suggested_focus": "硬件产品、终端生态或海外渠道信号明确，适合跟进非洲市场的新品发布、渠道投放和本地化素材需求。",
+          "dynamic_summary": "TCL与乌干达喜剧演员Jose Chakala达成中国合作曝光。",
+          "suggested_focus": "非洲市场出现本地名人合作，关注区域品牌认知和内容共创。",
           "source_grade": "B"
         }
       ],
@@ -729,7 +729,7 @@
       "visual_summary": {
         "title": "Consumer Tech/电视与视频显示：W28周度信号",
         "metric_line": "1条线索 / Top主体：TCL",
-        "signal_line": "TCL：Ugandan comic Jose Chakala signs partnership with global tech giant TCL in China；相关市场/渠道为非洲市场。",
+        "signal_line": "TCL与乌干达喜剧演员Jose Chakala达成中国合作曝光。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
@@ -751,7 +751,7 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "REDMAGIC：REDMAGIC Gaming Tablet 5 Pro Announced in China, Global Launch as REDMAGIC Astra 2 Set for July 17；相关市场/渠道为全球游戏硬件市场。"
+        "REDMAGIC游戏平板在中国发布，并计划7月17日全球上线。"
       ],
       "verification_metrics": [
         "Amazon排名变化",
@@ -780,8 +780,8 @@
           "product_name": "global launch as REDMAGIC Astra 2",
           "owner": "REDMAGIC",
           "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "REDMAGIC：REDMAGIC Gaming Tablet 5 Pro Announced in China, Global Launch as REDMAGIC Astra 2 Set for July 17；相关市场/渠道为全球游戏硬件市场。",
-          "suggested_focus": "硬件产品、终端生态或海外渠道信号明确，适合跟进全球游戏硬件市场的新品发布、渠道投放和本地化素材需求。",
+          "dynamic_summary": "REDMAGIC游戏平板在中国发布，并计划7月17日全球上线。",
+          "suggested_focus": "游戏硬件全球档期临近，关注核心玩家测评、预热素材和首发渠道。",
           "source_grade": "B"
         }
       ],
@@ -792,7 +792,7 @@
       "visual_summary": {
         "title": "Consumer Tech/视频游戏机与配件：W28周度信号",
         "metric_line": "1条线索 / Top主体：REDMAGIC",
-        "signal_line": "REDMAGIC：REDMAGIC Gaming Tablet 5 Pro Announced in China, Global Launch as REDMAGIC Astra 2 Set for July 17；相关市场/渠道为全球游戏硬件市场。",
+        "signal_line": "REDMAGIC游戏平板在中国发布，并计划7月17日全球上线。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
@@ -814,7 +814,7 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "SuperX：SuperX Partners with TFC to Build a Core Ecosystem for Global AI Optical Interconnect, with Strategic Joint Venture Fully Launched；相关市场/渠道为全球AI基础设施市场。"
+        "SuperX与TFC成立AI光互连生态合资项目。"
       ],
       "verification_metrics": [
         "Amazon排名变化",
@@ -843,8 +843,8 @@
           "product_name": "global AI optical interconnect JV",
           "owner": "SuperX",
           "dynamic_type": "合作/渠道扩张",
-          "dynamic_summary": "SuperX：SuperX Partners with TFC to Build a Core Ecosystem for Global AI Optical Interconnect, with Strategic Joint Venture Fully Launched；相关市场/渠道为全球AI基础设施市场。",
-          "suggested_focus": "硬件产品、终端生态或海外渠道信号明确，适合跟进全球AI基础设施市场的新品发布、渠道投放和本地化素材需求。",
+          "dynamic_summary": "SuperX与TFC成立AI光互连生态合资项目。",
+          "suggested_focus": "AI基础设施链条延伸，关注数据中心客户、技术白皮书和伙伴营销。",
           "source_grade": "A"
         }
       ],
@@ -855,7 +855,7 @@
       "visual_summary": {
         "title": "Consumer Tech/计算机网络：W28周度信号",
         "metric_line": "1条线索 / Top主体：SuperX",
-        "signal_line": "SuperX：SuperX Partners with TFC to Build a Core Ecosystem for Global AI Optical Interconnect, with Strategic Joint Venture Fully Launched；相关市场/渠道为全球AI基础设施市场。",
+        "signal_line": "SuperX与TFC成立AI光互连生态合资项目。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
@@ -877,8 +877,8 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "DPC Dash / Domino's Pizza China：DPC Dash - Domino's Pizza China Deepens Market Leadership with Continued Store Expansion and Improving Sales Momentum in Q2 2026；相关市场/渠道为中国多城市门店网络。",
-        "中国山地荞麦产业：Economic Watch: China's mountain buckwheat moves from margins to global health food chain；相关市场/渠道为全球健康食品市场。"
+        "Domino's China二季度继续扩店，并释放同店销售改善信号。",
+        "中国山地荞麦产业被关注为全球健康食品链新来源。"
       ],
       "verification_metrics": [
         "官方更新频率",
@@ -911,8 +911,8 @@
           "product_name": "Domino's Pizza China Q2 expansion",
           "owner": "DPC Dash / Domino's Pizza China",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "DPC Dash / Domino's Pizza China：DPC Dash - Domino's Pizza China Deepens Market Leadership with Continued Store Expansion and Improving Sales Momentum in Q2 2026；相关市场/渠道为中国多城市门店网络。",
-          "suggested_focus": "海外经营或平台生态动作明确，适合跟进中国多城市门店网络的渠道拓展、商户增长和品牌传播。",
+          "dynamic_summary": "Domino's China二季度继续扩店，并释放同店销售改善信号。",
+          "suggested_focus": "餐饮连锁门店扩张加速，关注本地生活、会员增长和城市开店投放。",
           "source_grade": "A"
         },
         {
@@ -924,8 +924,8 @@
           "product_name": "mountain buckwheat to global health food chain",
           "owner": "中国山地荞麦产业",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "中国山地荞麦产业：Economic Watch: China's mountain buckwheat moves from margins to global health food chain；相关市场/渠道为全球健康食品市场。",
-          "suggested_focus": "海外经营或平台生态动作明确，适合跟进全球健康食品市场的渠道拓展、商户增长和品牌传播。",
+          "dynamic_summary": "中国山地荞麦产业被关注为全球健康食品链新来源。",
+          "suggested_focus": "健康食品供应链具备出海叙事，关注产地品牌、功能卖点和渠道教育。",
           "source_grade": "A"
         }
       ],
@@ -936,7 +936,7 @@
       "visual_summary": {
         "title": "FMCG/厨房储备食品：W28周度信号",
         "metric_line": "2条线索 / Top主体：DPC Dash / Domino's Pizza China",
-        "signal_line": "DPC Dash / Domino's Pizza China：DPC Dash - Domino's Pizza China Deepens Market Leadership with Continued Store Expansion and Improving Sales Momentum in Q2 2026；相关市场/渠道为中国多城市门店网络。；中国山地荞麦产业：Economic Watch: China's mountain buckwheat moves from margins to global health food chain；相关市场/渠道为全球健康食品市场。",
+        "signal_line": "Domino's China二季度继续扩店，并释放同店销售改善信号。；中国山地荞麦产业被关注为全球健康食品链新来源。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 2
@@ -958,7 +958,7 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "Chongqing Beer：Chongqing Beer Enters Malaysia with First Overseas Brewery and Nationwide Retail Launch；相关市场/渠道为马来西亚。"
+        "重庆啤酒进入马来西亚，启动首个海外酒厂和全国零售铺货。"
       ],
       "verification_metrics": [
         "官方更新频率",
@@ -987,8 +987,8 @@
           "product_name": "Malaysia brewery and retail launch",
           "owner": "Chongqing Beer",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "Chongqing Beer：Chongqing Beer Enters Malaysia with First Overseas Brewery and Nationwide Retail Launch；相关市场/渠道为马来西亚。",
-          "suggested_focus": "海外经营或平台生态动作明确，适合跟进马来西亚的渠道拓展、商户增长和品牌传播。",
+          "dynamic_summary": "重庆啤酒进入马来西亚，启动首个海外酒厂和全国零售铺货。",
+          "suggested_focus": "啤酒品牌出海进入实体渠道阶段，关注本地零售、餐饮渠道和品牌种草。",
           "source_grade": "B"
         }
       ],
@@ -999,7 +999,7 @@
       "visual_summary": {
         "title": "FMCG/饮料：W28周度信号",
         "metric_line": "1条线索 / Top主体：Chongqing Beer",
-        "signal_line": "Chongqing Beer：Chongqing Beer Enters Malaysia with First Overseas Brewery and Nationwide Retail Launch；相关市场/渠道为马来西亚。",
+        "signal_line": "重庆啤酒进入马来西亚，启动首个海外酒厂和全国零售铺货。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
@@ -1021,7 +1021,7 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "SHEIN：Shein’s New Brand Accelerator Is Fueling Growth for Emerging and Established U.S. Brands；相关市场/渠道为美国/全球时尚商家。"
+        "SHEIN推出品牌加速器，扶持美国新兴和成熟品牌增长。"
       ],
       "verification_metrics": [
         "卖家参与数",
@@ -1050,8 +1050,8 @@
           "product_name": "brand accelerator for U.S. brands",
           "owner": "SHEIN",
           "dynamic_type": "平台/生态扩张",
-          "dynamic_summary": "SHEIN：Shein’s New Brand Accelerator Is Fueling Growth for Emerging and Established U.S. Brands；相关市场/渠道为美国/全球时尚商家。",
-          "suggested_focus": "鞋服品牌、平台或代言节点明确，适合跟进美国/全球时尚商家的社媒内容、达人合作和渠道扩张。",
+          "dynamic_summary": "SHEIN推出品牌加速器，扶持美国新兴和成熟品牌增长。",
+          "suggested_focus": "平台从卖货转向商家孵化，关注美国品牌招商、内容运营和生态服务。",
           "source_grade": "B"
         }
       ],
@@ -1062,7 +1062,7 @@
       "visual_summary": {
         "title": "Fashion/女装：W28周度信号",
         "metric_line": "1条线索 / Top主体：SHEIN",
-        "signal_line": "SHEIN：Shein’s New Brand Accelerator Is Fueling Growth for Emerging and Established U.S. Brands；相关市场/渠道为美国/全球时尚商家。",
+        "signal_line": "SHEIN推出品牌加速器，扶持美国新兴和成熟品牌增长。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
@@ -1084,9 +1084,9 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "中国运动品牌：China sports brands score NBA stars to assist global ambitions；相关市场/渠道为全球篮球/运动鞋服市场。",
-        "中国运动品牌：Chinese brands leverage NBA stars for global expansion；相关市场/渠道为全球运动鞋服市场。",
-        "Li-Ning / Curry Brand：Stephen Curry & Li-Ning Unveil New Curry Brand Logo；相关市场/渠道为全球篮球鞋服市场。"
+        "中国运动品牌借助NBA球星资源强化全球化叙事。",
+        "中国运动品牌继续利用NBA明星资源提升海外存在感。",
+        "李宁与Curry Brand发布新品牌标识。"
       ],
       "verification_metrics": [
         "卖家参与数",
@@ -1123,8 +1123,8 @@
           "product_name": "NBA stars for global ambitions",
           "owner": "中国运动品牌",
           "dynamic_type": "品牌代言/营销",
-          "dynamic_summary": "中国运动品牌：China sports brands score NBA stars to assist global ambitions；相关市场/渠道为全球篮球/运动鞋服市场。",
-          "suggested_focus": "鞋服品牌、平台或代言节点明确，适合跟进全球篮球/运动鞋服市场的社媒内容、达人合作和渠道扩张。",
+          "dynamic_summary": "中国运动品牌借助NBA球星资源强化全球化叙事。",
+          "suggested_focus": "篮球明星合作带动鞋服曝光，关注海外社媒内容和球迷圈层转化。",
           "source_grade": "B"
         },
         {
@@ -1136,8 +1136,8 @@
           "product_name": "Chinese brands leverage NBA stars",
           "owner": "中国运动品牌",
           "dynamic_type": "品牌代言/营销",
-          "dynamic_summary": "中国运动品牌：Chinese brands leverage NBA stars for global expansion；相关市场/渠道为全球运动鞋服市场。",
-          "suggested_focus": "鞋服品牌、平台或代言节点明确，适合跟进全球运动鞋服市场的社媒内容、达人合作和渠道扩张。",
+          "dynamic_summary": "中国运动品牌继续利用NBA明星资源提升海外存在感。",
+          "suggested_focus": "体育IP成为鞋服出海抓手，关注球星内容、联名节奏和电商转化。",
           "source_grade": "B"
         },
         {
@@ -1149,8 +1149,8 @@
           "product_name": "new Curry Brand logo",
           "owner": "Li-Ning / Curry Brand",
           "dynamic_type": "品牌代言/营销",
-          "dynamic_summary": "Li-Ning / Curry Brand：Stephen Curry & Li-Ning Unveil New Curry Brand Logo；相关市场/渠道为全球篮球鞋服市场。",
-          "suggested_focus": "鞋服品牌、平台或代言节点明确，适合跟进全球篮球鞋服市场的社媒内容、达人合作和渠道扩张。",
+          "dynamic_summary": "李宁与Curry Brand发布新品牌标识。",
+          "suggested_focus": "篮球鞋服联名继续强化全球认知，关注新品节奏、球迷社群和达人测评。",
           "source_grade": "B"
         }
       ],
@@ -1161,7 +1161,7 @@
       "visual_summary": {
         "title": "Fashion/鞋履：W28周度信号",
         "metric_line": "3条线索 / Top主体：中国运动品牌",
-        "signal_line": "中国运动品牌：China sports brands score NBA stars to assist global ambitions；相关市场/渠道为全球篮球/运动鞋服市场。；中国运动品牌：Chinese brands leverage NBA stars for global expansion；相关市场/渠道为全球运动鞋服市场。",
+        "signal_line": "中国运动品牌借助NBA球星资源强化全球化叙事。；中国运动品牌继续利用NBA明星资源提升海外存在感。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 3
@@ -1183,11 +1183,11 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "PingPong Payments：PingPong Payments Secures In-Principle Approval for a Capital Markets Services Licence；相关市场/渠道为新加坡/跨境支付。",
-        "Alipay：The Cashless Blueprint: How Alipay Is Rewiring Malaysia’s Money；相关市场/渠道为马来西亚。",
-        "Clip / Ant International：Clip Launches Mi Clip, a Digital Wallet Ecosystem, by Partnering with Ant International, Mastercard and Televisa-Univision；相关市场/渠道为墨西哥/拉美。",
-        "Antom / GCash for Business：Antom, GCash for Business deepen partnership to expand how businesses accept in-store and online payments for local and overseas Filipino MSMEs；相关市场/渠道为菲律宾/海外商户。",
-        "XTransfer：XTransfer Opens Malaysia Office to Anchor Southeast Asia Expansion；相关市场/渠道为马来西亚/东南亚。"
+        "PingPong获新加坡资本市场服务牌照原则性批准。",
+        "Alipay在马来西亚无现金支付生态持续扩张。",
+        "Clip联合Ant International等伙伴推出Mi Clip数字钱包生态。",
+        "Antom与GCash for Business深化菲律宾商户支付合作。",
+        "XTransfer开设马来西亚办公室，强化东南亚区域布局。"
       ],
       "verification_metrics": [
         "覆盖商户数",
@@ -1228,8 +1228,8 @@
           "product_name": "Capital Markets Services Licence",
           "owner": "PingPong Payments",
           "dynamic_type": "资质/牌照进展",
-          "dynamic_summary": "PingPong Payments：PingPong Payments Secures In-Principle Approval for a Capital Markets Services Licence；相关市场/渠道为新加坡/跨境支付。",
-          "suggested_focus": "跨境支付/金融科技动作明确，适合跟进新加坡/跨境支付的收单、钱包、商户服务或合规牌照预算。",
+          "dynamic_summary": "PingPong获新加坡资本市场服务牌照原则性批准。",
+          "suggested_focus": "牌照进展提升本地合规背书，关注新加坡商户拓展和跨境收款场景。",
           "source_grade": "B"
         },
         {
@@ -1241,8 +1241,8 @@
           "product_name": "Alipay Malaysia cashless ecosystem",
           "owner": "Alipay",
           "dynamic_type": "合作/渠道扩张",
-          "dynamic_summary": "Alipay：The Cashless Blueprint: How Alipay Is Rewiring Malaysia’s Money；相关市场/渠道为马来西亚。",
-          "suggested_focus": "跨境支付/金融科技动作明确，适合跟进马来西亚的收单、钱包、商户服务或合规牌照预算。",
+          "dynamic_summary": "Alipay在马来西亚无现金支付生态持续扩张。",
+          "suggested_focus": "马来西亚支付教育和商户覆盖升温，关注游客支付、钱包合作和本地商户运营。",
           "source_grade": "B"
         },
         {
@@ -1254,8 +1254,8 @@
           "product_name": "Mi Clip digital wallet ecosystem",
           "owner": "Clip / Ant International",
           "dynamic_type": "合作/渠道扩张",
-          "dynamic_summary": "Clip / Ant International：Clip Launches Mi Clip, a Digital Wallet Ecosystem, by Partnering with Ant International, Mastercard and Televisa-Univision；相关市场/渠道为墨西哥/拉美。",
-          "suggested_focus": "跨境支付/金融科技动作明确，适合跟进墨西哥/拉美的收单、钱包、商户服务或合规牌照预算。",
+          "dynamic_summary": "Clip联合Ant International等伙伴推出Mi Clip数字钱包生态。",
+          "suggested_focus": "拉美钱包和收单合作扩容，关注中小商户数字化和品牌联合获客。",
           "source_grade": "B"
         },
         {
@@ -1267,8 +1267,8 @@
           "product_name": "in-store and online payments for MSMEs",
           "owner": "Antom / GCash for Business",
           "dynamic_type": "合作/渠道扩张",
-          "dynamic_summary": "Antom / GCash for Business：Antom, GCash for Business deepen partnership to expand how businesses accept in-store and online payments for local and overseas Filipino MSMEs；相关市场/渠道为菲律宾/海外商户。",
-          "suggested_focus": "跨境支付/金融科技动作明确，适合跟进菲律宾/海外商户的收单、钱包、商户服务或合规牌照预算。",
+          "dynamic_summary": "Antom与GCash for Business深化菲律宾商户支付合作。",
+          "suggested_focus": "菲律宾线上线下收单场景扩容，关注MSME商户和跨境经营服务。",
           "source_grade": "B"
         },
         {
@@ -1280,8 +1280,8 @@
           "product_name": "Malaysia office",
           "owner": "XTransfer",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "XTransfer：XTransfer Opens Malaysia Office to Anchor Southeast Asia Expansion；相关市场/渠道为马来西亚/东南亚。",
-          "suggested_focus": "跨境支付/金融科技动作明确，适合跟进马来西亚/东南亚的收单、钱包、商户服务或合规牌照预算。",
+          "dynamic_summary": "XTransfer开设马来西亚办公室，强化东南亚区域布局。",
+          "suggested_focus": "东南亚B2B收款节点前移，关注外贸企业获客和本地合规传播。",
           "source_grade": "B"
         },
         {
@@ -1293,8 +1293,8 @@
           "product_name": "global development centre in Malaysia",
           "owner": "Ant International",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "Ant International：Ant International opens global development centre in Malaysia；相关市场/渠道为马来西亚/全球数字金融。",
-          "suggested_focus": "跨境支付/金融科技动作明确，适合跟进马来西亚/全球数字金融的收单、钱包、商户服务或合规牌照预算。",
+          "dynamic_summary": "Ant International在马来西亚设立全球开发中心。",
+          "suggested_focus": "马来西亚成为数字金融研发节点，关注人才、开发者和区域合作传播。",
           "source_grade": "B"
         }
       ],
@@ -1305,7 +1305,7 @@
       "visual_summary": {
         "title": "Fintech/-：W28周度信号",
         "metric_line": "6条线索 / Top主体：PingPong Payments",
-        "signal_line": "PingPong Payments：PingPong Payments Secures In-Principle Approval for a Capital Markets Services Licence；相关市场/渠道为新加坡/跨境支付。；Alipay：The Cashless Blueprint: How Alipay Is Rewiring Malaysia’s Money；相关市场/渠道为马来西亚。",
+        "signal_line": "PingPong获新加坡资本市场服务牌照原则性批准。；Alipay在马来西亚无现金支付生态持续扩张。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 6
@@ -1327,11 +1327,11 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "NetEase Games：The Onmyoji Arena from NetEase - mobile MOBA classic keeps growing with new heroes and crossplay sup；相关市场/渠道为全球移动游戏市场。",
-        "Tencent：Tencent balances gaming strength and global expansion；相关市场/渠道为全球游戏市场。",
-        "NetEase：NetEase balances global gaming growth and cloud ambitions；相关市场/渠道为全球游戏市场。",
-        "Wuthering Waves / Kuro Games：Wuthering Waves Concert Tour: To the New World heads to Los Angeles；相关市场/渠道为美国/洛杉矶。",
-        "Honor of Kings：Honor of Kings World Cup kicks off at EWC 2026 on July 30；相关市场/渠道为全球电竞市场。"
+        "NetEase《决战！平安京》继续通过英雄更新和跨端玩法维持热度。",
+        "Tencent继续以游戏优势支撑全球化增长叙事。",
+        "NetEase海外游戏增长与云业务布局同步被市场关注。",
+        "《鸣潮》音乐会巡演将进入洛杉矶。",
+        "Honor of Kings世界杯将在EWC 2026期间开启。"
       ],
       "verification_metrics": [
         "预约/测试转化",
@@ -1372,8 +1372,8 @@
           "product_name": "Onmyoji Arena growth",
           "owner": "NetEase Games",
           "dynamic_type": "产品/版本运营",
-          "dynamic_summary": "NetEase Games：The Onmyoji Arena from NetEase - mobile MOBA classic keeps growing with new heroes and crossplay sup；相关市场/渠道为全球移动游戏市场。",
-          "suggested_focus": "游戏产品/赛事/用户运营节点明确，适合跟进全球移动游戏市场的新游预热、社群运营和素材投放。",
+          "dynamic_summary": "NetEase《决战！平安京》继续通过英雄更新和跨端玩法维持热度。",
+          "suggested_focus": "老游戏仍有运营节点，关注全球玩家召回、社群内容和版本素材投放。",
           "source_grade": "B"
         },
         {
@@ -1385,8 +1385,8 @@
           "product_name": "gaming strength and global expansion",
           "owner": "Tencent",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "Tencent：Tencent balances gaming strength and global expansion；相关市场/渠道为全球游戏市场。",
-          "suggested_focus": "游戏产品/赛事/用户运营节点明确，适合跟进全球游戏市场的新游预热、社群运营和素材投放。",
+          "dynamic_summary": "Tencent继续以游戏优势支撑全球化增长叙事。",
+          "suggested_focus": "游戏业务仍是海外增长主轴，关注重点产品发行节奏和区域买量窗口。",
           "source_grade": "B"
         },
         {
@@ -1398,8 +1398,8 @@
           "product_name": "global gaming growth",
           "owner": "NetEase",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "NetEase：NetEase balances global gaming growth and cloud ambitions；相关市场/渠道为全球游戏市场。",
-          "suggested_focus": "游戏产品/赛事/用户运营节点明确，适合跟进全球游戏市场的新游预热、社群运营和素材投放。",
+          "dynamic_summary": "NetEase海外游戏增长与云业务布局同步被市场关注。",
+          "suggested_focus": "游戏和云能力可形成复合叙事，关注海外发行、开发者和企业客户线索。",
           "source_grade": "B"
         },
         {
@@ -1411,8 +1411,8 @@
           "product_name": "concert tour heads to Los Angeles",
           "owner": "Wuthering Waves / Kuro Games",
           "dynamic_type": "品牌/用户运营",
-          "dynamic_summary": "Wuthering Waves / Kuro Games：Wuthering Waves Concert Tour: To the New World heads to Los Angeles；相关市场/渠道为美国/洛杉矶。",
-          "suggested_focus": "游戏产品/赛事/用户运营节点明确，适合跟进美国/洛杉矶的新游预热、社群运营和素材投放。",
+          "dynamic_summary": "《鸣潮》音乐会巡演将进入洛杉矶。",
+          "suggested_focus": "游戏IP线下化触达北美核心玩家，关注粉丝活动、社媒扩散和周边转化。",
           "source_grade": "B"
         },
         {
@@ -1424,8 +1424,8 @@
           "product_name": "World Cup kicks off at EWC 2026",
           "owner": "Honor of Kings",
           "dynamic_type": "赛事/版本节点",
-          "dynamic_summary": "Honor of Kings：Honor of Kings World Cup kicks off at EWC 2026 on July 30；相关市场/渠道为全球电竞市场。",
-          "suggested_focus": "游戏产品/赛事/用户运营节点明确，适合跟进全球电竞市场的新游预热、社群运营和素材投放。",
+          "dynamic_summary": "Honor of Kings世界杯将在EWC 2026期间开启。",
+          "suggested_focus": "电竞大赛提供全球曝光节点，关注赛事内容、直播素材和区域社群运营。",
           "source_grade": "B"
         },
         {
@@ -1437,8 +1437,8 @@
           "product_name": "new action-RPG announcement",
           "owner": "Silver Palace",
           "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "Silver Palace：New action-RPG Silver Palace looks like if Hoyoverse made a detective game；相关市场/渠道为全球游戏玩家。",
-          "suggested_focus": "游戏产品/赛事/用户运营节点明确，适合跟进全球游戏玩家的新游预热、社群运营和素材投放。",
+          "dynamic_summary": "Silver Palace以侦探题材动作RPG形态获得海外媒体关注。",
+          "suggested_focus": "新游题材差异化明显，关注首曝素材、愿望单增长和核心玩家测试。",
           "source_grade": "B"
         }
       ],
@@ -1449,7 +1449,7 @@
       "visual_summary": {
         "title": "Gaming/-：W28周度信号",
         "metric_line": "6条线索 / Top主体：NetEase Games",
-        "signal_line": "NetEase Games：The Onmyoji Arena from NetEase - mobile MOBA classic keeps growing with new heroes and crossplay sup；相关市场/渠道为全球移动游戏市场。；Tencent：Tencent balances gaming strength and global expansion；相关市场/渠道为全球游戏市场。",
+        "signal_line": "NetEase《决战！平安京》继续通过英雄更新和跨端玩法维持热度。；Tencent继续以游戏优势支撑全球化增长叙事。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 6
@@ -1471,8 +1471,8 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "TrueHealth Medical：TrueHealth Medical lands on HKEX as the first Hong Kong-listed percutaneous surgical robotics player, with a 216.96% debut rally #TrueHealthMedical；相关市场/渠道为香港资本市场/全球医疗设备。",
-        "中国人工心脏企业：Chinese-developed artificial heart advances into global markets；相关市场/渠道为全球医疗器械市场。"
+        "TrueHealth Medical登陆港交所，定位经皮手术机器人公司。",
+        "中国人工心脏技术进入全球市场进展受到关注。"
       ],
       "verification_metrics": [
         "官方更新频率",
@@ -1505,8 +1505,8 @@
           "product_name": "HKEX listing as surgical robotics player",
           "owner": "TrueHealth Medical",
           "dynamic_type": "融资/资本动作",
-          "dynamic_summary": "TrueHealth Medical：TrueHealth Medical lands on HKEX as the first Hong Kong-listed percutaneous surgical robotics player, with a 216.96% debut rally #TrueHealthMedical；相关市场/渠道为香港资本市场/全球医疗设备。",
-          "suggested_focus": "医疗器械、药企或健康产品全球化信号明确，适合跟进香港资本市场/全球医疗设备的合规传播、患者教育和渠道合作。",
+          "dynamic_summary": "TrueHealth Medical登陆港交所，定位经皮手术机器人公司。",
+          "suggested_focus": "医疗机器人资本事件提升行业曝光，关注海外医生教育和机构合作。",
           "source_grade": "B"
         },
         {
@@ -1518,8 +1518,8 @@
           "product_name": "Chinese-developed artificial heart global markets",
           "owner": "中国人工心脏企业",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "中国人工心脏企业：Chinese-developed artificial heart advances into global markets；相关市场/渠道为全球医疗器械市场。",
-          "suggested_focus": "医疗器械、药企或健康产品全球化信号明确，适合跟进全球医疗器械市场的合规传播、患者教育和渠道合作。",
+          "dynamic_summary": "中国人工心脏技术进入全球市场进展受到关注。",
+          "suggested_focus": "高端医疗器械出海需要强证据，关注临床背书、医生教育和渠道准入。",
           "source_grade": "B"
         }
       ],
@@ -1530,7 +1530,7 @@
       "visual_summary": {
         "title": "Health/家用医疗设备：W28周度信号",
         "metric_line": "2条线索 / Top主体：TrueHealth Medical",
-        "signal_line": "TrueHealth Medical：TrueHealth Medical lands on HKEX as the first Hong Kong-listed percutaneous surgical robotics player, with a 216.96% debut rally #TrueHealthMedical；相关市场/渠道为香港资本市场/全球医疗设备。；中国人工心脏企业：Chinese-developed artificial heart advances into global markets；相关市场/渠道为全球医疗器械市场。",
+        "signal_line": "TrueHealth Medical登陆港交所，定位经皮手术机器人公司。；中国人工心脏技术进入全球市场进展受到关注。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 2
@@ -1552,7 +1552,7 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "Fosun Pharma：Fosun Pharma focuses on global expansion as investors watch Shanghai Fosun Pharmaceutical；相关市场/渠道为全球医药市场。"
+        "复星医药全球化进展继续受到资本市场关注。"
       ],
       "verification_metrics": [
         "官方更新频率",
@@ -1581,8 +1581,8 @@
           "product_name": "global expansion focus",
           "owner": "Fosun Pharma",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "Fosun Pharma：Fosun Pharma focuses on global expansion as investors watch Shanghai Fosun Pharmaceutical；相关市场/渠道为全球医药市场。",
-          "suggested_focus": "医疗器械、药企或健康产品全球化信号明确，适合跟进全球医药市场的合规传播、患者教育和渠道合作。",
+          "dynamic_summary": "复星医药全球化进展继续受到资本市场关注。",
+          "suggested_focus": "医药出海需要合规背书，关注海外患者教育、渠道合作和投资者传播。",
           "source_grade": "B"
         }
       ],
@@ -1593,7 +1593,7 @@
       "visual_summary": {
         "title": "Health/非处方药与急救：W28周度信号",
         "metric_line": "1条线索 / Top主体：Fosun Pharma",
-        "signal_line": "Fosun Pharma：Fosun Pharma focuses on global expansion as investors watch Shanghai Fosun Pharmaceutical；相关市场/渠道为全球医药市场。",
+        "signal_line": "复星医药全球化进展继续受到资本市场关注。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
@@ -1615,10 +1615,10 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "China Merchants Port：China Merchants Port Holdings outlines long-term strategy as a global logistics player；相关市场/渠道为全球港口物流。",
-        "Xiamen ITG：Xiamen ITG Outlines a New Pathway for Global Supply Chain Expansion；相关市场/渠道为全球贸易/供应链。",
-        "NIQ / Flywheel：NIQ Completes Acquisition of Flywheel’s China and Southeast Asia eCommerce Data & Insights Business, Expanding Digital Commerce Intelligence Capabilities；相关市场/渠道为中国与东南亚电商市场。",
-        "Xiongda International Logistics：Xiongda International Logistics Marks 20th Anniversary with Major Expansion of its China-to-USA Cross-Border Supply Chain Network；相关市场/渠道为中美跨境物流。"
+        "招商港口继续强化全球港口物流平台定位。",
+        "厦门国贸释放全球供应链扩张路径信号。",
+        "NIQ收购Flywheel中国和东南亚电商数据洞察业务。",
+        "雄达国际物流二十周年发布中美跨境供应链扩张计划。"
       ],
       "verification_metrics": [
         "官方更新频率",
@@ -1659,8 +1659,8 @@
           "product_name": "global logistics strategy",
           "owner": "China Merchants Port",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "China Merchants Port：China Merchants Port Holdings outlines long-term strategy as a global logistics player；相关市场/渠道为全球港口物流。",
-          "suggested_focus": "海外经营或平台生态动作明确，适合跟进全球港口物流的渠道拓展、商户增长和品牌传播。",
+          "dynamic_summary": "招商港口继续强化全球港口物流平台定位。",
+          "suggested_focus": "港口物流具备B端国际化案例，关注供应链客户、航运伙伴和品牌背书。",
           "source_grade": "B"
         },
         {
@@ -1672,8 +1672,8 @@
           "product_name": "global supply chain expansion",
           "owner": "Xiamen ITG",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "Xiamen ITG：Xiamen ITG Outlines a New Pathway for Global Supply Chain Expansion；相关市场/渠道为全球贸易/供应链。",
-          "suggested_focus": "海外经营或平台生态动作明确，适合跟进全球贸易/供应链的渠道拓展、商户增长和品牌传播。",
+          "dynamic_summary": "厦门国贸释放全球供应链扩张路径信号。",
+          "suggested_focus": "供应链服务出海强调网络能力，关注外贸客户、跨境物流和产业带合作。",
           "source_grade": "B"
         },
         {
@@ -1685,8 +1685,8 @@
           "product_name": "China and Southeast Asia eCommerce data acquisition",
           "owner": "NIQ / Flywheel",
           "dynamic_type": "并购/生态扩张",
-          "dynamic_summary": "NIQ / Flywheel：NIQ Completes Acquisition of Flywheel’s China and Southeast Asia eCommerce Data & Insights Business, Expanding Digital Commerce Intelligence Capabilities；相关市场/渠道为中国与东南亚电商市场。",
-          "suggested_focus": "海外经营或平台生态动作明确，适合跟进中国与东南亚电商市场的渠道拓展、商户增长和品牌传播。",
+          "dynamic_summary": "NIQ收购Flywheel中国和东南亚电商数据洞察业务。",
+          "suggested_focus": "电商数据服务整合加速，关注品牌客户、平台数据产品和区域咨询需求。",
           "source_grade": "B"
         },
         {
@@ -1698,8 +1698,8 @@
           "product_name": "China-to-USA supply chain expansion",
           "owner": "Xiongda International Logistics",
           "dynamic_type": "海外经营动态",
-          "dynamic_summary": "Xiongda International Logistics：Xiongda International Logistics Marks 20th Anniversary with Major Expansion of its China-to-USA Cross-Border Supply Chain Network；相关市场/渠道为中美跨境物流。",
-          "suggested_focus": "海外经营或平台生态动作明确，适合跟进中美跨境物流的渠道拓展、商户增长和品牌传播。",
+          "dynamic_summary": "雄达国际物流二十周年发布中美跨境供应链扩张计划。",
+          "suggested_focus": "中美物流网络继续加密，关注卖家获客、仓配方案和履约确定性传播。",
           "source_grade": "B"
         }
       ],
@@ -1710,7 +1710,7 @@
       "visual_summary": {
         "title": "平台/-：W28周度信号",
         "metric_line": "4条线索 / Top主体：China Merchants Port",
-        "signal_line": "China Merchants Port：China Merchants Port Holdings outlines long-term strategy as a global logistics player；相关市场/渠道为全球港口物流。；Xiamen ITG：Xiamen ITG Outlines a New Pathway for Global Supply Chain Expansion；相关市场/渠道为全球贸易/供应链。",
+        "signal_line": "招商港口继续强化全球港口物流平台定位。；厦门国贸释放全球供应链扩张路径信号。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 4
@@ -1732,9 +1732,9 @@
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "Damai International：Alibaba's Damai International Introduces New Label, Launches Global Artist Initiative；相关市场/渠道为全球演艺市场。",
-        "Winsing：Winsing's \"GG Bond\" expands global licensing and brand footprint - Señal News；相关市场/渠道为全球儿童内容/IP授权市场。",
-        "Globavend：Globavend Releases First Fully AI-Produced Original Micro Drama, Entering a US$11 Billion Global Market；相关市场/渠道为全球微短剧市场。"
+        "大麦国际推出新厂牌，并启动全球艺术家计划。",
+        "Winsing《猪猪侠》继续扩大全球授权和品牌足迹。",
+        "Globavend发布首部全AI制作原创微短剧。"
       ],
       "verification_metrics": [
         "官方更新频率",
@@ -1771,8 +1771,8 @@
           "product_name": "new label and global artist initiative",
           "owner": "Damai International",
           "dynamic_type": "品牌/内容出海",
-          "dynamic_summary": "Damai International：Alibaba's Damai International Introduces New Label, Launches Global Artist Initiative；相关市场/渠道为全球演艺市场。",
-          "suggested_focus": "内容/IP/演艺全球化节点明确，适合跟进全球演艺市场的发行、授权和粉丝增长。",
+          "dynamic_summary": "大麦国际推出新厂牌，并启动全球艺术家计划。",
+          "suggested_focus": "演艺内容出海进入厂牌化运营，关注艺人宣发、票务渠道和粉丝增长。",
           "source_grade": "B"
         },
         {
@@ -1784,8 +1784,8 @@
           "product_name": "GG Bond global licensing footprint",
           "owner": "Winsing",
           "dynamic_type": "品牌/内容出海",
-          "dynamic_summary": "Winsing：Winsing's \"GG Bond\" expands global licensing and brand footprint - Señal News；相关市场/渠道为全球儿童内容/IP授权市场。",
-          "suggested_focus": "内容/IP/演艺全球化节点明确，适合跟进全球儿童内容/IP授权市场的发行、授权和粉丝增长。",
+          "dynamic_summary": "Winsing《猪猪侠》继续扩大全球授权和品牌足迹。",
+          "suggested_focus": "儿童IP授权具备海外变现空间，关注区域发行、授权品类和家庭内容渠道。",
           "source_grade": "B"
         },
         {
@@ -1797,8 +1797,8 @@
           "product_name": "AI-produced original micro drama",
           "owner": "Globavend",
           "dynamic_type": "新品/内容发布",
-          "dynamic_summary": "Globavend：Globavend Releases First Fully AI-Produced Original Micro Drama, Entering a US$11 Billion Global Market；相关市场/渠道为全球微短剧市场。",
-          "suggested_focus": "内容/IP/演艺全球化节点明确，适合跟进全球微短剧市场的发行、授权和粉丝增长。",
+          "dynamic_summary": "Globavend发布首部全AI制作原创微短剧。",
+          "suggested_focus": "AI短剧进入内容产品化阶段，关注美国市场发行、创作者合作和投放素材。",
           "source_grade": "B"
         }
       ],
@@ -1809,7 +1809,7 @@
       "visual_summary": {
         "title": "泛娱乐/-：W28周度信号",
         "metric_line": "3条线索 / Top主体：Damai International",
-        "signal_line": "Damai International：Alibaba's Damai International Introduces New Label, Launches Global Artist Initiative；相关市场/渠道为全球演艺市场。；Winsing：Winsing's \"GG Bond\" expands global licensing and brand footprint - Señal News；相关市场/渠道为全球儿童内容/IP授权市场。",
+        "signal_line": "大麦国际推出新厂牌，并启动全球艺术家计划。；Winsing《猪猪侠》继续扩大全球授权和品牌足迹。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 3
