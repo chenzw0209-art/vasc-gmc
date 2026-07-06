@@ -4,10 +4,14 @@
     industrySupply: null,
     selected: null,
     marketLoaded: false,
-    activeWeek: "W27",
+    activeWeek: "W28",
   };
   const $ = (selector) => document.querySelector(selector);
   const WEEK_FILES = {
+    W28: {
+      leads: "./data/weekly/weekly_leads_content_2026_W28.json?v=20260706-weekly-w28",
+      industry: "./data/weekly/industry_brief_supply_2026_W28.json?v=20260706-weekly-w28",
+    },
     W27: {
       leads: "./data/weekly/weekly_leads_content_2026_W27.json?v=20260629-weekly-w27",
       industry: "./data/weekly/industry_brief_supply_2026_W27.json?v=20260629-weekly-w27",
@@ -348,7 +352,7 @@
   }
 
   async function loadWeek(week) {
-    const files = WEEK_FILES[week] || WEEK_FILES.W27;
+    const files = WEEK_FILES[week] || WEEK_FILES.W28;
     const [content, industrySupply] = await Promise.all([
       loadJson(files.leads),
       loadJson(files.industry),
