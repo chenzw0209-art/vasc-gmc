@@ -3,7 +3,7 @@
   "source_workbook": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
   "weekly_module_content": {
     "week": "2026-W29",
-    "top_summary": "2026 世界人工智能大会（7月17-20日，上海）：本周进入近场窗口；已从展商名录筛出可直接联系的AI应用、平台、游戏与消费科技目标客户。\n2026 中国国际数码互动娱乐展览会 ChinaJoy（7月31日-8月3日，上海）：游戏与泛娱乐B2B窗口明确；可同步覆盖发行、支付、广告归因及出海服务商。\nGoogle Cloud Next 2026 东京站（8月5-6日，东京）：官方云与AI生态活动进入一个月窗口；可结合AppsFlyer、Adjust活动及MiniMax、SHEIN、BYD动态形成建联话题。",
+    "top_summary": "2026 世界人工智能大会（7月17-20日，上海）：展会进入近场窗口，已从展商名录复核出48家具有红人营销适配度的目标客户；应优先安排现场触达和会后跟进。\n江苏徐工电子商务股份有限公司：启动TikTok运营服务招标，覆盖3个账号、内容运营、广告投放和海外询盘转化，最高限价36万元；这是工程机械出海效果营销的直接需求。\n中免集团（海南）运营总部有限公司：公开招标小红书广告投放及KOS投流，服务期1年、7月28日截标；项目与达人/KOS内容投放能力高度匹配，值得优先评估投标。",
     "kpis": {
       "focus_customer_count": 50,
       "new_customer_signal_count": 50,
@@ -11,7 +11,7 @@
       "app_candidate_count": 13,
       "grade_a_count": 9,
       "exhibition_count": 20,
-      "tender_count": 0
+      "tender_count": 9
     },
     "focus_customers": [
       {
@@ -8191,7 +8191,98 @@
       "review_note": "Google I/O Connect China；报名状态：官方活动页入口"
     }
   ],
-  "tender_opportunity_content": [],
+  "tender_opportunity_content": [
+    {
+      "tender_id": "W29-B002",
+      "project_name": "2026年苏宁易购GEO服务商项目",
+      "publisher": "苏宁易购集团股份有限公司",
+      "business_scope": "GEO/SEO/生成式搜索优化",
+      "week": "W29",
+      "bid_period": "报名及回标2026-07-06 10:00至2026-07-17 18:00",
+      "budget": "没披露",
+      "url": "http://zb.suning.com"
+    },
+    {
+      "tender_id": "W29-B003",
+      "project_name": "海外社交媒体平台推广服务",
+      "publisher": "深圳市龙岗区融媒文化传播发展集团有限公司",
+      "business_scope": "海外社交媒体平台推广",
+      "week": "W29",
+      "bid_period": "获取2026-07-07至2026-07-14；投标截止2026-07-17 10:30",
+      "budget": "230000",
+      "url": "http://www.szjingcai.com.cn/"
+    },
+    {
+      "tender_id": "W29-B004",
+      "project_name": "TikTok运营服务招标",
+      "publisher": "江苏徐工电子商务股份有限公司",
+      "business_scope": "TikTok账号运营/内容制作/广告投放/询盘转化",
+      "week": "W29",
+      "bid_period": "报名截止2026-07-17 23:00；报价截止2026-07-20 23:00",
+      "budget": "360000",
+      "url": "https://dsc.xcmg.com/purNoticeDetail?parentMenuId&sourceId=860565414949159552&bulletinId=862357947450655488&isShowFooter=true"
+    },
+    {
+      "tender_id": "W29-B005",
+      "project_name": "2026郑州入境游海外OTA平台宣传推广项目",
+      "publisher": "郑州市文化广电和旅游局",
+      "business_scope": "海外OTA运营/精准投放/社媒矩阵联合推广",
+      "week": "W29",
+      "bid_period": "报名截止2026-07-15 18:00；服务期2026-08至2027-07",
+      "budget": "250000",
+      "url": "https://wgl.zhengzhou.gov.cn/notice/10150703.jhtml"
+    },
+    {
+      "tender_id": "W29-B006",
+      "project_name": "2026-2027年吉利汽车社媒AI矩阵运营专项",
+      "publisher": "浙江吉利控股集团汽车销售有限公司",
+      "business_scope": "社媒AI内容矩阵/账号运营/产品种草",
+      "week": "W29",
+      "bid_period": "报名截止2026-07-20 23:00；服务期2026-08至2027-07",
+      "budget": "没披露",
+      "url": "https://glzb.geely.com/#/login/bidList?782402026-2027%E5%90%89%E5%88%A9%E6%B1%BD%E8%BD%A6%E7%A4%BE%E5%AA%92AI%E7%9F%A9%E9%98%B5%E8%BF%90%E8%90%A5%E4%B8%93%E9%A1%B9%E7%9A%84%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A"
+    },
+    {
+      "tender_id": "W29-B007",
+      "project_name": "社交媒体推广服务",
+      "publisher": "中国（上海）自由贸易试验区临港新片区管理委员会",
+      "business_scope": "社交媒体推广/城市品牌内容",
+      "week": "W29",
+      "bid_period": "获取至2026-07-15 17:00；响应截止2026-07-21 14:30",
+      "budget": "250000",
+      "url": "https://www.shggzy.com/jyxxwzcggg/8951743?cExt=eyJhbGciOiJIUzI1NiJ9.eyJwYXRoIjoiL2p5eHh3emNnIiwicGFnZU5vIjoxLCJleHAiOjE3ODUyODkyOTY4NDR9.A056d6S2buosuCxCPv-TYErLSTtOj-N3JU3inWLjyEI&isIndex="
+    },
+    {
+      "tender_id": "W29-B008",
+      "project_name": "2026年四川长虹新媒体矩阵精细化运营及全域舆情维护项目",
+      "publisher": "四川长虹电器股份有限公司",
+      "business_scope": "新媒体矩阵运营/品牌破圈/全域内容",
+      "week": "W29",
+      "bid_period": "采购文件获取2026-07-10至2026-07-22；响应截止详见各包文件",
+      "budget": "没披露",
+      "url": "https://ecmp.changhong.com/api-gateway/edm-service/preview/readFile?docId=A0C22CEC-7C25-11F1-B36F-0242C0A84414"
+    },
+    {
+      "tender_id": "W29-B009",
+      "project_name": "中免海南小红书平台投放广告及KOS投流",
+      "publisher": "中免集团（海南）运营总部有限公司",
+      "business_scope": "小红书广告投放/KOS运营与投流",
+      "week": "W29",
+      "bid_period": "获取2026-07-10至2026-07-17；投标截止2026-07-28 09:30",
+      "budget": "没披露",
+      "url": "https://dzzb.ctg.cn/cms/cmszhaozhaobiaoysgg/f6c2bbf3f778476180d61a4d27cba67e.html"
+    },
+    {
+      "tender_id": "W29-B010",
+      "project_name": "宣传思想品牌文化物料服务项目",
+      "publisher": "中核铀业有限责任公司采购供应链管理中心",
+      "business_scope": "海外项目宣传视频/品牌内容策划与物料",
+      "week": "W29",
+      "bid_period": "采购文件至2026-07-14 18:00；响应截止2026-07-23 09:00",
+      "budget": "没披露",
+      "url": "https://www.cnncecp.com/xfzbgg/2056866.jhtml"
+    }
+  ],
   "evidence_chain_detail_mapping": {
     "W29-C001": [
       {
@@ -8948,7 +9039,7 @@
     "sheet_source": "售前情报库周更新工作簿",
     "customer_rows": 50,
     "event_rows": 20,
-    "tender_rows": 0,
+    "tender_rows": 9,
     "source_rows": 50,
     "customer_rows_note": "仅筛除是否建议入库=否的记录；页面只消费本JSON，不读取Excel。"
   }
