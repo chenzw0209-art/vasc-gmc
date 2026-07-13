@@ -356,7 +356,7 @@
   }
 
   async function loadWeek(week) {
-    const files = WEEK_FILES[week] || WEEK_FILES.W28;
+    const files = WEEK_FILES[week] || WEEK_FILES.W29;
     const [content, industrySupply] = await Promise.all([
       loadJson(files.leads),
       loadJson(files.industry),
