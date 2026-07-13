@@ -19,15 +19,15 @@
         "top_cn_player": "Kuaishou / Kling AI"
       },
       "current_stage": "周度线索扫描",
-      "main_variable": "-本周变量来自8条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_variable": "-本周变量来自9条客户动态，优先用于售前名单筛选和触达优先级判断。",
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "Kuaishou / Kling AI：Kling AI Launches 3.0 Model, Ushering in an Era Where Everyone Can Be a Director；信号落在AI产品发布，对应全球AI视频创作市场。",
-        "MiniMax：Zhipu AI’s Fear of Following MiniMax: Key Challenges & Growth Risks in China’s Generative AI Industry；信号落在融资/产品扩张，对应全球AI模型与应用市场。",
-        "MiniMax：MiniMax AI Startup Strengthens Expansion With Multi Billion Dollar Fundraising；信号落在融资/产品扩张，对应全球AI模型与应用市场。",
-        "MiniMax：Chinese AI Developer MiniMax Raises HK$16 Billion From Equity, Convertible Bond Sale；信号落在融资/产品扩张，对应全球AI模型与应用市场。",
-        "MiniMax：MiniMax CEO Gives Up Salary Until AGI as Company Announces $2 Bn Funding；信号落在融资/产品扩张，对应全球AI模型与应用市场。"
+        "Kuaishou / Kling AI：本周聚合2项动态——1) Kling AI Launches 3.0 Model, Ushering in an Era Where Everyone Can Be a Director；2) Kling AI spotlights advances in AI video through global competition；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
+        "MiniMax：本周聚合6项动态——1) Zhipu AI’s Fear of Following MiniMax: Key Challenges & Growth Risks in China’s Generative AI Industry；2) MiniMax AI Startup Strengthens Expansion With Multi Billion Dollar Fundraising；3) Chinese AI Developer MiniMax Raises HK$16 Billion From Equity, Convertible Bond Sale；4) MiniMax CEO Gives Up Salary Until AGI as Company Announces $2 Bn Funding；5) MiniMax Raises HK$16 Billion as Domestic Large AI Models Spark Funding Boom；6) MiniMax Launches Dual-Pronged Fundraising of Over NT$66 Billion, Combining Share Placement and Zero-Coupon CB to Fuel AI Arms Race；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
+        "UBTECH / UWORLD：发布面向规模化消费市场的UWORLD U1仿生人形机器人系列，并披露累计订单超过1.3万台；信号落在消费级AI硬件品牌教育与新品转化。",
+        "StepFun：被报道正筹备首款Agentic AI手机，把大模型能力延伸到终端设备；信号落在AI应用从模型向消费硬件和用户场景扩张。",
+        "Insilico Medicine：AI赋能药物Rentosertib进入III期临床，AI研发成果迈入全球商业化前的关键阶段；信号落在国际专业影响力和产业信任建设。"
       ],
       "verification_metrics": [
         "官方更新频率",
@@ -50,17 +50,17 @@
           "grade": "B"
         },
         {
-          "brand": "MiniMax",
+          "brand": "UBTECH / UWORLD",
           "grade": "B"
         },
         {
-          "brand": "MiniMax",
-          "grade": "A"
+          "brand": "StepFun",
+          "grade": "B"
         }
       ],
       "this_week_leads": [
         {
-          "candidate_id": "W29-C007",
+          "candidate_id": "W29-C006",
           "lead_category": "AG",
           "primary_industry": "AI应用",
           "secondary_industry": "-",
@@ -68,12 +68,12 @@
           "product_name": "AI产品发布",
           "owner": "Kuaishou / Kling AI",
           "dynamic_type": "AI产品发布",
-          "dynamic_summary": "Kuaishou / Kling AI：Kling AI Launches 3.0 Model, Ushering in an Era Where Everyone Can Be a Director；信号落在AI产品发布，对应全球AI视频创作市场。",
+          "dynamic_summary": "Kuaishou / Kling AI：本周聚合2项动态——1) Kling AI Launches 3.0 Model, Ushering in an Era Where Everyone Can Be a Director；2) Kling AI spotlights advances in AI video through global competition；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
           "suggested_focus": "可作为存量建联钩子：围绕Kuaishou / Kling AI的模型/AI产品节点，询问开发者增长、企业客户获取、内容种草或效果投放需求。",
           "source_grade": "B"
         },
         {
-          "candidate_id": "W29-C009",
+          "candidate_id": "W29-C008",
           "lead_category": "AG",
           "primary_industry": "AI应用",
           "secondary_industry": "-",
@@ -81,8 +81,21 @@
           "product_name": "融资/产品扩张",
           "owner": "MiniMax",
           "dynamic_type": "融资/产品扩张",
-          "dynamic_summary": "MiniMax：Zhipu AI’s Fear of Following MiniMax: Key Challenges & Growth Risks in China’s Generative AI Industry；信号落在融资/产品扩张，对应全球AI模型与应用市场。",
+          "dynamic_summary": "MiniMax：本周聚合6项动态——1) Zhipu AI’s Fear of Following MiniMax: Key Challenges & Growth Risks in China’s Generative AI Industry；2) MiniMax AI Startup Strengthens Expansion With Multi Billion Dollar Fundraising；3) Chinese AI Developer MiniMax Raises HK$16 Billion From Equity, Convertible Bond Sale；4) MiniMax CEO Gives Up Salary Until AGI as Company Announces $2 Bn Funding；5) MiniMax Raises HK$16 Billion as Domestic Large AI Models Spark Funding Boom；6) MiniMax Launches Dual-Pronged Fundraising of Over NT$66 Billion, Combining Share Placement and Zero-Coupon CB to Fuel AI Arms Race；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
           "suggested_focus": "可作为存量建联钩子：围绕MiniMax的模型/AI产品节点，询问开发者增长、企业客户获取、内容种草或效果投放需求。",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W29-C024",
+          "lead_category": "AG",
+          "primary_industry": "AI应用",
+          "secondary_industry": "-",
+          "tertiary_category": "消费级人形机器人",
+          "product_name": "UWORLD U1",
+          "owner": "UBTECH / UWORLD",
+          "dynamic_type": "全球发布/新品",
+          "dynamic_summary": "UBTECH / UWORLD：发布面向规模化消费市场的UWORLD U1仿生人形机器人系列，并披露累计订单超过1.3万台；信号落在消费级AI硬件品牌教育与新品转化。",
+          "suggested_focus": "可围绕U1消费级定位，询问海外科技达人首测、场景化内容、预售转化和本地渠道发布需求。",
           "source_grade": "B"
         },
         {
@@ -90,12 +103,12 @@
           "lead_category": "AG",
           "primary_industry": "AI应用",
           "secondary_industry": "-",
-          "tertiary_category": "融资/产品扩张",
-          "product_name": "融资/产品扩张",
-          "owner": "MiniMax",
-          "dynamic_type": "融资/产品扩张",
-          "dynamic_summary": "MiniMax：MiniMax AI Startup Strengthens Expansion With Multi Billion Dollar Fundraising；信号落在融资/产品扩张，对应全球AI模型与应用市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕MiniMax的模型/AI产品节点，询问开发者增长、企业客户获取、内容种草或效果投放需求。",
+          "tertiary_category": "AI智能终端",
+          "product_name": "Agentic AI Phone",
+          "owner": "StepFun",
+          "dynamic_type": "新品筹备/产品扩张",
+          "dynamic_summary": "StepFun：被报道正筹备首款Agentic AI手机，把大模型能力延伸到终端设备；信号落在AI应用从模型向消费硬件和用户场景扩张。",
+          "suggested_focus": "可围绕首款AI手机，询问产品预热、开发者与科技达人内容、海外首发市场及用户教育需求。",
           "source_grade": "B"
         },
         {
@@ -103,78 +116,141 @@
           "lead_category": "AG",
           "primary_industry": "AI应用",
           "secondary_industry": "-",
-          "tertiary_category": "融资/产品扩张",
-          "product_name": "融资/产品扩张",
-          "owner": "MiniMax",
-          "dynamic_type": "融资/产品扩张",
-          "dynamic_summary": "MiniMax：Chinese AI Developer MiniMax Raises HK$16 Billion From Equity, Convertible Bond Sale；信号落在融资/产品扩张，对应全球AI模型与应用市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕MiniMax的模型/AI产品节点，询问开发者增长、企业客户获取、内容种草或效果投放需求。",
-          "source_grade": "A"
+          "tertiary_category": "AI药物研发",
+          "product_name": "Rentosertib",
+          "owner": "Insilico Medicine",
+          "dynamic_type": "临床里程碑/国际化",
+          "dynamic_summary": "Insilico Medicine：AI赋能药物Rentosertib进入III期临床，AI研发成果迈入全球商业化前的关键阶段；信号落在国际专业影响力和产业信任建设。",
+          "suggested_focus": "可围绕III期临床里程碑，询问海外专业内容、行业KOL、会议传播和雇主品牌需求。",
+          "source_grade": "B"
         },
         {
           "candidate_id": "W29-C030",
           "lead_category": "AG",
           "primary_industry": "AI应用",
           "secondary_industry": "-",
-          "tertiary_category": "融资/产品扩张",
-          "product_name": "融资/产品扩张",
-          "owner": "MiniMax",
-          "dynamic_type": "融资/产品扩张",
-          "dynamic_summary": "MiniMax：MiniMax CEO Gives Up Salary Until AGI as Company Announces $2 Bn Funding；信号落在融资/产品扩张，对应全球AI模型与应用市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕MiniMax的模型/AI产品节点，询问开发者增长、企业客户获取、内容种草或效果投放需求。",
+          "tertiary_category": "AI医疗服务",
+          "product_name": "AI-enabled healthcare solutions",
+          "owner": "POMDOCTOR",
+          "dynamic_type": "产品生态/品牌扩张",
+          "dynamic_summary": "POMDOCTOR：持续扩展AI慢病管理和预测医疗能力，并以纳斯达克上市主体强化国际市场曝光；信号落在数字医疗品牌教育与用户信任。",
+          "suggested_focus": "可围绕AI慢病管理场景，询问海外医生/健康KOL内容、患者教育和品牌信任传播需求。",
           "source_grade": "B"
         },
         {
-          "candidate_id": "W29-C040",
+          "candidate_id": "W29-C036",
           "lead_category": "AG",
           "primary_industry": "AI应用",
           "secondary_industry": "-",
-          "tertiary_category": "融资/产品扩张",
-          "product_name": "融资/产品扩张",
-          "owner": "MiniMax",
-          "dynamic_type": "融资/产品扩张",
-          "dynamic_summary": "MiniMax：MiniMax Raises HK$16 Billion as Domestic Large AI Models Spark Funding Boom；信号落在融资/产品扩张，对应全球AI模型与应用市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕MiniMax的模型/AI产品节点，询问开发者增长、企业客户获取、内容种草或效果投放需求。",
+          "tertiary_category": "AI基础设施",
+          "product_name": "AI infrastructure solutions",
+          "owner": "Shenzhou Guangda",
+          "dynamic_type": "海外展会/品牌曝光",
+          "dynamic_summary": "Shenzhou Guangda：亮相London Tech Week并获得国际产业关注，借全球科技活动拓展海外合作；信号落在B2B品牌国际化和行业影响力。",
+          "suggested_focus": "可围绕伦敦科技周节点，询问海外科技媒体、行业KOL、案例内容和后续展会传播需求。",
           "source_grade": "B"
         },
         {
-          "candidate_id": "W29-C041",
+          "candidate_id": "W29-C043",
           "lead_category": "AG",
           "primary_industry": "AI应用",
           "secondary_industry": "-",
-          "tertiary_category": "融资/产品扩张",
-          "product_name": "融资/产品扩张",
-          "owner": "MiniMax",
-          "dynamic_type": "融资/产品扩张",
-          "dynamic_summary": "MiniMax：MiniMax Launches Dual-Pronged Fundraising of Over NT$66 Billion, Combining Share Placement and Zero-Coupon CB to Fuel AI Arms Race；信号落在融资/产品扩张，对应全球AI模型与应用市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕MiniMax的模型/AI产品节点，询问开发者增长、企业客户获取、内容种草或效果投放需求。",
+          "tertiary_category": "机器人感知",
+          "product_name": "LiDAR portfolio",
+          "owner": "RoboSense",
+          "dynamic_type": "销量增长/业务扩张",
+          "dynamic_summary": "RoboSense：披露2026年上半年激光雷达销量71.92万台，机器人业务销量同比增长510.4%；信号落在机器人感知规模化和全球客户教育。",
+          "suggested_focus": "可围绕机器人业务高增长，询问海外行业KOL、开发者内容、场景案例和展会传播需求。",
           "source_grade": "B"
         },
         {
-          "candidate_id": "W29-C050",
+          "candidate_id": "W29-C049",
           "lead_category": "AG",
           "primary_industry": "AI应用",
           "secondary_industry": "-",
-          "tertiary_category": "AI产品发布",
-          "product_name": "AI产品发布",
-          "owner": "Kuaishou / Kling AI",
-          "dynamic_type": "AI产品发布",
-          "dynamic_summary": "Kuaishou / Kling AI：Kling AI spotlights advances in AI video through global competition；信号落在AI产品发布，对应全球AI视频创作市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕Kuaishou / Kling AI的模型/AI产品节点，询问开发者增长、企业客户获取、内容种草或效果投放需求。",
+          "tertiary_category": "量子计算",
+          "product_name": "Approximate Quantum Multiplier",
+          "owner": "MicroCloud Hologram",
+          "dynamic_type": "技术突破/品牌传播",
+          "dynamic_summary": "MicroCloud Hologram：披露面向NISQ环境的实用近似量子乘法器进展，强调低深度与高保真计算；信号落在前沿技术品牌认知和开发者影响力。",
+          "suggested_focus": "可围绕量子计算进展，询问海外科技媒体、开发者KOL、技术白皮书和会议传播需求。",
           "source_grade": "B"
         }
       ],
       "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
       "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
       "coverage_status": "周度线索覆盖",
-      "industry_conclusion": "AI应用/-本周有8条可复核客户动态，适合先进入销售扫描池。",
+      "industry_conclusion": "AI应用/-本周有9条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
         "title": "AI应用/-：W29周度信号",
-        "metric_line": "8条线索 / Top主体：Kuaishou / Kling AI",
-        "signal_line": "Kuaishou / Kling AI：Kling AI Launches 3.0 Model, Ushering in an Era Where Everyone Can Be a Director；信号落在AI产品发布，对应全球AI视频创作市场。；MiniMax：Zhipu AI’s Fear of Following MiniMax: Key Challenges & Growth Risks in China’s Generative AI Industry；信号落在融资/产品扩张，对应全球AI模型与应用市场。",
+        "metric_line": "9条线索 / Top主体：Kuaishou / Kling AI",
+        "signal_line": "Kuaishou / Kling AI：本周聚合2项动态——1) Kling AI Launches 3.0 Model, Ushering in an Era Where Everyone Can Be a Director；2) Kling AI spotlights advances in AI video through global competition；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。；MiniMax：本周聚合6项动态——1) Zhipu AI’s Fear of Following MiniMax: Key Challenges & Growth Risks in China’s Generative AI Industry；2) MiniMax AI Startup Strengthens Expansion With Multi Billion Dollar Fundraising；3) Chinese AI Developer MiniMax Raises HK$16 Billion From Equity, Convertible Bond Sale；4) MiniMax CEO Gives Up Salary Until AGI as Company Announces $2 Bn Funding；5) MiniMax Raises HK$16 Billion as Domestic Large AI Models Spark Funding Boom；6) MiniMax Launches Dual-Pronged Fundraising of Over NT$66 Billion, Combining Share Placement and Zero-Coupon CB to Fuel AI Arms Race；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
-      "this_week_lead_count": 8
+      "this_week_lead_count": 9
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|办公电子产品",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "办公电子产品",
+      "mapped_research_industry": "办公电子产品",
+      "industry_key": "Consumer Tech|办公电子产品",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "SUNMI"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "办公电子产品本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "SUNMI：在首尔江南开设韩国办公室及首家SUNMI Home门店，延伸新加坡全球总部后的亚太布局；信号落在区域品牌落地与渠道拓展。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "SUNMI",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W29-C032",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "办公电子产品",
+          "tertiary_category": "商用智能终端",
+          "product_name": "SUNMI Home Seoul",
+          "owner": "SUNMI",
+          "dynamic_type": "海外开店/区域扩张",
+          "dynamic_summary": "SUNMI：在首尔江南开设韩国办公室及首家SUNMI Home门店，延伸新加坡全球总部后的亚太布局；信号落在区域品牌落地与渠道拓展。",
+          "suggested_focus": "可围绕韩国新据点，询问本地科技媒体、商户案例、渠道活动和B2B影响者传播需求。",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
+      "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "Consumer Tech/办公电子产品本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/办公电子产品：W29周度信号",
+        "metric_line": "1条线索 / Top主体：SUNMI",
+        "signal_line": "SUNMI：在首尔江南开设韩国办公室及首家SUNMI Home门店，延伸新加坡全球总部后的亚太布局；信号落在区域品牌落地与渠道拓展。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 1
     },
     {
       "source_lead_industry_key": "Consumer Tech|影像设备",
@@ -189,14 +265,12 @@
         "top_cn_player": "Insta360"
       },
       "current_stage": "周度线索扫描",
-      "main_variable": "影像设备本周变量来自4条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_variable": "影像设备本周变量来自2条客户动态，优先用于售前名单筛选和触达优先级判断。",
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "Insta360：Insta360 Luna Pro Launch Likely Before November 2026；信号落在AI硬件/新品，对应全球运动相机与AI拍摄市场。",
-        "DJI：DJI Unveils First eVTOL Cargo Drone in Dramatic Everest Mission；信号落在新品/场景发布，对应全球无人机与农业科技市场。",
-        "Insta360：Insta360 unveils vision for AI-powered Cameraman robot on 11th anniversary；信号落在AI硬件/新品，对应全球运动相机与AI拍摄市场。",
-        "Insta360：Insta360 X6 camera set to launch, FCC filing suggests；信号落在AI硬件/新品，对应全球运动相机与AI拍摄市场。"
+        "Insta360：本周聚合3项动态——1) Insta360 Luna Pro Launch Likely Before November 2026；2) Insta360 unveils vision for AI-powered Cameraman robot on 11th anniversary；3) Insta360 X6 camera set to launch, FCC filing suggests；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
+        "DJI：DJI Unveils First eVTOL Cargo Drone in Dramatic Everest Mission；信号落在新品/场景发布，对应全球无人机与农业科技市场。"
       ],
       "verification_metrics": [
         "Amazon排名变化",
@@ -217,19 +291,11 @@
         {
           "brand": "DJI",
           "grade": "B"
-        },
-        {
-          "brand": "Insta360",
-          "grade": "A"
-        },
-        {
-          "brand": "Insta360",
-          "grade": "B"
         }
       ],
       "this_week_leads": [
         {
-          "candidate_id": "W29-C008",
+          "candidate_id": "W29-C007",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "影像设备",
@@ -237,12 +303,12 @@
           "product_name": "AI硬件/新品",
           "owner": "Insta360",
           "dynamic_type": "AI硬件/新品",
-          "dynamic_summary": "Insta360：Insta360 Luna Pro Launch Likely Before November 2026；信号落在AI硬件/新品，对应全球运动相机与AI拍摄市场。",
+          "dynamic_summary": "Insta360：本周聚合3项动态——1) Insta360 Luna Pro Launch Likely Before November 2026；2) Insta360 unveils vision for AI-powered Cameraman robot on 11th anniversary；3) Insta360 X6 camera set to launch, FCC filing suggests；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
           "suggested_focus": "可作为存量建联钩子：围绕Insta360的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
           "source_grade": "C"
         },
         {
-          "candidate_id": "W29-C019",
+          "candidate_id": "W29-C015",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "影像设备",
@@ -253,45 +319,19 @@
           "dynamic_summary": "DJI：DJI Unveils First eVTOL Cargo Drone in Dramatic Everest Mission；信号落在新品/场景发布，对应全球无人机与农业科技市场。",
           "suggested_focus": "可作为存量建联钩子：围绕DJI的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
           "source_grade": "B"
-        },
-        {
-          "candidate_id": "W29-C039",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "影像设备",
-          "tertiary_category": "AI硬件/新品",
-          "product_name": "AI硬件/新品",
-          "owner": "Insta360",
-          "dynamic_type": "AI硬件/新品",
-          "dynamic_summary": "Insta360：Insta360 unveils vision for AI-powered Cameraman robot on 11th anniversary；信号落在AI硬件/新品，对应全球运动相机与AI拍摄市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕Insta360的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "A"
-        },
-        {
-          "candidate_id": "W29-C048",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "影像设备",
-          "tertiary_category": "AI硬件/新品",
-          "product_name": "AI硬件/新品",
-          "owner": "Insta360",
-          "dynamic_type": "AI硬件/新品",
-          "dynamic_summary": "Insta360：Insta360 X6 camera set to launch, FCC filing suggests；信号落在AI硬件/新品，对应全球运动相机与AI拍摄市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕Insta360的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "B"
         }
       ],
       "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
       "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
       "coverage_status": "周度线索覆盖",
-      "industry_conclusion": "Consumer Tech/影像设备本周有4条可复核客户动态，适合先进入销售扫描池。",
+      "industry_conclusion": "Consumer Tech/影像设备本周有2条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
         "title": "Consumer Tech/影像设备：W29周度信号",
-        "metric_line": "4条线索 / Top主体：Insta360",
-        "signal_line": "Insta360：Insta360 Luna Pro Launch Likely Before November 2026；信号落在AI硬件/新品，对应全球运动相机与AI拍摄市场。；DJI：DJI Unveils First eVTOL Cargo Drone in Dramatic Everest Mission；信号落在新品/场景发布，对应全球无人机与农业科技市场。",
+        "metric_line": "2条线索 / Top主体：Insta360",
+        "signal_line": "Insta360：本周聚合3项动态——1) Insta360 Luna Pro Launch Likely Before November 2026；2) Insta360 unveils vision for AI-powered Cameraman robot on 11th anniversary；3) Insta360 X6 camera set to launch, FCC filing suggests；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。；DJI：DJI Unveils First eVTOL Cargo Drone in Dramatic Everest Mission；信号落在新品/场景发布，对应全球无人机与农业科技市场。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
-      "this_week_lead_count": 4
+      "this_week_lead_count": 2
     },
     {
       "source_lead_industry_key": "Consumer Tech|手机与配件",
@@ -306,15 +346,15 @@
         "top_cn_player": "Honor"
       },
       "current_stage": "周度线索扫描",
-      "main_variable": "手机与配件本周变量来自15条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_variable": "手机与配件本周变量来自6条客户动态，优先用于售前名单筛选和触达优先级判断。",
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "Honor：Honor's next gaming phone could launch in October with a 10,000mAh battery；信号落在新品/产品预热，对应全球智能手机市场。",
-        "Huawei：Huawei making real 5G comeback in global market with Pura 90s；信号落在新品/海外市场，对应全球智能终端市场。",
-        "Huawei：Huawei rumored to launch new Enjoy phones next month；信号落在新品/海外市场，对应全球智能终端市场。",
+        "Huawei：本周聚合5项动态——1) Huawei making real 5G comeback in global market with Pura 90s；2) Huawei rumored to launch new Enjoy phones next month；3) New HUAWEI MatePad Air and Free Clip 2 S Set to Launch with Pura 90s Series；4) Huawei unveils Pura 80 Pro and Ultra refurbished models；5) EthSwitch explores Huawei partnership on AI and China payment connectivity；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
         "Taboola / OPPO / realme：Taboola expands OPPO, realme lockscreen deal into India and Thailand；信号落在锁屏广告渠道合作，对应印度/泰国智能手机广告库存。",
-        "vivo：Vivo T5 Lite India launch confirmed: Should you wait?；信号落在新品/海外上市，对应印度/非洲等海外智能手机市场。"
+        "vivo：本周聚合6项动态——1) Vivo T5 Lite India launch confirmed: Should you wait?；2) vivo opens Y500 pre-orders ahead of Kenya launch；3) Indian govt approves Dixon-Vivo partnership for local smartphone manufacturing；4) Vivo X Fold 6 India launch timeline tipped, anticipated to cost more than its predecessor；5) Vivo's ultra-premium foldable is one step closer to a global launch；6) Vivo V80 Specs, Launch Date and Price Leaked；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
+        "OPPO：本周聚合2项动态——1) OPPO Find N7 leak suggests launch timeline, Snapdragon 8 Elite Gen 6 SoC and 6,000mAh+ battery；2) Oppo Find N7 leak points to new Snapdragon chipset and launch window；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。"
       ],
       "verification_metrics": [
         "Amazon排名变化",
@@ -337,17 +377,17 @@
           "grade": "A"
         },
         {
-          "brand": "Huawei",
-          "grade": "A"
+          "brand": "Taboola / OPPO / realme",
+          "grade": "B"
         },
         {
-          "brand": "Taboola / OPPO / realme",
+          "brand": "vivo",
           "grade": "B"
         }
       ],
       "this_week_leads": [
         {
-          "candidate_id": "W29-C006",
+          "candidate_id": "W29-C005",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "手机与配件",
@@ -360,7 +400,7 @@
           "source_grade": "C"
         },
         {
-          "candidate_id": "W29-C012",
+          "candidate_id": "W29-C011",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "手机与配件",
@@ -368,25 +408,12 @@
           "product_name": "新品/海外市场",
           "owner": "Huawei",
           "dynamic_type": "新品/海外市场",
-          "dynamic_summary": "Huawei：Huawei making real 5G comeback in global market with Pura 90s；信号落在新品/海外市场，对应全球智能终端市场。",
+          "dynamic_summary": "Huawei：本周聚合5项动态——1) Huawei making real 5G comeback in global market with Pura 90s；2) Huawei rumored to launch new Enjoy phones next month；3) New HUAWEI MatePad Air and Free Clip 2 S Set to Launch with Pura 90s Series；4) Huawei unveils Pura 80 Pro and Ultra refurbished models；5) EthSwitch explores Huawei partnership on AI and China payment connectivity；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
           "suggested_focus": "可作为存量建联钩子：围绕Huawei的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
           "source_grade": "A"
         },
         {
           "candidate_id": "W29-C014",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "手机与配件",
-          "tertiary_category": "新品/海外市场",
-          "product_name": "新品/海外市场",
-          "owner": "Huawei",
-          "dynamic_type": "新品/海外市场",
-          "dynamic_summary": "Huawei：Huawei rumored to launch new Enjoy phones next month；信号落在新品/海外市场，对应全球智能终端市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕Huawei的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "A"
-        },
-        {
-          "candidate_id": "W29-C018",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "手机与配件",
@@ -399,7 +426,7 @@
           "source_grade": "B"
         },
         {
-          "candidate_id": "W29-C021",
+          "candidate_id": "W29-C017",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "手机与配件",
@@ -407,25 +434,12 @@
           "product_name": "新品/海外上市",
           "owner": "vivo",
           "dynamic_type": "新品/海外上市",
-          "dynamic_summary": "vivo：Vivo T5 Lite India launch confirmed: Should you wait?；信号落在新品/海外上市，对应印度/非洲等海外智能手机市场。",
+          "dynamic_summary": "vivo：本周聚合6项动态——1) Vivo T5 Lite India launch confirmed: Should you wait?；2) vivo opens Y500 pre-orders ahead of Kenya launch；3) Indian govt approves Dixon-Vivo partnership for local smartphone manufacturing；4) Vivo X Fold 6 India launch timeline tipped, anticipated to cost more than its predecessor；5) Vivo's ultra-premium foldable is one step closer to a global launch；6) Vivo V80 Specs, Launch Date and Price Leaked；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
           "suggested_focus": "可作为存量建联钩子：围绕vivo的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
           "source_grade": "B"
         },
         {
-          "candidate_id": "W29-C027",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "手机与配件",
-          "tertiary_category": "新品/海外市场",
-          "product_name": "新品/海外市场",
-          "owner": "Huawei",
-          "dynamic_type": "新品/海外市场",
-          "dynamic_summary": "Huawei：New HUAWEI MatePad Air and Free Clip 2 S Set to Launch with Pura 90s Series；信号落在新品/海外市场，对应全球智能终端市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕Huawei的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "B"
-        },
-        {
-          "candidate_id": "W29-C029",
+          "candidate_id": "W29-C019",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "手机与配件",
@@ -433,126 +447,35 @@
           "product_name": "新品/渠道合作",
           "owner": "OPPO",
           "dynamic_type": "新品/渠道合作",
-          "dynamic_summary": "OPPO：OPPO Find N7 leak suggests launch timeline, Snapdragon 8 Elite Gen 6 SoC and 6,000mAh+ battery；信号落在新品/渠道合作，对应海外智能手机市场。",
+          "dynamic_summary": "OPPO：本周聚合2项动态——1) OPPO Find N7 leak suggests launch timeline, Snapdragon 8 Elite Gen 6 SoC and 6,000mAh+ battery；2) Oppo Find N7 leak points to new Snapdragon chipset and launch window；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
           "suggested_focus": "可作为存量建联钩子：围绕OPPO的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
           "source_grade": "C"
         },
         {
-          "candidate_id": "W29-C032",
+          "candidate_id": "W29-C031",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "手机与配件",
-          "tertiary_category": "新品/海外上市",
-          "product_name": "新品/海外上市",
-          "owner": "vivo",
-          "dynamic_type": "新品/海外上市",
-          "dynamic_summary": "vivo：vivo opens Y500 pre-orders ahead of Kenya launch；信号落在新品/海外上市，对应印度/非洲等海外智能手机市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕vivo的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "B"
-        },
-        {
-          "candidate_id": "W29-C037",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "手机与配件",
-          "tertiary_category": "新品/海外上市",
-          "product_name": "新品/海外上市",
-          "owner": "vivo",
-          "dynamic_type": "新品/海外上市",
-          "dynamic_summary": "vivo：Indian govt approves Dixon-Vivo partnership for local smartphone manufacturing；信号落在新品/海外上市，对应印度/非洲等海外智能手机市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕vivo的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "B"
-        },
-        {
-          "candidate_id": "W29-C042",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "手机与配件",
-          "tertiary_category": "新品/渠道合作",
-          "product_name": "新品/渠道合作",
-          "owner": "OPPO",
-          "dynamic_type": "新品/渠道合作",
-          "dynamic_summary": "OPPO：Oppo Find N7 leak points to new Snapdragon chipset and launch window；信号落在新品/渠道合作，对应海外智能手机市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕OPPO的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "C"
-        },
-        {
-          "candidate_id": "W29-C043",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "手机与配件",
-          "tertiary_category": "新品/海外上市",
-          "product_name": "新品/海外上市",
-          "owner": "vivo",
-          "dynamic_type": "新品/海外上市",
-          "dynamic_summary": "vivo：Vivo X Fold 6 India launch timeline tipped, anticipated to cost more than its predecessor；信号落在新品/海外上市，对应印度/非洲等海外智能手机市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕vivo的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "C"
-        },
-        {
-          "candidate_id": "W29-C044",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "手机与配件",
-          "tertiary_category": "新品/海外市场",
-          "product_name": "新品/海外市场",
-          "owner": "Huawei",
-          "dynamic_type": "新品/海外市场",
-          "dynamic_summary": "Huawei：Huawei unveils Pura 80 Pro and Ultra refurbished models；信号落在新品/海外市场，对应全球智能终端市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕Huawei的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "A"
-        },
-        {
-          "candidate_id": "W29-C045",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "手机与配件",
-          "tertiary_category": "新品/海外上市",
-          "product_name": "新品/海外上市",
-          "owner": "vivo",
-          "dynamic_type": "新品/海外上市",
-          "dynamic_summary": "vivo：Vivo's ultra-premium foldable is one step closer to a global launch；信号落在新品/海外上市，对应印度/非洲等海外智能手机市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕vivo的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "B"
-        },
-        {
-          "candidate_id": "W29-C046",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "手机与配件",
-          "tertiary_category": "新品/海外上市",
-          "product_name": "新品/海外上市",
-          "owner": "vivo",
-          "dynamic_type": "新品/海外上市",
-          "dynamic_summary": "vivo：Vivo V80 Specs, Launch Date and Price Leaked；信号落在新品/海外上市，对应印度/非洲等海外智能手机市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕vivo的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "C"
-        },
-        {
-          "candidate_id": "W29-C047",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "手机与配件",
-          "tertiary_category": "新品/海外市场",
-          "product_name": "新品/海外市场",
-          "owner": "Huawei",
-          "dynamic_type": "新品/海外市场",
-          "dynamic_summary": "Huawei：EthSwitch explores Huawei partnership on AI and China payment connectivity；信号落在新品/海外市场，对应全球智能终端市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕Huawei的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
+          "tertiary_category": "游戏手机",
+          "product_name": "nubia Neo 5 GT Special Edition",
+          "owner": "nubia",
+          "dynamic_type": "新品发布/海外推广",
+          "dynamic_summary": "nubia：发布Neo 5 GT特别版，以液冷与风冷双主动散热切入年轻游戏用户；信号落在游戏手机新品种草和性能内容传播。",
+          "suggested_focus": "可围绕散热和游戏性能，询问海外科技/游戏达人首测、挑战内容和区域上市投放需求。",
           "source_grade": "B"
         }
       ],
       "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
       "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
       "coverage_status": "周度线索覆盖",
-      "industry_conclusion": "Consumer Tech/手机与配件本周有15条可复核客户动态，适合先进入销售扫描池。",
+      "industry_conclusion": "Consumer Tech/手机与配件本周有6条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
         "title": "Consumer Tech/手机与配件：W29周度信号",
-        "metric_line": "15条线索 / Top主体：Honor",
-        "signal_line": "Honor：Honor's next gaming phone could launch in October with a 10,000mAh battery；信号落在新品/产品预热，对应全球智能手机市场。；Huawei：Huawei making real 5G comeback in global market with Pura 90s；信号落在新品/海外市场，对应全球智能终端市场。",
+        "metric_line": "6条线索 / Top主体：Honor",
+        "signal_line": "Honor：Honor's next gaming phone could launch in October with a 10,000mAh battery；信号落在新品/产品预热，对应全球智能手机市场。；Huawei：本周聚合5项动态——1) Huawei making real 5G comeback in global market with Pura 90s；2) Huawei rumored to launch new Enjoy phones next month；3) New HUAWEI MatePad Air and Free Clip 2 S Set to Launch with Pura 90s Series；4) Huawei unveils Pura 80 Pro and Ultra refurbished models；5) EthSwitch explores Huawei partnership on AI and China payment connectivity；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
-      "this_week_lead_count": 15
+      "this_week_lead_count": 6
     },
     {
       "source_lead_industry_key": "Consumer Tech|汽车电子",
@@ -567,15 +490,15 @@
         "top_cn_player": "BYD"
       },
       "current_stage": "周度线索扫描",
-      "main_variable": "汽车电子本周变量来自14条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_variable": "汽车电子本周变量来自8条客户动态，优先用于售前名单筛选和触达优先级判断。",
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "BYD：BYD unveils its first ever car built for global markets and it's a low cost 'game-changing' PHEV with impressive range；信号落在新品/海外展示，对应全球新能源汽车市场。",
-        "BYD：BYD showcases three-brand lineup at Goodwood as DENZA Z makes global debut；信号落在新品/海外展示，对应全球新能源汽车市场。",
+        "BYD：本周聚合3项动态——1) BYD unveils its first ever car built for global markets and it's a low cost 'game-changing' PHEV with impressive range；2) BYD showcases three-brand lineup at Goodwood as DENZA Z makes global debut；3) BYD wins 11.3 GWh battery deal for world’s largest solar+storage；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
         "Chery：Chery Patents Reveal A Compact Pickup That Could Take The Ford Maverick Formula Global；信号落在新品/车型扩展，对应全球新能源汽车市场。",
         "GAC Group：GAC Group to Celebrate 30 Million Global Users on July 16；信号落在用户里程碑/品牌活动，对应全球新能源汽车市场。",
-        "Xiaomi：European Union Eases Cross-Border Work Rules as Xiaomi Unveils Car-Office Hybrid - ad-hoc-news.de；信号落在新品/产品发布，对应全球智能汽车与消费电子市场。"
+        "Xiaomi：本周聚合6项动态——1) European Union Eases Cross-Border Work Rules as Xiaomi Unveils Car-Office Hybrid - ad-hoc-news.de；2) Xiaomi SkyNomad N90 Revealed Ahead of Official Launch；3) Xiaomi unveils EV SkyNomad Reconfigurable SUV；4) Lei Jun Unveils Xiaomi SkyNomad: Targeting the Billion-Dollar EREV Market, Can It Tap Into Middle-Aged Buyer Growth?；5) Xiaomi unveils SkyNomad N90, its first smart SUV with flexible interior space；6) Xiaomi unveils REDMI Note 17 with largest OLED display and huge battery for gamers；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
+        "GAC-Huawei / Aistaland：GAC-Huawei brand Aistaland files second model GX7 as brand expands beyond GT7；信号落在新品/车型扩展，对应智能汽车海外关注市场。"
       ],
       "verification_metrics": [
         "Amazon排名变化",
@@ -594,15 +517,15 @@
           "grade": "B"
         },
         {
-          "brand": "BYD",
-          "grade": "B"
-        },
-        {
           "brand": "Chery",
           "grade": "B"
         },
         {
           "brand": "GAC Group",
+          "grade": "B"
+        },
+        {
+          "brand": "Xiaomi",
           "grade": "B"
         }
       ],
@@ -616,25 +539,12 @@
           "product_name": "新品/海外展示",
           "owner": "BYD",
           "dynamic_type": "新品/海外展示",
-          "dynamic_summary": "BYD：BYD unveils its first ever car built for global markets and it's a low cost 'game-changing' PHEV with impressive range；信号落在新品/海外展示，对应全球新能源汽车市场。",
+          "dynamic_summary": "BYD：本周聚合3项动态——1) BYD unveils its first ever car built for global markets and it's a low cost 'game-changing' PHEV with impressive range；2) BYD showcases three-brand lineup at Goodwood as DENZA Z makes global debut；3) BYD wins 11.3 GWh battery deal for world’s largest solar+storage；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
           "suggested_focus": "可作为存量建联钩子：围绕BYD的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
           "source_grade": "B"
         },
         {
           "candidate_id": "W29-C003",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "汽车电子",
-          "tertiary_category": "新品/海外展示",
-          "product_name": "新品/海外展示",
-          "owner": "BYD",
-          "dynamic_type": "新品/海外展示",
-          "dynamic_summary": "BYD：BYD showcases three-brand lineup at Goodwood as DENZA Z makes global debut；信号落在新品/海外展示，对应全球新能源汽车市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕BYD的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "B"
-        },
-        {
-          "candidate_id": "W29-C004",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "汽车电子",
@@ -647,7 +557,7 @@
           "source_grade": "B"
         },
         {
-          "candidate_id": "W29-C005",
+          "candidate_id": "W29-C004",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "汽车电子",
@@ -660,7 +570,7 @@
           "source_grade": "B"
         },
         {
-          "candidate_id": "W29-C010",
+          "candidate_id": "W29-C009",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "汽车电子",
@@ -668,12 +578,12 @@
           "product_name": "新品/产品发布",
           "owner": "Xiaomi",
           "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "Xiaomi：European Union Eases Cross-Border Work Rules as Xiaomi Unveils Car-Office Hybrid - ad-hoc-news.de；信号落在新品/产品发布，对应全球智能汽车与消费电子市场。",
+          "dynamic_summary": "Xiaomi：本周聚合6项动态——1) European Union Eases Cross-Border Work Rules as Xiaomi Unveils Car-Office Hybrid - ad-hoc-news.de；2) Xiaomi SkyNomad N90 Revealed Ahead of Official Launch；3) Xiaomi unveils EV SkyNomad Reconfigurable SUV；4) Lei Jun Unveils Xiaomi SkyNomad: Targeting the Billion-Dollar EREV Market, Can It Tap Into Middle-Aged Buyer Growth?；5) Xiaomi unveils SkyNomad N90, its first smart SUV with flexible interior space；6) Xiaomi unveils REDMI Note 17 with largest OLED display and huge battery for gamers；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
           "suggested_focus": "可作为存量建联钩子：围绕Xiaomi的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
           "source_grade": "B"
         },
         {
-          "candidate_id": "W29-C011",
+          "candidate_id": "W29-C010",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "汽车电子",
@@ -686,7 +596,7 @@
           "source_grade": "A"
         },
         {
-          "candidate_id": "W29-C013",
+          "candidate_id": "W29-C012",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "汽车电子",
@@ -699,85 +609,7 @@
           "source_grade": "A"
         },
         {
-          "candidate_id": "W29-C015",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "汽车电子",
-          "tertiary_category": "新品/产品发布",
-          "product_name": "新品/产品发布",
-          "owner": "Xiaomi",
-          "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "Xiaomi：Xiaomi SkyNomad N90 Revealed Ahead of Official Launch；信号落在新品/产品发布，对应全球智能汽车与消费电子市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕Xiaomi的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "B"
-        },
-        {
-          "candidate_id": "W29-C016",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "汽车电子",
-          "tertiary_category": "新品/产品发布",
-          "product_name": "新品/产品发布",
-          "owner": "Xiaomi",
-          "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "Xiaomi：Xiaomi unveils EV SkyNomad Reconfigurable SUV；信号落在新品/产品发布，对应全球智能汽车与消费电子市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕Xiaomi的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "B"
-        },
-        {
-          "candidate_id": "W29-C023",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "汽车电子",
-          "tertiary_category": "新品/海外展示",
-          "product_name": "新品/海外展示",
-          "owner": "BYD",
-          "dynamic_type": "新品/海外展示",
-          "dynamic_summary": "BYD：BYD wins 11.3 GWh battery deal for world’s largest solar+storage；信号落在新品/海外展示，对应全球新能源汽车市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕BYD的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "B"
-        },
-        {
-          "candidate_id": "W29-C033",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "汽车电子",
-          "tertiary_category": "新品/产品发布",
-          "product_name": "新品/产品发布",
-          "owner": "Xiaomi",
-          "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "Xiaomi：Lei Jun Unveils Xiaomi SkyNomad: Targeting the Billion-Dollar EREV Market, Can It Tap Into Middle-Aged Buyer Growth?；信号落在新品/产品发布，对应全球智能汽车与消费电子市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕Xiaomi的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "B"
-        },
-        {
-          "candidate_id": "W29-C034",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "汽车电子",
-          "tertiary_category": "新品/产品发布",
-          "product_name": "新品/产品发布",
-          "owner": "Xiaomi",
-          "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "Xiaomi：Xiaomi unveils SkyNomad N90, its first smart SUV with flexible interior space；信号落在新品/产品发布，对应全球智能汽车与消费电子市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕Xiaomi的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "B"
-        },
-        {
-          "candidate_id": "W29-C036",
-          "lead_category": "EC",
-          "primary_industry": "Consumer Tech",
-          "secondary_industry": "汽车电子",
-          "tertiary_category": "新品/产品发布",
-          "product_name": "新品/产品发布",
-          "owner": "Xiaomi",
-          "dynamic_type": "新品/产品发布",
-          "dynamic_summary": "Xiaomi：Xiaomi unveils REDMI Note 17 with largest OLED display and huge battery for gamers；信号落在新品/产品发布，对应全球智能汽车与消费电子市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕Xiaomi的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
-          "source_grade": "B"
-        },
-        {
-          "candidate_id": "W29-C049",
+          "candidate_id": "W29-C022",
           "lead_category": "EC",
           "primary_industry": "Consumer Tech",
           "secondary_industry": "汽车电子",
@@ -788,19 +620,113 @@
           "dynamic_summary": "XPeng：Autoliv and XPENG Partner to Advance Safer Mobility Worldwide；信号落在智能驾驶/产品扩张，对应全球智能汽车市场。",
           "suggested_focus": "可作为存量建联钩子：围绕XPeng的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
           "source_grade": "B"
+        },
+        {
+          "candidate_id": "W29-C037",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "汽车电子",
+          "tertiary_category": "智能新能源汽车",
+          "product_name": "B01 / B10",
+          "owner": "Leapmotor",
+          "dynamic_type": "新品更新/产品攻势",
+          "dynamic_summary": "Leapmotor：宣布7月16日发布更新版B01与B10，延续密集产品攻势；信号落在智能汽车新品内容和海外车型认知建设。",
+          "suggested_focus": "可围绕B系列更新，询问海外汽车达人试驾、车型对比和欧洲渠道上市内容需求。",
+          "source_grade": "B"
         }
       ],
       "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
       "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
       "coverage_status": "周度线索覆盖",
-      "industry_conclusion": "Consumer Tech/汽车电子本周有14条可复核客户动态，适合先进入销售扫描池。",
+      "industry_conclusion": "Consumer Tech/汽车电子本周有8条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
         "title": "Consumer Tech/汽车电子：W29周度信号",
-        "metric_line": "14条线索 / Top主体：BYD",
-        "signal_line": "BYD：BYD unveils its first ever car built for global markets and it's a low cost 'game-changing' PHEV with impressive range；信号落在新品/海外展示，对应全球新能源汽车市场。；BYD：BYD showcases three-brand lineup at Goodwood as DENZA Z makes global debut；信号落在新品/海外展示，对应全球新能源汽车市场。",
+        "metric_line": "8条线索 / Top主体：BYD",
+        "signal_line": "BYD：本周聚合3项动态——1) BYD unveils its first ever car built for global markets and it's a low cost 'game-changing' PHEV with impressive range；2) BYD showcases three-brand lineup at Goodwood as DENZA Z makes global debut；3) BYD wins 11.3 GWh battery deal for world’s largest solar+storage；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。；Chery：Chery Patents Reveal A Compact Pickup That Could Take The Ford Maverick Formula Global；信号落在新品/车型扩展，对应全球新能源汽车市场。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
-      "this_week_lead_count": 14
+      "this_week_lead_count": 8
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|清洁电器",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "清洁电器",
+      "mapped_research_industry": "清洁电器",
+      "industry_key": "Consumer Tech|清洁电器",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "Tineco"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "清洁电器本周变量来自2条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Tineco：围绕家具底部清洁痛点发布产品教育内容，强化智能清洁设备的场景价值；信号落在需求教育和家居达人内容种草。",
+        "Dreame Technology：在印度扩展智能生活产品组合并推出更具价格竞争力的新品；信号落在印度市场新品教育和电商渠道增长。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Tineco",
+          "grade": "B"
+        },
+        {
+          "brand": "Dreame Technology",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W29-C034",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "清洁电器",
+          "tertiary_category": "洗地机/吸尘器",
+          "product_name": "Tineco cleaning portfolio",
+          "owner": "Tineco",
+          "dynamic_type": "场景传播/产品教育",
+          "dynamic_summary": "Tineco：围绕家具底部清洁痛点发布产品教育内容，强化智能清洁设备的场景价值；信号落在需求教育和家居达人内容种草。",
+          "suggested_focus": "可围绕真实家庭清洁痛点，询问海外家居达人演示、UGC挑战和电商转化内容需求。",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W29-C045",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "清洁电器",
+          "tertiary_category": "智能清洁",
+          "product_name": "India smart living portfolio",
+          "owner": "Dreame Technology",
+          "dynamic_type": "海外新品/区域扩张",
+          "dynamic_summary": "Dreame Technology：在印度扩展智能生活产品组合并推出更具价格竞争力的新品；信号落在印度市场新品教育和电商渠道增长。",
+          "suggested_focus": "可围绕印度新品，询问当地家居/科技达人、测评对比、节庆电商和零售渠道内容需求。",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
+      "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "Consumer Tech/清洁电器本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/清洁电器：W29周度信号",
+        "metric_line": "2条线索 / Top主体：Tineco",
+        "signal_line": "Tineco：围绕家具底部清洁痛点发布产品教育内容，强化智能清洁设备的场景价值；信号落在需求教育和家居达人内容种草。；Dreame Technology：在印度扩展智能生活产品组合并推出更具价格竞争力的新品；信号落在印度市场新品教育和电商渠道增长。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 2
     },
     {
       "source_lead_industry_key": "Consumer Tech|电视与视频显示",
@@ -815,11 +741,14 @@
         "top_cn_player": "TCL"
       },
       "current_stage": "周度线索扫描",
-      "main_variable": "电视与视频显示本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_variable": "电视与视频显示本周变量来自4条客户动态，优先用于售前名单筛选和触达优先级判断。",
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "TCL：TCL and Robinsons Appliances team up to launch ‘TCL Home Court’；信号落在渠道/零售合作，对应海外家电/电视渠道。"
+        "TCL：TCL and Robinsons Appliances team up to launch ‘TCL Home Court’；信号落在渠道/零售合作，对应海外家电/电视渠道。",
+        "Hisense：以FIFA World Cup 2026官方赞助身份推广高端显示产品和沉浸式观赛体验；信号落在全球体育营销和大屏换新场景。",
+        "Unilumin：获得EcoVadis银牌并进入全球受评企业前6%，强化国际客户对其可持续能力的认知；信号落在B2B品牌信任和全球项目竞争力。",
+        "JMGO：围绕获奖4K投影产品启动全球限时促销并覆盖7月消费节点；信号落在家庭影院达人测评和电商大促转化。"
       ],
       "verification_metrics": [
         "Amazon排名变化",
@@ -836,6 +765,18 @@
         {
           "brand": "TCL",
           "grade": "B"
+        },
+        {
+          "brand": "Hisense",
+          "grade": "B"
+        },
+        {
+          "brand": "Unilumin",
+          "grade": "B"
+        },
+        {
+          "brand": "JMGO",
+          "grade": "B"
         }
       ],
       "this_week_leads": [
@@ -851,16 +792,244 @@
           "dynamic_summary": "TCL：TCL and Robinsons Appliances team up to launch ‘TCL Home Court’；信号落在渠道/零售合作，对应海外家电/电视渠道。",
           "suggested_focus": "可作为存量建联钩子：围绕TCL的新品/硬件生态节点，询问海外首发市场素材、测评/KOL、渠道投放和本地化内容需求。",
           "source_grade": "B"
+        },
+        {
+          "candidate_id": "W29-C039",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电视与视频显示",
+          "tertiary_category": "赛事显示设备",
+          "product_name": "FIFA World Cup 2026 display portfolio",
+          "owner": "Hisense",
+          "dynamic_type": "赛事营销/产品推广",
+          "dynamic_summary": "Hisense：以FIFA World Cup 2026官方赞助身份推广高端显示产品和沉浸式观赛体验；信号落在全球体育营销和大屏换新场景。",
+          "suggested_focus": "可围绕世界杯观赛，询问海外体育/家居达人、赛时内容、零售联动和本地投放需求。",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W29-C041",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电视与视频显示",
+          "tertiary_category": "LED显示",
+          "product_name": "LED display solutions",
+          "owner": "Unilumin",
+          "dynamic_type": "国际认证/品牌信任",
+          "dynamic_summary": "Unilumin：获得EcoVadis银牌并进入全球受评企业前6%，强化国际客户对其可持续能力的认知；信号落在B2B品牌信任和全球项目竞争力。",
+          "suggested_focus": "可围绕国际可持续认证，询问海外案例内容、行业媒体、展会传播和雇主品牌需求。",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W29-C044",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电视与视频显示",
+          "tertiary_category": "智能投影",
+          "product_name": "JMGO 4K projector portfolio",
+          "owner": "JMGO",
+          "dynamic_type": "海外促销/电商转化",
+          "dynamic_summary": "JMGO：围绕获奖4K投影产品启动全球限时促销并覆盖7月消费节点；信号落在家庭影院达人测评和电商大促转化。",
+          "suggested_focus": "可围绕4K观影与大促，询问海外科技/家居达人测评、对比内容和站内外协同投放需求。",
+          "source_grade": "B"
         }
       ],
       "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
       "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
       "coverage_status": "周度线索覆盖",
-      "industry_conclusion": "Consumer Tech/电视与视频显示本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "industry_conclusion": "Consumer Tech/电视与视频显示本周有4条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
         "title": "Consumer Tech/电视与视频显示：W29周度信号",
-        "metric_line": "1条线索 / Top主体：TCL",
-        "signal_line": "TCL：TCL and Robinsons Appliances team up to launch ‘TCL Home Court’；信号落在渠道/零售合作，对应海外家电/电视渠道。",
+        "metric_line": "4条线索 / Top主体：TCL",
+        "signal_line": "TCL：TCL and Robinsons Appliances team up to launch ‘TCL Home Court’；信号落在渠道/零售合作，对应海外家电/电视渠道。；Hisense：以FIFA World Cup 2026官方赞助身份推广高端显示产品和沉浸式观赛体验；信号落在全球体育营销和大屏换新场景。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 4
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|视频游戏机与配件",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "视频游戏机与配件",
+      "mapped_research_industry": "视频游戏机与配件",
+      "industry_key": "Consumer Tech|视频游戏机与配件",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "Skyworth / Youdoo"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "视频游戏机与配件本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Skyworth / Youdoo：宣布联合推出AI体感视频游戏机，将电视硬件、家庭娱乐与AI交互结合；信号落在新品种草和家庭场景内容营销。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Skyworth / Youdoo",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W29-C026",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "视频游戏机与配件",
+          "tertiary_category": "AI体感游戏机",
+          "product_name": "AI motion-sensing console",
+          "owner": "Skyworth / Youdoo",
+          "dynamic_type": "新品发布/生态合作",
+          "dynamic_summary": "Skyworth / Youdoo：宣布联合推出AI体感视频游戏机，将电视硬件、家庭娱乐与AI交互结合；信号落在新品种草和家庭场景内容营销。",
+          "suggested_focus": "可围绕AI体感玩法，询问海外家庭/游戏达人测评、挑战赛内容和零售渠道联合推广需求。",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
+      "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "Consumer Tech/视频游戏机与配件本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/视频游戏机与配件：W29周度信号",
+        "metric_line": "1条线索 / Top主体：Skyworth / Youdoo",
+        "signal_line": "Skyworth / Youdoo：宣布联合推出AI体感视频游戏机，将电视硬件、家庭娱乐与AI交互结合；信号落在新品种草和家庭场景内容营销。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|计算机配件与外设",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "计算机配件与外设",
+      "mapped_research_industry": "计算机配件与外设",
+      "industry_key": "Consumer Tech|计算机配件与外设",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "Baseus"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "计算机配件与外设本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Baseus：推出PicoGo Air轻薄充电新品，继续扩展PicoGo系列；信号落在高频消费电子配件的海外测评与电商转化。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Baseus",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W29-C033",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "计算机配件与外设",
+          "tertiary_category": "充电配件",
+          "product_name": "Baseus PicoGo Air",
+          "owner": "Baseus",
+          "dynamic_type": "新品发布/产品扩张",
+          "dynamic_summary": "Baseus：推出PicoGo Air轻薄充电新品，继续扩展PicoGo系列；信号落在高频消费电子配件的海外测评与电商转化。",
+          "suggested_focus": "可围绕轻薄与便携卖点，询问海外科技达人测评、短视频对比和电商节点投放需求。",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
+      "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "Consumer Tech/计算机配件与外设本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/计算机配件与外设：W29周度信号",
+        "metric_line": "1条线索 / Top主体：Baseus",
+        "signal_line": "Baseus：推出PicoGo Air轻薄充电新品，继续扩展PicoGo系列；信号落在高频消费电子配件的海外测评与电商转化。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "FMCG|饮料",
+      "primary_industry": "FMCG",
+      "secondary_industry": "饮料",
+      "mapped_research_industry": "饮料",
+      "industry_key": "FMCG|饮料",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "iTeaworld"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "饮料本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "iTeaworld：面向全球消费者推出乌龙茶风味路线和品鉴组合，降低中国茶的认知门槛；信号落在文化内容、本地化教育和跨境电商转化。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "iTeaworld",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W29-C040",
+          "lead_category": "EC",
+          "primary_industry": "FMCG",
+          "secondary_industry": "饮料",
+          "tertiary_category": "中国茶",
+          "product_name": "Oolong Tea Flavor Roadmap",
+          "owner": "iTeaworld",
+          "dynamic_type": "产品教育/全球营销",
+          "dynamic_summary": "iTeaworld：面向全球消费者推出乌龙茶风味路线和品鉴组合，降低中国茶的认知门槛；信号落在文化内容、本地化教育和跨境电商转化。",
+          "suggested_focus": "可围绕茶味导航，询问海外美食/生活方式达人、品鉴内容和Amazon独立站转化需求。",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
+      "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "FMCG/饮料本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "FMCG/饮料：W29周度信号",
+        "metric_line": "1条线索 / Top主体：iTeaworld",
+        "signal_line": "iTeaworld：面向全球消费者推出乌龙茶风味路线和品鉴组合，降低中国茶的认知门槛；信号落在文化内容、本地化教育和跨境电商转化。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
       "this_week_lead_count": 1
@@ -878,13 +1047,11 @@
         "top_cn_player": "SHEIN"
       },
       "current_stage": "周度线索扫描",
-      "main_variable": "女装本周变量来自3条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_variable": "女装本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "SHEIN：Shein finally wins China's approval for Hong Kong IPO, in third attempt to go public；信号落在平台/资本动作，对应全球快时尚与平台商家生态。",
-        "SHEIN：Shein gets green light for long-awaited IPO；信号落在平台/资本动作，对应全球快时尚与平台商家生态。",
-        "SHEIN：China clears Shein for Hong Kong IPO after failed U.S. and London bids；信号落在平台/资本动作，对应全球快时尚与平台商家生态。"
+        "SHEIN：本周聚合3项动态——1) Shein finally wins China's approval for Hong Kong IPO, in third attempt to go public；2) Shein gets green light for long-awaited IPO；3) China clears Shein for Hong Kong IPO after failed U.S. and London bids；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。"
       ],
       "verification_metrics": [
         "卖家参与数",
@@ -901,19 +1068,11 @@
         {
           "brand": "SHEIN",
           "grade": "A"
-        },
-        {
-          "brand": "SHEIN",
-          "grade": "B"
-        },
-        {
-          "brand": "SHEIN",
-          "grade": "B"
         }
       ],
       "this_week_leads": [
         {
-          "candidate_id": "W29-C020",
+          "candidate_id": "W29-C016",
           "lead_category": "EC",
           "primary_industry": "Fashion",
           "secondary_industry": "女装",
@@ -921,48 +1080,22 @@
           "product_name": "平台/资本动作",
           "owner": "SHEIN",
           "dynamic_type": "平台/资本动作",
-          "dynamic_summary": "SHEIN：Shein finally wins China's approval for Hong Kong IPO, in third attempt to go public；信号落在平台/资本动作，对应全球快时尚与平台商家生态。",
+          "dynamic_summary": "SHEIN：本周聚合3项动态——1) Shein finally wins China's approval for Hong Kong IPO, in third attempt to go public；2) Shein gets green light for long-awaited IPO；3) China clears Shein for Hong Kong IPO after failed U.S. and London bids；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
           "suggested_focus": "可作为存量建联钩子：围绕SHEIN的上市、平台招商或品牌节点，询问红人种草、内容矩阵和平台代运营需求。",
           "source_grade": "A"
-        },
-        {
-          "candidate_id": "W29-C022",
-          "lead_category": "EC",
-          "primary_industry": "Fashion",
-          "secondary_industry": "女装",
-          "tertiary_category": "平台/资本动作",
-          "product_name": "平台/资本动作",
-          "owner": "SHEIN",
-          "dynamic_type": "平台/资本动作",
-          "dynamic_summary": "SHEIN：Shein gets green light for long-awaited IPO；信号落在平台/资本动作，对应全球快时尚与平台商家生态。",
-          "suggested_focus": "可作为存量建联钩子：围绕SHEIN的上市、平台招商或品牌节点，询问红人种草、内容矩阵和平台代运营需求。",
-          "source_grade": "B"
-        },
-        {
-          "candidate_id": "W29-C026",
-          "lead_category": "EC",
-          "primary_industry": "Fashion",
-          "secondary_industry": "女装",
-          "tertiary_category": "平台/资本动作",
-          "product_name": "平台/资本动作",
-          "owner": "SHEIN",
-          "dynamic_type": "平台/资本动作",
-          "dynamic_summary": "SHEIN：China clears Shein for Hong Kong IPO after failed U.S. and London bids；信号落在平台/资本动作，对应全球快时尚与平台商家生态。",
-          "suggested_focus": "可作为存量建联钩子：围绕SHEIN的上市、平台招商或品牌节点，询问红人种草、内容矩阵和平台代运营需求。",
-          "source_grade": "B"
         }
       ],
       "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
       "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
       "coverage_status": "周度线索覆盖",
-      "industry_conclusion": "Fashion/女装本周有3条可复核客户动态，适合先进入销售扫描池。",
+      "industry_conclusion": "Fashion/女装本周有1条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
         "title": "Fashion/女装：W29周度信号",
-        "metric_line": "3条线索 / Top主体：SHEIN",
-        "signal_line": "SHEIN：Shein finally wins China's approval for Hong Kong IPO, in third attempt to go public；信号落在平台/资本动作，对应全球快时尚与平台商家生态。；SHEIN：Shein gets green light for long-awaited IPO；信号落在平台/资本动作，对应全球快时尚与平台商家生态。",
+        "metric_line": "1条线索 / Top主体：SHEIN",
+        "signal_line": "SHEIN：本周聚合3项动态——1) Shein finally wins China's approval for Hong Kong IPO, in third attempt to go public；2) Shein gets green light for long-awaited IPO；3) China clears Shein for Hong Kong IPO after failed U.S. and London bids；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
-      "this_week_lead_count": 3
+      "this_week_lead_count": 1
     },
     {
       "source_lead_industry_key": "Fintech|-",
@@ -977,11 +1110,12 @@
         "top_cn_player": "LianLian DigiTech"
       },
       "current_stage": "周度线索扫描",
-      "main_variable": "-本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_variable": "-本周变量来自2条客户动态，优先用于售前名单筛选和触达优先级判断。",
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "LianLian DigiTech：Lianlian DigiTech Wins \"Best in Fintech Innovation Award\" at HKMA/HKT Global Innovation Awards；信号落在奖项/品牌信任，对应跨境支付与香港金融科技市场。"
+        "LianLian DigiTech：Lianlian DigiTech Wins \"Best in Fintech Innovation Award\" at HKMA/HKT Global Innovation Awards；信号落在奖项/品牌信任，对应跨境支付与香港金融科技市场。",
+        "Waton Financial：推出AI投资平台MoTA Alpha重大升级，强化自动化研究和交易辅助能力；信号落在金融科技产品教育与高信任获客。"
       ],
       "verification_metrics": [
         "覆盖商户数",
@@ -998,11 +1132,15 @@
         {
           "brand": "LianLian DigiTech",
           "grade": "B"
+        },
+        {
+          "brand": "Waton Financial",
+          "grade": "B"
         }
       ],
       "this_week_leads": [
         {
-          "candidate_id": "W29-C017",
+          "candidate_id": "W29-C013",
           "lead_category": "AG",
           "primary_industry": "Fintech",
           "secondary_industry": "-",
@@ -1013,19 +1151,32 @@
           "dynamic_summary": "LianLian DigiTech：Lianlian DigiTech Wins \"Best in Fintech Innovation Award\" at HKMA/HKT Global Innovation Awards；信号落在奖项/品牌信任，对应跨境支付与香港金融科技市场。",
           "suggested_focus": "可作为存量建联钩子：围绕LianLian DigiTech的支付、牌照或合作进展，询问当地商户教育、B2B获客和合规市场传播需求。",
           "source_grade": "B"
+        },
+        {
+          "candidate_id": "W29-C048",
+          "lead_category": "AG",
+          "primary_industry": "Fintech",
+          "secondary_industry": "-",
+          "tertiary_category": "AI投资平台",
+          "product_name": "MoTA Alpha",
+          "owner": "Waton Financial",
+          "dynamic_type": "产品发布/AI升级",
+          "dynamic_summary": "Waton Financial：推出AI投资平台MoTA Alpha重大升级，强化自动化研究和交易辅助能力；信号落在金融科技产品教育与高信任获客。",
+          "suggested_focus": "可围绕AI投资产品，询问海外财经KOL、产品演示、合规内容和高净值用户教育需求。",
+          "source_grade": "B"
         }
       ],
       "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
       "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
       "coverage_status": "周度线索覆盖",
-      "industry_conclusion": "Fintech/-本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "industry_conclusion": "Fintech/-本周有2条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
         "title": "Fintech/-：W29周度信号",
-        "metric_line": "1条线索 / Top主体：LianLian DigiTech",
-        "signal_line": "LianLian DigiTech：Lianlian DigiTech Wins \"Best in Fintech Innovation Award\" at HKMA/HKT Global Innovation Awards；信号落在奖项/品牌信任，对应跨境支付与香港金融科技市场。",
+        "metric_line": "2条线索 / Top主体：LianLian DigiTech",
+        "signal_line": "LianLian DigiTech：Lianlian DigiTech Wins \"Best in Fintech Innovation Award\" at HKMA/HKT Global Innovation Awards；信号落在奖项/品牌信任，对应跨境支付与香港金融科技市场。；Waton Financial：推出AI投资平台MoTA Alpha重大升级，强化自动化研究和交易辅助能力；信号落在金融科技产品教育与高信任获客。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
-      "this_week_lead_count": 1
+      "this_week_lead_count": 2
     },
     {
       "source_lead_industry_key": "Gaming|-",
@@ -1040,12 +1191,13 @@
         "top_cn_player": "Kuro Games / Wuthering Waves"
       },
       "current_stage": "周度线索扫描",
-      "main_variable": "-本周变量来自2条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_variable": "-本周变量来自3条客户动态，优先用于售前名单筛选和触达优先级判断。",
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
         "Kuro Games / Wuthering Waves：Award-Winning Gacha RPG Wuthering Waves Launches Free on Xbox and Game Pass；信号落在产品上线/渠道扩展，对应全球主机与开放世界游戏市场。",
-        "Tencent：Global Market | Tencent explores stake in AI Startup Manus after China challenges Meta deal: Reports；信号落在游戏/AI投资，对应全球游戏与AI应用生态。"
+        "Tencent：Global Market | Tencent explores stake in AI Startup Manus after China challenges Meta deal: Reports；信号落在游戏/AI投资，对应全球游戏与AI应用生态。",
+        "NetEase Games：宣布《Once Human》将于8月25日登陆PS5和Xbox，加入第一人称视角与全平台联机；信号落在主机端全球发行预热。"
       ],
       "verification_metrics": [
         "预约/测试转化",
@@ -1066,11 +1218,15 @@
         {
           "brand": "Tencent",
           "grade": "B"
+        },
+        {
+          "brand": "NetEase Games",
+          "grade": "B"
         }
       ],
       "this_week_leads": [
         {
-          "candidate_id": "W29-C024",
+          "candidate_id": "W29-C018",
           "lead_category": "AG",
           "primary_industry": "Gaming",
           "secondary_industry": "-",
@@ -1083,7 +1239,7 @@
           "source_grade": "B"
         },
         {
-          "candidate_id": "W29-C035",
+          "candidate_id": "W29-C021",
           "lead_category": "AG",
           "primary_industry": "Gaming",
           "secondary_industry": "-",
@@ -1094,19 +1250,230 @@
           "dynamic_summary": "Tencent：Global Market | Tencent explores stake in AI Startup Manus after China challenges Meta deal: Reports；信号落在游戏/AI投资，对应全球游戏与AI应用生态。",
           "suggested_focus": "可作为存量建联钩子：围绕Tencent的上线、版本或赛事窗口，询问预热素材、社区运营、达人扩散和买量节奏。",
           "source_grade": "B"
+        },
+        {
+          "candidate_id": "W29-C046",
+          "lead_category": "AG",
+          "primary_industry": "Gaming",
+          "secondary_industry": "-",
+          "tertiary_category": "全球游戏发行",
+          "product_name": "Once Human",
+          "owner": "NetEase Games",
+          "dynamic_type": "全球发行/平台扩展",
+          "dynamic_summary": "NetEase Games：宣布《Once Human》将于8月25日登陆PS5和Xbox，加入第一人称视角与全平台联机；信号落在主机端全球发行预热。",
+          "suggested_focus": "可围绕主机版上线，询问海外游戏创作者试玩、直播、社区运营和上市期投放需求。",
+          "source_grade": "B"
         }
       ],
       "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
       "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
       "coverage_status": "周度线索覆盖",
-      "industry_conclusion": "Gaming/-本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "industry_conclusion": "Gaming/-本周有3条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
         "title": "Gaming/-：W29周度信号",
-        "metric_line": "2条线索 / Top主体：Kuro Games / Wuthering Waves",
+        "metric_line": "3条线索 / Top主体：Kuro Games / Wuthering Waves",
         "signal_line": "Kuro Games / Wuthering Waves：Award-Winning Gacha RPG Wuthering Waves Launches Free on Xbox and Game Pass；信号落在产品上线/渠道扩展，对应全球主机与开放世界游戏市场。；Tencent：Global Market | Tencent explores stake in AI Startup Manus after China challenges Meta deal: Reports；信号落在游戏/AI投资，对应全球游戏与AI应用生态。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
+      "this_week_lead_count": 3
+    },
+    {
+      "source_lead_industry_key": "Lifestyle|玩具",
+      "primary_industry": "Lifestyle",
+      "secondary_industry": "玩具",
+      "mapped_research_industry": "玩具",
+      "industry_key": "Lifestyle|玩具",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "OlloBot"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "玩具本周变量来自2条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "OlloBot：发布OlloNi SS1新形象，并宣布7月在休斯敦快闪推出Ollo-Family盲盒；信号落在AI陪伴产品与潮玩IP的线下引爆。",
+        "POP MART：加拿大已签约或确定10个门店租约，并宣布7月25日开设冲绳首店；信号落在全球零售扩张、IP热度和本地社群运营。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "OlloBot",
+          "grade": "B"
+        },
+        {
+          "brand": "POP MART",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W29-C035",
+          "lead_category": "EC",
+          "primary_industry": "Lifestyle",
+          "secondary_industry": "玩具",
+          "tertiary_category": "AI陪伴玩具",
+          "product_name": "OlloNi SS1 / Ollo-Family",
+          "owner": "OlloBot",
+          "dynamic_type": "海外快闪/新品预热",
+          "dynamic_summary": "OlloBot：发布OlloNi SS1新形象，并宣布7月在休斯敦快闪推出Ollo-Family盲盒；信号落在AI陪伴产品与潮玩IP的线下引爆。",
+          "suggested_focus": "可围绕休斯敦快闪，询问本地亲子/潮玩达人、开箱内容和社区活动传播需求。",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W29-C050",
+          "lead_category": "EC",
+          "primary_industry": "Lifestyle",
+          "secondary_industry": "玩具",
+          "tertiary_category": "潮玩/IP",
+          "product_name": "LABUBU / THE MONSTERS",
+          "owner": "POP MART",
+          "dynamic_type": "海外开店/IP扩张",
+          "dynamic_summary": "POP MART：加拿大已签约或确定10个门店租约，并宣布7月25日开设冲绳首店；信号落在全球零售扩张、IP热度和本地社群运营。",
+          "suggested_focus": "可围绕加拿大与日本新店，询问本地潮玩达人、开店探店、IP内容和城市级社区活动需求。",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
+      "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "Lifestyle/玩具本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Lifestyle/玩具：W29周度信号",
+        "metric_line": "2条线索 / Top主体：OlloBot",
+        "signal_line": "OlloBot：发布OlloNi SS1新形象，并宣布7月在休斯敦快闪推出Ollo-Family盲盒；信号落在AI陪伴产品与潮玩IP的线下引爆。；POP MART：加拿大已签约或确定10个门店租约，并宣布7月25日开设冲绳首店；信号落在全球零售扩张、IP热度和本地社群运营。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
       "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "平台|-",
+      "primary_industry": "平台",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "平台|-",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "Chu Hai Bang / Vibeperk"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "-本周变量来自4条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Chu Hai Bang / Vibeperk：深圳跨境科技企业正式上线全球低价购物平台Vibeperk，并以推荐机制和海外运营基础设施拓展全球用户；信号落在跨境平台冷启动与用户增长。",
+        "AMAP：升级World Map服务，将全球POI覆盖扩展至3亿条并加入面向国际企业的多模式导航；信号落在全球产品使用场景与企业客户拓展。",
+        "HanchorBio / InxMed：围绕HCB101开展联合研究，探索肿瘤耐药领域的组合疗法价值；信号落在跨境研发合作与国际学术传播。",
+        "WuXi Biologics：MFG8原液生产设施通过美国FDA批准前检查，推进潜在重磅自身免疫疗法商业供应；信号落在国际合规信任和客户拓展。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Chu Hai Bang / Vibeperk",
+          "grade": "B"
+        },
+        {
+          "brand": "AMAP",
+          "grade": "B"
+        },
+        {
+          "brand": "HanchorBio / InxMed",
+          "grade": "B"
+        },
+        {
+          "brand": "WuXi Biologics",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W29-C023",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "跨境电商平台上线",
+          "product_name": "Vibeperk",
+          "owner": "Chu Hai Bang / Vibeperk",
+          "dynamic_type": "产品上线/全球扩张",
+          "dynamic_summary": "Chu Hai Bang / Vibeperk：深圳跨境科技企业正式上线全球低价购物平台Vibeperk，并以推荐机制和海外运营基础设施拓展全球用户；信号落在跨境平台冷启动与用户增长。",
+          "suggested_focus": "可围绕Vibeperk全球冷启动，询问海外达人测评、联盟分销、拉新素材和首批重点国家投放需求。",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W29-C027",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "全球地图服务",
+          "product_name": "AMAP World Map",
+          "owner": "AMAP",
+          "dynamic_type": "产品升级/全球覆盖",
+          "dynamic_summary": "AMAP：升级World Map服务，将全球POI覆盖扩展至3亿条并加入面向国际企业的多模式导航；信号落在全球产品使用场景与企业客户拓展。",
+          "suggested_focus": "可围绕海外旅行与本地生活场景，询问目的地内容、旅行达人合作和重点国家用户增长需求。",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W29-C029",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "生物医药合作",
+          "product_name": "HCB101 combination research",
+          "owner": "HanchorBio / InxMed",
+          "dynamic_type": "战略合作/研发扩张",
+          "dynamic_summary": "HanchorBio / InxMed：围绕HCB101开展联合研究，探索肿瘤耐药领域的组合疗法价值；信号落在跨境研发合作与国际学术传播。",
+          "suggested_focus": "可围绕联合研究，询问海外学术KOL、产业会议内容、合作伙伴传播和招聘品牌需求。",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W29-C042",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "生物医药CRDMO",
+          "product_name": "MFG8 facility",
+          "owner": "WuXi Biologics",
+          "dynamic_type": "国际认证/商业化",
+          "dynamic_summary": "WuXi Biologics：MFG8原液生产设施通过美国FDA批准前检查，推进潜在重磅自身免疫疗法商业供应；信号落在国际合规信任和客户拓展。",
+          "suggested_focus": "可围绕FDA检查里程碑，询问海外行业媒体、客户案例、会议传播和专业KOL内容需求。",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
+      "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "平台/-本周有4条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "平台/-：W29周度信号",
+        "metric_line": "4条线索 / Top主体：Chu Hai Bang / Vibeperk",
+        "signal_line": "Chu Hai Bang / Vibeperk：深圳跨境科技企业正式上线全球低价购物平台Vibeperk，并以推荐机制和海外运营基础设施拓展全球用户；信号落在跨境平台冷启动与用户增长。；AMAP：升级World Map服务，将全球POI覆盖扩展至3亿条并加入面向国际企业的多模式导航；信号落在全球产品使用场景与企业客户拓展。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 4
     },
     {
       "source_lead_industry_key": "泛娱乐|-",
@@ -1121,12 +1488,13 @@
         "top_cn_player": "iQIYI International"
       },
       "current_stage": "周度线索扫描",
-      "main_variable": "-本周变量来自2条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_variable": "-本周变量来自3条客户动态，优先用于售前名单筛选和触达优先级判断。",
       "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
       "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
       "growth_signals_short": [
-        "iQIYI International：iQIYI International records strong global growth in H1；信号落在内容出海/增长，对应全球中文剧集与微短剧市场。",
-        "iQIYI International：iQIYI International Releases First Half of 2026 Global Trending Content: Chinese Dramas and Micro Dramas Power Dual-Engine Global Growth；信号落在内容出海/增长，对应全球中文剧集与微短剧市场。"
+        "iQIYI International：本周聚合2项动态——1) iQIYI International records strong global growth in H1；2) iQIYI International Releases First Half of 2026 Global Trending Content: Chinese Dramas and Micro Dramas Power Dual-Engine Global Growth；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
+        "Hunan TV：John Legend登上《Singer 2026》演出，以国际艺人合作放大节目跨文化讨论度；信号落在综艺IP海外传播和社交内容扩散。",
+        "Bilibili：7月10日至12日举办Bilibili World 2026，规模扩至七个展馆并汇集国内外动漫游戏IP；信号落在年轻用户、IP合作和线下内容扩散。"
       ],
       "verification_metrics": [
         "官方更新频率",
@@ -1145,13 +1513,17 @@
           "grade": "A"
         },
         {
-          "brand": "iQIYI International",
+          "brand": "Hunan TV",
+          "grade": "B"
+        },
+        {
+          "brand": "Bilibili",
           "grade": "B"
         }
       ],
       "this_week_leads": [
         {
-          "candidate_id": "W29-C031",
+          "candidate_id": "W29-C020",
           "lead_category": "AG",
           "primary_industry": "泛娱乐",
           "secondary_industry": "-",
@@ -1159,7 +1531,7 @@
           "product_name": "内容出海/增长",
           "owner": "iQIYI International",
           "dynamic_type": "内容出海/增长",
-          "dynamic_summary": "iQIYI International：iQIYI International records strong global growth in H1；信号落在内容出海/增长，对应全球中文剧集与微短剧市场。",
+          "dynamic_summary": "iQIYI International：本周聚合2项动态——1) iQIYI International records strong global growth in H1；2) iQIYI International Releases First Half of 2026 Global Trending Content: Chinese Dramas and Micro Dramas Power Dual-Engine Global Growth；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。",
           "suggested_focus": "可作为存量建联钩子：围绕iQIYI International的内容出海/IP增长节点，询问海外发行、社媒内容和粉丝增长需求。",
           "source_grade": "A"
         },
@@ -1168,33 +1540,46 @@
           "lead_category": "AG",
           "primary_industry": "泛娱乐",
           "secondary_industry": "-",
-          "tertiary_category": "内容出海/增长",
-          "product_name": "内容出海/增长",
-          "owner": "iQIYI International",
-          "dynamic_type": "内容出海/增长",
-          "dynamic_summary": "iQIYI International：iQIYI International Releases First Half of 2026 Global Trending Content: Chinese Dramas and Micro Dramas Power Dual-Engine Global Growth；信号落在内容出海/增长，对应全球中文剧集与微短剧市场。",
-          "suggested_focus": "可作为存量建联钩子：围绕iQIYI International的内容出海/IP增长节点，询问海外发行、社媒内容和粉丝增长需求。",
+          "tertiary_category": "音乐综艺",
+          "product_name": "Singer 2026",
+          "owner": "Hunan TV",
+          "dynamic_type": "国际艺人合作/内容传播",
+          "dynamic_summary": "Hunan TV：John Legend登上《Singer 2026》演出，以国际艺人合作放大节目跨文化讨论度；信号落在综艺IP海外传播和社交内容扩散。",
+          "suggested_focus": "可围绕国际艺人节点，询问海外娱乐媒体、粉丝社区、短视频二创和节目国际宣发需求。",
+          "source_grade": "B"
+        },
+        {
+          "candidate_id": "W29-C047",
+          "lead_category": "AG",
+          "primary_industry": "泛娱乐",
+          "secondary_industry": "-",
+          "tertiary_category": "动漫游戏社区",
+          "product_name": "Bilibili World 2026",
+          "owner": "Bilibili",
+          "dynamic_type": "大型活动/IP运营",
+          "dynamic_summary": "Bilibili：7月10日至12日举办Bilibili World 2026，规模扩至七个展馆并汇集国内外动漫游戏IP；信号落在年轻用户、IP合作和线下内容扩散。",
+          "suggested_focus": "可围绕BW现场热度，询问游戏/IP客户的达人探展、二创扩散和海外社区联动需求。",
           "source_grade": "B"
         }
       ],
       "research_source_path": "线索采集正式库 W29 客户动态与信源明细",
       "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W29）.xlsx",
       "coverage_status": "周度线索覆盖",
-      "industry_conclusion": "泛娱乐/-本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "industry_conclusion": "泛娱乐/-本周有3条可复核客户动态，适合先进入销售扫描池。",
       "visual_summary": {
         "title": "泛娱乐/-：W29周度信号",
-        "metric_line": "2条线索 / Top主体：iQIYI International",
-        "signal_line": "iQIYI International：iQIYI International records strong global growth in H1；信号落在内容出海/增长，对应全球中文剧集与微短剧市场。；iQIYI International：iQIYI International Releases First Half of 2026 Global Trending Content: Chinese Dramas and Micro Dramas Power Dual-Engine Global Growth；信号落在内容出海/增长，对应全球中文剧集与微短剧市场。",
+        "metric_line": "3条线索 / Top主体：iQIYI International",
+        "signal_line": "iQIYI International：本周聚合2项动态——1) iQIYI International records strong global growth in H1；2) iQIYI International Releases First Half of 2026 Global Trending Content: Chinese Dramas and Micro Dramas Power Dual-Engine Global Growth；关注原因：同一客户的新品、渠道、融资或市场动作已合并呈现，便于一次性判断建联窗口。；Hunan TV：John Legend登上《Singer 2026》演出，以国际艺人合作放大节目跨文化讨论度；信号落在综艺IP海外传播和社交内容扩散。",
         "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
       },
-      "this_week_lead_count": 2
+      "this_week_lead_count": 3
     }
   ],
   "quality_check": {
     "lead_rows": 50,
-    "industry_group_count": 9,
+    "industry_group_count": 16,
     "covered_industry_count": 0,
-    "desktop_research_count": 9,
+    "desktop_research_count": 16,
     "gap_industry_count": 0,
     "missing_required_fields": [],
     "notes": [
