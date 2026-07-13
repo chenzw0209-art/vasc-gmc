@@ -10,7 +10,7 @@
       window.location.replace("./pages/market/?l1=Gaming");
     }
   </script>
-  <link rel="stylesheet" href="./assets/intelligence_workbench_v1.css?v=20260706-weekly-w28" />
+  <link rel="stylesheet" href="./assets/intelligence_workbench_v1.css?v=20260713-weekly-w29" />
 </head>
 <body class="weekly-page">
   <div class="app-shell weekly-shell">
@@ -30,7 +30,8 @@
             <h1 class="report-title">周报中心</h1>
           </div>
           <select class="week-selector" aria-label="周次">
-            <option value="W28" selected>周次：2026-W28（07.07 - 07.13）</option>
+            <option value="W29" selected>周次：2026-W29（07.14 - 07.20）</option>
+            <option value="W28">周次：2026-W28（07.07 - 07.13）</option>
             <option value="W27">周次：2026-W27（06.30 - 07.06）</option>
             <option value="W26">周次：2026-W26（06.23 - 06.29）</option>
             <option value="W25">周次：2026-W25（06.16 - 06.22）</option>
@@ -40,21 +41,21 @@
 
         <section id="sales-focus"></section>
 
-        <section class="report-row report-row-customer">
-          <article class="data-card customer-table-card">
-            <div class="card-title-row">
-              <h2 class="card-title">本周出海企业动态</h2>
-            </div>
-            <div id="customer-table"></div>
-          </article>
-        </section>
-
         <section class="report-row report-row-events">
           <article class="data-card event-window-card">
             <div class="card-title-row">
               <h2 class="card-title">本周重点关注展会</h2>
             </div>
             <div id="event-windows"></div>
+          </article>
+        </section>
+
+        <section class="report-row report-row-customer">
+          <article class="data-card customer-table-card">
+            <div class="card-title-row">
+              <h2 class="card-title">本周出海企业动态</h2>
+            </div>
+            <div id="customer-table"></div>
           </article>
         </section>
 
@@ -67,7 +68,7 @@
           </article>
         </section>
 
-        <section class="report-row report-row-insight">
+        <section class="report-row report-row-insight" style="display:none">
           <article class="data-card industry-brief-card">
             <div class="card-title-row">
               <h2 id="industry-brief-title" class="card-title">本周关注行业</h2>
@@ -84,6 +85,6 @@
     </main>
   </div>
   <script src="./assets/common.js"></script>
-  <script src="./assets/weekly_report_v1.js?v=20260706-weekly-w28-copyfix2"></script>
+  <script src="./assets/weekly_report_v1.js?v=20260713-weekly-w29"></script>
 </body>
 </html>

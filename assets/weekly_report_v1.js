@@ -4,10 +4,14 @@
     industrySupply: null,
     selected: null,
     marketLoaded: false,
-    activeWeek: "W28",
+    activeWeek: "W29",
   };
   const $ = (selector) => document.querySelector(selector);
   const WEEK_FILES = {
+    W29: {
+      leads: "./data/weekly/weekly_leads_content_2026_W29.json?v=20260713-weekly-w29",
+      industry: "./data/weekly/industry_brief_supply_2026_W29.json?v=20260713-weekly-w29",
+    },
     W28: {
       leads: "./data/weekly/weekly_leads_content_2026_W28.json?v=20260706-weekly-w28-copyfix2",
       industry: "./data/weekly/industry_brief_supply_2026_W28.json?v=20260706-weekly-w28-copyfix2",
