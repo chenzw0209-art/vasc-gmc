@@ -7,10 +7,11 @@ import argparse
 import json
 import re
 from collections import defaultdict
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from openpyxl import load_workbook
+from openpyxl.utils.datetime import from_excel
 
 
 CUSTOMER_MAP = {
@@ -137,6 +138,22 @@ def mmdd(value):
         return datetime.fromisoformat(text).strftime("%m-%d")
     except ValueError:
         return text[:5] if text else ""
+
+
+def parse_sheet_date(value):
+    text = str(value or "").strip()
+    if not text:
+        return None
+    try:
+        return datetime.fromisoformat(text).date()
+    except ValueError:
+        pass
+    if re.fullmatch(r"\d+(\.\d+)?", text):
+        try:
+            return from_excel(float(text)).date()
+        except (TypeError, ValueError):
+            return None
+    return None
 
 
 def parse_iso_dates(text):
@@ -499,7 +516,16 @@ def main():
             f"{args.week}客户动态必须按客户主体唯一；请先聚合同周重复企业：{duplicate_text}"
         )
     sources = [row for row in sources if row.get("week") == args.week]
-    events = [row for row in events if row.get("week") == args.week]
+    generated_day = datetime.strptime(args.generated_at, "%Y-%m-%d").date()
+    future_event_limit = generated_day + timedelta(days=30)
+    events = [
+        row for row in events
+        if row.get("week") == args.week
+        or (
+            parse_sheet_date(row.get("date"))
+            and generated_day <= parse_sheet_date(row.get("date")) <= future_event_limit
+        )
+    ]
     events = sorted(events, key=lambda row: (row.get("date", ""), row.get("event_name", "")))
     tenders = [row for row in tenders if row.get("week") == args.week]
     tenders = filter_active_tenders(tenders, args.generated_at)
