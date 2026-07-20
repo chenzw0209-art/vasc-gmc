@@ -63,6 +63,7 @@ EVENT_MAP = {
     "日期": "date",
     "信源等级": "source_grade",
     "链接": "url",
+    "参加这个展会能获得什么": "event_value",
     "复核备注": "review_note",
 }
 
