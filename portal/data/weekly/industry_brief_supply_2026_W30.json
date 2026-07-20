@@ -1,0 +1,292 @@
+{
+  "week": "2026-W30",
+  "generated_at": "2026-07-20",
+  "source_files": {
+    "lead_workbook": "C:\\Users\\wale.chen\\Documents\\增长中台-基础设施建设\\.codex-temp\\outputs\\w30\\w30.xlsx",
+    "research_root": "Z:\\增长分析中台\\行研洞察"
+  },
+  "industries": [
+    {
+      "source_lead_industry_key": "Consumer Tech|手机与配件",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "手机与配件",
+      "mapped_research_industry": "手机与配件",
+      "industry_key": "Consumer Tech|手机与配件",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "华为"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "手机与配件本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "华为：7月14日在马来西亚吉隆坡举行旗舰产品全球发布会，发布HUAWEI Pura 90s系列，并同步展示FreeClip 2 S与MatePad Air；影像、表达与创作能力被作为核心产品叙事。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "华为",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W30-C001",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "手机与配件",
+          "tertiary_category": "智能手机",
+          "product_name": "HUAWEI Pura 90s Series",
+          "owner": "华为",
+          "dynamic_type": "全球新品发布",
+          "dynamic_summary": "华为：7月14日在马来西亚吉隆坡举行旗舰产品全球发布会，发布HUAWEI Pura 90s系列，并同步展示FreeClip 2 S与MatePad Air；影像、表达与创作能力被作为核心产品叙事。",
+          "suggested_focus": "新品全球上市与影像创作叙事同步开启，适合切入马来西亚及区域市场的影像内容、创作者测评和社媒发布节奏。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W30 客户动态与信源明细",
+      "bottom_table_path": "C:\\Users\\wale.chen\\Documents\\增长中台-基础设施建设\\.codex-temp\\outputs\\w30\\w30.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "Consumer Tech/手机与配件本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/手机与配件：W30周度信号",
+        "metric_line": "1条线索 / Top主体：华为",
+        "signal_line": "华为：7月14日在马来西亚吉隆坡举行旗舰产品全球发布会，发布HUAWEI Pura 90s系列，并同步展示FreeClip 2 S与MatePad Air；影像、表达与创作能力被作为核心产品叙事。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|汽车电子",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "汽车电子",
+      "mapped_research_industry": "汽车电子",
+      "industry_key": "Consumer Tech|汽车电子",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "广汽集团"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "汽车电子本周变量来自2条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "广汽集团：披露上半年自主品牌出口12.15万辆、同比增长132%，并在美洲、亚太、中东、非洲和欧洲五大区域同步增长；巴西、哥伦比亚、泰国和新加坡等市场出现具体增量。",
+        "远程新能源商用车集团：启用全球备件配送中心，以提升海外经销商和车队客户的备件可得性、履约效率与本地服务响应。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "广汽集团",
+          "grade": "A"
+        },
+        {
+          "brand": "远程新能源商用车集团",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W30-C003",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "汽车电子",
+          "tertiary_category": "新能源汽车",
+          "product_name": "GAC/AION海外车型",
+          "owner": "广汽集团",
+          "dynamic_type": "海外市场扩张",
+          "dynamic_summary": "广汽集团：披露上半年自主品牌出口12.15万辆、同比增长132%，并在美洲、亚太、中东、非洲和欧洲五大区域同步增长；巴西、哥伦比亚、泰国和新加坡等市场出现具体增量。",
+          "suggested_focus": "多区域销量增长意味着本地化品牌传播与车型内容需求持续增加，可按巴西、哥伦比亚、泰国、新加坡等已验证市场优先切入。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W30-C004",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "汽车电子",
+          "tertiary_category": "商用新能源汽车",
+          "product_name": "Farizon国际售后网络",
+          "owner": "远程新能源商用车集团",
+          "dynamic_type": "海外渠道/服务网络扩张",
+          "dynamic_summary": "远程新能源商用车集团：启用全球备件配送中心，以提升海外经销商和车队客户的备件可得性、履约效率与本地服务响应。",
+          "suggested_focus": "全球服务网络建设意味着海外经销商与车队沟通进入强化期；可从区域化案例、专业KOL与售后服务内容切入品牌信任建设。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W30 客户动态与信源明细",
+      "bottom_table_path": "C:\\Users\\wale.chen\\Documents\\增长中台-基础设施建设\\.codex-temp\\outputs\\w30\\w30.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "Consumer Tech/汽车电子本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/汽车电子：W30周度信号",
+        "metric_line": "2条线索 / Top主体：广汽集团",
+        "signal_line": "广汽集团：披露上半年自主品牌出口12.15万辆、同比增长132%，并在美洲、亚太、中东、非洲和欧洲五大区域同步增长；巴西、哥伦比亚、泰国和新加坡等市场出现具体增量。；远程新能源商用车集团：启用全球备件配送中心，以提升海外经销商和车队客户的备件可得性、履约效率与本地服务响应。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|电视与视频显示",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "电视与视频显示",
+      "mapped_research_industry": "电视与视频显示",
+      "industry_key": "Consumer Tech|电视与视频显示",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "海信"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "电视与视频显示本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "海信：围绕2026 FIFA世界杯发布全球品牌传播内容，将大屏观赛、显示技术与家庭娱乐场景绑定，处于全球体育赛事营销的高曝光窗口。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "海信",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W30-C002",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "电视与视频显示",
+          "tertiary_category": "电视",
+          "product_name": "FIFA World Cup 2026整合营销",
+          "owner": "海信",
+          "dynamic_type": "体育营销/品牌传播",
+          "dynamic_summary": "海信：围绕2026 FIFA世界杯发布全球品牌传播内容，将大屏观赛、显示技术与家庭娱乐场景绑定，处于全球体育赛事营销的高曝光窗口。",
+          "suggested_focus": "世界杯内容仍在高热周期，适合围绕区域市场的球迷内容、赛事二创、KOL观赛场景与零售转化开展建联。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W30 客户动态与信源明细",
+      "bottom_table_path": "C:\\Users\\wale.chen\\Documents\\增长中台-基础设施建设\\.codex-temp\\outputs\\w30\\w30.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "Consumer Tech/电视与视频显示本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/电视与视频显示：W30周度信号",
+        "metric_line": "1条线索 / Top主体：海信",
+        "signal_line": "海信：围绕2026 FIFA世界杯发布全球品牌传播内容，将大屏观赛、显示技术与家庭娱乐场景绑定，处于全球体育赛事营销的高曝光窗口。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Fintech|-",
+      "primary_industry": "Fintech",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "Fintech|-",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "长桥集团"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "-本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "长桥集团：发布AI原生投资产品，7月15日起面向新加坡用户开放，并计划逐步进入美国和亚洲其他市场；同时宣布在新加坡设立AI Lab。"
+      ],
+      "verification_metrics": [
+        "覆盖商户数",
+        "钱包/银行伙伴数",
+        "新增国家",
+        "交易成功率"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "长桥集团",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W30-C005",
+          "lead_category": "AG",
+          "primary_industry": "Fintech",
+          "secondary_industry": "-",
+          "tertiary_category": "AI投资服务",
+          "product_name": "Longbridge AI",
+          "owner": "长桥集团",
+          "dynamic_type": "海外产品发布",
+          "dynamic_summary": "长桥集团：发布AI原生投资产品，7月15日起面向新加坡用户开放，并计划逐步进入美国和亚洲其他市场；同时宣布在新加坡设立AI Lab。",
+          "suggested_focus": "面向个人投资者的AI产品在新加坡先行上线，适合切入金融教育内容、垂类创作者合作与新市场用户增长测试。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W30 客户动态与信源明细",
+      "bottom_table_path": "C:\\Users\\wale.chen\\Documents\\增长中台-基础设施建设\\.codex-temp\\outputs\\w30\\w30.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "Fintech/-本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Fintech/-：W30周度信号",
+        "metric_line": "1条线索 / Top主体：长桥集团",
+        "signal_line": "长桥集团：发布AI原生投资产品，7月15日起面向新加坡用户开放，并计划逐步进入美国和亚洲其他市场；同时宣布在新加坡设立AI Lab。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 1
+    }
+  ],
+  "quality_check": {
+    "lead_rows": 5,
+    "industry_group_count": 4,
+    "covered_industry_count": 0,
+    "desktop_research_count": 4,
+    "gap_industry_count": 0,
+    "missing_required_fields": [],
+    "notes": [
+      "W30行业供给由本周客户线索聚合生成，仅用于售前扫描与同类主体归并。",
+      "页面只读取portal/data/weekly下JSON，不读取Excel。"
+    ]
+  }
+}

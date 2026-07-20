@@ -4,13 +4,33 @@
     industrySupply: null,
     selected: null,
     marketLoaded: false,
-    activeWeek: "W25",
+    activeWeek: "W30",
   };
   const $ = (selector) => document.querySelector(selector);
   const WEEK_FILES = {
+    W30: {
+      leads: "./data/weekly/weekly_leads_content_2026_W30.json?v=20260720-weekly-w30",
+      industry: null,
+    },
+    W29: {
+      leads: "./data/weekly/weekly_leads_content_2026_W29.json?v=20260713-weekly-w29",
+      industry: "./data/weekly/industry_brief_supply_2026_W29.json?v=20260713-weekly-w29",
+    },
+    W28: {
+      leads: "./data/weekly/weekly_leads_content_2026_W28.json?v=20260706-weekly-w28-copyfix2",
+      industry: "./data/weekly/industry_brief_supply_2026_W28.json?v=20260706-weekly-w28-copyfix2",
+    },
+    W27: {
+      leads: "./data/weekly/weekly_leads_content_2026_W27.json?v=20260629-weekly-w27",
+      industry: "./data/weekly/industry_brief_supply_2026_W27.json?v=20260629-weekly-w27",
+    },
+    W26: {
+      leads: "./data/weekly/weekly_leads_content_2026_W26.json?v=20260622-weekly-w26",
+      industry: "./data/weekly/industry_brief_supply_2026_W26.json?v=20260622-weekly-w26",
+    },
     W25: {
-      leads: "./data/weekly/weekly_leads_content_2026_W25.json?v=20260612-weekly-b",
-      industry: "./data/weekly/industry_brief_supply_2026_W25.json?v=20260612-weekly-b",
+      leads: "./data/weekly/weekly_leads_content_2026_W25.json?v=20260616-weekly-i",
+      industry: "./data/weekly/industry_brief_supply_2026_W25.json?v=20260616-weekly-i",
     },
     W24: {
       leads: "./data/weekly/weekly_leads_content_2026_W24.json?v=20260608-weekly-h",
@@ -52,6 +72,11 @@
     return match ? `${match[2]}-${match[3]}` : shortText(text, 12);
   }
 
+  function externalLink(value) {
+    const text = safe(value, "");
+    return /^https?:\/\//i.test(text) ? text : "";
+  }
+
   function allRows() {
     return state.content.leads_module_content?.records || state.content.weekly_module_content.focus_customers || [];
   }
@@ -75,6 +100,7 @@
     const weekly = state.content.weekly_module_content;
     const rows = allRows();
     const exhibitions = state.content.exhibition_window_content || [];
+    const tenders = state.content.tender_opportunity_content || [];
     const productCount = rows.filter((row) => row.titan_category === "EC").length;
     const appCount = rows.length - productCount;
     const gradeACount = rows.filter((row) => row.source_grade === "A").length;
@@ -84,7 +110,8 @@
       ["商品候选", productCount, "实物商品方向", "商", "tone-orange"],
       ["应用候选", appCount, "App / 游戏 / 平台", "应", "tone-purple"],
       ["A级信源", gradeACount, "官方/硬证据", "A", "tone-green"],
-      ["重点展会", exhibitions.length, state.activeWeek === "W25" ? "W25窗口" : "W24/W25窗口", "展", "tone-blue"],
+      ["重点展会", exhibitions.length, `${state.activeWeek}窗口`, "展", "tone-blue"],
+      ["招投标线索", tenders.length, "海外营销相关项目", "标", "tone-orange"],
     ];
 
     $("#sales-focus").innerHTML = `
@@ -112,11 +139,18 @@
   function syncIndustrySelect() {
     const select = $("#industry-filter");
     if (!select) return;
-    const industries = [...new Set(allRows().map((row) => safe(row.standard_l2, "")).filter(Boolean))];
-    select.innerHTML = industries.map((name) => `<option value="${name}">${name}</option>`).join("");
-    select.value = safe(state.selected?.standard_l2, industries[0] || "");
+    const options = [];
+    const seen = new Set();
+    for (const row of allRows()) {
+      const value = industryKey(row);
+      if (seen.has(value)) continue;
+      seen.add(value);
+      options.push({ value, label: `${safe(row.standard_l1)} / ${safe(row.standard_l2, "-")}` });
+    }
+    select.innerHTML = options.map((item) => `<option value="${item.value}">${item.label}</option>`).join("");
+    select.value = industryKey(state.selected || allRows()[0] || {});
     select.onchange = () => {
-      const match = allRows().find((row) => row.standard_l2 === select.value);
+      const match = allRows().find((row) => industryKey(row) === select.value);
       state.selected = match || state.selected;
       renderIndustryBrief();
       renderSimilarCustomers();
@@ -147,8 +181,8 @@
               <tr data-index="${index}">
                 <td class="num">${index + 1}</td>
                 <td><span class="l1-pill">${safe(row.titan_category)}</span></td>
-                <td><span class="l1-pill">${safe(row.standard_l1)}</span></td>
-                <td><button class="industry-link" data-index="${index}" title="${safe(row.standard_l2)}">${safe(row.standard_l2)}</button></td>
+                <td><button class="industry-link" data-index="${index}" title="${safe(row.standard_l1)}">${safe(row.standard_l1)}</button></td>
+                <td title="${safe(row.standard_l2, "-")}">${safe(row.standard_l2, "-")}</td>
                 <td title="${safe(row.standard_l3)}">${safe(row.standard_l3)}</td>
                 <td title="${safe(row.owner_company_brand)}">${ownerName(row)}</td>
                 <td title="${safe(row.dynamic_type)}">${safe(row.dynamic_type)}</td>
@@ -229,7 +263,6 @@
               <th class="col-location">地点</th>
               <th class="col-link">报名</th>
               <th class="col-event-name">展会名称（展会/会议）</th>
-              <th class="col-event-value">展会窗口价值</th>
             </tr>
           </thead>
           <tbody>
@@ -241,9 +274,41 @@
                 <td>${safe(row.location)}</td>
                 <td><a class="inline-link" href="${safe(row.url, "#")}" target="_blank" rel="noreferrer">打开</a></td>
                 <td title="${safe(row.event_name)}">${safe(row.event_name)}</td>
-                <td title="${safe(row.window_value)}">${safe(row.window_value)}</td>
               </tr>
             `).join("") || "<tr><td colspan=\"7\">暂无展会记录</td></tr>"}
+          </tbody>
+        </table>
+      </div>`;
+  }
+
+  function renderTenderOpportunities() {
+    const rows = state.content.tender_opportunity_content || [];
+    $("#tender-opportunities").innerHTML = `
+      <div class="table-fit tender-table-fit">
+        <table class="data-table tender-table">
+          <thead>
+            <tr>
+              <th class="col-tender-id">#</th>
+              <th class="col-tender-project">项目名</th>
+              <th class="col-tender-publisher">发布方</th>
+              <th class="col-tender-scope">业务范畴</th>
+              <th class="col-tender-period">投标周期</th>
+              <th class="col-tender-budget">预算规模</th>
+              <th class="col-tender-link">原始链接</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map((row) => `
+              <tr>
+                <td>${safe(row.tender_id)}</td>
+                <td title="${safe(row.project_name)}">${safe(row.project_name)}</td>
+                <td title="${safe(row.publisher)}">${safe(row.publisher)}</td>
+                <td title="${safe(row.business_scope)}">${safe(row.business_scope)}</td>
+                <td title="${safe(row.bid_period)}">${safe(row.bid_period)}</td>
+                <td>${safe(row.budget, "没披露")}</td>
+                <td>${externalLink(row.url) ? `<a class="inline-link" href="${externalLink(row.url)}" target="_blank" rel="noreferrer">打开</a>` : "没披露"}</td>
+              </tr>
+            `).join("") || "<tr><td colspan=\"7\">暂无招投标记录</td></tr>"}
           </tbody>
         </table>
       </div>`;
@@ -272,160 +337,12 @@
       </div>`;
   }
 
-  function activateView(view) {
-    document.querySelectorAll(".portal-view").forEach((panel) => panel.classList.toggle("active", panel.id === `${view}-view`));
-    document.querySelectorAll("[data-view-link]").forEach((link) => link.classList.toggle("active", link.dataset.viewLink === view));
-    if (view === "market") loadMarketView();
-  }
-
-  function loadMarketView() {
-    if (state.marketLoaded) return;
-    state.marketLoaded = true;
-    $("#market-view").innerHTML = `<div class="market-loading">行业研究加载中…</div>`;
-    fetch("./pages/market/")
-      .then((response) => response.text())
-      .then((html) => {
-        const doc = new DOMParser().parseFromString(html, "text/html");
-        const inlineStyle = [...doc.querySelectorAll("style")].map((style) => style.textContent).join("\n");
-        if (!document.querySelector("#embedded-market-style")) {
-          const style = document.createElement("style");
-          style.id = "embedded-market-style";
-          style.textContent = inlineStyle.replace(/body\s*\{[\s\S]*?\}/g, "");
-          document.head.appendChild(style);
-        }
-        const shell = doc.querySelector(".research-shell");
-        $("#market-view").innerHTML = shell ? shell.outerHTML : `<div class="market-loading">行业研究加载失败</div>`;
-        window.PAGE_TYPE = "industry-research";
-        patchEmbeddedMarketPaths();
-        return loadScriptOnce("./assets/vendor/echarts.min.js", "embedded-echarts")
-          .then(() => loadScriptOnce("./assets/industry_research_page_v1.js?v=20260609-gaming-c", "embedded-industry-script"))
-          .then(() => initEmbeddedMarketSelectors());
-      })
-      .catch((error) => {
-        $("#market-view").innerHTML = `<div class="market-loading">行业研究加载失败：${error.message}</div>`;
-      });
-  }
-
-  function loadScriptOnce(src, id) {
-    return new Promise((resolve, reject) => {
-      const existing = document.querySelector(`#${id}`);
-      if (existing) {
-        resolve();
-        return;
-      }
-      const script = document.createElement("script");
-      script.id = id;
-      script.src = src;
-      script.onload = resolve;
-      script.onerror = () => reject(new Error(`无法加载 ${src}`));
-      document.body.appendChild(script);
-    });
-  }
-
-  function patchEmbeddedMarketPaths() {
-    if (window.__marketLoadJsonPatched || typeof window.loadJson !== "function") return;
-    const originalLoadJson = window.loadJson;
-    window.loadJson = (path) => {
-      const rewritten = String(path)
-        .replace(/^\.\.\/\.\.\/data\//, "./data/")
-        .replace(/^\.\.\/data\//, "./data/");
-      return originalLoadJson(rewritten);
-    };
-    window.__marketLoadJsonPatched = true;
-  }
-
-  function initEmbeddedMarketSelectors() {
-    const root = $("#market-view");
-    if (!root) return;
-    waitForMarketTree().then(() => {
-      if (root.querySelector(".market-select-bar")) return;
-      const main = root.querySelector(".research-main");
-      if (!main) return;
-      main.insertAdjacentHTML("afterbegin", `
-        <div class="market-select-bar">
-          <select id="embedded-market-l1" class="market-select" aria-label="一级行业"></select>
-          <select id="embedded-market-l2" class="market-select wide" aria-label="二级行业"></select>
-        </div>
-      `);
-      const l1Select = root.querySelector("#embedded-market-l1");
-      const l2Select = root.querySelector("#embedded-market-l2");
-
-      const l1Label = {
-        Beauty: "Beauty",
-        "Consumer Tech": "3C",
-        FMCG: "FMCG",
-        Health: "Health",
-        Lifestyle: "Life",
-        Gaming: "Gaming",
-      };
-
-      const refreshOptions = () => {
-        const l1Buttons = [...root.querySelectorAll(".tree-l1")];
-        const activeL2 = root.querySelector(".tree-l2.active");
-        const activeL1 = activeL2?.dataset.l1 || root.querySelector(".tree-group.open .tree-l1")?.dataset.l1 || l1Buttons[0]?.dataset.l1 || "";
-        l1Select.innerHTML = l1Buttons.map((button) => `<option value="${button.dataset.l1}">${l1Label[button.dataset.l1] || button.dataset.l1}</option>`).join("");
-        l1Select.value = activeL1;
-        const l2Buttons = [...root.querySelectorAll(`.tree-l2[data-l1="${cssEscape(activeL1)}"]`)];
-        l2Select.innerHTML = l2Buttons.map((button) => `<option value="${button.dataset.l2}">${button.textContent.trim()}</option>`).join("");
-        l2Select.value = activeL2?.dataset.l2 || l2Buttons[0]?.dataset.l2 || "";
-      };
-
-      l1Select.addEventListener("change", () => {
-        root.querySelector(`.tree-l1[data-l1="${cssEscape(l1Select.value)}"]`)?.click();
-        setTimeout(refreshOptions, 0);
-      });
-      l2Select.addEventListener("change", () => {
-        root.querySelector(`.tree-l2[data-l1="${cssEscape(l1Select.value)}"][data-l2="${cssEscape(l2Select.value)}"]`)?.click();
-        setTimeout(refreshOptions, 0);
-      });
-      root.addEventListener("click", (event) => {
-        if (event.target.closest(".tree-l1, .tree-l2")) setTimeout(refreshOptions, 0);
-      });
-      refreshOptions();
-    });
-  }
-
-  function waitForMarketTree() {
-    return new Promise((resolve) => {
-      let tries = 0;
-      const tick = () => {
-        if ($("#market-view .tree-l1") && $("#market-view .tree-l2")) {
-          resolve();
-          return;
-        }
-        tries += 1;
-        if (tries > 80) {
-          resolve();
-          return;
-        }
-        setTimeout(tick, 100);
-      };
-      tick();
-    });
-  }
-
-  function cssEscape(value) {
-    if (window.CSS?.escape) return CSS.escape(value);
-    return String(value).replace(/["\\]/g, "\\$&");
-  }
-
-  function wireViewNavigation() {
-    document.querySelectorAll("[data-view-link]").forEach((link) => {
-      link.addEventListener("click", (event) => {
-        event.preventDefault();
-        activateView(link.dataset.viewLink);
-        history.replaceState(null, "", link.getAttribute("href"));
-      });
-    });
-    activateView(location.hash === "#market" ? "market" : "weekly");
-  }
-
   function wireWeekSelector() {
     const selector = $(".week-selector");
     if (!selector || selector.dataset.bound === "true") return;
     selector.dataset.bound = "true";
     selector.addEventListener("change", () => {
-      loadWeek(selector.value || "W25").catch((error) => {
+      loadWeek(selector.value || "W27").catch((error) => {
         $(".weekly-content").insertAdjacentHTML("beforeend", `<article class="data-card"><h2 class="card-title">加载失败</h2><p>${error.message}</p></article>`);
       });
     });
@@ -438,12 +355,12 @@
     renderCustomerTable();
     renderIndustryBrief();
     renderEventWindows();
+    renderTenderOpportunities();
     renderSimilarCustomers();
-    wireViewNavigation();
   }
 
   async function loadWeek(week) {
-    const files = WEEK_FILES[week] || WEEK_FILES.W25;
+    const files = WEEK_FILES[week] || WEEK_FILES.W29;
     const [content, industrySupply] = await Promise.all([
       loadJson(files.leads),
       loadJson(files.industry),
