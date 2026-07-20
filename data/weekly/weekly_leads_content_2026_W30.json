@@ -1,0 +1,557 @@
+{
+  "generated_at": "2026-07-20",
+  "source_workbook": "C:\\Users\\wale.chen\\Documents\\增长中台-基础设施建设\\.codex-temp\\outputs\\w30\\w30.xlsx",
+  "weekly_module_content": {
+    "week": "2026-W30",
+    "top_summary": "华为：7月14日在吉隆坡举行全球旗舰新品发布会，Pura 90s 系列与穿戴、平板同步亮相；新品上市期适合围绕影像内容、创作者测评与区域社媒节奏切入。\n2026悉尼Online Retailer Exhibition：7月22日至23日在 ICC Sydney 举办，聚集电商、零售、营销与数据服务主体；适合优先获取澳洲电商生态中的展商联系人与合作需求。\n杭州市文化广电旅游局：发布海外传播矩阵推广采购，直接覆盖国际内容传播与海外推广；与达人内容、区域化创意和投放协同能力高度匹配。",
+    "kpis": {
+      "focus_customer_count": 5,
+      "new_customer_signal_count": 5,
+      "product_candidate_count": 4,
+      "app_candidate_count": 1,
+      "grade_a_count": 5,
+      "exhibition_count": 1,
+      "tender_count": 3
+    },
+    "focus_customers": [
+      {
+        "candidate_id": "W30-C001",
+        "week": "W30",
+        "search_date": "2026-07-20",
+        "titan_category": "EC",
+        "standard_l1": "Consumer Tech",
+        "standard_l2": "手机与配件",
+        "standard_l3": "智能手机",
+        "application_product_name": "HUAWEI Pura 90s Series",
+        "owner_company_brand": "华为",
+        "target_market_channel": "马来西亚；全球市场",
+        "dynamic_type": "全球新品发布",
+        "dynamic_date": "2026-07-14",
+        "dynamic_summary": "华为：7月14日在马来西亚吉隆坡举行旗舰产品全球发布会，发布HUAWEI Pura 90s系列，并同步展示FreeClip 2 S与MatePad Air；影像、表达与创作能力被作为核心产品叙事。",
+        "attention_point": "新品全球上市与影像创作叙事同步开启，适合切入马来西亚及区域市场的影像内容、创作者测评和社媒发布节奏。",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "华为/PR Newswire",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/now-is-your-moment-huawei-unlocks-new-possibilities-for-every-moment-through-all-scenario-innovation-302825088.html",
+        "link_status": "公开网页可访问；已做内容复核",
+        "warehouse_suggestion": "建议入库",
+        "review_note": "W30高质量出海动态；按客户主体唯一入库。",
+        "source_count": "1",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "手机与配件",
+        "dynamic_date_display": "07-14"
+      },
+      {
+        "candidate_id": "W30-C002",
+        "week": "W30",
+        "search_date": "2026-07-20",
+        "titan_category": "EC",
+        "standard_l1": "Consumer Tech",
+        "standard_l2": "电视与视频显示",
+        "standard_l3": "电视",
+        "application_product_name": "FIFA World Cup 2026整合营销",
+        "owner_company_brand": "海信",
+        "target_market_channel": "全球市场",
+        "dynamic_type": "体育营销/品牌传播",
+        "dynamic_date": "2026-07-14",
+        "dynamic_summary": "海信：围绕2026 FIFA世界杯发布全球品牌传播内容，将大屏观赛、显示技术与家庭娱乐场景绑定，处于全球体育赛事营销的高曝光窗口。",
+        "attention_point": "世界杯内容仍在高热周期，适合围绕区域市场的球迷内容、赛事二创、KOL观赛场景与零售转化开展建联。",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "海信/PR Newswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/hisense-makes-home-the-best-seat-for-the-fifa-world-cup-2026-302825034.html",
+        "link_status": "公开网页可访问；已做内容复核",
+        "warehouse_suggestion": "建议入库",
+        "review_note": "W30高质量出海动态；按客户主体唯一入库。",
+        "source_count": "1",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "电视与视频显示",
+        "dynamic_date_display": "07-14"
+      },
+      {
+        "candidate_id": "W30-C003",
+        "week": "W30",
+        "search_date": "2026-07-20",
+        "titan_category": "EC",
+        "standard_l1": "Consumer Tech",
+        "standard_l2": "汽车电子",
+        "standard_l3": "新能源汽车",
+        "application_product_name": "GAC/AION海外车型",
+        "owner_company_brand": "广汽集团",
+        "target_market_channel": "美洲、亚太、中东、非洲、欧洲",
+        "dynamic_type": "海外市场扩张",
+        "dynamic_date": "2026-07-09",
+        "dynamic_summary": "广汽集团：披露上半年自主品牌出口12.15万辆、同比增长132%，并在美洲、亚太、中东、非洲和欧洲五大区域同步增长；巴西、哥伦比亚、泰国和新加坡等市场出现具体增量。",
+        "attention_point": "多区域销量增长意味着本地化品牌传播与车型内容需求持续增加，可按巴西、哥伦比亚、泰国、新加坡等已验证市场优先切入。",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "广汽集团/PR Newswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/gac-delivers-strong-h1-performance-with-accelerated-global-expansion-302821894.html",
+        "link_status": "公开网页可访问；已做内容复核",
+        "warehouse_suggestion": "建议入库",
+        "review_note": "W30高质量出海动态；按客户主体唯一入库。",
+        "source_count": "1",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "汽车电子",
+        "dynamic_date_display": "07-09"
+      },
+      {
+        "candidate_id": "W30-C004",
+        "week": "W30",
+        "search_date": "2026-07-20",
+        "titan_category": "EC",
+        "standard_l1": "Consumer Tech",
+        "standard_l2": "汽车电子",
+        "standard_l3": "商用新能源汽车",
+        "application_product_name": "Farizon国际售后网络",
+        "owner_company_brand": "远程新能源商用车集团",
+        "target_market_channel": "海外商用车市场",
+        "dynamic_type": "海外渠道/服务网络扩张",
+        "dynamic_date": "2026-07-17",
+        "dynamic_summary": "远程新能源商用车集团：启用全球备件配送中心，以提升海外经销商和车队客户的备件可得性、履约效率与本地服务响应。",
+        "attention_point": "全球服务网络建设意味着海外经销商与车队沟通进入强化期；可从区域化案例、专业KOL与售后服务内容切入品牌信任建设。",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "远程汽车/PR Newswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/farizon-opens-global-spare-part-distribution-center-to-strengthen-international-aftersales-support-302828706.html",
+        "link_status": "公开网页可访问；已做内容复核",
+        "warehouse_suggestion": "建议入库",
+        "review_note": "W30高质量出海动态；按客户主体唯一入库。",
+        "source_count": "1",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "汽车电子",
+        "dynamic_date_display": "07-17"
+      },
+      {
+        "candidate_id": "W30-C005",
+        "week": "W30",
+        "search_date": "2026-07-20",
+        "titan_category": "AG",
+        "standard_l1": "Fintech",
+        "standard_l2": "-",
+        "standard_l3": "AI投资服务",
+        "application_product_name": "Longbridge AI",
+        "owner_company_brand": "长桥集团",
+        "target_market_channel": "新加坡、美国及亚洲其他市场",
+        "dynamic_type": "海外产品发布",
+        "dynamic_date": "2026-07-17",
+        "dynamic_summary": "长桥集团：发布AI原生投资产品，7月15日起面向新加坡用户开放，并计划逐步进入美国和亚洲其他市场；同时宣布在新加坡设立AI Lab。",
+        "attention_point": "面向个人投资者的AI产品在新加坡先行上线，适合切入金融教育内容、垂类创作者合作与新市场用户增长测试。",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "长桥集团/PR Newswire",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/longbridge-unveils-the-worlds-first-ai-native-investing-platform-ushering-in-a-new-era-of-investing-302828201.html",
+        "link_status": "公开网页可访问；已做内容复核",
+        "warehouse_suggestion": "建议入库",
+        "review_note": "W30高质量出海动态；按客户主体唯一入库。",
+        "source_count": "1",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Fintech",
+        "source_standard_l2": "-",
+        "dynamic_date_display": "07-17"
+      }
+    ],
+    "industry_brief_by_industry": {
+      "智能手机": {
+        "industry": "智能手机",
+        "lead_count": 1,
+        "headline": "手机与配件本周新增1条可复核信号",
+        "signals": [
+          "华为：7月14日在马来西亚吉隆坡举行旗舰产品全球发布会，发布HUAWEI Pura 90s系列，并同步展示FreeClip 2 S与MatePad Air；影像、表达与创作能力被作为核心产品叙事。"
+        ],
+        "recommended_focus": [
+          "新品全球上市与影像创作叙事同步开启，适合切入马来西亚及区域市场的影像内容、创作者测评和社媒发布节奏。"
+        ]
+      },
+      "电视": {
+        "industry": "电视",
+        "lead_count": 1,
+        "headline": "电视与视频显示本周新增1条可复核信号",
+        "signals": [
+          "海信：围绕2026 FIFA世界杯发布全球品牌传播内容，将大屏观赛、显示技术与家庭娱乐场景绑定，处于全球体育赛事营销的高曝光窗口。"
+        ],
+        "recommended_focus": [
+          "世界杯内容仍在高热周期，适合围绕区域市场的球迷内容、赛事二创、KOL观赛场景与零售转化开展建联。"
+        ]
+      },
+      "新能源汽车": {
+        "industry": "新能源汽车",
+        "lead_count": 1,
+        "headline": "汽车电子本周新增1条可复核信号",
+        "signals": [
+          "广汽集团：披露上半年自主品牌出口12.15万辆、同比增长132%，并在美洲、亚太、中东、非洲和欧洲五大区域同步增长；巴西、哥伦比亚、泰国和新加坡等市场出现具体增量。"
+        ],
+        "recommended_focus": [
+          "多区域销量增长意味着本地化品牌传播与车型内容需求持续增加，可按巴西、哥伦比亚、泰国、新加坡等已验证市场优先切入。"
+        ]
+      },
+      "商用新能源汽车": {
+        "industry": "商用新能源汽车",
+        "lead_count": 1,
+        "headline": "汽车电子本周新增1条可复核信号",
+        "signals": [
+          "远程新能源商用车集团：启用全球备件配送中心，以提升海外经销商和车队客户的备件可得性、履约效率与本地服务响应。"
+        ],
+        "recommended_focus": [
+          "全球服务网络建设意味着海外经销商与车队沟通进入强化期；可从区域化案例、专业KOL与售后服务内容切入品牌信任建设。"
+        ]
+      },
+      "AI投资服务": {
+        "industry": "AI投资服务",
+        "lead_count": 1,
+        "headline": "-本周新增1条可复核信号",
+        "signals": [
+          "长桥集团：发布AI原生投资产品，7月15日起面向新加坡用户开放，并计划逐步进入美国和亚洲其他市场；同时宣布在新加坡设立AI Lab。"
+        ],
+        "recommended_focus": [
+          "面向个人投资者的AI产品在新加坡先行上线，适合切入金融教育内容、垂类创作者合作与新市场用户增长测试。"
+        ]
+      }
+    },
+    "similar_customers_by_candidate": {
+      "W30-C001": [],
+      "W30-C002": [],
+      "W30-C003": [
+        {
+          "candidate_id": "W30-C004",
+          "week": "W30",
+          "search_date": "2026-07-20",
+          "titan_category": "EC",
+          "standard_l1": "Consumer Tech",
+          "standard_l2": "汽车电子",
+          "standard_l3": "商用新能源汽车",
+          "application_product_name": "Farizon国际售后网络",
+          "owner_company_brand": "远程新能源商用车集团",
+          "target_market_channel": "海外商用车市场",
+          "dynamic_type": "海外渠道/服务网络扩张",
+          "dynamic_date": "2026-07-17",
+          "dynamic_summary": "远程新能源商用车集团：启用全球备件配送中心，以提升海外经销商和车队客户的备件可得性、履约效率与本地服务响应。",
+          "attention_point": "全球服务网络建设意味着海外经销商与车队沟通进入强化期；可从区域化案例、专业KOL与售后服务内容切入品牌信任建设。",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "远程汽车/PR Newswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/farizon-opens-global-spare-part-distribution-center-to-strengthen-international-aftersales-support-302828706.html",
+          "link_status": "公开网页可访问；已做内容复核",
+          "warehouse_suggestion": "建议入库",
+          "review_note": "W30高质量出海动态；按客户主体唯一入库。",
+          "source_count": "1",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
+          "source_standard_l2": "汽车电子",
+          "dynamic_date_display": "07-17"
+        }
+      ],
+      "W30-C004": [
+        {
+          "candidate_id": "W30-C003",
+          "week": "W30",
+          "search_date": "2026-07-20",
+          "titan_category": "EC",
+          "standard_l1": "Consumer Tech",
+          "standard_l2": "汽车电子",
+          "standard_l3": "新能源汽车",
+          "application_product_name": "GAC/AION海外车型",
+          "owner_company_brand": "广汽集团",
+          "target_market_channel": "美洲、亚太、中东、非洲、欧洲",
+          "dynamic_type": "海外市场扩张",
+          "dynamic_date": "2026-07-09",
+          "dynamic_summary": "广汽集团：披露上半年自主品牌出口12.15万辆、同比增长132%，并在美洲、亚太、中东、非洲和欧洲五大区域同步增长；巴西、哥伦比亚、泰国和新加坡等市场出现具体增量。",
+          "attention_point": "多区域销量增长意味着本地化品牌传播与车型内容需求持续增加，可按巴西、哥伦比亚、泰国、新加坡等已验证市场优先切入。",
+          "source_grade": "A",
+          "source_layer": "P0",
+          "primary_source_name": "广汽集团/PR Newswire",
+          "primary_source_url": "https://www.prnewswire.com/news-releases/gac-delivers-strong-h1-performance-with-accelerated-global-expansion-302821894.html",
+          "link_status": "公开网页可访问；已做内容复核",
+          "warehouse_suggestion": "建议入库",
+          "review_note": "W30高质量出海动态；按客户主体唯一入库。",
+          "source_count": "1",
+          "source_titan_category": "EC",
+          "source_standard_l1": "Consumer Tech",
+          "source_standard_l2": "汽车电子",
+          "dynamic_date_display": "07-09"
+        }
+      ],
+      "W30-C005": []
+    }
+  },
+  "leads_module_content": {
+    "week": "2026-W30",
+    "records": [
+      {
+        "candidate_id": "W30-C001",
+        "week": "W30",
+        "search_date": "2026-07-20",
+        "titan_category": "EC",
+        "standard_l1": "Consumer Tech",
+        "standard_l2": "手机与配件",
+        "standard_l3": "智能手机",
+        "application_product_name": "HUAWEI Pura 90s Series",
+        "owner_company_brand": "华为",
+        "target_market_channel": "马来西亚；全球市场",
+        "dynamic_type": "全球新品发布",
+        "dynamic_date": "2026-07-14",
+        "dynamic_summary": "华为：7月14日在马来西亚吉隆坡举行旗舰产品全球发布会，发布HUAWEI Pura 90s系列，并同步展示FreeClip 2 S与MatePad Air；影像、表达与创作能力被作为核心产品叙事。",
+        "attention_point": "新品全球上市与影像创作叙事同步开启，适合切入马来西亚及区域市场的影像内容、创作者测评和社媒发布节奏。",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "华为/PR Newswire",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/now-is-your-moment-huawei-unlocks-new-possibilities-for-every-moment-through-all-scenario-innovation-302825088.html",
+        "link_status": "公开网页可访问；已做内容复核",
+        "warehouse_suggestion": "建议入库",
+        "review_note": "W30高质量出海动态；按客户主体唯一入库。",
+        "source_count": "1",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "手机与配件",
+        "dynamic_date_display": "07-14"
+      },
+      {
+        "candidate_id": "W30-C002",
+        "week": "W30",
+        "search_date": "2026-07-20",
+        "titan_category": "EC",
+        "standard_l1": "Consumer Tech",
+        "standard_l2": "电视与视频显示",
+        "standard_l3": "电视",
+        "application_product_name": "FIFA World Cup 2026整合营销",
+        "owner_company_brand": "海信",
+        "target_market_channel": "全球市场",
+        "dynamic_type": "体育营销/品牌传播",
+        "dynamic_date": "2026-07-14",
+        "dynamic_summary": "海信：围绕2026 FIFA世界杯发布全球品牌传播内容，将大屏观赛、显示技术与家庭娱乐场景绑定，处于全球体育赛事营销的高曝光窗口。",
+        "attention_point": "世界杯内容仍在高热周期，适合围绕区域市场的球迷内容、赛事二创、KOL观赛场景与零售转化开展建联。",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "海信/PR Newswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/hisense-makes-home-the-best-seat-for-the-fifa-world-cup-2026-302825034.html",
+        "link_status": "公开网页可访问；已做内容复核",
+        "warehouse_suggestion": "建议入库",
+        "review_note": "W30高质量出海动态；按客户主体唯一入库。",
+        "source_count": "1",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "电视与视频显示",
+        "dynamic_date_display": "07-14"
+      },
+      {
+        "candidate_id": "W30-C003",
+        "week": "W30",
+        "search_date": "2026-07-20",
+        "titan_category": "EC",
+        "standard_l1": "Consumer Tech",
+        "standard_l2": "汽车电子",
+        "standard_l3": "新能源汽车",
+        "application_product_name": "GAC/AION海外车型",
+        "owner_company_brand": "广汽集团",
+        "target_market_channel": "美洲、亚太、中东、非洲、欧洲",
+        "dynamic_type": "海外市场扩张",
+        "dynamic_date": "2026-07-09",
+        "dynamic_summary": "广汽集团：披露上半年自主品牌出口12.15万辆、同比增长132%，并在美洲、亚太、中东、非洲和欧洲五大区域同步增长；巴西、哥伦比亚、泰国和新加坡等市场出现具体增量。",
+        "attention_point": "多区域销量增长意味着本地化品牌传播与车型内容需求持续增加，可按巴西、哥伦比亚、泰国、新加坡等已验证市场优先切入。",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "广汽集团/PR Newswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/gac-delivers-strong-h1-performance-with-accelerated-global-expansion-302821894.html",
+        "link_status": "公开网页可访问；已做内容复核",
+        "warehouse_suggestion": "建议入库",
+        "review_note": "W30高质量出海动态；按客户主体唯一入库。",
+        "source_count": "1",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "汽车电子",
+        "dynamic_date_display": "07-09"
+      },
+      {
+        "candidate_id": "W30-C004",
+        "week": "W30",
+        "search_date": "2026-07-20",
+        "titan_category": "EC",
+        "standard_l1": "Consumer Tech",
+        "standard_l2": "汽车电子",
+        "standard_l3": "商用新能源汽车",
+        "application_product_name": "Farizon国际售后网络",
+        "owner_company_brand": "远程新能源商用车集团",
+        "target_market_channel": "海外商用车市场",
+        "dynamic_type": "海外渠道/服务网络扩张",
+        "dynamic_date": "2026-07-17",
+        "dynamic_summary": "远程新能源商用车集团：启用全球备件配送中心，以提升海外经销商和车队客户的备件可得性、履约效率与本地服务响应。",
+        "attention_point": "全球服务网络建设意味着海外经销商与车队沟通进入强化期；可从区域化案例、专业KOL与售后服务内容切入品牌信任建设。",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "远程汽车/PR Newswire",
+        "primary_source_url": "https://www.prnewswire.com/news-releases/farizon-opens-global-spare-part-distribution-center-to-strengthen-international-aftersales-support-302828706.html",
+        "link_status": "公开网页可访问；已做内容复核",
+        "warehouse_suggestion": "建议入库",
+        "review_note": "W30高质量出海动态；按客户主体唯一入库。",
+        "source_count": "1",
+        "source_titan_category": "EC",
+        "source_standard_l1": "Consumer Tech",
+        "source_standard_l2": "汽车电子",
+        "dynamic_date_display": "07-17"
+      },
+      {
+        "candidate_id": "W30-C005",
+        "week": "W30",
+        "search_date": "2026-07-20",
+        "titan_category": "AG",
+        "standard_l1": "Fintech",
+        "standard_l2": "-",
+        "standard_l3": "AI投资服务",
+        "application_product_name": "Longbridge AI",
+        "owner_company_brand": "长桥集团",
+        "target_market_channel": "新加坡、美国及亚洲其他市场",
+        "dynamic_type": "海外产品发布",
+        "dynamic_date": "2026-07-17",
+        "dynamic_summary": "长桥集团：发布AI原生投资产品，7月15日起面向新加坡用户开放，并计划逐步进入美国和亚洲其他市场；同时宣布在新加坡设立AI Lab。",
+        "attention_point": "面向个人投资者的AI产品在新加坡先行上线，适合切入金融教育内容、垂类创作者合作与新市场用户增长测试。",
+        "source_grade": "A",
+        "source_layer": "P0",
+        "primary_source_name": "长桥集团/PR Newswire",
+        "primary_source_url": "https://www.prnewswire.com/apac/news-releases/longbridge-unveils-the-worlds-first-ai-native-investing-platform-ushering-in-a-new-era-of-investing-302828201.html",
+        "link_status": "公开网页可访问；已做内容复核",
+        "warehouse_suggestion": "建议入库",
+        "review_note": "W30高质量出海动态；按客户主体唯一入库。",
+        "source_count": "1",
+        "source_titan_category": "AG",
+        "source_standard_l1": "Fintech",
+        "source_standard_l2": "-",
+        "dynamic_date_display": "07-17"
+      }
+    ]
+  },
+  "exhibition_window_content": [
+    {
+      "event_id": "W30-E001",
+      "week": "W30",
+      "event_window": "2026-07-22",
+      "industry": "平台",
+      "event_name": "2026悉尼Online Retailer Exhibition",
+      "location": "澳大利亚·悉尼国际会议中心",
+      "date": "2026-07-22",
+      "source_grade": "A",
+      "url": "https://www.onlineretailer.com/",
+      "review_note": "官方活动页与聚展网国际展会页交叉核验：2026-07-22至07-23；跨境电商、零售、营销与数据服务相关。"
+    }
+  ],
+  "tender_opportunity_content": [
+    {
+      "tender_id": "W30-B002",
+      "project_name": "2026年度品牌传播视频图片制作供应商评选",
+      "publisher": "苏酒集团贸易股份有限公司（洋河体系）",
+      "business_scope": "品牌传播视频/图片制作/AI内容创作",
+      "week": "W30",
+      "bid_period": "获取文件至2026-08-07 17:00；响应截止2026-08-15 09:00",
+      "budget": "没披露",
+      "url": "https://trade.chinayanghe.com/TPBidder"
+    },
+    {
+      "tender_id": "W30-B004",
+      "project_name": "杭州旅游海外传播矩阵推广",
+      "publisher": "杭州市文化广电旅游局",
+      "business_scope": "海外传播矩阵/国际内容推广",
+      "week": "W30",
+      "bid_period": "以采购公告为准；来源文档2026-07-20",
+      "budget": "没披露",
+      "url": "https://zfcg.czt.zj.gov.cn/site/detail?categoryCode=ZcyAnnouncement&parentId=600007&articleId=9uTHTV17SNQmYXj73whtlg=="
+    },
+    {
+      "tender_id": "W30-B005",
+      "project_name": "“发现江西”海外新媒体账号运维项目",
+      "publisher": "江西省文化和旅游宣传推广中心",
+      "business_scope": "海外新媒体账号运营/内容传播",
+      "week": "W30",
+      "bid_period": "以采购公告为准；来源文档2026-07-20",
+      "budget": "没披露",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gkzb/202607/t20260717_26956798.htm"
+    }
+  ],
+  "evidence_chain_detail_mapping": {
+    "W30-C001": [
+      {
+        "source_id": "W30-S001",
+        "candidate_id": "W30-C001",
+        "week": "W30",
+        "dynamic_date": "2026-07-14",
+        "publish_event_date": "2026-07-14",
+        "source_layer": "P0",
+        "source_grade": "A",
+        "source_name": "华为/PR Newswire",
+        "url": "https://www.prnewswire.com/apac/news-releases/now-is-your-moment-huawei-unlocks-new-possibilities-for-every-moment-through-all-scenario-innovation-302825088.html",
+        "evidence_summary": "2026-07-14，华为在吉隆坡举行全球发布会并发布Pura 90s系列等产品。",
+        "link_status_review_note": "官方/Newswire公告；已做内容复核。"
+      }
+    ],
+    "W30-C002": [
+      {
+        "source_id": "W30-S002",
+        "candidate_id": "W30-C002",
+        "week": "W30",
+        "dynamic_date": "2026-07-14",
+        "publish_event_date": "2026-07-14",
+        "source_layer": "P0",
+        "source_grade": "A",
+        "source_name": "海信/PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/hisense-makes-home-the-best-seat-for-the-fifa-world-cup-2026-302825034.html",
+        "evidence_summary": "2026-07-14，海信发布世界杯主题全球品牌传播内容。",
+        "link_status_review_note": "官方/Newswire公告；已做内容复核。"
+      }
+    ],
+    "W30-C003": [
+      {
+        "source_id": "W30-S003",
+        "candidate_id": "W30-C003",
+        "week": "W30",
+        "dynamic_date": "2026-07-09",
+        "publish_event_date": "2026-07-09",
+        "source_layer": "P0",
+        "source_grade": "A",
+        "source_name": "广汽集团/PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/gac-delivers-strong-h1-performance-with-accelerated-global-expansion-302821894.html",
+        "evidence_summary": "2026-07-09，广汽披露出口同比增长132%，覆盖五大海外区域。",
+        "link_status_review_note": "官方/Newswire公告；已做内容复核。"
+      }
+    ],
+    "W30-C004": [
+      {
+        "source_id": "W30-S004",
+        "candidate_id": "W30-C004",
+        "week": "W30",
+        "dynamic_date": "2026-07-17",
+        "publish_event_date": "2026-07-17",
+        "source_layer": "P0",
+        "source_grade": "A",
+        "source_name": "远程汽车/PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/farizon-opens-global-spare-part-distribution-center-to-strengthen-international-aftersales-support-302828706.html",
+        "evidence_summary": "2026-07-17，远程汽车宣布启用全球备件配送中心，服务海外经销商和车队客户。",
+        "link_status_review_note": "官方/Newswire公告；已做内容复核。"
+      }
+    ],
+    "W30-C005": [
+      {
+        "source_id": "W30-S005",
+        "candidate_id": "W30-C005",
+        "week": "W30",
+        "dynamic_date": "2026-07-17",
+        "publish_event_date": "2026-07-17",
+        "source_layer": "P0",
+        "source_grade": "A",
+        "source_name": "长桥集团/PR Newswire",
+        "url": "https://www.prnewswire.com/apac/news-releases/longbridge-unveils-the-worlds-first-ai-native-investing-platform-ushering-in-a-new-era-of-investing-302828201.html",
+        "evidence_summary": "2026-07-17，Longbridge AI在新加坡上线，并披露美国及亚洲市场的后续计划。",
+        "link_status_review_note": "官方/Newswire公告；已做内容复核。"
+      }
+    ]
+  },
+  "data_quality_check_result": {
+    "sheet_source": "售前情报库周更新工作簿",
+    "customer_rows": 5,
+    "event_rows": 1,
+    "tender_rows": 3,
+    "source_rows": 5,
+    "customer_rows_note": "仅筛除是否建议入库=否的记录；页面只消费本JSON，不读取Excel。"
+  }
+}
