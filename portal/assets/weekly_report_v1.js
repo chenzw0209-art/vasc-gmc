@@ -363,7 +363,7 @@
     const files = WEEK_FILES[week] || WEEK_FILES.W29;
     const [content, industrySupply] = await Promise.all([
       loadJson(files.leads),
-      loadJson(files.industry),
+      files.industry ? loadJson(files.industry) : Promise.resolve({ industries: [] }),
     ]);
     state.content = content;
     state.industrySupply = industrySupply;
