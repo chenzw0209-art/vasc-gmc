@@ -5,12 +5,490 @@
     "lead_workbook": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W31）.xlsx",
     "research_root": "Z:\\增长分析中台\\行研洞察"
   },
-  "industries": [],
+  "industries": [
+    {
+      "source_lead_industry_key": "Consumer Tech|影像设备",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "影像设备",
+      "mapped_research_industry": "影像设备",
+      "industry_key": "Consumer Tech|影像设备",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "DJI / 大疆"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "影像设备本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "大疆：披露DJI Dock 3与FlightHub 2正在澳大利亚矿业和农业场景支持大范围超视距飞行，合作运营方已实现每月约4,500次飞行，并继续推进农业应用案例。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "DJI / 大疆",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W31-C007",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "影像设备",
+          "tertiary_category": "工业无人机",
+          "product_name": "DJI Dock 3与FlightHub 2",
+          "owner": "DJI / 大疆",
+          "dynamic_type": "海外行业应用扩张",
+          "dynamic_summary": "大疆：披露DJI Dock 3与FlightHub 2正在澳大利亚矿业和农业场景支持大范围超视距飞行，合作运营方已实现每月约4,500次飞行，并继续推进农业应用案例。",
+          "suggested_focus": "澳大利亚监管变化正在放大无人机行业应用，可从矿业、农业案例内容、B2B客户教育和区域行业媒体合作切入。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W31 客户动态与信源明细",
+      "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W31）.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "Consumer Tech/影像设备本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/影像设备：W31周度信号",
+        "metric_line": "1条线索 / Top主体：DJI / 大疆",
+        "signal_line": "大疆：披露DJI Dock 3与FlightHub 2正在澳大利亚矿业和农业场景支持大范围超视距飞行，合作运营方已实现每月约4,500次飞行，并继续推进农业应用案例。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|手机与配件",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "手机与配件",
+      "mapped_research_industry": "手机与配件",
+      "industry_key": "Consumer Tech|手机与配件",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "OPPO / OnePlus"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "手机与配件本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "OPPO / OnePlus：OnePlus确认停止在美国、英国和欧洲的品牌运营，相关资源向OPPO整合，同时承诺既有用户的售后和软件支持继续保留。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "OPPO / OnePlus",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W31-C009",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "手机与配件",
+          "tertiary_category": "智能手机品牌",
+          "product_name": "OnePlus海外业务调整",
+          "owner": "OPPO / OnePlus",
+          "dynamic_type": "海外业务收缩/品牌整合",
+          "dynamic_summary": "OPPO / OnePlus：OnePlus确认停止在美国、英国和欧洲的品牌运营，相关资源向OPPO整合，同时承诺既有用户的售后和软件支持继续保留。",
+          "suggested_focus": "品牌退出与资源整合会改变欧洲智能手机竞争和存量用户沟通，可跟进OPPO的区域品牌承接、用户迁移内容和渠道关系重塑。",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W31 客户动态与信源明细",
+      "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W31）.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "Consumer Tech/手机与配件本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/手机与配件：W31周度信号",
+        "metric_line": "1条线索 / Top主体：OPPO / OnePlus",
+        "signal_line": "OPPO / OnePlus：OnePlus确认停止在美国、英国和欧洲的品牌运营，相关资源向OPPO整合，同时承诺既有用户的售后和软件支持继续保留。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|汽车电子",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "汽车电子",
+      "mapped_research_industry": "汽车电子",
+      "industry_key": "Consumer Tech|汽车电子",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "FREELANDER / 奇瑞捷豹路虎"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "汽车电子本周变量来自2条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "FREELANDER：在英国古德伍德速度节确认阿联酋为首个国际市场，并计划于9月在阿布扎比完成品牌发布，标志其全球扩张进入明确的首站落地阶段。",
+        "吉利汽车：与福特推进在西班牙建立合资合作，面向欧洲市场开发和生产新车型，显示其欧洲扩张从车型销售进一步进入本地化产品与制造协同。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "FREELANDER / 奇瑞捷豹路虎",
+          "grade": "A"
+        },
+        {
+          "brand": "Geely / 吉利汽车",
+          "grade": "B"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W31-C001",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "汽车电子",
+          "tertiary_category": "新能源汽车",
+          "product_name": "FREELANDER品牌及新能源车型",
+          "owner": "FREELANDER / 奇瑞捷豹路虎",
+          "dynamic_type": "海外市场进入/品牌发布",
+          "dynamic_summary": "FREELANDER：在英国古德伍德速度节确认阿联酋为首个国际市场，并计划于9月在阿布扎比完成品牌发布，标志其全球扩张进入明确的首站落地阶段。",
+          "suggested_focus": "首个国际市场发布意味着区域品牌认知、车型内容和本地合作伙伴传播需求集中释放，可围绕阿联酋汽车内容、创作者试驾和发布期社媒节奏切入。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W31-C005",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "汽车电子",
+          "tertiary_category": "新能源汽车",
+          "product_name": "欧洲本地化整车合作",
+          "owner": "Geely / 吉利汽车",
+          "dynamic_type": "海外合作/本地化制造",
+          "dynamic_summary": "吉利汽车：与福特推进在西班牙建立合资合作，面向欧洲市场开发和生产新车型，显示其欧洲扩张从车型销售进一步进入本地化产品与制造协同。",
+          "suggested_focus": "欧洲本地化合作将带来新车型、品牌关系和区域市场沟通窗口，适合跟进西班牙及欧洲的上市内容、媒体关系和汽车创作者合作需求。",
+          "source_grade": "B"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W31 客户动态与信源明细",
+      "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W31）.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "Consumer Tech/汽车电子本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/汽车电子：W31周度信号",
+        "metric_line": "2条线索 / Top主体：FREELANDER / 奇瑞捷豹路虎",
+        "signal_line": "FREELANDER：在英国古德伍德速度节确认阿联酋为首个国际市场，并计划于9月在阿布扎比完成品牌发布，标志其全球扩张进入明确的首站落地阶段。；吉利汽车：与福特推进在西班牙建立合资合作，面向欧洲市场开发和生产新车型，显示其欧洲扩张从车型销售进一步进入本地化产品与制造协同。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|监控与家庭安防摄像头",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "监控与家庭安防摄像头",
+      "mapped_research_industry": "监控与家庭安防摄像头",
+      "industry_key": "Consumer Tech|监控与家庭安防摄像头",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "Reolink"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "监控与家庭安防摄像头本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Reolink：在美国发布并开售第二代智能视频门铃，主打本地AI识别、更长续航和免订阅本地存储，产品同步通过Reolink官网与Amazon官方渠道销售。"
+      ],
+      "verification_metrics": [
+        "Amazon排名变化",
+        "测评内容声量",
+        "官网活动转化",
+        "零售价格带"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Reolink",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W31-C003",
+          "lead_category": "EC",
+          "primary_industry": "Consumer Tech",
+          "secondary_industry": "监控与家庭安防摄像头",
+          "tertiary_category": "智能门铃",
+          "product_name": "Reolink Video Doorbell 2nd Gen",
+          "owner": "Reolink",
+          "dynamic_type": "海外新品上市",
+          "dynamic_summary": "Reolink：在美国发布并开售第二代智能视频门铃，主打本地AI识别、更长续航和免订阅本地存储，产品同步通过Reolink官网与Amazon官方渠道销售。",
+          "suggested_focus": "美国新品上市和Amazon渠道同步启动，适合围绕家庭安防测评、门铃场景内容、竞品对比和电商转化型创作者合作切入。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W31 客户动态与信源明细",
+      "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W31）.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "Consumer Tech/监控与家庭安防摄像头本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Consumer Tech/监控与家庭安防摄像头：W31周度信号",
+        "metric_line": "1条线索 / Top主体：Reolink",
+        "signal_line": "Reolink：在美国发布并开售第二代智能视频门铃，主打本地AI识别、更长续航和免订阅本地存储，产品同步通过Reolink官网与Amazon官方渠道销售。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Lifestyle|宠物用品",
+      "primary_industry": "Lifestyle",
+      "secondary_industry": "宠物用品",
+      "mapped_research_industry": "宠物用品",
+      "industry_key": "Lifestyle|宠物用品",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "OKEYPETS"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "宠物用品本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "OKEYPETS：面向全球宠物品牌、Amazon卖家和分销商发布Neoprene与Air-Mesh牵引产品系列，提供低起订量OEM/ODM、定制包装和国际运输，并披露已服务500多个海外品牌与买家。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "OKEYPETS",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W31-C002",
+          "lead_category": "EC",
+          "primary_industry": "Lifestyle",
+          "secondary_industry": "宠物用品",
+          "tertiary_category": "宠物牵引与穿戴用品",
+          "product_name": "Neoprene与Air-Mesh宠物牵引系列",
+          "owner": "OKEYPETS",
+          "dynamic_type": "全球新品/跨境供应链",
+          "dynamic_summary": "OKEYPETS：面向全球宠物品牌、Amazon卖家和分销商发布Neoprene与Air-Mesh牵引产品系列，提供低起订量OEM/ODM、定制包装和国际运输，并披露已服务500多个海外品牌与买家。",
+          "suggested_focus": "新品与跨境代工能力同时对外传播，适合围绕宠物品牌案例、Amazon卖家内容、海外买家获客和国际展会传播切入。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W31 客户动态与信源明细",
+      "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W31）.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "Lifestyle/宠物用品本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "Lifestyle/宠物用品：W31周度信号",
+        "metric_line": "1条线索 / Top主体：OKEYPETS",
+        "signal_line": "OKEYPETS：面向全球宠物品牌、Amazon卖家和分销商发布Neoprene与Air-Mesh牵引产品系列，提供低起订量OEM/ODM、定制包装和国际运输，并披露已服务500多个海外品牌与买家。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "平台|-",
+      "primary_industry": "平台",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "平台|-",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "Tencent / Weixin"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "-本周变量来自2条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "Tencent / Weixin：7月21日在新加坡启动小程序全球创新挑战东南亚赛区，覆盖马来西亚、泰国等市场，并披露小程序已进入东南亚9个市场；7月25日又发布AI文化游戏，持续强化AI工具与内容产品的国际传播。",
+        "义乌购：披露北半球高温带动欧洲便携风扇、日本与韩国防晒用品等跨境采购需求上升，平台商家通过产品升级和快速履约扩大海外订单。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "Tencent / Weixin",
+          "grade": "A"
+        },
+        {
+          "brand": "Yiwugo / 义乌购",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W31-C004",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "小程序与AI开发者生态",
+          "product_name": "Weixin Mini Program Global Innovation Challenge",
+          "owner": "Tencent / Weixin",
+          "dynamic_type": "海外生态扩张/AI产品国际化",
+          "dynamic_summary": "Tencent / Weixin：7月21日在新加坡启动小程序全球创新挑战东南亚赛区，覆盖马来西亚、泰国等市场，并披露小程序已进入东南亚9个市场；7月25日又发布AI文化游戏，持续强化AI工具与内容产品的国际传播。",
+          "suggested_focus": "东南亚开发者生态和AI内容产品同步扩张，可围绕校园与开发者社群、区域案例、AI工具教育内容及本地合作伙伴传播切入。",
+          "source_grade": "A"
+        },
+        {
+          "candidate_id": "W31-C008",
+          "lead_category": "AG",
+          "primary_industry": "平台",
+          "secondary_industry": "-",
+          "tertiary_category": "跨境批发平台",
+          "product_name": "Yiwugo.com跨境采购平台",
+          "owner": "Yiwugo / 义乌购",
+          "dynamic_type": "跨境需求增长/平台商家扩张",
+          "dynamic_summary": "义乌购：披露北半球高温带动欧洲便携风扇、日本与韩国防晒用品等跨境采购需求上升，平台商家通过产品升级和快速履约扩大海外订单。",
+          "suggested_focus": "明确的季节性海外需求可转化为平台招商与商家增长内容，适合围绕欧洲清凉产品、日韩防晒品类和跨境采购案例开展客户筛选。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W31 客户动态与信源明细",
+      "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W31）.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "平台/-本周有2条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "平台/-：W31周度信号",
+        "metric_line": "2条线索 / Top主体：Tencent / Weixin",
+        "signal_line": "Tencent / Weixin：7月21日在新加坡启动小程序全球创新挑战东南亚赛区，覆盖马来西亚、泰国等市场，并披露小程序已进入东南亚9个市场；7月25日又发布AI文化游戏，持续强化AI工具与内容产品的国际传播。；义乌购：披露北半球高温带动欧洲便携风扇、日本与韩国防晒用品等跨境采购需求上升，平台商家通过产品升级和快速履约扩大海外订单。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "泛娱乐|-",
+      "primary_industry": "泛娱乐",
+      "secondary_industry": "-",
+      "mapped_research_industry": "-",
+      "industry_key": "泛娱乐|-",
+      "metrics": {
+        "gmv": "本周线索侧未配置行业规模口径",
+        "yoy_growth": "本周线索侧未配置同比口径",
+        "cn_gmv_share": "本周线索侧未配置中国品牌份额口径",
+        "top_cn_player": "iQIYI / 爱奇艺"
+      },
+      "current_stage": "周度线索扫描",
+      "main_variable": "-本周变量来自1条客户动态，优先用于售前名单筛选和触达优先级判断。",
+      "main_tension": "当前供给来自周度客户动态，行业规模和份额不在本周情报口径内。",
+      "market_misread": "不要把单条发布误读为行业趋势，先看同类主体是否连续出现。",
+      "growth_signals_short": [
+        "爱奇艺：在iQIYI与iQIYI International同步上线首部获得网络剧片发行许可的AIGC互联网电影，完整采用AI辅助制作流程，并面向国际用户分发中国神话题材内容。"
+      ],
+      "verification_metrics": [
+        "官方更新频率",
+        "海外渠道信号",
+        "社媒声量",
+        "转化数据"
+      ],
+      "counter_signals": [
+        "硬信源后续没有渠道/榜单数据承接",
+        "海外市场动作停留在传播层"
+      ],
+      "sales_translation": "优先围绕新品、测试、区域发布、线下活动和渠道合作切入，做客户名单补全与复核。",
+      "similar_customers": [
+        {
+          "brand": "iQIYI / 爱奇艺",
+          "grade": "A"
+        }
+      ],
+      "this_week_leads": [
+        {
+          "candidate_id": "W31-C006",
+          "lead_category": "AG",
+          "primary_industry": "泛娱乐",
+          "secondary_industry": "-",
+          "tertiary_category": "AIGC影视内容",
+          "product_name": "Mystic Tales: The Spider Lady's Vendetta",
+          "owner": "iQIYI / 爱奇艺",
+          "dynamic_type": "AIGC内容国际发行",
+          "dynamic_summary": "爱奇艺：在iQIYI与iQIYI International同步上线首部获得网络剧片发行许可的AIGC互联网电影，完整采用AI辅助制作流程，并面向国际用户分发中国神话题材内容。",
+          "suggested_focus": "AIGC长内容从技术展示进入商业发行，适合围绕国际版内容宣发、AI创作者生态、海外观众教育和区域社媒话题切入。",
+          "source_grade": "A"
+        }
+      ],
+      "research_source_path": "线索采集正式库 W31 客户动态与信源明细",
+      "bottom_table_path": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W31）.xlsx",
+      "coverage_status": "周度线索覆盖",
+      "industry_conclusion": "泛娱乐/-本周有1条可复核客户动态，适合先进入销售扫描池。",
+      "visual_summary": {
+        "title": "泛娱乐/-：W31周度信号",
+        "metric_line": "1条线索 / Top主体：iQIYI / 爱奇艺",
+        "signal_line": "爱奇艺：在iQIYI与iQIYI International同步上线首部获得网络剧片发行许可的AIGC互联网电影，完整采用AI辅助制作流程，并面向国际用户分发中国神话题材内容。",
+        "risk_line": "本页只呈现周度线索事实，不替代行业规模判断。"
+      },
+      "this_week_lead_count": 1
+    }
+  ],
   "quality_check": {
-    "lead_rows": 0,
-    "industry_group_count": 0,
+    "lead_rows": 9,
+    "industry_group_count": 7,
     "covered_industry_count": 0,
-    "desktop_research_count": 0,
+    "desktop_research_count": 7,
     "gap_industry_count": 0,
     "missing_required_fields": [],
     "notes": [
