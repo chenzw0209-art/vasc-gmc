@@ -1,0 +1,21 @@
+{
+  "week": "2026-W31",
+  "generated_at": "2026-07-27",
+  "source_files": {
+    "lead_workbook": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W31）.xlsx",
+    "research_root": "Z:\\增长分析中台\\行研洞察"
+  },
+  "industries": [],
+  "quality_check": {
+    "lead_rows": 0,
+    "industry_group_count": 0,
+    "covered_industry_count": 0,
+    "desktop_research_count": 0,
+    "gap_industry_count": 0,
+    "missing_required_fields": [],
+    "notes": [
+      "W31行业供给由本周客户线索聚合生成，仅用于售前扫描与同类主体归并。",
+      "页面只读取portal/data/weekly下JSON，不读取Excel。"
+    ]
+  }
+}
