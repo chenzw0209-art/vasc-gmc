@@ -38,6 +38,7 @@ const weeklyW27 = json("portal/data/weekly/weekly_leads_content_2026_W27.json");
 const weeklyW28 = json("portal/data/weekly/weekly_leads_content_2026_W28.json");
 const weeklyW29 = json("portal/data/weekly/weekly_leads_content_2026_W29.json");
 const weeklyW30 = json("portal/data/weekly/weekly_leads_content_2026_W30.json");
+const weeklyW31 = json("portal/data/weekly/weekly_leads_content_2026_W31.json");
 
 const beautyRows = market.records.filter((x) => x.standard_l1 === "Beauty");
 const beautyLabels = beautyRows.map((x) => x.standard_l2).sort();
@@ -120,8 +121,9 @@ assertWeeklySnapshot("W27", weeklyW27, { minCustomers: 50 });
 assertWeeklySnapshot("W28", weeklyW28, { minCustomers: 50 });
 assertWeeklySnapshot("W29", weeklyW29, { minCustomers: 50 });
 assertWeeklySnapshot("W30", weeklyW30);
-assert("weekly page registers W30 JSON files", /weekly_leads_content_2026_W30\.json/.test(weeklyJs));
-assert("weekly page defaults to W30", /activeWeek:\s*"W30"/.test(weeklyJs) && /\bW30:\s*\{/.test(weeklyJs) && /value="W30" selected/.test(weeklyHtml));
+assertWeeklySnapshot("W31", weeklyW31);
+assert("weekly page registers W31 JSON files", /weekly_leads_content_2026_W31\.json/.test(weeklyJs));
+assert("weekly page defaults to W31", /activeWeek:\s*"W31"/.test(weeklyJs) && /\bW31:\s*\{/.test(weeklyJs) && /value="W31" selected/.test(weeklyHtml));
 assert("weekly selector preserves historical W24-W27 options", /value="W24"/.test(weeklyHtml) && /value="W25"/.test(weeklyHtml) && /value="W26"/.test(weeklyHtml) && /value="W27"/.test(weeklyHtml));
 for (const rel of [
   "portal/data/weekly/weekly_leads_content_2026_W24.json",

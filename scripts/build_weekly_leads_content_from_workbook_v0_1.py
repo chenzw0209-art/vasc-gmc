@@ -79,6 +79,11 @@ TENDER_MAP = {
 }
 
 WEEKLY_SUMMARY_OVERRIDES = {
+    "W31": "\n".join([
+        "2026中国国际数码互动娱乐展览会（ChinaJoy）：7月31日至8月3日在上海举行，游戏、内容平台与品牌资源集中；建议 AG、Gaming 与内容营销团队重点获取发行商、平台方和全球化合作线索。",
+        "北京世界机器人博览会：8月6日在北京开幕，覆盖机器人、具身智能与AI硬件生态；建议 AG、AI应用及 Consumer Tech 团队关注新品发布、行业客户与生态合作机会。",
+        "TikTok Shop美欧黑五预备峰会（深圳站）：8月6日在深圳举行，面向美欧市场黑五经营与平台生态；建议 EC、跨境电商及品牌出海团队重点获取卖家需求、平台招商和旺季营销线索。",
+    ]),
     "W30": "\n".join([
         "华为：7月14日在吉隆坡举行全球旗舰新品发布会，Pura 90s 系列与穿戴、平板同步亮相；新品上市期适合围绕影像内容、创作者测评与区域社媒节奏切入。",
         "2026悉尼Online Retailer Exhibition：7月22日至23日在 ICC Sydney 举办，聚集电商、零售、营销与数据服务主体；适合优先获取澳洲电商生态中的展商联系人与合作需求。",
@@ -491,11 +496,17 @@ def main():
 
     workbook = Path(args.workbook)
     wb = load_workbook(workbook, read_only=True, data_only=True)
-    # 2026-W29起正式sheet名统一为“客户动态”；兼容读取历史底表旧名。
-    customer_sheet = "客户动态" if "客户动态" in wb.sheetnames else "客户候选名单"
+    # 2026-W31起正式sheet名统一为“集团-客户动态”；兼容读取历史底表旧名。
+    if "集团-客户动态" in wb.sheetnames:
+        customer_sheet = "集团-客户动态"
+    elif "客户动态" in wb.sheetnames:
+        customer_sheet = "客户动态"
+    else:
+        customer_sheet = "客户候选名单"
     customers = read_sheet(wb, customer_sheet, CUSTOMER_MAP)
     sources = read_sheet(wb, "信源明细", SOURCE_MAP)
-    events = read_sheet(wb, "展会线索", EVENT_MAP)
+    event_sheet = "集团-展会线索" if "集团-展会线索" in wb.sheetnames else "展会线索"
+    events = read_sheet(wb, event_sheet, EVENT_MAP)
     tenders = read_sheet(wb, "招投标线索", TENDER_MAP)
     customers = [normalize_industry(row) for row in customers if row.get("week") == args.week]
     customer_ids_by_owner = defaultdict(list)
@@ -518,14 +529,12 @@ def main():
         )
     sources = [row for row in sources if row.get("week") == args.week]
     generated_day = datetime.strptime(args.generated_at, "%Y-%m-%d").date()
-    future_event_limit = generated_day + timedelta(days=30)
+    # Excel keeps a 30-day collection pool; Web/weekly only shows the next 14 days.
+    future_event_limit = generated_day + timedelta(days=14)
     events = [
         row for row in events
-        if row.get("week") == args.week
-        or (
-            parse_sheet_date(row.get("date"))
-            and generated_day <= parse_sheet_date(row.get("date")) <= future_event_limit
-        )
+        if parse_sheet_date(row.get("date"))
+        and generated_day <= parse_sheet_date(row.get("date")) <= future_event_limit
     ]
     events = sorted(events, key=lambda row: (row.get("date", ""), row.get("event_name", "")))
     tenders = [row for row in tenders if row.get("week") == args.week]
