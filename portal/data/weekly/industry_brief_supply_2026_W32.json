@@ -1,0 +1,499 @@
+{
+  "week": "2026-W32",
+  "generated_at": "2026-08-10",
+  "source_files": {
+    "lead_workbook": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W31）.xlsx",
+    "research_root": "本周公开信源与售前情报库"
+  },
+  "industries": [
+    {
+      "source_lead_industry_key": "Consumer Tech|大家电与配件",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "大家电与配件",
+      "mapped_research_industry": "Consumer Tech",
+      "industry_key": "Consumer Tech|大家电与配件",
+      "metrics": {
+        "gmv": "待持续验证",
+        "yoy_growth": "待持续验证",
+        "cn_gmv_share": "待持续验证",
+        "top_cn_player": "长虹 Changhong"
+      },
+      "current_stage": "出现明确海外动作",
+      "main_variable": "海外品牌代言",
+      "main_tension": "公开动作已确认，后续商业规模与执行效果仍需持续跟踪",
+      "market_misread": "避免把新闻曝光等同于已形成稳定收入",
+      "growth_signals_short": [
+        "长虹与印度尼西亚流行歌手Rossa建立品牌合作，并强调将结合本地营销活动与售后服务增强市场存在。"
+      ],
+      "verification_metrics": [
+        "后续项目/产品落地进度",
+        "区域渠道与用户增长数据",
+        "本地合作伙伴及内容投入"
+      ],
+      "counter_signals": [
+        "若后续缺少落地、渠道或用户数据，需下调优先级"
+      ],
+      "sales_translation": "本地明星合作已进入执行期，可关注代言内容矩阵、零售促销、粉丝互动和服务口碑传播。",
+      "similar_customers": [],
+      "this_week_leads": [
+        "W32-C011"
+      ],
+      "research_source_path": "售前情报库/集团-客户动态",
+      "bottom_table_path": "Web周报/客户动态",
+      "coverage_status": "已覆盖",
+      "industry_conclusion": "本地明星合作已进入执行期，可关注代言内容矩阵、零售促销、粉丝互动和服务口碑传播。",
+      "visual_summary": {
+        "title": "Consumer Tech / 大家电与配件",
+        "signal_line": "海外品牌代言",
+        "risk_line": "持续核验商业落地与区域执行"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Gaming|-",
+      "primary_industry": "Gaming",
+      "secondary_industry": "-",
+      "mapped_research_industry": "Gaming",
+      "industry_key": "Gaming|-",
+      "metrics": {
+        "gmv": "待持续验证",
+        "yoy_growth": "待持续验证",
+        "cn_gmv_share": "待持续验证",
+        "top_cn_player": "GearUP"
+      },
+      "current_stage": "出现明确海外动作",
+      "main_variable": "游戏IP合作",
+      "main_tension": "公开动作已确认，后续商业规模与执行效果仍需持续跟踪",
+      "market_misread": "避免把新闻曝光等同于已形成稳定收入",
+      "growth_signals_short": [
+        "GearUP与Escape from Tarkov合作，为新赛季提供8月4日至11日免费加速权益，推动全球玩家体验与拉新。"
+      ],
+      "verification_metrics": [
+        "后续项目/产品落地进度",
+        "区域渠道与用户增长数据",
+        "本地合作伙伴及内容投入"
+      ],
+      "counter_signals": [
+        "若后续缺少落地、渠道或用户数据，需下调优先级"
+      ],
+      "sales_translation": "游戏新赛季合作窗口明确，可围绕社区活动、主播/KOL体验、性能对比和付费转化切入。",
+      "similar_customers": [],
+      "this_week_leads": [
+        "W32-C012"
+      ],
+      "research_source_path": "售前情报库/集团-客户动态",
+      "bottom_table_path": "Web周报/客户动态",
+      "coverage_status": "已覆盖",
+      "industry_conclusion": "游戏新赛季合作窗口明确，可围绕社区活动、主播/KOL体验、性能对比和付费转化切入。",
+      "visual_summary": {
+        "title": "Gaming / -",
+        "signal_line": "游戏IP合作",
+        "risk_line": "持续核验商业落地与区域执行"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "泛娱乐|-",
+      "primary_industry": "泛娱乐",
+      "secondary_industry": "-",
+      "mapped_research_industry": "泛娱乐",
+      "industry_key": "泛娱乐|-",
+      "metrics": {
+        "gmv": "待持续验证",
+        "yoy_growth": "待持续验证",
+        "cn_gmv_share": "待持续验证",
+        "top_cn_player": "爱奇艺 iQIYI"
+      },
+      "current_stage": "出现明确海外动作",
+      "main_variable": "内容产品扩张",
+      "main_tension": "公开动作已确认，后续商业规模与执行效果仍需持续跟踪",
+      "market_misread": "避免把新闻曝光等同于已形成稳定收入",
+      "growth_signals_short": [
+        "爱奇艺推出短篇悬疑内容品牌Undercurrent Theater，继续拓展精品类型化短内容供给。"
+      ],
+      "verification_metrics": [
+        "后续项目/产品落地进度",
+        "区域渠道与用户增长数据",
+        "本地合作伙伴及内容投入"
+      ],
+      "counter_signals": [
+        "若后续缺少落地、渠道或用户数据，需下调优先级"
+      ],
+      "sales_translation": "短内容品牌化适合国际发行预热、类型剧受众运营、创作者合作和短视频平台导流。",
+      "similar_customers": [],
+      "this_week_leads": [
+        "W32-C009"
+      ],
+      "research_source_path": "售前情报库/集团-客户动态",
+      "bottom_table_path": "Web周报/客户动态",
+      "coverage_status": "已覆盖",
+      "industry_conclusion": "短内容品牌化适合国际发行预热、类型剧受众运营、创作者合作和短视频平台导流。",
+      "visual_summary": {
+        "title": "泛娱乐 / -",
+        "signal_line": "内容产品扩张",
+        "risk_line": "持续核验商业落地与区域执行"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|数据存储与外组件",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "数据存储与外组件",
+      "mapped_research_industry": "Consumer Tech",
+      "industry_key": "Consumer Tech|数据存储与外组件",
+      "metrics": {
+        "gmv": "待持续验证",
+        "yoy_growth": "待持续验证",
+        "cn_gmv_share": "待持续验证",
+        "top_cn_player": "海康存储 HIKSEMI"
+      },
+      "current_stage": "出现明确海外动作",
+      "main_variable": "海外展会与品牌合作",
+      "main_tension": "公开动作已确认，后续商业规模与执行效果仍需持续跟踪",
+      "market_misread": "避免把新闻曝光等同于已形成稳定收入",
+      "growth_signals_short": [
+        "HIKSEMI在DTI Indonesia展示全场景存储组合，并结合BOOM Esports合作强化东南亚AI与电竞场景认知。"
+      ],
+      "verification_metrics": [
+        "后续项目/产品落地进度",
+        "区域渠道与用户增长数据",
+        "本地合作伙伴及内容投入"
+      ],
+      "counter_signals": [
+        "若后续缺少落地、渠道或用户数据，需下调优先级"
+      ],
+      "sales_translation": "展会曝光与电竞合作叠加，可切入产品评测、游戏社区、渠道伙伴和区域B2B内容。",
+      "similar_customers": [],
+      "this_week_leads": [
+        "W32-C010"
+      ],
+      "research_source_path": "售前情报库/集团-客户动态",
+      "bottom_table_path": "Web周报/客户动态",
+      "coverage_status": "已覆盖",
+      "industry_conclusion": "展会曝光与电竞合作叠加，可切入产品评测、游戏社区、渠道伙伴和区域B2B内容。",
+      "visual_summary": {
+        "title": "Consumer Tech / 数据存储与外组件",
+        "signal_line": "海外展会与品牌合作",
+        "risk_line": "持续核验商业落地与区域执行"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Beauty|美容工具与配件",
+      "primary_industry": "Beauty",
+      "secondary_industry": "美容工具与配件",
+      "mapped_research_industry": "Beauty",
+      "industry_key": "Beauty|美容工具与配件",
+      "metrics": {
+        "gmv": "待持续验证",
+        "yoy_growth": "待持续验证",
+        "cn_gmv_share": "待持续验证",
+        "top_cn_player": "复锐医疗科技 Sisram Medical"
+      },
+      "current_stage": "出现明确海外动作",
+      "main_variable": "区域产品发布",
+      "main_tension": "公开动作已确认，后续商业规模与执行效果仍需持续跟踪",
+      "market_misread": "避免把新闻曝光等同于已形成稳定收入",
+      "growth_signals_short": [
+        "复锐医疗科技在香港发布Titanium Prime治疗概念，并将其作为面向亚太市场的产品与服务标杆。"
+      ],
+      "verification_metrics": [
+        "后续项目/产品落地进度",
+        "区域渠道与用户增长数据",
+        "本地合作伙伴及内容投入"
+      ],
+      "counter_signals": [
+        "若后续缺少落地、渠道或用户数据，需下调优先级"
+      ],
+      "sales_translation": "香港首发可承接亚太医美机构教育、医生/KOL内容、临床场景展示和区域品牌传播。",
+      "similar_customers": [],
+      "this_week_leads": [
+        "W32-C008"
+      ],
+      "research_source_path": "售前情报库/集团-客户动态",
+      "bottom_table_path": "Web周报/客户动态",
+      "coverage_status": "已覆盖",
+      "industry_conclusion": "香港首发可承接亚太医美机构教育、医生/KOL内容、临床场景展示和区域品牌传播。",
+      "visual_summary": {
+        "title": "Beauty / 美容工具与配件",
+        "signal_line": "区域产品发布",
+        "risk_line": "持续核验商业落地与区域执行"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Health|家用医疗设备",
+      "primary_industry": "Health",
+      "secondary_industry": "家用医疗设备",
+      "mapped_research_industry": "Health",
+      "industry_key": "Health|家用医疗设备",
+      "metrics": {
+        "gmv": "待持续验证",
+        "yoy_growth": "待持续验证",
+        "cn_gmv_share": "待持续验证",
+        "top_cn_player": "Momcozy"
+      },
+      "current_stage": "出现明确海外动作",
+      "main_variable": "区域新品与品牌活动",
+      "main_tension": "公开动作已确认，后续商业规模与执行效果仍需持续跟踪",
+      "market_misread": "避免把新闻曝光等同于已形成稳定收入",
+      "growth_signals_short": [
+        "Momcozy在东南亚推出Wellness 1温热按摩可穿戴吸乳器，并同步启动Breathe & Breastfeed区域品牌活动。"
+      ],
+      "verification_metrics": [
+        "后续项目/产品落地进度",
+        "区域渠道与用户增长数据",
+        "本地合作伙伴及内容投入"
+      ],
+      "counter_signals": [
+        "若后续缺少落地、渠道或用户数据，需下调优先级"
+      ],
+      "sales_translation": "区域新品与主题活动同步，适合母婴KOL、真实使用场景、本地语言内容和电商转化协同。",
+      "similar_customers": [],
+      "this_week_leads": [
+        "W32-C005"
+      ],
+      "research_source_path": "售前情报库/集团-客户动态",
+      "bottom_table_path": "Web周报/客户动态",
+      "coverage_status": "已覆盖",
+      "industry_conclusion": "区域新品与主题活动同步，适合母婴KOL、真实使用场景、本地语言内容和电商转化协同。",
+      "visual_summary": {
+        "title": "Health / 家用医疗设备",
+        "signal_line": "区域新品与品牌活动",
+        "risk_line": "持续核验商业落地与区域执行"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "平台|-",
+      "primary_industry": "平台",
+      "secondary_industry": "-",
+      "mapped_research_industry": "平台",
+      "industry_key": "平台|-",
+      "metrics": {
+        "gmv": "待持续验证",
+        "yoy_growth": "待持续验证",
+        "cn_gmv_share": "待持续验证",
+        "top_cn_player": "华为云 Huawei Cloud"
+      },
+      "current_stage": "出现明确海外动作",
+      "main_variable": "海外渠道合作",
+      "main_tension": "公开动作已确认，后续商业规模与执行效果仍需持续跟踪",
+      "market_misread": "避免把新闻曝光等同于已形成稳定收入",
+      "growth_signals_short": [
+        "华为云任命Redington为印度尼西亚分销商，以加速当地云与AI采用并扩大合作伙伴覆盖。",
+        "腾讯云与巴基斯坦流媒体平台tapmad合作支撑全球足球赛事直播，披露峰值700万并发观看和99%可用性。"
+      ],
+      "verification_metrics": [
+        "后续项目/产品落地进度",
+        "区域渠道与用户增长数据",
+        "本地合作伙伴及内容投入"
+      ],
+      "counter_signals": [
+        "若后续缺少落地、渠道或用户数据，需下调优先级"
+      ],
+      "sales_translation": "分销体系扩张意味着本地伙伴招募、行业解决方案教育和企业客户联合营销窗口。",
+      "similar_customers": [
+        "腾讯云 Tencent Cloud"
+      ],
+      "this_week_leads": [
+        "W32-C006",
+        "W32-C003"
+      ],
+      "research_source_path": "售前情报库/集团-客户动态",
+      "bottom_table_path": "Web周报/客户动态",
+      "coverage_status": "已覆盖",
+      "industry_conclusion": "分销体系扩张意味着本地伙伴招募、行业解决方案教育和企业客户联合营销窗口。",
+      "visual_summary": {
+        "title": "平台 / -",
+        "signal_line": "海外渠道合作",
+        "risk_line": "持续核验商业落地与区域执行"
+      },
+      "this_week_lead_count": 2
+    },
+    {
+      "source_lead_industry_key": "AI应用|-",
+      "primary_industry": "AI应用",
+      "secondary_industry": "-",
+      "mapped_research_industry": "AI应用",
+      "industry_key": "AI应用|-",
+      "metrics": {
+        "gmv": "待持续验证",
+        "yoy_growth": "待持续验证",
+        "cn_gmv_share": "待持续验证",
+        "top_cn_player": "LingoAce"
+      },
+      "current_stage": "出现明确海外动作",
+      "main_variable": "AI产品发布",
+      "main_tension": "公开动作已确认，后续商业规模与执行效果仍需持续跟踪",
+      "market_misread": "避免把新闻曝光等同于已形成稳定收入",
+      "growth_signals_short": [
+        "LingoAce发布AI原生英语学习平台Tutor Luna，主打针对儿童学习路径的个性化适配。"
+      ],
+      "verification_metrics": [
+        "后续项目/产品落地进度",
+        "区域渠道与用户增长数据",
+        "本地合作伙伴及内容投入"
+      ],
+      "counter_signals": [
+        "若后续缺少落地、渠道或用户数据，需下调优先级"
+      ],
+      "sales_translation": "AI教育新品需要家长教育、产品演示、学习效果内容和海外用户增长，可关注区域获客与口碑建设。",
+      "similar_customers": [],
+      "this_week_leads": [
+        "W32-C007"
+      ],
+      "research_source_path": "售前情报库/集团-客户动态",
+      "bottom_table_path": "Web周报/客户动态",
+      "coverage_status": "已覆盖",
+      "industry_conclusion": "AI教育新品需要家长教育、产品演示、学习效果内容和海外用户增长，可关注区域获客与口碑建设。",
+      "visual_summary": {
+        "title": "AI应用 / -",
+        "signal_line": "AI产品发布",
+        "risk_line": "持续核验商业落地与区域执行"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|户外便携电源储能",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "户外便携电源储能",
+      "mapped_research_industry": "Consumer Tech",
+      "industry_key": "Consumer Tech|户外便携电源储能",
+      "metrics": {
+        "gmv": "待持续验证",
+        "yoy_growth": "待持续验证",
+        "cn_gmv_share": "待持续验证",
+        "top_cn_player": "远景能源 Envision Energy"
+      },
+      "current_stage": "出现明确海外动作",
+      "main_variable": "海外项目签约",
+      "main_tension": "公开动作已确认，后续商业规模与执行效果仍需持续跟踪",
+      "market_misread": "避免把新闻曝光等同于已形成稳定收入",
+      "growth_signals_short": [
+        "远景能源与REE Energy签署越南200MW近海风电项目，这是其迄今规模最大的海外近海风电项目，进一步扩大东南亚新能源项目版图。"
+      ],
+      "verification_metrics": [
+        "后续项目/产品落地进度",
+        "区域渠道与用户增长数据",
+        "本地合作伙伴及内容投入"
+      ],
+      "counter_signals": [
+        "若后续缺少落地、渠道或用户数据，需下调优先级"
+      ],
+      "sales_translation": "大型海外项目进入落地阶段，可围绕越南本地行业传播、项目里程碑内容、雇主品牌与区域合作伙伴沟通切入。",
+      "similar_customers": [],
+      "this_week_leads": [
+        "W32-C001"
+      ],
+      "research_source_path": "售前情报库/集团-客户动态",
+      "bottom_table_path": "Web周报/客户动态",
+      "coverage_status": "已覆盖",
+      "industry_conclusion": "大型海外项目进入落地阶段，可围绕越南本地行业传播、项目里程碑内容、雇主品牌与区域合作伙伴沟通切入。",
+      "visual_summary": {
+        "title": "Consumer Tech / 户外便携电源储能",
+        "signal_line": "海外项目签约",
+        "risk_line": "持续核验商业落地与区域执行"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Consumer Tech|电视与视频显示",
+      "primary_industry": "Consumer Tech",
+      "secondary_industry": "电视与视频显示",
+      "mapped_research_industry": "Consumer Tech",
+      "industry_key": "Consumer Tech|电视与视频显示",
+      "metrics": {
+        "gmv": "待持续验证",
+        "yoy_growth": "待持续验证",
+        "cn_gmv_share": "待持续验证",
+        "top_cn_player": "海信 Hisense"
+      },
+      "current_stage": "出现明确海外动作",
+      "main_variable": "全球新品发布",
+      "main_tension": "公开动作已确认，后续商业规模与执行效果仍需持续跟踪",
+      "market_misread": "避免把新闻曝光等同于已形成稳定收入",
+      "growth_signals_short": [
+        "海信面向全球发布PX4 Pro激光影院，并强调其产品与服务覆盖180多个国家和地区，持续强化高端大屏影音的全球化定位。"
+      ],
+      "verification_metrics": [
+        "后续项目/产品落地进度",
+        "区域渠道与用户增长数据",
+        "本地合作伙伴及内容投入"
+      ],
+      "counter_signals": [
+        "若后续缺少落地、渠道或用户数据，需下调优先级"
+      ],
+      "sales_translation": "新品全球发布适合联动区域评测、家庭影院场景内容、零售渠道教育和高端消费人群种草。",
+      "similar_customers": [],
+      "this_week_leads": [
+        "W32-C002"
+      ],
+      "research_source_path": "售前情报库/集团-客户动态",
+      "bottom_table_path": "Web周报/客户动态",
+      "coverage_status": "已覆盖",
+      "industry_conclusion": "新品全球发布适合联动区域评测、家庭影院场景内容、零售渠道教育和高端消费人群种草。",
+      "visual_summary": {
+        "title": "Consumer Tech / 电视与视频显示",
+        "signal_line": "全球新品发布",
+        "risk_line": "持续核验商业落地与区域执行"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "Health|非处方药与急救",
+      "primary_industry": "Health",
+      "secondary_industry": "非处方药与急救",
+      "mapped_research_industry": "Health",
+      "industry_key": "Health|非处方药与急救",
+      "metrics": {
+        "gmv": "待持续验证",
+        "yoy_growth": "待持续验证",
+        "cn_gmv_share": "待持续验证",
+        "top_cn_player": "歌礼制药 Ascletis"
+      },
+      "current_stage": "出现明确海外动作",
+      "main_variable": "全球临床推进",
+      "main_tension": "公开动作已确认，后续商业规模与执行效果仍需持续跟踪",
+      "market_misread": "避免把新闻曝光等同于已形成稳定收入",
+      "growth_signals_short": [
+        "歌礼宣布口服小分子GLP-1药物ASC30启动全球III期，计划在美国、欧洲和加拿大纳入约4600名参与者。"
+      ],
+      "verification_metrics": [
+        "后续项目/产品落地进度",
+        "区域渠道与用户增长数据",
+        "本地合作伙伴及内容投入"
+      ],
+      "counter_signals": [
+        "若后续缺少落地、渠道或用户数据，需下调优先级"
+      ],
+      "sales_translation": "全球临床推进将带来国际医学传播、患者教育、研究者沟通和资本市场内容需求。",
+      "similar_customers": [],
+      "this_week_leads": [
+        "W32-C004"
+      ],
+      "research_source_path": "售前情报库/集团-客户动态",
+      "bottom_table_path": "Web周报/客户动态",
+      "coverage_status": "已覆盖",
+      "industry_conclusion": "全球临床推进将带来国际医学传播、患者教育、研究者沟通和资本市场内容需求。",
+      "visual_summary": {
+        "title": "Health / 非处方药与急救",
+        "signal_line": "全球临床推进",
+        "risk_line": "持续核验商业落地与区域执行"
+      },
+      "this_week_lead_count": 1
+    }
+  ],
+  "quality_check": {
+    "lead_rows": 12,
+    "industry_group_count": 11,
+    "covered_industry_count": 11,
+    "desktop_research_count": 12,
+    "gap_industry_count": 0,
+    "missing_required_fields": [],
+    "notes": [
+      "W32/W33为双周回补独立快照",
+      "行业指标未用未经核验的估算值填充"
+    ]
+  }
+}
