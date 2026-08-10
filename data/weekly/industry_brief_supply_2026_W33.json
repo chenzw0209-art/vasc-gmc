@@ -1,0 +1,108 @@
+{
+  "week": "2026-W33",
+  "generated_at": "2026-08-10",
+  "source_files": {
+    "lead_workbook": "Z:\\增长分析中台\\线索采集\\售前情报库（更新至W31）.xlsx",
+    "research_root": "本周公开信源与售前情报库"
+  },
+  "industries": [
+    {
+      "source_lead_industry_key": "Fashion|鞋履",
+      "primary_industry": "Fashion",
+      "secondary_industry": "鞋履",
+      "mapped_research_industry": "Fashion",
+      "industry_key": "Fashion|鞋履",
+      "metrics": {
+        "gmv": "待持续验证",
+        "yoy_growth": "待持续验证",
+        "cn_gmv_share": "待持续验证",
+        "top_cn_player": "特步 XTEP"
+      },
+      "current_stage": "出现明确海外动作",
+      "main_variable": "海外体育赞助",
+      "main_tension": "公开动作已确认，后续商业规模与执行效果仍需持续跟踪",
+      "market_misread": "避免把新闻曝光等同于已形成稳定收入",
+      "growth_signals_short": [
+        "特步与Techcombank胡志明市国际马拉松建立2026至2030年五年战略及技术合作，持续经营越南跑步人群。"
+      ],
+      "verification_metrics": [
+        "后续项目/产品落地进度",
+        "区域渠道与用户增长数据",
+        "本地合作伙伴及内容投入"
+      ],
+      "counter_signals": [
+        "若后续缺少落地、渠道或用户数据，需下调优先级"
+      ],
+      "sales_translation": "长期赛事合作形成稳定内容资产，可切入跑者社区、赛事内容、产品体验和东南亚区域品牌建设。",
+      "similar_customers": [],
+      "this_week_leads": [
+        "W33-C001"
+      ],
+      "research_source_path": "售前情报库/集团-客户动态",
+      "bottom_table_path": "Web周报/客户动态",
+      "coverage_status": "已覆盖",
+      "industry_conclusion": "长期赛事合作形成稳定内容资产，可切入跑者社区、赛事内容、产品体验和东南亚区域品牌建设。",
+      "visual_summary": {
+        "title": "Fashion / 鞋履",
+        "signal_line": "海外体育赞助",
+        "risk_line": "持续核验商业落地与区域执行"
+      },
+      "this_week_lead_count": 1
+    },
+    {
+      "source_lead_industry_key": "AI应用|-",
+      "primary_industry": "AI应用",
+      "secondary_industry": "-",
+      "mapped_research_industry": "AI应用",
+      "industry_key": "AI应用|-",
+      "metrics": {
+        "gmv": "待持续验证",
+        "yoy_growth": "待持续验证",
+        "cn_gmv_share": "待持续验证",
+        "top_cn_player": "Singdata"
+      },
+      "current_stage": "出现明确海外动作",
+      "main_variable": "AI生态合作",
+      "main_tension": "公开动作已确认，后续商业规模与执行效果仍需持续跟踪",
+      "market_misread": "避免把新闻曝光等同于已形成稳定收入",
+      "growth_signals_short": [
+        "Singdata成为Synagie Geene 2.0 AI Commerce的创始数据合作伙伴，承担品牌电商数据基础设施层，并接入BytePlus、CMI等生态。"
+      ],
+      "verification_metrics": [
+        "后续项目/产品落地进度",
+        "区域渠道与用户增长数据",
+        "本地合作伙伴及内容投入"
+      ],
+      "counter_signals": [
+        "若后续缺少落地、渠道或用户数据，需下调优先级"
+      ],
+      "sales_translation": "AI电商生态正在成形，可关注品牌客户联合案例、数据产品教育、区域商家增长和生态伙伴传播。",
+      "similar_customers": [],
+      "this_week_leads": [
+        "W33-C002"
+      ],
+      "research_source_path": "售前情报库/集团-客户动态",
+      "bottom_table_path": "Web周报/客户动态",
+      "coverage_status": "已覆盖",
+      "industry_conclusion": "AI电商生态正在成形，可关注品牌客户联合案例、数据产品教育、区域商家增长和生态伙伴传播。",
+      "visual_summary": {
+        "title": "AI应用 / -",
+        "signal_line": "AI生态合作",
+        "risk_line": "持续核验商业落地与区域执行"
+      },
+      "this_week_lead_count": 1
+    }
+  ],
+  "quality_check": {
+    "lead_rows": 2,
+    "industry_group_count": 2,
+    "covered_industry_count": 2,
+    "desktop_research_count": 2,
+    "gap_industry_count": 0,
+    "missing_required_fields": [],
+    "notes": [
+      "W32/W33为双周回补独立快照",
+      "行业指标未用未经核验的估算值填充"
+    ]
+  }
+}
