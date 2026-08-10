@@ -9,11 +9,11 @@
   const $ = (selector) => document.querySelector(selector);
   const WEEK_FILES = {
     W33: {
-      leads: "./data/weekly/weekly_leads_content_2026_W33.json?v=20260810-weekly-w33",
+      leads: "./data/weekly/weekly_leads_content_2026_W33.json?v=20260810-weekly-w33-exhibition-qa2",
       industry: "./data/weekly/industry_brief_supply_2026_W33.json?v=20260810-weekly-w33",
     },
     W32: {
-      leads: "./data/weekly/weekly_leads_content_2026_W32.json?v=20260810-weekly-w32-backfill",
+      leads: "./data/weekly/weekly_leads_content_2026_W32.json?v=20260810-weekly-w32-exhibition-qa2",
       industry: "./data/weekly/industry_brief_supply_2026_W32.json?v=20260810-weekly-w32-backfill",
     },
     W31: {
