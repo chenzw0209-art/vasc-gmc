@@ -457,9 +457,117 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
 .empty-state { padding: 42px 24px; border: 1px dashed #c9d5e8; border-radius: 14px; color: var(--muted); background: #fff; text-align: center; }
 #weekly-panel .empty-state { color: #b8cbea; border-color: rgba(168, 200, 247, .4); background: rgba(255, 255, 255, .06); }
 
+/* Beauty insight: fact → platform validation → platform-local baseline. */
+.beauty-insight-dashboard { display: grid; gap: 18px; }
+.beauty-insight-thesis,
+.beauty-insight-section,
+.beauty-data-needs {
+  border: 1px solid #dfe8f4;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(15, 35, 63, .04);
+}
+.beauty-insight-thesis {
+  display: grid;
+  grid-template-columns: 142px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  padding: 18px 20px;
+  border-left: 4px solid #1d4ed8;
+  background: linear-gradient(100deg, #f4f8ff 0%, #fff 62%);
+}
+.beauty-insight-thesis span,
+.beauty-insight-section-head > div > span,
+.beauty-data-needs header > span {
+  color: #3568aa;
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: .08em;
+}
+.beauty-insight-thesis h4 { margin: 0; color: #172d4e; font-size: 18px; line-height: 1.5; }
+.beauty-insight-thesis p { grid-column: 2; margin: -8px 0 0; color: #5d6f87; font-size: 13px; line-height: 1.65; }
+.beauty-insight-section { overflow: hidden; }
+.beauty-insight-section-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: end;
+  padding: 17px 20px 14px;
+  border-bottom: 1px solid #e9eff6;
+}
+.beauty-insight-section-head h4,
+.beauty-data-needs h4 { margin: 4px 0 0; color: #182e4e; font-size: 17px; }
+.beauty-insight-section-head p { max-width: 500px; margin: 0; color: #6b7d93; font-size: 12px; line-height: 1.55; text-align: right; }
+.beauty-cognition-grid,
+.beauty-validation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.beauty-cognition-card,
+.beauty-validation-card { min-width: 0; padding: 16px 18px; }
+.beauty-cognition-card + .beauty-cognition-card,
+.beauty-validation-card + .beauty-validation-card { border-left: 1px solid #e9eff6; }
+.beauty-cognition-card header { display: grid; gap: 7px; }
+.beauty-cognition-card h5,
+.beauty-validation-card h5 { margin: 0; color: #1c324e; font-size: 14px; line-height: 1.45; }
+.beauty-cognition-card a { color: #3568aa; font-size: 11px; text-decoration: none; }
+.beauty-cognition-card a:hover { text-decoration: underline; }
+.beauty-cognition-card p,
+.beauty-validation-card p { min-height: 54px; margin: 12px 0; color: #52657d; font-size: 12px; line-height: 1.6; }
+.beauty-cognition-card strong { display: block; color: #243d5e; font-size: 12px; line-height: 1.55; }
+.beauty-validation-card { position: relative; background: #fbfdff; }
+.beauty-validation-card::before { content: ""; display: block; width: 26px; height: 3px; margin-bottom: 12px; border-radius: 3px; background: #1d4ed8; }
+.beauty-validation-card > span { color: #50709a; font-size: 11px; font-weight: 800; letter-spacing: .04em; }
+.beauty-validation-card p { min-height: 76px; margin-bottom: 0; color: #384f6c; }
+.beauty-market-base { padding-bottom: 18px; }
+.beauty-country-row { display: flex; flex-wrap: wrap; gap: 7px; padding: 14px 20px 6px; }
+.beauty-platform-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  padding: 12px 20px 0;
+}
+.beauty-platform-panel { min-width: 0; border: 1px solid #dce7f3; border-radius: 11px; background: #fff; overflow: hidden; }
+.beauty-platform-head { display: flex; justify-content: space-between; gap: 10px; padding: 14px; border-bottom: 1px solid #e9eff6; }
+.beauty-platform-head h5 { margin: 0; color: #1d3351; font-size: 15px; }
+.beauty-platform-head p { margin: 5px 0 0; color: #718197; font-size: 11px; }
+.beauty-platform-head > strong { color: #174d96; font-size: 13px; white-space: nowrap; }
+.beauty-platform-l2 { padding: 13px 14px 9px; }
+.beauty-platform-l2 > span,
+.beauty-platform-players header > span { color: #536d8d; font-size: 11px; font-weight: 800; }
+.beauty-l2-row { display: grid; grid-template-columns: minmax(78px, 1fr) minmax(44px, 1.15fr) 42px; gap: 7px; align-items: center; padding: 7px 0; }
+.beauty-l2-row b { overflow: hidden; color: #2a405d; font-size: 11px; text-overflow: ellipsis; white-space: nowrap; }
+.beauty-l2-row i { display: block; height: 5px; overflow: hidden; border-radius: 99px; background: #e8eef7; }
+.beauty-l2-row i em { display: block; height: 100%; border-radius: inherit; background: #3775d2; }
+.beauty-l2-row strong { color: #4b5f78; font-size: 11px; font-variant-numeric: tabular-nums; text-align: right; }
+.beauty-platform-players { padding: 11px 14px 10px; border-top: 1px solid #e9eff6; background: #fcfdff; }
+.beauty-platform-players header { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.beauty-platform-players header small { overflow: hidden; color: #7b8999; font-size: 10px; text-align: right; text-overflow: ellipsis; white-space: nowrap; }
+.beauty-platform-players ol { margin: 7px 0 0; padding: 0; list-style: none; }
+.beauty-platform-players li { display: grid; grid-template-columns: minmax(0, 1fr) 72px 68px; gap: 6px; align-items: center; padding: 5px 0; border-bottom: 1px solid #eff3f8; }
+.beauty-platform-players li:last-child { border-bottom: 0; }
+.beauty-platform-players li b { overflow: hidden; color: #2b405e; font-size: 11px; text-overflow: ellipsis; white-space: nowrap; }
+.beauty-platform-players li span { overflow: hidden; color: #7c8a9b; font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
+.beauty-platform-players li strong { color: #425976; font-size: 10px; font-variant-numeric: tabular-nums; text-align: right; }
+.beauty-platform-players > p { margin: 10px 0 3px; color: #7a899d; font-size: 11px; line-height: 1.5; }
+.beauty-platform-panel > footer { padding: 10px 14px; color: #78879a; font-size: 10px; line-height: 1.5; border-top: 1px solid #e9eff6; background: #f6f9fd; }
+.beauty-data-needs { padding: 16px 20px; }
+.beauty-data-needs header { display: flex; align-items: end; justify-content: space-between; gap: 12px; }
+.beauty-data-needs > div { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0; margin-top: 13px; border-top: 1px solid #e9eff6; }
+.beauty-data-needs article { min-width: 0; padding: 12px 12px 0; }
+.beauty-data-needs article + article { border-left: 1px solid #e9eff6; }
+.beauty-data-needs article:first-child { padding-left: 0; }
+.beauty-data-needs article:last-child { padding-right: 0; }
+.beauty-data-needs strong { display: block; color: #29415f; font-size: 12px; }
+.beauty-data-needs p { margin: 5px 0 0; color: #77869a; font-size: 11px; line-height: 1.45; }
+
 @media (max-width: 1060px) {
   .market-filter-card { grid-template-columns: 1fr 1fr; }
   .preference-actions { justify-content: flex-start; }
+  .beauty-platform-grid { grid-template-columns: 1fr; }
+  .beauty-platform-players li { grid-template-columns: minmax(0, 1fr) 130px 86px; }
+  .beauty-data-needs > div { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .beauty-data-needs article:nth-child(4) { border-left: 0; }
 }
 
 @media (max-width: 900px) {
@@ -484,6 +592,12 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   .ec-player-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .ec-player-kpis span:nth-child(2) { border-right: 0; }
   .ec-player-kpis span:nth-child(-n+2) { border-bottom: 1px solid #e6eef8; }
+  .beauty-cognition-grid,
+  .beauty-validation-grid { grid-template-columns: 1fr; }
+  .beauty-cognition-card + .beauty-cognition-card,
+  .beauty-validation-card + .beauty-validation-card { border-top: 1px solid #e9eff6; border-left: 0; }
+  .beauty-cognition-card p,
+  .beauty-validation-card p { min-height: 0; }
 }
 
 @media (max-width: 620px) {
@@ -534,6 +648,17 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   .ec-player-kpis span, .ec-player-kpis span:nth-child(2) { border-right: 0; border-bottom: 1px solid #e6eef8; }
   .ec-player-kpis span:last-child { border-bottom: 0; }
   .ec-player-table-scroll { max-height: 360px; }
+  .beauty-insight-thesis { grid-template-columns: 1fr; gap: 8px; }
+  .beauty-insight-thesis p { grid-column: auto; margin: 0; }
+  .beauty-insight-section-head { display: grid; gap: 8px; }
+  .beauty-insight-section-head p { text-align: left; }
+  .beauty-country-row,
+  .beauty-platform-grid { padding-left: 14px; padding-right: 14px; }
+  .beauty-data-needs { padding: 15px 14px; }
+  .beauty-data-needs > div { grid-template-columns: 1fr 1fr; }
+  .beauty-data-needs article:nth-child(n) { padding: 11px 10px; border-left: 1px solid #e9eff6; border-bottom: 1px solid #e9eff6; }
+  .beauty-data-needs article:nth-child(odd) { padding-left: 0; border-left: 0; }
+  .beauty-data-needs article:nth-child(n+5) { border-bottom: 0; }
   .card-header { display: grid; }
   .card-date { text-align: left; white-space: normal; }
   .opportunity-card { padding: 17px; }
@@ -554,7 +679,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
         <div class="sidebar-user"><span class="avatar" id="user-avatar">销</span><span><strong id="user-name"></strong><small>BD 试点</small></span></div>
         <nav class="nav-list" aria-label="工作台导航">
           <button class="nav-item active" data-view="weekly"><span>✦</span>本周推荐</button>
-          <button class="nav-item" data-view="market"><span>⌁</span>市场总览</button>
+          <button class="nav-item" data-view="market"><span>⌁</span>市场洞察</button>
           <section class="market-nav-tree hidden" id="market-nav-tree" aria-label="市场行业导航"></section>
           <button class="nav-item" data-view="search"><span>⌕</span>主动搜索</button>
         </nav>
@@ -575,7 +700,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
             <h1 id="page-title">本周推荐</h1>
             <p id="page-subtitle">给你值得联系的企业与展会动态，并附一条可直接开聊的拓客话术。</p>
           </div>
-          <button class="user-card" type="button" data-view="market" title="前往市场总览设置关注行业">
+          <button class="user-card" type="button" data-view="market" title="前往市场洞察设置关注行业">
             <span class="avatar" id="header-avatar">销</span>
             <span><strong id="header-user-name"></strong><small id="preference-status">设置关注行业</small></span>
           </button>
@@ -605,16 +730,16 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
         <section class="view-panel hidden" id="market-panel">
           <section class="market-hero">
             <div>
-              <div class="market-kicker">MARKET OVERVIEW</div>
-              <h2>市场总览</h2>
-              <p>从行业格局到头部玩家与产品供给，所有数值只在同一平台、期间与口径内对比。</p>
+              <div class="market-kicker">MARKET INSIGHT</div>
+              <h2>市场洞察</h2>
+              <p>先用行业事实定义机会，再用平台本地数据验证；大盘与玩家清单保留在各自的平台、国家与期间内阅读。</p>
             </div>
             <div class="market-hero-stat" id="market-scope-stat"></div>
           </section>
           <section class="market-workspace" aria-live="polite">
             <header class="market-context-bar">
               <div>
-                <div class="market-breadcrumb" id="market-breadcrumb">市场总览</div>
+                <div class="market-breadcrumb" id="market-breadcrumb">市场洞察</div>
               <h3 id="market-context-title">选择行业</h3>
               <p id="market-context-copy">EC 与 AG 仅为导航分组；请从左侧进入具体一级行业。</p>
               </div>
@@ -625,7 +750,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
             </header>
             <p class="preference-note" id="market-preference-note"></p>
             <div class="market-tabs" id="market-tabs" role="tablist" aria-label="市场仪表盘维度">
-              <button type="button" role="tab" data-market-dimension="industry">行业大盘</button>
+              <button type="button" role="tab" data-market-dimension="industry">行业洞察</button>
               <button type="button" role="tab" data-market-dimension="players">玩家大盘</button>
               <button type="button" role="tab" data-market-dimension="products">产品 / 商品大盘</button>
             </div>
@@ -668,6 +793,29 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   const MARKET_SUB_TAXONOMY = {
     AG: { "泛娱乐": ["短剧"] },
   };
+  const BEAUTY_INSIGHT_CONTEXT = [
+    {
+      title: "日常功效护肤仍是消费重心",
+      source: "Circana · 2026-08-11 · 美国零售",
+      href: "https://www.circana.com/post/us-beauty-industry-posts-solid-first-half-growth-as-fragrance-and-skincare-lead-across-prestige-and",
+      fact: "Circana 记录到美国 H1 2026 护肤领跑 prestige Beauty；身体护理和防晒也带动日常护理扩张。",
+      meaning: "Beauty 的切入点应先看消费者持续购买的护理路径，而不是把“护肤”作为一个笼统大类。",
+    },
+    {
+      title: "香水需要按社交发现重新观察",
+      source: "Circana · 2026-08-11 · 美国零售",
+      href: "https://www.circana.com/post/us-beauty-industry-posts-solid-first-half-growth-as-fragrance-and-skincare-lead-across-prestige-and",
+      fact: "Circana 在美国 H1 2026 观察到香水在 prestige 与 mass 都是强势类别，但两侧增长驱动并不相同。",
+      meaning: "旧 Amazon 单平台的香水判断不能直接迁移到社交电商或其他国家。",
+    },
+    {
+      title: "设备与功效产品应按组合观察",
+      source: "APR IR · 2026-05-07 · 全球 / 美国",
+      href: "https://apr-in.aprd.io/ir/APR_Earnings%20Release_1Q26_ENG_vF.pdf",
+      fact: "APR 披露 1Q26 Cosmetics/Beauty 同比 +174.3%、Beauty Device 同比 +46.0%，并披露美国收入同比 +250.8%。",
+      meaning: "设备、功效型消耗品与内容渠道可能共同构成经营模型，不能先按单一 L2 下结论。",
+    },
+  ];
   const $ = (selector) => document.querySelector(selector);
   const localDemo = window.__WORKBENCH_LOCAL_DEMO__ || null;
 
@@ -1091,6 +1239,136 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     return `<article class="ec-highlight-item"><span>${escapeHtml(label)}</span><h5>${escapeHtml(conclusion)}</h5><p>${escapeHtml(evidence)}</p></article>`;
   }
 
+  function beautyPlatform(record, name) {
+    return (record?.platforms || []).find((platform) => platform.platform === name) || null;
+  }
+
+  function beautyTopL2(platform, label) {
+    return (platform?.l2_breakdown || []).find((item) => item.label === label) || null;
+  }
+
+  function beautyFaceCareRepeat() {
+    return ["ID", "MY", "TH", "VN"].map((countryCode) => {
+      const record = ecPlatformMapRecords().find((item) => item.industry === "Beauty" && item.country_code === countryCode);
+      const tiktok = beautyTopL2(beautyPlatform(record, "TikTok Shop"), "面部护理");
+      const shopee = beautyTopL2(beautyPlatform(record, "Shopee"), "面部护理");
+      return record && tiktok && shopee ? { record, tiktok, shopee } : null;
+    }).filter(Boolean);
+  }
+
+  function beautyFragranceSignals() {
+    return ["BR", "US", "MY"].map((countryCode) => {
+      const record = ecPlatformMapRecords().find((item) => item.industry === "Beauty" && item.country_code === countryCode);
+      const platform = beautyPlatform(record, "TikTok Shop");
+      const fragrance = beautyTopL2(platform, "香水");
+      return record && platform && fragrance ? { record, platform, fragrance } : null;
+    }).filter(Boolean);
+  }
+
+  function beautyMedicubeSignal() {
+    const bucket = ecPlayerRecords().find((item) => item.country_code === "US" && item.industry === "Beauty" && item.platform === "TikTok Shop");
+    const player = (bucket?.players || []).find((item) => String(item.name || "").toLowerCase() === "medicube");
+    return { bucket, player };
+  }
+
+  function beautyInsightContextCards() {
+    return `<section class="beauty-insight-section beauty-cognition">
+      <header class="beauty-insight-section-head">
+        <div><span>01 · INDUSTRY COGNITION</span><h4>行业认知</h4></div>
+        <p>行业事件先界定“为什么值得单独观察”，不把外部零售或公司数据混写成平台 GMV。</p>
+      </header>
+      <div class="beauty-cognition-grid">${BEAUTY_INSIGHT_CONTEXT.map((item) => `<article class="beauty-cognition-card">
+        <header><h5>${escapeHtml(item.title)}</h5><a href="${escapeHtml(item.href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.source)}</a></header>
+        <p>${escapeHtml(item.fact)}</p>
+        <strong>${escapeHtml(item.meaning)}</strong>
+      </article>`).join("")}</div>
+    </section>`;
+  }
+
+  function beautyValidationCards() {
+    const faceCare = beautyFaceCareRepeat();
+    const fragrances = beautyFragranceSignals();
+    const medicube = beautyMedicubeSignal();
+    const faceEvidence = faceCare.length
+      ? `${faceCare.map((item) => `${item.record.country}：TikTok Shop ${percent(item.tiktok.share_within_l1)} / Shopee ${percent(item.shopee.share_within_l1)}`).join("；")}。以上均为各自平台、各自国家 Beauty 内的 L2 占比。`
+      : "当前地图未同时覆盖足以验证该命题的国家与平台。";
+    const fragranceEvidence = fragrances.length
+      ? `${fragrances.map((item) => `${item.record.country} TikTok Shop ${percent(item.fragrance.share_within_l1)}`).join("；")}。均为平台内 Beauty 结构，不相加。`
+      : "当前地图未覆盖足以验证香水社交电商结构的国家。";
+    const medicubeEvidence = medicube.player
+      ? `美国 TikTok Shop 玩家快照中，Medicube 在 ${medicube.bucket.period} 的 ${medicube.bucket.metric} 为 ${playerMetricValue(medicube.player)}，相邻期间变化 ${playerGrowthLabel(medicube.player.growth_rate_pct)}。`
+      : "当前玩家快照未找到 Medicube 的美国 TikTok Shop 记录。";
+    return `<section class="beauty-insight-section beauty-validation">
+      <header class="beauty-insight-section-head">
+        <div><span>02 · PLATFORM VALIDATION</span><h4>平台数据验证</h4></div>
+        <p>只用本地三平台快照验证命题；没有跨平台 GMV 加总、份额或玩家排名。</p>
+      </header>
+      <div class="beauty-validation-grid">
+        <article class="beauty-validation-card"><span>面部护理</span><h5>东南亚多平台重复居前</h5><p>${escapeHtml(faceEvidence)}</p></article>
+        <article class="beauty-validation-card"><span>香水</span><h5>社交电商结构需要重估</h5><p>${escapeHtml(fragranceEvidence)}</p></article>
+        <article class="beauty-validation-card"><span>设备 × 功效产品</span><h5>按组合而非单一 L2 观察</h5><p>${escapeHtml(medicubeEvidence)}</p></article>
+      </div>
+    </section>`;
+  }
+
+  function beautyPlatformPanel(record, platform) {
+    const l2Items = [...(platform?.l2_breakdown || [])]
+      .sort((left, right) => Number(right.value_usd || 0) - Number(left.value_usd || 0))
+      .slice(0, 6);
+    const maxValue = Math.max(...l2Items.map((item) => Number(item.value_usd || 0)), 1);
+    const bucket = ecPlayerRecords().find((item) => item.country_code === record.country_code && item.industry === "Beauty" && item.platform === platform.platform);
+    const players = [...(bucket?.players || [])]
+      .sort((left, right) => Number(right.value_usd || 0) - Number(left.value_usd || 0))
+      .slice(0, 5);
+    return `<article class="beauty-platform-panel">
+      <header class="beauty-platform-head">
+        <div><h5>${escapeHtml(platform.platform)}</h5><p>${escapeHtml(platform.period)} · ${escapeHtml(record.metric)}</p></div>
+        <strong>${escapeHtml(monthlyUsd(monthValue(platform.value_usd)))}</strong>
+      </header>
+      <section class="beauty-platform-l2">
+        <span>二级行业结构</span>
+        ${l2Items.map((item) => `<div class="beauty-l2-row"><b>${escapeHtml(item.label)}</b><i><em style="width:${Math.max(4, Number(item.share_within_l1 || 0) * 100).toFixed(1)}%"></em></i><strong>${percent(item.share_within_l1)}</strong></div>`).join("") || "<p>当前平台没有 Beauty 二级行业结构。</p>"}
+      </section>
+      <section class="beauty-platform-players">
+        <header><span>玩家清单</span><small>${escapeHtml(bucket ? `${bucket.metric} · ${bucket.period}` : "当前平台未接入玩家快照")}</small></header>
+        ${players.length
+          ? `<ol>${players.map((player) => `<li><b>${escapeHtml(player.name)}</b><span>${escapeHtml(player.category || "-")}</span><strong>${escapeHtml(playerMetricValue(player))}</strong></li>`).join("")}</ol>`
+          : "<p>未接入该平台、国家与 Beauty 的玩家快照。</p>"}
+      </section>
+      <footer>${escapeHtml(platform.platform)} 仅与本栏的国家、期间、L2 分母和玩家快照对应；不与同页其他平台合并。</footer>
+    </article>`;
+  }
+
+  function beautyDataNeeds() {
+    const fields = [
+      ["SKU 结构", "无法拆出设备、消耗品与 hero SKU"],
+      ["价格带", "无法判断平台差异是品类还是价格驱动"],
+      ["复购", "无法验证日常护理与香水的持续需求"],
+      ["官方主体", "玩家名称尚不能全部映射公司 / 品牌"],
+      ["授权链路", "无法判断官方店、经销商与多品牌店"],
+      ["本地合规", "功效宣称、配方与进口资料尚未接入"],
+    ];
+    return `<section class="beauty-data-needs"><header><span>04 · MISSING INPUTS</span><h4>暂未具备的数据</h4></header><div>${fields.map(([label, copy]) => `<article><strong>${escapeHtml(label)}</strong><p>${escapeHtml(copy)}</p></article>`).join("")}</div></section>`;
+  }
+
+  function renderBeautyInsightDimension(record) {
+    return `<section class="beauty-insight-dashboard">
+      <section class="beauty-insight-thesis"><span>BEAUTY · 2026</span><h4>Beauty 不是一个跨平台大盘：先分别观察东南亚面部护理、社交电商香水，以及设备 × 功效产品的组合。</h4><p>外部事实定义命题；各国、各平台的本地数据只用于验证相应命题。市场底表与玩家清单留在独立平台栏内。</p></section>
+      ${beautyInsightContextCards()}
+      ${beautyValidationCards()}
+      <section class="beauty-insight-section beauty-market-base">
+        <header class="beauty-insight-section-head">
+          <div><span>03 · PLATFORM BASELINE</span><h4>数据大盘</h4></div>
+          <p>选择国家后，三栏独立展示可用平台底表；月均 GMV 仅为各栏年化/校准后 GMV ÷ 12。</p>
+        </header>
+        <div class="beauty-country-row" role="group" aria-label="Beauty 观察国家">${orderedCountries(record).map((item) => `<button type="button" class="market-chip${item.country_code === record.country_code ? " active" : ""}" data-market-country="${escapeHtml(item.country_code)}">${escapeHtml(item.country)}</button>`).join("")}</div>
+        <div class="beauty-platform-grid">${(record.platforms || []).map((platform) => beautyPlatformPanel(record, platform)).join("")}</div>
+      </section>
+      ${beautyDataNeeds()}
+      <p class="market-dimension-note">本页数据快照截至 ${escapeHtml(state.data?.market_overview?.ec_platform_map?.as_of_date || "2026-08-27")}。外部事实与本地平台数据的市场、指标和期间不同，未作换算或拼接。</p>
+    </section>`;
+  }
+
   function ecMarketHighlights(record, l2) {
     const scope = state.market.platformScope || "all";
     const platforms = platformMonthlyItems(record);
@@ -1207,6 +1485,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   }
 
   function renderEcPlatformIndustryDimension(record) {
+    if (record.industry === "Beauty") return renderBeautyInsightDimension(record);
     const platforms = platformMonthlyItems(record);
     const l2 = l2ScopeData(record);
     const leadingL2 = l2.items[0];
@@ -1279,7 +1558,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   function rootMarketDashboard() {
     return {
       title: "选择具体一级行业",
-      copy: "EC 与 AG 仅用于分组。请从左侧点击一个一级行业，进入对应的行业、玩家或产品/商品仪表盘。",
+      copy: "EC 与 AG 仅用于分组。请从左侧点击一个一级行业，进入对应的市场洞察页。",
     };
   }
 
@@ -1320,12 +1599,12 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     const selectedDimension = state.market.dimension;
 
     $("#market-scope-stat").innerHTML = hasIndustry
-      ? `<strong>${ecMacro ? "2" : "3"}</strong><span>个阅读维度</span>`
+      ? `<strong>${ecMacro ? "1" : "3"}</strong><span>个阅读维度</span>`
       : `<strong>→</strong><span>选择一级行业</span>`;
-    $("#market-breadcrumb").textContent = hasIndustry ? `市场总览 / ${state.market.business} / ${state.market.industry}${state.market.subIndustry ? ` / ${state.market.subIndustry}` : ""}` : state.market.business ? `市场总览 / ${state.market.business}` : "市场总览";
-    $("#market-context-title").textContent = ecMacro ? `${ecMacro.industry} 行业与玩家大盘` : dashboard?.label || root.title;
+    $("#market-breadcrumb").textContent = hasIndustry ? `市场洞察 / ${state.market.business} / ${state.market.industry}${state.market.subIndustry ? ` / ${state.market.subIndustry}` : ""}` : state.market.business ? `市场洞察 / ${state.market.business}` : "市场洞察";
+    $("#market-context-title").textContent = ecMacro ? `${ecMacro.industry} 市场洞察` : dashboard?.label || root.title;
     $("#market-context-copy").textContent = ecMacro
-      ? `${ecMacro.country} · 月均 GMV · 先看市场判断，再按国家和平台范围阅读行业结构与玩家格局。`
+      ? `${ecMacro.country} · 平台本地数据底表 · 先阅读行业命题与验证，再查看各平台独立的结构和玩家清单。`
       : dashboard?.headline || root.copy;
     $("#toggle-follow-button").disabled = !hasIndustry;
     $("#toggle-follow-button").textContent = following ? "✓ 已关注" : "+ 关注行业";
@@ -1340,9 +1619,9 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
       const active = button.dataset.marketDimension === selectedDimension;
       button.classList.toggle("active", active);
       button.setAttribute("aria-selected", String(active));
-      button.hidden = Boolean(ecMacro && isPlayersTab);
-      button.disabled = (!dashboard && !ecMacro) || (ecMacro && isPlayersTab);
-      if (button.dataset.marketDimension === "industry") button.textContent = ecMacro ? "行业与玩家大盘" : "行业大盘";
+      button.hidden = Boolean(ecMacro && button.dataset.marketDimension !== "industry");
+      button.disabled = (!dashboard && !ecMacro) || (ecMacro && button.dataset.marketDimension !== "industry");
+      if (button.dataset.marketDimension === "industry") button.textContent = ecMacro ? "行业洞察" : "行业大盘";
     });
     $("#market-summary-grid").innerHTML = ecMacro && selectedDimension === "industry"
       ? ""
@@ -1357,7 +1636,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     if (selectedDimension === "industry" && ecMacro) {
       $("#market-dashboard").innerHTML = renderEcPlatformIndustryDimension(ecMacro);
     } else if (!dashboard) {
-      $("#market-dashboard").innerHTML = `<div class="market-data-gap large"><strong>先选择一个一级行业</strong><p>EC 与 AG 是导航分组；本页只在进入具体行业后展示可比较的行业、玩家或产品信息。</p></div>`;
+      $("#market-dashboard").innerHTML = `<div class="market-data-gap large"><strong>先选择一个一级行业</strong><p>EC 与 AG 是导航分组；本页只在进入具体行业后展示对应的市场洞察。</p></div>`;
     } else if (selectedDimension === "players") {
       $("#market-dashboard").innerHTML = renderPlayersDimension(dashboard);
     } else if (selectedDimension === "products") {
@@ -1430,7 +1709,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   function renderHeader() {
     const copy = {
       weekly: ["FOR YOU", "本周推荐", "给你值得联系的企业与展会动态，并附一条可直接开聊的拓客话术。"],
-      market: ["MARKET OVERVIEW", "市场总览", "按关注行业查看头部玩家与关键指标，并可设为自己的默认视图。"],
+      market: ["MARKET INSIGHT", "市场洞察", "以行业事实界定机会，用平台本地数据验证，并把大盘留在独立平台栏内。"],
       search: ["EXPLORE", "主动搜索", "从已治理的结果展示表中定位可行动信号。"],
       actions: ["MY ACTIONS", "我的动作", "让每一次认领和判断留存在个人工作流里。"],
     }[state.view];
