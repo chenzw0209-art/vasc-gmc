@@ -129,6 +129,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
 .market-health-card > span, .market-health-card small { display: block; color: #617592; font-size: 11px; }
 .market-health-card strong { display: block; margin: 7px 0 4px; color: #0b4db3; font-size: 23px; letter-spacing: -.04em; }
 .market-summary-grid { display: grid; grid-template-columns: repeat(3, minmax(130px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.market-summary-grid:empty { display: none; }
 .market-summary-card { min-height: 100px; padding: 16px; border: 1px solid var(--line); border-radius: 13px; background: #fff; }
 .market-summary-card > span, .market-summary-card small { display: block; color: var(--muted); font-size: 11px; }
 .market-summary-card strong { display: block; margin: 8px 0 5px; overflow: hidden; color: var(--ink); font-size: 23px; letter-spacing: -.04em; text-overflow: ellipsis; white-space: nowrap; }
@@ -246,6 +247,22 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
 .ec-macro-grid { margin: 0; }
 .ec-dense-dashboard { gap: 14px; }
 .ec-dense-dashboard .ec-macro-controls { padding: 12px 15px; }
+.ec-highlight-board { overflow: hidden; border: 1px solid #c8dcf6; border-radius: 15px; background: linear-gradient(145deg, #fafdff, #f1f7ff); box-shadow: 0 8px 18px rgba(22, 87, 171, .05); }
+.ec-highlight-board > header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; padding: 16px 18px 13px; border-bottom: 1px solid #dfeaf7; background: radial-gradient(circle at 100% 0, rgba(64, 158, 255, .16), transparent 42%), linear-gradient(125deg, #092750, #0d4b94); }
+.ec-highlight-board > header > div { min-width: 0; }
+.ec-highlight-board > header span:first-child { color: #78eee2; font-size: 10px; font-weight: 850; letter-spacing: .1em; }
+.ec-highlight-board h4 { margin: 5px 0 4px; color: #fff; font-size: 17px; letter-spacing: -.02em; }
+.ec-highlight-board header p { margin: 0; color: #c7def9; font-size: 11px; line-height: 1.45; }
+.ec-highlight-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.ec-highlight-item { min-width: 0; min-height: 136px; padding: 15px 16px 16px; border-right: 1px solid #dfe9f6; background: rgba(255, 255, 255, .7); }
+.ec-highlight-item:last-child { border-right: 0; }
+.ec-highlight-item > span { display: block; margin-bottom: 8px; color: #17747d; font-size: 10px; font-weight: 840; letter-spacing: .07em; }
+.ec-highlight-item h5 { margin: 0 0 8px; color: #173b6c; font-size: 14px; line-height: 1.45; letter-spacing: -.015em; }
+.ec-highlight-item p { margin: 0; color: #667e9e; font-size: 11px; line-height: 1.58; }
+.ec-highlight-board > footer { padding: 9px 17px; border-top: 1px solid #dfe9f6; color: #7187a5; background: #fbfdff; font-size: 10px; line-height: 1.45; }
+.ec-highlight-empty { padding: 22px 18px; background: #fff; }
+.ec-highlight-empty strong { color: #274f80; font-size: 13px; }
+.ec-highlight-empty p { margin: 7px 0 0; color: #7185a0; font-size: 11px; }
 .ec-decision-strip { display: flex; align-items: flex-start; justify-content: space-between; gap: 22px; padding: 18px 20px; border: 1px solid #c6dcfb; border-radius: 15px; color: #e8f2ff; background: radial-gradient(circle at 98% -10%, rgba(66, 168, 255, .45), transparent 39%), linear-gradient(125deg, #071b42, #0c3f86); }
 .ec-decision-strip > div { min-width: 0; }
 .ec-decision-strip > div > span { color: #7ee8dc; font-size: 10px; font-weight: 850; letter-spacing: .09em; }
@@ -255,6 +272,8 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
 .ec-kpi-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
 .ec-kpi-grid .market-summary-card { min-height: 96px; }
 .ec-primary-grid { display: grid; grid-template-columns: minmax(0, 1.13fr) minmax(310px, .87fr); gap: 14px; align-items: stretch; }
+.ec-primary-grid.single-platform { grid-template-columns: minmax(0, 1fr); }
+.ec-primary-grid.single-platform .ec-curve-card { min-height: 236px; }
 .ec-primary-grid > .market-chart { min-height: 265px; margin: 0; border: 1px solid #dbe7f6; border-radius: 15px; padding: 18px; background: #fff; }
 .ec-primary-grid .market-bars { gap: 9px; }
 .ec-primary-grid .market-bar-row { width: 100%; border: 1px solid transparent; border-radius: 8px; padding: 7px 6px; color: inherit; background: transparent; text-align: left; }
@@ -287,8 +306,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
 .ec-donut-legend b { margin-left: auto; color: #244a7e; font-size: 10px; }
 .ec-l2-table-card { min-width: 0; overflow: hidden; border: 1px solid #dce7f5; border-radius: 15px; background: #fff; }
 .ec-l2-table-card header { padding: 16px 17px 12px; border-bottom: 1px solid #edf2f8; }
-.ec-l2-table-card label { display: grid; gap: 4px; color: #70829c; font-size: 10px; font-weight: 760; }
-.ec-l2-table-card select { min-width: 122px; border: 1px solid #cbdaed; border-radius: 7px; padding: 6px 8px; color: #244e83; background: #fff; font-size: 11px; }
+.ec-table-scope-pill, .ec-player-scope-note { flex: 0 0 auto; border: 1px solid #c9ddf4; border-radius: 99px; padding: 6px 8px; color: #28619e; background: #f2f8ff; font-size: 10px; font-weight: 800; white-space: nowrap; }
 .ec-l2-table-scroll { max-height: 248px; overflow: auto; }
 .ec-l2-table-card table { width: 100%; border-collapse: collapse; font-size: 11px; }
 .ec-l2-table-card th { position: sticky; top: 0; z-index: 1; padding: 9px 12px; color: #70829c; background: #f8fbff; font-size: 10px; font-weight: 800; text-align: left; }
@@ -320,6 +338,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
 .ec-player-platform.active small { color: #d9ebff; }
 .ec-player-controls label { display: grid; gap: 4px; color: #70829c; font-size: 10px; font-weight: 780; }
 .ec-player-controls select { min-width: 164px; border: 1px solid #cbdaed; border-radius: 7px; padding: 7px 8px; color: #244e83; background: #fff; font-size: 11px; }
+.ec-platform-gap { min-height: 150px; padding: 26px; border: 1px solid #dce7f5; border-radius: 15px; background: #fff; }
 .ec-player-kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-bottom: 1px solid #e6eef8; background: #fbfdff; }
 .ec-player-kpis span { display: grid; gap: 4px; min-width: 0; padding: 12px 17px; border-right: 1px solid #e6eef8; }
 .ec-player-kpis span:last-child { border-right: 0; }
@@ -441,6 +460,9 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   .market-overview-body { grid-template-columns: 1fr; }
   .market-player-list { border-top: 1px solid #edf1f7; border-left: 0; }
   .market-dashboard-grid, .market-source-grid, .ec-primary-grid { grid-template-columns: 1fr; }
+  .ec-highlight-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ec-highlight-item:nth-child(2) { border-right: 0; }
+  .ec-highlight-item:nth-child(-n+2) { border-bottom: 1px solid #dfe9f6; }
   .ec-secondary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .ec-l2-table-card { grid-column: 1 / -1; }
   .ec-player-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -476,11 +498,14 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   .market-source-grid { grid-template-columns: 1fr; }
   .market-source-kpis strong { font-size: 14px; }
   .ec-decision-strip { display: grid; padding: 16px; }
+  .ec-highlight-board > header { display: grid; padding: 15px; }
+  .ec-highlight-grid { grid-template-columns: 1fr; }
+  .ec-highlight-item, .ec-highlight-item:nth-child(2) { min-height: 0; border-right: 0; border-bottom: 1px solid #dfe9f6; }
+  .ec-highlight-item:last-child { border-bottom: 0; }
   .ec-scope-pill { justify-self: start; }
   .ec-kpi-grid, .ec-secondary-grid { grid-template-columns: 1fr; }
   .ec-l2-table-card { grid-column: auto; }
   .ec-l2-table-card header { display: grid; }
-  .ec-l2-table-card select { width: 100%; }
   .ec-l2-table-scroll { max-height: 330px; }
   .ec-player-header, .ec-player-controls { display: grid; }
   .ec-player-meta { justify-self: start; text-align: left; }
@@ -609,7 +634,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     query: "",
     searchIndustry: "",
     status: "",
-    market: { business: "", industry: "", subIndustry: "", dimension: "industry", focusPlayer: "", focusProduct: "", country: "", platform: "", l2Scope: "all", playerPlatform: "", playerCategory: "all" },
+    market: { business: "", industry: "", subIndustry: "", dimension: "industry", focusPlayer: "", focusProduct: "", country: "", platform: "", platformScope: "all", playerPlatform: "", playerCategory: "all" },
   };
   const MARKET_TAXONOMY = {
     EC: ["Beauty", "Consumer Tech", "FMCG", "Health", "Lifestyle", "Fashion"],
@@ -793,8 +818,8 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   function ecPlatformRecordFor(industry, preferredCountry = state.market.country) {
     const records = ecPlatformMapRecords().filter((record) => record.industry === industry);
     if (!records.length) return null;
-    return records.find((record) => record.country_code === preferredCountry)
-      || records.find((record) => record.country_code === "BR")
+    const requestedCountry = preferredCountry || "US";
+    return records.find((record) => record.country_code === requestedCountry)
       || records[0];
   }
 
@@ -890,6 +915,13 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     return `${Math.round(value).toLocaleString()} USD`;
   }
 
+  function usdValue(value) {
+    if (value >= 1_000_000_000) return `${(value / 1_000_000_000).toFixed(2)}B USD`;
+    if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M USD`;
+    if (value >= 1_000) return `${Math.round(value / 1_000).toLocaleString()}K USD`;
+    return `${Math.round(value || 0).toLocaleString()} USD`;
+  }
+
   function countryGroup(code) {
     if (code === "US") return 0;
     if (["ID", "TH", "VN", "MY", "PH", "SG"].includes(code)) return 1;
@@ -912,7 +944,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   }
 
   function l2ScopeData(record) {
-    const platformScope = state.market.l2Scope || "all";
+    const platformScope = state.market.platformScope || "all";
     const included = platformScope === "all" ? record.platforms : record.platforms.filter((item) => item.platform === platformScope);
     const grouped = new Map();
     for (const platform of included) {
@@ -931,12 +963,18 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   }
 
   function playerScopeData(record) {
-    const buckets = ecPlayerRecords()
+    const allBuckets = ecPlayerRecords()
       .filter((item) => item.country_code === record.country_code && item.industry === record.industry)
       .sort((left, right) => left.platform.localeCompare(right.platform, "zh-CN"));
-    const selectedPlatform = buckets.some((item) => item.platform === state.market.playerPlatform)
-      ? state.market.playerPlatform
-      : buckets[0]?.platform || "";
+    const platformScope = state.market.platformScope || "all";
+    const buckets = platformScope === "all"
+      ? allBuckets
+      : allBuckets.filter((item) => item.platform === platformScope);
+    const selectedPlatform = platformScope !== "all"
+      ? platformScope
+      : buckets.some((item) => item.platform === state.market.playerPlatform)
+        ? state.market.playerPlatform
+        : buckets[0]?.platform || "";
     const bucket = buckets.find((item) => item.platform === selectedPlatform) || null;
     const categories = [...new Set((bucket?.players || []).map((item) => item.category).filter(Boolean))]
       .sort((left, right) => left.localeCompare(right, "zh-CN"));
@@ -946,11 +984,11 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     const players = (bucket?.players || [])
       .filter((item) => selectedCategory === "all" || item.category === selectedCategory)
       .sort((left, right) => Number(right.value_usd || 0) - Number(left.value_usd || 0) || String(left.name).localeCompare(String(right.name), "zh-CN"));
-    return { buckets, bucket, selectedPlatform, categories, selectedCategory, players };
+    return { allBuckets, buckets, bucket, selectedPlatform, selectedCategory, categories, players, platformScope, canChoosePlatform: platformScope === "all" && buckets.length > 1 };
   }
 
   function playerMetricValue(player) {
-    return monthlyUsd(Number(player?.value_usd || 0));
+    return usdValue(Number(player?.value_usd || 0));
   }
 
   function playerGrowthLabel(value) {
@@ -964,15 +1002,77 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     return Number(value) >= 0 ? "positive" : "negative";
   }
 
-  function ecMacroKpis(record, l2) {
+  function percent(value) {
+    return `${((Number(value) || 0) * 100).toFixed(1)}%`;
+  }
+
+  function platformScopeLabel(scope) {
+    return scope === "all" ? "全部平台" : scope;
+  }
+
+  function ecHighlightItem(label, conclusion, evidence) {
+    return `<article class="ec-highlight-item"><span>${escapeHtml(label)}</span><h5>${escapeHtml(conclusion)}</h5><p>${escapeHtml(evidence)}</p></article>`;
+  }
+
+  function ecMarketHighlights(record, l2) {
+    const scope = state.market.platformScope || "all";
     const platforms = platformMonthlyItems(record);
-    const leadingPlatform = platforms[0];
+    const total = l2.total;
     const leadingL2 = l2.items[0];
-    return [
-      ["三平台月均 GMV", monthlyUsd(platforms.reduce((sum, item) => sum + item.monthly_value_usd, 0)), "当前覆盖平台的合计，不等同整体市场份额"],
-      ["最大平台", leadingPlatform?.platform || "-", leadingPlatform ? `${monthlyUsd(leadingPlatform.monthly_value_usd)} / 月` : "当前无覆盖"],
-      ["最大二级行业", leadingL2?.label || "-", leadingL2 ? `${(leadingL2.share * 100).toFixed(1)}% · ${l2.label}` : "当前无覆盖"],
-    ].map(([label, value, detail]) => `<article class="market-summary-card"><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong><small>${escapeHtml(detail)}</small></article>`).join("");
+    const topThreeShare = l2.items.slice(0, 3).reduce((sum, item) => sum + item.share, 0);
+    const periodNote = scope === "all"
+      ? platforms.map((item) => `${item.platform}（${item.period}）`).join(" · ")
+      : l2.included.map((item) => `${item.platform}（${item.period}）`).join(" · ");
+    if (!l2.included.length || !total) {
+      return `<section class="ec-highlight-board ec-highlight-gap"><header><div><span>MARKET HIGHLIGHTS</span><h4>市场判断</h4><p>${escapeHtml(record.country)} · ${escapeHtml(record.industry)} · ${escapeHtml(platformScopeLabel(scope))}</p></div><span class="ec-scope-pill">当前观察范围</span></header><div class="ec-highlight-empty"><strong>${escapeHtml(platformScopeLabel(scope))} 暂无当前国家与一级行业的可用行业快照</strong><p>已保留当前筛选，不以其他国家、平台或行业的数据替代。</p></div></section>`;
+    }
+    const highlights = [];
+    if (scope === "all") {
+      const totalPlatform = platforms.reduce((sum, item) => sum + item.monthly_value_usd, 0);
+      const leader = platforms[0];
+      const runnerUp = platforms[1];
+      highlights.push(ecHighlightItem(
+        "平台格局",
+        `${leader?.platform || "当前最高平台"} 是当前可比规模的主承载平台`,
+        `${leader?.platform || "-"} 月均 GMV 为 ${monthlyUsd(leader?.monthly_value_usd || 0)}，占已覆盖平台合计 ${percent((leader?.monthly_value_usd || 0) / (totalPlatform || 1))}。`,
+      ));
+      if (runnerUp) {
+        const multiple = (leader?.monthly_value_usd || 0) / Math.max(runnerUp.monthly_value_usd, 1);
+        highlights.push(ecHighlightItem(
+          "规模差异",
+          `${leader.platform} 与 ${runnerUp.platform} 的当前规模差距明显`,
+          `${runnerUp.platform} 月均 GMV 为 ${monthlyUsd(runnerUp.monthly_value_usd)}；前者约为后者的 ${multiple.toFixed(1)} 倍。`,
+        ));
+      } else {
+        highlights.push(ecHighlightItem(
+          "覆盖范围",
+          "当前范围只接入一个平台的可比行业快照",
+          `已接入 ${leader?.platform || "当前平台"}；其余平台没有同范围数据，未补估或并入比较。`,
+        ));
+      }
+    } else {
+      const platform = l2.included[0];
+      highlights.push(ecHighlightItem(
+        "当前规模",
+        `${platform.platform} 已形成可读的 ${record.industry} 二级行业结构`,
+        `当前范围月均 GMV 为 ${monthlyUsd(total)}，覆盖 ${l2.items.length} 个已入表二级行业。`,
+      ));
+    }
+    if (leadingL2) {
+      highlights.push(ecHighlightItem(
+        "结构重心",
+        `${leadingL2.label} 是当前范围的最大二级行业`,
+        `月均 GMV ${monthlyUsd(leadingL2.monthly_value_usd)}，在 ${platformScopeLabel(scope)} 内占 ${percent(leadingL2.share)}。`,
+      ));
+    }
+    if (l2.items.length > 1) {
+      highlights.push(ecHighlightItem(
+        "集中程度",
+        `前 ${Math.min(3, l2.items.length)} 个二级行业合计占 ${percent(topThreeShare)}`,
+        `当前范围共有 ${l2.items.length} 个二级行业；其余行业合计占 ${percent(Math.max(0, 1 - topThreeShare))}。`,
+      ));
+    }
+    return `<section class="ec-highlight-board"><header><div><span>MARKET HIGHLIGHTS</span><h4>市场判断</h4><p>${escapeHtml(record.country)} · ${escapeHtml(record.industry)} · ${escapeHtml(platformScopeLabel(scope))} · ${escapeHtml(record.metric)} 已折算月均 GMV</p></div><span class="ec-scope-pill">${escapeHtml(platformScopeLabel(scope))}</span></header><div class="ec-highlight-grid">${highlights.slice(0, 4).join("")}</div><footer>当前观察期：${escapeHtml(periodNote || "待补")}；结论仅描述当前已覆盖快照的规模与结构。</footer></section>`;
   }
 
   function structureCurve(items) {
@@ -1007,19 +1107,22 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   }
 
   function l2DataTable(record, l2) {
-    return `<article class="ec-l2-table-card"><header><div><span>二级行业明细</span><small>按月均 GMV 排序；占比以当前国家、一级行业与所选平台范围为分母</small></div><label>平台范围<select id="ec-l2-scope"><option value="all"${state.market.l2Scope === "all" ? " selected" : ""}>全平台聚合</option>${record.platforms.map((item) => `<option value="${escapeHtml(item.platform)}"${state.market.l2Scope === item.platform ? " selected" : ""}>${escapeHtml(item.platform)}</option>`).join("")}</select></label></header><div class="ec-l2-table-scroll"><table><thead><tr><th>#</th><th>二级行业</th><th>月均 GMV</th><th>结构占比</th></tr></thead><tbody>${l2.items.map((item, index) => `<tr><td>${String(index + 1).padStart(2, "0")}</td><td><strong>${escapeHtml(item.label)}</strong><small>${escapeHtml(item.platform_note)}</small></td><td>${escapeHtml(monthlyUsd(item.monthly_value_usd))}</td><td><span class="ec-share-track"><i style="width:${Math.max(3, item.share * 100).toFixed(1)}%"></i></span><b>${(item.share * 100).toFixed(1)}%</b></td></tr>`).join("") || '<tr><td colspan="4">当前筛选范围没有二级行业数据。</td></tr>'}</tbody></table></div></article>`;
+    return `<article class="ec-l2-table-card"><header><div><span>二级行业明细</span><small>按月均 GMV 排序；占比以当前国家、一级行业与平台范围为分母</small></div><span class="ec-table-scope-pill">${escapeHtml(l2.label)}</span></header><div class="ec-l2-table-scroll"><table><thead><tr><th>#</th><th>二级行业</th><th>月均 GMV</th><th>结构占比</th></tr></thead><tbody>${l2.items.map((item, index) => `<tr><td>${String(index + 1).padStart(2, "0")}</td><td><strong>${escapeHtml(item.label)}</strong><small>${escapeHtml(item.platform_note)}</small></td><td>${escapeHtml(monthlyUsd(item.monthly_value_usd))}</td><td><span class="ec-share-track"><i style="width:${Math.max(3, item.share * 100).toFixed(1)}%"></i></span><b>${(item.share * 100).toFixed(1)}%</b></td></tr>`).join("") || '<tr><td colspan="4">当前筛选范围没有二级行业数据。</td></tr>'}</tbody></table></div></article>`;
   }
 
   function ecPlayerBoard(record) {
     const scope = playerScopeData(record);
     if (!scope.buckets.length) {
-      return `<section class="ec-player-board ec-player-empty"><header><div><span>同页玩家格局</span><h4>当前国家尚未接入匹配的玩家快照</h4></div><small>${escapeHtml(record.country)} · ${escapeHtml(record.industry)}</small></header><p>行业结构仍可阅读；这里不会以其他国家、平台或行业的品牌名单补齐。</p></section>`;
+      return `<section class="ec-player-board ec-player-empty"><header><div><span>同页玩家格局</span><h4>当前范围尚未接入匹配的玩家快照</h4></div><small>${escapeHtml(record.country)} · ${escapeHtml(record.industry)} · ${escapeHtml(platformScopeLabel(scope.platformScope))}</small></header><p>行业结构仍可阅读；这里不会以其他国家、平台或行业的品牌名单补齐。</p></section>`;
     }
     const bucket = scope.bucket;
     const highest = scope.players[0];
+    const platformControls = scope.canChoosePlatform
+      ? `<div class="ec-player-platforms" role="group" aria-label="玩家榜单平台阅读">${scope.buckets.map((item) => `<button type="button" class="ec-player-platform${item.platform === scope.selectedPlatform ? " active" : ""}" data-ec-player-platform="${escapeHtml(item.platform)}">${escapeHtml(item.platform)}<small>${item.players.length} 条</small></button>`).join("")}</div>`
+      : `<span class="ec-player-scope-note">平台范围 · ${escapeHtml(platformScopeLabel(scope.platformScope))}</span>`;
     return `<section class="ec-player-board" aria-label="${escapeHtml(record.country)} ${escapeHtml(record.industry)} 玩家格局">
       <header class="ec-player-header"><div><span>同页玩家格局</span><h4>${escapeHtml(record.country)} · ${escapeHtml(record.industry)} · ${escapeHtml(bucket.platform)}</h4><p>${escapeHtml(bucket.coverage)}</p></div><div class="ec-player-meta"><b>${escapeHtml(bucket.metric)}</b><small>${escapeHtml(bucket.period)}</small></div></header>
-      <div class="ec-player-controls"><div class="ec-player-platforms" role="group" aria-label="玩家平台筛选">${scope.buckets.map((item) => `<button type="button" class="ec-player-platform${item.platform === scope.selectedPlatform ? " active" : ""}" data-ec-player-platform="${escapeHtml(item.platform)}">${escapeHtml(item.platform)}<small>${item.players.length} 条</small></button>`).join("")}</div><label>源表类目<select id="ec-player-category"><option value="all"${scope.selectedCategory === "all" ? " selected" : ""}>全部类目</option>${scope.categories.map((category) => `<option value="${escapeHtml(category)}"${scope.selectedCategory === category ? " selected" : ""}>${escapeHtml(category)}</option>`).join("")}</select></label></div>
+      <div class="ec-player-controls">${platformControls}<label>源表类目<select id="ec-player-category"><option value="all"${scope.selectedCategory === "all" ? " selected" : ""}>全部类目</option>${scope.categories.map((category) => `<option value="${escapeHtml(category)}"${scope.selectedCategory === category ? " selected" : ""}>${escapeHtml(category)}</option>`).join("")}</select></label></div>
       <div class="ec-player-kpis"><span><small>当前可见</small><b>${scope.players.length} 条</b></span><span><small>最高玩家</small><b>${escapeHtml(highest?.name || "-")}</b></span><span><small>${escapeHtml(bucket.metric)}</small><b>${escapeHtml(playerMetricValue(highest))}</b></span><span><small>相邻期间变化</small><b class="${playerGrowthTone(highest?.growth_rate_pct)}">${escapeHtml(playerGrowthLabel(highest?.growth_rate_pct))}</b></span></div>
       <div class="ec-player-table-scroll"><table><thead><tr><th>排名</th><th>玩家 / 品牌</th><th>源表类目</th><th>${escapeHtml(bucket.metric)}</th><th>相邻期间变化</th></tr></thead><tbody>${scope.players.map((player, index) => `<tr><td>${String(player.rank || index + 1).padStart(2, "0")}</td><td><strong>${escapeHtml(player.name)}</strong><small>${escapeHtml(bucket.platform)} · ${escapeHtml(bucket.period)}</small></td><td><span class="ec-category-chip">${escapeHtml(player.category)}</span></td><td>${escapeHtml(playerMetricValue(player))}</td><td class="${playerGrowthTone(player.growth_rate_pct)}">${escapeHtml(playerGrowthLabel(player.growth_rate_pct))}</td></tr>`).join("") || '<tr><td colspan="5">当前类目没有玩家记录。</td></tr>'}</tbody></table></div>
       <p class="market-dimension-note">平台内排序只使用本平台、本国家、本行业与本期间的原始玩家指标；Amazon 与 TikTok Shop 不合并排名。</p>
@@ -1029,22 +1132,27 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   function renderEcPlatformIndustryDimension(record) {
     const platforms = platformMonthlyItems(record);
     const l2 = l2ScopeData(record);
-    const leadingPlatform = platforms[0];
     const leadingL2 = l2.items[0];
+    const platformScope = state.market.platformScope || "all";
+    const hasAllPlatformScope = platformScope === "all";
     const platformChart = {
       title: "平台月均 GMV 对比",
       metric: "月均 GMV",
       unit: "USD / 月",
       items: platforms.map((item) => ({ label: item.platform, value: item.monthly_value_usd, display: monthlyUsd(item.monthly_value_usd), note: `${item.period} · 原始校准 GMV 已折算月均` })),
     };
+    const platformOptions = ["all", "TikTok Shop", "Amazon", "Shopee"];
+    const hasIndustryStructure = l2.items.length > 0;
+    const industryBody = hasIndustryStructure
+      ? `<section class="ec-primary-grid${hasAllPlatformScope ? "" : " single-platform"}">${hasAllPlatformScope ? marketBarChart(platformChart) : ""}${structureCurve(l2.items)}</section>
+        <section class="ec-secondary-grid">${concentrationGauge(leadingL2?.share || 0)}${l2Donut(l2.items)}${l2DataTable(record, l2)}</section>`
+      : `<section class="market-data-gap ec-platform-gap"><strong>${escapeHtml(platformScopeLabel(platformScope))} 暂无可用二级行业结构</strong><p>当前筛选仍生效；没有以其他平台或国家的结构数据代替。</p></section>`;
     return `<section class="ec-macro-dashboard ec-dense-dashboard">
-      <section class="ec-macro-controls"><div class="market-control-group"><span>观察国家</span><div class="market-chip-row">${orderedCountries(record).map((item) => `<button type="button" class="market-chip${item.country_code === record.country_code ? " active" : ""}" data-market-country="${escapeHtml(item.country_code)}">${escapeHtml(item.country)}</button>`).join("")}</div></div></section>
-      <section class="ec-decision-strip"><div><span>行业判断</span><h4>在 ${escapeHtml(record.country)} 的 ${escapeHtml(record.industry)} 中，${escapeHtml(leadingPlatform?.platform || "当前最高平台")} 的月均 GMV 最高，为 ${escapeHtml(monthlyUsd(leadingPlatform?.monthly_value_usd || 0))}；${escapeHtml(leadingL2?.label || "当前最高二级行业")} 在${escapeHtml(l2.label)}中占 ${(leadingL2?.share || 0) * 100 ? `${((leadingL2?.share || 0) * 100).toFixed(1)}%` : "-"}。</h4><p>${escapeHtml(record.comparison_note)} 各平台统计期：${escapeHtml(record.platforms.map((item) => `${item.platform}（${item.period}）`).join(" · "))}</p></div><span class="ec-scope-pill">${escapeHtml(record.metric)} → 月均 GMV</span></section>
-      <section class="ec-kpi-grid">${ecMacroKpis(record, l2)}</section>
-      <section class="ec-primary-grid">${marketBarChart(platformChart)}${structureCurve(l2.items)}</section>
-      <section class="ec-secondary-grid">${concentrationGauge(leadingL2?.share || 0)}${l2Donut(l2.items)}${l2DataTable(record, l2)}</section>
+      <section class="ec-macro-controls"><div class="market-control-group"><span>观察国家</span><div class="market-chip-row">${orderedCountries(record).map((item) => `<button type="button" class="market-chip${item.country_code === record.country_code ? " active" : ""}" data-market-country="${escapeHtml(item.country_code)}">${escapeHtml(item.country)}</button>`).join("")}</div></div><div class="market-control-group"><span>平台范围</span><div class="market-chip-row">${platformOptions.map((platform) => `<button type="button" class="market-chip${platformScope === platform ? " active" : ""}" data-ec-platform-scope="${escapeHtml(platform)}">${escapeHtml(platform === "all" ? "全部" : platform)}</button>`).join("")}</div></div></section>
+      ${ecMarketHighlights(record, l2)}
+      ${industryBody}
       ${ecPlayerBoard(record)}
-      <p class="market-dimension-note">${escapeHtml(record.country)} · ${escapeHtml(record.industry)} · 默认月均 GMV = 年化/校准后 GMV ÷ 12；曲线是已排序二级行业的累计结构，不是时间趋势。</p>
+      <p class="market-dimension-note">${escapeHtml(record.country)} · ${escapeHtml(record.industry)} · ${escapeHtml(platformScopeLabel(platformScope))} · 月均 GMV = 年化/校准后 GMV ÷ 12；曲线是已排序二级行业的累计结构，不是时间趋势。</p>
     </section>`;
   }
 
@@ -1140,7 +1248,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     $("#market-breadcrumb").textContent = hasIndustry ? `市场总览 / ${state.market.business} / ${state.market.industry}${state.market.subIndustry ? ` / ${state.market.subIndustry}` : ""}` : state.market.business ? `市场总览 / ${state.market.business}` : "市场总览";
     $("#market-context-title").textContent = ecMacro ? `${ecMacro.industry} 行业与玩家大盘` : dashboard?.label || root.title;
     $("#market-context-copy").textContent = ecMacro
-      ? `${ecMacro.country} · 月均 GMV · 同页查看平台规模、二级行业结构，并按国家与平台筛选玩家。`
+      ? `${ecMacro.country} · 月均 GMV · 先看市场判断，再按国家和平台范围阅读行业结构与玩家格局。`
       : dashboard?.headline || root.copy;
     $("#toggle-follow-button").disabled = !hasIndustry;
     $("#toggle-follow-button").textContent = following ? "✓ 已关注" : "+ 关注行业";
@@ -1160,7 +1268,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
       if (button.dataset.marketDimension === "industry") button.textContent = ecMacro ? "行业与玩家大盘" : "行业大盘";
     });
     $("#market-summary-grid").innerHTML = ecMacro && selectedDimension === "industry"
-      ? ecMacroKpis(ecMacro, l2ScopeData(ecMacro))
+      ? ""
       : dashboard
       ? dashboardKpis(dashboard)
       : [
@@ -1281,7 +1389,9 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     state.market.dimension = "industry";
     state.market.country = "";
     state.market.platform = "";
-    state.market.l2Scope = "all";
+    state.market.platformScope = "all";
+    state.market.playerPlatform = "";
+    state.market.playerCategory = "all";
   }
 
   const publicPreferenceStorageKey = "sales-market-web-preferences-v0.1";
@@ -1337,21 +1447,22 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     const country = event.target.closest("[data-market-country]");
     const platform = event.target.closest("[data-market-platform]");
     const playerPlatform = event.target.closest("[data-ec-player-platform]");
+    const ecPlatformScope = event.target.closest("[data-ec-platform-scope]");
     if (all) {
-      state.market = { business: "", industry: "", subIndustry: "", dimension: "industry", focusPlayer: "", focusProduct: "", country: "", platform: "", l2Scope: "all", playerPlatform: "", playerCategory: "all" };
+      state.market = { business: "", industry: "", subIndustry: "", dimension: "industry", focusPlayer: "", focusProduct: "", country: "", platform: "", platformScope: "all", playerPlatform: "", playerCategory: "all" };
       state.view = "market";
       renderAll();
     } else if (business) {
       const nextBusiness = business.dataset.marketBusiness;
-      state.market = { business: nextBusiness, industry: "", subIndustry: "", dimension: "industry", focusPlayer: "", focusProduct: "", country: "", platform: "", l2Scope: "all", playerPlatform: "", playerCategory: "all" };
+      state.market = { business: nextBusiness, industry: "", subIndustry: "", dimension: "industry", focusPlayer: "", focusProduct: "", country: "", platform: "", platformScope: "all", playerPlatform: "", playerCategory: "all" };
       state.view = "market";
       renderAll();
     } else if (industry) {
-      state.market = { business: industry.dataset.marketIndustryBusiness, industry: industry.dataset.marketIndustry, subIndustry: "", dimension: "industry", focusPlayer: "", focusProduct: "", country: "", platform: "", l2Scope: "all", playerPlatform: "", playerCategory: "all" };
+      state.market = { business: industry.dataset.marketIndustryBusiness, industry: industry.dataset.marketIndustry, subIndustry: "", dimension: "industry", focusPlayer: "", focusProduct: "", country: "", platform: "", platformScope: "all", playerPlatform: "", playerCategory: "all" };
       state.view = "market";
       renderAll();
     } else if (subIndustry) {
-      state.market = { business: subIndustry.dataset.marketSubIndustryBusiness, industry: subIndustry.dataset.marketSubIndustryParent, subIndustry: subIndustry.dataset.marketSubIndustry, dimension: "industry", focusPlayer: "", focusProduct: "", country: "", platform: "", l2Scope: "all", playerPlatform: "", playerCategory: "all" };
+      state.market = { business: subIndustry.dataset.marketSubIndustryBusiness, industry: subIndustry.dataset.marketSubIndustryParent, subIndustry: subIndustry.dataset.marketSubIndustry, dimension: "industry", focusPlayer: "", focusProduct: "", country: "", platform: "", platformScope: "all", playerPlatform: "", playerCategory: "all" };
       state.view = "market";
       renderAll();
     } else if (dimension) {
@@ -1368,8 +1479,13 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     } else if (country) {
       state.market.country = country.dataset.marketCountry;
       state.market.platform = "";
-      state.market.l2Scope = "all";
+      state.market.platformScope = "all";
       state.market.playerPlatform = "";
+      state.market.playerCategory = "all";
+      renderMarket();
+    } else if (ecPlatformScope) {
+      state.market.platformScope = ecPlatformScope.dataset.ecPlatformScope || "all";
+      state.market.playerPlatform = state.market.platformScope === "all" ? "" : state.market.platformScope;
       state.market.playerCategory = "all";
       renderMarket();
     } else if (platform) {
@@ -1383,10 +1499,6 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   });
 
   document.addEventListener("change", (event) => {
-    if (event.target?.id === "ec-l2-scope") {
-      state.market.l2Scope = event.target.value || "all";
-      renderMarket();
-    }
     if (event.target?.id === "ec-player-category") {
       state.market.playerCategory = event.target.value || "all";
       renderMarket();
