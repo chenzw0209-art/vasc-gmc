@@ -458,6 +458,13 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
 #weekly-panel .empty-state { color: #b8cbea; border-color: rgba(168, 200, 247, .4); background: rgba(255, 255, 255, .06); }
 
 /* Beauty country × industry insight dashboard. */
+.workspace.beauty-focus .workspace-header,
+#market-panel.beauty-focus > .market-hero,
+#market-panel.beauty-focus .market-context-bar,
+#market-panel.beauty-focus .preference-note,
+#market-panel.beauty-focus .market-tabs { display: none; }
+#market-panel.beauty-focus .market-workspace { overflow: visible; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
+#market-panel.beauty-focus .market-dashboard { padding: 0; }
 .beauty-insight-dashboard { display: grid; gap: 14px; }
 .beauty-country-header {
   display: grid;
@@ -1711,6 +1718,9 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   function renderMarket() {
     const currentFilter = { industry: state.market.industry, subIndustry: "" };
     const hasIndustry = Boolean(currentFilter.industry);
+    const isBeautyFocus = state.view === "market" && state.market.business === "EC" && state.market.industry === "Beauty";
+    $(".workspace")?.classList.toggle("beauty-focus", isBeautyFocus);
+    $("#market-panel")?.classList.toggle("beauty-focus", isBeautyFocus);
     const following = (state.preferences.followedFilters || []).some((filter) => filterKey(filter) === filterKey(currentFilter));
     const defaultFilter = state.preferences.defaultFilter || { industry: "", subIndustry: "" };
     const isDefault = filterKey(defaultFilter) === filterKey(currentFilter) && hasIndustry;
