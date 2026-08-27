@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#071c47" />
+    <link rel="icon" href="data:," />
+    <title>销售市场机会 · 演示版</title>
+    <link rel="stylesheet" href="assets/demo.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="演示导航">
+        <div class="brand"><span class="brand-mark">V</span><span>VASC · GMC</span></div>
+        <p class="demo-chip">公开演示 · 只读</p>
+        <nav>
+          <a class="nav-item active" href="#recommendations">本周推荐</a>
+          <a class="nav-item" href="#overview">市场总览</a>
+          <a class="nav-item" href="#boundary">使用边界</a>
+        </nav>
+        <div class="sidebar-note">
+          <strong>这不是资讯流</strong>
+          <span>只展示经过核验并已转译为销售判断的当期信号。</span>
+        </div>
+      </aside>
+
+      <main>
+        <header class="hero">
+          <div>
+            <p class="eyebrow">SALES MARKET FEED</p>
+            <h1>让市场变化，变成销售的本周切入点</h1>
+            <p class="hero-copy">每条只回答四件事：发生了什么、增长窗口、先问什么、下一步做什么。</p>
+          </div>
+          <div class="as-of" id="as-of">加载演示数据中…</div>
+        </header>
+
+        <section id="recommendations" class="panel recommendation-panel" aria-labelledby="recommendation-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow blue">FOR YOU</p>
+              <h2 id="recommendation-title">本周推荐</h2>
+              <p>优先展示企业与展会的动作窗口；不以历史内容补足数量。</p>
+            </div>
+            <div class="quality-rule"><span>质量门</span>近 14 天 · 已核验证据 · 已审核销售解读</div>
+          </div>
+
+          <div class="filter-row" aria-label="演示筛选">
+            <label>业务分类<select id="category-filter"><option value="all">全部</option></select></label>
+            <label>一级行业<select id="industry-filter"><option value="all">全部</option></select></label>
+            <button id="reset-filter" type="button">重置筛选</button>
+          </div>
+
+          <div class="health-strip" id="health-strip" aria-live="polite"></div>
+          <div class="recommendation-grid" id="recommendation-grid" aria-live="polite"></div>
+          <p class="empty-state" id="empty-state" hidden>当前筛选下暂无演示信号。</p>
+        </section>
+
+        <section id="overview" class="overview-section" aria-labelledby="overview-title">
+          <div class="section-heading compact">
+            <div>
+              <p class="eyebrow blue">MARKET OVERVIEW</p>
+              <h2 id="overview-title">市场总览</h2>
+              <p>以本期已审核信号计数，不把记录量当作市场规模或采购意向。</p>
+            </div>
+          </div>
+          <div class="ranking-grid">
+            <article class="ranking-card"><h3>一级行业</h3><ol id="industry-ranking"></ol></article>
+            <article class="ranking-card"><h3>信号类型</h3><ol id="type-ranking"></ol></article>
+            <article class="ranking-card"><h3>销售使用方式</h3><p>先用“发生了什么”建立共同事实，再用“先问一句”确认客户是否有对应业务节奏。</p><p class="minor">答案不明时，停在核验，不把平台或公告数据改写成客户预算。</p></article>
+          </div>
+        </section>
+
+        <section id="boundary" class="boundary" aria-labelledby="boundary-title">
+          <div>
+            <p class="eyebrow">DEMO BOUNDARY</p>
+            <h2 id="boundary-title">演示边界</h2>
+          </div>
+          <p>这是公开只读样例，不含登录、CRM、原始新闻表、大盘表、来源链接或任务写入能力。正式工作台仍在受控环境内运行。</p>
+        </section>
+      </main>
+    </div>
+
+    <template id="card-template">
+      <article class="signal-card">
+        <div class="card-topline"><span class="signal-tag"></span><span class="evidence"></span></div>
+        <h3></h3>
+        <p class="metadata"></p>
+        <div class="brief fact"><span>发生了什么</span><p></p></div>
+        <div class="brief growth"><span>增长信号</span><p></p></div>
+        <div class="brief question"><span>先问一句</span><p></p></div>
+        <details><summary>查看销售判断与下一步</summary><div class="details-body"><p class="judgment"></p><p class="next-action"></p><p class="caveat"></p></div></details>
+      </article>
+    </template>
+    <script type="module" src="assets/demo.js"></script>
+  </body>
+</html>
