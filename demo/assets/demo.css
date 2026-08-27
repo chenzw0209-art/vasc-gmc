@@ -50,7 +50,7 @@ button:hover { border-color: #6b95e8; background: #eaf2ff; }
 .signal-card:hover { border-color: #aac4f5; box-shadow: 0 10px 24px rgba(37, 80, 157, .09); }
 .card-topline { display: flex; justify-content: space-between; gap: 10px; align-items: center; font-size: 11px; font-weight: 800; }
 .signal-tag { display: inline-flex; padding: 5px 8px; border-radius: 99px; color: #23647c; background: #e4fbfb; }
-.evidence { color: #59729e; }
+.entity { display: inline-flex; max-width: 68%; overflow: hidden; border: 1px solid #bcd8ff; border-radius: 7px; padding: 4px 8px; color: #0756bb; background: #edf5ff; font-size: 12px; font-weight: 850; text-overflow: ellipsis; white-space: nowrap; }
 .signal-card h3 { margin: 14px 0 6px; color: #102f65; font-size: 19px; line-height: 1.35; }
 .metadata { margin-bottom: 15px; color: #7586a2; font-size: 12px; }
 .brief { padding: 10px 11px; border-radius: 10px; margin-bottom: 8px; }
@@ -59,10 +59,6 @@ button:hover { border-color: #6b95e8; background: #eaf2ff; }
 .fact { color: #385684; background: #f2f6fd; }.fact span { color: #4072bf; }
 .growth { color: #1b5e5f; background: #ecfbfa; }.growth span { color: #149b92; }
 .question { color: #6c4d1a; background: #fff8e6; }.question span { color: #c38316; }
-details { margin-top: auto; padding-top: 7px; color: #47648e; font-size: 12px; }
-summary { color: #245bba; cursor: pointer; font-weight: 750; }
-.details-body { display: grid; gap: 8px; padding-top: 11px; line-height: 1.55; }
-.details-body p { margin: 0; }.judgment::before { content: "销售判断："; color: #355e9e; font-weight: 800; }.next-action::before { content: "下一步："; color: #168075; font-weight: 800; }.caveat::before { content: "边界："; color: #9a6f1e; font-weight: 800; }
 .empty-state { padding: 32px; text-align: center; color: #6b7f9e; }
 
 .overview-section { margin-top: 38px; }
