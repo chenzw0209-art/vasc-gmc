@@ -20,7 +20,7 @@
         </nav>
         <div class="sidebar-note">
           <strong>这不是资讯流</strong>
-          <span>只展示经过核验并已转译为销售判断的当期信号。</span>
+          <span>把市场变化收成销售可以直接阅读和开聊的内容。</span>
         </div>
       </aside>
 
@@ -29,7 +29,7 @@
           <div>
             <p class="eyebrow">SALES MARKET FEED</p>
             <h1>让市场变化，变成销售的本周切入点</h1>
-            <p class="hero-copy">每条只回答四件事：发生了什么、增长窗口、先问什么、下一步做什么。</p>
+            <p class="hero-copy">每条只保留企业、发生了什么、增长信号和一条拓客话术。</p>
           </div>
           <div class="as-of" id="as-of">加载演示数据中…</div>
         </header>
@@ -39,9 +39,9 @@
             <div>
               <p class="eyebrow blue">FOR YOU</p>
               <h2 id="recommendation-title">本周推荐</h2>
-              <p>优先展示企业与展会的动作窗口；不以历史内容补足数量。</p>
+              <p>企业名独立标出，方便销售快速判断“谁发生了什么、现在怎么开聊”。</p>
             </div>
-            <div class="quality-rule"><span>质量门</span>近 14 天 · 已核验证据 · 已审核销售解读</div>
+            <div class="quality-rule"><span>演示范围</span>5 条脱敏样例</div>
           </div>
 
           <div class="filter-row" aria-label="演示筛选">
@@ -60,13 +60,13 @@
             <div>
               <p class="eyebrow blue">MARKET OVERVIEW</p>
               <h2 id="overview-title">市场总览</h2>
-              <p>以本期已审核信号计数，不把记录量当作市场规模或采购意向。</p>
+              <p>演示按行业浏览推荐样例；正式工作台提供受控的大盘快照与头部玩家榜单。</p>
             </div>
           </div>
           <div class="ranking-grid">
             <article class="ranking-card"><h3>一级行业</h3><ol id="industry-ranking"></ol></article>
             <article class="ranking-card"><h3>信号类型</h3><ol id="type-ranking"></ol></article>
-            <article class="ranking-card"><h3>销售使用方式</h3><p>先用“发生了什么”建立共同事实，再用“先问一句”确认客户是否有对应业务节奏。</p><p class="minor">答案不明时，停在核验，不把平台或公告数据改写成客户预算。</p></article>
+            <article class="ranking-card"><h3>销售使用方式</h3><p>先用“发生了什么”建立共同事实，再用“拓客话术”把讨论带到客户当下的业务节奏。</p><p class="minor">正式环境会结合你的关注行业，自动优先呈现对应赛道。</p></article>
           </div>
         </section>
 
@@ -75,20 +75,19 @@
             <p class="eyebrow">DEMO BOUNDARY</p>
             <h2 id="boundary-title">演示边界</h2>
           </div>
-          <p>这是公开只读样例，不含登录、CRM、原始新闻表、大盘表、来源链接或任务写入能力。正式工作台仍在受控环境内运行。</p>
+          <p>这是公开只读样例，不含账号密码、CRM、原始新闻表、大盘表、来源链接或任务写入能力。正式登录测试需要部署受控服务端。</p>
         </section>
       </main>
     </div>
 
     <template id="card-template">
       <article class="signal-card">
-        <div class="card-topline"><span class="signal-tag"></span><span class="evidence"></span></div>
+        <div class="card-topline"><span class="signal-tag"></span><span class="entity"></span></div>
         <h3></h3>
         <p class="metadata"></p>
         <div class="brief fact"><span>发生了什么</span><p></p></div>
         <div class="brief growth"><span>增长信号</span><p></p></div>
-        <div class="brief question"><span>先问一句</span><p></p></div>
-        <details><summary>查看销售判断与下一步</summary><div class="details-body"><p class="judgment"></p><p class="next-action"></p><p class="caveat"></p></div></details>
+        <div class="brief question"><span>拓客话术</span><p></p></div>
       </article>
     </template>
     <script type="module" src="assets/demo.js"></script>

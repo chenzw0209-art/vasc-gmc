@@ -18,11 +18,11 @@ function filteredCards() {
 
 function renderHealth(cards) {
   const latest = cards.map((item) => item.signal_date).sort().at(-1) || "—";
+  const industries = unique(cards.map((item) => item.industry));
   $("#health-strip").innerHTML = [
-    `<span>当前可行动 <b>${cards.length}</b> 条</span>`,
-    `<span>最晚信号 <b>${latest}</b></span>`,
-    `<span>销售解读 <b>${cards.length}</b> 条</span>`,
-    `<span>演示样例，不以旧信号补位</span>`,
+    `<span>本周推荐 <b>${cards.length}</b> 条</span>`,
+    `<span>最新动态 <b>${latest}</b></span>`,
+    `<span>覆盖行业 <b>${industries.length}</b> 个</span>`,
   ].join("");
 }
 
@@ -34,15 +34,12 @@ function renderCards(cards) {
   cards.forEach((card) => {
     const fragment = template.content.cloneNode(true);
     $(".signal-tag", fragment).textContent = card.signal_type;
-    $(".evidence", fragment).textContent = card.evidence;
+    $(".entity", fragment).textContent = card.entity;
     $("h3", fragment).textContent = card.headline;
-    $(".metadata", fragment).textContent = `${card.entity} · ${card.business_category} / ${card.industry} · ${card.signal_date}`;
+    $(".metadata", fragment).textContent = `${card.business_category} / ${card.industry} · ${card.signal_date}`;
     $(".fact p", fragment).textContent = card.fact_statement;
     $(".growth p", fragment).textContent = card.growth_signal;
     $(".question p", fragment).textContent = card.opening_question;
-    $(".judgment", fragment).textContent = card.sales_judgment;
-    $(".next-action", fragment).textContent = card.next_action;
-    $(".caveat", fragment).textContent = card.caveat;
     grid.append(fragment);
   });
   renderHealth(cards);
