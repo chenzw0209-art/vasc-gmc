@@ -463,16 +463,16 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
 #market-panel.beauty-focus .market-context-bar,
 #market-panel.beauty-focus .preference-note,
 #market-panel.beauty-focus .market-tabs { display: none; }
-.workspace.beauty-focus { width: 100%; max-width: none; margin: 0; padding: 18px 22px 56px; }
+.workspace.beauty-focus { width: 100%; max-width: none; margin: 0; padding: 12px 18px 56px; }
 #market-panel.beauty-focus .market-workspace { overflow: visible; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
 #market-panel.beauty-focus .market-dashboard { padding: 0; }
-.beauty-insight-dashboard { display: grid; gap: 14px; }
+.beauty-insight-dashboard { display: grid; width: min(100%, 1460px); gap: 8px; margin: 0 auto; }
 .beauty-country-header {
   display: grid;
-  grid-template-columns: minmax(280px, .68fr) minmax(520px, 1.32fr);
-  gap: 28px;
+  grid-template-columns: minmax(310px, .72fr) minmax(590px, 1.28fr);
+  gap: 18px;
   align-items: center;
-  padding: 12px 16px;
+  padding: 4px 10px;
   border: 1px solid #dce7f4;
   border-radius: 14px;
   background: linear-gradient(118deg, #f7faff 0%, #fff 56%, #f7fbff 100%);
@@ -481,161 +481,177 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
 .beauty-country-control > span,
 .beauty-amazon-head > div > span {
   color: #416b9f;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 850;
   letter-spacing: .08em;
 }
-.beauty-country-title h3 { margin: 4px 0 2px; color: #102c56; font-size: 20px; letter-spacing: -.03em; }
-.beauty-country-title p { margin: 0; color: #657891; font-size: 12px; }
+.beauty-country-title h3 { margin: 2px 0 1px; color: #102c56; font-size: 18px; letter-spacing: -.035em; }
+.beauty-country-title p { margin: 0; color: #657891; font-size: 10px; }
 .beauty-country-control { min-width: 0; }
-.beauty-country-row { display: flex; gap: 6px; margin-top: 7px; overflow-x: auto; padding: 0 0 3px; scrollbar-width: thin; }
-.beauty-country-row .market-chip { flex: 0 0 auto; padding: 6px 10px; }
+.beauty-country-row { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 3px; padding: 0; }
+.beauty-country-row .market-chip { min-height: 22px; flex: 0 0 auto; padding: 3px 8px; font-size: 9px; }
+.beauty-strategic-thesis { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 14px; align-items: center; padding: 11px 16px; border: 1px solid #cbdcf4; border-radius: 11px; color: #173a66; background: linear-gradient(90deg, #eef5ff, #fff); }
+.beauty-strategic-thesis span { color: #1768ef; font-size: 11px; font-weight: 850; letter-spacing: .06em; }
+.beauty-strategic-thesis strong { font-size: 14px; line-height: 1.45; }
+.beauty-platform-tabs { display: flex; min-width: 0; align-items: stretch; gap: 6px; padding: 5px 7px; border: 1px solid #dce7f4; border-radius: 9px; background: #fff; }
+.beauty-platform-tabs > span { display: grid; min-width: 70px; place-items: center start; padding: 0 7px; color: #577291; font-size: 10px; font-weight: 850; }
+.beauty-platform-tabs button { display: grid; min-width: 190px; gap: 1px; border: 1px solid #dce6f2; border-radius: 7px; padding: 5px 9px; text-align: left; color: #365270; background: #f8fbff; }
+.beauty-platform-tabs button:hover { border-color: #9fc3f4; background: #f1f7ff; }
+.beauty-platform-tabs button.active { border-color: #1768ef; color: #0f4ca2; background: #edf4ff; box-shadow: inset 0 -2px 0 #1768ef; }
+.beauty-platform-tabs b { font-size: 11px; }
+.beauty-platform-tabs small { overflow: hidden; color: #70839a; font-size: 9px; text-overflow: ellipsis; white-space: nowrap; }
 .beauty-signal-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
-.beauty-signal-card { position: relative; display: grid; height: 100px; min-width: 0; grid-template-rows: auto auto 1fr auto; padding: 10px 14px; border: 1px solid #dce7f4; border-radius: 10px; background: #fff; overflow: hidden; }
+.beauty-signal-card { position: relative; display: grid; min-height: 50px; min-width: 0; grid-template-rows: auto auto 1fr auto; padding: 4px 9px; border: 1px solid #dce7f4; border-radius: 9px; background: #fff; overflow: hidden; }
 .beauty-signal-card::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 3px; background: #1768ef; }
 .beauty-signal-card.amber { border-color: #f0d4a8; background: linear-gradient(120deg, #fff9ef, #fff); }
 .beauty-signal-card.amber::before { background: #e99223; }
 .beauty-signal-card.mint { border-color: #bfe7df; background: linear-gradient(120deg, #f1fbf8, #fff); }
 .beauty-signal-card.mint::before { background: #08a89b; }
-.beauty-signal-card > span { color: #67809e; font-size: 10px; font-weight: 850; letter-spacing: .07em; }
-.beauty-signal-card h4 { overflow: hidden; margin: 2px 0 3px; color: #183657; font-size: 13px; line-height: 1.2; text-overflow: ellipsis; white-space: nowrap; }
-.beauty-signal-card strong { display: block; overflow: hidden; color: #0f376e; font-size: 16px; line-height: 1.2; text-overflow: ellipsis; white-space: nowrap; }
+.beauty-signal-card > span { color: #67809e; font-size: 9px; font-weight: 850; letter-spacing: .07em; }
+.beauty-signal-card h4 { margin: 1px 0; color: #183657; font-size: 11px; line-height: 1.15; }
+.beauty-signal-card strong { display: block; color: #0f376e; font-size: 13px; line-height: 1.1; }
 .beauty-signal-card.amber strong { color: #c76c0c; }
 .beauty-signal-card.mint strong { color: #087c72; }
-.beauty-signal-card a { color: #3770bb; font-size: 10px; text-decoration: none; }
-.beauty-signal-card > small { color: #6f8299; font-size: 10px; }
+.beauty-signal-card a { color: #3770bb; font-size: 9px; text-decoration: none; }
+.beauty-signal-card > small { color: #6f8299; font-size: 9px; }
 .beauty-signal-card a:hover { text-decoration: underline; }
 .beauty-amazon-board { border: 1px solid #d7e3f2; border-radius: 14px; background: #fff; overflow: hidden; }
 .beauty-amazon-head {
   display: grid;
   grid-template-columns: minmax(260px, .72fr) minmax(560px, 1.28fr);
-  gap: 24px;
+  gap: 16px;
   align-items: center;
-  padding: 10px 16px;
+  padding: 8px 14px;
   color: #fff;
   background: linear-gradient(105deg, #082c65 0%, #0c397e 42%, #1765c6 100%);
 }
 .beauty-amazon-head > div > span { color: #68e1d6; }
-.beauty-amazon-head h3 { margin: 3px 0; color: #fff; font-size: 17px; letter-spacing: -.02em; }
-.beauty-amazon-head p { margin: 0; color: #bdd0e9; font-size: 10px; }
+.beauty-amazon-head h3 { margin: 2px 0; color: #fff; font-size: 16px; letter-spacing: -.025em; }
+.beauty-amazon-head p { margin: 0; color: #bdd0e9; font-size: 9px; }
 .beauty-amazon-kpis { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); }
-.beauty-amazon-kpis > span { min-width: 0; padding: 3px 13px; border-left: 1px solid rgba(255, 255, 255, .16); }
-.beauty-amazon-kpis small { display: block; color: #b9cce6; font-size: 9px; }
-.beauty-amazon-kpis strong { display: block; overflow: hidden; margin-top: 3px; color: #fff; font-size: 15px; text-overflow: ellipsis; white-space: nowrap; }
+.beauty-amazon-kpis > span { min-width: 0; padding: 3px 10px; border-left: 1px solid rgba(255, 255, 255, .16); }
+.beauty-amazon-kpis small { display: block; color: #b9cce6; font-size: 8px; }
+.beauty-amazon-kpis strong { display: block; margin-top: 2px; color: #fff; font-size: 15px; line-height: 1.1; overflow-wrap: anywhere; }
+.beauty-amazon-head .beauty-platform-tabs { display: flex; gap: 4px; margin-top: 2px; padding: 0; border: 0; border-radius: 0; background: transparent; }
+.beauty-amazon-head .beauty-platform-tabs > span { display: none; }
+.beauty-amazon-head .beauty-platform-tabs button { display: inline-flex; width: auto; min-width: 0; gap: 4px; align-items: center; border-color: rgba(190, 216, 250, .34); padding: 2px 6px; color: #dceaff; background: rgba(255, 255, 255, .08); }
+.beauty-amazon-head .beauty-platform-tabs button.active { border-color: #77e4d9; color: #062b55; background: #8cebe1; box-shadow: none; }
+.beauty-amazon-head .beauty-platform-tabs b { font-size: 8px; }
+.beauty-amazon-head .beauty-platform-tabs small { display: none; }
 .beauty-landscape-grid { display: grid; grid-template-columns: minmax(380px, .84fr) minmax(540px, 1.16fr); }
-.beauty-landscape-card { min-width: 0; padding: 15px 17px 11px; background: #fff; }
+.beauty-landscape-card { min-width: 0; padding: 9px 13px 7px; background: #fff; }
 .beauty-landscape-card + .beauty-landscape-card { border-left: 1px solid #e4ebf4; }
 .beauty-landscape-card > header,
-.beauty-detail-card > header { display: flex; align-items: baseline; gap: 8px; margin-bottom: 11px; }
+.beauty-detail-card > header { display: flex; align-items: baseline; gap: 6px; margin-bottom: 6px; }
 .beauty-landscape-card > header > div { flex: 1; }
 .beauty-landscape-card header span,
-.beauty-detail-card > header > span { color: #1768ef; font-size: 10px; font-weight: 850; letter-spacing: .06em; }
+.beauty-detail-card > header > span { color: #1768ef; font-size: 11px; font-weight: 850; letter-spacing: .06em; }
 .beauty-landscape-card h4,
-.beauty-detail-card h4 { margin: 2px 0 0; color: #1a3557; font-size: 13px; }
+.beauty-detail-card h4 { margin: 1px 0 0; color: #1a3557; font-size: 12px; }
 .beauty-landscape-card header small,
-.beauty-detail-card header small { margin-left: auto; color: #78899e; font-size: 9px; }
-.beauty-landscape-bars { display: grid; max-height: 304px; gap: 8px; overflow-y: auto; padding-right: 4px; scrollbar-width: thin; scrollbar-color: #c5d4e5 transparent; }
+.beauty-detail-card header small { margin-left: auto; color: #78899e; font-size: 11px; }
+.beauty-landscape-bars { display: grid; max-height: 150px; gap: 0; overflow-y: auto; padding-right: 3px; scrollbar-width: thin; scrollbar-color: #c5d4e5 transparent; }
 .beauty-landscape-row { display: grid; grid-template-columns: minmax(126px, 1fr) minmax(100px, 1.45fr) 62px 58px; gap: 8px; align-items: center; }
-.beauty-landscape-row > b { overflow: hidden; color: #2b4564; font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
-.beauty-landscape-row > b i { display: inline-block; width: 21px; color: #9bacc0; font-size: 8px; font-style: normal; }
+.beauty-landscape-row > b { color: #2b4564; font-size: 9px; line-height: 1.08; }
+.beauty-landscape-row > b i { display: inline-block; width: 23px; color: #9bacc0; font-size: 10px; font-style: normal; }
 .beauty-landscape-row > span { height: 7px; overflow: hidden; border-radius: 99px; background: #edf2f8; }
 .beauty-landscape-row > span em { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #1768ef, #3b82e8); }
-.beauty-landscape-row > strong { color: #244c7c; font-size: 10px; font-variant-numeric: tabular-nums; text-align: right; }
-.beauty-landscape-row > small { color: #72869e; font-size: 9px; font-variant-numeric: tabular-nums; text-align: right; }
+.beauty-landscape-row > strong { color: #244c7c; font-size: 9px; font-variant-numeric: tabular-nums; text-align: right; }
+.beauty-landscape-row > small { color: #72869e; font-size: 8px; font-variant-numeric: tabular-nums; text-align: right; }
 .beauty-opportunity-svg,
 .beauty-trend-svg { display: block; width: 100%; height: auto; }
 .beauty-opportunity-svg text,
-.beauty-trend-svg text { fill: #708299; font: 9px system-ui, sans-serif; }
-.beauty-opportunity-svg .axis-title { fill: #667b96; font-size: 9px; font-weight: 700; }
+.beauty-trend-svg text { fill: #708299; font: 11px system-ui, sans-serif; }
+.beauty-opportunity-svg .axis-title { fill: #667b96; font-size: 11px; font-weight: 700; }
 .beauty-opportunity-svg .grid,
 .beauty-trend-svg .grid { stroke: #e6edf5; stroke-width: 1; stroke-dasharray: 3 4; }
 .beauty-bubble circle { fill: #6c7fa1; fill-opacity: .88; stroke: #fff; stroke-width: 2; }
-.beauty-bubble text { fill: #4f6078; font-size: 9px; font-weight: 750; }
+.beauty-bubble text { fill: #4f6078; font-size: 10px; font-weight: 750; }
 .beauty-bubble.whitespace circle { fill: #1768ef; }
 .beauty-bubble.whitespace text { fill: #1762bf; }
 .beauty-bubble.manufacturing circle { fill: #08a89b; }
 .beauty-bubble.manufacturing text { fill: #087f74; }
-.beauty-opportunity-legend { display: flex; justify-content: flex-end; gap: 13px; margin-top: -3px; color: #62758e; font-size: 9px; }
+.beauty-opportunity-legend { display: flex; justify-content: flex-end; gap: 13px; margin-top: -3px; color: #62758e; font-size: 10px; }
 .beauty-opportunity-legend span { display: inline-flex; align-items: center; gap: 5px; }
 .beauty-opportunity-legend i { width: 7px; height: 7px; border-radius: 50%; background: #6c7fa1; }
 .beauty-opportunity-legend i.whitespace { background: #1768ef; }
 .beauty-opportunity-legend i.manufacturing { background: #08a89b; }
 .beauty-insight-strip { display: grid; grid-template-columns: 110px repeat(3, minmax(0, 1fr)); align-items: center; border-top: 1px solid #dce8f7; border-bottom: 1px solid #dce8f7; background: #f2f7ff; }
-.beauty-insight-strip > strong { padding: 12px 16px; color: #125fbd; font-size: 11px; }
-.beauty-insight-strip > span { min-width: 0; padding: 11px 15px; border-left: 1px solid #dce8f7; color: #244566; font-size: 10px; font-weight: 750; }
+.beauty-insight-strip > strong { padding: 8px 13px; color: #125fbd; font-size: 10px; }
+.beauty-insight-strip > span { min-width: 0; padding: 7px 12px; border-left: 1px solid #dce8f7; color: #244566; font-size: 10px; font-weight: 750; }
 .beauty-insight-strip b { margin-right: 7px; color: #1768ef; }
-.beauty-l2-tabs { display: flex; gap: 18px; padding: 0 17px; overflow-x: auto; border-bottom: 1px solid #e4ebf4; background: #fff; }
-.beauty-l2-tabs button { flex: 0 0 auto; padding: 13px 1px 11px; border: 0; border-bottom: 2px solid transparent; color: #536b87; background: none; font-size: 10px; font-weight: 750; }
+.beauty-l2-tabs { display: flex; gap: 15px; padding: 0 13px; overflow-x: auto; border-bottom: 1px solid #e4ebf4; background: #fff; }
+.beauty-l2-tabs button { flex: 0 0 auto; padding: 8px 1px 7px; border: 0; border-bottom: 2px solid transparent; color: #536b87; background: none; font-size: 10px; font-weight: 750; }
 .beauty-l2-tabs button:hover { color: #1768ef; }
 .beauty-l2-tabs button.active { border-bottom-color: #1768ef; color: #1768ef; }
-.beauty-deep-grid { display: grid; grid-template-columns: minmax(0, .82fr) minmax(0, 1.1fr) minmax(0, 1.45fr) minmax(0, .95fr); gap: 10px; padding: 12px; background: #f7faff; }
-.beauty-detail-card { min-width: 0; padding: 14px; overflow: hidden; border: 1px solid #dce6f2; border-radius: 10px; background: #fff; }
+.beauty-deep-grid { display: grid; grid-template-columns: minmax(0, .82fr) minmax(0, 1.12fr) minmax(0, 1.35fr) minmax(0, .95fr); gap: 8px; padding: 8px; background: #f7faff; }
+.beauty-detail-card { min-width: 0; padding: 9px; overflow: hidden; border: 1px solid #dce6f2; border-radius: 8px; background: #fff; }
 .beauty-detail-card > header > span { display: inline-grid; width: 20px; height: 20px; place-items: center; border-radius: 6px; color: #fff; background: #1768ef; }
-.beauty-category-card { grid-column: 1; height: 282px; }
-.beauty-player-card { grid-column: 2; height: 282px; }
-.beauty-trend-card { grid-column: 3; height: 282px; }
-.beauty-detail-side { display: grid; grid-column: 4; grid-template-rows: minmax(0, .72fr) minmax(0, 1.28fr); gap: 10px; min-width: 0; height: 282px; }
+.beauty-category-card { grid-column: 1; height: 278px; }
+.beauty-player-card { grid-column: 2; height: 278px; }
+.beauty-trend-card { grid-column: 3; height: 278px; }
+.beauty-detail-side { display: grid; grid-column: 4; grid-template-rows: 86px 184px; gap: 8px; min-width: 0; height: 278px; }
 .beauty-category-table .head,
-.beauty-category-table .row { display: grid; grid-template-columns: minmax(116px, 1.3fr) minmax(72px, 1fr) 61px; gap: 7px; align-items: center; }
-.beauty-category-table .head { padding: 5px 0 7px; color: #8493a7; font-size: 8px; }
+.beauty-category-table .row { display: grid; grid-template-columns: minmax(80px, 1.3fr) minmax(50px, .9fr) 48px; gap: 4px; align-items: center; }
+.beauty-category-table .head { padding: 6px 0 8px; color: #8493a7; font-size: 10px; }
 .beauty-category-table .head b:nth-child(n+2) { text-align: right; }
-.beauty-category-table .row { min-height: 25px; border-top: 1px solid #edf2f7; }
-.beauty-category-table .row > b { overflow: hidden; color: #334c68; font-size: 9px; text-overflow: ellipsis; white-space: nowrap; }
-.beauty-category-table .row > b i { display: inline-block; width: 18px; color: #9aa8b9; font-size: 8px; font-style: normal; }
+.beauty-category-table .row { min-height: 28px; border-top: 1px solid #edf2f7; }
+.beauty-category-table .row > b { color: #334c68; font-size: 10px; line-height: 1.15; }
+.beauty-category-table .row > b i { display: inline-block; width: 20px; color: #9aa8b9; font-size: 10px; font-style: normal; }
 .beauty-category-table .row > span { height: 5px; overflow: hidden; border-radius: 99px; background: #ecf1f7; }
 .beauty-category-table .row > span em { display: block; height: 100%; border-radius: inherit; background: #397ae0; }
 .beauty-category-table .row > strong { color: #2f537d; font-size: 9px; text-align: right; }
-.beauty-category-table .row > small { grid-column: 3; margin-top: -22px; color: #71849a; font-size: 8px; text-align: right; }
+.beauty-category-table .row > small { grid-column: 3; margin-top: -20px; color: #71849a; font-size: 8px; text-align: right; }
 .beauty-player-limit { display: inline-flex; align-items: center; gap: 5px; margin-left: auto; }
 .beauty-player-limit small { margin-left: 0 !important; }
-.beauty-player-limit select { height: 25px; padding: 0 22px 0 8px; border: 1px solid #d6e1ee; border-radius: 6px; color: #315271; background: #f8fbff; font-size: 8px; font-weight: 750; }
-.beauty-player-table { max-height: 224px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #c5d4e5 transparent; }
+.beauty-player-limit select { height: 30px; padding: 0 24px 0 9px; border: 1px solid #d6e1ee; border-radius: 7px; color: #315271; background: #f8fbff; font-size: 11px; font-weight: 750; }
+.beauty-player-table { max-height: 226px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #c5d4e5 transparent; }
 .beauty-player-table .head,
-.beauty-player-table .row { display: grid; grid-template-columns: 24px minmax(95px, 1fr) 34px 62px 112px; gap: 7px; align-items: center; }
-.beauty-player-table .head { position: sticky; z-index: 2; top: 0; padding: 5px 0 7px; color: #8493a7; background: #fff; font-size: 8px; }
+.beauty-player-table .row { display: grid; grid-template-columns: 20px minmax(72px, 1.3fr) 28px 50px minmax(68px, .9fr); gap: 4px; align-items: center; }
+.beauty-player-table .head { position: sticky; z-index: 2; top: 0; padding: 6px 0 8px; color: #8493a7; background: #fff; font-size: 10px; }
 .beauty-player-table .head b:nth-child(n+3) { text-align: right; }
-.beauty-player-table .row { min-height: 29px; border-top: 1px solid #edf2f7; }
-.beauty-player-table .row > i { color: #9aa8b9; font-size: 8px; font-style: normal; }
-.beauty-player-table .row > b { overflow: hidden; color: #2e4866; font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
-.beauty-player-table .row > b small { display: block; overflow: hidden; margin-top: 2px; color: #8a98a9; font-size: 7px; font-weight: 500; text-overflow: ellipsis; }
+.beauty-player-table .row { min-height: 28px; border-top: 1px solid #edf2f7; }
+.beauty-player-table .row > i { color: #9aa8b9; font-size: 10px; font-style: normal; }
+.beauty-player-table .row > b { color: #2e4866; font-size: 10px; line-height: 1.1; overflow-wrap: anywhere; }
+.beauty-player-table .row > b small { display: block; margin-top: 1px; color: #8a98a9; font-size: 8px; font-weight: 500; line-height: 1.1; }
 .beauty-player-table .row > em { color: #687b91; font-size: 8px; font-style: normal; text-align: right; }
 .beauty-player-table .row > strong { color: #244e7f; font-size: 9px; text-align: right; }
-.beauty-player-table .row > span { display: grid; grid-template-columns: 70px 40px; align-items: center; }
+.beauty-player-table .row > span { display: grid; grid-template-columns: minmax(40px, 1fr) 27px; align-items: center; }
 .beauty-player-table .row > span > small { font-size: 8px; text-align: right; }
-.beauty-sparkline { display: block; width: 70px; height: 26px; }
+.beauty-sparkline { display: block; width: 100%; height: 20px; }
 .beauty-sparkline polyline { fill: none; stroke: #1768ef; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.beauty-trend-legend { display: flex; gap: 11px; flex-wrap: wrap; margin: -2px 0 5px; color: #64768d; font-size: 8px; }
+.beauty-trend-legend { display: flex; gap: 11px; flex-wrap: wrap; margin: -2px 0 5px; color: #64768d; font-size: 10px; }
 .beauty-trend-legend span { display: inline-flex; align-items: center; gap: 4px; }
 .beauty-trend-legend i { width: 13px; height: 3px; border-radius: 3px; }
 .beauty-trend-legend b { color: #3a5471; }
-.beauty-trend-svg { display: block; width: 100%; height: 215px; }
+.beauty-trend-svg { display: block; width: 100%; height: 218px; }
 .beauty-trend-svg .average { stroke: #8fa1b7; stroke-width: 1.2; stroke-dasharray: 5 4; }
 .beauty-trend-area { fill: #dbeafe; fill-opacity: .72; }
 .beauty-trend-line { fill: none; stroke: #1768ef; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
 .beauty-trend-point { fill: #1768ef; stroke: #fff; stroke-width: 2; }
 .beauty-trend-point.open { fill: #fff; stroke: #1768ef; }
-.beauty-trend-svg .latest-label { fill: #1558aa; font-size: 10px; font-weight: 800; }
-.beauty-claims-card > div { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; }
-.beauty-claims-card > div > span { overflow: hidden; padding: 5px 7px; border: 1px solid #d7e4f5; border-radius: 99px; color: #2662a9; background: #eff5ff; font-size: 8px; font-weight: 750; text-align: center; text-overflow: ellipsis; white-space: nowrap; }
+.beauty-trend-svg .latest-label { fill: #1558aa; font-size: 12px; font-weight: 800; }
+.beauty-claims-card > div { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; }
+.beauty-claims-card > div > span { padding: 3px 5px; border: 1px solid #d7e4f5; border-radius: 99px; color: #2662a9; background: #eff5ff; font-size: 8px; font-weight: 750; text-align: center; line-height: 1.1; overflow-wrap: anywhere; }
 .beauty-china-table .head,
-.beauty-china-table .row { display: grid; grid-template-columns: minmax(105px, 1fr) 66px 28px 38px; gap: 7px; align-items: center; }
-.beauty-china-table .head { padding-bottom: 6px; color: #8493a7; font-size: 8px; }
+.beauty-china-table .row { display: grid; grid-template-columns: minmax(78px, 1fr) 49px 22px 29px; gap: 3px; align-items: center; }
+.beauty-china-table .head { padding-bottom: 7px; color: #8493a7; font-size: 10px; }
 .beauty-china-table .head b:nth-child(n+2) { text-align: right; }
-.beauty-china-table .row { min-height: 31px; border-top: 1px solid #edf2f7; }
-.beauty-china-table .row > b { overflow: hidden; color: #2e4866; font-size: 9px; text-overflow: ellipsis; white-space: nowrap; }
-.beauty-china-table .row > b small { display: block; overflow: hidden; color: #8a98aa; font-size: 7px; font-weight: 500; text-overflow: ellipsis; }
+.beauty-china-table .row { min-height: 29px; border-top: 1px solid #edf2f7; }
+.beauty-china-table .row > b { color: #2e4866; font-size: 9px; line-height: 1.1; overflow-wrap: anywhere; }
+.beauty-china-table .row > b small { display: block; margin-top: 2px; color: #8a98aa; font-size: 9px; font-weight: 500; line-height: 1.2; }
 .beauty-china-table .row > strong { color: #244e7f; font-size: 8px; text-align: right; }
-.beauty-china-table .row > i { color: #aab5c3; font-size: 11px; font-style: normal; text-align: right; }
+.beauty-china-table .row > i { color: #aab5c3; font-size: 9px; font-style: normal; text-align: right; }
 .beauty-china-table .row > i.yes { color: #08a89b; }
 .beauty-country-gap { display: grid; grid-template-columns: 1.2fr repeat(3, 1fr); gap: 0; align-items: center; padding: 18px; border: 1px solid #dce7f4; border-radius: 14px; background: #fff; }
-.beauty-country-gap > span { color: #49709d; font-size: 10px; font-weight: 800; }
+.beauty-country-gap > span { color: #49709d; font-size: 12px; font-weight: 800; }
 .beauty-country-gap > h4 { margin: 3px 0 0; color: #183657; font-size: 18px; }
 .beauty-country-gap > div { min-height: 58px; padding: 3px 16px; border-left: 1px solid #e6edf5; }
-.beauty-country-gap b { color: #2c4766; font-size: 11px; }
-.beauty-country-gap p { margin: 5px 0 0; color: #74869c; font-size: 10px; line-height: 1.45; }
+.beauty-country-gap b { color: #2c4766; font-size: 12px; }
+.beauty-country-gap p { margin: 5px 0 0; color: #74869c; font-size: 12px; line-height: 1.45; }
 .beauty-player-snapshot-board { display: grid; }
 .beauty-snapshot-player-table { padding: 12px; background: #f7faff; }
-.beauty-snapshot-player-table .beauty-player-card { grid-column: auto; width: auto; height: 282px; }
+.beauty-snapshot-player-table .beauty-player-card { grid-column: auto; width: auto; height: 278px; }
 
 @media (max-width: 1060px) {
   .market-filter-card { grid-template-columns: 1fr 1fr; }
@@ -652,14 +668,18 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
 }
 
 @media (max-width: 900px) {
-  .workbench { grid-template-columns: 1fr; }
-  .sidebar { position: static; z-index: 1; height: auto; padding: 14px 18px; }
+  .workbench { width: 100%; min-width: 0; grid-template-columns: minmax(0, 1fr); overflow-x: hidden; }
+  .sidebar { position: static; z-index: 1; width: 100%; min-width: 0; height: auto; overflow: hidden; padding: 14px 18px; }
   .sidebar-user, .followed-summary, .sidebar-footer { display: none; }
-  .nav-list { display: flex; gap: 6px; margin-top: 15px; overflow-x: auto; }
+  .nav-list { display: flex; width: 100%; min-width: 0; max-width: 100%; gap: 6px; margin-top: 15px; overflow-x: auto; }
   .nav-item { white-space: nowrap; }
   .market-nav-tree { min-width: 220px; margin: 0 4px; padding: 0 0 0 8px; }
   .market-tree-leaves.open { grid-auto-flow: column; grid-template-rows: repeat(3, auto); }
-  .workspace { padding-top: 30px; }
+  .workspace { width: 100%; min-width: 0; padding-top: 30px; }
+  .workspace.beauty-focus { padding: 10px 12px 48px; }
+  .beauty-insight-dashboard,
+  .beauty-country-header,
+  .beauty-amazon-board { width: 100%; min-width: 0; max-width: 100%; }
   .ranking-grid { grid-template-columns: 1fr; }
   .market-health-grid, .market-summary-grid, .summary-grid { grid-template-columns: repeat(2, minmax(130px, 1fr)); }
   .market-overview-body { grid-template-columns: 1fr; }
@@ -674,6 +694,9 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   .ec-player-kpis span:nth-child(2) { border-right: 0; }
   .ec-player-kpis span:nth-child(-n+2) { border-bottom: 1px solid #e6eef8; }
   .beauty-signal-grid { grid-template-columns: 1fr; }
+  .beauty-country-row { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scrollbar-width: thin; }
+  .beauty-platform-tabs { overflow-x: auto; }
+  .beauty-platform-tabs button { flex: 0 0 220px; }
   .beauty-insight-strip { grid-template-columns: 1fr; }
   .beauty-insight-strip > span { border-top: 1px solid #dce8f7; border-left: 0; }
   .beauty-deep-grid { grid-template-columns: 1fr; }
@@ -736,6 +759,8 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   .ec-player-table-scroll { max-height: 360px; }
   .beauty-country-header { padding: 14px; }
   .beauty-country-title h3 { font-size: 19px; }
+  .beauty-strategic-thesis { grid-template-columns: 1fr; gap: 5px; }
+  .beauty-platform-tabs > span { display: none; }
   .beauty-amazon-head { padding: 14px; }
   .beauty-amazon-kpis { grid-template-columns: 1fr 1fr; }
   .beauty-amazon-kpis > span:nth-child(odd) { border-left: 0; }
@@ -877,7 +902,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     searchIndustry: "",
     status: "",
     weeklyIndustry: "",
-    market: { business: "", industry: "", subIndustry: "", dimension: "industry", focusPlayer: "", focusProduct: "", country: "", platform: "", platformScope: "all", playerPlatform: "", playerCategory: "all", beautyL2: "面部护理", beautyPlayerLimit: 8 },
+    market: { business: "", industry: "", subIndustry: "", dimension: "industry", focusPlayer: "", focusProduct: "", country: "", platform: "", platformScope: "all", playerPlatform: "", playerCategory: "all", beautyL2: "面部护理", beautyPlayerLimit: 8, platformView: "dashboard" },
   };
   const MARKET_TAXONOMY = {
     EC: ["Beauty", "Consumer Tech", "FMCG", "Health", "Lifestyle", "Fashion"],
@@ -1568,9 +1593,11 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   }
 
   function ecIndustrySignals(industry, countryCode, dashboard = null, snapshot = null) {
-    if (industry === "Beauty") return BEAUTY_MARKET_SIGNALS[countryCode] || [];
-    const external = EC_INDUSTRY_MARKET_SIGNALS[industry]?.[countryCode] || [];
+    const external = industry === "Beauty"
+      ? BEAUTY_MARKET_SIGNALS[countryCode] || []
+      : EC_INDUSTRY_MARKET_SIGNALS[industry]?.[countryCode] || [];
     const derived = dashboard ? dashboardSignalCards(dashboard) : snapshot ? snapshotSignalCards(snapshot) : [];
+    if (industry === "Beauty" && derived.length) return [...external.slice(0, 1), ...derived].slice(0, 3);
     return [...external, ...derived].slice(0, 3);
   }
 
@@ -1621,14 +1648,55 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     return `${number >= 0 ? "+" : "-"}${compactMoney(Math.abs(number), currency)}`;
   }
 
-  function beautyCountryHeader(record, dashboard) {
-    const sourceLine = dashboard
-      ? `政策结果 · 行业认知 · ${dashboard.platform} 数据`
-      : record.country_code === "PH" ? "政策结果 · 行业认知 · TikTok Shop 玩家" : "政策结果 · 行业认知";
+  function beautyCountryHeader(record, sourceLine = "政策结果 · 行业认知") {
     return `<section class="beauty-country-header">
-      <div class="beauty-country-title"><span>市场总览 / EC / ${escapeHtml(record.industry)}</span><h3>${escapeHtml(record.country)} · ${escapeHtml(record.industry)} 市场洞察</h3><p>${escapeHtml(sourceLine)}</p></div>
+      <div class="beauty-country-title"><span>市场洞察 / EC / ${escapeHtml(record.industry)}</span><h3>${escapeHtml(record.country)} · ${escapeHtml(record.industry)} 市场洞察</h3><p>${escapeHtml(sourceLine)}</p></div>
       <div class="beauty-country-control"><span>选择国家</span><div class="beauty-country-row" role="group" aria-label="${escapeHtml(record.industry)} 观察国家">${orderedCountries(record).map((item) => `<button type="button" class="market-chip${item.country_code === record.country_code ? " active" : ""}" data-market-country="${escapeHtml(item.country_code)}">${escapeHtml(item.country)}</button>`).join("")}</div></div>
     </section>`;
+  }
+
+  function beautyPlatformTabs(dashboard, snapshot) {
+    if (!dashboard || !snapshot || dashboard.platform === snapshot.platform) return "";
+    const selected = state.market.platformView === "snapshot" ? "snapshot" : "dashboard";
+    return `<section class="beauty-platform-tabs" role="tablist" aria-label="平台数据视图">
+      <span>平台数据</span>
+      <button type="button" role="tab" aria-selected="${selected === "dashboard"}" class="${selected === "dashboard" ? "active" : ""}" data-market-platform-view="dashboard"><b>${escapeHtml(dashboard.platform)}</b><small>${escapeHtml(dashboard.metric)} · ${escapeHtml(dashboard.period)}</small></button>
+      <button type="button" role="tab" aria-selected="${selected === "snapshot"}" class="${selected === "snapshot" ? "active" : ""}" data-market-platform-view="snapshot"><b>${escapeHtml(snapshot.platform || "TikTok Shop")}</b><small>${escapeHtml(snapshot.metric)} · ${escapeHtml(snapshot.period)}</small></button>
+    </section>`;
+  }
+
+  function dashboardStrategicThesis(dashboard) {
+    const rows = dashboard?.l2 || [];
+    if (!rows.length) return "";
+    const leaders = rows.slice(0, 2).map((item) => item.label).filter(Boolean);
+    const leaderText = leaders.length > 1 ? `${leaders[0]}与${leaders[1]}` : leaders[0];
+    if (dashboard.opportunity_metric === "cn_share") {
+      const cnLeader = [...rows].filter((item) => Number.isFinite(Number(item.cnShare))).sort((left, right) => Number(right.cnShare) - Number(left.cnShare))[0];
+      return `${leaderText}承载规模，中国品牌在${cnLeader?.label || rows[0].label}形成最明显的结构优势。`;
+    }
+    if (dashboard.opportunity_metric === "active_rate") {
+      const activeLeader = [...rows].sort((left, right) => Number(right.activeRate || 0) - Number(left.activeRate || 0))[0];
+      return `${leaderText}承载成交，${activeLeader?.label || rows[0].label}的商品动销效率最突出。`;
+    }
+    if (dashboard.opportunity_metric === "live_share") {
+      const content = rows[0] || {};
+      const leadingFormat = Number(content.liveShare || 0) >= Number(content.videoShare || 0) ? "直播" : "视频";
+      return `${leaderText}构成当前规模重心，${leadingFormat}是更强的内容成交入口。`;
+    }
+    const fastest = [...rows].map((item) => ({ ...item, growthDelta: dashboardGrowthDelta(item) })).sort((left, right) => right.growthDelta - left.growthDelta)[0];
+    const unit = dashboard.currency === "COUNT" ? dashboard.trend_value_label || dashboard.metric || "指标" : "GMV";
+    return `${leaderText}构成当前规模重心，${fastest?.label || rows[0].label}贡献最大的${unit}增量。`;
+  }
+
+  function snapshotStrategicThesis(snapshot) {
+    const players = snapshot?.players || [];
+    if (!players.length) return "";
+    const fastest = [...players].filter((item) => Number(item.growth_rate_pct) > 0).sort((left, right) => Number(right.growth_rate_pct) - Number(left.growth_rate_pct))[0];
+    return `${players[0].name}领跑当前玩家规模，${fastest?.name || players[0].name}呈现最明显的增长弹性。`;
+  }
+
+  function strategicThesis(text) {
+    return text ? `<section class="beauty-strategic-thesis"><span>战略判断</span><strong>${escapeHtml(text)}</strong></section>` : "";
   }
 
   function beautySignalCards(signals) {
@@ -1658,7 +1726,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     </svg><div class="beauty-opportunity-legend"><span><i class="manufacturing"></i>正增长</span><span><i class="middle"></i>回落</span></div></article>`;
   }
 
-  function beautyPlayerSnapshotBoard(snapshot, industry = "Beauty") {
+  function beautyPlayerSnapshotBoard(snapshot, industry = "Beauty", platformTabs = "") {
     const players = snapshot.players || [];
     const total = players.reduce((sum, item) => sum + Number(item.value_usd || 0), 0);
     const positive = players.filter((item) => Number(item.growth_rate_pct) > 0);
@@ -1671,7 +1739,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
       currency: "USD", category_mode: "market_stats", player_label: `TikTok ${industry} 玩家`, player_value_label: "180 天成交额", player_detail_label: "增长率",
       players: players.slice(0, 30).map((item) => ({ name: item.name, country: "", category: item.category, monthlyGmv: item.value_usd, annualGmv: item.value_usd, listings: 0, detailDisplay: Number.isFinite(Number(item.growth_rate_pct)) ? signedPercent(item.growth_rate_pct) : "–" })), trends: [],
     };
-    return `<section class="beauty-amazon-board beauty-player-snapshot-board"><header class="beauty-amazon-head"><div><span>TIKTOK SHOP ${escapeHtml(snapshot.country_code)}</span><h3>TikTok Shop ${escapeHtml(snapshot.country)} ${escapeHtml(industry)} 玩家大盘</h3><p>${escapeHtml(snapshot.metric)} · ${escapeHtml(snapshot.period)} · ${players.length} 个已映射玩家</p></div><div class="beauty-amazon-kpis">
+    return `<section class="beauty-amazon-board beauty-player-snapshot-board"><header class="beauty-amazon-head"><div><span>TIKTOK SHOP ${escapeHtml(snapshot.country_code)}</span><h3>TikTok Shop ${escapeHtml(snapshot.country)} ${escapeHtml(industry)} 玩家大盘</h3><p>${escapeHtml(snapshot.metric)} · ${escapeHtml(snapshot.period)} · ${players.length} 个已映射玩家</p>${platformTabs}</div><div class="beauty-amazon-kpis">
       <span><small>玩家样本成交额</small><strong>${escapeHtml(compactUsd(total))}</strong></span><span><small>已映射玩家</small><strong>${players.length}</strong></span><span><small>正增长玩家</small><strong>${positive.length}</strong></span><span><small>头部玩家</small><strong>${escapeHtml(top?.name || "-")}</strong></span><span><small>最快增长</small><strong>${escapeHtml(fastest?.name || "-")}</strong></span>
     </div></header><div class="beauty-landscape-grid"><article class="beauty-landscape-card beauty-l2-landscape"><header><div><span>玩家规模</span><h4>180 天成交额 Top 10</h4></div><small>USD</small></header><div class="beauty-landscape-bars">${topTen.map((item, index) => `<div class="beauty-landscape-row"><b><i>${String(index + 1).padStart(2, "0")}</i>${escapeHtml(item.name)}</b><span><em style="width:${Math.max(4, Number(item.value_usd || 0) / topTenMax * 100).toFixed(1)}%"></em></span><strong>${escapeHtml(compactUsd(item.value_usd))}</strong><small>${escapeHtml(signedPercent(item.growth_rate_pct))}</small></div>`).join("")}</div></article>${beautySnapshotGrowthPlot(snapshot, industry)}</div>
       <div class="beauty-insight-strip"><strong>关键洞察</strong><span><b>01</b> Top10 占已映射玩家成交额 ${topTenShare.toFixed(1)}%</span><span><b>02</b> 正增长玩家 ${positive.length} / ${players.length}</span><span><b>03</b> 增长最快：${escapeHtml(fastest?.name || "-")} ${escapeHtml(signedPercent(fastest?.growth_rate_pct))}</span></div>
@@ -1914,7 +1982,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     return `<article class="beauty-detail-card beauty-china-card"><header><span>E</span><h4>中国品牌</h4><small>月 GMV</small></header><div class="beauty-china-table"><div class="head"><b>品牌</b><b>月 GMV</b><b>A+</b><b>旗舰店</b></div>${(selected.chinaPlayers || []).slice(0, 5).map((item) => `<div class="row"><b>${escapeHtml(item.name)}<small>${escapeHtml(item.category || "")}</small></b><strong>${escapeHtml(compactUsd(item.monthlyGmv))}</strong><i class="${item.aPlus ? "yes" : ""}">${item.aPlus ? "✓" : "–"}</i><i class="${item.store ? "yes" : ""}">${item.store ? "✓" : "–"}</i></div>`).join("")}</div></article>`;
   }
 
-  function beautyAmazonDeepDive(dashboard, industry = dashboard.industry || "Beauty") {
+  function beautyAmazonDeepDive(dashboard, industry = dashboard.industry || "Beauty", platformTabs = "") {
     const selectedLabel = (dashboard.l2 || []).some((item) => item.label === state.market.beautyL2) ? state.market.beautyL2 : dashboard.l2?.[0]?.label;
     const rawSelected = (dashboard.l2 || []).find((item) => item.label === selectedLabel) || dashboard.l2?.[0];
     const selected = rawSelected ? {
@@ -1931,7 +1999,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
       trend_period_count: rawSelected?.l2Trend?.months?.length || 0,
     } : null;
     return `<section class="beauty-amazon-board">
-      <header class="beauty-amazon-head"><div><span>${escapeHtml(`${dashboard.platform} ${dashboard.country_code}`.toUpperCase())}</span><h3>${escapeHtml(dashboard.platform)} ${escapeHtml(dashboard.country)} ${escapeHtml(industry)} 数据大盘</h3><p>${escapeHtml(dashboard.metric)} · ${escapeHtml(dashboard.period)} · ${dashboard.l2.length} 个${dashboard.l2_complete ? "" : "已映射"}${escapeHtml(dashboard.l2_label || "二级行业")}</p></div>${beautyAmazonKpis(dashboard)}</header>
+      <header class="beauty-amazon-head"><div><span>${escapeHtml(`${dashboard.platform} ${dashboard.country_code}`.toUpperCase())}</span><h3>${escapeHtml(dashboard.platform)} ${escapeHtml(dashboard.country)} ${escapeHtml(industry)} 数据大盘</h3><p>${escapeHtml(dashboard.metric)} · ${escapeHtml(dashboard.period)} · ${dashboard.l2.length} 个${dashboard.l2_complete ? "" : "已映射"}${escapeHtml(dashboard.l2_label || "二级行业")}</p>${platformTabs}</div>${beautyAmazonKpis(dashboard)}</header>
       <div class="beauty-landscape-grid">${beautyLandscapeBars(dashboard)}${beautyOpportunityPlot(dashboard)}</div>
       ${beautyInsightStrip(dashboard)}
       ${beautyL2Tabs(dashboard, selected.label)}
@@ -1956,10 +2024,18 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   function renderBeautyInsightDimension(record) {
     const dashboard = beautyCountryDashboard(record.country_code, record.industry);
     const playerSnapshot = beautyPlatformPlayerSnapshot(record.country_code, record.industry);
-    const signals = ecIndustrySignals(record.industry, record.country_code, dashboard, playerSnapshot);
-    const dataView = dashboard ? beautyAmazonDeepDive(dashboard, record.industry) : `${playerSnapshot ? beautyPlayerSnapshotBoard(playerSnapshot, record.industry) : ""}${beautyCountryGap(record)}`;
+    const hasAlternativePlatform = Boolean(dashboard && playerSnapshot && dashboard.platform !== playerSnapshot.platform);
+    const useSnapshot = hasAlternativePlatform && state.market.platformView === "snapshot";
+    const selectedDashboard = useSnapshot ? null : dashboard;
+    const selectedSnapshot = useSnapshot || !dashboard ? playerSnapshot : null;
+    const signals = ecIndustrySignals(record.industry, record.country_code, selectedDashboard, selectedSnapshot);
+    const sourceLine = selectedDashboard
+      ? `政策结果 · 行业认知 · ${selectedDashboard.platform} 数据`
+      : selectedSnapshot ? `政策结果 · 行业认知 · ${selectedSnapshot.platform || "TikTok Shop"} 玩家` : "政策结果 · 行业认知";
+    const platformTabs = beautyPlatformTabs(dashboard, playerSnapshot);
+    const dataView = selectedDashboard ? beautyAmazonDeepDive(selectedDashboard, record.industry, platformTabs) : `${selectedSnapshot ? beautyPlayerSnapshotBoard(selectedSnapshot, record.industry, platformTabs) : ""}${beautyCountryGap(record)}`;
     const deepDive = `${signals.length ? beautySignalCards(signals) : ""}${dataView}`;
-    return `<section class="beauty-insight-dashboard">${beautyCountryHeader(record, dashboard)}${deepDive}</section>`;
+    return `<section class="beauty-insight-dashboard">${beautyCountryHeader(record, sourceLine)}${deepDive}</section>`;
   }
 
   function agDashboardOptions(industry = state.market.industry, subIndustry = state.market.subIndustry) {
@@ -1974,7 +2050,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
   function agMarketHeader(dashboard, options) {
     const label = dashboard.sub_industry || dashboard.industry;
     return `<section class="beauty-country-header">
-      <div class="beauty-country-title"><span>市场总览 / AG / ${escapeHtml(label)}</span><h3>${escapeHtml(dashboard.country)} · ${escapeHtml(label)} 市场洞察</h3><p>政策结果 · 行业认知 · ${escapeHtml(dashboard.platform)} 数据</p></div>
+      <div class="beauty-country-title"><span>市场洞察 / AG / ${escapeHtml(label)}</span><h3>${escapeHtml(dashboard.country)} · ${escapeHtml(label)} 市场洞察</h3><p>政策结果 · 行业认知 · ${escapeHtml(dashboard.platform)} 数据</p></div>
       <div class="beauty-country-control"><span>选择市场</span><div class="beauty-country-row" role="group" aria-label="${escapeHtml(label)} 观察市场">${options.map((item) => `<button type="button" class="market-chip${item.country_code === dashboard.country_code ? " active" : ""}" data-market-country="${escapeHtml(item.country_code)}">${escapeHtml(item.country)}</button>`).join("")}</div></div>
     </section>`;
   }
@@ -2427,6 +2503,7 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
     const player = event.target.closest("[data-market-player]");
     const product = event.target.closest("[data-market-product]");
     const country = event.target.closest("[data-market-country]");
+    const platformView = event.target.closest("[data-market-platform-view]");
     const platform = event.target.closest("[data-market-platform]");
     const playerPlatform = event.target.closest("[data-ec-player-platform]");
     const ecPlatformScope = event.target.closest("[data-ec-platform-scope]");
@@ -2475,6 +2552,10 @@ button:disabled { cursor: not-allowed; opacity: 0.48; }
       state.market.platformScope = "all";
       state.market.playerPlatform = "";
       state.market.playerCategory = "all";
+      state.market.platformView = "dashboard";
+      renderMarket();
+    } else if (platformView) {
+      state.market.platformView = platformView.dataset.marketPlatformView === "snapshot" ? "snapshot" : "dashboard";
       renderMarket();
     } else if (ecPlatformScope) {
       state.market.platformScope = ecPlatformScope.dataset.ecPlatformScope || "all";
